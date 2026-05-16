@@ -16,6 +16,9 @@ RUN apt-get update \
     && a2enmod rewrite headers \
     && rm -rf /var/lib/apt/lists/*
 
+# Remove competing MPM .so files to guarantee only mpm_prefork can load
+RUN rm -f /usr/lib/apache2/modules/mod_mpm_event.so /usr/lib/apache2/modules/mod_mpm_worker.so
+
 # Apache: listen on $PORT (Railway injects this), default 8080
 RUN echo 'Listen ${PORT}' > /etc/apache2/ports.conf
 RUN sed -i 's/<VirtualHost \*:80>/<VirtualHost *:${PORT}>/' /etc/apache2/sites-available/000-default.conf
