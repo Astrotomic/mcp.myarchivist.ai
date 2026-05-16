@@ -10,6 +10,7 @@ FROM php:8.4-apache
 RUN apt-get update \
     && apt-get install -y --no-install-recommends libzip-dev unzip \
     && docker-php-ext-install opcache zip \
+    && a2dismod mpm_event && a2enmod mpm_prefork \
     && a2enmod rewrite headers \
     && rm -rf /var/lib/apt/lists/*
 
