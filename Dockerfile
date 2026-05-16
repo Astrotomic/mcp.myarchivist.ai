@@ -19,6 +19,11 @@ RUN apt-get update \
 # Remove competing MPM .so files to guarantee only mpm_prefork can load
 RUN rm -f /usr/lib/apache2/modules/mod_mpm_event.so /usr/lib/apache2/modules/mod_mpm_worker.so
 
+# Disable conflicting MPM LoadModule directives in Apache config
+RUN sed -i 's/^LoadModule mpm_event_module/# LoadModule mpm_event_module/' /etc/apache2/mods-available/mpm_event.load && \
+    sed -i 's/^LoadModule mpm_worker_module/# LoadModule mpm_worker_module/' /etc/apache2/mods-available/mpm_worker.load && \
+    sed -i 's/^LoadModule mpm_prefork_module/LoadModule mpm_prefork_module/' /etc/apache2/mods-available/mpm_prefork.load
+
 # Apache: listen on $PORT (Railway injects this), default 8080
 RUN echo 'Listen ${PORT}' > /etc/apache2/ports.conf
 RUN sed -i 's/<VirtualHost \*:80>/<VirtualHost *:${PORT}>/' /etc/apache2/sites-available/000-default.conf
