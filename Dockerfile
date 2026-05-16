@@ -24,9 +24,9 @@ RUN sed -i 's/^LoadModule mpm_event_module/# LoadModule mpm_event_module/' /etc/
     sed -i 's/^LoadModule mpm_worker_module/# LoadModule mpm_worker_module/' /etc/apache2/mods-available/mpm_worker.load && \
     sed -i 's/^LoadModule mpm_prefork_module/LoadModule mpm_prefork_module/' /etc/apache2/mods-available/mpm_prefork.load
 
-# Apache: listen on $PORT (Railway injects this), default 8080
-RUN echo 'Listen ${PORT}' > /etc/apache2/ports.conf
-RUN sed -i 's/<VirtualHost \*:80>/<VirtualHost *:${PORT}>/' /etc/apache2/sites-available/000-default.conf
+# Apache port config — placeholders replaced at container start by entrypoint
+RUN echo 'Listen __PORT__' > /etc/apache2/ports.conf
+RUN sed -i 's/<VirtualHost \*:80>/<VirtualHost *:__PORT__>/' /etc/apache2/sites-available/000-default.conf
 
 # Point document root at Laravel's public/ directory
 ENV APACHE_DOCUMENT_ROOT=/var/www/html/public
@@ -57,4 +57,4 @@ RUN chown -R www-data:www-data storage bootstrap/cache \
 ENV PORT=8080
 EXPOSE 8080
 
-CMD ["apache2-foreground"]
+CMD sh -c "sed -i \"s/__PORT__/$PORT/g\" /etc/apache2/ports.conf /etc/apache2/sites-available/000-default.conf && apache2-foreground"
