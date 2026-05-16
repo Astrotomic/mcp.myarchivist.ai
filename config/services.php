@@ -21,6 +21,11 @@ return [
         'base_url' => env('ARCHIVIST_BASE_URL', 'https://api.myarchivist.ai'),
 
         /*
+         * Main Archivist web app URL (where OAuth endpoints live).
+         */
+        'app_url' => env('ARCHIVIST_APP_URL', 'https://myarchivist.ai'),
+
+        /*
          * Fallback API key used in local (stdio) mode.
          * In web mode the Bearer token from the incoming request is passed through
          * directly to the Archivist API and this value is ignored.
