@@ -10,7 +10,8 @@ FROM php:8.4-apache
 RUN apt-get update \
     && apt-get install -y --no-install-recommends libzip-dev unzip \
     && docker-php-ext-install opcache zip \
-    && a2enmod rewrite headers \
+    && a2dismod mpm_event \
+    && a2enmod mpm_prefork rewrite headers \
     && rm -rf /var/lib/apt/lists/*
 
 # Apache port config — __PORT__ placeholder is replaced at container start
