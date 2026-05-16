@@ -10,23 +10,12 @@ FROM php:8.4-apache
 RUN apt-get update \
     && apt-get install -y --no-install-recommends libzip-dev unzip \
     && docker-php-ext-install opcache zip \
-    && rm -f /etc/apache2/mods-enabled/mpm_*.load /etc/apache2/mods-enabled/mpm_*.conf \
-    && ln -sf /etc/apache2/mods-available/mpm_prefork.load /etc/apache2/mods-enabled/mpm_prefork.load \
-    && ln -sf /etc/apache2/mods-available/mpm_prefork.conf /etc/apache2/mods-enabled/mpm_prefork.conf \
     && a2enmod rewrite headers \
     && rm -rf /var/lib/apt/lists/*
 
-# Remove competing MPM .so files to guarantee only mpm_prefork can load
-RUN rm -f /usr/lib/apache2/modules/mod_mpm_event.so /usr/lib/apache2/modules/mod_mpm_worker.so
-
-# Disable conflicting MPM LoadModule directives in Apache config
-RUN sed -i 's/^LoadModule mpm_event_module/# LoadModule mpm_event_module/' /etc/apache2/mods-available/mpm_event.load && \
-    sed -i 's/^LoadModule mpm_worker_module/# LoadModule mpm_worker_module/' /etc/apache2/mods-available/mpm_worker.load && \
-    sed -i 's/^LoadModule mpm_prefork_module/LoadModule mpm_prefork_module/' /etc/apache2/mods-available/mpm_prefork.load
-
-# Apache: listen on $PORT (Railway injects this), default 8080
-RUN echo 'Listen ${PORT}' > /etc/apache2/ports.conf
-RUN sed -i 's/<VirtualHost \*:80>/<VirtualHost *:${PORT}>/' /etc/apache2/sites-available/000-default.conf
+# Apache port config — __PORT__ placeholder is replaced at container start
+RUN echo 'Listen __PORT__' > /etc/apache2/ports.conf \
+    && sed -i 's/<VirtualHost \*:80>/<VirtualHost *:__PORT__>/' /etc/apache2/sites-available/000-default.conf
 
 # Point document root at Laravel's public/ directory
 ENV APACHE_DOCUMENT_ROOT=/var/www/html/public
@@ -50,11 +39,13 @@ WORKDIR /var/www/html
 COPY --from=deps /app/vendor ./vendor
 COPY . .
 
-RUN chown -R www-data:www-data storage bootstrap/cache \
-    && php artisan config:cache \
-    && php artisan route:cache
+RUN chown -R www-data:www-data storage bootstrap/cache
 
 ENV PORT=8080
 EXPOSE 8080
 
-CMD ["apache2-foreground"]
+# At runtime: substitute the port placeholder, then start Apache.
+# config:cache and route:cache are NOT run at build time because
+# env vars (APP_KEY, APP_URL, etc.) are only available at runtime,
+# and closure-based routes cannot be serialized by route:cache.
+CMD sh -c "sed -i \"s/__PORT__/$PORT/g\" /etc/apache2/ports.conf /etc/apache2/sites-available/000-default.conf && exec apache2-foreground"
