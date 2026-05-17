@@ -31,7 +31,6 @@ class ArchivistClient
     private function pending(): PendingRequest
     {
         return Http::baseUrl((string) config('services.archivist.base_url'))
-            ->withHeaders(['x-api-key' => $this->resolveApiKey()])
             ->withToken($this->resolveApiKey())
             ->acceptJson();
     }
