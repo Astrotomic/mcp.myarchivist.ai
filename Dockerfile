@@ -28,7 +28,11 @@ COPY . .
 
 RUN chown -R www-data:www-data storage bootstrap/cache
 
-ENV PORT=8080
+# Stateless defaults — no database needed for sessions/cache/queue
+ENV PORT=8080 \
+    SESSION_DRIVER=array \
+    CACHE_STORE=array \
+    QUEUE_CONNECTION=sync
 EXPOSE 8080
 
 CMD php artisan serve --host=0.0.0.0 --port=$PORT
