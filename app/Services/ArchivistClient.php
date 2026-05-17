@@ -42,10 +42,17 @@ class ArchivistClient
         $fromRequest = $this->request?->attributes->get('archivist_api_key');
 
         if ($fromRequest !== null && $fromRequest !== '') {
+            logger()->debug('ArchivistClient: using request token', [
+                'token_length' => strlen($fromRequest),
+                'token_prefix' => substr($fromRequest, 0, 8) . '...',
+            ]);
             return (string) $fromRequest;
         }
 
-        // Local (stdio) mode: fall back to the env-configured key.
-        return (string) config('services.archivist.api_key');
+        $envKey = (string) config('services.archivist.api_key');
+        logger()->debug('ArchivistClient: using env fallback', [
+            'has_key' => $envKey !== '',
+        ]);
+        return $envKey;
     }
 }
