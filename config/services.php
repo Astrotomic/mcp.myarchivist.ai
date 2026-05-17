@@ -23,7 +23,7 @@ return [
         /*
          * Main Archivist web app URL (where OAuth endpoints live).
          */
-        'app_url' => env('ARCHIVIST_APP_URL', 'https://myarchivist.ai'),
+        'app_url' => env('ARCHIVIST_APP_URL', 'https://app.myarchivist.ai'),
 
         /*
          * Fallback API key used in local (stdio) mode.
