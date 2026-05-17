@@ -4,6 +4,7 @@ namespace App\Mcp\Tools\Factions;
 
 use App\Exceptions\ArchivistApiException;
 use App\Mcp\Data\FactionData;
+use App\Mcp\Tools\Concerns\HasArchivistOutputSchema;
 use App\Services\ArchivistClient;
 use Illuminate\Contracts\JsonSchema\JsonSchema;
 use Laravel\Mcp\Request;
@@ -11,14 +12,20 @@ use Laravel\Mcp\Response;
 use Laravel\Mcp\ResponseFactory;
 use Laravel\Mcp\Server\Attributes\Description;
 use Laravel\Mcp\Server\Tool;
+use Laravel\Mcp\Server\Tools\Annotations\IsDestructive;
 use Laravel\Mcp\Server\Tools\Annotations\IsIdempotent;
+use Laravel\Mcp\Server\Tools\Annotations\IsOpenWorld;
 use Laravel\Mcp\Server\Tools\Annotations\IsReadOnly;
 
 #[Description('Get a specific faction by ID.')]
-#[IsReadOnly]
-#[IsIdempotent]
+#[IsReadOnly(true)]
+#[IsDestructive(false)]
+#[IsIdempotent(true)]
+#[IsOpenWorld(false)]
 class GetFactionTool extends Tool
 {
+    use HasArchivistOutputSchema;
+
     public function __construct(
         private readonly ArchivistClient $client,
     ) {}

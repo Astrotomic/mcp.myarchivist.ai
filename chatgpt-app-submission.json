@@ -8,7 +8,7 @@
     "category": "PRODUCTIVITY"
   },
   "tools": {
-    "list-campaigns": {
+    "list-campaigns-tool": {
       "annotations": {
         "readOnlyHint": true,
         "openWorldHint": false,
@@ -20,7 +20,7 @@
         "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
       }
     },
-    "get-campaign": {
+    "get-campaign-tool": {
       "annotations": {
         "readOnlyHint": true,
         "openWorldHint": false,
@@ -32,7 +32,7 @@
         "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
       }
     },
-    "get-campaign-stats": {
+    "get-campaign-stats-tool": {
       "annotations": {
         "readOnlyHint": true,
         "openWorldHint": false,
@@ -44,7 +44,7 @@
         "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
       }
     },
-    "list-characters": {
+    "list-characters-tool": {
       "annotations": {
         "readOnlyHint": true,
         "openWorldHint": false,
@@ -56,7 +56,7 @@
         "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
       }
     },
-    "get-character": {
+    "get-character-tool": {
       "annotations": {
         "readOnlyHint": true,
         "openWorldHint": false,
@@ -68,7 +68,7 @@
         "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
       }
     },
-    "list-sessions": {
+    "list-sessions-tool": {
       "annotations": {
         "readOnlyHint": true,
         "openWorldHint": false,
@@ -80,7 +80,7 @@
         "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
       }
     },
-    "get-session": {
+    "get-session-tool": {
       "annotations": {
         "readOnlyHint": true,
         "openWorldHint": false,
@@ -92,7 +92,7 @@
         "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
       }
     },
-    "get-session-cast-analysis": {
+    "get-session-cast-analysis-tool": {
       "annotations": {
         "readOnlyHint": true,
         "openWorldHint": false,
@@ -104,7 +104,7 @@
         "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
       }
     },
-    "list-beats": {
+    "list-beats-tool": {
       "annotations": {
         "readOnlyHint": true,
         "openWorldHint": false,
@@ -116,7 +116,7 @@
         "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
       }
     },
-    "get-beat": {
+    "get-beat-tool": {
       "annotations": {
         "readOnlyHint": true,
         "openWorldHint": false,
@@ -128,7 +128,7 @@
         "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
       }
     },
-    "list-moments": {
+    "list-moments-tool": {
       "annotations": {
         "readOnlyHint": true,
         "openWorldHint": false,
@@ -140,7 +140,7 @@
         "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
       }
     },
-    "get-moment": {
+    "get-moment-tool": {
       "annotations": {
         "readOnlyHint": true,
         "openWorldHint": false,
@@ -152,7 +152,7 @@
         "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
       }
     },
-    "list-factions": {
+    "list-factions-tool": {
       "annotations": {
         "readOnlyHint": true,
         "openWorldHint": false,
@@ -164,7 +164,7 @@
         "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
       }
     },
-    "get-faction": {
+    "get-faction-tool": {
       "annotations": {
         "readOnlyHint": true,
         "openWorldHint": false,
@@ -176,7 +176,7 @@
         "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
       }
     },
-    "list-locations": {
+    "list-locations-tool": {
       "annotations": {
         "readOnlyHint": true,
         "openWorldHint": false,
@@ -188,7 +188,7 @@
         "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
       }
     },
-    "get-location": {
+    "get-location-tool": {
       "annotations": {
         "readOnlyHint": true,
         "openWorldHint": false,
@@ -200,7 +200,7 @@
         "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
       }
     },
-    "list-items": {
+    "list-items-tool": {
       "annotations": {
         "readOnlyHint": true,
         "openWorldHint": false,
@@ -212,7 +212,7 @@
         "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
       }
     },
-    "get-item": {
+    "get-item-tool": {
       "annotations": {
         "readOnlyHint": true,
         "openWorldHint": false,
@@ -224,7 +224,7 @@
         "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
       }
     },
-    "list-quests": {
+    "list-quests-tool": {
       "annotations": {
         "readOnlyHint": true,
         "openWorldHint": false,
@@ -236,7 +236,7 @@
         "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
       }
     },
-    "get-quest": {
+    "get-quest-tool": {
       "annotations": {
         "readOnlyHint": true,
         "openWorldHint": false,
@@ -248,7 +248,7 @@
         "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
       }
     },
-    "list-journals": {
+    "list-journals-tool": {
       "annotations": {
         "readOnlyHint": true,
         "openWorldHint": false,
@@ -260,7 +260,7 @@
         "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
       }
     },
-    "get-journal": {
+    "get-journal-tool": {
       "annotations": {
         "readOnlyHint": true,
         "openWorldHint": false,
@@ -272,7 +272,7 @@
         "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
       }
     },
-    "list-journal-folders": {
+    "list-journal-folders-tool": {
       "annotations": {
         "readOnlyHint": true,
         "openWorldHint": false,
@@ -284,7 +284,7 @@
         "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
       }
     },
-    "get-journal-folder": {
+    "get-journal-folder-tool": {
       "annotations": {
         "readOnlyHint": true,
         "openWorldHint": false,
@@ -296,7 +296,7 @@
         "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
       }
     },
-    "list-links": {
+    "list-links-tool": {
       "annotations": {
         "readOnlyHint": true,
         "openWorldHint": false,
@@ -314,7 +314,7 @@
       "description": "List available campaigns for the authenticated user.",
       "user_prompt": "Show my MyArchivist campaigns.",
       "file_attachment_urls": null,
-      "tools_triggered": "list-campaigns",
+      "tools_triggered": "list-campaigns-tool",
       "expected_output": "Returns a paginated list of campaigns with titles and summary metadata.",
       "expected_output_url": null
     },
@@ -322,7 +322,7 @@
       "description": "Inspect campaign statistics.",
       "user_prompt": "Get stats for campaign camp_123.",
       "file_attachment_urls": null,
-      "tools_triggered": "get-campaign-stats",
+      "tools_triggered": "get-campaign-stats-tool",
       "expected_output": "Returns counts and other available statistics for the requested campaign.",
       "expected_output_url": null
     },
@@ -330,7 +330,7 @@
       "description": "Find approved player characters in a campaign.",
       "user_prompt": "List approved PC characters in campaign camp_123.",
       "file_attachment_urls": null,
-      "tools_triggered": "list-characters",
+      "tools_triggered": "list-characters-tool",
       "expected_output": "Returns matching character records and preserves the requested filters.",
       "expected_output_url": null
     },
@@ -338,7 +338,7 @@
       "description": "Retrieve a session with related story context.",
       "user_prompt": "Open session sess_123 and include related beats and moments.",
       "file_attachment_urls": null,
-      "tools_triggered": "get-session",
+      "tools_triggered": "get-session-tool",
       "expected_output": "Returns the requested session details with related beats and moments when available.",
       "expected_output_url": null
     },
@@ -346,7 +346,7 @@
       "description": "Review a campaign's quest list by status.",
       "user_prompt": "Show in-progress quests for campaign camp_123.",
       "file_attachment_urls": null,
-      "tools_triggered": "list-quests",
+      "tools_triggered": "list-quests-tool",
       "expected_output": "Returns in-progress quests for the campaign with pagination metadata.",
       "expected_output_url": null
     },
@@ -354,7 +354,7 @@
       "description": "Retrieve a full quest record.",
       "user_prompt": "Get quest quest_123 with its objectives and progress log.",
       "file_attachment_urls": null,
-      "tools_triggered": "get-quest",
+      "tools_triggered": "get-quest-tool",
       "expected_output": "Returns the expanded quest record, including objectives, progress, related entities, and session provenance when available.",
       "expected_output_url": null
     },
@@ -362,7 +362,7 @@
       "description": "List and fetch journal content.",
       "user_prompt": "List journal entries for campaign camp_123, then open entry journal_123.",
       "file_attachment_urls": null,
-      "tools_triggered": "list-journals, get-journal",
+      "tools_triggered": "list-journals-tool, get-journal-tool",
       "expected_output": "Returns visible journal entries, then the requested journal content and permission metadata.",
       "expected_output_url": null
     },
@@ -370,7 +370,7 @@
       "description": "Explore entity relationships.",
       "user_prompt": "List links from character char_123 in campaign camp_123.",
       "file_attachment_urls": null,
-      "tools_triggered": "list-links",
+      "tools_triggered": "list-links-tool",
       "expected_output": "Returns relationship links that match the requested source entity filter.",
       "expected_output_url": null
     }

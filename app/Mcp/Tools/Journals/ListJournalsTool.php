@@ -4,6 +4,7 @@ namespace App\Mcp\Tools\Journals;
 
 use App\Exceptions\ArchivistApiException;
 use App\Mcp\Data\JournalData;
+use App\Mcp\Tools\Concerns\HasArchivistOutputSchema;
 use App\Services\ArchivistClient;
 use Illuminate\Contracts\JsonSchema\JsonSchema;
 use Laravel\Mcp\Request;
@@ -11,14 +12,20 @@ use Laravel\Mcp\Response;
 use Laravel\Mcp\ResponseFactory;
 use Laravel\Mcp\Server\Attributes\Description;
 use Laravel\Mcp\Server\Tool;
+use Laravel\Mcp\Server\Tools\Annotations\IsDestructive;
 use Laravel\Mcp\Server\Tools\Annotations\IsIdempotent;
+use Laravel\Mcp\Server\Tools\Annotations\IsOpenWorld;
 use Laravel\Mcp\Server\Tools\Annotations\IsReadOnly;
 
 #[Description('List journal entries in a campaign. Results are filtered to entries the caller can see. Content is omitted from the list; use get_journal to fetch full content.')]
-#[IsReadOnly]
-#[IsIdempotent]
+#[IsReadOnly(true)]
+#[IsDestructive(false)]
+#[IsIdempotent(true)]
+#[IsOpenWorld(false)]
 class ListJournalsTool extends Tool
 {
+    use HasArchivistOutputSchema;
+
     public function __construct(
         private readonly ArchivistClient $client,
     ) {}
