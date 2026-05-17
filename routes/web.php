@@ -30,6 +30,17 @@ Route::get('/.well-known/oauth-authorization-server', function () {
     ]);
 });
 
+Route::get('/.well-known/openai-apps-challenge', function () {
+    $token = (string) config('services.openai.apps_challenge_token', '');
+
+    abort_if($token === '', 404);
+
+    return response($token, 200)
+        ->header('Content-Type', 'text/plain; charset=utf-8')
+        ->header('Access-Control-Allow-Origin', '*')
+        ->header('Cache-Control', 'no-store');
+});
+
 Route::get('/.well-known/oauth-protected-resource', function () {
     $appUrl = rtrim((string) config('services.archivist.app_url'), '/');
     $mcpUrl = rtrim((string) config('app.url'), '/');

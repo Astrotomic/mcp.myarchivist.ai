@@ -33,4 +33,12 @@ return [
         'api_key' => env('ARCHIVIST_API_KEY'),
     ],
 
+    'openai' => [
+        /*
+         * Domain verification token for ChatGPT Apps.
+         * OpenAI checks this value at /.well-known/openai-apps-challenge.
+         */
+        'apps_challenge_token' => env('OPENAI_APPS_CHALLENGE_TOKEN'),
+    ],
+
 ];

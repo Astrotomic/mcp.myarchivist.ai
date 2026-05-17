@@ -1,0 +1,412 @@
+{
+  "$schema": "https://developers.openai.com/apps-sdk/schemas/chatgpt-app-submission.v1.json",
+  "schema_version": 1,
+  "app_info": {
+    "display_name": "MyArchivist",
+    "subtitle": "Read campaign lore",
+    "description": "MyArchivist lets users browse their tabletop campaign data in ChatGPT, including campaigns, characters, sessions, story beats, moments, factions, locations, items, quests, journals, journal folders, and entity links.",
+    "category": "PRODUCTIVITY"
+  },
+  "tools": {
+    "list-campaigns": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "Only retrieves the caller's campaign list from MyArchivist and does not modify data.",
+        "open_world_justification": "Does not publish content or change public internet state.",
+        "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
+      }
+    },
+    "get-campaign": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "Only retrieves one MyArchivist campaign by ID and does not modify data.",
+        "open_world_justification": "Does not publish content or change public internet state.",
+        "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
+      }
+    },
+    "get-campaign-stats": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "Only retrieves aggregate campaign statistics from MyArchivist and does not modify data.",
+        "open_world_justification": "Does not publish content or change public internet state.",
+        "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
+      }
+    },
+    "list-characters": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "Only retrieves character records matching campaign and filter inputs and does not modify data.",
+        "open_world_justification": "Does not publish content or change public internet state.",
+        "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
+      }
+    },
+    "get-character": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "Only retrieves one character record by ID and does not modify data.",
+        "open_world_justification": "Does not publish content or change public internet state.",
+        "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
+      }
+    },
+    "list-sessions": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "Only retrieves session records matching campaign and filter inputs and does not modify data.",
+        "open_world_justification": "Does not publish content or change public internet state.",
+        "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
+      }
+    },
+    "get-session": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "Only retrieves one session by ID and optional related beats or moments and does not modify data.",
+        "open_world_justification": "Does not publish content or change public internet state.",
+        "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
+      }
+    },
+    "get-session-cast-analysis": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "Only retrieves cast analysis for one session and does not modify data.",
+        "open_world_justification": "Does not publish content or change public internet state.",
+        "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
+      }
+    },
+    "list-beats": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "Only retrieves story beats for a campaign and does not modify data.",
+        "open_world_justification": "Does not publish content or change public internet state.",
+        "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
+      }
+    },
+    "get-beat": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "Only retrieves one story beat by ID and does not modify data.",
+        "open_world_justification": "Does not publish content or change public internet state.",
+        "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
+      }
+    },
+    "list-moments": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "Only retrieves campaign or session moments and does not modify data.",
+        "open_world_justification": "Does not publish content or change public internet state.",
+        "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
+      }
+    },
+    "get-moment": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "Only retrieves one moment by ID and does not modify data.",
+        "open_world_justification": "Does not publish content or change public internet state.",
+        "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
+      }
+    },
+    "list-factions": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "Only retrieves faction records for a campaign and does not modify data.",
+        "open_world_justification": "Does not publish content or change public internet state.",
+        "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
+      }
+    },
+    "get-faction": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "Only retrieves one faction by ID and does not modify data.",
+        "open_world_justification": "Does not publish content or change public internet state.",
+        "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
+      }
+    },
+    "list-locations": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "Only retrieves location records for a campaign and does not modify data.",
+        "open_world_justification": "Does not publish content or change public internet state.",
+        "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
+      }
+    },
+    "get-location": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "Only retrieves one location by ID and does not modify data.",
+        "open_world_justification": "Does not publish content or change public internet state.",
+        "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
+      }
+    },
+    "list-items": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "Only retrieves item records for a campaign and does not modify data.",
+        "open_world_justification": "Does not publish content or change public internet state.",
+        "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
+      }
+    },
+    "get-item": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "Only retrieves one item by ID and does not modify data.",
+        "open_world_justification": "Does not publish content or change public internet state.",
+        "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
+      }
+    },
+    "list-quests": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "Only retrieves quest records matching campaign and filter inputs and does not modify data.",
+        "open_world_justification": "Does not publish content or change public internet state.",
+        "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
+      }
+    },
+    "get-quest": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "Only retrieves one expanded quest by ID and does not modify data.",
+        "open_world_justification": "Does not publish content or change public internet state.",
+        "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
+      }
+    },
+    "list-journals": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "Only retrieves visible journal entry metadata for a campaign and does not modify data.",
+        "open_world_justification": "Does not publish content or change public internet state.",
+        "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
+      }
+    },
+    "get-journal": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "Only retrieves one visible journal entry and permission metadata by ID and does not modify data.",
+        "open_world_justification": "Does not publish content or change public internet state.",
+        "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
+      }
+    },
+    "list-journal-folders": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "Only retrieves journal folder records for a campaign and does not modify data.",
+        "open_world_justification": "Does not publish content or change public internet state.",
+        "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
+      }
+    },
+    "get-journal-folder": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "Only retrieves one journal folder by ID and does not modify data.",
+        "open_world_justification": "Does not publish content or change public internet state.",
+        "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
+      }
+    },
+    "list-links": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "Only retrieves entity relationship links for a campaign and does not modify data.",
+        "open_world_justification": "Does not publish content or change public internet state.",
+        "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
+      }
+    }
+  },
+  "test_cases": [
+    {
+      "description": "List available campaigns for the authenticated user.",
+      "user_prompt": "Show my MyArchivist campaigns.",
+      "file_attachment_urls": null,
+      "tools_triggered": "list-campaigns",
+      "expected_output": "Returns a paginated list of campaigns with titles and summary metadata.",
+      "expected_output_url": null
+    },
+    {
+      "description": "Inspect campaign statistics.",
+      "user_prompt": "Get stats for campaign camp_123.",
+      "file_attachment_urls": null,
+      "tools_triggered": "get-campaign-stats",
+      "expected_output": "Returns counts and other available statistics for the requested campaign.",
+      "expected_output_url": null
+    },
+    {
+      "description": "Find approved player characters in a campaign.",
+      "user_prompt": "List approved PC characters in campaign camp_123.",
+      "file_attachment_urls": null,
+      "tools_triggered": "list-characters",
+      "expected_output": "Returns matching character records and preserves the requested filters.",
+      "expected_output_url": null
+    },
+    {
+      "description": "Retrieve a session with related story context.",
+      "user_prompt": "Open session sess_123 and include related beats and moments.",
+      "file_attachment_urls": null,
+      "tools_triggered": "get-session",
+      "expected_output": "Returns the requested session details with related beats and moments when available.",
+      "expected_output_url": null
+    },
+    {
+      "description": "Review a campaign's quest list by status.",
+      "user_prompt": "Show in-progress quests for campaign camp_123.",
+      "file_attachment_urls": null,
+      "tools_triggered": "list-quests",
+      "expected_output": "Returns in-progress quests for the campaign with pagination metadata.",
+      "expected_output_url": null
+    },
+    {
+      "description": "Retrieve a full quest record.",
+      "user_prompt": "Get quest quest_123 with its objectives and progress log.",
+      "file_attachment_urls": null,
+      "tools_triggered": "get-quest",
+      "expected_output": "Returns the expanded quest record, including objectives, progress, related entities, and session provenance when available.",
+      "expected_output_url": null
+    },
+    {
+      "description": "List and fetch journal content.",
+      "user_prompt": "List journal entries for campaign camp_123, then open entry journal_123.",
+      "file_attachment_urls": null,
+      "tools_triggered": "list-journals, get-journal",
+      "expected_output": "Returns visible journal entries, then the requested journal content and permission metadata.",
+      "expected_output_url": null
+    },
+    {
+      "description": "Explore entity relationships.",
+      "user_prompt": "List links from character char_123 in campaign camp_123.",
+      "file_attachment_urls": null,
+      "tools_triggered": "list-links",
+      "expected_output": "Returns relationship links that match the requested source entity filter.",
+      "expected_output_url": null
+    }
+  ],
+  "negative_test_cases": [
+    {
+      "description": "Do not trigger for creating or editing campaign content.",
+      "user_prompt": "Create a new quest in MyArchivist called The Broken Crown.",
+      "file_attachment_urls": null,
+      "tools_triggered": null,
+      "expected_output": "The app should not be invoked because this MCP server only supports read-only campaign access.",
+      "expected_output_url": null
+    },
+    {
+      "description": "Do not trigger for unrelated calendar requests.",
+      "user_prompt": "What meetings do I have tomorrow?",
+      "file_attachment_urls": null,
+      "tools_triggered": null,
+      "expected_output": "The app should not be invoked because calendar data is outside its supported workflows.",
+      "expected_output_url": null
+    },
+    {
+      "description": "Do not trigger for general tabletop advice without campaign data.",
+      "user_prompt": "Give me five tips for running a better combat encounter.",
+      "file_attachment_urls": null,
+      "tools_triggered": null,
+      "expected_output": "The app should not be invoked because the request does not need MyArchivist campaign records.",
+      "expected_output_url": null
+    },
+    {
+      "description": "Do not trigger for external publishing.",
+      "user_prompt": "Post my latest session summary to Discord.",
+      "file_attachment_urls": null,
+      "tools_triggered": null,
+      "expected_output": "The app should not be invoked because it cannot send messages or publish content to external services.",
+      "expected_output_url": null
+    }
+  ]
+}
