@@ -26,7 +26,8 @@ WORKDIR /var/www/html
 COPY --from=deps /app/vendor ./vendor
 COPY . .
 
-RUN chown -R www-data:www-data storage bootstrap/cache
+RUN cp .env.example .env \
+    && chown -R www-data:www-data storage bootstrap/cache
 
 # Stateless defaults — no database needed for sessions/cache/queue
 ENV PORT=8080 \
