@@ -30,28 +30,20 @@ class ArchivistClient
 
     private function pending(): PendingRequest
     {
-        return Http::baseUrl((string) config('services.archivist.base_url'))
-            ->withToken($this->resolveApiKey())
+        $request = Http::baseUrl((string) config('services.archivist.base_url'))
             ->acceptJson();
-    }
 
-    private function resolveApiKey(): string
-    {
-        // Web mode: Bearer token forwarded from the MCP client request.
-        $fromRequest = $this->request?->attributes->get('archivist_api_key');
+        $oauthToken = $this->request?->attributes->get('archivist_api_key');
 
-        if ($fromRequest !== null && $fromRequest !== '') {
-            logger()->debug('ArchivistClient: using request token', [
-                'token_length' => strlen($fromRequest),
-                'token_prefix' => substr($fromRequest, 0, 8) . '...',
-            ]);
-            return (string) $fromRequest;
+        if ($oauthToken !== null && $oauthToken !== '') {
+            return $request->withToken($oauthToken);
         }
 
-        $envKey = (string) config('services.archivist.api_key');
-        logger()->debug('ArchivistClient: using env fallback', [
-            'has_key' => $envKey !== '',
-        ]);
-        return $envKey;
+        $apiKey = (string) config('services.archivist.api_key');
+        if ($apiKey !== '') {
+            return $request->withHeaders(['x-api-key' => $apiKey]);
+        }
+
+        return $request;
     }
 }
