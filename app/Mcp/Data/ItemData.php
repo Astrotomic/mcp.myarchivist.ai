@@ -11,9 +11,16 @@ class ItemData extends ArchivistDto
             'id' => ['required', 'string'],
             'campaign_id' => ['required', 'string'],
             'name' => ['required', 'string'],
+            'aliases' => ['nullable', 'array'],
             'description' => ['nullable', 'string'],
             'type' => ['nullable', 'string'],
-            'created_at' => ['required', 'string'],
+            'image' => ['nullable', 'string'],
+            'tcg_image' => ['nullable', 'string'],
+            'match_info' => ['nullable', 'array'],
+            'approved' => ['nullable', 'boolean'],
+            'discovered' => ['nullable', 'boolean'],
+            'created_at' => ['nullable', 'string'],
+            'updated_at' => ['nullable', 'string'],
         ];
     }
 }

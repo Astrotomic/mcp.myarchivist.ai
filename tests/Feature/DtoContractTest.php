@@ -3,26 +3,35 @@
 namespace Tests\Feature;
 
 use App\Exceptions\DtoValidationException;
-use App\Exceptions\UnexpectedDtoAttributeException;
 use App\Mcp\Data\CampaignData;
 use Illuminate\Contracts\Debug\ExceptionHandler;
 use Illuminate\Foundation\Exceptions\Handler;
+use Illuminate\Support\Facades\Log;
 use Symfony\Component\HttpFoundation\Response as SymfonyResponse;
 use Tests\TestCase;
 
 class DtoContractTest extends TestCase
 {
+    private function validCampaignAttributes(): array
+    {
+        return [
+            'id' => 'camp_1',
+            'title' => 'Shadows',
+            'description' => null,
+            'system' => null,
+            'image' => null,
+            'public' => false,
+            'mature' => false,
+            'owner_id' => 'user_123',
+            'can_manage' => true,
+            'created_at' => '2024-01-01',
+        ];
+    }
+
     public function test_valid_dto_construction_raises_no_exceptions(): void
     {
         $reported = $this->captureReported(function () {
-            new CampaignData([
-                'id' => 'camp_1',
-                'title' => 'Shadows',
-                'description' => null,
-                'system' => null,
-                'public' => false,
-                'created_at' => '2024-01-01',
-            ]);
+            new CampaignData($this->validCampaignAttributes());
         });
 
         $this->assertEmpty($reported, 'No exceptions should be reported for a fully valid DTO.');
@@ -30,29 +39,19 @@ class DtoContractTest extends TestCase
 
     public function test_dto_hydrates_attributes_correctly(): void
     {
-        $data = new CampaignData([
-            'id' => 'camp_1',
-            'title' => 'Shadows',
-            'description' => null,
-            'system' => 'D&D 5e',
-            'public' => true,
-            'created_at' => '2024-01-01',
-        ]);
+        $data = new CampaignData($this->validCampaignAttributes());
 
         $this->assertSame('camp_1', $data->get('id'));
         $this->assertSame('Shadows', $data->get('title'));
-        $this->assertTrue($data->get('public'));
+        $this->assertFalse($data->get('public'));
     }
 
     public function test_dto_reports_validation_exception_on_missing_required_field(): void
     {
         $reported = $this->captureReported(function () {
-            new CampaignData([
-                // 'id' intentionally missing
-                'title' => 'Test',
-                'public' => false,
-                'created_at' => '2024-01-01',
-            ]);
+            $attrs = $this->validCampaignAttributes();
+            unset($attrs['id']);
+            new CampaignData($attrs);
         });
 
         $validationExceptions = array_values(array_filter($reported, fn ($e) => $e instanceof DtoValidationException));
@@ -61,47 +60,33 @@ class DtoContractTest extends TestCase
         $this->assertStringContainsString('id', $validationExceptions[0]->errors->first());
     }
 
-    public function test_dto_reports_unexpected_attribute_exception(): void
+    public function test_dto_strips_unexpected_attributes_silently(): void
     {
-        $reported = $this->captureReported(function () {
-            new CampaignData([
-                'id' => 'camp_1',
-                'title' => 'Test',
-                'description' => null,
-                'system' => null,
-                'public' => false,
-                'created_at' => '2024-01-01',
-                'unknown_new_api_key' => 'surprise!',
-            ]);
+        Log::shouldReceive('debug')->once()->withArgs(function ($message, $context) {
+            return str_contains($message, 'ignoring unexpected attributes')
+                && in_array('unknown_new_api_key', $context['keys']);
         });
 
-        $unexpectedExceptions = array_values(array_filter($reported, fn ($e) => $e instanceof UnexpectedDtoAttributeException));
+        $attrs = $this->validCampaignAttributes();
+        $attrs['unknown_new_api_key'] = 'surprise!';
 
-        $this->assertNotEmpty($unexpectedExceptions, 'An UnexpectedDtoAttributeException should have been reported.');
-        $this->assertSame('unknown_new_api_key', $unexpectedExceptions[0]->key);
-        $this->assertSame('surprise!', $unexpectedExceptions[0]->value);
+        $data = new CampaignData($attrs);
+
+        $this->assertNull($data->get('unknown_new_api_key'), 'Unknown keys should be stripped from the DTO.');
     }
 
-    /**
-     * Regression: prove that the unexpected-key check catches new API fields.
-     * If the checkForUnexpectedKeys() logic were removed, no exception would be reported.
-     */
-    public function test_dto_regression_unexpected_key_is_detected(): void
+    public function test_dto_preserves_known_attributes_when_stripping_unknown(): void
     {
-        $reported = $this->captureReported(function () {
-            new CampaignData([
-                'id' => 'camp_1',
-                'title' => 'Test',
-                'description' => null,
-                'system' => null,
-                'public' => false,
-                'created_at' => '2024-01-01',
-                'a_brand_new_field' => 'added by API team',
-            ]);
-        });
+        Log::shouldReceive('debug')->once();
 
-        $unexpectedExceptions = array_values(array_filter($reported, fn ($e) => $e instanceof UnexpectedDtoAttributeException));
-        $this->assertCount(1, $unexpectedExceptions, 'Exactly one UnexpectedDtoAttributeException should be reported for one new field.');
+        $attrs = $this->validCampaignAttributes();
+        $attrs['a_brand_new_field'] = 'added by API team';
+
+        $data = new CampaignData($attrs);
+
+        $this->assertSame('camp_1', $data->get('id'));
+        $this->assertSame('Shadows', $data->get('title'));
+        $this->assertArrayNotHasKey('a_brand_new_field', $data->toArray());
     }
 
     /**
