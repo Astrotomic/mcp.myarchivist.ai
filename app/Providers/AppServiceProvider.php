@@ -2,17 +2,18 @@
 
 namespace App\Providers;
 
-use App\Http\Middleware\ArchivistPassthroughMiddleware;
 use App\Services\ArchivistClient;
+use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Http\Request;
-use Illuminate\Routing\Router;
+use Illuminate\Support\Facades\URL;
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Str;
 
 class AppServiceProvider extends ServiceProvider
 {
     public function register(): void
     {
-        $this->app->bind(ArchivistClient::class, function ($app) {
+        $this->app->bind(ArchivistClient::class, function (Application $app): ArchivistClient {
             /** @var Request|null $request */
             $request = $app->bound('request') ? $app->make('request') : null;
 
@@ -22,8 +23,25 @@ class AppServiceProvider extends ServiceProvider
 
     public function boot(): void
     {
-        /** @var Router $router */
-        $router = $this->app->make(Router::class);
-        $router->aliasMiddleware('archivist.passthrough', ArchivistPassthroughMiddleware::class);
+        URL::macro('toApp', function (string $path, array $parameters = [], array $query = []): string {
+            $path = strtr(
+                $path,
+                collect($parameters)->keyBy(fn (mixed $_, string $key): string => Str::of($key)->start('{')->finish('}'))->all(),
+            );
+
+            $url = rtrim(config('services.archivist.app_url'), '/').'/'.ltrim($path, '/');
+
+            if (Str::contains($url, '?')) {
+                $existingQuery = [];
+                parse_str(Str::after($url, '?'), $existingQuery);
+                $query = array_merge($query, $existingQuery);
+            }
+
+            if (! empty($query)) {
+                $url = Str::before($url, '?').'?'.http_build_query($query);
+            }
+
+            return $url;
+        });
     }
 }

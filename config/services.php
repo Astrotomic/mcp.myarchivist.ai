@@ -31,6 +31,16 @@ return [
          * directly to the Archivist API and this value is ignored.
          */
         'api_key' => env('ARCHIVIST_API_KEY'),
+
+        /*
+         * OAuth scopes supported by the Archivist API.
+         */
+        'oauth_scopes_supported' => [
+            'profile',
+            'worlds_read',
+            'sessions_read',
+            'characters_read',
+        ],
     ],
 
     'openai' => [
