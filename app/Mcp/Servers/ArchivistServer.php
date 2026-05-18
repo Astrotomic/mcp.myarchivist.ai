@@ -26,6 +26,7 @@ use App\Mcp\Tools\Quests\GetQuestTool;
 use App\Mcp\Tools\Quests\ListQuestsTool;
 use App\Mcp\Tools\Sessions\GetSessionCastAnalysisTool;
 use App\Mcp\Tools\Sessions\GetSessionTool;
+use App\Mcp\Tools\Sessions\GetSessionHandoutTool;
 use App\Mcp\Tools\Sessions\ListSessionsTool;
 use Laravel\Mcp\Server;
 use Laravel\Mcp\Server\Attributes\Instructions;
@@ -51,6 +52,7 @@ class ArchivistServer extends Server
         ListSessionsTool::class,
         GetSessionTool::class,
         GetSessionCastAnalysisTool::class,
+        GetSessionHandoutTool::class,
 
         // Beats
         ListBeatsTool::class,
