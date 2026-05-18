@@ -16,6 +16,7 @@ class LinkData extends ArchivistDto
             'to_type' => ['required', 'string'],
             'alias' => ['nullable', 'string'],
             'created_at' => ['required', 'string'],
+            'updated_at' => ['nullable', 'string'],
         ];
     }
 }

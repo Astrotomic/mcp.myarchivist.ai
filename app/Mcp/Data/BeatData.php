@@ -11,12 +11,15 @@ class BeatData extends ArchivistDto
             'id' => ['required', 'string'],
             'campaign_id' => ['required', 'string'],
             'game_session_id' => ['nullable', 'string'],
+            'game_session_ids' => ['nullable', 'array'],
             'label' => ['required', 'string'],
-            'type' => ['required', 'string', 'in:major,minor,step'],
+            'type' => ['required', 'string'],
             'description' => ['nullable', 'string'],
             'index' => ['required', 'integer'],
+            'metadata' => ['nullable', 'array'],
             'parent_id' => ['nullable', 'string'],
-            'created_at' => ['required', 'string'],
+            'created_at' => ['nullable', 'string'],
+            'updated_at' => ['nullable', 'string'],
         ];
     }
 }

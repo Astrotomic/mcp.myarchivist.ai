@@ -8,14 +8,15 @@ class CampaignStatsData extends ArchivistDto
     public function rules(): array
     {
         return [
-            'campaignId' => ['required', 'string'],
+            'world_id' => ['required', 'string'],
+            'title' => ['required', 'string'],
             'characters' => ['required', 'integer'],
             'sessions' => ['required', 'integer'],
             'moments' => ['required', 'integer'],
-            'beats' => ['required', 'integer'],
-            'factions' => ['required', 'integer'],
-            'locations' => ['required', 'integer'],
-            'items' => ['required', 'integer'],
+            'players' => ['nullable', 'integer'],
+            'admins' => ['nullable', 'integer'],
+            'public' => ['nullable', 'boolean'],
+            'created_at' => ['nullable', 'string'],
         ];
     }
 }

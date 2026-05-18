@@ -11,9 +11,16 @@ class MomentData extends ArchivistDto
             'id' => ['required', 'string'],
             'campaign_id' => ['required', 'string'],
             'session_id' => ['nullable', 'string'],
-            'label' => ['required', 'string'],
+            'label' => ['nullable', 'string'],
             'content' => ['nullable', 'string'],
-            'created_at' => ['required', 'string'],
+            'image' => ['nullable', 'string'],
+            'index' => ['nullable', 'integer'],
+            'categories' => ['nullable', 'array'],
+            'pending' => ['nullable', 'boolean'],
+            'approved' => ['nullable', 'boolean'],
+            'discovered' => ['nullable', 'boolean'],
+            'created_at' => ['nullable', 'string'],
+            'updated_at' => ['nullable', 'string'],
         ];
     }
 }
