@@ -1,8 +1,11 @@
 <?php
 
+use Illuminate\Http\JsonResponse;
+use Illuminate\Http\Request;
+use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
+Route::get('/', function (): JsonResponse {
     $mcpUrl = rtrim((string) config('app.url'), '/');
     $appUrl = rtrim((string) config('services.archivist.app_url'), '/');
 
@@ -38,7 +41,7 @@ Route::get('/', function () {
 |--------------------------------------------------------------------------
 */
 
-Route::get('/.well-known/mcp', function () {
+Route::get('/.well-known/mcp', function (): JsonResponse {
     $mcpUrl = rtrim((string) config('app.url'), '/');
 
     return response()->json([
@@ -66,7 +69,7 @@ Route::get('/.well-known/mcp', function () {
     ]);
 });
 
-Route::get('/.well-known/mcp/server-card.json', function () {
+Route::get('/.well-known/mcp/server-card.json', function (): JsonResponse {
     return response()->json([
         'serverInfo' => [
             'name' => 'Archivist AI MCP Server',
@@ -117,14 +120,16 @@ Route::get('/.well-known/mcp/server-card.json', function () {
 |--------------------------------------------------------------------------
 */
 
-Route::get('/.well-known/oauth-authorization-server', function () {
+Route::get('/.well-known/oauth-authorization-server', function (): JsonResponse {
     $appUrl = rtrim((string) config('services.archivist.app_url'), '/');
+    $mcpUrl = rtrim((string) config('app.url'), '/');
 
     return response()->json([
         'issuer' => $appUrl,
         'authorization_endpoint' => "{$appUrl}/oauth/authorize",
         'token_endpoint' => "{$appUrl}/api/oauth/token",
         'revocation_endpoint' => "{$appUrl}/api/oauth/revoke",
+        'registration_endpoint' => "{$mcpUrl}/oauth/register",
         'response_types_supported' => ['code'],
         'grant_types_supported' => ['authorization_code', 'refresh_token'],
         'code_challenge_methods_supported' => ['S256'],
@@ -141,7 +146,7 @@ Route::get('/.well-known/oauth-authorization-server', function () {
     ]);
 });
 
-Route::get('/.well-known/openai-apps-challenge', function () {
+Route::get('/.well-known/openai-apps-challenge', function (): Response {
     $token = (string) config('services.openai.apps_challenge_token', '');
 
     abort_if($token === '', 404);
@@ -152,7 +157,7 @@ Route::get('/.well-known/openai-apps-challenge', function () {
         ->header('Cache-Control', 'no-store');
 });
 
-Route::get('/.well-known/oauth-protected-resource', function () {
+Route::get('/.well-known/oauth-protected-resource', function (): JsonResponse {
     $appUrl = rtrim((string) config('services.archivist.app_url'), '/');
     $mcpUrl = rtrim((string) config('app.url'), '/');
 
@@ -169,5 +174,21 @@ Route::get('/.well-known/oauth-protected-resource', function () {
     ])->withHeaders([
         'Access-Control-Allow-Origin' => '*',
         'Cache-Control' => 'public, max-age=3600',
+    ]);
+});
+
+Route::post('/oauth/register', function (Request $request): JsonResponse {
+    // RFC 7591 dynamic client registration
+    // We return a static public client since this MCP server has one known client type
+    return response()->json([
+        'client_id' => config('services.archivist.mcp_client_id'),
+        'client_id_issued_at' => time(),
+        'redirect_uris' => $request->input('redirect_uris', []),
+        'grant_types' => ['authorization_code', 'refresh_token'],
+        'response_types' => ['code'],
+        'token_endpoint_auth_method' => 'none',
+        'scope' => 'profile worlds_read sessions_read characters_read',
+    ], 201)->withHeaders([
+        'Access-Control-Allow-Origin' => '*',
     ]);
 });
