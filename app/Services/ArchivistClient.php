@@ -30,20 +30,11 @@ class ArchivistClient
 
     private function pending(): PendingRequest
     {
-        $request = Http::baseUrl((string) config('services.archivist.base_url'))
-            ->acceptJson();
-
-        $oauthToken = $this->request?->attributes->get('archivist_api_key');
-
-        if ($oauthToken !== null && $oauthToken !== '') {
-            return $request->withToken($oauthToken);
-        }
-
-        $apiKey = (string) config('services.archivist.api_key');
-        if ($apiKey !== '') {
-            return $request->withHeaders(['x-api-key' => $apiKey]);
-        }
-
-        return $request;
+        return Http::baseUrl((string) config('services.archivist.base_url'))
+            ->acceptJson()
+            ->when(
+                $this->request?->bearerToken(),
+                fn (PendingRequest $request, string $token) => $request->withToken($token)
+            );
     }
 }

@@ -3,6 +3,7 @@
 namespace App\Http\Middleware;
 
 use Closure;
+use Illuminate\Auth\AuthenticationException;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 
@@ -14,10 +15,8 @@ class ArchivistPassthroughMiddleware
      */
     public function handle(Request $request, Closure $next): Response
     {
-        $token = $request->bearerToken();
-
-        if ($token !== null) {
-            $request->attributes->set('archivist_api_key', $token);
+        if (empty($request->bearerToken())) {
+            throw new AuthenticationException('Unauthenticated.');
         }
 
         return $next($request);
