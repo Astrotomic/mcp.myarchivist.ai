@@ -2,8 +2,8 @@
 
 namespace App\Mcp\Tools\Journals;
 
+use App\Data\JournalFolderData;
 use App\Exceptions\ArchivistApiException;
-use App\Mcp\Data\JournalFolderData;
 use App\Mcp\Tools\Concerns\HasArchivistOutputSchema;
 use App\Services\ArchivistClient;
 use Illuminate\Contracts\JsonSchema\JsonSchema;
@@ -26,7 +26,6 @@ class GetJournalFolderTool extends Tool
 {
     use HasArchivistOutputSchema;
 
-    #[\Override]
     protected function outputDtoClass(): string
     {
         return JournalFolderData::class;
@@ -53,7 +52,6 @@ class GetJournalFolderTool extends Tool
         return $this->structuredResponse($data);
     }
 
-    #[\Override]
     public function schema(JsonSchema $schema): array
     {
         return [

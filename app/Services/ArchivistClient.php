@@ -3,20 +3,37 @@
 namespace App\Services;
 
 use App\Exceptions\ArchivistApiException;
+use Illuminate\Http\Client\ConnectionException;
 use Illuminate\Http\Client\PendingRequest;
-use Illuminate\Http\Request;
+use Illuminate\Http\Client\Response;
 use Illuminate\Support\Facades\Http;
 
 class ArchivistClient
 {
     public function __construct(
-        private readonly ?Request $request = null,
+        private readonly string $token,
     ) {}
 
-    public function get(string $path, array $query = []): array
+    /**
+     * @throws ArchivistApiException
+     */
+    public function get(string $path, array $query = []): Response
     {
-        $response = $this->pending()
-            ->get($path, $query);
+        try {
+            $response = $this->pending()->get(
+                url: $path,
+                query: collect($query)
+                    ->reject(fn (mixed $value) => $value === null)
+                    ->map(fn (mixed $value) => is_bool($value) ? json_encode($value) : $value)
+                    ->all()
+            );
+        } catch (ConnectionException $e) {
+            throw new ArchivistApiException(
+                status: 0,
+                detail: $e->getMessage(),
+                previous: $e,
+            );
+        }
 
         if ($response->failed()) {
             throw new ArchivistApiException(
@@ -25,16 +42,16 @@ class ArchivistClient
             );
         }
 
-        return $response->json() ?? [];
+        return $response;
     }
 
     private function pending(): PendingRequest
     {
         return Http::baseUrl((string) config('services.archivist.base_url'))
+            ->timeout(30)
+            ->connectTimeout(10)
             ->acceptJson()
-            ->when(
-                $this->request?->bearerToken(),
-                fn (PendingRequest $request, string $token) => $request->withToken($token)
-            );
+            ->withToken($this->token)
+            ->withHeader('x-api-key', $this->token);
     }
 }

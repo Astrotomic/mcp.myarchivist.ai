@@ -76,6 +76,7 @@ class ArchivistServer extends Server
         ListQuestsTool::class,
         GetQuestTool::class,
 
+        /*
         // Journals
         ListJournalsTool::class,
         GetJournalTool::class,
@@ -83,6 +84,7 @@ class ArchivistServer extends Server
         // Journal Folders
         ListJournalFoldersTool::class,
         GetJournalFolderTool::class,
+        */
 
         // Links
         ListLinksTool::class,

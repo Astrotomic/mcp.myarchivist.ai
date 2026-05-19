@@ -2,9 +2,9 @@
 
 namespace Tests\Feature;
 
+use App\Data\CampaignData;
 use App\Exceptions\DtoValidationException;
 use App\Exceptions\UnexpectedDtoAttributeException;
-use App\Mcp\Data\CampaignData;
 use Illuminate\Contracts\Debug\ExceptionHandler;
 use Illuminate\Foundation\Exceptions\Handler;
 use Symfony\Component\HttpFoundation\Response as SymfonyResponse;

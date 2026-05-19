@@ -2,8 +2,8 @@
 
 namespace App\Mcp\Tools\Journals;
 
+use App\Data\JournalData;
 use App\Exceptions\ArchivistApiException;
-use App\Mcp\Data\JournalData;
 use App\Mcp\Tools\Concerns\HasArchivistOutputSchema;
 use App\Services\ArchivistClient;
 use Illuminate\Contracts\JsonSchema\JsonSchema;
@@ -26,7 +26,6 @@ class ListJournalsTool extends Tool
 {
     use HasArchivistOutputSchema;
 
-    #[\Override]
     protected function outputDtoClass(): string
     {
         return JournalData::class;
@@ -61,7 +60,6 @@ class ListJournalsTool extends Tool
         return $this->structuredResponse($data);
     }
 
-    #[\Override]
     public function schema(JsonSchema $schema): array
     {
         return [
