@@ -3,7 +3,7 @@
 namespace App\Mcp\Data;
 
 use App\Exceptions\DtoValidationException;
-use Illuminate\Support\Facades\Log;
+use App\Exceptions\UnexpectedDtoAttributeException;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Fluent;
 use Illuminate\Validation\ValidationException;
@@ -13,7 +13,7 @@ abstract class ArchivistDto extends Fluent
     public function __construct(array $attributes = [])
     {
         $this->validate($attributes);
-        $this->filterUnexpectedKeys($attributes);
+        $this->checkForUnexpectedKeys($attributes);
 
         parent::__construct($attributes);
     }
@@ -39,25 +39,18 @@ abstract class ArchivistDto extends Fluent
         }
     }
 
-    /**
-     * Strip unknown keys from attributes and log them at debug level.
-     * This prevents cascading exception reports from blocking responses
-     * when the upstream API adds new fields.
-     */
-    private function filterUnexpectedKeys(array &$attributes): void
+    private function checkForUnexpectedKeys(array $attributes): void
     {
-        $knownKeys = array_keys($this->rules());
+        $unexpected = collect($this->rules())
+            ->keys()
+            ->diff(array_keys($attributes))
+            ->values();
 
-        $unexpected = array_diff(array_keys($attributes), $knownKeys);
-
-        if (! empty($unexpected)) {
-            Log::debug('ArchivistDto: ignoring unexpected attributes on ' . static::class, [
-                'keys' => array_values($unexpected),
-            ]);
-
-            foreach ($unexpected as $key) {
-                unset($attributes[$key]);
-            }
+        if ($unexpected->isNotEmpty()) {
+            report(new UnexpectedDtoAttributeException(
+                dtoClass: static::class,
+                keys: $unexpected->all(),
+            ));
         }
     }
 }
