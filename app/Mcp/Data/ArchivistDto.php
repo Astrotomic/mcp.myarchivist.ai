@@ -5,10 +5,12 @@ namespace App\Mcp\Data;
 use App\Exceptions\DtoValidationException;
 use App\Exceptions\UnexpectedDtoAttributeException;
 use Illuminate\Contracts\JsonSchema\JsonSchema;
+use Illuminate\JsonSchema\Types\Type;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Fluent;
 use Illuminate\Validation\ValidationException;
 use ReflectionClass;
+use ReflectionException;
 
 abstract class ArchivistDto extends Fluent
 {
@@ -33,11 +35,13 @@ abstract class ArchivistDto extends Fluent
      *
      * @return array<string, string>
      */
-    public function descriptions(): array
-    {
-        return [];
-    }
+    abstract protected function descriptions(): array;
 
+    /**
+     * @param JsonSchema $schema
+     * @return array<string, Type>
+     * @throws ReflectionException
+     */
     public static function jsonSchema(JsonSchema $schema): array
     {
         $instance = (new ReflectionClass(static::class))->newInstanceWithoutConstructor();
@@ -63,9 +67,9 @@ abstract class ArchivistDto extends Fluent
                     $isNullable = true;
                 } elseif ($rule === 'string') {
                     $type = $schema->string();
-                } elseif ($rule === 'integer' || $rule === 'int') {
+                } elseif (in_array($rule, ['integer', 'int'], true)) {
                     $type = $schema->integer();
-                } elseif ($rule === 'boolean' || $rule === 'bool') {
+                } elseif (in_array($rule, ['boolean', 'bool'], true)) {
                     $type = $schema->boolean();
                 } elseif ($rule === 'array') {
                     $type = $schema->array();

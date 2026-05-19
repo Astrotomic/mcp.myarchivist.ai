@@ -25,7 +25,7 @@ class CharacterData extends ArchivistDto
     }
 
     #[\Override]
-    public function descriptions(): array
+    protected function descriptions(): array
     {
         return [
             'id' => 'Character ID.',

@@ -20,7 +20,7 @@ class SessionData extends ArchivistDto
     }
 
     #[\Override]
-    public function descriptions(): array
+    protected function descriptions(): array
     {
         return [
             'id' => 'Session ID.',

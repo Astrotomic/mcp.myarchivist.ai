@@ -19,7 +19,7 @@ class LocationData extends ArchivistDto
     }
 
     #[\Override]
-    public function descriptions(): array
+    protected function descriptions(): array
     {
         return [
             'id' => 'Location ID.',

@@ -31,7 +31,7 @@ class JournalData extends ArchivistDto
     }
 
     #[\Override]
-    public function descriptions(): array
+    protected function descriptions(): array
     {
         return [
             'id' => 'Journal entry ID.',
