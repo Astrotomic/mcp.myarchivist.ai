@@ -7,16 +7,17 @@ use Illuminate\Http\JsonResponse;
 use Laravel\Mcp\Server\Prompt;
 use Laravel\Mcp\Server\Resource;
 use Laravel\Mcp\Server\Tool;
+use Laravel\Mcp\Server\Transport\FakeTransporter;
 
 class ShowMcpServerCardController
 {
     public function __invoke(): JsonResponse
     {
-        $server = app(ArchivistServer::class);
+        $server = new ArchivistServer(new FakeTransporter);
         $context = $server->createContext();
-        $tools = collect($context->tools())->map(fn (string $class): Tool => app($class));
-        $resources = collect($context->resources())->map(fn (string $class): Resource => app($class));
-        $prompts = collect($context->prompts())->map(fn (string $class): Prompt => app($class));
+        $tools = collect($context->tools())->map(fn (string|Tool $class): Tool => $class instanceof Tool ? $class : app($class));
+        $resources = collect($context->resources())->map(fn (string|Resource $class): Resource => $class instanceof Resource ? $class : app($class));
+        $prompts = collect($context->prompts())->map(fn (string|Prompt $class): Prompt => $class instanceof Prompt ? $class : app($class));
 
         return response()->json([
             'serverInfo' => [
