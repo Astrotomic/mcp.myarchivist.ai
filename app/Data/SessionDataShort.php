@@ -9,12 +9,18 @@ class SessionDataShort extends ArchivistDto
         return [
             'id' => ['required', 'string'],
             'campaign_id' => ['required', 'string'],
-            'type' => ['nullable', 'string', 'in:audioUpload,playByPost,discordVoice,rawNotes'],
+            'type' => ['nullable', 'string', 'in:audioUpload,playByPost,discordVoice,txtUpload,rawNotes,other'],
             'title' => ['nullable', 'string'],
             'summary' => ['nullable', 'string'],
+            'notes' => ['nullable', 'string'],
             'session_date' => ['nullable', 'string'],
+            'image' => ['nullable', 'string'],
+            'index' => ['nullable', 'integer'],
             'public' => ['required', 'boolean'],
-            'pending' => ['required', 'boolean'],
+            'pbp_start_msg_url' => ['nullable', 'string'],
+            'pbp_end_msg_url' => ['nullable', 'string'],
+            'created_at' => ['required', 'string', 'date'],
+            'updated_at' => ['nullable', 'string', 'date'],
         ];
     }
 }

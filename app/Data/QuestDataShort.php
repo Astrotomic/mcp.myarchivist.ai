@@ -15,8 +15,6 @@ class QuestDataShort extends ArchivistDto
             'status' => ['nullable', 'string', 'in:planned,in-progress,blocked,failed,done,n/a'],
             'quest_giver' => ['nullable', 'string'],
             'quest_giver_id' => ['nullable', 'string'],
-            'created_at' => ['required', 'string', 'date'],
-            'updated_at' => ['required', 'string', 'date'],
             'next_action' => ['nullable', 'string'],
             'resolution' => ['nullable', 'string'],
             'objective_count' => ['nullable', 'integer'],
@@ -25,6 +23,8 @@ class QuestDataShort extends ArchivistDto
             'related_entity_count' => ['nullable', 'integer'],
             'first_session' => ['nullable', 'array'],
             'last_session' => ['nullable', 'array'],
+            'created_at' => ['required', 'string', 'date'],
+            'updated_at' => ['nullable', 'string', 'date'],
         ];
     }
 }

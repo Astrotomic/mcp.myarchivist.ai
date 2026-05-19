@@ -8,7 +8,7 @@ class JournalData extends ArchivistDto
     {
         return [
             'id' => ['required', 'string'],
-            'world_id' => ['required', 'string'],
+            'campaign_id' => ['required', 'string'],
             'title' => ['required', 'string'],
             'summary' => ['nullable', 'string'],
             'content' => ['nullable', 'string'],
@@ -21,11 +21,13 @@ class JournalData extends ArchivistDto
             'status' => ['nullable', 'string', 'in:draft,published,archived'],
             'folder_id' => ['nullable', 'string'],
             'cover_image' => ['nullable', 'string'],
+            'author_id' => ['nullable', 'string'],
+            'last_edited_by_id' => ['nullable', 'string'],
             'permission_level' => ['nullable', 'string'],
             'published_at' => ['nullable', 'string'],
             'archived_at' => ['nullable', 'string'],
             'created_at' => ['required', 'string', 'date'],
-            'updated_at' => ['required', 'string', 'date'],
+            'updated_at' => ['nullable', 'string', 'date'],
         ];
     }
 }
