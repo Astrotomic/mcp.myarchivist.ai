@@ -12,6 +12,7 @@ use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 use Illuminate\Support\Stringable;
+use Illuminate\Validation\ValidationException;
 use Laravel\Mcp\Request;
 use Laravel\Mcp\Response;
 use Laravel\Mcp\ResponseFactory;
@@ -30,6 +31,8 @@ abstract class Tool extends \Laravel\Mcp\Server\Tool
             $response = $this->action()->execute($request->all());
         } catch (ArchivistApiException $e) {
             return Response::error($e->getMessage());
+        } catch (ValidationException $e) {
+            return Response::error(json_encode($e->errors()));
         }
 
         if ($response instanceof LengthAwarePaginator) {
