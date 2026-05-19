@@ -50,7 +50,7 @@ class GetFactionTool extends Tool
             return Response::error("Failed to get faction '{$validated['faction_id']}' from MyArchivist API (HTTP {$e->status}): {$e->detail}");
         }
 
-        return Response::structured((new FactionData($data))->toArray());
+        return $this->structuredResponse($data);
     }
 
     #[\Override]

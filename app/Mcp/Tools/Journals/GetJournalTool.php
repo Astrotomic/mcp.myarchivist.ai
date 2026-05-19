@@ -50,7 +50,7 @@ class GetJournalTool extends Tool
             return Response::error("Failed to get journal entry '{$validated['entry_id']}' from MyArchivist API (HTTP {$e->status}): {$e->detail}");
         }
 
-        return Response::structured((new JournalData($data))->toArray());
+        return $this->structuredResponse($data);
     }
 
     #[\Override]

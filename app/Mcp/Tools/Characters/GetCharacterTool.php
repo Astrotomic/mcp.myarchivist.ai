@@ -50,7 +50,7 @@ class GetCharacterTool extends Tool
             return Response::error("Failed to get character '{$validated['character_id']}' from MyArchivist API (HTTP {$e->status}): {$e->detail}");
         }
 
-        return Response::structured((new CharacterData($data))->toArray());
+        return $this->structuredResponse($data);
     }
 
     #[\Override]

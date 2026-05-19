@@ -38,8 +38,8 @@ abstract class ArchivistDto extends Fluent
     abstract protected function descriptions(): array;
 
     /**
-     * @param JsonSchema $schema
      * @return array<string, Type>
+     *
      * @throws ReflectionException
      */
     public static function jsonSchema(JsonSchema $schema): array

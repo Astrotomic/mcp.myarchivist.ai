@@ -58,12 +58,7 @@ class ListJournalsTool extends Tool
             return Response::error("Failed to list journals for campaign '{$validated['campaign_id']}' from MyArchivist API (HTTP {$e->status}): {$e->detail}");
         }
 
-        $data['data'] = array_map(
-            fn (array $item) => (new JournalData($item))->toArray(),
-            $data['data'] ?? [],
-        );
-
-        return Response::structured($data ?: ['data' => []]);
+        return $this->structuredResponse($data);
     }
 
     #[\Override]

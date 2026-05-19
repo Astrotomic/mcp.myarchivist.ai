@@ -6,6 +6,8 @@ use App\Mcp\Data\ArchivistDto;
 use Illuminate\Contracts\JsonSchema\JsonSchema;
 use Illuminate\JsonSchema\Types\Type;
 use Illuminate\Support\Str;
+use Laravel\Mcp\Response;
+use Laravel\Mcp\ResponseFactory;
 
 trait HasArchivistOutputSchema
 {
@@ -38,6 +40,24 @@ trait HasArchivistOutputSchema
      * @return class-string<ArchivistDto>
      */
     abstract protected function outputDtoClass(): string;
+
+    protected function newOutputDto(array $data): ArchivistDto
+    {
+        return new ($this->outputDtoClass())($data);
+    }
+
+    protected function structuredResponse(array $data): ResponseFactory
+    {
+        if ($this->hasListOutput()) {
+            $data['data'] = collect($data['data'] ?? [])
+                ->map(fn (array $item) => $this->newOutputDto($item))
+                ->toArray();
+        } else {
+            $data = $this->newOutputDto($data)->toArray();
+        }
+
+        return Response::structured($data);
+    }
 
     private function hasListOutput(): bool
     {

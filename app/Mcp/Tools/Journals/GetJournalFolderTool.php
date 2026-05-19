@@ -50,7 +50,7 @@ class GetJournalFolderTool extends Tool
             return Response::error("Failed to get journal folder '{$validated['folder_id']}' from MyArchivist API (HTTP {$e->status}): {$e->detail}");
         }
 
-        return Response::structured((new JournalFolderData($data))->toArray());
+        return $this->structuredResponse($data);
     }
 
     #[\Override]

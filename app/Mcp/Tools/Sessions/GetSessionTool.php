@@ -57,7 +57,7 @@ class GetSessionTool extends Tool
             return Response::error("Failed to get session '{$validated['session_id']}' from MyArchivist API (HTTP {$e->status}): {$e->detail}");
         }
 
-        return Response::structured((new SessionData($data))->toArray());
+        return $this->structuredResponse($data);
     }
 
     #[\Override]

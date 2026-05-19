@@ -50,7 +50,7 @@ class GetCampaignTool extends Tool
             return Response::error("Failed to get campaign '{$validated['campaign_id']}' from MyArchivist API (HTTP {$e->status}): {$e->detail}");
         }
 
-        return Response::structured((new CampaignData($data))->toArray());
+        return $this->structuredResponse($data);
     }
 
     #[\Override]

@@ -50,7 +50,7 @@ class GetItemTool extends Tool
             return Response::error("Failed to get item '{$validated['item_id']}' from MyArchivist API (HTTP {$e->status}): {$e->detail}");
         }
 
-        return Response::structured((new ItemData($data))->toArray());
+        return $this->structuredResponse($data);
     }
 
     #[\Override]

@@ -50,7 +50,7 @@ class GetLocationTool extends Tool
             return Response::error("Failed to get location '{$validated['location_id']}' from MyArchivist API (HTTP {$e->status}): {$e->detail}");
         }
 
-        return Response::structured((new LocationData($data))->toArray());
+        return $this->structuredResponse($data);
     }
 
     #[\Override]

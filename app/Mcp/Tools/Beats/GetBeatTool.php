@@ -50,7 +50,7 @@ class GetBeatTool extends Tool
             return Response::error("Failed to get beat '{$validated['beat_id']}' from MyArchivist API (HTTP {$e->status}): {$e->detail}");
         }
 
-        return Response::structured((new BeatData($data))->toArray());
+        return $this->structuredResponse($data);
     }
 
     #[\Override]
