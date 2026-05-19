@@ -26,6 +26,12 @@ class GetMomentTool extends Tool
 {
     use HasArchivistOutputSchema;
 
+    #[\Override]
+    protected function outputDtoClass(): string
+    {
+        return MomentData::class;
+    }
+
     public function __construct(
         private readonly ArchivistClient $client,
     ) {}
@@ -44,7 +50,7 @@ class GetMomentTool extends Tool
             return Response::error("Failed to get moment '{$validated['moment_id']}' from MyArchivist API (HTTP {$e->status}): {$e->detail}");
         }
 
-        return Response::structured((new MomentData($data))->toArray());
+        return $this->structuredResponse($data);
     }
 
     #[\Override]

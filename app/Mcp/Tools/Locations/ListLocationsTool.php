@@ -26,6 +26,12 @@ class ListLocationsTool extends Tool
 {
     use HasArchivistOutputSchema;
 
+    #[\Override]
+    protected function outputDtoClass(): string
+    {
+        return LocationData::class;
+    }
+
     public function __construct(
         private readonly ArchivistClient $client,
     ) {}
@@ -44,12 +50,7 @@ class ListLocationsTool extends Tool
             return Response::error("Failed to list locations for campaign '{$validated['campaign_id']}' from MyArchivist API (HTTP {$e->status}): {$e->detail}");
         }
 
-        $data['data'] = array_map(
-            fn (array $item) => (new LocationData($item))->toArray(),
-            $data['data'] ?? [],
-        );
-
-        return Response::structured($data ?: ['data' => []]);
+        return $this->structuredResponse($data);
     }
 
     #[\Override]

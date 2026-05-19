@@ -26,6 +26,12 @@ class ListMomentsTool extends Tool
 {
     use HasArchivistOutputSchema;
 
+    #[\Override]
+    protected function outputDtoClass(): string
+    {
+        return MomentData::class;
+    }
+
     public function __construct(
         private readonly ArchivistClient $client,
     ) {}
@@ -48,12 +54,7 @@ class ListMomentsTool extends Tool
             return Response::error("Failed to list moments from MyArchivist API (HTTP {$e->status}): {$e->detail}");
         }
 
-        $data['data'] = array_map(
-            fn (array $item) => (new MomentData($item))->toArray(),
-            $data['data'] ?? [],
-        );
-
-        return Response::structured($data ?: ['data' => []]);
+        return $this->structuredResponse($data);
     }
 
     #[\Override]

@@ -26,6 +26,12 @@ class GetCharacterTool extends Tool
 {
     use HasArchivistOutputSchema;
 
+    #[\Override]
+    protected function outputDtoClass(): string
+    {
+        return CharacterData::class;
+    }
+
     public function __construct(
         private readonly ArchivistClient $client,
     ) {}
@@ -44,7 +50,7 @@ class GetCharacterTool extends Tool
             return Response::error("Failed to get character '{$validated['character_id']}' from MyArchivist API (HTTP {$e->status}): {$e->detail}");
         }
 
-        return Response::structured((new CharacterData($data))->toArray());
+        return $this->structuredResponse($data);
     }
 
     #[\Override]

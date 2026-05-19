@@ -23,4 +23,16 @@ class CharacterData extends ArchivistDto
             'created_at' => ['required', 'string'],
         ];
     }
+
+    #[\Override]
+    protected function descriptions(): array
+    {
+        return [
+            'id' => 'Character ID.',
+            'campaign_id' => 'Campaign ID.',
+            'character_name' => 'Character name.',
+            'approved' => 'Whether the character is approved.',
+            'created_at' => 'Character creation timestamp.',
+        ];
+    }
 }

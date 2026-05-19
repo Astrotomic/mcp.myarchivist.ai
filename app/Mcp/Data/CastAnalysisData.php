@@ -15,4 +15,16 @@ class CastAnalysisData extends ArchivistDto
             'updated_at' => ['required', 'string'],
         ];
     }
+
+    #[\Override]
+    protected function descriptions(): array
+    {
+        return [
+            'id' => 'Cast analysis ID.',
+            'session_id' => 'Session ID.',
+            'analysis' => 'Cast analysis metrics and breakdowns.',
+            'created_at' => 'Creation timestamp.',
+            'updated_at' => 'Last update timestamp.',
+        ];
+    }
 }

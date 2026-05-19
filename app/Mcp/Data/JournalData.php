@@ -29,4 +29,17 @@ class JournalData extends ArchivistDto
             'updated_at' => ['required', 'string'],
         ];
     }
+
+    #[\Override]
+    protected function descriptions(): array
+    {
+        return [
+            'id' => 'Journal entry ID.',
+            'world_id' => 'World ID.',
+            'title' => 'Journal title.',
+            'is_public' => 'Whether the journal entry is public.',
+            'created_at' => 'Journal creation timestamp.',
+            'updated_at' => 'Last update timestamp.',
+        ];
+    }
 }

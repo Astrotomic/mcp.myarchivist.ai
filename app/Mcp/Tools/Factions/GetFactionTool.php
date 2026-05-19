@@ -26,6 +26,12 @@ class GetFactionTool extends Tool
 {
     use HasArchivistOutputSchema;
 
+    #[\Override]
+    protected function outputDtoClass(): string
+    {
+        return FactionData::class;
+    }
+
     public function __construct(
         private readonly ArchivistClient $client,
     ) {}
@@ -44,7 +50,7 @@ class GetFactionTool extends Tool
             return Response::error("Failed to get faction '{$validated['faction_id']}' from MyArchivist API (HTTP {$e->status}): {$e->detail}");
         }
 
-        return Response::structured((new FactionData($data))->toArray());
+        return $this->structuredResponse($data);
     }
 
     #[\Override]

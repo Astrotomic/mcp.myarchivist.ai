@@ -26,6 +26,12 @@ class GetSessionTool extends Tool
 {
     use HasArchivistOutputSchema;
 
+    #[\Override]
+    protected function outputDtoClass(): string
+    {
+        return SessionData::class;
+    }
+
     public function __construct(
         private readonly ArchivistClient $client,
     ) {}
@@ -51,7 +57,7 @@ class GetSessionTool extends Tool
             return Response::error("Failed to get session '{$validated['session_id']}' from MyArchivist API (HTTP {$e->status}): {$e->detail}");
         }
 
-        return Response::structured((new SessionData($data))->toArray());
+        return $this->structuredResponse($data);
     }
 
     #[\Override]

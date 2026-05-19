@@ -26,6 +26,12 @@ class GetQuestTool extends Tool
 {
     use HasArchivistOutputSchema;
 
+    #[\Override]
+    protected function outputDtoClass(): string
+    {
+        return QuestData::class;
+    }
+
     public function __construct(
         private readonly ArchivistClient $client,
     ) {}
@@ -44,7 +50,7 @@ class GetQuestTool extends Tool
             return Response::error("Failed to get quest '{$validated['quest_id']}' from MyArchivist API (HTTP {$e->status}): {$e->detail}");
         }
 
-        return Response::structured((new QuestData($data))->toArray());
+        return $this->structuredResponse($data);
     }
 
     #[\Override]

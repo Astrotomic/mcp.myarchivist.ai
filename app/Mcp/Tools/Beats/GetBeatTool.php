@@ -26,6 +26,12 @@ class GetBeatTool extends Tool
 {
     use HasArchivistOutputSchema;
 
+    #[\Override]
+    protected function outputDtoClass(): string
+    {
+        return BeatData::class;
+    }
+
     public function __construct(
         private readonly ArchivistClient $client,
     ) {}
@@ -44,7 +50,7 @@ class GetBeatTool extends Tool
             return Response::error("Failed to get beat '{$validated['beat_id']}' from MyArchivist API (HTTP {$e->status}): {$e->detail}");
         }
 
-        return Response::structured((new BeatData($data))->toArray());
+        return $this->structuredResponse($data);
     }
 
     #[\Override]

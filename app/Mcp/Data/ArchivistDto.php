@@ -4,9 +4,13 @@ namespace App\Mcp\Data;
 
 use App\Exceptions\DtoValidationException;
 use App\Exceptions\UnexpectedDtoAttributeException;
+use Illuminate\Contracts\JsonSchema\JsonSchema;
+use Illuminate\JsonSchema\Types\Type;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Fluent;
 use Illuminate\Validation\ValidationException;
+use ReflectionClass;
+use ReflectionException;
 
 abstract class ArchivistDto extends Fluent
 {
@@ -25,6 +29,82 @@ abstract class ArchivistDto extends Fluent
      * @return array<string, mixed>
      */
     abstract public function rules(): array;
+
+    /**
+     * Define the descriptions for this DTO's attributes.
+     *
+     * @return array<string, string>
+     */
+    abstract protected function descriptions(): array;
+
+    /**
+     * @return array<string, Type>
+     *
+     * @throws ReflectionException
+     */
+    public static function jsonSchema(JsonSchema $schema): array
+    {
+        $instance = (new ReflectionClass(static::class))->newInstanceWithoutConstructor();
+        $rules = $instance->rules();
+        $descriptions = $instance->descriptions();
+
+        $properties = [];
+
+        foreach ($rules as $field => $fieldRules) {
+            if (is_string($fieldRules)) {
+                $fieldRules = explode('|', $fieldRules);
+            }
+
+            $type = null;
+            $isRequired = false;
+            $isNullable = false;
+            $enum = null;
+
+            foreach ($fieldRules as $rule) {
+                if ($rule === 'required') {
+                    $isRequired = true;
+                } elseif ($rule === 'nullable') {
+                    $isNullable = true;
+                } elseif ($rule === 'string') {
+                    $type = $schema->string();
+                } elseif (in_array($rule, ['integer', 'int'], true)) {
+                    $type = $schema->integer();
+                } elseif (in_array($rule, ['boolean', 'bool'], true)) {
+                    $type = $schema->boolean();
+                } elseif ($rule === 'array') {
+                    $type = $schema->array();
+                } elseif ($rule === 'numeric') {
+                    $type = $schema->number();
+                } elseif (str_starts_with($rule, 'in:')) {
+                    $enum = explode(',', substr($rule, 3));
+                }
+            }
+
+            if ($type === null) {
+                $type = $schema->string();
+            }
+
+            if ($isRequired) {
+                $type->required();
+            }
+
+            if ($isNullable) {
+                $type->nullable();
+            }
+
+            if ($enum) {
+                $type->enum($enum);
+            }
+
+            if (isset($descriptions[$field])) {
+                $type->description($descriptions[$field]);
+            }
+
+            $properties[$field] = $type;
+        }
+
+        return $properties;
+    }
 
     private function validate(array $attributes): void
     {

@@ -17,4 +17,15 @@ class LocationData extends ArchivistDto
             'created_at' => ['required', 'string'],
         ];
     }
+
+    #[\Override]
+    protected function descriptions(): array
+    {
+        return [
+            'id' => 'Location ID.',
+            'campaign_id' => 'Campaign ID.',
+            'name' => 'Location name.',
+            'created_at' => 'Location creation timestamp.',
+        ];
+    }
 }

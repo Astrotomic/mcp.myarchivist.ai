@@ -26,6 +26,12 @@ class ListQuestsTool extends Tool
 {
     use HasArchivistOutputSchema;
 
+    #[\Override]
+    protected function outputDtoClass(): string
+    {
+        return QuestData::class;
+    }
+
     public function __construct(
         private readonly ArchivistClient $client,
     ) {}
@@ -60,12 +66,7 @@ class ListQuestsTool extends Tool
             return Response::error("Failed to list quests for campaign '{$validated['campaign_id']}' from MyArchivist API (HTTP {$e->status}): {$e->detail}");
         }
 
-        $data['data'] = array_map(
-            fn (array $item) => (new QuestData($item))->toArray(),
-            $data['data'] ?? [],
-        );
-
-        return Response::structured($data ?: ['data' => []]);
+        return $this->structuredResponse($data);
     }
 
     #[\Override]

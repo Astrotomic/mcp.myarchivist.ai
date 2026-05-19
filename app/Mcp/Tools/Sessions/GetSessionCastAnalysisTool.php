@@ -26,6 +26,12 @@ class GetSessionCastAnalysisTool extends Tool
 {
     use HasArchivistOutputSchema;
 
+    #[\Override]
+    protected function outputDtoClass(): string
+    {
+        return CastAnalysisData::class;
+    }
+
     public function __construct(
         private readonly ArchivistClient $client,
     ) {}
@@ -44,7 +50,7 @@ class GetSessionCastAnalysisTool extends Tool
             return Response::error("Failed to get cast analysis for session '{$validated['session_id']}' from MyArchivist API (HTTP {$e->status}): {$e->detail}");
         }
 
-        return Response::structured((new CastAnalysisData($data))->toArray());
+        return $this->structuredResponse($data);
     }
 
     #[\Override]

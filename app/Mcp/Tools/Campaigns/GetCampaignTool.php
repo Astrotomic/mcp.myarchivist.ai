@@ -26,6 +26,12 @@ class GetCampaignTool extends Tool
 {
     use HasArchivistOutputSchema;
 
+    #[\Override]
+    protected function outputDtoClass(): string
+    {
+        return CampaignData::class;
+    }
+
     public function __construct(
         private readonly ArchivistClient $client,
     ) {}
@@ -44,7 +50,7 @@ class GetCampaignTool extends Tool
             return Response::error("Failed to get campaign '{$validated['campaign_id']}' from MyArchivist API (HTTP {$e->status}): {$e->detail}");
         }
 
-        return Response::structured((new CampaignData($data))->toArray());
+        return $this->structuredResponse($data);
     }
 
     #[\Override]

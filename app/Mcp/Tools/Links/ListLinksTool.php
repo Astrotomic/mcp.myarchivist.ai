@@ -26,6 +26,12 @@ class ListLinksTool extends Tool
 {
     use HasArchivistOutputSchema;
 
+    #[\Override]
+    protected function outputDtoClass(): string
+    {
+        return LinkData::class;
+    }
+
     public function __construct(
         private readonly ArchivistClient $client,
     ) {}
@@ -61,12 +67,7 @@ class ListLinksTool extends Tool
             return Response::error("Failed to list links for campaign '{$validated['campaign_id']}' from MyArchivist API (HTTP {$e->status}): {$e->detail}");
         }
 
-        $data['data'] = array_map(
-            fn (array $item) => (new LinkData($item))->toArray(),
-            $data['data'] ?? [],
-        );
-
-        return Response::structured($data ?: ['data' => []]);
+        return $this->structuredResponse($data);
     }
 
     #[\Override]

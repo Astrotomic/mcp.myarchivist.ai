@@ -26,6 +26,12 @@ class GetJournalTool extends Tool
 {
     use HasArchivistOutputSchema;
 
+    #[\Override]
+    protected function outputDtoClass(): string
+    {
+        return JournalData::class;
+    }
+
     public function __construct(
         private readonly ArchivistClient $client,
     ) {}
@@ -44,7 +50,7 @@ class GetJournalTool extends Tool
             return Response::error("Failed to get journal entry '{$validated['entry_id']}' from MyArchivist API (HTTP {$e->status}): {$e->detail}");
         }
 
-        return Response::structured((new JournalData($data))->toArray());
+        return $this->structuredResponse($data);
     }
 
     #[\Override]
