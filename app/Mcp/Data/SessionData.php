@@ -18,4 +18,15 @@ class SessionData extends ArchivistDto
             'created_at' => ['required', 'string'],
         ];
     }
+
+    #[\Override]
+    public function descriptions(): array
+    {
+        return [
+            'id' => 'Session ID.',
+            'campaign_id' => 'Campaign ID.',
+            'public' => 'Whether the session is public.',
+            'created_at' => 'Session creation timestamp.',
+        ];
+    }
 }

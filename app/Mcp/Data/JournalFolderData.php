@@ -20,4 +20,18 @@ class JournalFolderData extends ArchivistDto
             'updated_at' => ['required', 'string'],
         ];
     }
+
+    #[\Override]
+    public function descriptions(): array
+    {
+        return [
+            'id' => 'Journal folder ID.',
+            'world_id' => 'World ID.',
+            'name' => 'Folder name.',
+            'path' => 'Folder path.',
+            'position' => 'Folder position.',
+            'created_at' => 'Folder creation timestamp.',
+            'updated_at' => 'Last update timestamp.',
+        ];
+    }
 }

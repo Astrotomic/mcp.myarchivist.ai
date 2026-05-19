@@ -16,4 +16,15 @@ class MomentData extends ArchivistDto
             'created_at' => ['required', 'string'],
         ];
     }
+
+    #[\Override]
+    public function descriptions(): array
+    {
+        return [
+            'id' => 'Moment ID.',
+            'campaign_id' => 'Campaign ID.',
+            'label' => 'Moment label.',
+            'created_at' => 'Moment creation timestamp.',
+        ];
+    }
 }

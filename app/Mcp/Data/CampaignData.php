@@ -16,4 +16,15 @@ class CampaignData extends ArchivistDto
             'created_at' => ['required', 'string'],
         ];
     }
+
+    #[\Override]
+    public function descriptions(): array
+    {
+        return [
+            'id' => 'Campaign ID.',
+            'title' => 'Campaign title.',
+            'public' => 'Whether the campaign is public.',
+            'created_at' => 'Campaign creation timestamp.',
+        ];
+    }
 }

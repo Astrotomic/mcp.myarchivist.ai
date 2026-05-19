@@ -26,6 +26,12 @@ class GetCampaignStatsTool extends Tool
 {
     use HasArchivistOutputSchema;
 
+    #[\Override]
+    protected function outputDtoClass(): string
+    {
+        return CampaignStatsData::class;
+    }
+
     public function __construct(
         private readonly ArchivistClient $client,
     ) {}

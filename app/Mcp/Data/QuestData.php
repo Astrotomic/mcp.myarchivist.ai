@@ -38,4 +38,19 @@ class QuestData extends ArchivistDto
             'updated_at' => ['required', 'string'],
         ];
     }
+
+    #[\Override]
+    public function descriptions(): array
+    {
+        return [
+            'id' => 'Quest ID.',
+            'campaign_id' => 'Campaign ID.',
+            'order_index' => 'Quest ordering index.',
+            'quest_name' => 'Quest name.',
+            'quest_category' => 'Quest category.',
+            'status' => 'Quest status.',
+            'created_at' => 'Quest creation timestamp.',
+            'updated_at' => 'Last update timestamp.',
+        ];
+    }
 }

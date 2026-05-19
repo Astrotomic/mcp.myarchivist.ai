@@ -26,6 +26,12 @@ class GetQuestTool extends Tool
 {
     use HasArchivistOutputSchema;
 
+    #[\Override]
+    protected function outputDtoClass(): string
+    {
+        return QuestData::class;
+    }
+
     public function __construct(
         private readonly ArchivistClient $client,
     ) {}

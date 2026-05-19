@@ -16,4 +16,15 @@ class ItemData extends ArchivistDto
             'created_at' => ['required', 'string'],
         ];
     }
+
+    #[\Override]
+    public function descriptions(): array
+    {
+        return [
+            'id' => 'Item ID.',
+            'campaign_id' => 'Campaign ID.',
+            'name' => 'Item name.',
+            'created_at' => 'Item creation timestamp.',
+        ];
+    }
 }

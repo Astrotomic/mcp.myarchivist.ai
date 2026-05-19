@@ -18,4 +18,18 @@ class LinkData extends ArchivistDto
             'created_at' => ['required', 'string'],
         ];
     }
+
+    #[\Override]
+    public function descriptions(): array
+    {
+        return [
+            'id' => 'Link ID.',
+            'campaign_id' => 'Campaign ID.',
+            'from_id' => 'Source entity ID.',
+            'from_type' => 'Source entity type.',
+            'to_id' => 'Target entity ID.',
+            'to_type' => 'Target entity type.',
+            'created_at' => 'Link creation timestamp.',
+        ];
+    }
 }

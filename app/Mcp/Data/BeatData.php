@@ -19,4 +19,17 @@ class BeatData extends ArchivistDto
             'created_at' => ['required', 'string'],
         ];
     }
+
+    #[\Override]
+    public function descriptions(): array
+    {
+        return [
+            'id' => 'Beat ID.',
+            'campaign_id' => 'Campaign ID.',
+            'label' => 'Beat label.',
+            'type' => 'Beat type.',
+            'index' => 'Beat ordering index.',
+            'created_at' => 'Beat creation timestamp.',
+        ];
+    }
 }

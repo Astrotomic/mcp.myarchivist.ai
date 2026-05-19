@@ -16,4 +16,15 @@ class FactionData extends ArchivistDto
             'created_at' => ['required', 'string'],
         ];
     }
+
+    #[\Override]
+    public function descriptions(): array
+    {
+        return [
+            'id' => 'Faction ID.',
+            'campaign_id' => 'Campaign ID.',
+            'name' => 'Faction name.',
+            'created_at' => 'Faction creation timestamp.',
+        ];
+    }
 }

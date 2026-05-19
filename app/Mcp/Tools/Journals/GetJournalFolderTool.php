@@ -26,6 +26,12 @@ class GetJournalFolderTool extends Tool
 {
     use HasArchivistOutputSchema;
 
+    #[\Override]
+    protected function outputDtoClass(): string
+    {
+        return JournalFolderData::class;
+    }
+
     public function __construct(
         private readonly ArchivistClient $client,
     ) {}
