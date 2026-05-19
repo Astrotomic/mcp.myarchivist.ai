@@ -4,13 +4,12 @@ namespace App\Services;
 
 use App\Exceptions\ArchivistApiException;
 use Illuminate\Http\Client\PendingRequest;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
 
 class ArchivistClient
 {
     public function __construct(
-        private readonly ?Request $request = null,
+        private readonly string $token,
     ) {}
 
     public function get(string $path, array $query = []): array
@@ -34,9 +33,7 @@ class ArchivistClient
             ->timeout(30)
             ->connectTimeout(10)
             ->acceptJson()
-            ->when(
-                $this->request?->bearerToken(),
-                fn (PendingRequest $request, string $token) => $request->withToken($token)
-            );
+            ->withToken($this->token)
+            ->withHeader('x-api-key', $this->token);
     }
 }

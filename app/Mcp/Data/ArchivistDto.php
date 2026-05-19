@@ -47,7 +47,6 @@ abstract class ArchivistDto extends Fluent
     private function filterUnexpectedKeys(array &$attributes): void
     {
         $knownKeys = array_keys($this->rules());
-
         $unexpected = array_diff(array_keys($attributes), $knownKeys);
 
         if (! empty($unexpected)) {

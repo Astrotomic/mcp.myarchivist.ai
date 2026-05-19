@@ -4,6 +4,7 @@ namespace App\Mcp\Tools\Campaigns;
 
 use App\Exceptions\ArchivistApiException;
 use App\Mcp\Data\CampaignData;
+use App\Mcp\Data\CampaignDataShort;
 use App\Mcp\Tools\Concerns\HasArchivistOutputSchema;
 use App\Services\ArchivistClient;
 use Illuminate\Contracts\JsonSchema\JsonSchema;
@@ -44,7 +45,7 @@ class ListCampaignsTool extends Tool
         }
 
         $data['data'] = array_map(
-            fn (array $item) => (new CampaignData($item))->toArray(),
+            fn (array $item) => (new CampaignDataShort($item))->toArray(),
             $data['data'] ?? [],
         );
 

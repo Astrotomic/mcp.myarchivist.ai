@@ -2,23 +2,12 @@
 
 namespace App\Mcp\Data;
 
-class CampaignData extends ArchivistDto
+class CampaignData extends CampaignDataShort
 {
     #[\Override]
     public function rules(): array
     {
-        return [
-            'id' => ['required', 'string'],
-            'title' => ['required', 'string'],
-            'description' => ['nullable', 'string'],
-            'system' => ['nullable', 'string'],
-            'image' => ['nullable', 'string'],
-            'public' => ['required', 'boolean'],
-            'mature' => ['required', 'boolean'],
-            'owner_id' => ['required', 'string'],
-            'can_manage' => ['nullable', 'boolean'],
-            'created_at' => ['required', 'string'],
-            // Full detail fields (present on GET single campaign)
+        return array_merge(parent::rules(), [
             'summary' => ['nullable', 'string'],
             'language' => ['nullable', 'string'],
             'chat_tone' => ['nullable', 'string'],
@@ -32,6 +21,6 @@ class CampaignData extends ArchivistDto
             'players' => ['nullable', 'array'],
             'keywords' => ['nullable', 'array'],
             'kill_list' => ['nullable', 'array'],
-        ];
+        ]);
     }
 }

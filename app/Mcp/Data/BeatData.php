@@ -15,11 +15,11 @@ class BeatData extends ArchivistDto
             'label' => ['required', 'string'],
             'type' => ['required', 'string'],
             'description' => ['nullable', 'string'],
-            'index' => ['required', 'integer'],
+            'index' => ['required', 'integer', 'min:0'],
             'metadata' => ['nullable', 'array'],
             'parent_id' => ['nullable', 'string'],
-            'created_at' => ['nullable', 'string'],
-            'updated_at' => ['nullable', 'string'],
+            'created_at' => ['nullable', 'string', 'date'],
+            'updated_at' => ['nullable', 'string', 'date'],
         ];
     }
 }
