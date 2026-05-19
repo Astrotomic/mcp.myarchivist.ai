@@ -13,9 +13,18 @@ class QuestDataShort extends ArchivistDto
             'quest_name' => ['required', 'string'],
             'quest_category' => ['nullable', 'string', 'in:main,side,faction,personal,n/a'],
             'status' => ['nullable', 'string', 'in:planned,in-progress,blocked,failed,done,n/a'],
-            'image' => ['nullable', 'string'],
-            'approved' => ['required', 'boolean'],
-            'discovered' => ['required', 'boolean'],
+            'quest_giver' => ['nullable', 'string'],
+            'quest_giver_id' => ['nullable', 'string'],
+            'created_at' => ['required', 'string', 'date'],
+            'updated_at' => ['required', 'string', 'date'],
+            'next_action' => ['nullable', 'string'],
+            'resolution' => ['nullable', 'string'],
+            'objective_count' => ['nullable', 'integer'],
+            'completed_objective_count' => ['nullable', 'integer'],
+            'progress_entry_count' => ['nullable', 'integer'],
+            'related_entity_count' => ['nullable', 'integer'],
+            'first_session' => ['nullable', 'array'],
+            'last_session' => ['nullable', 'array'],
         ];
     }
 }
