@@ -25,7 +25,6 @@ class JournalData extends ArchivistDto
             'published_at' => ['nullable', 'string'],
             'archived_at' => ['nullable', 'string'],
             'created_at' => ['required', 'string', 'date'],
-            'updated_at' => ['required', 'string', 'date'],
         ];
     }
 }

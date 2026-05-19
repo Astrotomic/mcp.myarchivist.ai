@@ -16,7 +16,7 @@ class QuestDataShort extends ArchivistDto
             'quest_giver' => ['nullable', 'string'],
             'quest_giver_id' => ['nullable', 'string'],
             'created_at' => ['required', 'string', 'date'],
-            'updated_at' => ['required', 'string', 'date'],
+            'updated_at' => ['nullable', 'string', 'date'],
             'next_action' => ['nullable', 'string'],
             'resolution' => ['nullable', 'string'],
             'objective_count' => ['nullable', 'integer'],

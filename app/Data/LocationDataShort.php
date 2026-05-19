@@ -14,8 +14,11 @@ class LocationDataShort extends ArchivistDto
             'type' => ['nullable', 'string'],
             'parent_id' => ['nullable', 'string'],
             'image' => ['nullable', 'string'],
-            'approved' => ['required', 'boolean'],
-            'discovered' => ['required', 'boolean'],
+            'aliases' => ['nullable', 'array'],
+            'tcg_image' => ['nullable', 'string'],
+            'merge' => ['nullable', 'bool'],
+            'created_at' => ['required', 'string', 'date'],
+            'updated_at' => ['nullable', 'string', 'date'],
         ];
     }
 }

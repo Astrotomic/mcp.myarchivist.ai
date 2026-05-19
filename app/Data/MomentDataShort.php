@@ -12,7 +12,10 @@ class MomentDataShort extends ArchivistDto
             'session_id' => ['nullable', 'string'],
             'label' => ['required', 'string'],
             'index' => ['required', 'integer'],
-            'approved' => ['required', 'boolean'],
+            'content' => ['nullable', 'string'],
+            'image' => ['nullable', 'string'],
+            'created_at' => ['required', 'string', 'date'],
+            'updated_at' => ['nullable', 'string', 'date'],
         ];
     }
 }

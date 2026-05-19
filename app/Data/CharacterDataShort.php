@@ -16,8 +16,13 @@ class CharacterDataShort extends ArchivistDto
             'description' => ['nullable', 'string'],
             'image' => ['nullable', 'string'],
             'type' => ['nullable', 'string', 'in:PC,NPC'],
-            'approved' => ['required', 'boolean'],
-            'discovered' => ['required', 'boolean'],
+            'character_aliases' => ['nullable', 'array'],
+            'player_handle' => ['nullable', 'string'],
+            'backstory' => ['nullable', 'string'],
+            'tcg_image' => ['nullable', 'string'],
+            'merge' => ['required', 'bool'],
+            'created_at' => ['required', 'string', 'date'],
+            'updated_at' => ['nullable', 'string', 'date'],
         ];
     }
 }

@@ -21,7 +21,7 @@ final class GetCampaignStatsToolTest extends TestCase
             ->assertStructuredContent(function (AssertableJson $json): void {
                 $json
                     ->assertJsonSchema(CampaignStatsData::class)
-                    ->where('world_id', 'cmj78gm6k000004jrvzm7gcjr');
+                    ->where('campaign_id', 'cmj78gm6k000004jrvzm7gcjr');
             });
     }
 }

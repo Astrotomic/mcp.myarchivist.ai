@@ -13,8 +13,11 @@ class ItemDataShort extends ArchivistDto
             'description' => ['nullable', 'string'],
             'type' => ['nullable', 'string'],
             'image' => ['nullable', 'string'],
-            'approved' => ['required', 'boolean'],
-            'discovered' => ['required', 'boolean'],
+            'aliases' => ['nullable', 'array'],
+            'tcg_image' => ['nullable', 'string'],
+            'merge' => ['nullable', 'bool'],
+            'created_at' => ['required', 'string', 'date'],
+            'updated_at' => ['nullable', 'string', 'date'],
         ];
     }
 }

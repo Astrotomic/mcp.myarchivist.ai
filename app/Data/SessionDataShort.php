@@ -14,7 +14,13 @@ class SessionDataShort extends ArchivistDto
             'summary' => ['nullable', 'string'],
             'session_date' => ['nullable', 'string'],
             'public' => ['required', 'boolean'],
-            'pending' => ['required', 'boolean'],
+            'notes' => ['nullable', 'string'],
+            'image' => ['nullable', 'string'],
+            'index' => ['nullable', 'integer'],
+            'pbp_start_msg_url' => ['nullable', 'string'],
+            'pbp_end_msg_url' => ['nullable', 'string'],
+            'created_at' => ['required', 'string', 'date'],
+            'updated_at' => ['nullable', 'string', 'date'],
         ];
     }
 }

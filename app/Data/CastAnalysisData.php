@@ -11,7 +11,7 @@ class CastAnalysisData extends ArchivistDto
             'session_id' => ['required', 'string'],
             'analysis' => ['required', 'array'],
             'created_at' => ['required', 'string', 'date'],
-            'updated_at' => ['required', 'string', 'date'],
+            'updated_at' => ['nullable', 'string', 'date'],
         ];
     }
 }
