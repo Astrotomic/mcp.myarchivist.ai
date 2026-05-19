@@ -2,7 +2,7 @@
 
 namespace Tests\Gummibeer\Mcp\Tools\Characters;
 
-use App\Data\CharacterDataShort;
+use App\Data\CharacterData;
 use App\Mcp\Servers\ArchivistServer;
 use App\Mcp\Tools\Characters\ListCharactersTool;
 use Illuminate\Testing\Fluent\AssertableJson;
@@ -37,7 +37,7 @@ final class ListCharactersToolTest extends TestCase
                 $json
                     ->assertPaginatedList(function (AssertableJson $item): void {
                         $item
-                            ->assertJsonSchema(CharacterDataShort::class)
+                            ->assertJsonSchema(CharacterData::class)
                             ->where('campaign_id', 'cmj78gm6k000004jrvzm7gcjr');
                     });
             });

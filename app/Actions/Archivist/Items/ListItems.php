@@ -4,7 +4,7 @@ namespace App\Actions\Archivist\Items;
 
 use App\Actions\Archivist\ApiAction;
 use App\Collections\ArchivistDtoCollection;
-use App\Data\ItemDataShort;
+use App\Data\ItemData;
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\ValidatedInput;
 
@@ -25,12 +25,12 @@ final readonly class ListItems extends ApiAction
     }
 
     /**
-     * @return ArchivistDtoCollection<int, ItemDataShort>
+     * @return ArchivistDtoCollection<int, ItemData>
      */
     protected function map(array $data): ArchivistDtoCollection
     {
         return ArchivistDtoCollection::make(
-            collect($data['data'] ?? [])->map(fn (array $item) => new ItemDataShort($item))
+            collect($data['data'] ?? [])->map(fn (array $item) => new ItemData($item))
         );
     }
 }

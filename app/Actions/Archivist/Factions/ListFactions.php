@@ -4,7 +4,7 @@ namespace App\Actions\Archivist\Factions;
 
 use App\Actions\Archivist\ApiAction;
 use App\Collections\ArchivistDtoCollection;
-use App\Data\FactionDataShort;
+use App\Data\FactionData;
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\ValidatedInput;
 
@@ -25,12 +25,12 @@ final readonly class ListFactions extends ApiAction
     }
 
     /**
-     * @return ArchivistDtoCollection<int, FactionDataShort>
+     * @return ArchivistDtoCollection<int, FactionData>
      */
     protected function map(array $data): ArchivistDtoCollection
     {
         return ArchivistDtoCollection::make(
-            collect($data['data'] ?? [])->map(fn (array $item) => new FactionDataShort($item))
+            collect($data['data'] ?? [])->map(fn (array $item) => new FactionData($item))
         );
     }
 }

@@ -2,7 +2,7 @@
 
 namespace Tests\Gummibeer\Mcp\Tools\Items;
 
-use App\Data\ItemDataShort;
+use App\Data\ItemData;
 use App\Mcp\Servers\ArchivistServer;
 use App\Mcp\Tools\Items\ListItemsTool;
 use Illuminate\Testing\Fluent\AssertableJson;
@@ -33,7 +33,7 @@ final class ListItemsToolTest extends TestCase
                 $json
                     ->assertPaginatedList(function (AssertableJson $item): void {
                         $item
-                            ->assertJsonSchema(ItemDataShort::class)
+                            ->assertJsonSchema(ItemData::class)
                             ->where('campaign_id', 'cmj78gm6k000004jrvzm7gcjr');
                     });
             });

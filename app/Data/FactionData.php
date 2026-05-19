@@ -2,11 +2,22 @@
 
 namespace App\Data;
 
-class FactionData extends FactionDataShort
+class FactionData extends ArchivistDto
 {
     public static function rules(): array
     {
-        return array_merge(parent::rules(), [
-        ]);
+        return [
+            'id' => ['required', 'string'],
+            'campaign_id' => ['required', 'string'],
+            'name' => ['required', 'string'],
+            'description' => ['nullable', 'string'],
+            'type' => ['nullable', 'string'],
+            'image' => ['nullable', 'string'],
+            'aliases' => ['nullable', 'array'],
+            'tcg_image' => ['nullable', 'string'],
+            'merge' => ['nullable', 'bool'],
+            'created_at' => ['required', 'string', 'date'],
+            'updated_at' => ['nullable', 'string', 'date'],
+        ];
     }
 }

@@ -2,7 +2,7 @@
 
 namespace Tests\Gummibeer\Mcp\Tools\Locations;
 
-use App\Data\LocationDataShort;
+use App\Data\LocationData;
 use App\Mcp\Servers\ArchivistServer;
 use App\Mcp\Tools\Locations\ListLocationsTool;
 use Illuminate\Testing\Fluent\AssertableJson;
@@ -33,7 +33,7 @@ final class ListLocationsToolTest extends TestCase
                 $json
                     ->assertPaginatedList(function (AssertableJson $item): void {
                         $item
-                            ->assertJsonSchema(LocationDataShort::class)
+                            ->assertJsonSchema(LocationData::class)
                             ->where('campaign_id', 'cmj78gm6k000004jrvzm7gcjr');
                     });
             });

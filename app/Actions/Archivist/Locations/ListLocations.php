@@ -4,7 +4,7 @@ namespace App\Actions\Archivist\Locations;
 
 use App\Actions\Archivist\ApiAction;
 use App\Collections\ArchivistDtoCollection;
-use App\Data\LocationDataShort;
+use App\Data\LocationData;
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\ValidatedInput;
 
@@ -25,12 +25,12 @@ final readonly class ListLocations extends ApiAction
     }
 
     /**
-     * @return ArchivistDtoCollection<int, LocationDataShort>
+     * @return ArchivistDtoCollection<int, LocationData>
      */
     protected function map(array $data): ArchivistDtoCollection
     {
         return ArchivistDtoCollection::make(
-            collect($data['data'] ?? [])->map(fn (array $item) => new LocationDataShort($item))
+            collect($data['data'] ?? [])->map(fn (array $item) => new LocationData($item))
         );
     }
 }
