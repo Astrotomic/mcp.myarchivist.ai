@@ -17,7 +17,7 @@ class AppServiceProvider extends ServiceProvider
             /** @var Request|null $request */
             $request = $app->bound('request') ? $app->make('request') : null;
 
-            return new ArchivistClient($request);
+            return new ArchivistClient($request?->bearerToken());
         });
     }
 
