@@ -7,16 +7,47 @@ use Illuminate\Support\Collection;
 
 /**
  * @template TKey of array-key
- * @template TModel of ArchivistDto
+ * @template TValue of ArchivistDto
  *
- * @extends Collection<TKey, TModel>
+ * @extends Collection<TKey, TValue>
  */
-class ArchivistDtoCollection extends Collection
+final class ArchivistDtoCollection extends Collection
 {
     public function __construct($items = [])
     {
         parent::__construct($items);
 
         $this->ensure(ArchivistDto::class);
+    }
+
+    public function toArray(): array
+    {
+        return $this
+            ->map(fn (ArchivistDto $dto) => $dto->toArray())
+            ->all();
+    }
+
+    /**
+     * @template TConcatKey of array-key
+     * @template TConcatValue of ArchivistDto
+     *
+     * @param  iterable<TConcatKey, TConcatValue>  $source
+     */
+    public function concat($source): self
+    {
+        return parent::concat($source);
+    }
+
+    /**
+     * @template TMapValue
+     *
+     * @param  callable(ArchivistDto, array-key): TMapValue  $callback
+     * @return Collection<array-key, TMapValue>
+     */
+    public function map(callable $callback): Collection
+    {
+        return $this
+            ->toBase()
+            ->map($callback);
     }
 }

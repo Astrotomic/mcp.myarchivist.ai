@@ -29,7 +29,7 @@ abstract readonly class ApiAction extends Action implements JsonSchemaable
 
         if ($data instanceof ArchivistDtoCollection) {
             return new LengthAwarePaginator(
-                items: $data->toBase(),
+                items: $data,
                 total: $response->json('total', $data->count()),
                 perPage: $response->json('size', max($data->count(), 20)),
                 currentPage: $response->json('page', $validated->integer('page', 1)),
