@@ -2,6 +2,9 @@
 
 namespace App\Mcp\Servers;
 
+use App\Mcp\Prompts\ReviewSessionPrompt;
+use App\Mcp\Resources\Sessions\SessionSummaryResource;
+use App\Mcp\Resources\Sessions\SessionTranscriptResource;
 use App\Mcp\Tools\Beats\GetBeatTool;
 use App\Mcp\Tools\Beats\ListBeatsTool;
 use App\Mcp\Tools\Campaigns\GetCampaignStatsTool;
@@ -86,5 +89,14 @@ class ArchivistServer extends Server
 
         // Links
         ListLinksTool::class,
+    ];
+
+    protected array $prompts = [
+        // ReviewSessionPrompt::class,
+    ];
+
+    protected array $resources = [
+        SessionSummaryResource::class,
+        // SessionTranscriptResource::class,
     ];
 }

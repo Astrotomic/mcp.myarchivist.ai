@@ -52,7 +52,7 @@ class ArchivistClient
             ->connectTimeout(3)
             ->acceptJson()
             ->when(
-                value: app()->runningUnitTests(),
+                value: app()->runningUnitTests() || app()->isLocal(),
                 callback: fn (PendingRequest $request) => $request->withHeader('x-api-key', $this->token),
                 default: fn (PendingRequest $request) => $request->withToken($this->token),
             );
