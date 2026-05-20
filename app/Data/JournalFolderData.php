@@ -8,14 +8,15 @@ class JournalFolderData extends ArchivistDto
     {
         return [
             'id' => ['required', 'string'],
-            'world_id' => ['required', 'string'],
+            'campaign_id' => ['required', 'string'],
             'parent_id' => ['nullable', 'string'],
             'name' => ['required', 'string'],
             'path' => ['required', 'string'],
-            'description' => ['nullable', 'string'],
             'position' => ['required', 'integer'],
+            'description' => ['nullable', 'string'],
             'metadata' => ['nullable', 'array'],
             'created_at' => ['required', 'string', 'date'],
+            'updated_at' => ['nullable', 'string', 'date'],
         ];
     }
 }
