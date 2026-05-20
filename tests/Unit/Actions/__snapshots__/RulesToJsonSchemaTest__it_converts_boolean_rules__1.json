@@ -1,0 +1,8 @@
+{
+    "properties": {
+        "is_active": {
+            "type": "boolean"
+        }
+    },
+    "type": "object"
+}

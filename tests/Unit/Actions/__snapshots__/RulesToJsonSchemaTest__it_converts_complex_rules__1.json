@@ -1,0 +1,37 @@
+{
+    "properties": {
+        "id": {
+            "type": "integer"
+        },
+        "email": {
+            "type": "string"
+        },
+        "score": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "roles": {
+            "type": "array"
+        },
+        "is_admin": {
+            "type": "boolean"
+        },
+        "category": {
+            "enum": [
+                "news",
+                "blog",
+                "article"
+            ],
+            "type": "string"
+        }
+    },
+    "type": "object",
+    "required": [
+        "id",
+        "email",
+        "roles",
+        "is_admin"
+    ]
+}

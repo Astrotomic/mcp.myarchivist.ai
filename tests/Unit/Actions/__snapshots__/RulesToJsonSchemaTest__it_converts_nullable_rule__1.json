@@ -1,0 +1,11 @@
+{
+    "properties": {
+        "description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    },
+    "type": "object"
+}

@@ -1,0 +1,8 @@
+{
+    "properties": {
+        "count": {
+            "type": "integer"
+        }
+    },
+    "type": "object"
+}
