@@ -5,9 +5,9 @@ namespace Tests\Feature\Http\Controllers\WellKnown;
 use App\Http\Controllers\WellKnown\ShowMcpServerCardController;
 use Illuminate\Testing\Fluent\AssertableJson;
 use PHPUnit\Framework\Attributes\Test;
-use Tests\TestCase;
+use Tests\FeatureTestCase;
 
-class ShowMcpServerCardControllerTest extends TestCase
+class ShowMcpServerCardControllerTest extends FeatureTestCase
 {
     #[Test]
     public function it_returns_server_card(): void

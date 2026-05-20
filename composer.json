@@ -19,6 +19,7 @@
         "phpstan/extension-installer": "^1.4.3",
         "phpunit/phpunit": "^12.5.25",
         "povils/phpmnd": "^3.6.1",
+        "spatie/phpunit-snapshot-assertions": "^5.4",
         "spaze/phpstan-disallowed-calls": "^4.12"
     },
     "minimum-stability": "stable",

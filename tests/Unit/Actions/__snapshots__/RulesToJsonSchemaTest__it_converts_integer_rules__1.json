@@ -1,0 +1,8 @@
+{
+    "properties": {
+        "age": {
+            "type": "integer"
+        }
+    },
+    "type": "object"
+}

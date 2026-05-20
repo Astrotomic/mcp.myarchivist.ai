@@ -1,0 +1,52 @@
+name: phpunit
+
+on:
+  pull_request:
+  push:
+
+permissions:
+   contents: read
+
+jobs:
+  phpunit-unit:
+    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name != github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 1
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.5'
+      - run: composer install --no-interaction --no-progress --prefer-dist
+      - run: vendor/bin/phpunit --testsuite=Unit
+
+  phpunit-feature:
+    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name != github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.5'
+      - run: composer install --no-interaction --no-progress --prefer-dist
+      - run: cp .env.example .env
+      - run: php artisan key:generate
+      - run: vendor/bin/phpunit --testsuite=Feature
+
+  phpunit-gummibeer:
+    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name != github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.5'
+      - run: composer install --no-interaction --no-progress --prefer-dist
+      - run: cp .env.example .env
+      - run: php artisan key:generate
+      - run: vendor/bin/phpunit --testsuite=Gummibeer
+        continue-on-error: true
+        env:
+          GUMMIBEER_TOKEN: ${{ secrets.GUMMIBEER_TOKEN }}

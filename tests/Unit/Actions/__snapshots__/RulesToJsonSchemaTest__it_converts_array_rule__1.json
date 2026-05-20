@@ -1,0 +1,8 @@
+{
+    "properties": {
+        "tags": {
+            "type": "array"
+        }
+    },
+    "type": "object"
+}

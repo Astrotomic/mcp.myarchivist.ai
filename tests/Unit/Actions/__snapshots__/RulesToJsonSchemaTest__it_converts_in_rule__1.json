@@ -1,0 +1,13 @@
+{
+    "properties": {
+        "status": {
+            "enum": [
+                "active",
+                "inactive",
+                "pending"
+            ],
+            "type": "string"
+        }
+    },
+    "type": "object"
+}
