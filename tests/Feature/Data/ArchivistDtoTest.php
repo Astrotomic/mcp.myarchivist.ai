@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Feature;
+namespace Tests\Feature\Data;
 
 use App\Data\CampaignData;
 use App\Exceptions\DtoValidationException;
@@ -8,10 +8,10 @@ use App\Exceptions\UnexpectedDtoAttributeException;
 use Illuminate\Contracts\Debug\ExceptionHandler;
 use Illuminate\Foundation\Exceptions\Handler;
 use Illuminate\Support\Str;
-use Symfony\Component\HttpFoundation\Response as SymfonyResponse;
+use Symfony\Component\HttpFoundation\Response;
 use Tests\FeatureTestCase;
 
-class DtoContractTest extends FeatureTestCase
+class ArchivistDtoTest extends FeatureTestCase
 {
     public function test_valid_dto_construction_raises_no_exceptions(): void
     {
@@ -144,7 +144,7 @@ class DtoContractTest extends FeatureTestCase
                     $this->captured[] = $e;
                 }
 
-                public function render($request, \Throwable $e): SymfonyResponse
+                public function render($request, \Throwable $e): Response
                 {
                     throw $e;
                 }
