@@ -1,10 +1,31 @@
 includes:
-    - ./vendor/larastan/larastan/extension.neon
+    - phpstan-baseline.neon
+
+    # Is loaded automatically when using phpstan/extension-installer
+    # - vendor/larastan/larastan/extension.neon
+
+    - vendor/spaze/phpstan-disallowed-calls/disallowed-dangerous-calls.neon
+    - vendor/spaze/phpstan-disallowed-calls/disallowed-execution-calls.neon
+    - vendor/spaze/phpstan-disallowed-calls/disallowed-loose-calls.neon
+
+rules:
+    - Astrotomic\PHPStan\Rules\ConsoleCommandRule
+    - Astrotomic\PHPStan\Rules\ControllerRule
+    - Astrotomic\PHPStan\Rules\DisallowedEvalRule
+    - Astrotomic\PHPStan\Rules\DisallowedExitRule
+    - Astrotomic\PHPStan\Rules\DisallowedFunctionCallRule
+    - Astrotomic\PHPStan\Rules\DisallowedMethodCallRule
 
 parameters:
-    level: 1
     paths:
         - app
-        - config
-        - routes
-        - tests
+
+    level: 8
+
+    reportUnmatchedIgnoredErrors: false
+
+    ignoreErrors:
+        # Level 6
+        - identifier: missingType.iterableValue
+        - identifier: missingType.generics
+        - identifier: argument.templateType

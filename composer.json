@@ -16,8 +16,10 @@
         "laravel/tinker": "^3.0.2",
         "mockery/mockery": "^1.6.12",
         "nunomaduro/collision": "^8.9.4",
+        "phpstan/extension-installer": "^1.4.3",
         "phpunit/phpunit": "^12.5.25",
-        "povils/phpmnd": "^3.6.1"
+        "povils/phpmnd": "^3.6.1",
+        "spaze/phpstan-disallowed-calls": "^4.12"
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
@@ -28,13 +30,15 @@
     },
     "autoload-dev": {
         "psr-4": {
+            "Astrotomic\\PHPStan\\": "phpstan/",
             "Tests\\": "tests/"
         }
     },
     "config": {
         "allow-plugins": {
             "pestphp/pest-plugin": true,
-            "php-http/discovery": true
+            "php-http/discovery": true,
+            "phpstan/extension-installer": true
         },
         "optimize-autoloader": true,
         "preferred-install": "dist",
@@ -63,15 +67,14 @@
             "@php artisan key:generate --ansi"
         ],
         "dev": "@php artisan serve",
-        "setup": [
-            "composer install",
-            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
-            "@php artisan key:generate"
-        ],
-        "test": [
-            "@php artisan config:clear --ansi @no_additional_args",
-            "@php artisan test"
-        ]
+        "fix": "@php vendor/bin/pint",
+        "fix-dirty": "@php vendor/bin/pint --dirty",
+        "lint": "@php vendor/bin/pint --test",
+        "normalize": "echo 'composer global require ergebnis/composer-normalize'",
+        "phpstan": "@php vendor/bin/phpstan analyse --memory-limit=2G",
+        "phpstan-baseline": "@php vendor/bin/phpstan analyse --memory-limit=2G --allow-empty-baseline --generate-baseline",
+        "phpstan-ci": "@php vendor/bin/phpstan analyse --no-progress --error-format gitlab --memory-limit=4G -vv",
+        "test": "@php artisan test"
     },
     "$schema": "https://getcomposer.org/schema.json"
 }
