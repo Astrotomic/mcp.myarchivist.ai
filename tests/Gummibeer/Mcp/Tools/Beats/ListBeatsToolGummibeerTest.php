@@ -8,7 +8,7 @@ use App\Mcp\Tools\Beats\ListBeatsTool;
 use Illuminate\Testing\Fluent\AssertableJson;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
-use Tests\Gummibeer\GummibeerTestCase;
+use Tests\GummibeerTestCase;
 
 final class ListBeatsToolGummibeerTest extends GummibeerTestCase
 {

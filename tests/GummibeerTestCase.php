@@ -1,9 +1,8 @@
 <?php
 
-namespace Tests\Gummibeer;
+namespace Tests;
 
 use App\Services\ArchivistClient;
-use Tests\ApiTestCase;
 
 abstract class GummibeerTestCase extends ApiTestCase
 {

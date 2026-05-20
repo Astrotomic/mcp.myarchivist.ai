@@ -7,7 +7,7 @@ use App\Mcp\Servers\ArchivistServer;
 use App\Mcp\Tools\Campaigns\GetCampaignTool;
 use Illuminate\Testing\Fluent\AssertableJson;
 use PHPUnit\Framework\Attributes\Test;
-use Tests\Gummibeer\GummibeerTestCase;
+use Tests\GummibeerTestCase;
 
 final class GetCampaignToolGummibeerTest extends GummibeerTestCase
 {
