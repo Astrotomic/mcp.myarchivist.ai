@@ -3,6 +3,7 @@ includes:
 
     # Is loaded automatically when using phpstan/extension-installer
     # - vendor/larastan/larastan/extension.neon
+    # - vendor/phpstan/phpstan-deprecation-rules/rules.neon
 
     - vendor/spaze/phpstan-disallowed-calls/disallowed-dangerous-calls.neon
     - vendor/spaze/phpstan-disallowed-calls/disallowed-execution-calls.neon
