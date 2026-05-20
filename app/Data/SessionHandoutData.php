@@ -1,11 +1,10 @@
 <?php
 
-namespace App\Mcp\Data;
+namespace App\Data;
 
 class SessionHandoutData extends ArchivistDto
 {
-    #[\Override]
-    public function rules(): array
+    public static function rules(): array
     {
         return [
             'summary' => ['required', 'string'],
