@@ -9,9 +9,9 @@ use Illuminate\Contracts\Debug\ExceptionHandler;
 use Illuminate\Foundation\Exceptions\Handler;
 use Illuminate\Support\Str;
 use Symfony\Component\HttpFoundation\Response as SymfonyResponse;
-use Tests\TestCase;
+use Tests\FeatureTestCase;
 
-class DtoContractTest extends TestCase
+class DtoContractTest extends FeatureTestCase
 {
     public function test_valid_dto_construction_raises_no_exceptions(): void
     {

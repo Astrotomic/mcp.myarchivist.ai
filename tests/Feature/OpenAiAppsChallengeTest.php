@@ -2,9 +2,9 @@
 
 namespace Tests\Feature;
 
-use Tests\TestCase;
+use Tests\FeatureTestCase;
 
-class OpenAiAppsChallengeTest extends TestCase
+class OpenAiAppsChallengeTest extends FeatureTestCase
 {
     public function test_openai_apps_challenge_returns_configured_token(): void
     {
