@@ -40,9 +40,9 @@ abstract class ArchivistDto extends Fluent implements JsonSchemaable
 
     private function checkForUnexpectedKeys(array $attributes): void
     {
-        $unexpected = collect(static::rules())
+        $unexpected = collect($attributes)
             ->keys()
-            ->diff(array_keys($attributes))
+            ->diff(array_keys(static::rules()))
             ->values();
 
         if ($unexpected->isNotEmpty()) {
