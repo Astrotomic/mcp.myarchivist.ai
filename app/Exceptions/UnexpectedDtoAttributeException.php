@@ -6,11 +6,12 @@ class UnexpectedDtoAttributeException extends ArchivistDtoMismatchException
 {
     public function __construct(
         public readonly string $dtoClass,
-        public readonly string $key,
-        public readonly mixed $value,
+        public readonly array $keys,
     ) {
+        $attributes = implode(', ', $keys);
+
         parent::__construct(
-            "Unexpected attribute '{$key}' on DTO {$dtoClass}",
+            "Unexpected attributes '{$attributes}' on DTO {$dtoClass}",
         );
     }
 }

@@ -2,7 +2,7 @@
 
 namespace App\Mcp\Tools\Concerns;
 
-use App\Mcp\Data\ArchivistDto;
+use App\Data\ArchivistDto;
 use Illuminate\Contracts\JsonSchema\JsonSchema;
 use Illuminate\JsonSchema\Types\Type;
 use Illuminate\Support\Str;
