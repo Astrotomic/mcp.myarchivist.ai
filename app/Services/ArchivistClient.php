@@ -52,9 +52,9 @@ class ArchivistClient
             ->connectTimeout(3)
             ->acceptJson()
             ->when(
-                app()->isProduction(),
-                fn (PendingRequest $request) => $request->withToken($this->token),
-                fn (PendingRequest $request) => $request->withHeader('x-api-key', $this->token)
+                value: app()->runningUnitTests(),
+                callback: fn (PendingRequest $request) => $request->withHeader('x-api-key', $this->token),
+                default: fn (PendingRequest $request) => $request->withToken($this->token),
             );
     }
 }
