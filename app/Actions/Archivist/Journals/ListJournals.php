@@ -16,7 +16,7 @@ final readonly class ListJournals extends ApiAction
             'campaign_id' => ['required', 'string'],
             'folder_id' => ['nullable', 'string'],
             'page' => ['nullable', 'integer'],
-            'size' => ['nullable', 'integer'],
+            'size' => ['nullable', 'integer', 'max:100'],
         ];
     }
 

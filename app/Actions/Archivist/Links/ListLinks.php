@@ -20,7 +20,7 @@ final readonly class ListLinks extends ApiAction
             'to_type' => ['nullable', 'string'],
             'alias' => ['nullable', 'string'],
             'page' => ['nullable', 'integer'],
-            'size' => ['nullable', 'integer'],
+            'size' => ['nullable', 'integer', 'max:100'],
         ];
     }
 

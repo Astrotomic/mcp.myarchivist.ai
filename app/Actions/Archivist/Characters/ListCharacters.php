@@ -18,7 +18,7 @@ final readonly class ListCharacters extends ApiAction
             'character_type' => ['nullable', 'string'],
             'approved_only' => ['nullable', 'boolean'],
             'page' => ['nullable', 'integer'],
-            'size' => ['nullable', 'integer'],
+            'size' => ['nullable', 'integer', 'max:100'],
         ];
     }
 

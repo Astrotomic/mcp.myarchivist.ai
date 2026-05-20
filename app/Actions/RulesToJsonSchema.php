@@ -4,6 +4,7 @@ namespace App\Actions;
 
 use Illuminate\JsonSchema\JsonSchemaTypeFactory;
 use Illuminate\JsonSchema\Types\Type;
+use Illuminate\Support\Arr;
 
 final readonly class RulesToJsonSchema extends Action
 {
@@ -65,6 +66,8 @@ final readonly class RulesToJsonSchema extends Action
                 'required' => $type->required(),
                 'nullable' => $type->nullable(),
                 'in' => $type->enum($params),
+                'min' => $type->min(Arr::first($params)),
+                'max' => $type->max(Arr::first($params)),
                 default => $type,
             };
         }
