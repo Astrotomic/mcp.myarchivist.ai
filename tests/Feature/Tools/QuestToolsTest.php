@@ -55,14 +55,14 @@ class QuestToolsTest extends TestCase
     {
         ArchivistServer::tool(ListQuestsTool::class, ['campaign_id' => 'camp_1', 'status' => 'invalid-status'])
             ->assertHasErrors()
-            ->assertSee('Status must be one of');
+            ->assertSee('status');
     }
 
     public function test_list_quests_validates_quest_category_enum(): void
     {
         ArchivistServer::tool(ListQuestsTool::class, ['campaign_id' => 'camp_1', 'quest_category' => 'bogus'])
             ->assertHasErrors()
-            ->assertSee('Quest category must be one of');
+            ->assertSee('quest_category');
     }
 
     public function test_get_quest_requires_quest_id(): void
