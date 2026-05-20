@@ -32,6 +32,7 @@ final class ArchivistDtoCollection extends Collection
      * @template TConcatValue of ArchivistDto
      *
      * @param  iterable<TConcatKey, TConcatValue>  $source
+     * @return self<array-key, TConcatValue|TValue>
      */
     public function concat($source): self
     {
