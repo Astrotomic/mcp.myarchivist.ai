@@ -13,10 +13,11 @@ use PhpParser\Node\NullableType;
 use PhpParser\Node\Stmt\Class_;
 use PhpParser\Node\Stmt\TraitUse;
 use PhpParser\Node\UnionType;
+use PHPStan\Rules\Rule;
 use PHPStan\Type\ObjectType;
 
 /**
- * @implements \PHPStan\Rules\Rule<\PhpParser\Node\Stmt\Class_>
+ * @implements Rule<Class_>
  */
 abstract class AbstractClassRule extends AbstractRule
 {

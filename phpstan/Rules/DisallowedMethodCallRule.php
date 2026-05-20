@@ -6,9 +6,10 @@ use PhpParser\Node;
 use PhpParser\Node\Expr\MethodCall;
 use PhpParser\Node\Identifier;
 use PHPStan\Analyser\Scope;
+use PHPStan\Rules\Rule;
 
 /**
- * @implements \PHPStan\Rules\Rule<\PhpParser\Node\Expr\MethodCall>
+ * @implements Rule<MethodCall>
  */
 class DisallowedMethodCallRule extends AbstractRule
 {
@@ -18,7 +19,7 @@ class DisallowedMethodCallRule extends AbstractRule
     }
 
     /**
-     * @param \PhpParser\Node\Expr\MethodCall $node
+     * @param  MethodCall  $node
      */
     public function processNode(Node $node, Scope $scope): array
     {

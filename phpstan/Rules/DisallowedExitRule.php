@@ -5,9 +5,10 @@ namespace Astrotomic\PHPStan\Rules;
 use PhpParser\Node;
 use PhpParser\Node\Expr\Exit_;
 use PHPStan\Analyser\Scope;
+use PHPStan\Rules\Rule;
 
 /**
- * @implements \PHPStan\Rules\Rule<\PhpParser\Node\Expr\Exit_>
+ * @implements Rule<Exit_>
  */
 class DisallowedExitRule extends AbstractRule
 {
@@ -17,7 +18,7 @@ class DisallowedExitRule extends AbstractRule
     }
 
     /**
-     * @param \PhpParser\Node\Expr\Exit_ $node
+     * @param  Exit_  $node
      */
     public function processNode(Node $node, Scope $scope): array
     {

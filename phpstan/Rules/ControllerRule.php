@@ -3,16 +3,18 @@
 namespace Astrotomic\PHPStan\Rules;
 
 use PhpParser\Node;
+use PhpParser\Node\Stmt\Class_;
 use PhpParser\Node\Stmt\ClassMethod;
 use PHPStan\Analyser\Scope;
+use PHPStan\Rules\Rule;
 
 /**
- * @implements \PHPStan\Rules\Rule<\PhpParser\Node\Stmt\Class_>
+ * @implements Rule<Class_>
  */
 class ControllerRule extends AbstractClassRule
 {
     /**
-     * @param \PhpParser\Node\Stmt\Class_ $node
+     * @param  Class_  $node
      */
     public function processNode(Node $node, Scope $scope): array
     {

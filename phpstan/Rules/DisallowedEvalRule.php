@@ -5,9 +5,10 @@ namespace Astrotomic\PHPStan\Rules;
 use PhpParser\Node;
 use PhpParser\Node\Expr\Eval_;
 use PHPStan\Analyser\Scope;
+use PHPStan\Rules\Rule;
 
 /**
- * @implements \PHPStan\Rules\Rule<\PhpParser\Node\Expr\Eval_>
+ * @implements Rule<Eval_>
  */
 class DisallowedEvalRule extends AbstractRule
 {
@@ -17,7 +18,7 @@ class DisallowedEvalRule extends AbstractRule
     }
 
     /**
-     * @param \PhpParser\Node\Expr\Eval_ $node
+     * @param  Eval_  $node
      */
     public function processNode(Node $node, Scope $scope): array
     {
