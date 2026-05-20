@@ -1,40 +1,20 @@
-name: PHPUnit
+name: phpunit
 
 on:
-  push:
-    branches:
-      - main
   pull_request:
+  push:
 
 jobs:
   phpunit:
     runs-on: ubuntu-latest
-
+    timeout-minutes: 5
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Set up PHP
-        uses: shivammathur/setup-php@v2
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.4'
-          coverage: none
-
-      - name: Cache Composer dependencies
-        uses: actions/cache@v4
-        with:
-          path: vendor
-          key: ${{ runner.os }}-php-${{ hashFiles('**/composer.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-php-
-
-      - name: Install dependencies
-        run: composer install --no-interaction --no-progress --prefer-dist
-
-      - name: Prepare application
-        run: |
+          php-version: '8.5'
+      - run: composer install --no-interaction --no-progress --prefer-dist
+      - run: |
           cp .env.example .env
           php artisan key:generate
-
-      - name: Run PHPUnit
-        run: ./vendor/bin/phpunit
+      - run: vendor/bin/phpunit
