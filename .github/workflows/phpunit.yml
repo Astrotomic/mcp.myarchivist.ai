@@ -9,6 +9,7 @@ permissions:
 
 jobs:
   phpunit-unit:
+    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name != github.repository
     runs-on: ubuntu-latest
     timeout-minutes: 1
     steps:
@@ -20,6 +21,7 @@ jobs:
       - run: vendor/bin/phpunit --testsuite=Unit
 
   phpunit-feature:
+    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name != github.repository
     runs-on: ubuntu-latest
     timeout-minutes: 3
     steps:
@@ -28,9 +30,12 @@ jobs:
         with:
           php-version: '8.5'
       - run: composer install --no-interaction --no-progress --prefer-dist
+      - run: cp .env.example .env
+      - run: php artisan key:generate
       - run: vendor/bin/phpunit --testsuite=Feature
 
   phpunit-gummibeer:
+    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name != github.repository
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -39,6 +44,8 @@ jobs:
         with:
           php-version: '8.5'
       - run: composer install --no-interaction --no-progress --prefer-dist
+      - run: cp .env.example .env
+      - run: php artisan key:generate
       - run: vendor/bin/phpunit --testsuite=Gummibeer
         env:
           GUMMIBEER_TOKEN: ${{ secrets.GUMMIBEER_TOKEN }}
