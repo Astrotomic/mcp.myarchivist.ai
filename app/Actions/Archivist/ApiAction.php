@@ -10,7 +10,6 @@ use App\Data\ArchivistDto;
 use App\Services\ArchivistClient;
 use Illuminate\Http\Client\Response;
 use Illuminate\Pagination\LengthAwarePaginator;
-use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\ValidatedInput;
 
@@ -19,7 +18,7 @@ abstract readonly class ApiAction extends Action implements JsonSchemaable
     public function __construct(protected ArchivistClient $client) {}
 
     /**
-     * @return ArchivistDto|LengthAwarePaginator<array-key, Collection<array-key, ArchivistDto>>
+     * @return ArchivistDto|LengthAwarePaginator<array-key, ArchivistDto>
      */
     public function execute(array $params): ArchivistDto|LengthAwarePaginator
     {

@@ -32,7 +32,7 @@ abstract class Tool extends \Laravel\Mcp\Server\Tool
         } catch (ArchivistApiException $e) {
             return Response::error($e->getMessage());
         } catch (ValidationException $e) {
-            return Response::error(json_encode($e->errors()));
+            return Response::error(json_encode($e->errors(), JSON_THROW_ON_ERROR));
         }
 
         if ($response instanceof LengthAwarePaginator) {
