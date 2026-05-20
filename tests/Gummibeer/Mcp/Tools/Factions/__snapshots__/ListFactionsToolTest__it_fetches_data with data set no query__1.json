@@ -1,0 +1,294 @@
+{
+    "current_page": 1,
+    "data": [
+        {
+            "created_at": "2026-05-19T20:58:43.482000",
+            "updated_at": null,
+            "id": "cmpd482bc000r04ld671uw9qf",
+            "name": "Stadtwache von Frozen",
+            "aliases": [],
+            "type": null,
+            "description": "Die Stadtwache wurde am Tempel von der Hohepriesterin über einen Einbruch informiert. Sie nahm drei der Eingefrorenen in Gewahrsam und führte Durchsuchungen Gebäude für Gebäude in Richtung Süden durch.\nDie Stadtwache traf nachts am Tempel ein, wurde von der Hohepriesterin instruiert und übernahm die Verwahrung der drei Eingefrorenen. Sie forderte Surina auf, ein Buch zu zeigen, prüfte ihre und weitere Gegenstände, fand jedoch nicht die gesuchten heiligen Objekte und ließ Surina ihre Sachen wieder zusammenpacken. Die Eingefrorenen wurden in Zellen gehalten. Am Morgen riss ein Mitglied der Stadtwache lautstark eine Zellentür auf, und die Gehaltenen durften die Zellen verlassen. Die Stadtwache setzte die Durchsuchungen in den Gassen fort.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-05-13T20:01:06.312000",
+            "updated_at": null,
+            "id": "r86ej50cbqrfissek140wtyh",
+            "name": "Infernalische Vollstrecker",
+            "aliases": [
+                "Vollstrecker",
+                "Schreiber",
+                "Infernalische Vollstrecker",
+                "Träger kleiner schwarzer Kästen",
+                "Träger"
+            ],
+            "type": null,
+            "description": "Die Infernalischen Vollstrecker sind eine Gruppe von Höllenwesen, organisiert in schwarz-rot gekleidete Anführer, schlicht gekleidete Schreiber und mittelmäßig gerüstete Vollstrecker. Die Infernalischen Schreiber sind humanoide Wesen, die in schwarz-roter Kleidung auftreten und einfache, schlichte Kleidungsstücke tragen, jedoch keine Rüstungen. Ihre Hauptaufgabe ist das Sammeln und Dokumentieren von Informationen, was sie durch das Tragen von Notizbrettern und das Anbringen von Markierungen mit roter Kreide an Objekten auf dem Anwesen tun.\n\nDie Vollstrecker verwenden Netze und Ketten als Hauptwerkzeuge und sind mit kleinen schwarzen Kästen ausgestattet, die Ketten herausschießen können, um markierte Objekte zu erfassen. Sie sind auf dem Anwesen aktiv und verteilen sich dort, während sie mit roter Kreide Markierungen anbringen und Objekte erfassen. Die Gruppe zeigt kein aggressives Verhalten gegenüber den Charakteren, die das Gelände betreten, und lässt sie ungehindert passieren.\n\nDie Infernalischen Schreiber und Vollstrecker interagieren mit den Charakteren, indem sie Informationen über die Herzogin und deren Verbleib auf dem Gelände bereitstellen. Bei Begegnungen verlangen die Schreiber nach den echten Namen der Anwesenden und zeigen eine klare Hierarchie, wobei ein Kommandant die Anweisungen gibt. Der Kommandant bietet Surina an, einen Höllenhund zu erhalten, wenn sie 58 Seelen beschaffen kann, und erklärt, dass die Seelen umso wertvoller sind, je unschuldiger sie sind. Zudem warnt der Kommandant, dass bei einem Scheitern an dem Geschäft die betroffene Person in der Hölle arbeiten müsste. Die Schreiber sind Teil eines größeren infernalischen Plans, der mit einem Pakt oder einer ähnlichen Bindung in Verbindung steht, und sie sind verantwortlich für die Einhaltung von Verträgen. Sie können die Seelen von Verletzten erfassen, indem sie sie in ihre Kästen ziehen.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-05-13T20:01:06.272000",
+            "updated_at": null,
+            "id": "vkuwkbcjinkbwgtc6uayg1dj",
+            "name": "Familie Rosethorne",
+            "aliases": [
+                "de Rosson"
+            ],
+            "type": null,
+            "description": "Die Familie de Rosson ist eine Adelsfamilie mit einem Mitglied namens Aurelian, der in Calimport lebt. Auf Aurelian ist ein hohes Kopfgeld ausgesetzt, und das Haupt der Familie, Naevys Nerizana, könnte ebenfalls gefährdet sein, wenn ihre Herkunft bekannt wird.\n\nDie Familie hat Verbindungen zu einer Organisation, die sich dem Schutz von Menschen vor Ausbeutung widmet. Doran, ein Mitglied dieser Organisation, bietet Naevys seinen Schutz an und erkennt das Symbol einer Lilie, das sie ihm zeigt. Daraufhin ändert er sein Verhalten und stellt sich als Freund der Familie de Rosson vor. Er informiert Naevys über die Gefahren, die mit ihrer Herkunft verbunden sind.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-04-30T13:49:34.014000",
+            "updated_at": null,
+            "id": "eig7l60h6yuq0tuni7446e6i",
+            "name": "Piraten von Admiral Eri",
+            "aliases": [
+                "Pinguin-Crew",
+                "pinguin-geführte Crew"
+            ],
+            "type": null,
+            "description": "Die Piraten von Admiral Eri operieren unter dem Kommando eines Admirals, der sich als Kapitän eines stählernen Schiffs präsentiert. Die Crew besteht aus mehreren humanoiden Pinguinen, einem Hai und einigen Enten. Die Besatzung agiert als Piraten und bietet ihre Dienste an, um Passagiere zu transportieren, verlangt jedoch Bezahlung oder einen Austausch, wie die Bereitstellung eines neuen Crewmitglieds.\nDie Gruppe trifft den Admiral, nachdem sie einen Aklut besiegt hat, und wird von ihm zu seiner Hütten mit Feuerstelle eingeladen, wo sie übernachten können. Der Admiral erklärt, dass sie Piraten sind und dass sie in der Regel andere Leute entführen, was zu Gelächter unter der Crew führt. Er bietet an, die Gruppe zur Insel mit dem Hort von Ava Charus in der offenen See zu bringen und warnt, dass seit zweihundert Jahren kein Schiff diese Passage erfolgreich gemeistert hat. Der Admiral schlägt vor, die Beute im Erfolgsfall „halbe-halbe“ zu teilen, falls die Gruppe die Drachenlady tötet, was von einem Gruppenmitglied abgelehnt wird, da der Wunsch besteht, mit Ava Charus zu sprechen.\nAm nächsten Morgen tritt ein sprechendes Walross namens Mister Varos der Piraten von Admiral Eri bei, und die Gruppe bestiegt das Schiff. Während der Fahrt wird das gewonnene Monsterblut zu einem Konzentrat verarbeitet, und die Gruppe bereitet giftige Waffenbeschichtungen vor. Die Piraten von Admiral Eri bietet der Gruppe auch eine Einladung zum Essen an.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": true
+        },
+        {
+            "created_at": "2026-04-22T20:32:01.574000",
+            "updated_at": null,
+            "id": "iqsdoxp1cn1x3eiq2lrrcdzq",
+            "name": "Ring der Rose",
+            "aliases": [],
+            "type": null,
+            "description": "Der Ring der Rose ist eine Gruppe, die sich als Freundeskreis bezeichnet. Ein Mitglied, Steven, erklärte, dass sie keine Entführungen durchführen, sondern Personen \"retten\", die freiwillig wegwollen, insbesondere Töchter aus Adelsfamilien. Die Gruppe wurde gegründet, nachdem sie von anderen abgewiesen wurde.\nSteven gab an, dass er seit etwa einer Woche gefangen sei. Während eines Verhörs stellte die Gruppe Fragen zu einem Nebelvorfall, den sie untersuchen wollte. Steven trug eine Brosche mit Rosen-Symbolik, die Gwendolyn Silverflame von seiner Brust entfernte. Während des Verhörs wurde Steven mehrfach eingeschüchtert und waterboardet, was zu einer Offenbarung führte, dass er bereit war, alles zu erzählen. Das Verhör wurde von der Herzogin und Wachen unterbrochen, die die Gruppe aufforderten, den Raum zu verlassen und sich nicht weiter in nicht-zuständige Angelegenheiten einzumischen.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-04-15T19:43:09.908000",
+            "updated_at": null,
+            "id": "n08fdtvbvx70vgoyrt6crvol",
+            "name": "Netheril",
+            "aliases": [],
+            "type": null,
+            "description": "Netheril war ein magokratisches Imperium, das vor etwa 1700 bis 1800 Jahren existierte und von magiebegabten Individuen regiert wurde. Nur magiebegabte Personen konnten in höhere Positionen aufsteigen. Das Imperium fiel aufgrund übertriebener magischer Praktiken und hinterließ die heutige Anauroch-Wüste. Vor rund 100 Jahren kehrte eine kleine Enklave zurück, und die Region ist von verschiedenen zwielichtigen Gruppen und Relikten aus früheren Zeiten geprägt.\nDie Gruppe erfuhr in der Bibliothek von einem obsidianen Würfel, der als nahezu mythisch beschrieben wird und als Rubycon bezeichnet wird. Es wird berichtet, dass es bisher niemandem gelungen ist, diesen Würfel in Besitz zu nehmen. Hinweise und Orte, die mit dem Würfel in Verbindung stehen, umfassen Rogarsheim, Agloron und Kalimshan. Morvain las weiter über die Geschichte von Anauroch und Netheril und stellte fest, dass der Untergang des Imperiums mit der Entstehung der Wüste zusammenhängt.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-04-15T19:43:09.870000",
+            "updated_at": null,
+            "id": "u6s7cqbod8epsbp87hui2g83",
+            "name": "Haus Deakin",
+            "aliases": [],
+            "type": null,
+            "description": "Diakin ist ein Haus, das Halbelfen umfasst und als eines der ältesten Häuser Faerûns gilt. Es wird in einem Kompendium über die ältesten Häuser erwähnt, zusammen mit den Häusern Floshin, Borderen und Belisare.\n\nDie Gruppe, zu der Morvain gehört, hat in der Bibliothek Informationen über Diakin und andere Häuser recherchiert. Morvain hat ein Buch über einen obsidianen Würfel angefordert, das in Verbindung mit Diakin steht. In der Bibliothek wurden keine spezifischen Details über die Geschichte oder den Einfluss von Diakin gegeben.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-04-15T19:43:09.852000",
+            "updated_at": null,
+            "id": "koeusof91hc3fi04i0yaw6b1",
+            "name": "Haus Belisarre",
+            "aliases": [],
+            "type": null,
+            "description": "Belisare ist eines der ältesten Häuser in Faerûn und wird als das dritte älteste Haus in der Region klassifiziert. Die zugehörige Rasse sind Halborks. Belisare wird zusammen mit den Häusern Floshin und Borderen in einem Kompendium über die ältesten Häuser Faerûns erwähnt.\n\nDas Haus ist in einem Buch über die ältesten Häuser aufgeführt, das Informationen über die Rassen und die geografischen Standorte der Häuser enthält.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-04-15T19:43:09.796000",
+            "updated_at": null,
+            "id": "g23zk3s1uwd70fvx011tm8dn",
+            "name": "Magiergilde von Luskan",
+            "aliases": [
+                "mächtige Magiergilde von Luskan"
+            ],
+            "type": null,
+            "description": "Die Magiergilde von Luskan ist eine mächtige Organisation, bekannt für ihre magischen Fähigkeiten. Sie gilt als die mächtigste Magiergilde in Luskan und bietet Kooperationen in Bezug auf magische Vorfälle an. Die Gilde hat Einfluss auf die Region und wird häufig in Gesprächen über magische Angelegenheiten und Konflikte erwähnt.\nCaptain Durnan bietet der Gruppe die Möglichkeit, nach Luskan zu gehen, um einen magischen Zwischenfall aufzuklären, wobei die Kooperation der Magiergilde zugesichert wird. Die Gilde wird als Autorität angesehen, die in der Lage ist, Unterstützung zu leisten.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-04-02T20:44:47.506000",
+            "updated_at": null,
+            "id": "c8i3xdxy1kn2g755ceb2po43",
+            "name": "Haus Floshin",
+            "aliases": [],
+            "type": null,
+            "description": "Floschinen ist ein Adelshaus, das mit dem Verschwinden von drei Töchtern aus den Häusern Vordren, Edivalen und Floschinen in Verbindung gebracht wird. Es wird vermutet, dass diese Entführungen möglicherweise mit den Vätern der Mädchen zusammenhängen, möglicherweise zur Erpressung oder für Opfer. Haus Floshin ist eines der ältesten Häuser in Faerûn, das den Gold- oder Sonnenelfen zugeordnet ist. Der Sitz von Haus Floshin befindet sich im Dellenbier-Tal, bekannt als „Liam’s Hold“. Haus Floshin wird in einem Kompendium zusammen mit anderen alten Häusern wie Haus Borderen und Belisare erwähnt.\nBrennen Voidridge, der sich mit einer Gruppe versammelt hat, erfährt von einem Sohn eines der betroffenen Häuser, dass die Entführungen in den letzten Stunden stattgefunden haben. Brennen äußert den Verdacht, dass es sich um ein doppeltes Spiel handelt und dass die Entführungen möglicherweise Teil eines größeren Plans sind. Seres, eine Informantin, erklärt, dass die verschwundenen Mädchen nicht das Ziel der „Jagd“ seien und vermutet, dass sie wegen ihrer Väter entführt wurden.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": true
+        },
+        {
+            "created_at": "2026-04-02T20:44:47.488000",
+            "updated_at": null,
+            "id": "d3b2bkwjfpsm2mubfc8fai6l",
+            "name": "Haus Edevane",
+            "aliases": [
+                "Edewana"
+            ],
+            "type": null,
+            "description": "Haus Edevane ist ein Haus, das mit dem Verschwinden von drei Töchtern aus den Häusern Vordren, Edevane und Floschinen in Verbindung gebracht wird. Die Entführungen könnten möglicherweise mit den Vätern der betroffenen Mädchen zusammenhängen, möglicherweise zur Erpressung oder für Opfer. Edevane gehört zu einer Gruppe von Adelsfamilien, die an einem Fest teilnehmen, bei dem auch andere Häuser vertreten sind. Ein Sohn des Hauses Edevane äußert, dass seine Halbschwester nicht in der Linie des Hauses steht. Während eines Gesprächs über die Entführungen identifizieren die Mitglieder der Gruppe, die nach den vermissten Mädchen suchen, Edevane als eines der betroffenen Häuser.\nEdevane ist auch bekannt als Haus Edevane und repräsentiert Tieflinge, wobei es als eines der ältesten Häuser in Faerûn gilt. Die genaue Altersbestimmung des Hauses ist unklar, was darauf hindeutet, dass es möglicherweise älter ist als die bekannten Aufzeichnungen. Haus Edevane wird in Diskussionen über die Entführung adeliger Töchter und andere Vorfälle als eines der Häuser genannt, das mit den ältesten Häusern in Verbindung steht. Es besteht Interesse an Informationen über Haus Edevane, insbesondere in Bezug auf die Rassen, die mit den verschiedenen Häusern verbunden sind.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": true
+        },
+        {
+            "created_at": "2026-04-02T20:44:47.471000",
+            "updated_at": null,
+            "id": "neskroip8idjfhzjcgnwnhxh",
+            "name": "Haus Vaudren",
+            "aliases": [
+                "Haus Borderen"
+            ],
+            "type": null,
+            "description": "Haus Vaudren ist ein bekanntes Adelshaus in der Region. Töchter aus den Häusern Vaudren, Edivalen und Floschinen sind in den letzten Stunden verschwunden. Ein Mann, dessen Tochter Sonval vermisst wird, berichtet von drei weiteren entführten Töchtern aus diesen Häusern.\nEine Gruppe, die sich um die Entführungen kümmert, erfährt von einem Kapuzenträger namens Garan, dessen Tochter ebenfalls vermisst ist. Garan hat über Sending Stones von der Entführung erfahren, jedoch keine Botschaft der Entführer erhalten. Die Gruppe vermutet, dass die verschwundenen Mädchen möglicherweise wegen ihrer Väter entführt wurden, möglicherweise zur Erpressung oder als Opfer.\nSeres, eine Person, die mit der Gruppe spricht, erklärt, dass die verschwundenen Mädchen nicht Ziel der „Jagd“ seien und rät, etwaige „Austausche“ nur außerhalb des Geländes zu versuchen. Sie erwähnt, dass die Gruppe aufgrund ihrer Taten im Norden aufgefallen ist und deshalb eingeladen wurde, warnt jedoch, dass die Interessen von Briarwatch, der Institution, zu der Seres gehört, nicht zwingend mit denen der Gruppe übereinstimmen.\nHaus Vaudren wird zusammen mit Haus Floshin und Haus Belisare als eines der drei ältesten Häuser erwähnt. In einem Kompendium über die ältesten Häuser Faerûns wird Haus Vaudren als Teil einer Liste aufgeführt, die auch die zugeordneten Rassen der Häuser enthält. Haus Vaudren ist in einem Buch über die ältesten Häuser verzeichnet, das von einer Yuan-Ti-Bibliothekarin in der Bibliothek verwaltet wird.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": true
+        },
+        {
+            "created_at": "2026-04-02T20:44:47.455000",
+            "updated_at": null,
+            "id": "v7vzjkyxf7h7iwotg7et7jyn",
+            "name": "Lord’s Alliance",
+            "aliases": [],
+            "type": null,
+            "description": "Die Lord’s Alliance ist eine politische Fraktion, die in Padig operiert und in der Region einflussreich ist. Sie hat Verbindungen zu verschiedenen Adelsfamilien und befasst sich mit der Sicherheit und Stabilität dieser Familien. Aktuell ist die Allianz in Panik, da Luskan um Hilfe gebeten hat, nachdem ein Vulkan in der Nähe ausgebrochen ist und Feuerelementare umherstreifen. Während eines Mondfestes wurden mehrere Töchter aus Adelsfamilien entführt, was zu Besorgnis und dem Wunsch nach Unterstützung führte. Mitglieder der Allianz, darunter Brennen, boten ihre Hilfe an, um die vermissten Mädchen zu finden. Es wird vermutet, dass die Entführungen möglicherweise mit Erpressung oder Ritualen in Verbindung stehen.\nEs gibt Berichte über Unruhe innerhalb der Lord’s Alliance, die möglicherweise mit einem schwelenden Krieg zwischen Feuerelementaren und Drachen zusammenhängt. Die Allianz hat seit langer Zeit keine Nachrichten mehr aus Roggersheim erhalten. Eine Gruppe, die sich mit lea und anderen Mitgliedern der Lord’s Alliance trifft, diskutiert Gerüchte über die verschwundenen adeligen Töchter und die allgemeine Lage in der Region. Captain Durnan, ein Vertreter der Lord’s Alliance, informiert die Gruppe über einen Vorfall, bei dem eine Geldbörse entwendet wurde. Die Gruppe einigt sich darauf, dass Rita die Geldbörse genommen hat, und gibt den entwendeten Betrag zurück. Captain Durnan erklärt, dass die Lord’s Alliance ihnen freie Hand gewährt, solange sie unter Aufsicht bleiben.\nCaptain Durnan bietet der Gruppe mehrere Optionen an, darunter die Untersuchung einer Rauchwolke, das Auslöschen eines Spion-/Söldnerlagers oder die Klärung eines magischen Zwischenfalls in Luskan. Die Gruppe entscheidet sich, die Rauchwolke zu untersuchen. Die Gruppe, der Brennen angehört, wurde aufgrund ihrer Taten im Norden eingeladen, jedoch wurde ihnen geraten, vorsichtig zu sein, da die Interessen der Lord’s Alliance nicht unbedingt mit ihren eigenen übereinstimmen.\nDie Lord’s Alliance ist auch in der Region aktiv und hat Vertreter in Briarwatch. Die Gruppe hat Einfluss auf die Sicherheit und Ordnung in der Stadt, insbesondere während der Bedrohung durch Angreifer. Sie ist mit dem Krieg gegen die Feuerelementare beschäftigt, was die Anzahl ihrer Vertreter in Briarwatch begrenzt. Während eines Übergriffs auf Briarwatch kommuniziert Gwendolyn über einen telepathischen Stein mit Flint, der Informationen über die aktuelle Lage und die Anzahl der Wachen in der Stadt bereitstellt. Flint erwähnt, dass die Besatzung von Briarwatch in der Lage ist, die meisten Angriffe abzuwehren, und dass die Lord's Alliance vor Ort ist. Die Lord's Alliance ist unzufrieden mit der Situation ihrer höchsten Abgesandten.\nDie Gruppe diskutiert, ob sie der Nighthag vertrauen oder die Lord’s Alliance warnen sollen, während sie sich auf einen möglichen Angriff vorbereiten. Gwendolyn und ihre Gefährten planen, während der Unruhen in Briarwatch zu agieren und die Situation zu ihrem Vorteil zu nutzen.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": true
+        },
+        {
+            "created_at": "2026-03-21T13:19:08.856000",
+            "updated_at": null,
+            "id": "cmn0cts9h000w04i80ovfrjnn",
+            "name": "Triboar Stadtwache",
+            "aliases": [],
+            "type": null,
+            "description": "Die Triboar Stadtwache ist für die Sicherheit und Ordnung in der Stadt verantwortlich. Ihre Aufgaben umfassen den Schutz der Bürger und die Reaktion auf Vorfälle. Die Stadtwache hat Steckbriefe aufgehängt, um auf Vermisstenfälle aufmerksam zu machen, und berichtet von zahlreichen Stadtbewohnern und Personen aus umliegenden Dörfern, die verschwunden sind. Nur wenige sind zurückgekehrt, und die meisten von ihnen schlafen seit Wochen und sind nicht erwacht. Zwei Ausnahmen sind ein hochgeborener Elf in der Stadt und eine Person auf einem Hof außerhalb. \n\nDie Stadtwache warnt vor den Gefahren, die mit der Jagd auf die vermissten Personen verbunden sind, da viele Kopfgeldjäger nicht zurückgekehrt sind. Sie haben Informationen über Wesen, die andere ins Schlaf versetzen und Albträume verursachen, um die Betroffenen zu manipulieren. Die Stadtwache empfiehlt, vorsichtig zu sein, wenn man auf die Jagd geht, und gibt Hinweise auf die Gefahren in der Umgebung. \n\nDie Stadtwache interveniert auch in potenziell problematischen Situationen, wie dem Vorfall, bei dem sie Bartho Jargon auf der Straße weckten und ihn ins Bett schickten, nachdem er zuvor von Seraphina mit einem Zauber in den Schlaf versetzt worden war. Ihre Präsenz ist in der Stadt spürbar, insbesondere bei der Reaktion auf Vorfälle oder beim Ansprechen von Personen, die sich ungebührlich verhalten.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-03-20T21:01:12.039000",
+            "updated_at": null,
+            "id": "p968fklk4c0vf282cv9pqyrq",
+            "name": "Orks",
+            "aliases": [
+                "Ork"
+            ],
+            "type": null,
+            "description": "Die Orks sind eine brutale und kriegerische Rasse, die in der Umgebung der Gefangenen präsent ist. Sie zeigen eine rohe Belustigung und Autorität, wie es bei den zwei Orks zu beobachten ist, die die Zelle betreten und befehlen, aufzustehen, da der Boss ihn zuerst sehen wolle. Ihre Sprache ist guttural, und sie kommunizieren in Orcisch. Die Orks haben die Fähigkeit, die Gefangenen zu bewachen und zu befehligen.\nDie Orks stehen in einem Konflikt mit Kultisten, da beide Seiten bewaffnet in Richtung des Haupttors rennen. Im Hof sind die Leichen von Orks und Kultisten zu sehen, was auf einen Kampf oder eine Auseinandersetzung hinweist. Der Kampf, der sich entfaltet, ist chaotisch und gewalttätig, was die aggressive Natur der Orks unterstreicht.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-03-20T16:44:58.991000",
+            "updated_at": null,
+            "id": "bjd5lqcksxpb2imgxq6tf6fq",
+            "name": "Befreier",
+            "aliases": [
+                "die beiden halblinghaften Befreier",
+                "die Befreier"
+            ],
+            "type": null,
+            "description": "Die Befreier sind eine Gruppe von Abenteurern, die in einer Kutsche reisen und sich in einer gefährlichen Situation mit Verfolgern konfrontiert sehen. Die Gruppe besteht aus mehreren Mitgliedern, darunter Surina, Rosco, Brennen, Gwendolyn und Dîn-io, von denen zwei halblinghaft sind. Sie operieren in einer Region, die von Burgen und Städten geprägt ist.\nDie Befreier wurden von Verfolgern, darunter Orks und ein vermummter Mensch, verfolgt, als sie in die Kutsche einstiegen und schnell in Bewegung setzten. Während der Flucht feuerten sie mit einem Geschütz auf ihre Verfolger, was zu Verletzungen unter den Angreifern führte. Die Kutsche setzte ihre Fahrt ohne Halt fort, während die Gruppe sich gegenseitig unterstützte, indem sie Verletzungen heilte und Wachen abwechselte. Während der Nachtfahrt begegneten sie einer Handelskarawane, die sich in eine Wagenburg formierte, als die Kutsche näherkam.\nIn der Dunkelheit entfernte sich Surina von der Gruppe und ging in den Wald. Als die anderen Mitglieder der Befreier bemerkten, dass sie fehlte, suchten sie nach ihr. Dîn-io und die beiden halblinghaften Befreier suchten im Wald, während Brennen und Gwendolyn hinterherkamen. Während ihrer Suche hörten sie ein Echo, das Surinas Summen nachahmte. Schließlich fanden sie Surina wieder, die in der Nähe der Kutsche war, aber die Gruppe wurde dann von humanoiden, flammenden Gestalten angegriffen. Die Befreier reagierten schnell, indem sie die schlafenden Mitglieder in die Kutsche zogen und sich in Sicherheit brachten, während sie das Geschütz gegen die Flammengestalten einsetzten.\nNach der Flucht erreichten die Befreier eine große, ummauerte Stadt, wo sie zunächst auf Alarm stießen, aber schließlich durch das Tor gelassen wurden. In der Stadt suchte Dîn-io nach Informationen über unsichtbare, einschläfernde Geisterwesen in einer Bibliothek, während Brennen in einem Park betete.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-03-20T16:44:58.820000",
+            "updated_at": null,
+            "id": "zto2p4rpf341t0di01kokk3d",
+            "name": "Flammengestalten",
+            "aliases": [],
+            "type": "NPC",
+            "description": "Der Schütze, bekannt als Grob, sitzt am Geschütz der Kutsche und feuert Bolzen auf die Verfolger ab. Er kann mehrere Bolzen gleichzeitig abfeuern und demonstriert dies während einer Verfolgung, indem er drei Bolzen in Richtung der Angreifer schießt und zwei von ihnen verletzt. Grob steuert die Kutsche während der Flucht und bestätigt die Route nach Süden.\nAls die Gruppe von Flammengestalten verfolgt wird, nimmt Grob das Geschütz in raschem Feuer auf die Wesen und trifft eine der Flammengestalten, die daraufhin in einer großen Feuerkugel explodiert. Während der weiteren Flucht verweigert Grob Brennen Auskunft über die Natur der flammenden Wesen und äußert, dass Unwissen hier besser sei. Am nächsten Tag stellt sich Grob als der Schütze vor, als die Kutsche in einer großen, ummauerten Stadt ankommt.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-03-18T21:07:48.002000",
+            "updated_at": null,
+            "id": "s3jtqqudzxogzectoaztik7i",
+            "name": "Wachen von Briarwatch",
+            "aliases": [],
+            "type": null,
+            "description": "Die Wachen von Briarwatch sind eine militärische Einheit, die in Briarwatch operiert. Sie sind für die Sicherheit und Ordnung in der Region verantwortlich und nehmen an verschiedenen gesellschaftlichen Ereignissen teil. Die Wachen tragen eine einheitliche Kleidung, die mit dem Briarwatch-Wappen versehen ist.\nBriarwatch ist eine Institution, die nicht direkt in die Angelegenheiten zwischen den Häusern eingreift und nicht als Haus im traditionellen Sinne betrachtet wird. Die Gruppe hat durch ihre Taten im Norden Aufmerksamkeit erregt, was zu ihrer Einladung zum Mondfest führte. Briarwatch hat Einfluss in der Region, und es gilt als Ehre, eine Einladung von ihnen zu erhalten.\nWährend einer Feierlichkeit halfen zwei Wachen von Briarwatch einem Mitglied der Gruppe, Brennen Voidridge, als er in einen See fiel. Sie zogen ihn ans Ufer und hielten ihn fest, bis er wieder festen Halt hatte. Die Wachen wiesen Brennen Voidridge an, nicht im See zu baden, und zogen ihn weiter vom Ufer weg.\nWährend des Mondfestes wurden mehrere Töchter entführt, was Besorgnis und Verdacht unter den Anwesenden auslöste. Brennen Voidridge äußerte den Verdacht, dass die Entführungen im Zusammenhang mit Ritualen stehen könnten. Seres, eine Vertreterin von Briarwatch, erklärte, dass die verschwundenen Mädchen nicht Ziel der „Jagd“ seien und vermutete, dass sie aufgrund ihrer Väter entführt wurden. Sie warnte die Gruppe, dass die Interessen von Briarwatch nicht unbedingt mit ihren übereinstimmen. Brennen fand ein Pergament mit dem dunkelgrünen Siegel von Briarwatch, das eine Einladung zum Mondfest enthielt, jedoch ohne spezifische Angaben zu Absender oder Empfänger.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": true
+        },
+        {
+            "created_at": "2026-03-08T21:53:43.026000",
+            "updated_at": null,
+            "id": "ybluxiqsvzgjndk94i16uw2b",
+            "name": "Hammers of Moradin",
+            "aliases": [
+                "Hammers"
+            ],
+            "type": null,
+            "description": "Die Hammers of Moradin sind eine Gruppierung von Paladinen und Klerikern, die in einer Festung operieren. Kürzlich wurden sie von Untoten und Schatten angegriffen, was zu schweren Verlusten führte, darunter 15 Tote und zahlreiche Gefangene, die für Opferungen vorgesehen waren. Der Angriff deutet auf eine organisierte feindliche Streitmacht hin, die von einem Magier angeführt wurde.\nNach dem Angriff wurden in der Festung Maßnahmen zur Verteidigung und Versorgung ergriffen. Eine Weihwasser-Löschanlage-Löschanlage wurde in Auftrag gegeben, um gezielt gegen die Bedrohung durch Untote vorzugehen. Zudem wurden Gespräche über die magische Verteidigung der Festung geführt. Alagos, ein Mitglied der Hammers of Moradin, wurde auf Necromantie angesprochen, was in Anbetracht der Bedrohung durch Untote von Bedeutung ist. Khorum wurde aus der Gemeinschaft verbannt und ins Exil geschickt. Die Hammers of Moradin zeigen damit eine klare Reaktion auf interne und externe Bedrohungen.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-03-07T16:50:26.714000",
+            "updated_at": null,
+            "id": "sx1n46wkk5toh7cxkbil5gmf",
+            "name": "Gefangene",
+            "aliases": [],
+            "type": null,
+            "description": "Die Gefangenen sind eine Gruppe, die in einem Lager von Skelettmenschen gefangen gehalten wird. Während eines Übergriffs auf das Lager versuchen sie zu fliehen, als sich die Gelegenheit bietet. Im Chaos des Kampfes gelingt es einigen von ihnen, zu entkommen, jedoch wird einer von ihnen von einer Gruppe Skelette eingeholt und wieder gefangen genommen. Ihre Fluchtversuche sind durch die Übermacht der Orcs und Skelette stark gefährdet.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        }
+    ],
+    "from": 1,
+    "last_page": 3,
+    "per_page": 20,
+    "to": 20,
+    "total": 42
+}

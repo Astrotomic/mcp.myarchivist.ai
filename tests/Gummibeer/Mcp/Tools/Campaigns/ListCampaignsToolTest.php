@@ -34,6 +34,8 @@ final class ListCampaignsToolTest extends GummibeerTestCase
                             ->assertJsonSchema(CampaignDataShort::class)
                             ->where('owner_id', '4ee2e6b8-698d-4452-82fd-92ca1d1f4642');
                     });
+
+                $this->assertMatchesJsonSnapshot($json);
             });
     }
 }

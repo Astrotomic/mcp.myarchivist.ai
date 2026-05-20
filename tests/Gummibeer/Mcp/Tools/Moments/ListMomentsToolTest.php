@@ -36,6 +36,8 @@ final class ListMomentsToolTest extends GummibeerTestCase
                             ->assertJsonSchema(MomentDataShort::class)
                             ->where('campaign_id', 'cmj78gm6k000004jrvzm7gcjr');
                     });
+
+                $this->assertMatchesJsonSnapshot($json);
             });
     }
 }

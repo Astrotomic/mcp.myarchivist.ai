@@ -32,6 +32,8 @@ final class GetCharacterToolTest extends GummibeerTestCase
                     ->assertJsonSchema(CharacterData::class)
                     ->where('campaign_id', 'cmj78gm6k000004jrvzm7gcjr')
                     ->where('id', 'ffh55eoknmwl9tseg0i0or9y');
+
+                $this->assertMatchesJsonSnapshot($json);
             });
     }
 }

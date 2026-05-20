@@ -1,0 +1,304 @@
+{
+    "current_page": 2,
+    "data": [
+        {
+            "created_at": "2026-04-15T19:43:10.414000",
+            "updated_at": null,
+            "id": "hng4mm33dhbaxvmt4igdoiq8",
+            "name": "Gestohlenes Buch",
+            "aliases": [
+                "wertvolles Buch",
+                "gestohlenen Buch"
+            ],
+            "type": null,
+            "description": "Das Gestohlene Buch ist ein wertvolles Buch, das aus einer Bibliothek entwendet wurde. Es ist das einzige seiner Art und wird als unbeliebt beschrieben. Die Bibliothekarin wies Anfragen zu diesem Buch ab, da die Gruppe nicht für die Untersuchung registriert war.\nSeres erklärte, dass kein Lebewesen gestohlen wurde, sondern das wertvolle Buch. Die Gruppe diskutierte, dass Informationen über das gestohlene Buch eher bei der Bibliothekarin oder der Herzogin zu bekommen seien. Die Bibliothekarin bestätigte, dass es sich um ein unbeliebtes Werk handelt, das hauptsächlich von der Herzogin und hiesigen Adligen ausgeliehen wird.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-03-23T14:26:48.649000",
+            "updated_at": null,
+            "id": "m1er8b0y6lzek1qlqkmj3flw",
+            "name": "Teleskop-Angel",
+            "aliases": [],
+            "type": null,
+            "description": "Die Teleskop-Angel ist ein Angelgerät, das von der Gruppe auf dem Oberdeck des Schiffes Sandpiper gefunden wurde. Es handelt sich um ein teleskopierbares Modell, das möglicherweise zum Fangen von Fischen oder anderen Meereswesen verwendet werden kann. Die Teleskop-Angel wurde von Rita entdeckt.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-03-21T14:04:03.459000",
+            "updated_at": null,
+            "id": "c4omgwl1upuvi2irvy2qyxb0",
+            "name": "Mechanischer Metallvogel",
+            "aliases": [
+                "kleiner mechanischer Metallvogel",
+                "mechanischer Vogel"
+            ],
+            "type": null,
+            "description": "Der mechanische Metallvogel ist ein kleiner, flugfähiger Automat, der von Flint an Surina Nemmonis übergeben wird. Er aktiviert sich durch einen Knopf am Bauch und breitet seine Flügel aus, um zu fliegen. Surina erhält eine telepathische Sichtverbindung, die es ihr ermöglicht, das zu sehen, was der Vogel sieht. Der Vogel fliegt zunächst in kleinen Runden über Surinas Kopf und kann auf ihren Hörnern landen.\nWährend der Reise lässt Surina den Vogel aufsteigen, um die Umgebung zu erkunden. Der Vogel fliegt über Baumhöhe und entdeckt eine große Ansammlung von Schlangen auf einem Plateau, woraufhin Surina ihn vorsichtshalber zurückruft, um ihn vor möglicher Gefahr zu schützen. Der Vogel wird als nützliches Hilfsmittel betrachtet, das der Gruppe bei der Erkundung der Umgebung hilft.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-03-21T14:04:03.434000",
+            "updated_at": null,
+            "id": "cp9f2v0lp4nd30ak61epa2fo",
+            "name": "Kistina",
+            "aliases": [
+                "laufende Truhe",
+                "Lauftruhe",
+                "ungewöhnliche Truhe",
+                "Kiste"
+            ],
+            "type": null,
+            "description": "Kistina ist eine mechanische Truhe, die auf vier Beinen steht und sich selbstständig bewegt. Sie wurde von Flint aktiviert und ist Teil einer Mission, bei der die Gruppe sie zu einer befreundeten Gnomen-Siedlung namens Gnomengard bringen soll. Kistina kann auf Sprachbefehle wie Stopp, Lauf, Rechts und Links reagieren und wurde von der Gruppe als „Kistina“ benannt.\nWährend der Reise begegnete die Gruppe verschiedenen Herausforderungen, darunter ein Hinterhalt von Goblinoiden. Kistina blieb während des Kampfes unbeschadet und wurde von der Gruppe als wertvolles Transportmittel betrachtet. Nach dem Kampf setzte die Gruppe ihren Marsch mit Kistina fort.\nSpäter wurde Kistina als ein bewegliches, etwa einen Meter großes Objekt in der Form und Größe einer Kiste beschrieben. Sie wird als Liefergegenstand betrachtet, der von der Gruppe zu den Gnomen gebracht wurde. Die Kiste kann auf Befehl der Gruppe eigenständig laufen und wurde als erwartete Lieferung aus Hammerheim erkannt. Brennan Voidridge zeigte der Kiste die Aussicht auf die bewaldeten Inselchen im Becken, bevor er mit ihr zu den anderen zurückkehrte. Ein Gnom forderte die Gruppe zur Identifizierung auf, und die Kiste wurde als die erwartete Lieferung identifiziert. Auf Anweisung eines Gnoms ließ Brennan die Kiste „in die Ecke laufen“, wo sie verblieb. Die Gnome erklärten, dass der Tausch und das Beladen bis zum nächsten Tag dauern würden, und baten die Gruppe, die Kiste danach wieder zurückzubringen.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": true
+        },
+        {
+            "created_at": "2026-03-20T21:01:12.458000",
+            "updated_at": null,
+            "id": "w166326q4340pm7526g8je48",
+            "name": "Surinas Doppelklingensäbel",
+            "aliases": [
+                "Doppelklingensäbel"
+            ],
+            "type": null,
+            "description": "Surinas Doppelklingensäbel ist eine Waffe, die sich in einem Raum innerhalb eines runden Steinturms befindet. Die Waffe gehört zu Surinas Ausrüstung, die die Gruppe nach ihrer Flucht aus einer Zelle wiederfindet. Der Säbel lehnt gegen eine Kiste. Surina trägt den Säbel auf ihrem Rücken und zeigt damit ihre Bereitschaft zum Kampf.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-03-20T16:44:59.349000",
+            "updated_at": null,
+            "id": "tzsv7gomhco9vu9mt2136f6r",
+            "name": "Iron Fang",
+            "aliases": [
+                "die schwarze Kutsche",
+                "Kutsche",
+                "Kriegswagen",
+                "Großer, eisenbeplatteter Kriegswagen mit montierter Armbrust",
+                "Wagen"
+            ],
+            "type": null,
+            "description": "Die Iron Fang ist ein großer, eisenbeplatteter Kriegswagen, der von sechs Pferden gezogen wird. An der Rückseite des Wagens befindet sich ein breiter, schmaler Schießschlitz, in dem eine montierte Armbrust installiert ist. Rauch steigt aus dem Mechanismus der Armbrust auf, was auf eine kürzliche Nutzung hinweist.\nDer Wagen steht zwischen den Leichen von Orks und Kultisten. Ein kleiner Goblin, dessen grüne Haut mit Öl und Ruß verschmiert ist, tritt aus der Seitentür des Wagens und ruft: „Kommt her oder sterbt da“, bevor er wieder im Inneren verschwindet. Danach setzt sich die Iron Fang in Bewegung. Dîn-io springt als Erster in den Wagen, gefolgt von Gwendolyn, Surina und Brennen, der die Tür hinter sich zuschlägt. Im Inneren zielt der Goblin am Heck die montierte Armbrust neu aus und feuert erneut nach draußen, während der Wagen an Geschwindigkeit gewinnt und die Gruppe von der Burg fortreißt.\nZuvor war eine schwarze Kutsche, die mit einem Geschütz ausgestattet war, verwendet worden. Der Schütze am Ende der Kutsche feuerte Bolzen ab, um Verfolger zu verletzen. Die Kutsche fuhr schnell und ununterbrochen, sowohl Tag als auch Nacht, und konnte in gefährlichen Situationen schnell fliehen. Sie war mit verschiedenen Vorräten ausgestattet, darunter Wasserflaschen, Weinflaschen, ein kleines Bierfass, Brot, Käse, luftgetrocknete Wurst und Äpfel.\nDie Kutsche verließ das Burgtor und zog mit rasanter Geschwindigkeit davon, während sie von einer zweiten Verbündeten-Kutsche begleitet wurde. Sie fuhr durch die Stadt Long Settle, wo die Bewohner zur Seite sprangen und berittene Stadtwachen kurz die Verfolgung aufnahmen. In der Nacht hielt die Kutsche an, um den Reisenden eine Pause zu ermöglichen. Während der Fahrt wurde die Kutsche von einem unnatürlichen Wind umgeben, und die Gruppe bemerkte merkwürdige Phänomene in der Umgebung.\nAls die Kutsche in der Nähe einer großen, ummauerten Stadt ankam, wurde das Stadttor geöffnet, nachdem der Schütze, der sich als Grob vorstellt, einen Hebel betätigt hatte. Die Kutsche wurde in der Stadt abgestellt, und die Reisenden planten, die Nacht dort zu verbringen.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": true
+        },
+        {
+            "created_at": "2026-03-20T14:23:17.455000",
+            "updated_at": null,
+            "id": "nabj5i8w19uqa8n6bcz63yfn",
+            "name": "magisches Schwert",
+            "aliases": [
+                "ein magisches Schwert",
+                "das magische Schwert"
+            ],
+            "type": null,
+            "description": "Das magische Schwert wurde in der Festung Nightstone entdeckt. Es handelt sich um eine Waffe, die sich deutlich von gewöhnlicher Ausrüstung abhebt. Die Gruppe nahm das Schwert an sich, nachdem sie es in den Trümmern und Gemächern der Festung gefunden hatte.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-03-18T21:07:48.417000",
+            "updated_at": null,
+            "id": "e3b9hx7zcpi81geh0esale4h",
+            "name": "Lodernde Leidenschaft",
+            "aliases": [
+                "rote Blume",
+                "feuerrote Blüte"
+            ],
+            "type": null,
+            "description": "Lodernde Leidenschaft ist eine Blume aus Kalimshan, die dort als selten gilt. Sie hat auffallend feuerrote Blüten und ölhaltige Kerne, die leicht entflammbar sind und einen süßlichen Duft abgeben, wenn sie geröstet werden. Diese Kerne sind bekannt für ihre aphrodisierende Wirkung und werden traditionell in Hochzeitsnächten verwendet.\nGwendolyn trägt die Lodernde Leidenschaft in ihrem Haar, nachdem Brennan sie ihr überreicht hat. Rita identifiziert die Blume und erklärt ihre besonderen Eigenschaften, einschließlich der Warnung, Abstand zu offenem Feuer zu halten. Gwendolyn gibt Rita einige Kerne der Blume, die sie in einem Becher platziert. Rita verwendet diese Kerne, um eine Stichflamme zu erzeugen.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-03-09T10:37:59.082000",
+            "updated_at": null,
+            "id": "lh8vuofej46gv9p9vxwaxeca",
+            "name": "Magnetizer Eldritch Canon",
+            "aliases": [],
+            "type": null,
+            "description": "Die Magnetizer Eldritch Canon ist ein magisches Gerät. Flint schlägt vor, die Magnetizer Eldritch Canon gegen den schwer gerüsteten Krieger des Magiers einzusetzen. Die Gruppe verwendet die Magnetizer Eldritch Canon, um den Krieger des Magiers in ein Loch zu befördern, was den Verlauf des Kampfes zu ihren Gunsten wendet.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-03-09T00:11:07.637000",
+            "updated_at": null,
+            "id": "hbpd9hk7nhe43lx6qp6eiwjd",
+            "name": "Amulet of Radiant Guidance",
+            "aliases": [
+                "Amulett"
+            ],
+            "type": null,
+            "description": "Das Amulet of Radiant Guidance ist ein magisches Artefakt, nach dem Alagos in der Bibliothek von Triboar sucht. Alagos fragt gezielt nach Büchern über das Amulet of Radiant Guidance. Es sind keine spezifischen Eigenschaften, Funktionen oder Ursprünge des Amuletts bekannt. Alagos' Interesse deutet darauf hin, dass es möglicherweise mit Wissen oder magischen Fähigkeiten verbunden ist. Das Amulet ist auch ein magisches Artefakt, das von einem Elf gesucht wird. Der Elf glaubt, dass er mit dessen Hilfe einen Gott gefügig machen kann. Trotz der Warnungen seiner Gruppe setzt er seine Suche nach dem Amulet fort.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": true
+        },
+        {
+            "created_at": "2026-03-09T00:11:07.616000",
+            "updated_at": null,
+            "id": "l7su7ghlb5w66h8ztejms33g",
+            "name": "Schriftrolle mit „Glyph of Warding“",
+            "aliases": [],
+            "type": null,
+            "description": "Die Schriftrolle „Glyph of Warding“ ist ein magisches Artefakt, das von Flint Fireforge in der Bibliothek von Triboar entdeckt wurde. Flint stiehlt diese Schriftrolle.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-03-09T00:11:07.596000",
+            "updated_at": null,
+            "id": "z0jq1fqgwptex0sgtw1664bd",
+            "name": "Artificial Times",
+            "aliases": [],
+            "type": null,
+            "description": "Artificial Times ist ein Buch über historische Erfindungen, das Flint Fireforge in der Bibliothek von Triboar findet. Es passt zu Flints Interessen als Erfinder und Handwerker. Während seines Aufenthalts in der Bibliothek entdeckt Flint eine Schriftrolle mit dem Titel „Glyph of Warding“, die er stiehlt.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-03-09T00:11:07.576000",
+            "updated_at": null,
+            "id": "dqv9jw465d6e50171pgkikg7",
+            "name": "legendäre Laute",
+            "aliases": [],
+            "type": null,
+            "description": "Die legendäre Laute ist ein wertvolles Musikinstrument, das Sudur Ragni auf dem High Market für 40 Goldstücke entdeckt. Durch einen Auftritt und den Tausch seiner alten Laute gelingt es ihm, den Preis auf 23 Goldstücke zu senken, bevor er die legendäre Laute erwirbt. Sudurs Auftritt führt zu einer Einladung zu einer Party im Everwyvern Resort.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-03-08T22:00:14.674000",
+            "updated_at": null,
+            "id": "cmmiapugj000204lhopbbwpkw",
+            "name": "Weihwasser-Löschanlage",
+            "aliases": [],
+            "type": null,
+            "description": "Die Weihwasser-Löschanlage-Löschanlage wurde in der Festung in Auftrag gegeben, um gezielt gegen Untote vorzugehen. Sie ist Teil der Verteidigungsmaßnahmen der Festung, die speziell auf Bedrohungen durch Untote oder andere unheilige Kräfte ausgerichtet sind.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-03-08T21:53:43.304000",
+            "updated_at": null,
+            "id": "d1kky3r3danw568mut5e458x",
+            "name": "Goblinisch - Common Wörterbuch",
+            "aliases": [
+                "Wörterbuch"
+            ],
+            "type": null,
+            "description": "Gwerk begann ein „Goblinisch - Common“ Wörterbuch zu erstellen. Dieses Projekt dokumentiert den Fortschritt in der sprachlichen Verständigung und Wissenssammlung innerhalb der Gemeinschaft. Es wird in einem Kontext erwähnt, der von Angriffen und Verteidigungsmaßnahmen geprägt ist, was zeigt, dass trotz der angespannten Situation auch an der Kommunikation und dem Verständnis zwischen verschiedenen Kulturen gearbeitet wird.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-03-08T21:53:43.270000",
+            "updated_at": null,
+            "id": "lo9io7djz0v9e0pzmlu299d5",
+            "name": "Schmiede-Bunsenbrenner",
+            "aliases": [
+                "Bunsenbrenner"
+            ],
+            "type": null,
+            "description": "Der Schmiede-Bunsenbrenner ist ein von Flint hergestelltes Werkzeug, das in der Schmiede verwendet wird. Es ist Teil von Flints technischen Fortschritten. Der Schmiede-Bunsenbrenner könnte für die Herstellung oder Verbesserung von Waffen oder anderen Ausrüstungsgegenständen eingesetzt werden.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-03-07T18:29:16.139000",
+            "updated_at": null,
+            "id": "ivb2kgxo48qnnenshdbk31lj",
+            "name": "Flammenwerfer",
+            "aliases": [
+                "Flamethrower Eldritch Canon",
+                "Kanone"
+            ],
+            "type": null,
+            "description": "Der Flammenwerfer ist ein magisches Gerät, das von Flint Fireforge verwendet wird. Es handelt sich um eine Waffe, die Feinde angreift, wenn sie nicht das Codewort „Hammerhåeim“ kennen. Flint Fireforge weist Gwerk an, den Tisch in der Empfangshalle zu verteidigen, wobei der Flammenwerfer ihn unterstützt. Während eines Angriffs bemerkt Gwerk eine Bewegung im Obergeschoss, feuert einen Bolzen ab und der Flammenwerfer reagiert ebenfalls, was beinahe zu einem Unfall führt, als Sudur Ragni knapp ausweicht und die Hitze der Flammen spürt.\nDer Flammenwerfer wird als Teil der Verteidigungsstrategie in der Festung Hammerhåeim eingesetzt, um Eindringlinge abzuwehren. Weiterhin ist die Eldritch Cannon eine von Flint konstruierte Waffe und stellt einen technischen Fortschritt dar. Sie ist Teil von Flints Bemühungen, neue Werkzeuge zur Reaktion auf die eskalierende Bedrohungslage zu schaffen. Die Konstruktion dieser Kanone zeigt Flints Weiterentwicklung und Verbesserung seiner Ausrüstung zur Verteidigung der Festung.\nIn einem humorvollen Kontext wird die Eldritch Cannon von Flint Fireforge auch als Möglichkeit erwähnt, Elfenkarawanen anzugreifen, um an Mithril zu gelangen. Flint schlägt vor, den Wald abzubrennen und die Eldritch Cannon einzusetzen, um seine Ziele zu erreichen. Dieser Vorschlag wird jedoch nicht als ernsthafte Handlungsstrategie betrachtet.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": true
+        },
+        {
+            "created_at": "2026-03-07T18:29:16.080000",
+            "updated_at": null,
+            "id": "ftak3u1n6sfxlqyrp3lkt1sy",
+            "name": "Skyreaper",
+            "aliases": [],
+            "type": null,
+            "description": "Der Skyreaper ist ein bewaffnetes Luftschiff, das von einer Gruppe über Waterdeep getestet wurde. Während des Testflugs wurden sämtliche Steuerelemente sowie die Bewaffnung des Schiffes überprüft. Der Test verlief erfolgreich, und alle wichtigen Funktionen arbeiteten wie vorgesehen. Die Gruppe landete das Schiff sicher, was den Abschluss des Tests markierte.\nIm Anschluss verhandelte die Gruppe im Palast von Waterdeep und erhielt für ihre Leistungen 150 Gold pro Kopf. Flint Fireforge erhielt zusätzlich ein Set Sending Stones.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-03-07T16:50:27.169000",
+            "updated_at": null,
+            "id": "n2e3ybl8svj5m47b933pq1oq",
+            "name": "Banner",
+            "aliases": [],
+            "type": null,
+            "description": "Das Banner ist ein wichtiges Symbol innerhalb der Festung Hammerhåeim. Khorum Ironfist hat das Banner abgerissen, was zu einer Diskussion über die angemessene Strafe führte. Die genaue Erscheinung oder spezifische Merkmale des Banners sind nicht beschrieben.\nDie Gruppe versammelte sich in der Empfangshalle von Hammerhåeim und stellte fest, dass der Kultist tot war. Flint Fireforge führte eine Befragung durch und erfuhr, dass Khorum Ironfist das Banner abgerissen hatte. Flint blieb unentschlossen bezüglich einer Strafe für diese Tat.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-03-07T16:50:27.149000",
+            "updated_at": null,
+            "id": "g58bc244zhiu296pft5cijim",
+            "name": "Schwere Armbrust mit Stativ",
+            "aliases": [],
+            "type": null,
+            "description": "Die schwere Armbrust mit Stativ ist ein schweres Geschütz, das von der Gruppe für einen bevorstehenden Angriff auf ein Lager vorbereitet wurde. In der Nacht vor dem Angriff wurde sie zusammen mit Bänken und Tischen verladen. Die Gruppe plante, die Armbrust strategisch im Kampf einzusetzen.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        }
+    ],
+    "from": 21,
+    "last_page": 5,
+    "per_page": 20,
+    "to": 40,
+    "total": 84
+}

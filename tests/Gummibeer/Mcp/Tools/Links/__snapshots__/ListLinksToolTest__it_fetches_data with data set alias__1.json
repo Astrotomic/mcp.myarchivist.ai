@@ -1,0 +1,210 @@
+{
+    "current_page": 1,
+    "data": [
+        {
+            "id": "cmpd4bz0p002b14bp2hpx4i8w",
+            "from_id": "cmj78gm6k000004jrvzm7gcjr",
+            "from_type": "World",
+            "to_id": "nb4difgtwfij9jftajhqea76",
+            "to_type": "Location",
+            "alias": "Taverne",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T21:01:45.798000"
+        },
+        {
+            "id": "cmpd4bynh001t14bpqmaa2vk9",
+            "from_id": "cmpbdnlls000004l15qelefj9",
+            "from_type": "GameSession",
+            "to_id": "nb4difgtwfij9jftajhqea76",
+            "to_type": "Location",
+            "alias": "Taverne",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T21:01:45.332000"
+        },
+        {
+            "id": "cmpbg3xwx008s1gdq4qv5756j",
+            "from_id": "xpv723vsxdr7pm1o9w0b8h8f",
+            "from_type": "Item",
+            "to_id": "nb4difgtwfij9jftajhqea76",
+            "to_type": "Location",
+            "alias": "Taverne",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-18T16:55:54.210000"
+        },
+        {
+            "id": "cmpbg3wkz007k1gdqm3x12r1y",
+            "from_id": "r2k0srsuvhwby6zystohtuza",
+            "from_type": "Character",
+            "to_id": "nb4difgtwfij9jftajhqea76",
+            "to_type": "Location",
+            "alias": "Taverne",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-18T16:55:52.484000"
+        },
+        {
+            "id": "cmpbg3use005w1gdqgvw0rb73",
+            "from_id": "cmpbfwfnl001p0tkbu0f9tcr3",
+            "from_type": "Beat",
+            "to_id": "nb4difgtwfij9jftajhqea76",
+            "to_type": "Location",
+            "alias": "Taverne",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-18T16:55:50.159000"
+        },
+        {
+            "id": "cmpbg3tke00511gdquh3nf77d",
+            "from_id": "cmpbfxmih00290tkb16qey4qr",
+            "from_type": "Beat",
+            "to_id": "nb4difgtwfij9jftajhqea76",
+            "to_type": "Location",
+            "alias": "Taverne",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-18T16:55:48.575000"
+        },
+        {
+            "id": "cmpbg3tc0004n1gdqmvy3x41x",
+            "from_id": "cmpbfxm8x00260tkbr5gpjb83",
+            "from_type": "Beat",
+            "to_id": "nb4difgtwfij9jftajhqea76",
+            "to_type": "Location",
+            "alias": "Taverne",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-18T16:55:48.273000"
+        },
+        {
+            "id": "cmpbg3sbr003l1gdqunz0njgm",
+            "from_id": "cmpbfxngr002l0tkbard2eoma",
+            "from_type": "Beat",
+            "to_id": "nb4difgtwfij9jftajhqea76",
+            "to_type": "Location",
+            "alias": "Taverne",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-18T16:55:46.969000"
+        },
+        {
+            "id": "cmpbg3r0i002l1gdqkn6nd34k",
+            "from_id": "cmpbfwbqk00030tkbj5ndo01j",
+            "from_type": "Beat",
+            "to_id": "nb4difgtwfij9jftajhqea76",
+            "to_type": "Location",
+            "alias": "Taverne",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-18T16:55:45.267000"
+        },
+        {
+            "id": "cmpbg3ppf001g1gdqvkd4hkk8",
+            "from_id": "cmpbfwbwx00060tkbs5ylemn0",
+            "from_type": "Beat",
+            "to_id": "nb4difgtwfij9jftajhqea76",
+            "to_type": "Location",
+            "alias": "Taverne",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-18T16:55:43.573000"
+        },
+        {
+            "id": "cmpbg3ow600191gdq4qtgi1jz",
+            "from_id": "cmpbfxmfl00280tkbjk7fyip0",
+            "from_type": "Beat",
+            "to_id": "nb4difgtwfij9jftajhqea76",
+            "to_type": "Location",
+            "alias": "Taverne",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-18T16:55:42.519000"
+        },
+        {
+            "id": "cmpbg3o96000v1gdqjk07ulyo",
+            "from_id": "cmpbfwbz000070tkbjss1codn",
+            "from_type": "Beat",
+            "to_id": "nb4difgtwfij9jftajhqea76",
+            "to_type": "Location",
+            "alias": "Taverne",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-18T16:55:41.691000"
+        },
+        {
+            "id": "cmpbg3o0r000r1gdqgzcjlb0t",
+            "from_id": "cmpbfwfdm001n0tkbk9j4lsil",
+            "from_type": "Beat",
+            "to_id": "nb4difgtwfij9jftajhqea76",
+            "to_type": "Location",
+            "alias": "Taverne",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-18T16:55:41.388000"
+        },
+        {
+            "id": "cmpbg3np900051gdqq1w64uiy",
+            "from_id": "cmpbdnlnf000104l1twu5lsy7",
+            "from_type": "SessionReview",
+            "to_id": "nb4difgtwfij9jftajhqea76",
+            "to_type": "Location",
+            "alias": "Taverne",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-18T16:55:40.973000"
+        },
+        {
+            "id": "cmpbg28sn00120tcl99c6cln0",
+            "from_id": "cmlw3q4yk000004l2y2jvy62l",
+            "from_type": "Character",
+            "to_id": "nb4difgtwfij9jftajhqea76",
+            "to_type": "Location",
+            "alias": "Taverne",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-18T16:54:35.002000"
+        },
+        {
+            "id": "cmpbg28jg000z0tclmylrt67n",
+            "from_id": "cmlw3uedi000104l2wxxexcpk",
+            "from_type": "Character",
+            "to_id": "nb4difgtwfij9jftajhqea76",
+            "to_type": "Location",
+            "alias": "Taverne",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-18T16:54:34.670000"
+        },
+        {
+            "id": "cmpbg27nj000m0tclfx93bloe",
+            "from_id": "cmlw3mrpf000104jun00oy0tm",
+            "from_type": "Character",
+            "to_id": "nb4difgtwfij9jftajhqea76",
+            "to_type": "Location",
+            "alias": "Taverne",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-18T16:54:33.520000"
+        },
+        {
+            "id": "cmpbg276l000g0tclshfa14a9",
+            "from_id": "cmlw3rcht000104jrhi3ad2ba",
+            "from_type": "Character",
+            "to_id": "nb4difgtwfij9jftajhqea76",
+            "to_type": "Location",
+            "alias": "Taverne",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-18T16:54:32.911000"
+        },
+        {
+            "id": "cmpbg26kq00080tcl14ko01wq",
+            "from_id": "cmlw3om9d000004jrvihi3qlk",
+            "from_type": "Character",
+            "to_id": "nb4difgtwfij9jftajhqea76",
+            "to_type": "Location",
+            "alias": "Taverne",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-18T16:54:32.123000"
+        },
+        {
+            "id": "cmo0gt7is000q04l5pl42f1pr",
+            "from_id": "cmj78ooos000004jv37n46tid",
+            "from_type": "Character",
+            "to_id": "b16pdpqjn4nqjo2notn9rabu",
+            "to_type": "Location",
+            "alias": "Taverne",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-04-15T19:50:22.789000"
+        }
+    ],
+    "from": 1,
+    "last_page": 3,
+    "per_page": 20,
+    "to": 20,
+    "total": 52
+}

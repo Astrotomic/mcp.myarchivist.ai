@@ -1,0 +1,309 @@
+{
+    "current_page": 1,
+    "data": [
+        {
+            "created_at": "2026-05-18T16:51:46.584000",
+            "updated_at": null,
+            "id": "mzmcgsnfs8kwhra2q97lohyh",
+            "name": "Schiff",
+            "aliases": [],
+            "type": null,
+            "description": "Das Schiff ist beschädigt und hat aktuell Kufen angebracht. Es wird geprüft, ob es wieder schwimmen kann. Ein Schiffszimmermann führt die Gruppe zum Schiff und plant, die Kufen abzunehmen und das Schiff zu prüfen. Surina geht kurz an Bord und füttert das zur Crew gehörende Walross. Die Gruppe diskutiert über Preis und Aufteilung der Kosten und zahlt dem Schiffszimmermann schließlich den vereinbarten Betrag. Der Schiffszimmermann nimmt das Geld an, wünscht gute Fahrt und kehrt in die Stadt zurück.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-05-18T16:51:46.504000",
+            "updated_at": null,
+            "id": "aed3w1wlauo351yhkagk49g8",
+            "name": "Vulkan",
+            "aliases": [],
+            "type": null,
+            "description": "Der Vulkan ist eine geografische Erhebung, an dessen Hängen noch glühende Lava sichtbar ist. Dunkle Wolken hängen über der Region, während gelegentlich Asche fällt. Die rote Leuchtkraft der Lava ist an den Außenhängen sichtbar.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-05-18T16:51:46.425000",
+            "updated_at": null,
+            "id": "ciq62riyyfc0npr586pxfsps",
+            "name": "Zellen der Stadtwache",
+            "aliases": [
+                "Zellen"
+            ],
+            "type": null,
+            "description": "Die Zellen der Stadtwache sind Gewahrsamsräume, in denen festgehaltene Personen bis zur Klärung von Unstimmigkeiten untergebracht werden. Zwischen den beiden Verwahrplätzen befindet sich eine dünne Zwischenwand, sodass die Insassen praktisch nebeneinander liegen. Nach einem Vorfall in der Kirche wurden Naevys Nerizana und Brennan in getrennten Zellen untergebracht. Eine Hohepriesterin führte dort Handbewegungen aus und sprach unverständliche Worte, woraufhin Naevys und Brennan rasch aufgetaut wurden. Sie blieben bis nach Sonnenaufgang in Gewahrsam, bis eine Stadtwache die Zellentür öffnete und sie die Zellen verlassen durften.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-05-18T16:51:46.344000",
+            "updated_at": null,
+            "id": "knrfmjjqndy2rias3uztpls8",
+            "name": "Marktplatz",
+            "aliases": [],
+            "type": null,
+            "description": "Der Marktplatz dient als Durchgangsweg zwischen der Kirche und den Hotelzimmern.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-05-18T16:51:46.182000",
+            "updated_at": null,
+            "id": "nb4difgtwfij9jftajhqea76",
+            "name": "Taverne",
+            "aliases": [],
+            "type": null,
+            "description": "Die Taverne ist ein Gasthaus mit Zimmern. Die Gruppe trug nacheinander eingefrorene Personen über den Marktplatz in Tücher zur Taverne, wo mehrere Gruppenmitglieder unterkamen. Die Hohepriesterin begleitete Gwendolyn und Dîn-io zur Taverne, wo es Verwirrung um die richtige Tür gab. Gwendolyn öffnete die richtige Tür, und die Gruppe erreichte Brennan. Später legten Surina und Dîn-io sich in der Taverne schlafen. Nach Sonnenaufgang kehrten Naevys und Brennan aus der Gewahrsamszelle in ihr Zimmer in der Taverne zurück und fanden Surina und Dîn-io schlafend vor. Surina ging kurz in die Taverne, um dem Walross Futter zu bringen.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-05-18T16:51:46.085000",
+            "updated_at": null,
+            "id": "pbd51edatctika2hzpr8dxss",
+            "name": "Tempel",
+            "aliases": [
+                "Kirche"
+            ],
+            "type": null,
+            "description": "Der Tempel ist ein Kirchengebäude mit einer Treppe an der Vorderseite, einem Raum mit ornamentiertem Kirchenfenster und einem verborgenen Bereich, in dem eine verschlossene Truhe mit Bannmagie und ein Buch gefunden wurden. Die Hohepriesterin und Priesterinnen gehören zum Tempelpersonal.\nNachts drang eine Gruppe in den Tempel ein, schloss die Tür und öffnete eine verschlossene Tür ins Verborgene, wo sie das Buch und die Truhe fand. Das Öffnen des Buches ließ drei Gruppenmitglieder einfrieren. Die Eingefrorenen wurden über den Marktplatz in Tavernenzimmer gebracht. Die Hohepriesterin empfing die Gruppe auf den Tempeltreppen, informierte die Stadtwache, verhörte Surina telepathisch, stellte Bedingungen zur Rückgabe entwendeter Gegenstände und bot das Auftauen an. Vor Morgengrauen wurden die Gegenstände durch ein Kirchenfenster mithilfe einer kleinen Wolke in die Tempeltruhe zurückgebracht. Nach Sonnenaufgang kümmerte der Tempel sich um Naevys und Brennan.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-05-13T20:01:06.486000",
+            "updated_at": null,
+            "id": "xs5x4fz3qp1i6uvcrfrof2w1",
+            "name": "Luftschiff",
+            "aliases": [
+                "Luftschiff (die Abholung)"
+            ],
+            "type": null,
+            "description": "Das Luftschiff ist ein fliegendes Gefährt, das über dem Gelände schwebt und mit Annehmlichkeiten wie einer Toilette ausgestattet ist. Es bietet Platz für die Besatzung und die Reisenden. An Bord wird eine Mahlzeit serviert, die aus Kartoffeln, Wildbraten, Möhren-Rüben-Gemüse und Bier besteht. Die Besatzung sorgt für die Verpflegung der Passagiere.\nDas Luftschiff senkt sich über das Gelände und lässt Strickleitern herab, um die Gruppe an Bord zu holen. Es fliegt direkt zur Festung zurück.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-04-30T13:49:34.167000",
+            "updated_at": null,
+            "id": "sncppk1npiaayv179fi58177",
+            "name": "Nahegelegene Hütte mit Feuerstelle",
+            "aliases": [
+                "Hütte"
+            ],
+            "type": null,
+            "description": "Die Hütte mit Feuerstelle dient der Gruppe als Unterkunft und bietet Platz für die Übernachtung. Sie ist stabil gebaut und befindet sich auf einer mittelgroßen Flussinsel, die die Gruppe bei Einbruch der Dämmerung erreicht hat.\nNach dem Sieg über den Aklut führt der Pinguin die Gruppe zur Hütte und bietet an, dort zu übernachten. In der Hütte häutet und zerlegt die Gruppe den Aklut, bereitet Fleisch zum Essen zu und sammelt wertvolle Materialien wie Zähne, Krallen und das zähe Leder. Am Abend vollendet Dîn-io Tempest eine Schnitzarbeit und schenkt Surina Nemmonis einen kleinen Bären-Anhänger. Der Pinguin verlässt die Hütte kurz, um sein größeres, Stählernes Schiff durch das Eis zur Insel zu bringen. Surina Nemmonis geht mit dem Pinguin an Bord, wo sie eine Crew aus mehreren Pinguinen, einem Hai und einigen Enten sieht. Der Pinguin, der sich als Admiral des Schiffs vorstellt, bietet an, die Gruppe zur Insel mit dem Hort von Ava Charus zu bringen.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-04-30T13:49:34.147000",
+            "updated_at": null,
+            "id": "ltswe4nz58hbj1evvnpbh36a",
+            "name": "Mittelgroße Flussinsel",
+            "aliases": [
+                "Insel"
+            ],
+            "type": null,
+            "description": "Die Flussinsel ist eine seichte und flache Sandbank, umgeben von Bäumen. Sie kann in etwa einer Viertelstunde bis einer halben Stunde umrundet werden.\nDie Insel ist von verschiedenen Wildtieren bewohnt. Ein Pinguin näherte sich der Gruppe und führte sie an den vereisten Strand, wo sie eine frisch gerissene Robbe als Spur eines Aklut entdeckten. Nach einem Kampf gegen den Aklut bot der Pinguin der Gruppe eine Nahegelegene Hütte mit Feuerstelle an, wo sie übernachten konnten. Die Gruppe häutete und zerlegte den Aklut und bereitete das Fleisch zum Essen vor. Der Pinguin ließ sein größeres, Stählernes Schiff durch das Eis zur Insel brechen und anlegen.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-04-30T13:49:34.127000",
+            "updated_at": null,
+            "id": "d493mcl61sjqyev9c3sg4bt9",
+            "name": "Hort von Arveiaturace",
+            "aliases": [
+                "Drachenhort",
+                "Ava Charus’ Hort"
+            ],
+            "type": null,
+            "description": "Der Hort von Ava Charus befindet sich auf einer Insel in der offenen See. Diese Region ist bekannt dafür, dass seit zweihundert Jahren kein Schiff die Passage zu diesem Hort erfolgreich durchqueren konnte. Der weiße Drache Ava Charus, der die Sonne verdunkeln kann, ist die Herrin dieses Ortes.\n\nEin großer weißer Drache überfliegt eine Gruppe auf einem Boot und beschädigt mit seiner Schwanzspitze den Segelmast. Der Drache erklärt, dass man nur in seinem Hort mit ihm sprechen könne, bevor er in Richtung Südwesten davonflog. Später wird die Gruppe von einem Pinguin, der sich als Admiral eines Schiffs vorstellt, zu dem Hort eingeladen. Der Admiral warnt sie vor den Gefahren der Passage und bietet an, sie zur Insel zu bringen, wo Ava Charus lebt.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-04-15T19:43:10.177000",
+            "updated_at": null,
+            "id": "e6ksdp72czh6gn9osb3v932g",
+            "name": "Aglarond",
+            "aliases": [],
+            "type": null,
+            "description": "Agloron ist ein Ort, der mit einem obsidianen Würfel in Verbindung steht, der als nahezu mythisch beschrieben wird. Der Würfel entzieht dauerhaft den Besitz und wird in Berichten erwähnt, die Agloron, Rogarsheim und Calimshan betreffen.\n\nDie Region Agloron hat historische Verbindungen zur Anauroch-Wüste, die seit dem Fall des magokratischen Imperiums der Netheril vor etwa 1700–1800 Jahren zur Wüste wurde. In der Bibliothek wurde ein Buch über den obsidianen Würfel gefunden, das ihn als Rubycon bezeichnet und darauf hinweist, dass es bisher niemandem gelungen ist, ihn in Besitz zu nehmen. Die Berichte über den Würfel stammen aus verschiedenen Orten, darunter Agloron, und es gibt Hinweise auf Verbindungen zu zwielichtigen Gruppen und Relikten früherer Zeiten.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-04-15T19:43:10.159000",
+            "updated_at": null,
+            "id": "e150s5wipvh8td1nltpdp8jz",
+            "name": "Anauroch",
+            "aliases": [],
+            "type": null,
+            "description": "Die Anauroch-Wüste ist eine Region, die seit dem Fall des magokratischen Imperiums der Netheril vor etwa 1700 bis 1800 Jahren zur Wüste wurde. Vor rund 100 Jahren kehrte eine kleine Enklave von Netheril zurück. Die Wüste ist von verschiedenen zwielichtigen Gruppen und Relikten früherer Zeiten geprägt.\n\nDie Region ist von Mythen umgeben, und es gibt Hinweise auf den Obsidianwürfel, der als nahezu mythisch beschrieben wird. Ein Bericht über den Würfel stammt aus der Anauroch-Wüste.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-04-15T19:43:10.140000",
+            "updated_at": null,
+            "id": "navt5kwedtkxt19edoawso53",
+            "name": "Liam’s Hold",
+            "aliases": [],
+            "type": null,
+            "description": "Liam’s Hold ist das Anwesen des ältesten Hauses, Haus Floshin, im Dellenbier-Tal in der Savage Frontier. Es ist mit den Gold- und Sonnenelfen assoziiert und gilt als bedeutender Sitz der Familie Floshin. Liam’s Hold ist als Stammsitz von Haus Floshin bekannt und steht im Zusammenhang mit den ältesten Häusern Faerûns.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-04-15T19:43:10.103000",
+            "updated_at": null,
+            "id": "wa759nfvbe3n2hnmk4mrwrfm",
+            "name": "Delimbiyr Vale",
+            "aliases": [],
+            "type": null,
+            "description": "Das Dellenbier-Tal liegt in der Savage Frontier und ist der Sitz von Haus Floshin, einem der ältesten Häuser Faerûns. Das Anwesen von Haus Floshin wird als \"Liam’s Hold\" bezeichnet.\n\nHaus Floshin ist Gold- oder Sonnenelfen zugeordnet. In der Bibliothek wurden Informationen über die ältesten Häuser Faerûns, darunter Haus Borderen und Haus Belisare, gefunden. Das Buch über die ältesten Häuser wird von der Herzogin und hiesigen Adligen ausgeliehen.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-03-23T16:38:23.879000",
+            "updated_at": null,
+            "id": "m3uyh35o2b3ss1s1zjatfrib",
+            "name": "Clockwork Plain",
+            "aliases": [],
+            "type": null,
+            "description": "Die Clockwork Plain ist ein Ort mit mächtigen Artefakten, die tiefgreifende magische Eigenschaften besitzen. Ein Beispiel ist ein Kubriks Würfel, der als ein Artefakt der Clockwork Plain identifiziert wurde. Dieser Würfel ist ein magisches Objekt, das mit Kräften verbunden ist, die über die alltäglichen Gegebenheiten einer Hafenstadt hinausgehen.\nBei einer Interaktion mit dem Würfel erlebten die Charaktere signifikante Veränderungen. Korvathun wurde durch die Magie des Würfels so beeinflusst, dass alles, was er tat, für andere uninteressant wirkte. Myna erlebte eine drastische körperliche Verwandlung und schrumpfte auf etwa zehn Zentimeter Größe. Morvain absorbierte den Würfel, was zu einer Transformation seiner linken Hand führte, die sich in eine Mischung aus Obsidian und Mithrilwürfeln verwandelte, durchzogen von rubinartigen Fäden.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-03-21T21:35:49.043000",
+            "updated_at": null,
+            "id": "mapu1z87bmkg93si0zy1x03a",
+            "name": "Schrein der Göttin Akadi",
+            "aliases": [],
+            "type": null,
+            "description": "Der Schrein der Göttin Akadi befindet sich hoch oben an einer vereisten Felswand und ist ein windiger Ort. Er liegt oberhalb einer großen Felswand, und der Zugang erfolgt über einen schmalen Pfad, der weiter oben zu finden ist.\nDer Aufstieg zum Schrein kann je nach Kletterfähigkeit und Lichtverhältnissen unterschiedlich lange dauern. Akadi ist die Göttin des Windes, und der Schrein könnte für ihre Anhänger von Bedeutung sein.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-03-21T14:04:03.319000",
+            "updated_at": null,
+            "id": "jm7x34fos651lpvzuv8h2klo",
+            "name": "Minenarbeiterpfad",
+            "aliases": [],
+            "type": null,
+            "description": "Der Minenarbeiterpfad ist ein Weg, der durch das Gebirge führt und als Hauptroute zur Gnomen-Siedlung Gnomengard dient. Der Pfad verläuft entlang eines größeren Flusses, den die Reisenden überqueren müssen. Die Landschaft ist geprägt von steilen Hängen und gelegentlichen Sichtungen von Wildtieren, wie Schlangen und Bären.\nReisende, die den Minenarbeiterpfad nutzen, können eine Karte von einem Wirt im Gasthaus erhalten, die den Verlauf des Pfades beschreibt. Die Gruppe folgt dem Minenarbeiterpfad, überquert den Fluss und folgt der Biegung des Flusses bis Gnomengard. Auf dem Weg begegnen sie verschiedenen Tieren und müssen Herausforderungen wie einem Hinterhalt von Goblinoiden bewältigen. Der Pfad führt schließlich zu einem breiten Fluss mit einer Brücke, die überquert werden muss, um die Reise fortzusetzen.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-03-20T21:54:40.256000",
+            "updated_at": null,
+            "id": "zalvmkx5wxdtctifitl5af1y",
+            "name": "Triboar > Oberes Viertel",
+            "aliases": [
+                "oberen Viertel"
+            ],
+            "type": null,
+            "description": "Das Oberes Viertel ist ein hoch gelegener Teil der Stadt, der von hochgeborenen Elfen bewohnt wird. Die Bewohner sind bekannt dafür, sich von den gewöhnlichen Bürgern der Stadt abzuschotten und halten sich zumeist in ihren eigenen Bereichen auf.\n\nEs gibt Berichte über einen Überlebenden, der sich in diesem Viertel aufhält, nachdem er aus den Wäldern zurückgekehrt ist, wo viele Stadtbewohner und Dorfbewohner verschwunden sind. In der Umgebung wurden zahlreiche Vermisstenfälle gemeldet, und die meisten der zurückgekehrten Personen verharren in einem tiefen Schlaf. Die Stadtwache warnt, dass die Bewohner des Oberen Viertels nicht viel mit den anderen Bürgern zu tun haben und dass sie verschlossen sind.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-03-20T21:54:40.192000",
+            "updated_at": null,
+            "id": "c5kh254lywpgxkhk0rq5rhs1",
+            "name": "Nordöstlicher Wald",
+            "aliases": [
+                "nordöstlichen Wald"
+            ],
+            "type": null,
+            "description": "Der Nordöstliche Wald ist ein größerer Wald im Nordosten der Stadt, bekannt für seine reiche Tierpopulation. Die Umgebung bietet eine Vielzahl von Wildtieren, darunter Hirsche und Wölfe. Der Wald ist von frischen Spuren durchzogen, die auf die Anwesenheit von Wildtieren hinweisen.\nIm Wald sind Hufspuren von Rotwild zu finden, und es gibt Lichtungen, auf denen Hirsche und Hirschkühe sichtbar sind. Der Wald ist ein beliebter Ort für die Jagd, und es werden auch Wölfe und Füchse angetroffen. Die erlegten Tiere können am Triboar  > Marktplatz in der Stadt verkauft werden.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-03-20T16:44:59.232000",
+            "updated_at": null,
+            "id": "zc1e8gfk0r2orfwxvzg1hmgg",
+            "name": "Triboar > Bibliothek",
+            "aliases": [
+                "Bibliothek"
+            ],
+            "type": null,
+            "description": "Die **Triboar > Bibliothek** in Triboar ist eine zentrale Wissensstätte, in der jegliches Wissen gesammelt wird. Sie dient als Anlaufstelle für umfassendere Recherchen, insbesondere zu spezifischen Themen wie unsichtbaren, einschläfernden Geisterwesen. Die Triboar > Bibliothek befindet sich im Nordosten der Stadt, als das dritte Haus auf der linken Seite nach der letzten Abbiegung zum Osttor. Sie hat einen größeren Turm und ist mit Regalen voller Bücher und Schriftrollen bis unter die Decke gefüllt. Ein Kamin sorgt für Wärme, ohne dass Flammen die Bücher gefährden.\nDer Bibliothekar, ein älterer Mann in einer hellen, mittelgrauen Robe mit Kapuze und grauen Haaren, verweist auf die Triboar > Bibliothek für detailliertere Informationen. Dîn-io Tempest wird in der Triboar > Bibliothek von Surina Nemmonis und Gwendolyn Silverflame getroffen. Sie zeigen ihm einen Steckbrief einer „Hexe“ und besprechen das Walderlebnis sowie die schlafenden Begleiter. Der Bibliothekar erklärt, dass die Hexe nur aus Berichten weniger Überlebender skizziert wurde, da die meisten Betroffenen gestorben oder nie wieder erwacht sind. Dîn-io Tempest vergleicht die Augen auf dem Steckbrief mit denen der lichtgestaltigen Verfolger aus dem Wald und erkennt Ähnlichkeiten. Auf Anraten des Bibliothekars gehen die Charaktere zur Stadtwache, um weitere Informationen zu erfragen.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": true,
+            "parent_id": null
+        }
+    ],
+    "from": 1,
+    "last_page": 6,
+    "per_page": 20,
+    "to": 20,
+    "total": 105
+}

@@ -38,6 +38,8 @@ final class ListSessionsToolTest extends GummibeerTestCase
                             ->assertJsonSchema(SessionDataShort::class)
                             ->where('campaign_id', 'cmj78gm6k000004jrvzm7gcjr');
                     });
+
+                $this->assertMatchesJsonSnapshot($json);
             });
     }
 }

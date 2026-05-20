@@ -1,0 +1,210 @@
+{
+    "current_page": 2,
+    "data": [
+        {
+            "id": "cmpd4bynh001g14bpt2auk5pk",
+            "from_id": "cmpbdnlls000004l15qelefj9",
+            "from_type": "GameSession",
+            "to_id": "cmlw3om9d000004jrvihi3qlk",
+            "to_type": "Character",
+            "alias": "Dîn-io Tempest",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T21:01:45.332000"
+        },
+        {
+            "id": "cmpd4bynh001h14bpakzikg00",
+            "from_id": "cmpbdnlls000004l15qelefj9",
+            "from_type": "GameSession",
+            "to_id": "cmlw3q4yk000004l2y2jvy62l",
+            "to_type": "Character",
+            "alias": "Gwendolyn Silverflame",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T21:01:45.332000"
+        },
+        {
+            "id": "cmpd4bynh001i14bppqcppfsb",
+            "from_id": "cmpbdnlls000004l15qelefj9",
+            "from_type": "GameSession",
+            "to_id": "cmlw3rcht000104jrhi3ad2ba",
+            "to_type": "Character",
+            "alias": "Naevys",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T21:01:45.332000"
+        },
+        {
+            "id": "cmpd4bynh001j14bpohak17xx",
+            "from_id": "cmpbdnlls000004l15qelefj9",
+            "from_type": "GameSession",
+            "to_id": "cmlw3uedi000104l2wxxexcpk",
+            "to_type": "Character",
+            "alias": "Surina Nemmonis",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T21:01:45.332000"
+        },
+        {
+            "id": "cmpd4bynh001k14bp2ylr3m0k",
+            "from_id": "cmpbdnlls000004l15qelefj9",
+            "from_type": "GameSession",
+            "to_id": "r2k0srsuvhwby6zystohtuza",
+            "to_type": "Character",
+            "alias": "Hohepriesterin",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T21:01:45.332000"
+        },
+        {
+            "id": "cmpd4bynh001l14bp3xlyatj5",
+            "from_id": "cmpbdnlls000004l15qelefj9",
+            "from_type": "GameSession",
+            "to_id": "yom6teynoiom2htp2m6m1jte",
+            "to_type": "Character",
+            "alias": "Auriel",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T21:01:45.332000"
+        },
+        {
+            "id": "cmpd4bynh001m14bp57o736ih",
+            "from_id": "cmpbdnlls000004l15qelefj9",
+            "from_type": "GameSession",
+            "to_id": "zpj6xsk09xm7kro9scl49ab4",
+            "to_type": "Character",
+            "alias": "Schiffszimmermann",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T21:01:45.332000"
+        },
+        {
+            "id": "cmpd4bynh001n14bpao59fenb",
+            "from_id": "cmpbdnlls000004l15qelefj9",
+            "from_type": "GameSession",
+            "to_id": "lnuqs3nz5ubfc83wq9hjj1xm",
+            "to_type": "Faction",
+            "alias": "Stadtwache von Frozen",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T21:01:45.332000"
+        },
+        {
+            "id": "cmpd4bynh001o14bpmn02cvu2",
+            "from_id": "cmpbdnlls000004l15qelefj9",
+            "from_type": "GameSession",
+            "to_id": "m01l08j6c5ypxdcaxgcoqiwd",
+            "to_type": "Item",
+            "alias": "Truhe",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T21:01:45.332000"
+        },
+        {
+            "id": "cmpd4bynh001p14bp0dcfptga",
+            "from_id": "cmpbdnlls000004l15qelefj9",
+            "from_type": "GameSession",
+            "to_id": "xpv723vsxdr7pm1o9w0b8h8f",
+            "to_type": "Item",
+            "alias": "Buch",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T21:01:45.332000"
+        },
+        {
+            "id": "cmpd4bynh001q14bpz45ieldi",
+            "from_id": "cmpbdnlls000004l15qelefj9",
+            "from_type": "GameSession",
+            "to_id": "ciq62riyyfc0npr586pxfsps",
+            "to_type": "Location",
+            "alias": "Zellen",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T21:01:45.332000"
+        },
+        {
+            "id": "cmpd4bynh001r14bpha84yjb0",
+            "from_id": "cmpbdnlls000004l15qelefj9",
+            "from_type": "GameSession",
+            "to_id": "ciq62riyyfc0npr586pxfsps",
+            "to_type": "Location",
+            "alias": "Zellen der Stadtwache",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T21:01:45.332000"
+        },
+        {
+            "id": "cmpd4bynh001s14bpg9v5pqsj",
+            "from_id": "cmpbdnlls000004l15qelefj9",
+            "from_type": "GameSession",
+            "to_id": "knrfmjjqndy2rias3uztpls8",
+            "to_type": "Location",
+            "alias": "Marktplatz",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T21:01:45.332000"
+        },
+        {
+            "id": "cmpd4bynh001t14bpqmaa2vk9",
+            "from_id": "cmpbdnlls000004l15qelefj9",
+            "from_type": "GameSession",
+            "to_id": "nb4difgtwfij9jftajhqea76",
+            "to_type": "Location",
+            "alias": "Taverne",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T21:01:45.332000"
+        },
+        {
+            "id": "cmpd4bynh001u14bp1il3ploi",
+            "from_id": "cmpbdnlls000004l15qelefj9",
+            "from_type": "GameSession",
+            "to_id": "pbd51edatctika2hzpr8dxss",
+            "to_type": "Location",
+            "alias": "Kirche",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T21:01:45.332000"
+        },
+        {
+            "id": "cmpd4bynh001v14bpwplqt2kn",
+            "from_id": "cmpbdnlls000004l15qelefj9",
+            "from_type": "GameSession",
+            "to_id": "pbd51edatctika2hzpr8dxss",
+            "to_type": "Location",
+            "alias": "Tempel",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T21:01:45.332000"
+        },
+        {
+            "id": "cmpd482u2000w04ldu14pge81",
+            "from_id": "cmpd482bc000r04ld671uw9qf",
+            "from_type": "Faction",
+            "to_id": "r2k0srsuvhwby6zystohtuza",
+            "to_type": "Character",
+            "alias": "Hohepriesterin",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T20:58:44.171000"
+        },
+        {
+            "id": "cmpd482rt000v04ldeaqlbt5s",
+            "from_id": "cmpd482bc000r04ld671uw9qf",
+            "from_type": "Faction",
+            "to_id": "pbd51edatctika2hzpr8dxss",
+            "to_type": "Location",
+            "alias": "Tempel",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T20:58:44.090000"
+        },
+        {
+            "id": "cmpd482oz000u04ld7ptbny2b",
+            "from_id": "cmpd482bc000r04ld671uw9qf",
+            "from_type": "Faction",
+            "to_id": "znvynnyuagflbs8gytuh3l9e",
+            "to_type": "Location",
+            "alias": "Waterdeep",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T20:58:43.988000"
+        },
+        {
+            "id": "cmpd482mq000t04ldpbp0agsv",
+            "from_id": "cmpd482bc000r04ld671uw9qf",
+            "from_type": "Faction",
+            "to_id": "eqqk9h9rqk5ygusek9702hn7",
+            "to_type": "Faction",
+            "alias": "Hafenwache",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T20:58:43.907000"
+        }
+    ],
+    "from": 21,
+    "last_page": 583,
+    "per_page": 20,
+    "to": 40,
+    "total": 11652
+}

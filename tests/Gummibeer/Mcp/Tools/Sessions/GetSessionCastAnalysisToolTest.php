@@ -31,6 +31,8 @@ final class GetSessionCastAnalysisToolTest extends GummibeerTestCase
                 $json
                     ->assertJsonSchema(CastAnalysisData::class)
                     ->where('session_id', 'cmnhoa5e6000004juew4mv3o2');
+
+                $this->assertMatchesJsonSnapshot($json);
             });
     }
 }

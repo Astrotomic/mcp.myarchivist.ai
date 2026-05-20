@@ -32,6 +32,8 @@ final class GetFactionToolTest extends GummibeerTestCase
                     ->assertJsonSchema(FactionData::class)
                     ->where('campaign_id', 'cmj78gm6k000004jrvzm7gcjr')
                     ->where('id', 'r86ej50cbqrfissek140wtyh');
+
+                $this->assertMatchesJsonSnapshot($json);
             });
     }
 }

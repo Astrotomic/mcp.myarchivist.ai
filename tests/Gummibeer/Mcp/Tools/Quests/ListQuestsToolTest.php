@@ -36,6 +36,8 @@ final class ListQuestsToolTest extends GummibeerTestCase
                             ->assertJsonSchema(QuestDataShort::class)
                             ->where('campaign_id', 'cmj78gm6k000004jrvzm7gcjr');
                     });
+
+                $this->assertMatchesJsonSnapshot($json);
             });
     }
 }

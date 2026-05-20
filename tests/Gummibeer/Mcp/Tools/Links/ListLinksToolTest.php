@@ -41,6 +41,8 @@ final class ListLinksToolTest extends GummibeerTestCase
                             ->assertJsonSchema(LinkData::class)
                             ->where('campaign_id', 'cmj78gm6k000004jrvzm7gcjr');
                     });
+
+                $this->assertMatchesJsonSnapshot($json);
             });
     }
 }

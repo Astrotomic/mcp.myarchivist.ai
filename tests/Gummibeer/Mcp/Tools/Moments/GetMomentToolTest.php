@@ -32,6 +32,8 @@ final class GetMomentToolTest extends GummibeerTestCase
                     ->assertJsonSchema(MomentData::class)
                     ->where('campaign_id', 'cmj78gm6k000004jrvzm7gcjr')
                     ->where('id', 'butlp7odsnxj02l6lwc5wtvr');
+
+                $this->assertMatchesJsonSnapshot($json);
             });
     }
 }

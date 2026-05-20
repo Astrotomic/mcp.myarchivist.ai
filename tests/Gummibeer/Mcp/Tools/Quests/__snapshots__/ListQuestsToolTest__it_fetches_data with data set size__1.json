@@ -1,0 +1,1960 @@
+{
+    "current_page": 1,
+    "data": [
+        {
+            "created_at": "2026-03-06T21:45:34.538000",
+            "updated_at": "2026-03-06T21:45:34.538000",
+            "id": "65d76790-15bb-4bb1-91bf-19d9d80d31b3",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 1,
+            "quest_name": "Befragung von Harald Harpell",
+            "quest_giver": "Miriam Harpell",
+            "quest_giver_id": "udl69jx3bcft3cv5n2gy9pcx",
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 2,
+            "completed_objective_count": 2,
+            "progress_entry_count": 2,
+            "related_entity_count": 3,
+            "first_session": {
+                "id": "cmmdnjadz000004jrzgznn406",
+                "number": 1,
+                "title": "Geisterhafte Enthüllungen und Intrigen",
+                "session_date": "2021-02-26T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmdnjadz000004jrzgznn406",
+                "number": 1,
+                "title": "Geisterhafte Enthüllungen und Intrigen",
+                "session_date": "2021-02-26T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-06T21:45:34.538000",
+            "updated_at": "2026-03-06T21:45:34.538000",
+            "id": "ad84147b-31ac-4be8-a555-0d26b282716d",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 2,
+            "quest_name": "Aufklärung über Gargauth",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 1,
+            "progress_entry_count": 1,
+            "related_entity_count": 3,
+            "first_session": {
+                "id": "cmmdnjadz000004jrzgznn406",
+                "number": 1,
+                "title": "Geisterhafte Enthüllungen und Intrigen",
+                "session_date": "2021-02-26T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmdnjadz000004jrzgznn406",
+                "number": 1,
+                "title": "Geisterhafte Enthüllungen und Intrigen",
+                "session_date": "2021-02-26T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-06T21:45:34.538000",
+            "updated_at": "2026-03-06T21:45:34.538000",
+            "id": "89c7bc5f-53e5-4558-9145-7101fcf98226",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 3,
+            "quest_name": "Treffen am See",
+            "quest_giver": "Seraphina",
+            "quest_giver_id": "qbcnj8q95amqq75p6sn983td",
+            "quest_category": "side",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 2,
+            "completed_objective_count": 2,
+            "progress_entry_count": 1,
+            "related_entity_count": 2,
+            "first_session": {
+                "id": "cmmdnjadz000004jrzgznn406",
+                "number": 1,
+                "title": "Geisterhafte Enthüllungen und Intrigen",
+                "session_date": "2021-02-26T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmdnjadz000004jrzgznn406",
+                "number": 1,
+                "title": "Geisterhafte Enthüllungen und Intrigen",
+                "session_date": "2021-02-26T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-06T21:46:17.677000",
+            "updated_at": "2026-03-06T21:46:17.677000",
+            "id": "498027f8-2dac-4a1b-8ef3-e7cc47ba065d",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 4,
+            "quest_name": "Informationen über Gargauth sammeln",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 1,
+            "progress_entry_count": 1,
+            "related_entity_count": 3,
+            "first_session": {
+                "id": "cmmdp0fx5000004l73bl4fe5o",
+                "number": 2,
+                "title": "Rätselhafte Enthüllungen in Longsaddle",
+                "session_date": "2021-03-15T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmdp0fx5000004l73bl4fe5o",
+                "number": 2,
+                "title": "Rätselhafte Enthüllungen in Longsaddle",
+                "session_date": "2021-03-15T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-06T21:46:17.677000",
+            "updated_at": "2026-03-06T21:46:17.677000",
+            "id": "19b09ff9-2df3-4c9b-b87d-7f48e1bef1ed",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 5,
+            "quest_name": "Antwort von Elmar Barthen erhalten",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 1,
+            "progress_entry_count": 1,
+            "related_entity_count": 2,
+            "first_session": {
+                "id": "cmmdp0fx5000004l73bl4fe5o",
+                "number": 2,
+                "title": "Rätselhafte Enthüllungen in Longsaddle",
+                "session_date": "2021-03-15T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmdp0fx5000004l73bl4fe5o",
+                "number": 2,
+                "title": "Rätselhafte Enthüllungen in Longsaddle",
+                "session_date": "2021-03-15T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-06T22:00:49.594000",
+            "updated_at": "2026-03-06T23:09:20.434000",
+            "id": "8f92f2ef-82db-4bb6-96c1-61c917a2ded7",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 6,
+            "quest_name": "Suche nach Harald Harpells Bruder",
+            "quest_giver": "Miriam Harpell",
+            "quest_giver_id": "udl69jx3bcft3cv5n2gy9pcx",
+            "quest_category": "main",
+            "status": "failed",
+            "next_action": "Die Gruppe sollte den Wandering Swamp weiter untersuchen.",
+            "resolution": null,
+            "objective_count": 3,
+            "completed_objective_count": 1,
+            "progress_entry_count": 2,
+            "related_entity_count": 4,
+            "first_session": {
+                "id": "cmmeqd73s001704joelct8rt5",
+                "number": 3,
+                "title": "Abenteuer im Sumpf und darüber hinaus",
+                "session_date": "2021-03-28T16:00:00"
+            },
+            "last_session": {
+                "id": "cmmeqd73s001704joelct8rt5",
+                "number": 3,
+                "title": "Abenteuer im Sumpf und darüber hinaus",
+                "session_date": "2021-03-28T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-06T22:00:49.594000",
+            "updated_at": "2026-03-06T22:00:49.594000",
+            "id": "43982650-88af-4d91-bec8-1320eb7566cd",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 7,
+            "quest_name": "Kampf gegen das riesige Krokodil",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 2,
+            "completed_objective_count": 2,
+            "progress_entry_count": 2,
+            "related_entity_count": 1,
+            "first_session": {
+                "id": "cmmeqd73s001704joelct8rt5",
+                "number": 3,
+                "title": "Abenteuer im Sumpf und darüber hinaus",
+                "session_date": "2021-03-28T16:00:00"
+            },
+            "last_session": {
+                "id": "cmmeqd73s001704joelct8rt5",
+                "number": 3,
+                "title": "Abenteuer im Sumpf und darüber hinaus",
+                "session_date": "2021-03-28T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-06T22:00:49.594000",
+            "updated_at": "2026-03-06T23:09:38.519000",
+            "id": "59174537-fc62-4b10-852e-7af3dc1ab405",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 8,
+            "quest_name": "Interaktion mit Mary",
+            "quest_giver": "Mary",
+            "quest_giver_id": "j621umgpq2c292ur153458v3",
+            "quest_category": "n/a",
+            "status": "failed",
+            "next_action": "Die Gruppe sollte die Teile von Mary anfordern.",
+            "resolution": null,
+            "objective_count": 2,
+            "completed_objective_count": 1,
+            "progress_entry_count": 2,
+            "related_entity_count": 1,
+            "first_session": {
+                "id": "cmmeqd73s001704joelct8rt5",
+                "number": 3,
+                "title": "Abenteuer im Sumpf und darüber hinaus",
+                "session_date": "2021-03-28T16:00:00"
+            },
+            "last_session": {
+                "id": "cmmeqd73s001704joelct8rt5",
+                "number": 3,
+                "title": "Abenteuer im Sumpf und darüber hinaus",
+                "session_date": "2021-03-28T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-06T22:15:47.881000",
+            "updated_at": "2026-03-06T22:15:47.881000",
+            "id": "3827c62d-73bc-4ec6-9ebb-fee28b4c557c",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 9,
+            "quest_name": "Untersuche die Warnungen vor Untoten bei Dragonspear Castle",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 2,
+            "completed_objective_count": 2,
+            "progress_entry_count": 2,
+            "related_entity_count": 1,
+            "first_session": {
+                "id": "cmmernoqe000004ky4qzaf42g",
+                "number": 4,
+                "title": "Der Aufbruch ins Ungewisse",
+                "session_date": "2021-04-26T16:00:00"
+            },
+            "last_session": {
+                "id": "cmmernoqe000004ky4qzaf42g",
+                "number": 4,
+                "title": "Der Aufbruch ins Ungewisse",
+                "session_date": "2021-04-26T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-06T22:15:47.881000",
+            "updated_at": "2026-03-06T22:15:47.881000",
+            "id": "a3737aa8-e297-4d48-a8a8-b594402d3db4",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 10,
+            "quest_name": "Erforsche das Schicksal von Elturel",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 2,
+            "completed_objective_count": 2,
+            "progress_entry_count": 2,
+            "related_entity_count": 2,
+            "first_session": {
+                "id": "cmmernoqe000004ky4qzaf42g",
+                "number": 4,
+                "title": "Der Aufbruch ins Ungewisse",
+                "session_date": "2021-04-26T16:00:00"
+            },
+            "last_session": {
+                "id": "cmmernoqe000004ky4qzaf42g",
+                "number": 4,
+                "title": "Der Aufbruch ins Ungewisse",
+                "session_date": "2021-04-26T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-06T22:16:23.658000",
+            "updated_at": "2026-03-06T22:16:23.658000",
+            "id": "cf0c061f-53e8-41b6-96c7-5406eaf6f6fb",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 11,
+            "quest_name": "Einlass in Candlekeep",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 2,
+            "completed_objective_count": 2,
+            "progress_entry_count": 2,
+            "related_entity_count": 3,
+            "first_session": {
+                "id": "cmmesoyxm000004l2xc0lsasn",
+                "number": 5,
+                "title": "Entdeckungen in Candlekeep",
+                "session_date": "2021-05-04T16:00:00"
+            },
+            "last_session": {
+                "id": "cmmesoyxm000004l2xc0lsasn",
+                "number": 5,
+                "title": "Entdeckungen in Candlekeep",
+                "session_date": "2021-05-04T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-06T22:16:23.658000",
+            "updated_at": "2026-03-06T22:16:23.658000",
+            "id": "5dc7396c-425f-4a96-8184-89c2a6128ec0",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 12,
+            "quest_name": "Forschung zu Gnollen und Magie",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 2,
+            "completed_objective_count": 2,
+            "progress_entry_count": 2,
+            "related_entity_count": 0,
+            "first_session": {
+                "id": "cmmesoyxm000004l2xc0lsasn",
+                "number": 5,
+                "title": "Entdeckungen in Candlekeep",
+                "session_date": "2021-05-04T16:00:00"
+            },
+            "last_session": {
+                "id": "cmmesoyxm000004l2xc0lsasn",
+                "number": 5,
+                "title": "Entdeckungen in Candlekeep",
+                "session_date": "2021-05-04T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-06T22:16:59.447000",
+            "updated_at": "2026-03-20T15:10:07.844000",
+            "id": "e0dcf4d6-bb4b-43b3-a4b7-f5d9e9789891",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 13,
+            "quest_name": "Streitaxt Hillsunder zurückholen",
+            "quest_giver": "Khorum Ironfist",
+            "quest_giver_id": "p8xlpgicskq3exqy75bkkwfa",
+            "quest_category": "main",
+            "status": "failed",
+            "next_action": "Reise nach Nightstone und sprich mit Velrosa Nandar.",
+            "resolution": null,
+            "objective_count": 3,
+            "completed_objective_count": 1,
+            "progress_entry_count": 4,
+            "related_entity_count": 5,
+            "first_session": {
+                "id": "cmmf1rdmz000004jvk0jt9jgz",
+                "number": 6,
+                "title": "Aufbruch nach Nightstone",
+                "session_date": "2022-07-30T16:00:00"
+            },
+            "last_session": {
+                "id": "cmmgk2jg8000504l5n5f24odu",
+                "number": 18,
+                "title": "Kampf um das Untotenlager",
+                "session_date": "2023-01-19T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-06T22:16:59.447000",
+            "updated_at": "2026-03-06T22:16:59.447000",
+            "id": "10cb637f-68db-4cbc-921d-aa9c1e181573",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 14,
+            "quest_name": "Reise nach Nightstone",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 2,
+            "completed_objective_count": 2,
+            "progress_entry_count": 2,
+            "related_entity_count": 2,
+            "first_session": {
+                "id": "cmmf1rdmz000004jvk0jt9jgz",
+                "number": 6,
+                "title": "Aufbruch nach Nightstone",
+                "session_date": "2022-07-30T16:00:00"
+            },
+            "last_session": {
+                "id": "cmmf1rdmz000004jvk0jt9jgz",
+                "number": 6,
+                "title": "Aufbruch nach Nightstone",
+                "session_date": "2022-07-30T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-06T22:17:28.265000",
+            "updated_at": "2026-03-06T22:17:28.265000",
+            "id": "09d2c374-c449-4b07-9205-f49735571cac",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 15,
+            "quest_name": "Befreie Äon Kalfr aus der Gefangenschaft",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 1,
+            "progress_entry_count": 1,
+            "related_entity_count": 1,
+            "first_session": {
+                "id": "cmmf1xyul000004ktjyy99fsx",
+                "number": 7,
+                "title": "Zerstörte Hoffnung in Nightstone",
+                "session_date": "2022-08-20T16:00:00"
+            },
+            "last_session": {
+                "id": "cmmf1xyul000004ktjyy99fsx",
+                "number": 7,
+                "title": "Zerstörte Hoffnung in Nightstone",
+                "session_date": "2022-08-20T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-06T22:17:28.265000",
+            "updated_at": "2026-03-06T22:17:28.265000",
+            "id": "90d110c0-1fd5-4673-9dbc-08249ab614d9",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 16,
+            "quest_name": "Untersuche die Zerstörung in Nightstone",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 2,
+            "completed_objective_count": 2,
+            "progress_entry_count": 2,
+            "related_entity_count": 2,
+            "first_session": {
+                "id": "cmmf1xyul000004ktjyy99fsx",
+                "number": 7,
+                "title": "Zerstörte Hoffnung in Nightstone",
+                "session_date": "2022-08-20T16:00:00"
+            },
+            "last_session": {
+                "id": "cmmf1xyul000004ktjyy99fsx",
+                "number": 7,
+                "title": "Zerstörte Hoffnung in Nightstone",
+                "session_date": "2022-08-20T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-06T22:18:04.479000",
+            "updated_at": "2026-03-06T22:18:04.479000",
+            "id": "f40931e1-2eaf-4198-bcc1-33158001478e",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 17,
+            "quest_name": "Sichern der Lionshield Coster",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 2,
+            "completed_objective_count": 2,
+            "progress_entry_count": 2,
+            "related_entity_count": 3,
+            "first_session": {
+                "id": "cmmf2amy2000204jo23bwfot1",
+                "number": 8,
+                "title": "Goblins und strategische Entschlüsse",
+                "session_date": "2022-09-24T16:00:00"
+            },
+            "last_session": {
+                "id": "cmmf2amy2000204jo23bwfot1",
+                "number": 8,
+                "title": "Goblins und strategische Entschlüsse",
+                "session_date": "2022-09-24T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-06T22:18:04.479000",
+            "updated_at": "2026-03-07T15:35:34.534000",
+            "id": "d85eec8c-afcb-43c9-bce5-d6de589bcc76",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 18,
+            "quest_name": "Beseitigung der Goblin-Bedrohung",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": "Durchsuche weitere Gebäude nach Goblins.",
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 1,
+            "progress_entry_count": 4,
+            "related_entity_count": 1,
+            "first_session": {
+                "id": "cmmf2amy2000204jo23bwfot1",
+                "number": 8,
+                "title": "Goblins und strategische Entschlüsse",
+                "session_date": "2022-09-24T16:00:00"
+            },
+            "last_session": {
+                "id": "cmmge6fhj000004jyhy3i2xnp",
+                "number": 9,
+                "title": "Goblin-Hatz und geheime Botschaften",
+                "session_date": "2022-10-06T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-07T15:35:34.534000",
+            "updated_at": "2026-03-07T15:35:34.534000",
+            "id": "68827ffb-65f8-41a1-9558-50d723c057b8",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 19,
+            "quest_name": "Nachricht von Verbündeten erhalten",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 1,
+            "progress_entry_count": 1,
+            "related_entity_count": 1,
+            "first_session": {
+                "id": "cmmge6fhj000004jyhy3i2xnp",
+                "number": 9,
+                "title": "Goblin-Hatz und geheime Botschaften",
+                "session_date": "2022-10-06T16:00:00"
+            },
+            "last_session": {
+                "id": "cmmge6fhj000004jyhy3i2xnp",
+                "number": 9,
+                "title": "Goblin-Hatz und geheime Botschaften",
+                "session_date": "2022-10-06T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-07T15:35:34.534000",
+            "updated_at": "2026-03-07T15:35:34.534000",
+            "id": "a76ad9ee-63d1-4614-86f7-4dbe64cbb5bf",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 20,
+            "quest_name": "Lionshield Coster durchsuchen",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "side",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 1,
+            "progress_entry_count": 1,
+            "related_entity_count": 1,
+            "first_session": {
+                "id": "cmmge6fhj000004jyhy3i2xnp",
+                "number": 9,
+                "title": "Goblin-Hatz und geheime Botschaften",
+                "session_date": "2022-10-06T16:00:00"
+            },
+            "last_session": {
+                "id": "cmmge6fhj000004jyhy3i2xnp",
+                "number": 9,
+                "title": "Goblin-Hatz und geheime Botschaften",
+                "session_date": "2022-10-06T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-07T15:36:07.898000",
+            "updated_at": "2026-03-20T15:12:34.472000",
+            "id": "2abaa6d6-81e9-4f9f-8f04-603219109ca9",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 21,
+            "quest_name": "Erforsche den Tod von Lady Velrosa Nandar",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 2,
+            "completed_objective_count": 2,
+            "progress_entry_count": 2,
+            "related_entity_count": 2,
+            "first_session": {
+                "id": "cmmgg79ia000204lb8xszn2r5",
+                "number": 10,
+                "title": "Burg in Bedrängnis",
+                "session_date": "2022-10-14T16:00:00"
+            },
+            "last_session": {
+                "id": "cmmgg79ia000204lb8xszn2r5",
+                "number": 10,
+                "title": "Burg in Bedrängnis",
+                "session_date": "2022-10-14T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-07T15:36:07.898000",
+            "updated_at": "2026-03-08T21:52:41.984000",
+            "id": "f064f383-8fcb-4a21-8f55-1416e2438004",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 22,
+            "quest_name": "Bewältige die Bedrohung durch die Orc-Horde",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": "Vorbereitungen zur Verteidigung der Burg treffen.",
+            "resolution": null,
+            "objective_count": 2,
+            "completed_objective_count": 2,
+            "progress_entry_count": 3,
+            "related_entity_count": 4,
+            "first_session": {
+                "id": "cmmgg79ia000204lb8xszn2r5",
+                "number": 10,
+                "title": "Burg in Bedrängnis",
+                "session_date": "2022-10-14T16:00:00"
+            },
+            "last_session": {
+                "id": "cmmggrq6e000104lfyjvmjnz6",
+                "number": 11,
+                "title": "Kampf und neue Allianzen",
+                "session_date": "2022-10-28T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-08T21:52:41.984000",
+            "updated_at": "2026-03-08T21:52:41.984000",
+            "id": "98e4c011-90e6-4551-b253-6f73d573e34f",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 23,
+            "quest_name": "Lerne Goblinisch",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "personal",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 2,
+            "completed_objective_count": 2,
+            "progress_entry_count": 2,
+            "related_entity_count": 1,
+            "first_session": {
+                "id": "cmmggrq6e000104lfyjvmjnz6",
+                "number": 11,
+                "title": "Kampf und neue Allianzen",
+                "session_date": "2022-10-28T16:00:00"
+            },
+            "last_session": {
+                "id": "cmmggrq6e000104lfyjvmjnz6",
+                "number": 11,
+                "title": "Kampf und neue Allianzen",
+                "session_date": "2022-10-28T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:04:30.959000",
+            "updated_at": "2026-03-20T15:04:30.959000",
+            "id": "04872225-764c-4e0a-85e6-fbf01f57b9ec",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 24,
+            "quest_name": "Durchsuche die Häuser von Nightstone nach Nützlichem",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 1,
+            "progress_entry_count": 1,
+            "related_entity_count": 1,
+            "first_session": {
+                "id": "cmmxramg6000004ickfomzviu",
+                "number": 12,
+                "title": "Auf der Suche nach Allianzen",
+                "session_date": "2022-11-08T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmxramg6000004ickfomzviu",
+                "number": 12,
+                "title": "Auf der Suche nach Allianzen",
+                "session_date": "2022-11-08T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:04:30.959000",
+            "updated_at": "2026-03-20T15:09:53.805000",
+            "id": "77488b6e-64fc-463d-aac7-c1a6f668c858",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 25,
+            "quest_name": "Bereite die Reise in ein Elfen-Dorf vor",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 2,
+            "completed_objective_count": 2,
+            "progress_entry_count": 2,
+            "related_entity_count": 0,
+            "first_session": {
+                "id": "cmmxramg6000004ickfomzviu",
+                "number": 12,
+                "title": "Auf der Suche nach Allianzen",
+                "session_date": "2022-11-08T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmgk2jg8000504l5n5f24odu",
+                "number": 18,
+                "title": "Kampf um das Untotenlager",
+                "session_date": "2023-01-19T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:05:28.728000",
+            "updated_at": "2026-03-20T15:05:28.728000",
+            "id": "8b4a64f1-3b47-4d54-bacd-deaaa8a0cf26",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 26,
+            "quest_name": "Durchsuche die Festung in Nightstone.",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 1,
+            "progress_entry_count": 2,
+            "related_entity_count": 2,
+            "first_session": {
+                "id": "cmmyzkvk0000004l53v8oqnwc",
+                "number": 13,
+                "title": "Rückkehr nach Nightstone und Neubeginn",
+                "session_date": "2022-11-10T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmyzkvk0000004l53v8oqnwc",
+                "number": 13,
+                "title": "Rückkehr nach Nightstone und Neubeginn",
+                "session_date": "2022-11-10T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:05:28.728000",
+            "updated_at": "2026-03-20T15:09:25.196000",
+            "id": "2b1af544-1bc5-45a4-ab88-9560ffd1634c",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 27,
+            "quest_name": "Suche Verbündete im Elfen-Dorf im Ardeep Forest.",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 1,
+            "progress_entry_count": 1,
+            "related_entity_count": 3,
+            "first_session": {
+                "id": "cmmyzkvk0000004l53v8oqnwc",
+                "number": 13,
+                "title": "Rückkehr nach Nightstone und Neubeginn",
+                "session_date": "2022-11-10T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmyzkvk0000004l53v8oqnwc",
+                "number": 13,
+                "title": "Rückkehr nach Nightstone und Neubeginn",
+                "session_date": "2022-11-10T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:05:48.272000",
+            "updated_at": "2026-03-20T15:09:37.997000",
+            "id": "35452d48-c11a-4539-a797-ab0740317d1c",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 28,
+            "quest_name": "Finde die entführten Bewohner von Nightstone",
+            "quest_giver": "Rond",
+            "quest_giver_id": "p3skqbyrcoz73pt81pcq0azq",
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 3,
+            "completed_objective_count": 3,
+            "progress_entry_count": 5,
+            "related_entity_count": 4,
+            "first_session": {
+                "id": "cmmxis1is000004js41p8in62",
+                "number": 14,
+                "title": "In den Tiefen der Dunkelheit",
+                "session_date": "2022-12-03T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmxozubl000104jlegt4q501",
+                "number": 15,
+                "title": "Verhandlungen und neue Bedrohungen",
+                "session_date": "2022-12-08T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:06:20.984000",
+            "updated_at": "2026-03-20T15:06:20.984000",
+            "id": "509a886a-ac31-4c61-aa97-1ad4825c68f9",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 29,
+            "quest_name": "Beendigung der Goblin-Bedrohung",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 1,
+            "progress_entry_count": 1,
+            "related_entity_count": 1,
+            "first_session": {
+                "id": "cmmxozubl000104jlegt4q501",
+                "number": 15,
+                "title": "Verhandlungen und neue Bedrohungen",
+                "session_date": "2022-12-08T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmxozubl000104jlegt4q501",
+                "number": 15,
+                "title": "Verhandlungen und neue Bedrohungen",
+                "session_date": "2022-12-08T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:06:55.767000",
+            "updated_at": "2026-03-20T15:09:07.099000",
+            "id": "f33ecebf-a46a-4fa4-96fe-d22638c0ab6d",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 30,
+            "quest_name": "Finde Flint Fireforge in Waterdeep",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 1,
+            "progress_entry_count": 5,
+            "related_entity_count": 3,
+            "first_session": {
+                "id": "cmmght0cs000b04l4zcnul8gg",
+                "number": 16,
+                "title": "Abenteuer unter den Wolken",
+                "session_date": "2022-12-22T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmght0cs000b04l4zcnul8gg",
+                "number": 16,
+                "title": "Abenteuer unter den Wolken",
+                "session_date": "2022-12-22T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:06:55.767000",
+            "updated_at": "2026-03-20T15:06:55.767000",
+            "id": "ef9b8bc2-169f-4018-a441-24de6aa001f8",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 31,
+            "quest_name": "Warne Zephyros vor den Kultisten",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 1,
+            "progress_entry_count": 3,
+            "related_entity_count": 3,
+            "first_session": {
+                "id": "cmmght0cs000b04l4zcnul8gg",
+                "number": 16,
+                "title": "Abenteuer unter den Wolken",
+                "session_date": "2022-12-22T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmght0cs000b04l4zcnul8gg",
+                "number": 16,
+                "title": "Abenteuer unter den Wolken",
+                "session_date": "2022-12-22T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:06:55.767000",
+            "updated_at": "2026-03-20T15:06:55.767000",
+            "id": "dd482b18-0da4-45b4-9c15-9972893dcf97",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 32,
+            "quest_name": "Unterstütze Flint beim Bau des Luftschiffes",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 1,
+            "progress_entry_count": 2,
+            "related_entity_count": 1,
+            "first_session": {
+                "id": "cmmght0cs000b04l4zcnul8gg",
+                "number": 16,
+                "title": "Abenteuer unter den Wolken",
+                "session_date": "2022-12-22T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmght0cs000b04l4zcnul8gg",
+                "number": 16,
+                "title": "Abenteuer unter den Wolken",
+                "session_date": "2022-12-22T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:07:25.739000",
+            "updated_at": "2026-03-20T15:17:48.908000",
+            "id": "90e13bc1-a430-425c-bbe8-881da39cd0fc",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 33,
+            "quest_name": "Untersuche die Festung Hammerhåeim",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 3,
+            "completed_objective_count": 3,
+            "progress_entry_count": 3,
+            "related_entity_count": 6,
+            "first_session": {
+                "id": "cmmgnk5d1000004jmp1q5ck1m",
+                "number": 17,
+                "title": "Kämpfe und Intrigen in Hammerhåeim",
+                "session_date": "2023-01-05T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmgnk5d1000004jmp1q5ck1m",
+                "number": 17,
+                "title": "Kämpfe und Intrigen in Hammerhåeim",
+                "session_date": "2023-01-05T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:07:25.739000",
+            "updated_at": "2026-03-20T15:07:25.739000",
+            "id": "2ab2f801-0e1e-4ec3-8d3f-430dd8b34ea4",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 34,
+            "quest_name": "Rette Flints Vater",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "planned",
+            "next_action": "Plane die Rettungsmission für Flints Vater.",
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 0,
+            "progress_entry_count": 1,
+            "related_entity_count": 2,
+            "first_session": {
+                "id": "cmmgnk5d1000004jmp1q5ck1m",
+                "number": 17,
+                "title": "Kämpfe und Intrigen in Hammerhåeim",
+                "session_date": "2023-01-05T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmgnk5d1000004jmp1q5ck1m",
+                "number": 17,
+                "title": "Kämpfe und Intrigen in Hammerhåeim",
+                "session_date": "2023-01-05T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:08:47.616000",
+            "updated_at": "2026-03-20T15:18:00.722000",
+            "id": "16f94526-116b-4331-b134-478622fa6de5",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 35,
+            "quest_name": "Vorbereitung auf den Angriff auf das Untotenlager",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 3,
+            "completed_objective_count": 3,
+            "progress_entry_count": 3,
+            "related_entity_count": 2,
+            "first_session": {
+                "id": "cmmgk2jg8000504l5n5f24odu",
+                "number": 18,
+                "title": "Kampf um das Untotenlager",
+                "session_date": "2023-01-19T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmi9vzy1000104jslbafmv5x",
+                "number": 20,
+                "title": "Festung in der Krise",
+                "session_date": "2023-02-16T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:08:47.616000",
+            "updated_at": "2026-03-20T15:17:41.081000",
+            "id": "20c70aa4-9506-4f31-a306-11f564296d77",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 36,
+            "quest_name": "Befreiung der Gefangenen im Untotenlager",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 2,
+            "completed_objective_count": 2,
+            "progress_entry_count": 2,
+            "related_entity_count": 2,
+            "first_session": {
+                "id": "cmmgk2jg8000504l5n5f24odu",
+                "number": 18,
+                "title": "Kampf um das Untotenlager",
+                "session_date": "2023-01-19T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmi9vzy1000104jslbafmv5x",
+                "number": 20,
+                "title": "Festung in der Krise",
+                "session_date": "2023-02-16T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:14:19.747000",
+            "updated_at": "2026-03-20T15:14:19.747000",
+            "id": "c8416d4c-de52-46c7-929d-ea87dcbad1a5",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 37,
+            "quest_name": "Rückzug nach Hammerhåeim",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 3,
+            "completed_objective_count": 3,
+            "progress_entry_count": 3,
+            "related_entity_count": 1,
+            "first_session": {
+                "id": "cmmi9sepe000104jszhcfwavi",
+                "number": 19,
+                "title": "Chaos im Schlachtfeld Rückzug",
+                "session_date": "2023-02-02T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmi9sepe000104jszhcfwavi",
+                "number": 19,
+                "title": "Chaos im Schlachtfeld Rückzug",
+                "session_date": "2023-02-02T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:14:19.747000",
+            "updated_at": "2026-03-20T15:14:19.747000",
+            "id": "11fcf457-9521-455a-9036-c8944eeff150",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 38,
+            "quest_name": "Kampf gegen die Kultisten",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "failed",
+            "next_action": "Die Gruppe sollte sich in Hammerhåeim neu gruppieren und ihre Verluste zählen.",
+            "resolution": null,
+            "objective_count": 2,
+            "completed_objective_count": 1,
+            "progress_entry_count": 2,
+            "related_entity_count": 2,
+            "first_session": {
+                "id": "cmmi9sepe000104jszhcfwavi",
+                "number": 19,
+                "title": "Chaos im Schlachtfeld Rückzug",
+                "session_date": "2023-02-02T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmi9sepe000104jszhcfwavi",
+                "number": 19,
+                "title": "Chaos im Schlachtfeld Rückzug",
+                "session_date": "2023-02-02T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:16:50.196000",
+            "updated_at": "2026-03-20T15:18:11.202000",
+            "id": "63b212ba-52c0-481a-b2b3-7a3eee528b2f",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 39,
+            "quest_name": "Organisiere die Verteidigung der Festung",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 2,
+            "completed_objective_count": 2,
+            "progress_entry_count": 2,
+            "related_entity_count": 3,
+            "first_session": {
+                "id": "cmmi9vzy1000104jslbafmv5x",
+                "number": 20,
+                "title": "Festung in der Krise",
+                "session_date": "2023-02-16T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmi9vzy1000104jslbafmv5x",
+                "number": 20,
+                "title": "Festung in der Krise",
+                "session_date": "2023-02-16T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:17:17.066000",
+            "updated_at": "2026-03-20T15:17:17.066000",
+            "id": "9e2fc717-424e-478e-8bc2-48c54c904361",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 40,
+            "quest_name": "Reise nach Triboar",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 1,
+            "progress_entry_count": 1,
+            "related_entity_count": 2,
+            "first_session": {
+                "id": "cmmia26lw000204jsdjzu9r5l",
+                "number": 21,
+                "title": "Hammer, Magie und neue Wege",
+                "session_date": "2023-03-09T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmia26lw000204jsdjzu9r5l",
+                "number": 21,
+                "title": "Hammer, Magie und neue Wege",
+                "session_date": "2023-03-09T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:21:12.973000",
+            "updated_at": "2026-03-20T15:28:26.590000",
+            "id": "06cc40df-8337-4cfb-889c-35a92f992b14",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 41,
+            "quest_name": "Hilfe bei der Bewässerung des Brunnens",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "side",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 1,
+            "progress_entry_count": 2,
+            "related_entity_count": 3,
+            "first_session": {
+                "id": "cmmia9o3t000i04laaldf6qaf",
+                "number": 22,
+                "title": "Triboar: Begegnungen und Entdeckungen",
+                "session_date": "2023-03-16T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmifffyd000604l28vj2i5ny",
+                "number": 25,
+                "title": "Rückkehr zur Machtprüfung",
+                "session_date": "2023-04-27T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:21:12.973000",
+            "updated_at": "2026-03-20T15:21:12.973000",
+            "id": "4dc311d5-f792-4992-9c65-005638a49368",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 42,
+            "quest_name": "Erwerb der legendären Laute",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "side",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 2,
+            "completed_objective_count": 2,
+            "progress_entry_count": 2,
+            "related_entity_count": 4,
+            "first_session": {
+                "id": "cmmia9o3t000i04laaldf6qaf",
+                "number": 22,
+                "title": "Triboar: Begegnungen und Entdeckungen",
+                "session_date": "2023-03-16T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmia9o3t000i04laaldf6qaf",
+                "number": 22,
+                "title": "Triboar: Begegnungen und Entdeckungen",
+                "session_date": "2023-03-16T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:21:12.973000",
+            "updated_at": "2026-03-20T15:28:38.801000",
+            "id": "ac716d25-9247-4431-8f3b-7394bdc507fa",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 43,
+            "quest_name": "Studien in der Bibliothek",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "side",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 2,
+            "completed_objective_count": 2,
+            "progress_entry_count": 1,
+            "related_entity_count": 2,
+            "first_session": {
+                "id": "cmmia9o3t000i04laaldf6qaf",
+                "number": 22,
+                "title": "Triboar: Begegnungen und Entdeckungen",
+                "session_date": "2023-03-16T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmia9o3t000i04laaldf6qaf",
+                "number": 22,
+                "title": "Triboar: Begegnungen und Entdeckungen",
+                "session_date": "2023-03-16T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:23:58.565000",
+            "updated_at": "2026-03-20T15:23:58.565000",
+            "id": "c5d64f06-56bb-4598-9ca3-e0d99a1a9af8",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 44,
+            "quest_name": "Unnatürlicher Brand im Haus von Nestor Podgin untersuchen",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 1,
+            "progress_entry_count": 2,
+            "related_entity_count": 2,
+            "first_session": {
+                "id": "cmmifeenw000004ictyfyxxi4",
+                "number": 23,
+                "title": "Chaos und Handel auf der Reise",
+                "session_date": "2023-03-30T16:00:00"
+            },
+            "last_session": {
+                "id": "cmmifeenw000004ictyfyxxi4",
+                "number": 23,
+                "title": "Chaos und Handel auf der Reise",
+                "session_date": "2023-03-30T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:23:58.565000",
+            "updated_at": "2026-03-20T15:23:58.565000",
+            "id": "cb64b2bc-12bd-437a-aab8-cefa0fb97fc7",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 45,
+            "quest_name": "Hinweis auf Mine mit seltenem Metall erhalten",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 1,
+            "progress_entry_count": 1,
+            "related_entity_count": 0,
+            "first_session": {
+                "id": "cmmifeenw000004ictyfyxxi4",
+                "number": 23,
+                "title": "Chaos und Handel auf der Reise",
+                "session_date": "2023-03-30T16:00:00"
+            },
+            "last_session": {
+                "id": "cmmifeenw000004ictyfyxxi4",
+                "number": 23,
+                "title": "Chaos und Handel auf der Reise",
+                "session_date": "2023-03-30T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:23:58.565000",
+            "updated_at": "2026-03-20T15:23:58.565000",
+            "id": "a38513cd-f2ca-4f00-97ce-37cfbe7d151b",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 46,
+            "quest_name": "Die Mine erreichen und betreten",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 1,
+            "progress_entry_count": 1,
+            "related_entity_count": 1,
+            "first_session": {
+                "id": "cmmifeenw000004ictyfyxxi4",
+                "number": 23,
+                "title": "Chaos und Handel auf der Reise",
+                "session_date": "2023-03-30T16:00:00"
+            },
+            "last_session": {
+                "id": "cmmifeenw000004ictyfyxxi4",
+                "number": 23,
+                "title": "Chaos und Handel auf der Reise",
+                "session_date": "2023-03-30T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:26:37.666000",
+            "updated_at": "2026-03-20T15:26:37.666000",
+            "id": "4d27200d-aec9-4c3d-aa1f-73b8489d4eba",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 47,
+            "quest_name": "Unnatürliche Bedrohung in der Mine beseitigen",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 3,
+            "completed_objective_count": 3,
+            "progress_entry_count": 2,
+            "related_entity_count": 1,
+            "first_session": {
+                "id": "cmmifg6gu000004la98odz7ku",
+                "number": 24,
+                "title": "Dunkle Schatten in der Mine",
+                "session_date": "2023-04-13T16:00:00"
+            },
+            "last_session": {
+                "id": "cmmifg6gu000004la98odz7ku",
+                "number": 24,
+                "title": "Dunkle Schatten in der Mine",
+                "session_date": "2023-04-13T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:26:37.666000",
+            "updated_at": "2026-03-20T15:28:26.590000",
+            "id": "cf085466-f50b-461f-a2b5-30ae32c1633d",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 48,
+            "quest_name": "Dunkler Magier konfrontieren",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 2,
+            "completed_objective_count": 2,
+            "progress_entry_count": 3,
+            "related_entity_count": 1,
+            "first_session": {
+                "id": "cmmifg6gu000004la98odz7ku",
+                "number": 24,
+                "title": "Dunkle Schatten in der Mine",
+                "session_date": "2023-04-13T16:00:00"
+            },
+            "last_session": {
+                "id": "cmmifffyd000604l28vj2i5ny",
+                "number": 25,
+                "title": "Rückkehr zur Machtprüfung",
+                "session_date": "2023-04-27T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:28:26.590000",
+            "updated_at": "2026-03-20T15:28:26.590000",
+            "id": "8a605f3d-d3a1-4687-a31b-6556d07a4b4a",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 49,
+            "quest_name": "Beweise deine Stärke gegen den Krieger des Magiers",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 1,
+            "progress_entry_count": 3,
+            "related_entity_count": 3,
+            "first_session": {
+                "id": "cmmifffyd000604l28vj2i5ny",
+                "number": 25,
+                "title": "Rückkehr zur Machtprüfung",
+                "session_date": "2023-04-27T16:00:00"
+            },
+            "last_session": {
+                "id": "cmmifffyd000604l28vj2i5ny",
+                "number": 25,
+                "title": "Rückkehr zur Machtprüfung",
+                "session_date": "2023-04-27T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-21T22:34:49.353000",
+            "updated_at": "2026-03-21T22:34:49.353000",
+            "id": "c628d28b-971c-4b46-ae4b-3f0a44b7e674",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 50,
+            "quest_name": "Flucht aus der Zelle",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 2,
+            "completed_objective_count": 2,
+            "progress_entry_count": 2,
+            "related_entity_count": 0,
+            "first_session": {
+                "id": "cmmzdpk4k000004l86u1cetpi",
+                "number": 26,
+                "title": "Flucht aus der Dunkelheit",
+                "session_date": "2023-06-20T16:00:00"
+            },
+            "last_session": {
+                "id": "cmmzdpk4k000004l86u1cetpi",
+                "number": 26,
+                "title": "Flucht aus der Dunkelheit",
+                "session_date": "2023-06-20T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-21T22:34:49.353000",
+            "updated_at": "2026-03-21T22:34:49.353000",
+            "id": "a8b3ef9d-0b40-4336-b3e6-7bd3d993bdf2",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 51,
+            "quest_name": "Ausrüstung finden",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 1,
+            "progress_entry_count": 1,
+            "related_entity_count": 0,
+            "first_session": {
+                "id": "cmmzdpk4k000004l86u1cetpi",
+                "number": 26,
+                "title": "Flucht aus der Dunkelheit",
+                "session_date": "2023-06-20T16:00:00"
+            },
+            "last_session": {
+                "id": "cmmzdpk4k000004l86u1cetpi",
+                "number": 26,
+                "title": "Flucht aus der Dunkelheit",
+                "session_date": "2023-06-20T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-21T22:34:49.353000",
+            "updated_at": "2026-03-21T22:34:49.353000",
+            "id": "7d6e50f4-7fdf-4e1d-af2b-408230cec6c2",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 52,
+            "quest_name": "Flucht im Kriegswagen",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 1,
+            "progress_entry_count": 1,
+            "related_entity_count": 1,
+            "first_session": {
+                "id": "cmmzdpk4k000004l86u1cetpi",
+                "number": 26,
+                "title": "Flucht aus der Dunkelheit",
+                "session_date": "2023-06-20T16:00:00"
+            },
+            "last_session": {
+                "id": "cmmzdpk4k000004l86u1cetpi",
+                "number": 26,
+                "title": "Flucht aus der Dunkelheit",
+                "session_date": "2023-06-20T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-21T22:35:27.928000",
+            "updated_at": "2026-03-21T22:35:27.928000",
+            "id": "3557dfa3-c9d7-4ecc-a5fa-13fcd517df8e",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 53,
+            "quest_name": "Flucht aus der Burg",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 2,
+            "completed_objective_count": 2,
+            "progress_entry_count": 2,
+            "related_entity_count": 0,
+            "first_session": {
+                "id": "pfbomimgzd38cxlxf3iff0vb",
+                "number": 27,
+                "title": "Flucht durch Nacht und Chaos",
+                "session_date": "2023-07-04T16:00:00"
+            },
+            "last_session": {
+                "id": "pfbomimgzd38cxlxf3iff0vb",
+                "number": 27,
+                "title": "Flucht durch Nacht und Chaos",
+                "session_date": "2023-07-04T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-21T22:35:27.928000",
+            "updated_at": "2026-03-21T22:38:17.722000",
+            "id": "6612704d-6098-48c6-948a-1df1739db4a5",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 54,
+            "quest_name": "Unnatürliche Phänomene im Wald",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "failed",
+            "next_action": "Die Gruppe plant, die Phänomene weiter zu untersuchen.",
+            "resolution": null,
+            "objective_count": 2,
+            "completed_objective_count": 1,
+            "progress_entry_count": 2,
+            "related_entity_count": 3,
+            "first_session": {
+                "id": "pfbomimgzd38cxlxf3iff0vb",
+                "number": 27,
+                "title": "Flucht durch Nacht und Chaos",
+                "session_date": "2023-07-04T16:00:00"
+            },
+            "last_session": {
+                "id": "pfbomimgzd38cxlxf3iff0vb",
+                "number": 27,
+                "title": "Flucht durch Nacht und Chaos",
+                "session_date": "2023-07-04T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-21T22:35:27.928000",
+            "updated_at": "2026-03-21T22:38:03.942000",
+            "id": "fb7c9523-79ca-4de2-aa6c-69bd9fbb08f4",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 55,
+            "quest_name": "Informationen über unsichtbare Geisterwesen",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "failed",
+            "next_action": "Die Gruppe plant, zur großen Bibliothek in Verhohn zu reisen.",
+            "resolution": null,
+            "objective_count": 2,
+            "completed_objective_count": 1,
+            "progress_entry_count": 1,
+            "related_entity_count": 1,
+            "first_session": {
+                "id": "pfbomimgzd38cxlxf3iff0vb",
+                "number": 27,
+                "title": "Flucht durch Nacht und Chaos",
+                "session_date": "2023-07-04T16:00:00"
+            },
+            "last_session": {
+                "id": "pfbomimgzd38cxlxf3iff0vb",
+                "number": 27,
+                "title": "Flucht durch Nacht und Chaos",
+                "session_date": "2023-07-04T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-21T22:35:57.469000",
+            "updated_at": "2026-03-21T22:35:57.469000",
+            "id": "b5b25da4-697f-4061-8ed8-447f4a0d315d",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 56,
+            "quest_name": "Untersuchung der Schlafenden und Vermisstenfälle",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 3,
+            "completed_objective_count": 3,
+            "progress_entry_count": 2,
+            "related_entity_count": 3,
+            "first_session": {
+                "id": "m2s4jpo7e4n5ozf1k5k1tom9",
+                "number": 28,
+                "title": "Nacht der schlafenden Schrecken",
+                "session_date": "2023-07-18T16:00:00"
+            },
+            "last_session": {
+                "id": "m2s4jpo7e4n5ozf1k5k1tom9",
+                "number": 28,
+                "title": "Nacht der schlafenden Schrecken",
+                "session_date": "2023-07-18T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-21T22:35:57.469000",
+            "updated_at": "2026-03-21T22:35:57.469000",
+            "id": "9493d37d-0fc6-4bef-bb12-81bf35e2d291",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 57,
+            "quest_name": "Jagd im nordöstlichen Wald",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "side",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 2,
+            "completed_objective_count": 2,
+            "progress_entry_count": 2,
+            "related_entity_count": 3,
+            "first_session": {
+                "id": "m2s4jpo7e4n5ozf1k5k1tom9",
+                "number": 28,
+                "title": "Nacht der schlafenden Schrecken",
+                "session_date": "2023-07-18T16:00:00"
+            },
+            "last_session": {
+                "id": "m2s4jpo7e4n5ozf1k5k1tom9",
+                "number": 28,
+                "title": "Nacht der schlafenden Schrecken",
+                "session_date": "2023-07-18T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-21T22:35:57.469000",
+            "updated_at": "2026-03-21T22:35:57.469000",
+            "id": "2952109c-526d-4bba-b1cc-e93aa7edc028",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 58,
+            "quest_name": "Verkauf der Jagdbeute",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "side",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 1,
+            "progress_entry_count": 1,
+            "related_entity_count": 0,
+            "first_session": {
+                "id": "m2s4jpo7e4n5ozf1k5k1tom9",
+                "number": 28,
+                "title": "Nacht der schlafenden Schrecken",
+                "session_date": "2023-07-18T16:00:00"
+            },
+            "last_session": {
+                "id": "m2s4jpo7e4n5ozf1k5k1tom9",
+                "number": 28,
+                "title": "Nacht der schlafenden Schrecken",
+                "session_date": "2023-07-18T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-21T22:36:22.535000",
+            "updated_at": "2026-03-21T22:36:22.535000",
+            "id": "2c391de9-f56a-4d42-813f-b704fa75a63d",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 59,
+            "quest_name": "Suche nach dem Überlebenden der Nachtangriffe",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 1,
+            "progress_entry_count": 2,
+            "related_entity_count": 3,
+            "first_session": {
+                "id": "yusqz1z3bkqwmsctx3yu4nv5",
+                "number": 29,
+                "title": "Traumjagd und Gefangenschaft",
+                "session_date": "2023-08-01T16:00:00"
+            },
+            "last_session": {
+                "id": "yusqz1z3bkqwmsctx3yu4nv5",
+                "number": 29,
+                "title": "Traumjagd und Gefangenschaft",
+                "session_date": "2023-08-01T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-21T22:36:22.535000",
+            "updated_at": "2026-03-21T22:36:22.535000",
+            "id": "16cdbc4b-e78a-4204-9379-8ccf6659e840",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 60,
+            "quest_name": "Jagd auf die Nachthexe",
+            "quest_giver": "Querg",
+            "quest_giver_id": "tp9vhj98b6cjma9hhm3zxcxu",
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 1,
+            "progress_entry_count": 2,
+            "related_entity_count": 1,
+            "first_session": {
+                "id": "yusqz1z3bkqwmsctx3yu4nv5",
+                "number": 29,
+                "title": "Traumjagd und Gefangenschaft",
+                "session_date": "2023-08-01T16:00:00"
+            },
+            "last_session": {
+                "id": "yusqz1z3bkqwmsctx3yu4nv5",
+                "number": 29,
+                "title": "Traumjagd und Gefangenschaft",
+                "session_date": "2023-08-01T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-21T22:36:22.535000",
+            "updated_at": "2026-03-21T22:36:22.535000",
+            "id": "d5341a86-2858-421a-97a8-06ae88626ed5",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 61,
+            "quest_name": "Besuch beim Traumweber",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 1,
+            "progress_entry_count": 2,
+            "related_entity_count": 1,
+            "first_session": {
+                "id": "yusqz1z3bkqwmsctx3yu4nv5",
+                "number": 29,
+                "title": "Traumjagd und Gefangenschaft",
+                "session_date": "2023-08-01T16:00:00"
+            },
+            "last_session": {
+                "id": "yusqz1z3bkqwmsctx3yu4nv5",
+                "number": 29,
+                "title": "Traumjagd und Gefangenschaft",
+                "session_date": "2023-08-01T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-21T22:36:43.422000",
+            "updated_at": "2026-03-21T22:37:21.065000",
+            "id": "6be3db69-f241-48fc-955c-06e37ff911c5",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 62,
+            "quest_name": "Truhe nach Gnomengard bringen",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 1,
+            "progress_entry_count": 2,
+            "related_entity_count": 1,
+            "first_session": {
+                "id": "gfsn4we82il590v99h1guti9",
+                "number": 30,
+                "title": "Aufbruch nach Gnomengard",
+                "session_date": "2023-08-15T16:00:00"
+            },
+            "last_session": {
+                "id": "gfsn4we82il590v99h1guti9",
+                "number": 30,
+                "title": "Aufbruch nach Gnomengard",
+                "session_date": "2023-08-15T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-21T22:36:43.422000",
+            "updated_at": "2026-03-21T22:36:43.422000",
+            "id": "8f4fab52-d8d9-46fd-b9fa-3885a78a612c",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 63,
+            "quest_name": "Wilde Tiere besiegen",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "side",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 1,
+            "progress_entry_count": 1,
+            "related_entity_count": 0,
+            "first_session": {
+                "id": "gfsn4we82il590v99h1guti9",
+                "number": 30,
+                "title": "Aufbruch nach Gnomengard",
+                "session_date": "2023-08-15T16:00:00"
+            },
+            "last_session": {
+                "id": "gfsn4we82il590v99h1guti9",
+                "number": 30,
+                "title": "Aufbruch nach Gnomengard",
+                "session_date": "2023-08-15T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-21T22:37:09.156000",
+            "updated_at": "2026-03-21T22:37:09.156000",
+            "id": "f32a0972-c8de-43ec-8439-53cb0490797d",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 64,
+            "quest_name": "Helft den Gnomenkönigen mit dem problematischen Fass",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 1,
+            "progress_entry_count": 2,
+            "related_entity_count": 1,
+            "first_session": {
+                "id": "nd3pb9kjdqbw7t6n6rvds4dg",
+                "number": 31,
+                "title": "Abenteuer in Gnomengarde",
+                "session_date": "2023-08-30T16:00:00"
+            },
+            "last_session": {
+                "id": "nd3pb9kjdqbw7t6n6rvds4dg",
+                "number": 31,
+                "title": "Abenteuer in Gnomengarde",
+                "session_date": "2023-08-30T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-21T22:37:09.156000",
+            "updated_at": "2026-03-21T22:37:09.156000",
+            "id": "551516de-dfd7-4ec8-93e8-f319e1a91661",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 65,
+            "quest_name": "Erforscht den verlassenen Schrein der Göttin Akadi",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "side",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 1,
+            "progress_entry_count": 1,
+            "related_entity_count": 1,
+            "first_session": {
+                "id": "nd3pb9kjdqbw7t6n6rvds4dg",
+                "number": 31,
+                "title": "Abenteuer in Gnomengarde",
+                "session_date": "2023-08-30T16:00:00"
+            },
+            "last_session": {
+                "id": "nd3pb9kjdqbw7t6n6rvds4dg",
+                "number": 31,
+                "title": "Abenteuer in Gnomengarde",
+                "session_date": "2023-08-30T16:00:00"
+            }
+        }
+    ],
+    "from": 1,
+    "last_page": 1,
+    "per_page": 100,
+    "to": 65,
+    "total": 65
+}

@@ -1,0 +1,210 @@
+{
+    "current_page": 1,
+    "data": [
+        {
+            "id": "cmpd4bz0p001w14bpq6tgo41q",
+            "from_id": "cmj78gm6k000004jrvzm7gcjr",
+            "from_type": "World",
+            "to_id": "cmlw3mrpf000104jun00oy0tm",
+            "to_type": "Character",
+            "alias": "Brennan",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T21:01:45.798000"
+        },
+        {
+            "id": "cmpd4bz0p001x14bp2fp3ncsy",
+            "from_id": "cmj78gm6k000004jrvzm7gcjr",
+            "from_type": "World",
+            "to_id": "cmlw3om9d000004jrvihi3qlk",
+            "to_type": "Character",
+            "alias": "Dîn-io",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T21:01:45.798000"
+        },
+        {
+            "id": "cmpd4bz0p001y14bp6okjqfig",
+            "from_id": "cmj78gm6k000004jrvzm7gcjr",
+            "from_type": "World",
+            "to_id": "cmlw3om9d000004jrvihi3qlk",
+            "to_type": "Character",
+            "alias": "Dîn-io Tempest",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T21:01:45.798000"
+        },
+        {
+            "id": "cmpd4bz0p001z14bpw7jtlpfe",
+            "from_id": "cmj78gm6k000004jrvzm7gcjr",
+            "from_type": "World",
+            "to_id": "cmlw3q4yk000004l2y2jvy62l",
+            "to_type": "Character",
+            "alias": "Gwendolyn Silverflame",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T21:01:45.798000"
+        },
+        {
+            "id": "cmpd4bz0p002014bpc32kj63u",
+            "from_id": "cmj78gm6k000004jrvzm7gcjr",
+            "from_type": "World",
+            "to_id": "cmlw3rcht000104jrhi3ad2ba",
+            "to_type": "Character",
+            "alias": "Naevys",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T21:01:45.798000"
+        },
+        {
+            "id": "cmpd4bz0p002114bpv12x0jqa",
+            "from_id": "cmj78gm6k000004jrvzm7gcjr",
+            "from_type": "World",
+            "to_id": "cmlw3uedi000104l2wxxexcpk",
+            "to_type": "Character",
+            "alias": "Surina Nemmonis",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T21:01:45.798000"
+        },
+        {
+            "id": "cmpd4bz0p002214bpkestvlzm",
+            "from_id": "cmj78gm6k000004jrvzm7gcjr",
+            "from_type": "World",
+            "to_id": "r2k0srsuvhwby6zystohtuza",
+            "to_type": "Character",
+            "alias": "Hohepriesterin",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T21:01:45.798000"
+        },
+        {
+            "id": "cmpd4bz0p002314bptquulean",
+            "from_id": "cmj78gm6k000004jrvzm7gcjr",
+            "from_type": "World",
+            "to_id": "yom6teynoiom2htp2m6m1jte",
+            "to_type": "Character",
+            "alias": "Auriel",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T21:01:45.798000"
+        },
+        {
+            "id": "cmpd4bz0p002414bpooc3rkx8",
+            "from_id": "cmj78gm6k000004jrvzm7gcjr",
+            "from_type": "World",
+            "to_id": "zpj6xsk09xm7kro9scl49ab4",
+            "to_type": "Character",
+            "alias": "Schiffszimmermann",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T21:01:45.798000"
+        },
+        {
+            "id": "cmpd4bz0p002514bp8clpl7u0",
+            "from_id": "cmj78gm6k000004jrvzm7gcjr",
+            "from_type": "World",
+            "to_id": "lnuqs3nz5ubfc83wq9hjj1xm",
+            "to_type": "Faction",
+            "alias": "Stadtwache von Frozen",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T21:01:45.798000"
+        },
+        {
+            "id": "cmpd4bz0p002614bp2ghisyfp",
+            "from_id": "cmj78gm6k000004jrvzm7gcjr",
+            "from_type": "World",
+            "to_id": "m01l08j6c5ypxdcaxgcoqiwd",
+            "to_type": "Item",
+            "alias": "Truhe",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T21:01:45.798000"
+        },
+        {
+            "id": "cmpd4bz0p002714bpf7dkvqui",
+            "from_id": "cmj78gm6k000004jrvzm7gcjr",
+            "from_type": "World",
+            "to_id": "xpv723vsxdr7pm1o9w0b8h8f",
+            "to_type": "Item",
+            "alias": "Buch",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T21:01:45.798000"
+        },
+        {
+            "id": "cmpd4bz0p002814bprrh5rkan",
+            "from_id": "cmj78gm6k000004jrvzm7gcjr",
+            "from_type": "World",
+            "to_id": "ciq62riyyfc0npr586pxfsps",
+            "to_type": "Location",
+            "alias": "Zellen",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T21:01:45.798000"
+        },
+        {
+            "id": "cmpd4bz0p002914bpskckrq8u",
+            "from_id": "cmj78gm6k000004jrvzm7gcjr",
+            "from_type": "World",
+            "to_id": "ciq62riyyfc0npr586pxfsps",
+            "to_type": "Location",
+            "alias": "Zellen der Stadtwache",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T21:01:45.798000"
+        },
+        {
+            "id": "cmpd4bz0p002a14bpi1dzm854",
+            "from_id": "cmj78gm6k000004jrvzm7gcjr",
+            "from_type": "World",
+            "to_id": "knrfmjjqndy2rias3uztpls8",
+            "to_type": "Location",
+            "alias": "Marktplatz",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T21:01:45.798000"
+        },
+        {
+            "id": "cmpd4bz0p002b14bp2hpx4i8w",
+            "from_id": "cmj78gm6k000004jrvzm7gcjr",
+            "from_type": "World",
+            "to_id": "nb4difgtwfij9jftajhqea76",
+            "to_type": "Location",
+            "alias": "Taverne",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T21:01:45.798000"
+        },
+        {
+            "id": "cmpd4bz0p002c14bpppkpm7za",
+            "from_id": "cmj78gm6k000004jrvzm7gcjr",
+            "from_type": "World",
+            "to_id": "pbd51edatctika2hzpr8dxss",
+            "to_type": "Location",
+            "alias": "Kirche",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T21:01:45.798000"
+        },
+        {
+            "id": "cmpd4bz0p002d14bprf1jkgwn",
+            "from_id": "cmj78gm6k000004jrvzm7gcjr",
+            "from_type": "World",
+            "to_id": "pbd51edatctika2hzpr8dxss",
+            "to_type": "Location",
+            "alias": "Tempel",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T21:01:45.798000"
+        },
+        {
+            "id": "cmpd4bynh001e14bpe8mjm3fx",
+            "from_id": "cmpbdnlls000004l15qelefj9",
+            "from_type": "GameSession",
+            "to_id": "cmlw3mrpf000104jun00oy0tm",
+            "to_type": "Character",
+            "alias": "Brennan",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T21:01:45.332000"
+        },
+        {
+            "id": "cmpd4bynh001f14bpgfpof0s2",
+            "from_id": "cmpbdnlls000004l15qelefj9",
+            "from_type": "GameSession",
+            "to_id": "cmlw3om9d000004jrvihi3qlk",
+            "to_type": "Character",
+            "alias": "Dîn-io",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-19T21:01:45.332000"
+        }
+    ],
+    "from": 1,
+    "last_page": 583,
+    "per_page": 20,
+    "to": 20,
+    "total": 11652
+}

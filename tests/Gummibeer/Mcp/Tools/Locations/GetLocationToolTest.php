@@ -32,6 +32,8 @@ final class GetLocationToolTest extends GummibeerTestCase
                     ->assertJsonSchema(LocationData::class)
                     ->where('campaign_id', 'cmj78gm6k000004jrvzm7gcjr')
                     ->where('id', 'xs5x4fz3qp1i6uvcrfrof2w1');
+
+                $this->assertMatchesJsonSnapshot($json);
             });
     }
 }

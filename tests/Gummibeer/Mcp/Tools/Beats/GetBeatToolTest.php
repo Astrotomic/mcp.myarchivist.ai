@@ -32,6 +32,8 @@ final class GetBeatToolTest extends GummibeerTestCase
                     ->assertJsonSchema(BeatData::class)
                     ->where('campaign_id', 'cmj78gm6k000004jrvzm7gcjr')
                     ->where('id', 'cmmwj6k9o00000i8g38tra5i0');
+
+                $this->assertMatchesJsonSnapshot($json);
             });
     }
 }

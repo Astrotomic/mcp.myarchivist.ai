@@ -3,15 +3,21 @@
 namespace Tests;
 
 use Closure;
+use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\JsonSchema\Types\Type;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Testing\Fluent\AssertableJson;
 use Illuminate\Validation\ValidationException;
+use Spatie\Snapshots\MatchesSnapshots;
 
 abstract class ApiTestCase extends FeatureTestCase
 {
+    use MatchesSnapshots {
+        assertMatchesJsonSnapshot as __assertMatchesJsonSnapshot;
+    }
+
     protected function setUp(): void
     {
         parent::setUp();
@@ -66,5 +72,17 @@ abstract class ApiTestCase extends FeatureTestCase
 
             return $this;
         });
+    }
+
+    /**
+     * @param  mixed  $actual
+     */
+    public function assertMatchesJsonSnapshot($actual, ?string $id = null): void
+    {
+        if ($actual instanceof Arrayable) {
+            $actual = $actual->toArray();
+        }
+
+        $this->__assertMatchesJsonSnapshot($actual, $id);
     }
 }

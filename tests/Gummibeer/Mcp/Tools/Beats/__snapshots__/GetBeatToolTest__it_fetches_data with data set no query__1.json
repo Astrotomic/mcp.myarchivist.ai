@@ -1,0 +1,16 @@
+{
+    "created_at": "2026-03-18T21:05:58.025000",
+    "updated_at": null,
+    "id": "cmmwj6k9o00000i8g38tra5i0",
+    "label": "Morvain returns dressed to dining room",
+    "description": "Morvain war in den Garten gegangen und hatte sich wieder angezogen, während der Rest der Gruppe im großen Empfangsspeisezimmer am Tisch saß und Nachtisch aß.",
+    "type": "step",
+    "index": 0,
+    "metadata": null,
+    "parent_id": "cmmwj8tlb002m0i8grppik165",
+    "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+    "game_session_ids": [
+        "cmmwb2jqn000004jrqzwdmmx5"
+    ],
+    "game_session_id": "cmmwb2jqn000004jrqzwdmmx5"
+}

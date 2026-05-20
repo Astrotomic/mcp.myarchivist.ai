@@ -1,0 +1,1210 @@
+{
+    "current_page": 1,
+    "data": [
+        {
+            "id": "cmmwj6k9o00000i8g38tra5i0",
+            "label": "Morvain returns dressed to dining room",
+            "type": "step",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmwj8tlb002m0i8grppik165",
+            "game_session_ids": [
+                "cmmwb2jqn000004jrqzwdmmx5"
+            ],
+            "game_session_id": "cmmwb2jqn000004jrqzwdmmx5"
+        },
+        {
+            "id": "cmmwj8tga002l0i8gm3ql1vkh",
+            "label": "Nachtisch und erstes Trinkspiel",
+            "type": "major",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": null,
+            "game_session_ids": [
+                "cmmwb2jqn000004jrqzwdmmx5"
+            ],
+            "game_session_id": "cmmwb2jqn000004jrqzwdmmx5"
+        },
+        {
+            "id": "cmmwj8tlb002m0i8grppik165",
+            "label": "Dessert und erstes Trinkspiel",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmwj8tga002l0i8gm3ql1vkh",
+            "game_session_ids": [
+                "cmmwb2jqn000004jrqzwdmmx5"
+            ],
+            "game_session_id": "cmmwb2jqn000004jrqzwdmmx5"
+        },
+        {
+            "id": "cmmwj8txu002q0i8ghx9vzqtc",
+            "label": "Gartenverlassen und Nachtstimmung",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmwj8tur002p0i8gtlayj1d6",
+            "game_session_ids": [
+                "cmmwb2jqn000004jrqzwdmmx5"
+            ],
+            "game_session_id": "cmmwb2jqn000004jrqzwdmmx5"
+        },
+        {
+            "id": "cmmwj8ugk002w0i8gvq79nk9f",
+            "label": "Feuerkerne und Showeffekt",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmwj8udh002v0i8ghmg321d9",
+            "game_session_ids": [
+                "cmmwb2jqn000004jrqzwdmmx5"
+            ],
+            "game_session_id": "cmmwb2jqn000004jrqzwdmmx5"
+        },
+        {
+            "id": "cmmxiu1f600000teue9ysxz9o",
+            "label": "Gruppe verlässt Nightstone",
+            "type": "step",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmxiup24000b0teuoqdst394",
+            "game_session_ids": [
+                "cmmxis1is000004js41p8in62"
+            ],
+            "game_session_id": "cmmxis1is000004js41p8in62"
+        },
+        {
+            "id": "cmmxiuoyn000a0teuau0zs5c3",
+            "label": "Aufbruch zum Ardeep Forest",
+            "type": "major",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": null,
+            "game_session_ids": [
+                "cmmxis1is000004js41p8in62"
+            ],
+            "game_session_id": "cmmxis1is000004js41p8in62"
+        },
+        {
+            "id": "cmmxiup24000b0teuoqdst394",
+            "label": "Aufbruch und Spurensuche zum Ardeep Forest",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmxiuoyn000a0teuau0zs5c3",
+            "game_session_ids": [
+                "cmmxis1is000004js41p8in62"
+            ],
+            "game_session_id": "cmmxis1is000004js41p8in62"
+        },
+        {
+            "id": "cmmxiupc2000e0teug3wahgjg",
+            "label": "Anreise und Betreten der Höhle",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmxiup8r000d0teutzmndc5y",
+            "game_session_ids": [
+                "cmmxis1is000004js41p8in62"
+            ],
+            "game_session_id": "cmmxis1is000004js41p8in62"
+        },
+        {
+            "id": "cmmxp2boo00001qi18aemqsfu",
+            "label": "Gruppe überstand Kampf gegen Schleim",
+            "type": "step",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmxp3bup000c1qi1jfgf450v",
+            "game_session_ids": [
+                "cmmxozubl000104jlegt4q501"
+            ],
+            "game_session_id": "cmmxozubl000104jlegt4q501"
+        },
+        {
+            "id": "cmmxp3br5000b1qi1wouizc2n",
+            "label": "Verhandlungen in der Goblin-Höhle",
+            "type": "major",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": null,
+            "game_session_ids": [
+                "cmmxozubl000104jlegt4q501"
+            ],
+            "game_session_id": "cmmxozubl000104jlegt4q501"
+        },
+        {
+            "id": "cmmxp3bup000c1qi1jfgf450v",
+            "label": "Vorspiel und Vorstoß in Höhle",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmxp3br5000b1qi1wouizc2n",
+            "game_session_ids": [
+                "cmmxozubl000104jlegt4q501"
+            ],
+            "game_session_id": "cmmxozubl000104jlegt4q501"
+        },
+        {
+            "id": "cmmxp3c4m000f1qi1pb9bnnpe",
+            "label": "Rückkehr mit Befreiten nach Nightstone",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmxp3c1d000e1qi1c8a1gbr7",
+            "game_session_ids": [
+                "cmmxozubl000104jlegt4q501"
+            ],
+            "game_session_id": "cmmxozubl000104jlegt4q501"
+        },
+        {
+            "id": "cmmxs7qh300000i859cv5grvf",
+            "label": "Durchsuchung der Häuser in Nightstone",
+            "type": "step",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmxs8i58000c0i8526ndti2g",
+            "game_session_ids": [
+                "cmmxramg6000004ickfomzviu"
+            ],
+            "game_session_id": "cmmxramg6000004ickfomzviu"
+        },
+        {
+            "id": "cmmxs8i2n000b0i85qbkswjgs",
+            "label": "Aufräumen und Sicherung Nightstone",
+            "type": "major",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": null,
+            "game_session_ids": [
+                "cmmxramg6000004ickfomzviu"
+            ],
+            "game_session_id": "cmmxramg6000004ickfomzviu"
+        },
+        {
+            "id": "cmmxs8i58000c0i8526ndti2g",
+            "label": "Systematische Durchsuchung der Häuser",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmxs8i2n000b0i85qbkswjgs",
+            "game_session_ids": [
+                "cmmxramg6000004ickfomzviu"
+            ],
+            "game_session_id": "cmmxramg6000004ickfomzviu"
+        },
+        {
+            "id": "cmmxs8ie1000f0i85ogk3imk5",
+            "label": "Vorbereitung und Handelsüberlegung mit Elfen",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmxs8ibl000e0i85b05irtzs",
+            "game_session_ids": [
+                "cmmxramg6000004ickfomzviu"
+            ],
+            "game_session_id": "cmmxramg6000004ickfomzviu"
+        },
+        {
+            "id": "cmmyzmnhb00001fgrga4iv9kv",
+            "label": "Gruppe kehrt nach Nightstone zurück",
+            "type": "step",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmyznccx00091fgr24xfdcgx",
+            "game_session_ids": [
+                "cmmyzkvk0000004l53v8oqnwc"
+            ],
+            "game_session_id": "cmmyzkvk0000004l53v8oqnwc"
+        },
+        {
+            "id": "cmmyznc9j00081fgr75hc7rmb",
+            "label": "Durchsuchung der Festung Nightstone",
+            "type": "major",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": null,
+            "game_session_ids": [
+                "cmmyzkvk0000004l53v8oqnwc"
+            ],
+            "game_session_id": "cmmyzkvk0000004l53v8oqnwc"
+        },
+        {
+            "id": "cmmyznccx00091fgr24xfdcgx",
+            "label": "Rückkehr und Entscheidung zur Durchsuchung",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmyznc9j00081fgr75hc7rmb",
+            "game_session_ids": [
+                "cmmyzkvk0000004l53v8oqnwc"
+            ],
+            "game_session_id": "cmmyzkvk0000004l53v8oqnwc"
+        },
+        {
+            "id": "cmmyzncmq000c1fgrl2pe4s08",
+            "label": "Abschluss und Verlassen von Nightstone",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmyzncji000b1fgrqgounhp4",
+            "game_session_ids": [
+                "cmmyzkvk0000004l53v8oqnwc"
+            ],
+            "game_session_id": "cmmyzkvk0000004l53v8oqnwc"
+        },
+        {
+            "id": "cmmz4mhpc00000iatsb6ofnh8",
+            "label": "Schütze feuert Bolzen auf Verfolger",
+            "type": "step",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmz4nlgb001i0iatg2g4crso",
+            "game_session_ids": [
+                "pfbomimgzd38cxlxf3iff0vb"
+            ],
+            "game_session_id": "pfbomimgzd38cxlxf3iff0vb"
+        },
+        {
+            "id": "cmmz4nlcv001h0iat3ubkwp4i",
+            "label": "Flucht und erste Fahrt",
+            "type": "major",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": null,
+            "game_session_ids": [
+                "pfbomimgzd38cxlxf3iff0vb"
+            ],
+            "game_session_id": "pfbomimgzd38cxlxf3iff0vb"
+        },
+        {
+            "id": "cmmz4nlgb001i0iatg2g4crso",
+            "label": "Angriff und Einstieg in Kutsche",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmz4nlcv001h0iat3ubkwp4i",
+            "game_session_ids": [
+                "pfbomimgzd38cxlxf3iff0vb"
+            ],
+            "game_session_id": "pfbomimgzd38cxlxf3iff0vb"
+        },
+        {
+            "id": "cmmz4nlsz001m0iat2kxl0mfe",
+            "label": "Surina hört Echo-Stimme",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmz4nlpv001l0iatpj6spgnx",
+            "game_session_ids": [
+                "pfbomimgzd38cxlxf3iff0vb"
+            ],
+            "game_session_id": "pfbomimgzd38cxlxf3iff0vb"
+        },
+        {
+            "id": "cmmz4nmbs001s0iathfcbk90s",
+            "label": "Einfahrt und Unterbringung",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmz4nm8n001r0iatio8o6x0b",
+            "game_session_ids": [
+                "pfbomimgzd38cxlxf3iff0vb"
+            ],
+            "game_session_id": "pfbomimgzd38cxlxf3iff0vb"
+        },
+        {
+            "id": "cmmzdtsrd000014hoirr5vd8t",
+            "label": "Zellentür schloss sich mit Krachen",
+            "type": "step",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmzduvdq001q14ho038m1jyf",
+            "game_session_ids": [
+                "cmmzdpk4k000004l86u1cetpi"
+            ],
+            "game_session_id": "cmmzdpk4k000004l86u1cetpi"
+        },
+        {
+            "id": "cmmzduvad001p14honef6aahn",
+            "label": "Gefangene erwachen und befreien",
+            "type": "major",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": null,
+            "game_session_ids": [
+                "cmmzdpk4k000004l86u1cetpi"
+            ],
+            "game_session_id": "cmmzdpk4k000004l86u1cetpi"
+        },
+        {
+            "id": "cmmzduvdq001q14ho038m1jyf",
+            "label": "Zellentür fällt ins Schloss",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmzduvad001p14honef6aahn",
+            "game_session_ids": [
+                "cmmzdpk4k000004l86u1cetpi"
+            ],
+            "game_session_id": "cmmzdpk4k000004l86u1cetpi"
+        },
+        {
+            "id": "cmmzduvu1001v14ho3zgud73c",
+            "label": "Gang, Turm und Kisten",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmzduvqv001u14hogrnpdmt4",
+            "game_session_ids": [
+                "cmmzdpk4k000004l86u1cetpi"
+            ],
+            "game_session_id": "cmmzdpk4k000004l86u1cetpi"
+        },
+        {
+            "id": "cmmzduw6x001z14hoql5exzka",
+            "label": "Große Tür öffnet den Hof",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmzduw3q001y14hokztbplcp",
+            "game_session_ids": [
+                "cmmzdpk4k000004l86u1cetpi"
+            ],
+            "game_session_id": "cmmzdpk4k000004l86u1cetpi"
+        },
+        {
+            "id": "cmmzfnb5e000014mirxgfpvfi",
+            "label": "Surina weckt Gwendolyn im Wagen",
+            "type": "step",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmzfofi2001h14mii6k590kt",
+            "game_session_ids": [
+                "m2s4jpo7e4n5ozf1k5k1tom9"
+            ],
+            "game_session_id": "m2s4jpo7e4n5ozf1k5k1tom9"
+        },
+        {
+            "id": "cmmzfoff4001g14mi5j0ovxp2",
+            "label": "Ankunft und erste Nachforschungen",
+            "type": "major",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": null,
+            "game_session_ids": [
+                "m2s4jpo7e4n5ozf1k5k1tom9"
+            ],
+            "game_session_id": "m2s4jpo7e4n5ozf1k5k1tom9"
+        },
+        {
+            "id": "cmmzfofi2001h14mii6k590kt",
+            "label": "Erwachen und Wachenbefragung",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmzfoff4001g14mi5j0ovxp2",
+            "game_session_ids": [
+                "m2s4jpo7e4n5ozf1k5k1tom9"
+            ],
+            "game_session_id": "m2s4jpo7e4n5ozf1k5k1tom9"
+        },
+        {
+            "id": "cmmzfoftg001l14mimaopkp6h",
+            "label": "Begegnung mit Brennen Voidridge",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmzfofqn001k14miuq6s9nza",
+            "game_session_ids": [
+                "m2s4jpo7e4n5ozf1k5k1tom9"
+            ],
+            "game_session_id": "m2s4jpo7e4n5ozf1k5k1tom9"
+        },
+        {
+            "id": "cmmzfog22001o14miyz0br70c",
+            "label": "Ansitz, Schuss und Wolfskampf",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmzfofz7001n14mih0hei9tn",
+            "game_session_ids": [
+                "m2s4jpo7e4n5ozf1k5k1tom9"
+            ],
+            "game_session_id": "m2s4jpo7e4n5ozf1k5k1tom9"
+        },
+        {
+            "id": "cmn0d090m00000t7rire7k7ea",
+            "label": "Dîn-io wacht im Gasthaus",
+            "type": "step",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmn0d1ean001j0t7rz1nmadsv",
+            "game_session_ids": [
+                "yusqz1z3bkqwmsctx3yu4nv5"
+            ],
+            "game_session_id": "yusqz1z3bkqwmsctx3yu4nv5"
+        },
+        {
+            "id": "cmn0d1e6t001i0t7r8u9bhnne",
+            "label": "Mitternächtliche Träume und Festnahme",
+            "type": "major",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": null,
+            "game_session_ids": [
+                "yusqz1z3bkqwmsctx3yu4nv5"
+            ],
+            "game_session_id": "yusqz1z3bkqwmsctx3yu4nv5"
+        },
+        {
+            "id": "cmn0d1ean001j0t7rz1nmadsv",
+            "label": "Gemeinsamer Jagdtraum und Brücke",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmn0d1e6t001i0t7r8u9bhnne",
+            "game_session_ids": [
+                "yusqz1z3bkqwmsctx3yu4nv5"
+            ],
+            "game_session_id": "yusqz1z3bkqwmsctx3yu4nv5"
+        },
+        {
+            "id": "cmn0d1erb001o0t7rbxh7mbcl",
+            "label": "Quergs Angebot und Schlüsselwurf",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmn0d1enx001n0t7rg87m70qu",
+            "game_session_ids": [
+                "yusqz1z3bkqwmsctx3yu4nv5"
+            ],
+            "game_session_id": "yusqz1z3bkqwmsctx3yu4nv5"
+        },
+        {
+            "id": "cmn0d1f7t001t0t7rp8wavv5w",
+            "label": "Ritual auf dem Reisehügel",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmn0d1f4k001s0t7rr0ekcxct",
+            "game_session_ids": [
+                "yusqz1z3bkqwmsctx3yu4nv5"
+            ],
+            "game_session_id": "yusqz1z3bkqwmsctx3yu4nv5"
+        },
+        {
+            "id": "cmn0ea7qy00000td2cdmmw543",
+            "label": "Querg woke the group in fortress",
+            "type": "step",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmn0eb6ax00130td2dxi6okjo",
+            "game_session_ids": [
+                "gfsn4we82il590v99h1guti9"
+            ],
+            "game_session_id": "gfsn4we82il590v99h1guti9"
+        },
+        {
+            "id": "cmn0eb68000120td2sh2tk7nu",
+            "label": "Aufwachen, Frühstück und Auftrag",
+            "type": "major",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": null,
+            "game_session_ids": [
+                "gfsn4we82il590v99h1guti9"
+            ],
+            "game_session_id": "gfsn4we82il590v99h1guti9"
+        },
+        {
+            "id": "cmn0eb6ax00130td2dxi6okjo",
+            "label": "Wecken und Frühstück serviert",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmn0eb68000120td2sh2tk7nu",
+            "game_session_ids": [
+                "gfsn4we82il590v99h1guti9"
+            ],
+            "game_session_id": "gfsn4we82il590v99h1guti9"
+        },
+        {
+            "id": "cmn0eb6mp00170td2gzzjf006",
+            "label": "Route und Karteninformation",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmn0eb6jp00160td2mj2pqv40",
+            "game_session_ids": [
+                "gfsn4we82il590v99h1guti9"
+            ],
+            "game_session_id": "gfsn4we82il590v99h1guti9"
+        },
+        {
+            "id": "cmn0eb6v9001a0td2o0jnsb4v",
+            "label": "Wegbeobachtungen und Aufklärung",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmn0eb6sf00190td2jwoqkcfc",
+            "game_session_ids": [
+                "gfsn4we82il590v99h1guti9"
+            ],
+            "game_session_id": "gfsn4we82il590v99h1guti9"
+        },
+        {
+            "id": "cmn0ugibq00002nh86t8uep35",
+            "label": "Gruppe folgt Fluss zu Wasserfall",
+            "type": "step",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmn0ujyga002a2nh83wxx05ho",
+            "game_session_ids": [
+                "nd3pb9kjdqbw7t6n6rvds4dg"
+            ],
+            "game_session_id": "nd3pb9kjdqbw7t6n6rvds4dg"
+        },
+        {
+            "id": "cmn0ujycd00292nh8xdxkftxj",
+            "label": "Höhlenzugang und erste Erkundung",
+            "type": "major",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": null,
+            "game_session_ids": [
+                "nd3pb9kjdqbw7t6n6rvds4dg"
+            ],
+            "game_session_id": "nd3pb9kjdqbw7t6n6rvds4dg"
+        },
+        {
+            "id": "cmn0ujyga002a2nh83wxx05ho",
+            "label": "Wasserfall, Höhleneingang, Pfad",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmn0ujycd00292nh8xdxkftxj",
+            "game_session_ids": [
+                "nd3pb9kjdqbw7t6n6rvds4dg"
+            ],
+            "game_session_id": "nd3pb9kjdqbw7t6n6rvds4dg"
+        },
+        {
+            "id": "cmn0ujysy002e2nh80q6pjw5o",
+            "label": "Begegnung mit Gnomen und Werkstatt",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmn0ujypu002d2nh88qwhf3bq",
+            "game_session_ids": [
+                "nd3pb9kjdqbw7t6n6rvds4dg"
+            ],
+            "game_session_id": "nd3pb9kjdqbw7t6n6rvds4dg"
+        },
+        {
+            "id": "cmn0ujz8t002j2nh8xr29liga",
+            "label": "Alarm, Wächter und Audienz",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmn0ujz5n002i2nh8ab0ci4mv",
+            "game_session_ids": [
+                "nd3pb9kjdqbw7t6n6rvds4dg"
+            ],
+            "game_session_id": "nd3pb9kjdqbw7t6n6rvds4dg"
+        },
+        {
+            "id": "cmn39tsje00000tiqipklvrbd",
+            "label": "Treffen im Gasthaus Goblin Hob",
+            "type": "step",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmn39upoo000w0tiqexabalw0",
+            "game_session_ids": [
+                "cmn36s33c000204l27ztg7k7e"
+            ],
+            "game_session_id": "cmn36s33c000204l27ztg7k7e"
+        },
+        {
+            "id": "cmn39uplc000v0tiqmvg166g0",
+            "label": "Vorfall im Gasthaus Goblin Hob",
+            "type": "major",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": null,
+            "game_session_ids": [
+                "cmn36s33c000204l27ztg7k7e"
+            ],
+            "game_session_id": "cmn36s33c000204l27ztg7k7e"
+        },
+        {
+            "id": "cmn39upoo000w0tiqexabalw0",
+            "label": "Treffen und Küchenalarm im Gasthaus",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmn39uplc000v0tiqmvg166g0",
+            "game_session_ids": [
+                "cmn36s33c000204l27ztg7k7e"
+            ],
+            "game_session_id": "cmn36s33c000204l27ztg7k7e"
+        },
+        {
+            "id": "cmn39uq5000110tiqbso9keoj",
+            "label": "Ermittlung bis zum Lieferjungen",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmn39uq1q00100tiq0z8yd1vh",
+            "game_session_ids": [
+                "cmn36s33c000204l27ztg7k7e"
+            ],
+            "game_session_id": "cmn36s33c000204l27ztg7k7e"
+        },
+        {
+            "id": "cmn3duzyh00000hc7yyrmxfri",
+            "label": "Gruppe steigt Treppen hinab",
+            "type": "step",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmn3dvszc000k0hc71kd2cwac",
+            "game_session_ids": [
+                "cmn3cw3o2000004l7mt653jov"
+            ],
+            "game_session_id": "cmn3cw3o2000004l7mt653jov"
+        },
+        {
+            "id": "cmn3dvsw5000j0hc7yqwwuom5",
+            "label": "Abstieg und erster Kampf",
+            "type": "major",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": null,
+            "game_session_ids": [
+                "cmn3cw3o2000004l7mt653jov"
+            ],
+            "game_session_id": "cmn3cw3o2000004l7mt653jov"
+        },
+        {
+            "id": "cmn3dvszc000k0hc71kd2cwac",
+            "label": "Treppenabstieg zum Licht",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmn3dvsw5000j0hc7yqwwuom5",
+            "game_session_ids": [
+                "cmn3cw3o2000004l7mt653jov"
+            ],
+            "game_session_id": "cmn3cw3o2000004l7mt653jov"
+        },
+        {
+            "id": "cmn3dvt8h000n0hc7o8xa7qtb",
+            "label": "Raumerkundung und Öffnung",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmn3dvt5g000m0hc75bzchxzq",
+            "game_session_ids": [
+                "cmn3cw3o2000004l7mt653jov"
+            ],
+            "game_session_id": "cmn3cw3o2000004l7mt653jov"
+        },
+        {
+            "id": "cmn3dvtkp000r0hc7kpv4yrsv",
+            "label": "Frith stellt Anspruch und fordert",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmn3dvthn000q0hc7ibh2ve8t",
+            "game_session_ids": [
+                "cmn3cw3o2000004l7mt653jov"
+            ],
+            "game_session_id": "cmn3cw3o2000004l7mt653jov"
+        },
+        {
+            "id": "cmn3fn6jn00000if2euzrpaez",
+            "label": "Frith fordert Würfel von Dorfbewohner",
+            "type": "step",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmn3fob8i000k0if25bse7v47",
+            "game_session_ids": [
+                "cmn3ep276000804jrkdtsl58r"
+            ],
+            "game_session_id": "cmn3ep276000804jrkdtsl58r"
+        },
+        {
+            "id": "cmn3fob53000j0if2k29i399h",
+            "label": "Friths Forderung und Burgsuche",
+            "type": "major",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": null,
+            "game_session_ids": [
+                "cmn3ep276000804jrkdtsl58r"
+            ],
+            "game_session_id": "cmn3ep276000804jrkdtsl58r"
+        },
+        {
+            "id": "cmn3fob8i000k0if25bse7v47",
+            "label": "Friths Forderung an Gruppe",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmn3fob53000j0if2k29i399h",
+            "game_session_ids": [
+                "cmn3ep276000804jrkdtsl58r"
+            ],
+            "game_session_id": "cmn3ep276000804jrkdtsl58r"
+        },
+        {
+            "id": "cmn3fobi9000n0if2y0zx73f7",
+            "label": "Kaz als wahrscheinlichster Verdächtiger",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmn3fobf0000m0if2w3upfqq7",
+            "game_session_ids": [
+                "cmn3ep276000804jrkdtsl58r"
+            ],
+            "game_session_id": "cmn3ep276000804jrkdtsl58r"
+        },
+        {
+            "id": "cmn3fobrv000q0if26n2uyosf",
+            "label": "Würfelidentifikation und erste Berührungen",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmn3foboo000p0if2qmvi6djz",
+            "game_session_ids": [
+                "cmn3ep276000804jrkdtsl58r"
+            ],
+            "game_session_id": "cmn3ep276000804jrkdtsl58r"
+        },
+        {
+            "id": "cmnhxynx100002oiml4qqqlfz",
+            "label": "Morvain schloss sich Gwendolyn und Surina an",
+            "type": "step",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmnhy0gyt002o2oimvwanl29h",
+            "game_session_ids": [
+                "cmnhoa5e6000004juew4mv3o2"
+            ],
+            "game_session_id": "cmnhoa5e6000004juew4mv3o2"
+        },
+        {
+            "id": "cmnhy0gwe002n2oimdfm4tu69",
+            "label": "Gespräche im Pavillon und Laternen",
+            "type": "major",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": null,
+            "game_session_ids": [
+                "cmnhoa5e6000004juew4mv3o2"
+            ],
+            "game_session_id": "cmnhoa5e6000004juew4mv3o2"
+        },
+        {
+            "id": "cmnhy0gyt002o2oimvwanl29h",
+            "label": "Erinnerungen und Anekdoten am Pavillon",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmnhy0gwe002n2oimdfm4tu69",
+            "game_session_ids": [
+                "cmnhoa5e6000004juew4mv3o2"
+            ],
+            "game_session_id": "cmnhoa5e6000004juew4mv3o2"
+        },
+        {
+            "id": "cmnhy0hdf002u2oimn76w3ear",
+            "label": "Brennens Begegnung mit Verzweifelten",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmnhy0haz002t2oimquq3fan9",
+            "game_session_ids": [
+                "cmnhoa5e6000004juew4mv3o2"
+            ],
+            "game_session_id": "cmnhoa5e6000004juew4mv3o2"
+        },
+        {
+            "id": "cmnhy0hpn002z2oimsrn0eeqk",
+            "label": "Weitere Entführungen und Fund",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmnhy0hn6002y2oimdttwjk98",
+            "game_session_ids": [
+                "cmnhoa5e6000004juew4mv3o2"
+            ],
+            "game_session_id": "cmnhoa5e6000004juew4mv3o2"
+        },
+        {
+            "id": "cmo0gf6ue00000tezjn77wcl0",
+            "label": "Gruppe außerhalb von Briarwatch",
+            "type": "step",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmo0ggesq00180tez3qi1idxs",
+            "game_session_ids": [
+                "cmo09c23d000004kyif8br5tt"
+            ],
+            "game_session_id": "cmo09c23d000004kyif8br5tt"
+        },
+        {
+            "id": "cmo0ggepc00170tezsfhl29aa",
+            "label": "Konfrontation mit Captain Durnan",
+            "type": "major",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": null,
+            "game_session_ids": [
+                "cmo09c23d000004kyif8br5tt"
+            ],
+            "game_session_id": "cmo09c23d000004kyif8br5tt"
+        },
+        {
+            "id": "cmo0ggesq00180tez3qi1idxs",
+            "label": "Informationsaustausch mit Seres",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmo0ggepc00170tezsfhl29aa",
+            "game_session_ids": [
+                "cmo09c23d000004kyif8br5tt"
+            ],
+            "game_session_id": "cmo09c23d000004kyif8br5tt"
+        },
+        {
+            "id": "cmo0ggf9d001d0tez4nk43c2i",
+            "label": "Weg zur Bibliothek und Zugang",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmo0ggf62001c0tezmt02dos3",
+            "game_session_ids": [
+                "cmo09c23d000004kyif8br5tt"
+            ],
+            "game_session_id": "cmo09c23d000004kyif8br5tt"
+        },
+        {
+            "id": "cmo0ggfmn001h0tezbkvttmkg",
+            "label": "Treppe, Tür und Pause",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmo0ggfjb001g0tez5tqbweju",
+            "game_session_ids": [
+                "cmo09c23d000004kyif8br5tt"
+            ],
+            "game_session_id": "cmo09c23d000004kyif8br5tt"
+        },
+        {
+            "id": "cmoaissc100000tf47uzisto0",
+            "label": "Gruppe trifft sich am Brunnen",
+            "type": "step",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmoaiulc000190tf4knuf66tg",
+            "game_session_ids": [
+                "cmoabbm19000704jq33qjteo5"
+            ],
+            "game_session_id": "cmoabbm19000704jq33qjteo5"
+        },
+        {
+            "id": "cmoaiul8s00180tf4sz6lsm24",
+            "label": "Verhör im Zellentrakt",
+            "type": "major",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": null,
+            "game_session_ids": [
+                "cmoabbm19000704jq33qjteo5"
+            ],
+            "game_session_id": "cmoabbm19000704jq33qjteo5"
+        },
+        {
+            "id": "cmoaiulc000190tf4knuf66tg",
+            "label": "Entschluss und Vorgehensweise festlegen",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmoaiul8s00180tf4sz6lsm24",
+            "game_session_ids": [
+                "cmoabbm19000704jq33qjteo5"
+            ],
+            "game_session_id": "cmoabbm19000704jq33qjteo5"
+        },
+        {
+            "id": "cmoaiulxz001g0tf4kfoejszq",
+            "label": "Pio führt zur Haarbündelentdeckung",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmoaiuluv001f0tf48o70jc18",
+            "game_session_ids": [
+                "cmoabbm19000704jq33qjteo5"
+            ],
+            "game_session_id": "cmoabbm19000704jq33qjteo5"
+        },
+        {
+            "id": "cmokgd79m00000tk1v65f9z29",
+            "label": "Brennen nahm die Knochenkette in die Hand",
+            "type": "step",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmokgeymr002b0tk1d1q26cb6",
+            "game_session_ids": [
+                "cmok9b9au000004l73982sid9"
+            ],
+            "game_session_id": "cmok9b9au000004l73982sid9"
+        },
+        {
+            "id": "cmokgeyjg002a0tk1y69ofgxb",
+            "label": "Knochenkette und heimliche Beratung",
+            "type": "major",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": null,
+            "game_session_ids": [
+                "cmok9b9au000004l73982sid9"
+            ],
+            "game_session_id": "cmok9b9au000004l73982sid9"
+        },
+        {
+            "id": "cmokgeymr002b0tk1d1q26cb6",
+            "label": "Kette verursacht Nebelblick",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmokgeyjg002a0tk1y69ofgxb",
+            "game_session_ids": [
+                "cmok9b9au000004l73982sid9"
+            ],
+            "game_session_id": "cmok9b9au000004l73982sid9"
+        },
+        {
+            "id": "cmokgeyzv002f0tk1yhhawnvq",
+            "label": "Telepathischer Kontakt zu Flint",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmokgeywn002e0tk1bo278s6p",
+            "game_session_ids": [
+                "cmok9b9au000004l73982sid9"
+            ],
+            "game_session_id": "cmok9b9au000004l73982sid9"
+        },
+        {
+            "id": "cmokgezfv002k0tk1kiwnu5uk",
+            "label": "Beobachtung der Angriffe",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmokgezcp002j0tk1y9u7pfkr",
+            "game_session_ids": [
+                "cmok9b9au000004l73982sid9"
+            ],
+            "game_session_id": "cmok9b9au000004l73982sid9"
+        },
+        {
+            "id": "cmoljgz2r00000tft7levzo48",
+            "label": "Anker wurde gehoben und Fahrt begonnen",
+            "type": "step",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmolji2fi001f0tftax68ai6a",
+            "game_session_ids": [
+                "sz3s13nfaid7oxa0oh771joh"
+            ],
+            "game_session_id": "sz3s13nfaid7oxa0oh771joh"
+        },
+        {
+            "id": "cmolji2cg001e0tfty51v3edv",
+            "label": "Flussfahrt, Eisbruch und Drache",
+            "type": "major",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": null,
+            "game_session_ids": [
+                "sz3s13nfaid7oxa0oh771joh"
+            ],
+            "game_session_id": "sz3s13nfaid7oxa0oh771joh"
+        },
+        {
+            "id": "cmolji2fi001f0tftax68ai6a",
+            "label": "Abfahrt und Eisbrecher-Aktionen",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmolji2cg001e0tfty51v3edv",
+            "game_session_ids": [
+                "sz3s13nfaid7oxa0oh771joh"
+            ],
+            "game_session_id": "sz3s13nfaid7oxa0oh771joh"
+        },
+        {
+            "id": "cmolji2rg001j0tftf0ij3u1k",
+            "label": "Wache und Hilfegesuch",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmolji2of001i0tft8d2flk2t",
+            "game_session_ids": [
+                "sz3s13nfaid7oxa0oh771joh"
+            ],
+            "game_session_id": "sz3s13nfaid7oxa0oh771joh"
+        },
+        {
+            "id": "cmolji35x001o0tftz2xj9aze",
+            "label": "Ausbeutung und Geschenkübergabe",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmolji330001n0tft6skafijo",
+            "game_session_ids": [
+                "sz3s13nfaid7oxa0oh771joh"
+            ],
+            "game_session_id": "sz3s13nfaid7oxa0oh771joh"
+        },
+        {
+            "id": "cmolkmrat00000tha8cgss08a",
+            "label": "Surina schnitt Leder, Krallen und Zähne ab",
+            "type": "step",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmolknpxz000t0thauox5z28e",
+            "game_session_ids": [
+                "v865shjac4ndtfrslhtoq8ct"
+            ],
+            "game_session_id": "v865shjac4ndtfrslhtoq8ct"
+        },
+        {
+            "id": "cmolknpv5000s0thal4ay2t2w",
+            "label": "Beute sichern und Mast prüfen",
+            "type": "major",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": null,
+            "game_session_ids": [
+                "v865shjac4ndtfrslhtoq8ct"
+            ],
+            "game_session_id": "v865shjac4ndtfrslhtoq8ct"
+        },
+        {
+            "id": "cmolknpxz000t0thauox5z28e",
+            "label": "Beute bergen und aufbewahren",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmolknpv5000s0thal4ay2t2w",
+            "game_session_ids": [
+                "v865shjac4ndtfrslhtoq8ct"
+            ],
+            "game_session_id": "v865shjac4ndtfrslhtoq8ct"
+        },
+        {
+            "id": "cmolknq6h000w0thah520gh0p",
+            "label": "Bedingungen aushandeln und Vorschlag",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmolknq3j000v0tharjo95p69",
+            "game_session_ids": [
+                "v865shjac4ndtfrslhtoq8ct"
+            ],
+            "game_session_id": "v865shjac4ndtfrslhtoq8ct"
+        },
+        {
+            "id": "cmolknqht00100thaqtlsyym3",
+            "label": "Alchemistische Vorbereitung an Bord",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmolknqf2000z0thaerutwe57",
+            "game_session_ids": [
+                "v865shjac4ndtfrslhtoq8ct"
+            ],
+            "game_session_id": "v865shjac4ndtfrslhtoq8ct"
+        },
+        {
+            "id": "cmp4i02oz00001ga64b871rzk",
+            "label": "Steve half adeligen Familien zu entkommen",
+            "type": "step",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmp4i1rjp003f1ga6vn1dbooo",
+            "game_session_ids": [
+                "cmp49egl1000204if2fmow69m"
+            ],
+            "game_session_id": "cmp49egl1000204if2fmow69m"
+        },
+        {
+            "id": "cmp4i1rh6003e1ga6zzz4jn0f",
+            "label": "Gartenrettung und erste Begegnung",
+            "type": "major",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": null,
+            "game_session_ids": [
+                "cmp49egl1000204if2fmow69m"
+            ],
+            "game_session_id": "cmp49egl1000204if2fmow69m"
+        },
+        {
+            "id": "cmp4i1rjp003f1ga6vn1dbooo",
+            "label": "Ankunft und Durchsage",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmp4i1rh6003e1ga6zzz4jn0f",
+            "game_session_ids": [
+                "cmp49egl1000204if2fmow69m"
+            ],
+            "game_session_id": "cmp49egl1000204if2fmow69m"
+        },
+        {
+            "id": "cmp4i1ryl003l1ga6f5lx8jf4",
+            "label": "Doran offenbart Identität",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmp4i1rw5003k1ga6b3siujyp",
+            "game_session_ids": [
+                "cmp49egl1000204if2fmow69m"
+            ],
+            "game_session_id": "cmp49egl1000204if2fmow69m"
+        },
+        {
+            "id": "cmp4i1sdf003r1ga6g3r77ewt",
+            "label": "Abholung und Transport vor Ort",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmp4i1saz003q1ga6csipjruz",
+            "game_session_ids": [
+                "cmp49egl1000204if2fmow69m"
+            ],
+            "game_session_id": "cmp49egl1000204if2fmow69m"
+        },
+        {
+            "id": "cmpbfwbjw00000tkbya6sgsf9",
+            "label": "Gruppe öffnet verschlossene Tür in Kirche",
+            "type": "step",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmpbfxmcm00270tkb7cpvlit4",
+            "game_session_ids": [
+                "cmpbdnlls000004l15qelefj9"
+            ],
+            "game_session_id": "cmpbdnlls000004l15qelefj9"
+        }
+    ],
+    "from": 1,
+    "last_page": 30,
+    "per_page": 100,
+    "to": 100,
+    "total": 2906
+}

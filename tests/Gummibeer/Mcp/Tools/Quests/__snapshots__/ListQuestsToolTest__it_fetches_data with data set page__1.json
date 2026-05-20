@@ -1,0 +1,610 @@
+{
+    "current_page": 2,
+    "data": [
+        {
+            "created_at": "2026-03-07T15:36:07.898000",
+            "updated_at": "2026-03-20T15:12:34.472000",
+            "id": "2abaa6d6-81e9-4f9f-8f04-603219109ca9",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 21,
+            "quest_name": "Erforsche den Tod von Lady Velrosa Nandar",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 2,
+            "completed_objective_count": 2,
+            "progress_entry_count": 2,
+            "related_entity_count": 2,
+            "first_session": {
+                "id": "cmmgg79ia000204lb8xszn2r5",
+                "number": 10,
+                "title": "Burg in Bedrängnis",
+                "session_date": "2022-10-14T16:00:00"
+            },
+            "last_session": {
+                "id": "cmmgg79ia000204lb8xszn2r5",
+                "number": 10,
+                "title": "Burg in Bedrängnis",
+                "session_date": "2022-10-14T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-07T15:36:07.898000",
+            "updated_at": "2026-03-08T21:52:41.984000",
+            "id": "f064f383-8fcb-4a21-8f55-1416e2438004",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 22,
+            "quest_name": "Bewältige die Bedrohung durch die Orc-Horde",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": "Vorbereitungen zur Verteidigung der Burg treffen.",
+            "resolution": null,
+            "objective_count": 2,
+            "completed_objective_count": 2,
+            "progress_entry_count": 3,
+            "related_entity_count": 4,
+            "first_session": {
+                "id": "cmmgg79ia000204lb8xszn2r5",
+                "number": 10,
+                "title": "Burg in Bedrängnis",
+                "session_date": "2022-10-14T16:00:00"
+            },
+            "last_session": {
+                "id": "cmmggrq6e000104lfyjvmjnz6",
+                "number": 11,
+                "title": "Kampf und neue Allianzen",
+                "session_date": "2022-10-28T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-08T21:52:41.984000",
+            "updated_at": "2026-03-08T21:52:41.984000",
+            "id": "98e4c011-90e6-4551-b253-6f73d573e34f",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 23,
+            "quest_name": "Lerne Goblinisch",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "personal",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 2,
+            "completed_objective_count": 2,
+            "progress_entry_count": 2,
+            "related_entity_count": 1,
+            "first_session": {
+                "id": "cmmggrq6e000104lfyjvmjnz6",
+                "number": 11,
+                "title": "Kampf und neue Allianzen",
+                "session_date": "2022-10-28T16:00:00"
+            },
+            "last_session": {
+                "id": "cmmggrq6e000104lfyjvmjnz6",
+                "number": 11,
+                "title": "Kampf und neue Allianzen",
+                "session_date": "2022-10-28T16:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:04:30.959000",
+            "updated_at": "2026-03-20T15:04:30.959000",
+            "id": "04872225-764c-4e0a-85e6-fbf01f57b9ec",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 24,
+            "quest_name": "Durchsuche die Häuser von Nightstone nach Nützlichem",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 1,
+            "progress_entry_count": 1,
+            "related_entity_count": 1,
+            "first_session": {
+                "id": "cmmxramg6000004ickfomzviu",
+                "number": 12,
+                "title": "Auf der Suche nach Allianzen",
+                "session_date": "2022-11-08T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmxramg6000004ickfomzviu",
+                "number": 12,
+                "title": "Auf der Suche nach Allianzen",
+                "session_date": "2022-11-08T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:04:30.959000",
+            "updated_at": "2026-03-20T15:09:53.805000",
+            "id": "77488b6e-64fc-463d-aac7-c1a6f668c858",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 25,
+            "quest_name": "Bereite die Reise in ein Elfen-Dorf vor",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 2,
+            "completed_objective_count": 2,
+            "progress_entry_count": 2,
+            "related_entity_count": 0,
+            "first_session": {
+                "id": "cmmxramg6000004ickfomzviu",
+                "number": 12,
+                "title": "Auf der Suche nach Allianzen",
+                "session_date": "2022-11-08T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmgk2jg8000504l5n5f24odu",
+                "number": 18,
+                "title": "Kampf um das Untotenlager",
+                "session_date": "2023-01-19T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:05:28.728000",
+            "updated_at": "2026-03-20T15:05:28.728000",
+            "id": "8b4a64f1-3b47-4d54-bacd-deaaa8a0cf26",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 26,
+            "quest_name": "Durchsuche die Festung in Nightstone.",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 1,
+            "progress_entry_count": 2,
+            "related_entity_count": 2,
+            "first_session": {
+                "id": "cmmyzkvk0000004l53v8oqnwc",
+                "number": 13,
+                "title": "Rückkehr nach Nightstone und Neubeginn",
+                "session_date": "2022-11-10T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmyzkvk0000004l53v8oqnwc",
+                "number": 13,
+                "title": "Rückkehr nach Nightstone und Neubeginn",
+                "session_date": "2022-11-10T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:05:28.728000",
+            "updated_at": "2026-03-20T15:09:25.196000",
+            "id": "2b1af544-1bc5-45a4-ab88-9560ffd1634c",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 27,
+            "quest_name": "Suche Verbündete im Elfen-Dorf im Ardeep Forest.",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 1,
+            "progress_entry_count": 1,
+            "related_entity_count": 3,
+            "first_session": {
+                "id": "cmmyzkvk0000004l53v8oqnwc",
+                "number": 13,
+                "title": "Rückkehr nach Nightstone und Neubeginn",
+                "session_date": "2022-11-10T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmyzkvk0000004l53v8oqnwc",
+                "number": 13,
+                "title": "Rückkehr nach Nightstone und Neubeginn",
+                "session_date": "2022-11-10T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:05:48.272000",
+            "updated_at": "2026-03-20T15:09:37.997000",
+            "id": "35452d48-c11a-4539-a797-ab0740317d1c",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 28,
+            "quest_name": "Finde die entführten Bewohner von Nightstone",
+            "quest_giver": "Rond",
+            "quest_giver_id": "p3skqbyrcoz73pt81pcq0azq",
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 3,
+            "completed_objective_count": 3,
+            "progress_entry_count": 5,
+            "related_entity_count": 4,
+            "first_session": {
+                "id": "cmmxis1is000004js41p8in62",
+                "number": 14,
+                "title": "In den Tiefen der Dunkelheit",
+                "session_date": "2022-12-03T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmxozubl000104jlegt4q501",
+                "number": 15,
+                "title": "Verhandlungen und neue Bedrohungen",
+                "session_date": "2022-12-08T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:06:20.984000",
+            "updated_at": "2026-03-20T15:06:20.984000",
+            "id": "509a886a-ac31-4c61-aa97-1ad4825c68f9",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 29,
+            "quest_name": "Beendigung der Goblin-Bedrohung",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 1,
+            "progress_entry_count": 1,
+            "related_entity_count": 1,
+            "first_session": {
+                "id": "cmmxozubl000104jlegt4q501",
+                "number": 15,
+                "title": "Verhandlungen und neue Bedrohungen",
+                "session_date": "2022-12-08T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmxozubl000104jlegt4q501",
+                "number": 15,
+                "title": "Verhandlungen und neue Bedrohungen",
+                "session_date": "2022-12-08T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:06:55.767000",
+            "updated_at": "2026-03-20T15:09:07.099000",
+            "id": "f33ecebf-a46a-4fa4-96fe-d22638c0ab6d",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 30,
+            "quest_name": "Finde Flint Fireforge in Waterdeep",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 1,
+            "progress_entry_count": 5,
+            "related_entity_count": 3,
+            "first_session": {
+                "id": "cmmght0cs000b04l4zcnul8gg",
+                "number": 16,
+                "title": "Abenteuer unter den Wolken",
+                "session_date": "2022-12-22T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmght0cs000b04l4zcnul8gg",
+                "number": 16,
+                "title": "Abenteuer unter den Wolken",
+                "session_date": "2022-12-22T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:06:55.767000",
+            "updated_at": "2026-03-20T15:06:55.767000",
+            "id": "ef9b8bc2-169f-4018-a441-24de6aa001f8",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 31,
+            "quest_name": "Warne Zephyros vor den Kultisten",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 1,
+            "progress_entry_count": 3,
+            "related_entity_count": 3,
+            "first_session": {
+                "id": "cmmght0cs000b04l4zcnul8gg",
+                "number": 16,
+                "title": "Abenteuer unter den Wolken",
+                "session_date": "2022-12-22T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmght0cs000b04l4zcnul8gg",
+                "number": 16,
+                "title": "Abenteuer unter den Wolken",
+                "session_date": "2022-12-22T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:06:55.767000",
+            "updated_at": "2026-03-20T15:06:55.767000",
+            "id": "dd482b18-0da4-45b4-9c15-9972893dcf97",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 32,
+            "quest_name": "Unterstütze Flint beim Bau des Luftschiffes",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 1,
+            "progress_entry_count": 2,
+            "related_entity_count": 1,
+            "first_session": {
+                "id": "cmmght0cs000b04l4zcnul8gg",
+                "number": 16,
+                "title": "Abenteuer unter den Wolken",
+                "session_date": "2022-12-22T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmght0cs000b04l4zcnul8gg",
+                "number": 16,
+                "title": "Abenteuer unter den Wolken",
+                "session_date": "2022-12-22T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:07:25.739000",
+            "updated_at": "2026-03-20T15:17:48.908000",
+            "id": "90e13bc1-a430-425c-bbe8-881da39cd0fc",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 33,
+            "quest_name": "Untersuche die Festung Hammerhåeim",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 3,
+            "completed_objective_count": 3,
+            "progress_entry_count": 3,
+            "related_entity_count": 6,
+            "first_session": {
+                "id": "cmmgnk5d1000004jmp1q5ck1m",
+                "number": 17,
+                "title": "Kämpfe und Intrigen in Hammerhåeim",
+                "session_date": "2023-01-05T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmgnk5d1000004jmp1q5ck1m",
+                "number": 17,
+                "title": "Kämpfe und Intrigen in Hammerhåeim",
+                "session_date": "2023-01-05T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:07:25.739000",
+            "updated_at": "2026-03-20T15:07:25.739000",
+            "id": "2ab2f801-0e1e-4ec3-8d3f-430dd8b34ea4",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 34,
+            "quest_name": "Rette Flints Vater",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "planned",
+            "next_action": "Plane die Rettungsmission für Flints Vater.",
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 0,
+            "progress_entry_count": 1,
+            "related_entity_count": 2,
+            "first_session": {
+                "id": "cmmgnk5d1000004jmp1q5ck1m",
+                "number": 17,
+                "title": "Kämpfe und Intrigen in Hammerhåeim",
+                "session_date": "2023-01-05T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmgnk5d1000004jmp1q5ck1m",
+                "number": 17,
+                "title": "Kämpfe und Intrigen in Hammerhåeim",
+                "session_date": "2023-01-05T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:08:47.616000",
+            "updated_at": "2026-03-20T15:18:00.722000",
+            "id": "16f94526-116b-4331-b134-478622fa6de5",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 35,
+            "quest_name": "Vorbereitung auf den Angriff auf das Untotenlager",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 3,
+            "completed_objective_count": 3,
+            "progress_entry_count": 3,
+            "related_entity_count": 2,
+            "first_session": {
+                "id": "cmmgk2jg8000504l5n5f24odu",
+                "number": 18,
+                "title": "Kampf um das Untotenlager",
+                "session_date": "2023-01-19T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmi9vzy1000104jslbafmv5x",
+                "number": 20,
+                "title": "Festung in der Krise",
+                "session_date": "2023-02-16T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:08:47.616000",
+            "updated_at": "2026-03-20T15:17:41.081000",
+            "id": "20c70aa4-9506-4f31-a306-11f564296d77",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 36,
+            "quest_name": "Befreiung der Gefangenen im Untotenlager",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 2,
+            "completed_objective_count": 2,
+            "progress_entry_count": 2,
+            "related_entity_count": 2,
+            "first_session": {
+                "id": "cmmgk2jg8000504l5n5f24odu",
+                "number": 18,
+                "title": "Kampf um das Untotenlager",
+                "session_date": "2023-01-19T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmi9vzy1000104jslbafmv5x",
+                "number": 20,
+                "title": "Festung in der Krise",
+                "session_date": "2023-02-16T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:14:19.747000",
+            "updated_at": "2026-03-20T15:14:19.747000",
+            "id": "c8416d4c-de52-46c7-929d-ea87dcbad1a5",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 37,
+            "quest_name": "Rückzug nach Hammerhåeim",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 3,
+            "completed_objective_count": 3,
+            "progress_entry_count": 3,
+            "related_entity_count": 1,
+            "first_session": {
+                "id": "cmmi9sepe000104jszhcfwavi",
+                "number": 19,
+                "title": "Chaos im Schlachtfeld Rückzug",
+                "session_date": "2023-02-02T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmi9sepe000104jszhcfwavi",
+                "number": 19,
+                "title": "Chaos im Schlachtfeld Rückzug",
+                "session_date": "2023-02-02T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:14:19.747000",
+            "updated_at": "2026-03-20T15:14:19.747000",
+            "id": "11fcf457-9521-455a-9036-c8944eeff150",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 38,
+            "quest_name": "Kampf gegen die Kultisten",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "failed",
+            "next_action": "Die Gruppe sollte sich in Hammerhåeim neu gruppieren und ihre Verluste zählen.",
+            "resolution": null,
+            "objective_count": 2,
+            "completed_objective_count": 1,
+            "progress_entry_count": 2,
+            "related_entity_count": 2,
+            "first_session": {
+                "id": "cmmi9sepe000104jszhcfwavi",
+                "number": 19,
+                "title": "Chaos im Schlachtfeld Rückzug",
+                "session_date": "2023-02-02T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmi9sepe000104jszhcfwavi",
+                "number": 19,
+                "title": "Chaos im Schlachtfeld Rückzug",
+                "session_date": "2023-02-02T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:16:50.196000",
+            "updated_at": "2026-03-20T15:18:11.202000",
+            "id": "63b212ba-52c0-481a-b2b3-7a3eee528b2f",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 39,
+            "quest_name": "Organisiere die Verteidigung der Festung",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 2,
+            "completed_objective_count": 2,
+            "progress_entry_count": 2,
+            "related_entity_count": 3,
+            "first_session": {
+                "id": "cmmi9vzy1000104jslbafmv5x",
+                "number": 20,
+                "title": "Festung in der Krise",
+                "session_date": "2023-02-16T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmi9vzy1000104jslbafmv5x",
+                "number": 20,
+                "title": "Festung in der Krise",
+                "session_date": "2023-02-16T17:00:00"
+            }
+        },
+        {
+            "created_at": "2026-03-20T15:17:17.066000",
+            "updated_at": "2026-03-20T15:17:17.066000",
+            "id": "9e2fc717-424e-478e-8bc2-48c54c904361",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "order_index": 40,
+            "quest_name": "Reise nach Triboar",
+            "quest_giver": null,
+            "quest_giver_id": null,
+            "quest_category": "main",
+            "status": "done",
+            "next_action": null,
+            "resolution": null,
+            "objective_count": 1,
+            "completed_objective_count": 1,
+            "progress_entry_count": 1,
+            "related_entity_count": 2,
+            "first_session": {
+                "id": "cmmia26lw000204jsdjzu9r5l",
+                "number": 21,
+                "title": "Hammer, Magie und neue Wege",
+                "session_date": "2023-03-09T17:00:00"
+            },
+            "last_session": {
+                "id": "cmmia26lw000204jsdjzu9r5l",
+                "number": 21,
+                "title": "Hammer, Magie und neue Wege",
+                "session_date": "2023-03-09T17:00:00"
+            }
+        }
+    ],
+    "from": 21,
+    "last_page": 4,
+    "per_page": 20,
+    "to": 40,
+    "total": 65
+}

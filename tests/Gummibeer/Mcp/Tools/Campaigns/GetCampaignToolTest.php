@@ -22,6 +22,8 @@ final class GetCampaignToolTest extends GummibeerTestCase
                 $json
                     ->assertJsonSchema(CampaignData::class)
                     ->where('id', 'cmj78gm6k000004jrvzm7gcjr');
+
+                $this->assertMatchesJsonSnapshot($json);
             });
     }
 }

@@ -1,0 +1,311 @@
+{
+    "current_page": 2,
+    "data": [
+        {
+            "created_at": "2026-03-20T16:44:59.158000",
+            "updated_at": null,
+            "id": "tgli3q0tgli76z5kbkwxzfps",
+            "name": "Enchanted Nightwood",
+            "aliases": [
+                "Baumgrenze",
+                "Hain"
+            ],
+            "type": null,
+            "description": "Der Hain ist ein bewaldetes Gebiet, das sich etwa 100 Meter von der Kutsche entfernt befindet. Der Hain wird von einer offenen Wiese umgeben, die den Übergang zwischen Wald und freiem Gelände bildet. Die hohen und dichten Bäume dämpfen das Licht und schaffen eine dunkle Umgebung. In diesem Hain gibt es Gebüsche und Bäume, die eine dichte Blattdecke bilden.\n\nWährend einer nächtlichen Rast der Kutsche verlässt Surina die Kutsche und begibt sich in den Hain, um sich zu erleichtern. Dort hört sie eine summende Stimme, die ihr Summen unter dem Blätterdach nachahmt. Um die Kutsche und Lichtquellen zu sehen, entzündet sie eine Fackel und klettert auf einen Baum. Währenddessen bemerkt der Schütze das Fehlen von Surina und schlägt Alarm. Die Gruppe sucht nach ihr und entdeckt, dass sie in der Nähe des Waldrands ist. Als sie die Baumgrenze überschreiten, fallen mehrere Mitglieder der Gruppe in einen tiefen Schlaf. Nur Brennen bleibt als Einziger wach und alarmiert die anderen, während aus dem Wald bedrohliche, flammende Gestalten erscheinen.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-03-20T16:44:59.110000",
+            "updated_at": null,
+            "id": "buibcuxpy12az0isbxsao48q",
+            "name": "Maus Castle",
+            "aliases": [
+                "Gang",
+                "Flur"
+            ],
+            "type": null,
+            "description": "Die Maus Castle ist eine große, befestigte Struktur mit hohen Mauern und einem Tor, das den Zugang zur Stadt kontrolliert. Sie ist umgeben von einer bergigen Landschaft, die als Vorland zu einem Gebirge beschrieben wird. Innerhalb der Maus Castle sind verschiedene Kreaturen und Gegner aktiv. Die Maus Castle dient als Rückzugsort und Verteidigungsanlage.\nIn den tiefen Mauern der Burg ist eine Zelle, in der Gefangene festgehalten werden. Diese Zelle ist von feuchten Steinwänden umgeben, die mit Staub und dem Geruch von Schweiß, Moder und Blut durchzogen sind. Eine eiserne Tür versiegelt den Raum und lässt nur schwaches Licht durch. Die Luft ist schwer und drückend, und die Zelle bietet kaum Platz für Bewegung, was die Gefangenen in ihren Fesseln zusätzlich einschränkt. Zu den Gefangenen gehören Dîn-io Tempest, Gwendolyn Silverflame und Surina, die sich ohne Waffen oder Ausrüstung in der Zelle befinden.\nAls die Zellentür geöffnet wird, betreten zwei Orks den Raum, fliehen jedoch schnell, als ein tiefes Knurren von außerhalb ertönt. Die Gruppe nutzt die Gelegenheit, um sich aus ihren Fesseln zu befreien und die Zelle zu verlassen. Sie schleichen durch einen Gang, in dem Rufe der Orks hallen. Im halb verfallenen Innenhof entdecken sie einen runden Steinturm, dessen Tür einen Spalt offen steht.\nIm Inneren finden sie Kisten mit ihrer Ausrüstung. Während sie den Raum durchsuchen, beobachten sie durch ein Fenster, wie Kultisten und Orks in Richtung des Haupttors rennen. Plötzlich ertönt ein lautes Krachen, gefolgt von Schreien, und die Gruppe zieht sich in die Gebäude zurück. Sie betreten einen breiten Durchgang mit einer großen, geschlossenen Tür am Ende, die sie aufreißen, um einen stillen Hof zu entdecken, der mit Leichen übersät ist. Ein blutüberströmter Ork, der noch lebt, wird von einem Armbrustbolzen getroffen. Ein großer, eisenbeplatteter Kriegswagen mit einem Goblin erscheint, der die Gruppe auffordert, zu ihm zu kommen, bevor der Wagen sich in Bewegung setzt. Die Gruppe rennt los, um den Wagen zu erreichen, während sie von weiteren Orks und Kultisten verfolgt werden.\nZusammenfassend lässt sich sagen, dass die Maus Castle nicht nur eine Verteidigungsanlage ist, sondern auch ein Ort des Kampfes und des Überlebens für die Gefangenen, die in ihren düsteren Zellen festsitzen und die Gefahr der Orks und Kultisten überwinden müssen.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": true,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-03-19T13:45:33.539000",
+            "updated_at": null,
+            "id": "d26ixi9xhdolz7tu5aryak09",
+            "name": "Ardeep Forest > Goblin-Höhle",
+            "aliases": [],
+            "type": null,
+            "description": "Die Goblin-Höhle ist ein feuchter und gefährlicher Ort, geprägt von Nässe, Dunkelheit und Enge. Sie dient als Versteck für Goblins und birgt selbst Gefahren. Die Höhle ist das Ziel einer Suche nach den entführten Bewohnern von Nightstone.\nIn den Tiefen der Höhle lauert ein schwarzer Schleim, ein gefährlicher Ooze, der aus der Dunkelheit und Feuchtigkeit angreift. Dieser Ooze stellt eine unmittelbare Bedrohung dar und beeinflusst die Erkundung der Höhle.\nDie Goblin-Höhle ist zudem eine feuchte und enge Umgebung, die als Verhandlungsort zwischen einer Gruppe und den Goblins diente. Hier konnten Missverständnisse vermieden werden, und eine diplomatische Lösung wurde gefunden. Diese Verhandlung führte zur Freilassung der entführten Dorfbewohner, die in der Höhle gefangen gehalten wurden. Die Gruppe konnte die Höhle ohne einen weiteren Kampf verlassen, nachdem sie erfolgreich die Gefangenen befreit hatte. Die Rückkehr der Gruppe mit den befreiten Dorfbewohnern nach Nightstone markierte das Ende der unmittelbaren Goblin-Bedrohung.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": true,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-03-19T13:45:33.521000",
+            "updated_at": null,
+            "id": "fx9xijuw8hk2yl2oof6h68vk",
+            "name": "Ardeep Forest > elfisches Dorf",
+            "aliases": [
+                "Elfen-Dorf im Ardeep Forest",
+                "das Elfen-Dorf im Ardeep Forest"
+            ],
+            "type": null,
+            "description": "Das elfische Dorf im Ardeep Forest ist ein Ort, an dem die Abenteurer Hinweise von den dort lebenden Elfen über eine Goblin-Höhle erhielten. In dieser Höhle sollen sich die entführten Bewohner von Nightstone befinden. Die Informationen der Elfen führten die Gruppe zu einer Mission, die auf die Rettung der Vermissten abzielte.\nDas elfische Dorf ist auch ein Ziel für Abenteurer, die Verbündete suchen. Die Gruppe folgt Spuren in die Wildnis, die sie aus Nightstone hinausführen und in Richtung des Dorfes leiten. Das Aufsuchen des Elfen-Dorfs dient der strategischen Suche nach Unterstützung, Kontakten oder Antworten. Das elfische Dorf war entscheidend für den weiteren Verlauf der Reise, da es der Gruppe eine klare Richtung gab.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": true,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-03-19T13:45:33.503000",
+            "updated_at": null,
+            "id": "uxc4cu4s5ubstdzmbulzort1",
+            "name": "Ardeep Forest",
+            "aliases": [],
+            "type": null,
+            "description": "Der Ardeep Forest ist ein elfischer Wald, der ein elfisches Dorf beherbergt. In diesem Dorf erhalten die Bewohner Hinweise auf eine Goblin-Höhle, in der die entführten Bewohner von Nightstone vermutet werden. Die Umgebung des Waldes wird als fremd, still und geheimnisvoll beschrieben. Die Informationen aus dem elfischen Dorf lenken die Aufmerksamkeit auf die Goblin-Höhle und bestimmen den Weg zur nächsten Destination.\nDie Abenteurer suchen den Ardeep Forest nach ihrer Zeit in Nightstone auf. Sie zielen darauf ab, das elfische Dorf innerhalb des Waldes zu erreichen, um Verbündete zu finden. Der Weg in die Wildnis führt sie über Spuren, die tiefer in den Wald hineinführen. Das elfische Dorf stellt einen strategischen Punkt für die Abenteurer dar, die auf der Suche nach Unterstützung und Antworten sind, während sie sich von den Ruinen von Nightstone entfernen.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": true,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-03-18T21:07:48.314000",
+            "updated_at": null,
+            "id": "addoxsqdqjcgp7gmyp8zk6t0",
+            "name": "Calimshan",
+            "aliases": [],
+            "type": null,
+            "description": "Region, aus der die Lodernde Leidenschaft stammt, die Rita identifizierte. Dieser Ort ist einer der in der Literatur zum obsidianen Würfel genannten Orte.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": true,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-03-18T21:07:48.298000",
+            "updated_at": null,
+            "id": "j0cpz4i2enqrgaaeope7wa91",
+            "name": "Luskan",
+            "aliases": [],
+            "type": null,
+            "description": "Luskan ist eine Stadt, die für ihre Gilden und magischen Aktivitäten bekannt ist. Sie hat eine lange Geschichte und ist ein wichtiger Knotenpunkt für Handelsrouten. Der Zugang nach Luskan wurde seit der Machtübernahme durch Ali Archeros erschwert, was die Ankunft von Gildenmitgliedern betrifft. Gildenmitglieder sind hier höchstens als Gäste anzutreffen. Eine Magierin in Briarwatch-Kleidung, die vor etwa 60 Jahren nach Briarwatch kam, erklärt, dass Gildenmitglieder aus Luskan hier nicht häufig anzutreffen sind. Sie bestätigt, dass es schwierig ist, Gildenmitglieder in Luskan zu finden, und erwähnt die aktuellen politischen Umstände, die den Zugang zur Stadt betreffen.\nIn der Umgebung gibt es Berichte über magische Zwischenfälle, und Luskan war in der Vergangenheit von verschiedenen Konflikten und Unruhen betroffen. Dies äußert sich in aktuellen Gerüchten über einen schwelenden Krieg zwischen Feuerelementaren und Drachen. In jüngerer Zeit hat die Stadt, laut Seres, wiederholt um Hilfe gebeten, da ein nahegelegener Vulkan ausgebrochen ist und Feuerelementare umherstreifen. Surinas Großmutter lebt in der Nähe dieses Vulkans. Captain Durnan bietet die Kooperation der Magiergilde von Luskan an.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": true,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-03-09T00:27:31.619000",
+            "updated_at": null,
+            "id": "ojxdjz0gojqwbii4vmei8f2m",
+            "name": "Die Mine",
+            "aliases": [
+                "Loch",
+                "das Loch"
+            ],
+            "type": null,
+            "description": "Die Die Mine ist ein gefährlicher Ort, an dem ein seltenes Metall abgebaut wird, das gegen Untote eingesetzt wird und in Verbindung mit Materialien steht, die eine spezielle Funktion im Kampf gegen Untote haben. Der Ort ist durchzogen von dunklen und unnatürlichen Kräften. Die Gruppe betritt die Die Mine, die verlassen ist und Anzeichen des Verfalls zeigt, während der Tod und feindliche Mächte präsent sind. In den Gängen begegnen die Abenteurer untoten Ghulen und Zombies. Flint findet in der Die Mine neben einem Skelett ein Buch, das Fragen über die Vergangenheit des Ortes aufwirft. An diesem Ort entdeckt Flint auch einen Mimic. Nach dem Kampf gegen den Mimic und die untoten Gegner trifft Flint auf einen dunklen Magier in einem abgelegenen Raum, der einen Haufen Gold enthält. Dieser Raum wird von dem dunklen Magier bewohnt, der feindselig gegenüber Eindringlingen ist. Flint und Alagos werden von dem Magier mit einem Froststrahl angegriffen, doch beide können sich mit einem magischen Schild vor dem Angriff schützen. Die restliche Gruppe versucht, Flint und Alagos zu folgen, indem sie ein Seil zum Rüberhangeln baut, um die schwierigen Bedingungen der Die Mine zu überwinden.\nParallel dazu ist das Die Mine ein markanter geografischer Punkt in der Umgebung der Die Mine und gilt ebenfalls als gefährliche Stelle, an der Fehler sofort Konsequenzen haben können. Während eines Kampfes gegen den Krieger des Magiers wird das Die Mine strategisch genutzt, als die Gruppe die Magnetizer Eldritch Canon einsetzt, um den Krieger in das Die Mine zu befördern.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": true,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-03-09T00:27:31.578000",
+            "updated_at": null,
+            "id": "smc4ga1p35tz70tqck2yvcnh",
+            "name": "Long Road",
+            "aliases": [],
+            "type": null,
+            "description": "Die Long Road ist eine bedeutende Handelsstraße, die nach Norden führt. Auf dieser Straße begegnen Reisende einem fahrenden Händler. Die Gruppe kauft praktische Ausrüstungsgegenstände wie zwei Laternen, ein Seil und ein Stundenglas von dem Händler.\nFlint bietet dem Händler ein besseres Leben in Hammerhaeim an und verfasst ein Empfehlungsschreiben für Elmar. Flint erhält zudem eine Wegbeschreibung zu einer Mine, in der ein seltenes Metall abgebaut wird, das gegen Untote eingesetzt wird.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-03-09T00:27:31.558000",
+            "updated_at": null,
+            "id": "dixrh0pbibx20hvpq50il3rj",
+            "name": "Haus Des Elfen",
+            "aliases": [],
+            "type": null,
+            "description": "Das Haus Des Elfen ist ein Ort, an dem magische und unnatürliche Kräfte spürbar sind. Der Elf, der dort lebt, ist überzeugt, dass ein Amulett ihm die Macht verleiht, einen Gott gefügig zu machen und zeigt sich unbeeindruckt von den Versuchen anderer, ihn von seiner Suche abzubringen.\nBeim Verlassen des Hauses zündet die Gruppe den Teppich an und erzeugt Illusionen, was zu einer chaotischen Situation führt. Flint nimmt eine wertvolle Vase, füllt sie mit Wasser und wirft sie ins Feuer. Der Elf reagiert verärgert und fordert die Gruppe auf, das Haus zu verlassen. Flint verlangt daraufhin eine Bezahlung, was die Spannungen erhöht, bis Sudur Flint schließlich aus dem Haus zieht, um eine Eskalation zu verhindern.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-03-09T00:27:31.520000",
+            "updated_at": null,
+            "id": "vc6iyboiwf80o44dsxj0yph9",
+            "name": "Bibliothek",
+            "aliases": [],
+            "type": null,
+            "description": "Die Bibliothek ist ein Ort des Wissens und dient als Rückzugsort für Studierende und Forscher, die sich auf ihre Vorbereitungen konzentrieren möchten. Sie ist geprägt von Stille und dem Geruch von alten Büchern, die in Regalen aufgereiht sind. Alagos nutzte die Zeit in der Bibliothek, um sich auf bevorstehende Aufgaben vorzubereiten und Wissen zu sammeln, das für Abenteuer von Bedeutung sein könnte.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-03-09T00:11:07.382000",
+            "updated_at": null,
+            "id": "jlu7opc5k230xyxzeob3wn12",
+            "name": "Triboar > Gildenhäuser",
+            "aliases": [],
+            "type": null,
+            "description": "Die Gildenhäuser in Triboar dienen dem Sammeln und Austausch von Wissen und Informationen. Alagos besuchte die Gildenhäuser und die Bibliothek von Triboar, um Informationen über den Ort zu sammeln. In der Bibliothek erkundigte er sich bei Eangromir nach der Geschichte von Triboar. Während seines Aufenthalts versuchte Alagos, ein oder zwei Zauber zu lernen, hatte jedoch keinen Erfolg und blieb weiterhin in der Bibliothek.\n\nFlint Fireforge fand in der Bibliothek das Buch „Artificial Times“ über historische Erfindungen. Während seines Besuchs entdeckte Flint auch eine Schriftrolle mit „Glyph of Warding“ und stahl diese. Alagos blieb über Nacht in der Bibliothek und lernte einen Zauber.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-03-09T00:11:07.361000",
+            "updated_at": null,
+            "id": "cdybx5jk7pzm330hsifb2qni",
+            "name": "Triboar > Everwyvern Resort",
+            "aliases": [],
+            "type": null,
+            "description": "Das Everwyvern Resort ist ein Veranstaltungsort in Triboar, der für gesellschaftliche Zusammenkünfte genutzt wird. Sudur Ragni erhielt eine Einladung zu einer Party im Everwyvern Resort. Am Abend besuchten Sudur und Alagos gemeinsam die Feier im Resort. Es sind keine weiteren spezifischen Details über die Räumlichkeiten oder die Atmosphäre des Resorts bekannt.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-03-09T00:11:07.340000",
+            "updated_at": null,
+            "id": "f8fso2d2er662wk0425v7nkg",
+            "name": "Triboar > High Market",
+            "aliases": [
+                "High Market"
+            ],
+            "type": null,
+            "description": "Der Triboar > High Market in Triboar ist ein belebter Handelsplatz, auf dem eine Vielzahl von Ständen und Händlern ihre Waren und Dienstleistungen anbieten. Hier werden Kräuter, Gewürze und andere Waren gehandelt, und ein Stand verkauft insbesondere Räucherstäbchen mit Salbei sowie getrocknete Kräuter wie Wolfswurz und Springkraut.\nSudur Ragni entdeckte dort eine legendäre Laute für 40 Goldstücke. Durch einen Auftritt und den Tausch seiner alten Laute konnte er den Preis auf 23 Goldstücke senken und erwarb die Laute. Sein Auftritt führte zu einer Einladung zu einer Party im Everwyvern Resort.\nIn der Nähe des Marktes befindet sich das erste Haus hinter Triboar > High Market, wo der Traumweber wohnt. Der Traumweber kann Träume deuten und den Schlaf unterstützen, jedoch keine magische Quelle in Träumen stoppen, es sei denn, man erreicht die Quelle selbst. Die Gruppe erwirbt Amulette, die helfen sollen, zwischen Traum und Realität zu unterscheiden.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": true,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-03-09T00:11:07.298000",
+            "updated_at": null,
+            "id": "ic0rmz0dj4g85q9hprd8q3in",
+            "name": "Triboar > Karawanen-Platz",
+            "aliases": [],
+            "type": null,
+            "description": "Karawanen-Platz ist ein Außenbereich in Triboar, wo Reisende und Händler ihre Pferde und Kutschen abstellen. Der Platz dient als Anlaufstelle für die Ankunft in Triboar.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-03-07T18:29:15.964000",
+            "updated_at": null,
+            "id": "ueiowj7y9nj8gef3p3a2yr15",
+            "name": "Waterdeep > Palast",
+            "aliases": [],
+            "type": null,
+            "description": "Der Palast in Waterdeep ist ein zentraler Ort für Verhandlungen und Belohnungen. Die Gruppe erhielt dort für ihre Leistungen 150 Gold pro Kopf sowie ein Set Sending Stones für Flint Fireforge.\n\nNach dem erfolgreichen Testflug mit dem Skyreaper über Waterdeep begab sich die Gruppe in den Palast, um ihre Belohnung abzuholen.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-03-07T16:50:26.942000",
+            "updated_at": null,
+            "id": "iywkx2nekhnf4gqi4d7wznyb",
+            "name": "Lager der Skelettmenschen",
+            "aliases": [
+                "Lager der Skelette",
+                "Skelettlager"
+            ],
+            "type": null,
+            "description": "Das Lager der Skelettmenschen besteht aus etwa 20 bis 30 Zelten und befindet sich in einem Waldgebiet. In der Nähe des Lagers sind circa 15 bis 20 Untote präsent. Die Gruppe um Gwerk berichtet über das Lager in der Festung. Flint Fireforge, Alagos und Gwerk reiten anschließend zum Lager, während Äon Kalfr und Sudur Ragni sich in der Nähe zurückziehen. Von einem erhöhten Aussichtspunkt, einer Klippe, aus kann das Lager beobachtet werden. Diese strategische Lage ermöglicht eine Analyse der Situation im Lager, bevor die Gruppe zur Festung zurückkehrt, um sich auf einen bevorstehenden Kampf vorzubereiten.\nIn der Nacht bereitet die Gruppe einen Angriff vor und errichtet am Zugang des Lagers eine kleine Straßensperre. Flint Fireforge schleicht sich ins Lager, um Gefangene zu befreien, was zu einem offenen Kampf gegen Orcs und Skelette führt. Die Gruppe sieht sich einer überlegenen Anzahl von Feinden gegenüber, was die Situation gefährlich und chaotisch macht.\nDer Lager der Skelettmenschen ist eine strukturierte Erhebung. Er dient als Beobachtungspunkt und ist mit einem Warnsignal ausgestattet, das in kritischen Situationen aktiviert wird. Während eines Übergriffs auf das Lager der Skelettmenschen ertönte das Warnsignal, was die Lage im Lager eskalierte und die Ankunft des Anführers der Skelette zur Folge hatte. Der Lager der Skelettmenschen lenkte die Aufmerksamkeit auf die Bedrohung, die sich aus der Koordination der feindlichen Kräfte ergab.\nDas Lager der Skelettmenschen ist ein Ort, der zuvor von Bedeutung war. Bei der Durchsuchung fanden Sudur Ragni, Flint Fireforge und Alagos lediglich Stoff von den Zelten. Es wurden keine Schätze, Hinweise oder besondere Ausrüstungsgegenstände entdeckt.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": true,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-03-07T16:50:26.920000",
+            "updated_at": null,
+            "id": "kdsp5ydq57q5qob7e8rrolfy",
+            "name": "Wald",
+            "aliases": [
+                "nahegelegenen Wald"
+            ],
+            "type": null,
+            "description": "Der Wald ist ein dicht bewachsenes Gebiet, in dem die Gruppe nach Spuren, Gefahren oder Überlebenden sucht. Äon Kalfr nimmt Tierlaute und das Knacken von Holz wahr, was die Gruppe dazu veranlasst, in diese Richtung vorzurücken. Gwerk markiert mehrere Bäume, um den Rückweg zu sichern. Im Wald entdecken sie ein Lager mit etwa 20 bis 30 Zelten, das Gwerk als Lager von Skelettmenschen bezeichnet. Sudur Ragni spürt die Präsenz von circa 15 bis 20 Untoten in der Nähe.\nNach der Entdeckung des Lagers rennt Gwerk zurück zur Festung, um zu berichten. Flint Fireforge, Alagos und Khorum Ironfist durchsuchen die Mine, jedoch ohne Erfolg. Flint und Alagos brechen daraufhin in Richtung Wald auf, wo sie Gwerk treffen, der von den Skelettmenschen berichtet. Die Gruppe versammelt sich wenig entfernt vom Lager, um ihre Beobachtungen abzugleichen. Sie verteilen sich auf einer Klippe, um das Lager zu beobachten, und bestätigen die Bedrohung.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-03-07T15:54:18.020000",
+            "updated_at": null,
+            "id": "cmmgi7dwk000904l8ty1nlyfl",
+            "name": "Skyreaper",
+            "aliases": [],
+            "type": null,
+            "description": "Skyreaper ist ein Schiff, das von Flint Fireforge im Hafen von Waterdeep umgebaut wird, um als Luftschiff gegen Riesen eingesetzt zu werden. Flint Fireforge ist aktiv mit dem Umbau beschäftigt und sucht eine praktische Lösung zur Bekämpfung der Riesen. Die Gruppe entdeckt die Skyreaper am Hafen, wo Flint sein Ziel verfolgt, das Schiff in ein Luftschiff umzuwandeln.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-03-07T15:48:17.397000",
+            "updated_at": null,
+            "id": "ozpmr7e2ovlvnotacya1jl8z",
+            "name": "Furcht-Bar",
+            "aliases": [
+                "Taverne"
+            ],
+            "type": null,
+            "description": "Die Furcht-Bar ist ein Ort in Waterdeep. Sie bietet Abenteurern die Möglichkeit, Kontakte zu knüpfen und Informationen zu sammeln. Die Bar ist Teil der lebendigen Stadt Waterdeep. Khorum Ironfist hielt sich in dieser Furcht-Bar auf.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": true,
+            "parent_id": null
+        }
+    ],
+    "from": 21,
+    "last_page": 6,
+    "per_page": 20,
+    "to": 40,
+    "total": 105
+}

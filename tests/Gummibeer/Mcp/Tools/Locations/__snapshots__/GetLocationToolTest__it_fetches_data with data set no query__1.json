@@ -1,0 +1,16 @@
+{
+    "created_at": "2026-05-13T20:01:06.486000",
+    "updated_at": null,
+    "id": "xs5x4fz3qp1i6uvcrfrof2w1",
+    "name": "Luftschiff",
+    "aliases": [
+        "Luftschiff (die Abholung)"
+    ],
+    "type": null,
+    "description": "Das Luftschiff ist ein fliegendes Gefährt, das über dem Gelände schwebt und mit Annehmlichkeiten wie einer Toilette ausgestattet ist. Es bietet Platz für die Besatzung und die Reisenden. An Bord wird eine Mahlzeit serviert, die aus Kartoffeln, Wildbraten, Möhren-Rüben-Gemüse und Bier besteht. Die Besatzung sorgt für die Verpflegung der Passagiere.\nDas Luftschiff senkt sich über das Gelände und lässt Strickleitern herab, um die Gruppe an Bord zu holen. Es fliegt direkt zur Festung zurück.",
+    "image": null,
+    "tcg_image": null,
+    "parent_id": null,
+    "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+    "merge": false
+}

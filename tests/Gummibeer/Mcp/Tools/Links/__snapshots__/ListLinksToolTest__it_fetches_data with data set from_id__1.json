@@ -1,0 +1,50 @@
+{
+    "current_page": 1,
+    "data": [
+        {
+            "id": "cmpbg3xwx008q1gdq62axgge8",
+            "from_id": "xpv723vsxdr7pm1o9w0b8h8f",
+            "from_type": "Item",
+            "to_id": "pbd51edatctika2hzpr8dxss",
+            "to_type": "Location",
+            "alias": "Kirche",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-18T16:55:54.210000"
+        },
+        {
+            "id": "cmpbg3xwx008r1gdqovk931cr",
+            "from_id": "xpv723vsxdr7pm1o9w0b8h8f",
+            "from_type": "Item",
+            "to_id": "cmlw3uedi000104l2wxxexcpk",
+            "to_type": "Character",
+            "alias": "Surina Nemmonis",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-18T16:55:54.210000"
+        },
+        {
+            "id": "cmpbg3xwx008s1gdq4qv5756j",
+            "from_id": "xpv723vsxdr7pm1o9w0b8h8f",
+            "from_type": "Item",
+            "to_id": "nb4difgtwfij9jftajhqea76",
+            "to_type": "Location",
+            "alias": "Taverne",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-18T16:55:54.210000"
+        },
+        {
+            "id": "cmpbg3xwx008t1gdqh2pa5916",
+            "from_id": "xpv723vsxdr7pm1o9w0b8h8f",
+            "from_type": "Item",
+            "to_id": "cmlw3om9d000004jrvihi3qlk",
+            "to_type": "Character",
+            "alias": "Dîn-io Tempest",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-18T16:55:54.210000"
+        }
+    ],
+    "from": 1,
+    "last_page": 1,
+    "per_page": 20,
+    "to": 4,
+    "total": 4
+}

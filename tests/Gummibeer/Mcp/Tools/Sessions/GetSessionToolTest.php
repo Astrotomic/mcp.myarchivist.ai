@@ -32,6 +32,8 @@ final class GetSessionToolTest extends GummibeerTestCase
                     ->assertJsonSchema(SessionData::class)
                     ->where('campaign_id', 'cmj78gm6k000004jrvzm7gcjr')
                     ->where('id', 'cmnhoa5e6000004juew4mv3o2');
+
+                $this->assertMatchesJsonSnapshot($json);
             });
     }
 }

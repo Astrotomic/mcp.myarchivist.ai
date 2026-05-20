@@ -1,0 +1,90 @@
+{
+    "current_page": 1,
+    "data": [
+        {
+            "id": "cmpbg3xge008c1gdqa5f8h2sb",
+            "from_id": "pbd51edatctika2hzpr8dxss",
+            "from_type": "Location",
+            "to_id": "m01l08j6c5ypxdcaxgcoqiwd",
+            "to_type": "Item",
+            "alias": "verschlossene Truhe mit Bannmagie",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-18T16:55:53.615000"
+        },
+        {
+            "id": "cmpbg3xge008d1gdqxjqkqwup",
+            "from_id": "pbd51edatctika2hzpr8dxss",
+            "from_type": "Location",
+            "to_id": "xpv723vsxdr7pm1o9w0b8h8f",
+            "to_type": "Item",
+            "alias": "Buch",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-18T16:55:53.615000"
+        },
+        {
+            "id": "cmpbg3xge008e1gdq40i70dm5",
+            "from_id": "pbd51edatctika2hzpr8dxss",
+            "from_type": "Location",
+            "to_id": "r2k0srsuvhwby6zystohtuza",
+            "to_type": "Character",
+            "alias": "Hohepriesterin",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-18T16:55:53.615000"
+        },
+        {
+            "id": "cmpbg3xge008f1gdq53m57f61",
+            "from_id": "pbd51edatctika2hzpr8dxss",
+            "from_type": "Location",
+            "to_id": "m01l08j6c5ypxdcaxgcoqiwd",
+            "to_type": "Item",
+            "alias": "Truhe",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-18T16:55:53.615000"
+        },
+        {
+            "id": "cmpbg3xge008g1gdq6rfbb2ig",
+            "from_id": "pbd51edatctika2hzpr8dxss",
+            "from_type": "Location",
+            "to_id": "knrfmjjqndy2rias3uztpls8",
+            "to_type": "Location",
+            "alias": "Marktplatz",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-18T16:55:53.615000"
+        },
+        {
+            "id": "cmpbg3xge008h1gdqggdh7l7t",
+            "from_id": "pbd51edatctika2hzpr8dxss",
+            "from_type": "Location",
+            "to_id": "m01l08j6c5ypxdcaxgcoqiwd",
+            "to_type": "Item",
+            "alias": "Tempeltruhe",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-18T16:55:53.615000"
+        },
+        {
+            "id": "cmpbg3xge008i1gdqe5lumodg",
+            "from_id": "pbd51edatctika2hzpr8dxss",
+            "from_type": "Location",
+            "to_id": "cmlw3rcht000104jrhi3ad2ba",
+            "to_type": "Character",
+            "alias": "Naevys",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-18T16:55:53.615000"
+        },
+        {
+            "id": "cmpbg3xge008j1gdqvjkc3h9t",
+            "from_id": "pbd51edatctika2hzpr8dxss",
+            "from_type": "Location",
+            "to_id": "cmlw3mrpf000104jun00oy0tm",
+            "to_type": "Character",
+            "alias": "Brennan",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "created_at": "2026-05-18T16:55:53.615000"
+        }
+    ],
+    "from": 1,
+    "last_page": 1,
+    "per_page": 20,
+    "to": 8,
+    "total": 8
+}

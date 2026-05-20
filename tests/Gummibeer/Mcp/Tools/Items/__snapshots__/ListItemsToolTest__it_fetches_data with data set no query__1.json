@@ -1,0 +1,304 @@
+{
+    "current_page": 1,
+    "data": [
+        {
+            "created_at": "2026-05-18T16:51:47.081000",
+            "updated_at": null,
+            "id": "gvuxmhb5m9fhb8qtnihm5isv",
+            "name": "Stab mit eingearbeiteten Stacheln",
+            "aliases": [
+                "Stab"
+            ],
+            "type": null,
+            "description": "Der Stab mit eingearbeiteten Stacheln ist ein übergebenes Ausrüstungsstück. Die Stacheln sind in der Essenz von Eiskräutern eingelegt, was darauf hindeutet, dass der Stab kühl sein dürfte. Der übergebende Zwergenschmied gab an, die weiteren Eigenschaften des Stabs nicht zu kennen.\nBei der Ausrüstungsüberarbeitung übergab der Zwergenschmied den Stab an die Gruppe und erklärte die Eiskräuter-Einlage sowie die Unsicherheit über seine Funktion. Der Stab blieb in ihrem Besitz, ohne dass zusätzliche Eigenschaften oder Effekte dokumentiert wurden.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-05-18T16:51:46.922000",
+            "updated_at": null,
+            "id": "kv8zwiwenhzsy9w24x3sgryq",
+            "name": "magischer Ring",
+            "aliases": [
+                "Ring"
+            ],
+            "type": null,
+            "description": "Der magische Ring gehört Dîn-io Tempest, der ihn als „mein Ring“ bezeichnet. Der Ring diente als Medium, über das Dîn-io versuchte, auf verstautes Gut zuzugreifen. Während dieser Nutzung ertönte eine Stimme im Kopf, die seinen Anspruch auf den Inhalt in Frage stellte. Kurz darauf wurde Dîn-io gewaltsam aus dem Ring herausgedrängt, und der Ring fiel zu Boden.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-05-18T16:51:46.844000",
+            "updated_at": null,
+            "id": "xpv723vsxdr7pm1o9w0b8h8f",
+            "name": "Buch",
+            "aliases": [
+                "Buch mit großer Sonne über einer angedeuteten Hügellandschaft auf dem Einband"
+            ],
+            "type": null,
+            "description": "Das Buch ist ein gebundenes Werk mit einer großen Sonne über einer angedeuteten Hügellandschaft auf der Vorderseite. Es wurde in einem verborgenen Bereich der Kirche gefunden. Als Surina Nemmonis es öffnete, wurden drei Gruppenmitglieder wie Eissäulen eingefroren. Das Buch wurde in die Taverne mitgenommen, lag zeitweise in einem der Betten und befand sich später in Surinas Rucksack. Stadtwachen verlangten, die Vorderseite zu sehen. Surina warf das Buch anschließend zu Dîn-io Tempest aufs Dach.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-05-18T16:51:46.753000",
+            "updated_at": null,
+            "id": "m01l08j6c5ypxdcaxgcoqiwd",
+            "name": "Truhe",
+            "aliases": [
+                "verschlossene Truhe",
+                "Tempeltruhe",
+                "verschlossene Truhe mit Bannmagie"
+            ],
+            "type": null,
+            "description": "Die Truhe war eine verschlossene Truhe im verborgenen Bereich der Kirche und wies Bannmagie auf. Die Gruppe fand einen Schlüssel und öffnete die Truhe.\nChronologisch: Die Truhe wurde nach dem Aufbrechen der Tür entdeckt; der Schlüssel wurde gefunden und verwendet. Später brachten Dîn-io und eine kleine magische Wolke die zuvor entwendeten Gegenstände zurück und schüttelten sie vor Morgengrauen in die Tempeltruhe.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-05-13T20:01:06.656000",
+            "updated_at": null,
+            "id": "xam1273mgbscpk1wt8kxoywj",
+            "name": "Ei (fliegende Schlange)",
+            "aliases": [
+                "Ei"
+            ],
+            "type": null,
+            "description": "Ei (fliegende Schlange) ist ein faustgroßes Ei, das als Ei einer fliegenden Schlange identifiziert wurde. Es ist für eine fliegende Schlange ungewöhnlich groß und benötigt zum Ausbrüten eine Temperatur von etwa 40 Grad Celsius sowie eine Brutzeit von ungefähr zwei Monaten. Surina Nemmonis hat das Ei in ihrem Rucksack gefunden und es in ihren magischen Tierbereich gebracht, wo es automatisch die passenden Bedingungen für das Wachstum eines Tieres erhalten sollte. Surina hat ihrem Fuchs das Ei anvertraut und ihn gebeten, darauf aufzupassen.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-05-13T20:01:06.639000",
+            "updated_at": null,
+            "id": "vxknmy0dxxua46xa1gqokmt0",
+            "name": "Lilie",
+            "aliases": [
+                "das Amulett",
+                "Lilie (Amulett)"
+            ],
+            "type": null,
+            "description": "Lilie ist ein Amulett, das ursprünglich der Mutter von Naevys Nerizana gehörte und von ihrem Vater gestohlen wurde. Naevys beschreibt das Amulett als ein Zeichen, das sie ihrem Vater zuordnen kann. Der Gefangene Doran erkennt das Symbol des Amuletts sofort und zeigt deutliches Erkennen, was auf eine besondere Bedeutung hinweist.\nNaevys fragt Doran nach der Lilie, und er bestätigt, dass das Amulett von ihrem Vater stammt. Doran erklärt, dass Naevys’ Vater Aurelian de Rosson heißt und noch lebt. Er warnt Naevys, dass nicht jeder wissen sollte, wer ihr Vater ist, da auf ihn ein hohes Kopfgeld ausgesetzt ist.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-04-30T14:06:52.717000",
+            "updated_at": null,
+            "id": "si1gucen0m9ivqsv8qrrav63",
+            "name": "Rainbow Mushroom",
+            "aliases": [],
+            "type": null,
+            "description": "Der Rainbow Mushroom ist ein Pilz, der in alchemistischen Experimenten verwendet wird. Dîn-io Tempest zerkleinerte einen Rainbow Mushroom, trocknete ihn mit Hitze und zerstoß ihn zu feinem Pulver. Dieses Pilzpulver wurde mit Alkohol angerührt und anschließend mit einem Blutkonzentrat und Wasser zu einer dünnflüssigen Mischung vermengt. Die Gruppe verwendete diese Mischung als giftige Waffenbeschichtung.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-04-30T13:49:34.310000",
+            "updated_at": null,
+            "id": "gd8z1by6u96a4hs61s36kk9o",
+            "name": "Ironclad",
+            "aliases": [
+                "größeres, stählernes Schiff",
+                "Raddampfer",
+                "metallenes Schiff"
+            ],
+            "type": null,
+            "description": "Das Stählerne Schiff ist ein großes, stabil gebautes Schiff, das durch das Eis brechen kann. Es ist aus Metall gefertigt, was ihm besondere Robustheit verleiht. Der Pinguin, der sich als Admiral des Schiffs vorstellt, führt eine Crew, die aus mehreren Pinguinen, einem Hai und einigen Enten besteht.\nDas Stählerne Schiff erreicht die Gruppe, während sie sich auf einer Flussinsel aufhalten. Der Admiral bietet an, die Gruppe zur Insel mit dem Hort von Ava Charus in der offenen See zu bringen. Er warnt, dass seit zweihundert Jahren kein Schiff diese Passage wegen Ava Charus geschafft hat. Der Admiral schlägt vor, gemeinsam zu fahren und den Hort im Erfolgsfall zu teilen, falls die Gruppe die Drachenlady tötet. Surina Nemmonis lehnt das Töten ab und erklärt, dass sie mit Ava Charus sprechen möchte. Der Admiral bittet die Gruppe, bis zum Morgen über die Mitfahrt zu entscheiden, da sein Schiff dann ablegen werde.\nSpäter wurde das Stählerne Schiff als der Raddampfer bekannt. Der Raddampfer ist ein metallisches Schiff, das sich durch hohe Geschwindigkeit auszeichnet und flussabwärts schneller fährt als andere Boote. Während der Fahrt steigt Rauch aus dem Dach des Schiffes auf. Im Inneren befindet sich ein humanoides Nilpferd am Steuerrad, während ein Pinguin in einem Sessel mit Rohren und Hebeln sitzt.\nDie Gruppe betritt den Raddampfer und wird in einen Speiseraum geführt. Dort kocht ein Gruppenmitglied das gewonnene Monsterblut zu einem Konzentrat ein. Dîn-io Tempest zerkleinert einen Rainbow Mushroom, trocknet ihn und zerstoßt ihn zu feinem Pulver, das mit Alkohol und dem Blutkonzentrat vermengt wird. Während der Fahrt trainiert die Gruppe an Deck, und das Schiff legt ab, um die Überfahrt auf See fortzusetzen.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": true
+        },
+        {
+            "created_at": "2026-04-29T19:35:41.019000",
+            "updated_at": null,
+            "id": "ht2lsnc1qf8wjptz16k6dznz",
+            "name": "Luftschiff",
+            "aliases": [
+                "das Luftschiff"
+            ],
+            "type": null,
+            "description": "Das Luftschiff ist ein großes, schwebendes Gefährt, das über der Stadt Briarwatch schwebt. Es durchbricht eine Illusionskuppel, die über der Stadt liegt. Während eines Angriffs beginnt das Luftschiff, Bomben abzuwerfen, die gezielt in die Menschenmenge einschlagen, jedoch nicht in Gebäude oder Verteidigungen. Die ersten Bomben treffen die Menschenmenge direkt und verursachen panische Schreie.\nRita und Korvathun berichten von der Illusionskuppel und dem Luftschiff, das sich der Stadt nähert. Gwendolyn und Brennen beobachten, wie das Luftschiff Bomben abwirft, während Briarwatch in Brand gerät.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-04-29T19:35:40.959000",
+            "updated_at": null,
+            "id": "sh9y8ykxznx2qwbyfyqo0eww",
+            "name": "Pole of Collapsing",
+            "aliases": [],
+            "type": null,
+            "description": "Der Pole of Collapsing ist ein magischer Stab, der von Gwendolyn Silverflame geführt wird. Er wird als Waffe verwendet, um Gegner zu treffen. Gwendolyn plant, ihn über dem Kopf zu schwingen, um einen Wachen bewusstlos zu schlagen. In einer Situation, in der die Gruppe einen gefangenen Wachen überwältigen möchte, zieht Gwendolyn den Helm des Wächters ab und versucht, ihn mit dem Pole of Collapsing zu treffen, trifft jedoch nur die Rüstung wirkungslos.\nDer Pole of Collapsing wird auch als Übungsstab beschrieben, der von Gwendolyn Silverflame im Training als Übungswaffe dient. Gwendolyn hält den Pole of Collapsing wie ein Schwert und nutzt ihn im Sparring gegen Surina Nemmonis. Während des Trainings trifft Gwendolyn Surina mit dem Stab am Kopf, was Kopfschmerzen bei Surina verursacht. Der Pole of Collapsing wird als nicht gefährlich eingestuft, da er nicht dazu gedacht ist, ernsthaften Schaden zu verursachen.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": true
+        },
+        {
+            "created_at": "2026-04-22T20:32:01.886000",
+            "updated_at": null,
+            "id": "i84rl4m3on4woytqa8yls4b0",
+            "name": "Knochenkette",
+            "aliases": [
+                "kleine Knochenkette"
+            ],
+            "type": null,
+            "description": "Die Knochenkette ist ein handflächengroßes magisches Artefakt, das in der Nähe eines Torhauses entdeckt wurde. Als Surina die Kette ergriff, verstummte ein zuvor hörbarer Kinderreim, und sie erhielt eine telepathische Ansprache von einer ihr bekannten Nighthag. Diese forderte Surina auf, die gefundenen Dinge, einschließlich der Knochenkette, zu vernichten und sich nicht mehr auf das Gelände von Briarwatch zu begeben. Die Nighthag kündigte zudem „etwas Großes“ zum Mondfest an und versprach Surina, „die Schlange“ lebendig und unverändert zu übergeben, wenn sie sich an die Bedingungen hielten.\nBrennan, der die Kette später berührte, sah erneut den Nebel, der zuvor aufgetreten war. Bei Berührung mit der Kette wird die Sicht der Berührenden vernebelt, was zu einer eingeschränkten Wahrnehmung führt. Surina kam zu dem Schluss, dass ein schneller Ausschaltversuch aufgrund der Rüstung und Ausbildung der Wache kaum gelingen würde.\nSurina kann die Kette nach dem Kontakt von Brennan und Gwendolyn an sich nehmen, wodurch deren Sicht wieder klar wird, während sie selbst normal sieht. Sie verwendet die Knochenkette, um erneut Kontakt zur Nighthag aufzunehmen, jedoch ohne Erfolg. Surina verstaut die Kette in ihrem Rucksack, um sie verdeckt zu transportieren. Während eines Gesprächs mit Gwendolyn und Rita wird die Kette als wichtiges Element in ihren Plänen erwähnt, insbesondere in Bezug auf die Nighthag und deren Anweisungen. Surina zerbricht ein kleines Knochenstück der Kette, was eine Stimme in Gwendolyns Kopf hervorruft, die sagt: „Ihr macht das großartig.“",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": true
+        },
+        {
+            "created_at": "2026-04-22T20:32:01.868000",
+            "updated_at": null,
+            "id": "cytzyaom1wtie8z7d9d5giox",
+            "name": "Spiegelscherbe",
+            "aliases": [
+                "handflächengroße Spiegelscherbe"
+            ],
+            "type": null,
+            "description": "Die Spiegelscherbe ist ein handflächengroßes, glänzendes Fragment, das im Boden gefunden wurde. Bei Berührung sieht der Berührende den Nebel, der zuvor erlebt wurde. Die Scherbe scheint mit magischen Kräften verbunden zu sein, die möglicherweise einen Zauber auslösen oder ein bestimmtes Gebiet markieren können.\nBrennan berührte die Scherbe und sah den Nebel, bevor er sie wieder losließ, was die Wirkung beendete. Er wickelte die Scherbe in Stoff und packte sie ein. Gwendolyn äußerte, dass die Gruppe die Quelle des Nebels gefunden habe, jedoch reagierte die Begleitwache nicht auf diese Aussage.\nDie Spiegelscherbe ist ein magisches Artefakt, das Nebel erzeugt, der die Sicht derjenigen, die damit in Kontakt kommen, vernebelt. Brennan und Gwendolyn erlebten diesen Nebeleffekt, als sie die Knochenkette berührten. Surina nahm die Knochenkette von ihnen und konnte die Umgebung normal sehen, während sie die Kette in der Hand hielt. Gwendolyn bat um die Spiegelscherbe, die Brennan auf einen Stein legte und mit seinem Großschwert zerschlug, wodurch viele kleine Stücke entstanden. In diesem Moment hörten sie eine Stimme in ihrem Kopf, die sagte: „Ihr macht das großartig.“ Gwendolyn häufte die Reste der Scherbe zu einem Aschehäufchen auf und leerte weiteres Material aus Phiolen darüber.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": true
+        },
+        {
+            "created_at": "2026-04-22T20:32:01.851000",
+            "updated_at": null,
+            "id": "xzpdxhipbjfricalmjsbi34y",
+            "name": "Haarbündel",
+            "aliases": [
+                "Haarbüschel in U-Form"
+            ],
+            "type": null,
+            "description": "Das Haarbündel ist ein gebündelter Strang aus Haaren verschiedener Farben, der in U-Form am Baum nahe der Mauer befestigt ist. Gwendolyn Silverflame stellte mit Detect Magic fest, dass vom Haarbündel Magie eines Hexenstils ausgeht, die an eine frühere Begegnung mit einer Nighthag erinnert. Morvain ergänzte, dass Haare und ähnliche Materialien zu alternativen, „hexenartigen“ Zauberpraktiken gehören.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-04-22T20:32:01.831000",
+            "updated_at": null,
+            "id": "u1zke2agmyifyppniao0nxbb",
+            "name": "Asche/Salz",
+            "aliases": [
+                "Asche und Salz"
+            ],
+            "type": null,
+            "description": "Asche und Salz sind Materialien, die in einem kleinen Haufen an einer Mauer gefunden wurden. Gwendolyn Silverflame stellte mit Detect Magic fest, dass von dem Haufen Magie ausging. Brennan legte mit einem Tuch etwas Asche und Salz um und sah dichten Nebel, während die anderen ihn normal sahen. Er verstaute eine Portion Asche und Salz in seinem Rucksack. Auf Gwendolyns Bitte füllte Morvain mithilfe von Mage Hand mehrere Metallfiolen mit Asche und Salz. Gwendolyn sah die unsichtbare Hand durch Detect Magic.\nPio verwies die Gruppe auf den Haufen aus Asche und Salz, was zu weiteren Untersuchungen führte. Brennan bemerkte, dass die Asche und das Salz in den Reagenzgläsern zu fliegen begannen, während Morvain versuchte, die Materialien ohne Berührung zu füllen. Gwendolyn vermutete, dass die Asche und das Salz möglicherweise mit dem Nebel in Verbindung standen.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-04-22T20:32:01.813000",
+            "updated_at": null,
+            "id": "axu9fdiaipy6bigr9fvmjj39",
+            "name": "Rosen-Brosche",
+            "aliases": [
+                "Brosche",
+                "Brosche mit einer Rosen-Symbolik"
+            ],
+            "type": null,
+            "description": "Die Rosen-Brosche ist ein Schmuckstück in Form einer Rose. Sie befindet sich auf der linken Brust eines gefangenen Spions namens Steven. Die Brosche steht in Verbindung mit einem Freundeskreis namens \"Ring der Rose\". Gwendolyn Silverflame, ein Mitglied der Gruppe, entfernt die Brosche von Stevens Brust und gibt sie an Rita weiter.\nWährend des Verhörs wird die Brosche thematisiert. Steven erklärt, dass der \"Ring der Rose\" gegründet wurde, nachdem sie von anderen abgewiesen wurden. Rita zeigt Interesse an der Brosche und fragt nach ihrer Herkunft. Gwendolyn nutzt Frostbite als Schmerzreiz auf die Stelle, an der die Brosche sitzt, was Steven dazu bringt, vor Schmerz zu schreien.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-04-15T19:43:10.504000",
+            "updated_at": null,
+            "id": "daatuyeuqbb3euhwkjf9rjk5",
+            "name": "Geldbörse",
+            "aliases": [],
+            "type": null,
+            "description": "Eine Geldbörse wurde entwendet, was zu einem Vorfall führte, bei dem ein Gast geschlagen wurde. Captain Durnan erschien mit sechs Wachen und bildete einen lockeren Ring um die Gruppe, um die Situation zu klären. Die Gruppe einigte sich darauf, dass Rita die Geldbörse genommen hatte, und beschloss, nur den entwendeten Betrag zurückzugeben. Gwendolyn nahm 50 Gold aus Surinas Beutel und übergab sie Captain Durnan, der sie zusammen mit der zurückgegebenen Geldbörse einsteckte. Captain Durnan erklärte die Angelegenheit für erledigt.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-04-15T19:43:10.486000",
+            "updated_at": null,
+            "id": "nhuve7azockivsw30r794aiz",
+            "name": "Kompendium über die ältesten Häuser Faerûns",
+            "aliases": [
+                "Häuser‑Kompendium"
+            ],
+            "type": null,
+            "description": "Das Kompendium über die ältesten Häuser Faerûns ist ein Buch, das Informationen über die ältesten Adelsfamilien in Faerûn enthält. Es listet die Häuser Floshin, Borderen und Belisare auf. Die zugeordneten Rassen sind Floshin (Gold-/Sonnenelfen), Borderen (Elfen), Belisare (Halborks), Diakin (Halbelfen) und Edewana (Tieflinge). Der Sitz von Haus Floshin befindet sich im Dellenbier-Tal, bekannt als \"Liam’s Hold\".\nGwendolyn lieh das Kompendium aus und stellte fest, dass es am 15. Okta von einer Person entliehen worden war, deren Schrift für sie unleserlich war. Das Buch gilt als unbeliebt und wird hauptsächlich von der Herzogin und hiesigen Adligen ausgeliehen.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-04-15T19:43:10.468000",
+            "updated_at": null,
+            "id": "gw2vljt3msjsikq0sazu7l82",
+            "name": "patriarchalische Haushaltsführung für Söhne",
+            "aliases": [],
+            "type": null,
+            "description": "Buch im Regal der Bibliothek, das an die Lücke des gestohlenen Buches angrenzt (von Surina notiert).",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-04-15T19:43:10.450000",
+            "updated_at": null,
+            "id": "s79gjb9s1obecasf1iexnbgn",
+            "name": "die Erziehung adliger Kinder mit möglichst wenig Schlägen",
+            "aliases": [],
+            "type": null,
+            "description": "Die Erziehung adliger Kinder mit möglichst wenig Schlägen ist ein Buch, das sich mit der Aufzucht von adligen Nachkommen beschäftigt. Es behandelt Methoden und Ansätze zur Erziehung, die darauf abzielen, körperliche Bestrafungen zu minimieren. Das Buch ist Teil einer Reihe, die sich mit Themen wie Geburt und patriarchalischer Haushaltsführung für Söhne befasst. Es wird als eines der unbeliebteren Werke in der Bibliothek beschrieben und ist das einzige seiner Art.\nIn der Bibliothek wurde das Buch als gestohlen gemeldet. Surina untersuchte die Lücke im Regal, wo das Buch zuvor stand, und stellte fest, dass es eine kleine Lücke von etwa sechs Zentimetern gab. Gwendolyn und andere Mitglieder der Gruppe diskutierten die Bedeutung des Buches und vermuteten, dass es möglicherweise mit den verschwundenen Töchtern in Verbindung stehen könnte.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-04-15T19:43:10.431000",
+            "updated_at": null,
+            "id": "clgrhdkhk4agwjhv8fzorhxi",
+            "name": "Die 13 Leiden einer Frau unter der Geburt",
+            "aliases": [],
+            "type": null,
+            "description": "Buch im Regal der Bibliothek, das direkt an die Lücke angrenzte, an der das gestohlene Buch fehlte (von Surina notiert).",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        }
+    ],
+    "from": 1,
+    "last_page": 5,
+    "per_page": 20,
+    "to": 20,
+    "total": 84
+}

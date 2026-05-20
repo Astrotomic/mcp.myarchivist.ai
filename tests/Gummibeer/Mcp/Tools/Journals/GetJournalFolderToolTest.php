@@ -31,6 +31,8 @@ final class GetJournalFolderToolTest extends GummibeerTestCase
                 $json
                     ->assertJsonSchema(JournalFolderData::class)
                     ->where('id', 'cmpd8ipzr000004kz41qggzmv');
+
+                $this->assertMatchesJsonSnapshot($json);
             });
     }
 }

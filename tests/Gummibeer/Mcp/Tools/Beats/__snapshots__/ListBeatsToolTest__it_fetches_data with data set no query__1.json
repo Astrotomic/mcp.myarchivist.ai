@@ -1,0 +1,250 @@
+{
+    "current_page": 1,
+    "data": [
+        {
+            "id": "cmmwj6k9o00000i8g38tra5i0",
+            "label": "Morvain returns dressed to dining room",
+            "type": "step",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmwj8tlb002m0i8grppik165",
+            "game_session_ids": [
+                "cmmwb2jqn000004jrqzwdmmx5"
+            ],
+            "game_session_id": "cmmwb2jqn000004jrqzwdmmx5"
+        },
+        {
+            "id": "cmmwj8tga002l0i8gm3ql1vkh",
+            "label": "Nachtisch und erstes Trinkspiel",
+            "type": "major",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": null,
+            "game_session_ids": [
+                "cmmwb2jqn000004jrqzwdmmx5"
+            ],
+            "game_session_id": "cmmwb2jqn000004jrqzwdmmx5"
+        },
+        {
+            "id": "cmmwj8tlb002m0i8grppik165",
+            "label": "Dessert und erstes Trinkspiel",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmwj8tga002l0i8gm3ql1vkh",
+            "game_session_ids": [
+                "cmmwb2jqn000004jrqzwdmmx5"
+            ],
+            "game_session_id": "cmmwb2jqn000004jrqzwdmmx5"
+        },
+        {
+            "id": "cmmwj8txu002q0i8ghx9vzqtc",
+            "label": "Gartenverlassen und Nachtstimmung",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmwj8tur002p0i8gtlayj1d6",
+            "game_session_ids": [
+                "cmmwb2jqn000004jrqzwdmmx5"
+            ],
+            "game_session_id": "cmmwb2jqn000004jrqzwdmmx5"
+        },
+        {
+            "id": "cmmwj8ugk002w0i8gvq79nk9f",
+            "label": "Feuerkerne und Showeffekt",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmwj8udh002v0i8ghmg321d9",
+            "game_session_ids": [
+                "cmmwb2jqn000004jrqzwdmmx5"
+            ],
+            "game_session_id": "cmmwb2jqn000004jrqzwdmmx5"
+        },
+        {
+            "id": "cmmxiu1f600000teue9ysxz9o",
+            "label": "Gruppe verlässt Nightstone",
+            "type": "step",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmxiup24000b0teuoqdst394",
+            "game_session_ids": [
+                "cmmxis1is000004js41p8in62"
+            ],
+            "game_session_id": "cmmxis1is000004js41p8in62"
+        },
+        {
+            "id": "cmmxiuoyn000a0teuau0zs5c3",
+            "label": "Aufbruch zum Ardeep Forest",
+            "type": "major",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": null,
+            "game_session_ids": [
+                "cmmxis1is000004js41p8in62"
+            ],
+            "game_session_id": "cmmxis1is000004js41p8in62"
+        },
+        {
+            "id": "cmmxiup24000b0teuoqdst394",
+            "label": "Aufbruch und Spurensuche zum Ardeep Forest",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmxiuoyn000a0teuau0zs5c3",
+            "game_session_ids": [
+                "cmmxis1is000004js41p8in62"
+            ],
+            "game_session_id": "cmmxis1is000004js41p8in62"
+        },
+        {
+            "id": "cmmxiupc2000e0teug3wahgjg",
+            "label": "Anreise und Betreten der Höhle",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmxiup8r000d0teutzmndc5y",
+            "game_session_ids": [
+                "cmmxis1is000004js41p8in62"
+            ],
+            "game_session_id": "cmmxis1is000004js41p8in62"
+        },
+        {
+            "id": "cmmxp2boo00001qi18aemqsfu",
+            "label": "Gruppe überstand Kampf gegen Schleim",
+            "type": "step",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmxp3bup000c1qi1jfgf450v",
+            "game_session_ids": [
+                "cmmxozubl000104jlegt4q501"
+            ],
+            "game_session_id": "cmmxozubl000104jlegt4q501"
+        },
+        {
+            "id": "cmmxp3br5000b1qi1wouizc2n",
+            "label": "Verhandlungen in der Goblin-Höhle",
+            "type": "major",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": null,
+            "game_session_ids": [
+                "cmmxozubl000104jlegt4q501"
+            ],
+            "game_session_id": "cmmxozubl000104jlegt4q501"
+        },
+        {
+            "id": "cmmxp3bup000c1qi1jfgf450v",
+            "label": "Vorspiel und Vorstoß in Höhle",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmxp3br5000b1qi1wouizc2n",
+            "game_session_ids": [
+                "cmmxozubl000104jlegt4q501"
+            ],
+            "game_session_id": "cmmxozubl000104jlegt4q501"
+        },
+        {
+            "id": "cmmxp3c4m000f1qi1pb9bnnpe",
+            "label": "Rückkehr mit Befreiten nach Nightstone",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmxp3c1d000e1qi1c8a1gbr7",
+            "game_session_ids": [
+                "cmmxozubl000104jlegt4q501"
+            ],
+            "game_session_id": "cmmxozubl000104jlegt4q501"
+        },
+        {
+            "id": "cmmxs7qh300000i859cv5grvf",
+            "label": "Durchsuchung der Häuser in Nightstone",
+            "type": "step",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmxs8i58000c0i8526ndti2g",
+            "game_session_ids": [
+                "cmmxramg6000004ickfomzviu"
+            ],
+            "game_session_id": "cmmxramg6000004ickfomzviu"
+        },
+        {
+            "id": "cmmxs8i2n000b0i85qbkswjgs",
+            "label": "Aufräumen und Sicherung Nightstone",
+            "type": "major",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": null,
+            "game_session_ids": [
+                "cmmxramg6000004ickfomzviu"
+            ],
+            "game_session_id": "cmmxramg6000004ickfomzviu"
+        },
+        {
+            "id": "cmmxs8i58000c0i8526ndti2g",
+            "label": "Systematische Durchsuchung der Häuser",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmxs8i2n000b0i85qbkswjgs",
+            "game_session_ids": [
+                "cmmxramg6000004ickfomzviu"
+            ],
+            "game_session_id": "cmmxramg6000004ickfomzviu"
+        },
+        {
+            "id": "cmmxs8ie1000f0i85ogk3imk5",
+            "label": "Vorbereitung und Handelsüberlegung mit Elfen",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmxs8ibl000e0i85b05irtzs",
+            "game_session_ids": [
+                "cmmxramg6000004ickfomzviu"
+            ],
+            "game_session_id": "cmmxramg6000004ickfomzviu"
+        },
+        {
+            "id": "cmmyzmnhb00001fgrga4iv9kv",
+            "label": "Gruppe kehrt nach Nightstone zurück",
+            "type": "step",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmyznccx00091fgr24xfdcgx",
+            "game_session_ids": [
+                "cmmyzkvk0000004l53v8oqnwc"
+            ],
+            "game_session_id": "cmmyzkvk0000004l53v8oqnwc"
+        },
+        {
+            "id": "cmmyznc9j00081fgr75hc7rmb",
+            "label": "Durchsuchung der Festung Nightstone",
+            "type": "major",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": null,
+            "game_session_ids": [
+                "cmmyzkvk0000004l53v8oqnwc"
+            ],
+            "game_session_id": "cmmyzkvk0000004l53v8oqnwc"
+        },
+        {
+            "id": "cmmyznccx00091fgr24xfdcgx",
+            "label": "Rückkehr und Entscheidung zur Durchsuchung",
+            "type": "minor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "index": 0,
+            "parent_id": "cmmyznc9j00081fgr75hc7rmb",
+            "game_session_ids": [
+                "cmmyzkvk0000004l53v8oqnwc"
+            ],
+            "game_session_id": "cmmyzkvk0000004l53v8oqnwc"
+        }
+    ],
+    "from": 1,
+    "last_page": 146,
+    "per_page": 20,
+    "to": 20,
+    "total": 2906
+}
