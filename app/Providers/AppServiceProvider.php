@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use App\Services\ArchivistClient;
+use App\Services\Config;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\URL;
@@ -33,7 +34,7 @@ class AppServiceProvider extends ServiceProvider
                 collect($parameters)->keyBy(fn (mixed $_, string $key): string => Str::of($key)->start('{')->finish('}'))->all(),
             );
 
-            $url = rtrim(config('services.archivist.app_url'), '/').'/'.ltrim($path, '/');
+            $url = rtrim(Config::for('services.archivist')->string('app_url'), '/').'/'.ltrim($path, '/');
 
             if (Str::contains($url, '?')) {
                 $existingQuery = [];

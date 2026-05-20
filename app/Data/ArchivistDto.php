@@ -21,7 +21,7 @@ abstract class ArchivistDto extends Fluent implements JsonSchemaable
     }
 
     /**
-     * @return array<string, mixed>
+     * @return array<string, string|string[]>
      */
     abstract public static function rules(): array;
 

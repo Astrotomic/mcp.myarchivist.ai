@@ -21,7 +21,7 @@ parameters:
     paths:
         - app
 
-    level: 8
+    level: 9
 
     reportUnmatchedIgnoredErrors: false
 

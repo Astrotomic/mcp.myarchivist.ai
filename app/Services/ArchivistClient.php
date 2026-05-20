@@ -38,7 +38,7 @@ class ArchivistClient
         if ($response->failed()) {
             throw new ArchivistApiException(
                 status: $response->status(),
-                detail: $response->json('detail') ?? $response->body(),
+                detail: $response->fluent()->string('detail', $response->body()),
             );
         }
 
@@ -47,7 +47,7 @@ class ArchivistClient
 
     private function pending(): PendingRequest
     {
-        return Http::baseUrl((string) config('services.archivist.base_url'))
+        return Http::baseUrl(Config::for('services.archivist')->string('base_url'))
             ->timeout(15)
             ->connectTimeout(3)
             ->acceptJson()

@@ -22,14 +22,14 @@ abstract readonly class ApiAction extends Action implements JsonSchemaable
         $validated = Validator::make($params, static::rules())->safe();
 
         $response = $this->request($validated);
-        $data = $this->map($response->json());
+        $data = $this->map($response->fluent()->all());
 
         if ($data instanceof ArchivistDtoCollection) {
             return new LengthAwarePaginator(
                 items: $data,
-                total: $response->json('total', $data->count()),
-                perPage: $response->json('size', max($data->count(), 20)),
-                currentPage: $response->json('page', $validated->integer('page', 1)),
+                total: $response->fluent()->integer('total', $data->count()),
+                perPage: $response->fluent()->integer('size', max($data->count(), 20)),
+                currentPage: $response->fluent()->integer('page', $validated->integer('page', 1)),
             );
         }
 
