@@ -23,6 +23,10 @@ class AppServiceProvider extends ServiceProvider
 
     public function boot(): void
     {
+        if (! $this->app->environment('local')) {
+            URL::forceHttps();
+        }
+
         URL::macro('toApp', function (string $path, array $parameters = [], array $query = []): string {
             $path = strtr(
                 $path,
