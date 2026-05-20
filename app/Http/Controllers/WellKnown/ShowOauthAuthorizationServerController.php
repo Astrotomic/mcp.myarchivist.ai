@@ -19,7 +19,7 @@ class ShowOauthAuthorizationServerController
             'grant_types_supported' => ['authorization_code', 'refresh_token'],
             'code_challenge_methods_supported' => ['S256'],
             'token_endpoint_auth_methods_supported' => ['none'],
-            'scopes_supported' => config('services.archivist.oauth_scopes_supported'),
+            'scopes_supported' => config()->array('services.archivist.oauth_scopes_supported'),
         ]);
     }
 }

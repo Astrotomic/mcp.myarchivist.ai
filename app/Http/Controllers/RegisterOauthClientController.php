@@ -14,7 +14,7 @@ class RegisterOauthClientController
     public function __invoke(Request $request): JsonResponse
     {
         return response()->json([
-            'client_id' => config('services.archivist.mcp_client_id'),
+            'client_id' => config()->string('services.archivist.mcp_client_id'),
             'client_id_issued_at' => time(),
             'redirect_uris' => $request->input('redirect_uris', []),
             'grant_types' => ['authorization_code', 'refresh_token'],

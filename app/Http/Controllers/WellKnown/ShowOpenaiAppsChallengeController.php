@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers\WellKnown;
 
-use App\Services\Config;
 use Illuminate\Http\Response;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
@@ -10,7 +9,7 @@ class ShowOpenaiAppsChallengeController
 {
     public function __invoke(): Response
     {
-        $token = (string) Config::for('services.openai')->string('apps_challenge_token');
+        $token = config()->string('services.openai.apps_challenge_token');
 
         if (empty($token)) {
             throw new NotFoundHttpException;
