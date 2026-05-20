@@ -15,4 +15,4 @@ jobs:
           php-version: '8.5'
           tools: composer:v2
       - run: composer install --no-interaction --no-progress --prefer-dist
-      - run: ./vendor/bin/pint --test
+      - run: vendor/bin/pint --test
