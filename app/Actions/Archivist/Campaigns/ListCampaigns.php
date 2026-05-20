@@ -14,7 +14,7 @@ final readonly class ListCampaigns extends ApiAction
     {
         return [
             'page' => ['nullable', 'integer'],
-            'size' => ['nullable', 'integer'],
+            'size' => ['nullable', 'integer', 'max:100'],
         ];
     }
 

@@ -18,7 +18,7 @@ final readonly class ListQuests extends ApiAction
             'status' => ['nullable', 'string', 'in:planned,in-progress,blocked,failed,done,n/a'],
             'quest_category' => ['nullable', 'string', 'in:main,side,faction,personal,n/a'],
             'page' => ['nullable', 'integer'],
-            'size' => ['nullable', 'integer'],
+            'size' => ['nullable', 'integer', 'max:100'],
         ];
     }
 

@@ -16,12 +16,13 @@ use Illuminate\Validation\ValidationException;
 use Laravel\Mcp\Request;
 use Laravel\Mcp\Response;
 use Laravel\Mcp\ResponseFactory;
+use Laravel\Mcp\Server\Tool as BaseTool;
 use ReflectionClass;
 use ReflectionException;
 use ReflectionMethod;
 use ReflectionNamedType;
 
-abstract class Tool extends \Laravel\Mcp\Server\Tool
+abstract class Tool extends BaseTool
 {
     abstract protected function action(): ApiAction;
 
@@ -75,7 +76,7 @@ abstract class Tool extends \Laravel\Mcp\Server\Tool
                     'data' => $schema->array()->description("List of {$this->entityLabel()} records.")->required(),
                     'total' => $schema->integer()->description('Total number of matching records.'),
                     'page' => $schema->integer()->description('Current page number.'),
-                    'size' => $schema->integer()->description('Page size.'),
+                    'size' => $schema->integer()->max(100)->description('Page size.'),
                     'pages' => $schema->integer()->description('Total number of pages.'),
                 ];
             }

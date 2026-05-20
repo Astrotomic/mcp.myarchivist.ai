@@ -17,9 +17,6 @@ abstract readonly class ApiAction extends Action implements JsonSchemaable
 {
     public function __construct(protected ArchivistClient $client) {}
 
-    /**
-     * @return ArchivistDto|LengthAwarePaginator<array-key, ArchivistDto>
-     */
     public function execute(array $params): ArchivistDto|LengthAwarePaginator
     {
         $validated = Validator::make($params, static::rules())->safe();

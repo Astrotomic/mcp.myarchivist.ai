@@ -15,7 +15,7 @@ final readonly class ListBeats extends ApiAction
         return [
             'campaign_id' => ['required', 'string'],
             'page' => ['nullable', 'integer'],
-            'size' => ['nullable', 'integer'],
+            'size' => ['nullable', 'integer', 'max:100'],
         ];
     }
 
