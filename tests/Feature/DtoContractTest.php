@@ -44,6 +44,11 @@ class DtoContractTest extends FeatureTestCase
             'system' => 'D&D 5e',
             'public' => true,
             'created_at' => '2024-01-01',
+            'updated_at' => '2024-01-01',
+            'mature' => false,
+            'owner_id' => Str::uuid()->toString(),
+            'summary' => null,
+            'language' => 'en',
         ]);
 
         $this->assertSame('camp_1', $data->get('id'));
