@@ -2,13 +2,10 @@
 
 namespace Gummibeer\Mcp\Tools\Sessions;
 
-use App\Data\SessionData;
 use App\Data\SessionHandoutData;
 use App\Mcp\Servers\ArchivistServer;
 use App\Mcp\Tools\Sessions\GetSessionHandoutTool;
-use App\Mcp\Tools\Sessions\GetSessionTool;
 use Illuminate\Testing\Fluent\AssertableJson;
-use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
 use Tests\GummibeerTestCase;
 
