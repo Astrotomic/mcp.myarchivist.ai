@@ -48,7 +48,7 @@ return [
          * Domain verification token for ChatGPT Apps.
          * OpenAI checks this value at /.well-known/openai-apps-challenge.
          */
-        'apps_challenge_token' => env('OPENAI_APPS_CHALLENGE_TOKEN'),
+        'apps_challenge_token' => (string) env('OPENAI_APPS_CHALLENGE_TOKEN'),
     ],
 
 ];

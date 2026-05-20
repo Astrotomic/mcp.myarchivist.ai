@@ -23,7 +23,7 @@ class ShowOpenaiAppsChallengeControllerTest extends FeatureTestCase
     #[Test]
     public function it_returns_not_found_when_token_is_missing(): void
     {
-        config(['services.openai.apps_challenge_token' => null]);
+        config(['services.openai.apps_challenge_token' => '']);
 
         $this->get(action(ShowOpenaiAppsChallengeController::class))
             ->assertNotFound();
