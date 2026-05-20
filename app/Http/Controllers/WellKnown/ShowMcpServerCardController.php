@@ -4,9 +4,6 @@ namespace App\Http\Controllers\WellKnown;
 
 use App\Mcp\Servers\ArchivistServer;
 use Illuminate\Http\JsonResponse;
-use Laravel\Mcp\Server\Prompt;
-use Laravel\Mcp\Server\Resource;
-use Laravel\Mcp\Server\Tool;
 use Laravel\Mcp\Server\Transport\FakeTransporter;
 
 class ShowMcpServerCardController
@@ -15,14 +12,14 @@ class ShowMcpServerCardController
     {
         $server = new ArchivistServer(new FakeTransporter);
         $context = $server->createContext();
-        $tools = collect($context->tools())->map(fn (string|Tool $class): Tool => $class instanceof Tool ? $class : app($class));
-        $resources = collect($context->resources())->map(fn (string|Resource $class): Resource => $class instanceof Resource ? $class : app($class));
-        $prompts = collect($context->prompts())->map(fn (string|Prompt $class): Prompt => $class instanceof Prompt ? $class : app($class));
+        $tools = $context->tools();
+        $resources = $context->resources();
+        $prompts = $context->prompts();
 
         return response()->json([
             'serverInfo' => [
-                'name' => $context->serverName,
-                'version' => $context->serverVersion,
+                'name' => $context->implementation->name,
+                'version' => $context->implementation->version,
             ],
             'authentication' => [
                 'required' => true,

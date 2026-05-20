@@ -15,8 +15,8 @@ class ShowMcpController
         return response()->json([
             'mcp_version' => '2025-03-26',
             'server' => [
-                'name' => $context->serverName,
-                'version' => $context->serverVersion,
+                'name' => $context->implementation->name,
+                'version' => $context->implementation->version,
                 'description' => $context->instructions,
             ],
             'endpoints' => [
