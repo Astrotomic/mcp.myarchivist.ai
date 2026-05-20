@@ -7,6 +7,7 @@ use App\Exceptions\DtoValidationException;
 use App\Exceptions\UnexpectedDtoAttributeException;
 use Illuminate\Contracts\Debug\ExceptionHandler;
 use Illuminate\Foundation\Exceptions\Handler;
+use Illuminate\Support\Str;
 use Symfony\Component\HttpFoundation\Response as SymfonyResponse;
 use Tests\TestCase;
 
@@ -22,6 +23,12 @@ class DtoContractTest extends TestCase
                 'system' => null,
                 'public' => false,
                 'created_at' => '2024-01-01',
+                'updated_at' => '2024-01-01',
+                'image' => null,
+                'mature' => false,
+                'owner_id' => Str::uuid()->toString(),
+                'summary' => null,
+                'language' => 'en',
             ]);
         });
 
@@ -71,6 +78,12 @@ class DtoContractTest extends TestCase
                 'system' => null,
                 'public' => false,
                 'created_at' => '2024-01-01',
+                'updated_at' => '2024-01-01',
+                'image' => null,
+                'mature' => false,
+                'owner_id' => Str::uuid()->toString(),
+                'summary' => null,
+                'language' => 'en',
                 'unknown_new_api_key' => 'surprise!',
             ]);
         });
@@ -78,8 +91,7 @@ class DtoContractTest extends TestCase
         $unexpectedExceptions = array_values(array_filter($reported, fn ($e) => $e instanceof UnexpectedDtoAttributeException));
 
         $this->assertNotEmpty($unexpectedExceptions, 'An UnexpectedDtoAttributeException should have been reported.');
-        $this->assertSame('unknown_new_api_key', $unexpectedExceptions[0]->key);
-        $this->assertSame('surprise!', $unexpectedExceptions[0]->value);
+        $this->assertSame(['unknown_new_api_key'], $unexpectedExceptions[0]->keys);
     }
 
     /**
