@@ -81,6 +81,7 @@ final class RulesToJsonSchemaTest extends UnitTestCase
             'roles' => 'required|array',
             'is_admin' => 'required|boolean',
             'category' => 'in:news,blog,article',
+            'size' => ['int', 'min:1', 'max:100'],
         ]);
     }
 
