@@ -51,7 +51,10 @@ class ArchivistClient
             ->timeout(15)
             ->connectTimeout(3)
             ->acceptJson()
-            ->withToken($this->token)
-            ->withHeader('x-api-key', $this->token);
+            ->when(
+                app()->isProduction(),
+                fn (PendingRequest $request) => $request->withToken($this->token),
+                fn (PendingRequest $request) => $request->withHeader('x-api-key', $this->token)
+            );
     }
 }
