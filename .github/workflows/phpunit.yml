@@ -8,16 +8,37 @@ permissions:
    contents: read
 
 jobs:
-  phpunit:
+  phpunit-unit:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 1
     steps:
       - uses: actions/checkout@v4
       - uses: shivammathur/setup-php@v2
         with:
           php-version: '8.5'
       - run: composer install --no-interaction --no-progress --prefer-dist
-      - run: |
-          cp .env.example .env
-          php artisan key:generate
-      - run: vendor/bin/phpunit
+      - run: vendor/bin/phpunit --testsuite=Unit
+
+  phpunit-feature:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.5'
+      - run: composer install --no-interaction --no-progress --prefer-dist
+      - run: vendor/bin/phpunit --testsuite=Feature
+
+  phpunit-gummibeer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.5'
+      - run: composer install --no-interaction --no-progress --prefer-dist
+      - run: vendor/bin/phpunit --testsuite=Gummibeer
+        env:
+          GUMMIBEER_TOKEN: ${{ secrets.GUMMIBEER_TOKEN }}
