@@ -36,8 +36,8 @@ final class ArchivistDtoCollectionTest extends UnitTestCase
     #[Test]
     public function it_can_concat_another_collection(): void
     {
-        $dto1 = new ArchivistDtoTestStub();
-        $dto2 = new ArchivistDtoTestStub();
+        $dto1 = new ArchivistDtoTestStub;
+        $dto2 = new ArchivistDtoTestStub;
 
         $collection1 = new ArchivistDtoCollection([$dto1]);
         $collection2 = new ArchivistDtoCollection([$dto2]);
@@ -53,8 +53,8 @@ final class ArchivistDtoCollectionTest extends UnitTestCase
     #[Test]
     public function it_can_concat_an_array_of_dtos(): void
     {
-        $dto1 = new ArchivistDtoTestStub();
-        $dto2 = new ArchivistDtoTestStub();
+        $dto1 = new ArchivistDtoTestStub;
+        $dto2 = new ArchivistDtoTestStub;
 
         $collection = new ArchivistDtoCollection([$dto1]);
 
