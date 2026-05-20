@@ -1,16 +1,16 @@
 <?php
 
-namespace Tests\Gummibeer\Mcp\Tools\Items;
+namespace Tests\Gummibeer\Mcp\Tools\Journals;
 
-use App\Data\ItemData;
+use App\Data\JournalData;
 use App\Mcp\Servers\ArchivistServer;
-use App\Mcp\Tools\Items\GetItemTool;
+use App\Mcp\Tools\Journals\GetJournalTool;
 use Illuminate\Testing\Fluent\AssertableJson;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
 use Tests\GummibeerTestCase;
 
-final class GetItemToolGummibeerTest extends GummibeerTestCase
+final class GetJournalToolTest extends GummibeerTestCase
 {
     public static function queryDataProvider(): array
     {
@@ -23,15 +23,14 @@ final class GetItemToolGummibeerTest extends GummibeerTestCase
     #[DataProvider('queryDataProvider')]
     public function it_fetches_data(array $query): void
     {
-        ArchivistServer::tool(GetItemTool::class, array_merge($query, [
-            'item_id' => 'xam1273mgbscpk1wt8kxoywj',
+        ArchivistServer::tool(GetJournalTool::class, array_merge($query, [
+            'entry_id' => 'cmpd8iwks000004ju8zgs9x51',
         ]))
             ->assertOk()
             ->assertStructuredContent(function (AssertableJson $json): void {
                 $json
-                    ->assertJsonSchema(ItemData::class)
-                    ->where('campaign_id', 'cmj78gm6k000004jrvzm7gcjr')
-                    ->where('id', 'xam1273mgbscpk1wt8kxoywj');
+                    ->assertJsonSchema(JournalData::class)
+                    ->where('id', 'cmpd8iwks000004ju8zgs9x51');
             });
     }
 }

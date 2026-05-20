@@ -1,16 +1,16 @@
 <?php
 
-namespace Tests\Gummibeer\Mcp\Tools\Characters;
+namespace Tests\Gummibeer\Mcp\Tools\Moments;
 
-use App\Data\CharacterData;
+use App\Data\MomentData;
 use App\Mcp\Servers\ArchivistServer;
-use App\Mcp\Tools\Characters\GetCharacterTool;
+use App\Mcp\Tools\Moments\GetMomentTool;
 use Illuminate\Testing\Fluent\AssertableJson;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
 use Tests\GummibeerTestCase;
 
-final class GetCharacterToolGummibeerTest extends GummibeerTestCase
+final class GetMomentToolTest extends GummibeerTestCase
 {
     public static function queryDataProvider(): array
     {
@@ -23,15 +23,15 @@ final class GetCharacterToolGummibeerTest extends GummibeerTestCase
     #[DataProvider('queryDataProvider')]
     public function it_fetches_data(array $query): void
     {
-        ArchivistServer::tool(GetCharacterTool::class, array_merge($query, [
-            'character_id' => 'ffh55eoknmwl9tseg0i0or9y',
+        ArchivistServer::tool(GetMomentTool::class, array_merge($query, [
+            'moment_id' => 'butlp7odsnxj02l6lwc5wtvr',
         ]))
             ->assertOk()
             ->assertStructuredContent(function (AssertableJson $json): void {
                 $json
-                    ->assertJsonSchema(CharacterData::class)
+                    ->assertJsonSchema(MomentData::class)
                     ->where('campaign_id', 'cmj78gm6k000004jrvzm7gcjr')
-                    ->where('id', 'ffh55eoknmwl9tseg0i0or9y');
+                    ->where('id', 'butlp7odsnxj02l6lwc5wtvr');
             });
     }
 }

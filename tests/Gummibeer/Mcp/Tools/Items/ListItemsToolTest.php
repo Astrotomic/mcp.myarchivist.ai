@@ -1,16 +1,16 @@
 <?php
 
-namespace Tests\Gummibeer\Mcp\Tools\Quests;
+namespace Tests\Gummibeer\Mcp\Tools\Items;
 
-use App\Data\QuestDataShort;
+use App\Data\ItemData;
 use App\Mcp\Servers\ArchivistServer;
-use App\Mcp\Tools\Quests\ListQuestsTool;
+use App\Mcp\Tools\Items\ListItemsTool;
 use Illuminate\Testing\Fluent\AssertableJson;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
 use Tests\GummibeerTestCase;
 
-final class ListQuestsToolGummibeerTest extends GummibeerTestCase
+final class ListItemsToolTest extends GummibeerTestCase
 {
     public static function queryDataProvider(): array
     {
@@ -25,7 +25,7 @@ final class ListQuestsToolGummibeerTest extends GummibeerTestCase
     #[DataProvider('queryDataProvider')]
     public function it_fetches_data(array $query): void
     {
-        ArchivistServer::tool(ListQuestsTool::class, array_merge($query, [
+        ArchivistServer::tool(ListItemsTool::class, array_merge($query, [
             'campaign_id' => 'cmj78gm6k000004jrvzm7gcjr',
         ]))
             ->assertOk()
@@ -33,7 +33,7 @@ final class ListQuestsToolGummibeerTest extends GummibeerTestCase
                 $json
                     ->assertPaginatedList(function (AssertableJson $item): void {
                         $item
-                            ->assertJsonSchema(QuestDataShort::class)
+                            ->assertJsonSchema(ItemData::class)
                             ->where('campaign_id', 'cmj78gm6k000004jrvzm7gcjr');
                     });
             });

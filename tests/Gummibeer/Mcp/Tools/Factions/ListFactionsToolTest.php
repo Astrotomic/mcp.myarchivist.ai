@@ -1,16 +1,16 @@
 <?php
 
-namespace Tests\Gummibeer\Mcp\Tools\Sessions;
+namespace Tests\Gummibeer\Mcp\Tools\Factions;
 
-use App\Data\SessionDataShort;
+use App\Data\FactionData;
 use App\Mcp\Servers\ArchivistServer;
-use App\Mcp\Tools\Sessions\ListSessionsTool;
+use App\Mcp\Tools\Factions\ListFactionsTool;
 use Illuminate\Testing\Fluent\AssertableJson;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
 use Tests\GummibeerTestCase;
 
-final class ListSessionsToolGummibeerTest extends GummibeerTestCase
+final class ListFactionsToolTest extends GummibeerTestCase
 {
     public static function queryDataProvider(): array
     {
@@ -18,8 +18,6 @@ final class ListSessionsToolGummibeerTest extends GummibeerTestCase
             'no query' => [[]],
             'size' => [['size' => 100]],
             'page' => [['page' => 2]],
-            'session_type' => [['session_type' => 'rawNotes']],
-            'public_only' => [['public_only' => false]],
         ];
     }
 
@@ -27,7 +25,7 @@ final class ListSessionsToolGummibeerTest extends GummibeerTestCase
     #[DataProvider('queryDataProvider')]
     public function it_fetches_data(array $query): void
     {
-        ArchivistServer::tool(ListSessionsTool::class, array_merge($query, [
+        ArchivistServer::tool(ListFactionsTool::class, array_merge($query, [
             'campaign_id' => 'cmj78gm6k000004jrvzm7gcjr',
         ]))
             ->assertOk()
@@ -35,7 +33,7 @@ final class ListSessionsToolGummibeerTest extends GummibeerTestCase
                 $json
                     ->assertPaginatedList(function (AssertableJson $item): void {
                         $item
-                            ->assertJsonSchema(SessionDataShort::class)
+                            ->assertJsonSchema(FactionData::class)
                             ->where('campaign_id', 'cmj78gm6k000004jrvzm7gcjr');
                     });
             });

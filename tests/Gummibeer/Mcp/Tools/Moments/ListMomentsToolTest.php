@@ -1,27 +1,23 @@
 <?php
 
-namespace Tests\Gummibeer\Mcp\Tools\Characters;
+namespace Tests\Gummibeer\Mcp\Tools\Moments;
 
-use App\Data\CharacterData;
+use App\Data\MomentDataShort;
 use App\Mcp\Servers\ArchivistServer;
-use App\Mcp\Tools\Characters\ListCharactersTool;
+use App\Mcp\Tools\Moments\ListMomentsTool;
 use Illuminate\Testing\Fluent\AssertableJson;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
 use Tests\GummibeerTestCase;
 
-final class ListCharactersToolGummibeerTest extends GummibeerTestCase
+final class ListMomentsToolTest extends GummibeerTestCase
 {
     public static function queryDataProvider(): array
     {
         return [
             'no query' => [[]],
             'size' => [['size' => 100]],
-            'page' => [['size' => 2]],
-            'search' => [['search' => 'Flint']],
-            'PCs' => [['character_type' => 'PC']],
-            'NPCs' => [['character_type' => 'NPC']],
-            'approved_only' => [['approved_only' => true]],
+            'page' => [['page' => 2]],
         ];
     }
 
@@ -29,7 +25,7 @@ final class ListCharactersToolGummibeerTest extends GummibeerTestCase
     #[DataProvider('queryDataProvider')]
     public function it_fetches_data(array $query): void
     {
-        ArchivistServer::tool(ListCharactersTool::class, array_merge($query, [
+        ArchivistServer::tool(ListMomentsTool::class, array_merge($query, [
             'campaign_id' => 'cmj78gm6k000004jrvzm7gcjr',
         ]))
             ->assertOk()
@@ -37,7 +33,7 @@ final class ListCharactersToolGummibeerTest extends GummibeerTestCase
                 $json
                     ->assertPaginatedList(function (AssertableJson $item): void {
                         $item
-                            ->assertJsonSchema(CharacterData::class)
+                            ->assertJsonSchema(MomentDataShort::class)
                             ->where('campaign_id', 'cmj78gm6k000004jrvzm7gcjr');
                     });
             });

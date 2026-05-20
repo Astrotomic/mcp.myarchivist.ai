@@ -1,28 +1,27 @@
 <?php
 
-namespace Tests\Gummibeer\Mcp\Tools\Links;
+namespace Tests\Gummibeer\Mcp\Tools\Characters;
 
-use App\Data\LinkData;
+use App\Data\CharacterData;
 use App\Mcp\Servers\ArchivistServer;
-use App\Mcp\Tools\Links\ListLinksTool;
+use App\Mcp\Tools\Characters\ListCharactersTool;
 use Illuminate\Testing\Fluent\AssertableJson;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
 use Tests\GummibeerTestCase;
 
-final class ListLinksToolGummibeerTest extends GummibeerTestCase
+final class ListCharactersToolTest extends GummibeerTestCase
 {
     public static function queryDataProvider(): array
     {
         return [
             'no query' => [[]],
             'size' => [['size' => 100]],
-            'page' => [['page' => 2]],
-            'from_id' => [['from_id' => 'xpv723vsxdr7pm1o9w0b8h8f']],
-            'from_type' => [['from_type' => 'Location']],
-            'to_id' => [['from_id' => 'pbd51edatctika2hzpr8dxss']],
-            'to_type' => [['from_type' => 'Location']],
-            'alias' => [['alias' => 'Taverne']],
+            'page' => [['size' => 2]],
+            'search' => [['search' => 'Flint']],
+            'PCs' => [['character_type' => 'PC']],
+            'NPCs' => [['character_type' => 'NPC']],
+            'approved_only' => [['approved_only' => true]],
         ];
     }
 
@@ -30,7 +29,7 @@ final class ListLinksToolGummibeerTest extends GummibeerTestCase
     #[DataProvider('queryDataProvider')]
     public function it_fetches_data(array $query): void
     {
-        ArchivistServer::tool(ListLinksTool::class, array_merge($query, [
+        ArchivistServer::tool(ListCharactersTool::class, array_merge($query, [
             'campaign_id' => 'cmj78gm6k000004jrvzm7gcjr',
         ]))
             ->assertOk()
@@ -38,7 +37,7 @@ final class ListLinksToolGummibeerTest extends GummibeerTestCase
                 $json
                     ->assertPaginatedList(function (AssertableJson $item): void {
                         $item
-                            ->assertJsonSchema(LinkData::class)
+                            ->assertJsonSchema(CharacterData::class)
                             ->where('campaign_id', 'cmj78gm6k000004jrvzm7gcjr');
                     });
             });

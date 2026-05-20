@@ -1,16 +1,16 @@
 <?php
 
-namespace Tests\Gummibeer\Mcp\Tools\Factions;
+namespace Tests\Gummibeer\Mcp\Tools\Beats;
 
-use App\Data\FactionData;
+use App\Data\BeatDataShort;
 use App\Mcp\Servers\ArchivistServer;
-use App\Mcp\Tools\Factions\ListFactionsTool;
+use App\Mcp\Tools\Beats\ListBeatsTool;
 use Illuminate\Testing\Fluent\AssertableJson;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
 use Tests\GummibeerTestCase;
 
-final class ListFactionsToolGummibeerTest extends GummibeerTestCase
+final class ListBeatsToolTest extends GummibeerTestCase
 {
     public static function queryDataProvider(): array
     {
@@ -25,7 +25,7 @@ final class ListFactionsToolGummibeerTest extends GummibeerTestCase
     #[DataProvider('queryDataProvider')]
     public function it_fetches_data(array $query): void
     {
-        ArchivistServer::tool(ListFactionsTool::class, array_merge($query, [
+        ArchivistServer::tool(ListBeatsTool::class, array_merge($query, [
             'campaign_id' => 'cmj78gm6k000004jrvzm7gcjr',
         ]))
             ->assertOk()
@@ -33,7 +33,7 @@ final class ListFactionsToolGummibeerTest extends GummibeerTestCase
                 $json
                     ->assertPaginatedList(function (AssertableJson $item): void {
                         $item
-                            ->assertJsonSchema(FactionData::class)
+                            ->assertJsonSchema(BeatDataShort::class)
                             ->where('campaign_id', 'cmj78gm6k000004jrvzm7gcjr');
                     });
             });

@@ -1,16 +1,16 @@
 <?php
 
-namespace Tests\Gummibeer\Mcp\Tools\Quests;
+namespace Tests\Gummibeer\Mcp\Tools\Beats;
 
-use App\Data\QuestData;
+use App\Data\BeatData;
 use App\Mcp\Servers\ArchivistServer;
-use App\Mcp\Tools\Quests\GetQuestTool;
+use App\Mcp\Tools\Beats\GetBeatTool;
 use Illuminate\Testing\Fluent\AssertableJson;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
 use Tests\GummibeerTestCase;
 
-final class GetQuestToolGummibeerTest extends GummibeerTestCase
+final class GetBeatToolTest extends GummibeerTestCase
 {
     public static function queryDataProvider(): array
     {
@@ -23,15 +23,15 @@ final class GetQuestToolGummibeerTest extends GummibeerTestCase
     #[DataProvider('queryDataProvider')]
     public function it_fetches_data(array $query): void
     {
-        ArchivistServer::tool(GetQuestTool::class, array_merge($query, [
-            'quest_id' => '65d76790-15bb-4bb1-91bf-19d9d80d31b3',
+        ArchivistServer::tool(GetBeatTool::class, array_merge($query, [
+            'beat_id' => 'cmmwj6k9o00000i8g38tra5i0',
         ]))
             ->assertOk()
             ->assertStructuredContent(function (AssertableJson $json): void {
                 $json
-                    ->assertJsonSchema(QuestData::class)
+                    ->assertJsonSchema(BeatData::class)
                     ->where('campaign_id', 'cmj78gm6k000004jrvzm7gcjr')
-                    ->where('id', '65d76790-15bb-4bb1-91bf-19d9d80d31b3');
+                    ->where('id', 'cmmwj6k9o00000i8g38tra5i0');
             });
     }
 }

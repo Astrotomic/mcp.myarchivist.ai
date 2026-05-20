@@ -10,7 +10,7 @@ use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\Test;
 use Tests\GummibeerTestCase;
 
-final class GetFactionToolGummibeerTest extends GummibeerTestCase
+final class GetFactionToolTest extends GummibeerTestCase
 {
     public static function queryDataProvider(): array
     {
