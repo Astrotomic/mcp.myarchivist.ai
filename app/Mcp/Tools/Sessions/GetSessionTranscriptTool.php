@@ -3,6 +3,7 @@
 namespace App\Mcp\Tools\Sessions;
 
 use App\Exceptions\ArchivistApiException;
+use App\Mcp\Data\TranscriptData;
 use App\Mcp\Tools\Concerns\HasArchivistOutputSchema;
 use App\Services\ArchivistClient;
 use Illuminate\Contracts\JsonSchema\JsonSchema;
@@ -43,7 +44,7 @@ class GetSessionTranscriptTool extends Tool
             return Response::error("Failed to get transcript for session '{$validated['session_id']}' from MyArchivist API (HTTP {$e->status}): {$e->detail}");
         }
 
-        return Response::structured($data);
+        return Response::structured((new TranscriptData($data))->toArray());
     }
 
     #[\Override]
