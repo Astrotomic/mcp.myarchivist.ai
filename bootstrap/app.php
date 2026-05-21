@@ -14,7 +14,7 @@ return Application::configure(basePath: dirname(__DIR__))
         //
     })
     ->withExceptions(function (Exceptions $exceptions): void {
-        if (filled(config()->string('sentry.dsn'))) {
+        if (! app()->runningUnitTests() && filled(config()->string('sentry.dsn'))) {
             Integration::handles($exceptions);
         }
     })->create();
