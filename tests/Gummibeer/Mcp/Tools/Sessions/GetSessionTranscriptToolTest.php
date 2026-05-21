@@ -17,12 +17,12 @@ final class GetSessionTranscriptToolTest extends GummibeerTestCase
     public function it_fetches_data(): void
     {
         ArchivistServer::tool(GetSessionTranscriptTool::class, [
-            'session_id' => 'cmn3ep276000804jrkdtsl58r',
+            'session_id' => 'cmp49egl1000204if2fmow69m',
         ])
             ->assertOk()
             ->assertStructuredContent(function (AssertableJson $json): void {
                 $json->assertJsonSchema(SessionTranscriptData::class);
-                $this->assertMatchesJsonSnapshot($json);
+                // intentionally no snapshot test for privacy
             });
     }
 }
