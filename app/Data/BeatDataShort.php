@@ -15,6 +15,10 @@ class BeatDataShort extends ArchivistDto
             'type' => ['required', 'string', 'in:major,minor,step'],
             'index' => ['required', 'integer'],
             'parent_id' => ['nullable', 'string'],
+            'description' => ['nullable', 'string'],
+            'metadata' => ['nullable', 'array'],
+            'created_at' => ['required', 'string', 'date'],
+            'updated_at' => ['nullable', 'string', 'date'],
         ];
     }
 }

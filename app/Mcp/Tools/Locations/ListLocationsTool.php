@@ -10,7 +10,7 @@ use Laravel\Mcp\Server\Tools\Annotations\IsIdempotent;
 use Laravel\Mcp\Server\Tools\Annotations\IsOpenWorld;
 use Laravel\Mcp\Server\Tools\Annotations\IsReadOnly;
 
-#[Description('List locations in a campaign. Locations can be nested (cities, taverns, dungeons, etc.).')]
+#[Description('List locations in a campaign. Optionally filter by name search. Locations can be nested (cities, taverns, dungeons, etc.).')]
 #[IsReadOnly(true)]
 #[IsDestructive(false)]
 #[IsIdempotent(true)]

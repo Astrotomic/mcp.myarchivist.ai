@@ -14,6 +14,7 @@ final readonly class ListFactions extends ApiAction
     {
         return [
             'campaign_id' => ['required', 'string'],
+            'search' => ['nullable', 'string'],
             'page' => ['nullable', 'integer'],
             'size' => ['nullable', 'integer', 'max:100'],
         ];
