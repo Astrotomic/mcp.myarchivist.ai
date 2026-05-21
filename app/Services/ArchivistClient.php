@@ -48,7 +48,7 @@ class ArchivistClient
     private function pending(): PendingRequest
     {
         return Http::baseUrl(config()->string('services.archivist.base_url'))
-            ->timeout(15)
+            ->timeout(30)
             ->connectTimeout(3)
             ->acceptJson()
             ->when(

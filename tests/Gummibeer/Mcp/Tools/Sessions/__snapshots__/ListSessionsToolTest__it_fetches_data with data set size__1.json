@@ -2,6 +2,22 @@
     "current_page": 1,
     "data": [
         {
+            "created_at": "2026-05-21T11:54:26.912000",
+            "updated_at": null,
+            "id": "cmpffnto0000004l5ahvyz1s7",
+            "title": "Gefangen im magischen Chaos",
+            "type": "audioUpload",
+            "session_date": "2024-04-24T16:00:00",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "public": false,
+            "summary": null,
+            "image": null,
+            "index": null,
+            "notes": null,
+            "pbp_start_msg_url": null,
+            "pbp_end_msg_url": null
+        },
+        {
             "created_at": "2026-05-18T15:47:12.524000",
             "updated_at": null,
             "id": "cmpbdnlls000004l15qelefj9",
@@ -901,6 +917,6 @@
     "from": 1,
     "last_page": 1,
     "per_page": 100,
-    "to": 56,
-    "total": 56
+    "to": 57,
+    "total": 57
 }

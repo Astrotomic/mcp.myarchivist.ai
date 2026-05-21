@@ -20,6 +20,7 @@ final class GetSessionHandoutToolTest extends GummibeerTestCase
             ->assertOk()
             ->assertStructuredContent(function (AssertableJson $json): void {
                 $json->assertJsonSchema(SessionHandoutData::class);
+                $this->assertMatchesJsonSnapshot($json);
             });
     }
 }
