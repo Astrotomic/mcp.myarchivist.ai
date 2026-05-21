@@ -1,0 +1,146 @@
+{
+    "summary": "Morvain schloss sich Gwendolyn und Surina an, die ein halböffentliches Gespräch führten, während sie Wein tranken. Gwendolyn erinnerte Surina an ihr erstes Abenteuer und die Gruppe beschloss, nach Brennen zu suchen, der am Ufer des Sees lag und erklärte, er habe sich gewaschen. Surina half ihm auf die Beine, während Gwendolyn eine Handflamme beschwor, um ihn zu trocknen. Die Gruppe machte sich zur Gartenanlage auf, wo sich die Massen für das Mondfest sammelten.\n\nEin Glockenschlag ertönte und eine unnatürliche Stille legte sich über den Ort, die nach fünf Minuten wieder verschwand. Die Gruppe verband das Ereignis mit dem Mondfest, das dem Gedenken Verstorbener diente. Rita schlug vor, Papierlaternen steigen zu lassen, und die Gruppe spendete Goldmünzen dafür. Surina schrieb eine Nachricht in Drakonisch, während Morvain erkannte, dass es echte Schriftzeichen waren.\n\nBrennen sprach einen weinenden Mann an, der von seiner verschwundenen Tochter Sonval berichtete. Brennen bot seine Hilfe an, während er von einer fröhlichen Männergruppe umgeben wurde, die ihn zum Trinken zwang. Korvathun schlug Brennens Sohn ins Gesicht, was die Gruppe dazu brachte, Trunkenheit vorzutäuschen und den Bewusstlosen zu durchsuchen, wobei sie eine Einladung zum Mondfest fand.\n\nIm Haupthaus begegnete Brennan einer Haushofsangestellten, die ihn warnte, nicht herumzuschnüffeln. Gwendolyn und Surina schleppten den bewusstlosen Sohn zum Tor, wo Seres ihnen Informationen über die Entführungen gab. Seres vermutete, dass die verschwundenen Mädchen wegen ihrer Väter entführt wurden, und warnte vor unterschiedlichen Interessen. Die Gruppe hörte eine Stimme, die sie aufforderte, zum Tor zu kommen und machte sich auf den Weg dorthin.\n\n",
+    "sessionOutline": "### Treffen am See\n- Morvain schloss sich Gwendolyn und Surina an.\n- Gwendolyn und Surina erinnerten sich an ihr erstes Abenteuer.\n- Die Gruppe beschloss, nach Brennen zu suchen.\n\n### Mondfest und Stille\n- Ein Glockenschlag erzeugte eine unnatürliche Stille.\n- Die Gruppe verband das Ereignis mit dem Mondfest.\n- Rita schlug vor, Laternen steigen zu lassen.\n\n### Entführungen und Begegnungen\n- Brennen sprach einen weinenden Mann an, dessen Tochter verschwunden war.\n- Korvathun schlug Brennens Sohn ins Gesicht.\n- Die Gruppe fand eine Einladung zum Mondfest bei einem Bewusstlosen.\n\n### Informationen von Seres\n- Brennan begegnete einer Haushofsangestellten im Haupthaus.\n- Gwendolyn und Surina schleppten den bewusstlosen Sohn zum Tor.\n- Seres gab Informationen über die Entführungen und warnte vor unterschiedlichen Interessen.",
+    "encounters": [
+        {
+            "title": "Stille nach dem Glockenschlag",
+            "bullets": [
+                "Ein Glockenschlag ertönte, gefolgt von unnatürlicher Stille.",
+                "Die Stille dauerte fünf Minuten, bevor Umgebungsgeräusche zurückkehrten.",
+                "Die Gruppe verband das Ereignis mit dem Mondfest, das dem Gedenken Verstorbener dient."
+            ]
+        },
+        {
+            "title": "Begegnung mit dem weinenden Mann",
+            "bullets": [
+                "Brennen sprach einen weinenden Mann an, dessen Tochter Sonval verschwunden war.",
+                "Brennen bot seine Hilfe an und schickte die Söhne des Mannes weg.",
+                "Die Gruppe täuschte Trunkenheit vor, um den Bewusstlosen zu durchsuchen."
+            ]
+        }
+    ],
+    "characterSpotlight": [
+        {
+            "name": "Morvain",
+            "description": "Er schloss sich Gwendolyn und Surina an, während sie über vergangene Abenteuer sprachen. Morvain wischte sich eine Träne ab, als er an seine Schwester dachte.",
+            "bullets": [
+                "Er erkannte, dass Surina in Drakonisch schrieb.",
+                "Er entfernte sich, um seine eigene Nachricht zu verfassen."
+            ]
+        },
+        {
+            "name": "Brennen",
+            "description": "Er fand den weinenden Mann und bot seine Hilfe an, um dessen Tochter zu suchen. Brennen wurde von einer fröhlichen Männergruppe umgeben, die ihn zum Trinken zwang.",
+            "bullets": [
+                "Er entdeckte eine Einladung zum Mondfest bei einem Bewusstlosen.",
+                "Er suchte in der Menge nach seinem Sohn und erfuhr von weiteren Entführungen."
+            ]
+        },
+        {
+            "name": "Rita",
+            "description": "Sie verführte Korvathun mit Tanz, was schnell endete. Rita schlug vor, Laternen steigen zu lassen, um Nachrichten zu senden.",
+            "bullets": [
+                "Sie organisierte Getränke für die Gruppe nach dem Ringkampf.",
+                "Sie nahm den Geldbeutel des Bewusstlosen an sich."
+            ]
+        }
+    ],
+    "otherEntitySpotlight": [
+        {
+            "name": "Gwendolyn",
+            "description": "Sie erinnerte Surina an ihr erstes Abenteuer und die Gruppe beschloss, nach Brennen zu suchen."
+        },
+        {
+            "name": "Surina",
+            "description": "Sie half Brennen auf die Beine und schrieb eine Nachricht in Drakonisch."
+        },
+        {
+            "name": "Korvathun",
+            "description": "Er wurde von einer fröhlichen Männergruppe zum Trinken gezwungen und schlug Brennens Sohn ins Gesicht."
+        },
+        {
+            "name": "Durnan",
+            "description": "Er war Korvathuns Kontrahent im Ringkampf und wurde von Korvathun besiegt."
+        },
+        {
+            "name": "Seres",
+            "description": "Sie gab der Gruppe Informationen über die Entführungen und warnte vor unterschiedlichen Interessen."
+        },
+        {
+            "name": "Briarwatch",
+            "description": "Es wurde als Ort erwähnt, von dem eine Einladung zum Mondfest stammte."
+        }
+    ],
+    "items": [
+        {
+            "name": "Einladung zum Mondfest",
+            "description": "Brennen fand eine allgemeine Einladung zum Mondfest von Briarwatch bei einem Bewusstlosen."
+        },
+        {
+            "name": "Papierlaternen",
+            "description": "Die Gruppe ließ Papierlaternen steigen, um Nachrichten an Abwesende zu senden."
+        },
+        {
+            "name": "Goldmünzen",
+            "description": "Die Gruppe spendete Goldmünzen für die Laternen, um ihre Botschaften zu senden."
+        },
+        {
+            "name": "Drakonische Nachricht",
+            "description": "Surina schrieb eine Nachricht in Drakonisch an Dîn-io, um um Rückkehr zu bitten."
+        },
+        {
+            "name": "Geldbeutel",
+            "description": "Rita nahm den Geldbeutel des Bewusstlosen an sich, der möglicherweise wichtige Informationen enthielt."
+        }
+    ],
+    "valuableInformation": [
+        {
+            "info": "Die Gruppe verband das Glockenereignis mit dem Mondfest, das dem Gedenken Verstorbener dient."
+        },
+        {
+            "info": "Seres vermutete, dass die verschwundenen Mädchen wegen ihrer Väter entführt wurden."
+        },
+        {
+            "info": "Es gab Berichte über mehrere Entführungen von Mädchen aus verschiedenen Häusern."
+        },
+        {
+            "info": "Die Gruppe wurde gewarnt, dass die Interessen von Briarwatch nicht unbedingt mit ihren übereinstimmen."
+        },
+        {
+            "info": "Ein Krieg ziehe auf, und die Lord’s Alliance sei in Panik."
+        },
+        {
+            "info": "Die andere Gruppe aus Moonshea Isles stamme aus einem schwer erreichbaren Ort."
+        },
+        {
+            "info": "Seres bot der Gruppe Hilfe an, empfahl jedoch Diskretion bei heiklen Gesprächen."
+        }
+    ],
+    "partyStatusAndNextSteps": {
+        "partyStatus": {
+            "summary": "Die Gruppe befindet sich am Garten des Mondfestes und hat mehrere Entführungen aufgedeckt. Sie sind in der Lage, Informationen zu sammeln und haben bereits Gold für Laternen gespendet.",
+            "bullets": [
+                "Gwendolyn und Surina haben einen bewusstlosen Mann zum Tor geschleppt.",
+                "Brennen hat Informationen über vermisste Mädchen gesammelt.",
+                "Rita hat Getränke für die Gruppe organisiert."
+            ]
+        },
+        "nextSteps": {
+            "summary": "Die Gruppe plant, die Stimme zu folgen, die sie zum Tor ruft."
+        }
+    },
+    "moments": [
+        {
+            "label": "Laternen für die Abwesenden",
+            "content": "Titel: Die Laternen der Ivy Mansion  \nDie Gruppe sieht, wie Papierlaternen von den Mauern der Ivy Mansion in den Himmel steigen. Rita erklärt, dass diese Laternen Nachrichten an Abwesende oder Verstorbene senden. Die Gruppe spendet Geld für eigene Laternen, an denen Pergament und Feder befestigt sind. Gemeinsam lassen sie die Laternen aufsteigen und senden ihre Gedanken in die Nacht."
+        },
+        {
+            "label": "Wärme unter dem Vollmond",
+            "content": "Unter dem Vollmond lag Surina im Gras, während Gwendolyn eine Handflamme beschwor. Brennen zeigte Gwendolyn ein Sternenmuster, das er \"Potion of Love\" nannte. Überzeugt, sich nicht zu erkälten, genoss er den Himmel. Gwendolyn und Seraphina beobachteten ihn. Die Gruppe genoss den ruhigen Moment und die Sterne."
+        },
+        {
+            "label": "Surina bringt Brennen zurück ins Leben",
+            "content": "Surina zog Brennen auf die Beine und schüttelte ihn: \"Du kannst nicht unter Wasser atmen!\" Brennen, zuvor entspannt im Gras, versuchte die Situation herunterzuspielen und behauptete, nichts sei passiert. Er wollte nur frische Luft und scherzte über seine Entspannung im Wasser. Surina sah ihn skeptisch an, während Brennen unbeeindruckt blieb und die Gruppe in eine Diskussion über das Schwimmen nach dem Essen verwickelte."
+        }
+    ]
+}
