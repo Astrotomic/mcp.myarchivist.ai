@@ -43,7 +43,11 @@ abstract class ApiTestCase extends FeatureTestCase
 
             foreach ($schema as $key => $type) {
                 $definition = $type->toArray();
-                $this->whereType($key, $definition['type']);
+                $types = collect($definition['type'])->map(fn (string $type) => match ($type) {
+                    'object' => 'array',
+                    default => $type,
+                })->all();
+                $this->whereType($key, $types);
 
                 if (isset($definition['enum'])) {
                     $this->where($key, fn (mixed $value) => in_array($value, $definition['enum'], true));
