@@ -2,6 +2,68 @@
     "current_page": 2,
     "data": [
         {
+            "created_at": "2026-03-21T14:04:03.319000",
+            "updated_at": null,
+            "id": "jm7x34fos651lpvzuv8h2klo",
+            "name": "Minenarbeiterpfad",
+            "aliases": [],
+            "type": null,
+            "description": "Der Minenarbeiterpfad ist ein Weg, der durch das Gebirge führt und als Hauptroute zur Gnomen-Siedlung Gnomengard dient. Der Pfad verläuft entlang eines größeren Flusses, den die Reisenden überqueren müssen. Die Landschaft ist geprägt von steilen Hängen und gelegentlichen Sichtungen von Wildtieren, wie Schlangen und Bären.\nReisende, die den Minenarbeiterpfad nutzen, können eine Karte von einem Wirt im Gasthaus erhalten, die den Verlauf des Pfades beschreibt. Die Gruppe folgt dem Minenarbeiterpfad, überquert den Fluss und folgt der Biegung des Flusses bis Gnomengard. Auf dem Weg begegnen sie verschiedenen Tieren und müssen Herausforderungen wie einem Hinterhalt von Goblinoiden bewältigen. Der Pfad führt schließlich zu einem breiten Fluss mit einer Brücke, die überquert werden muss, um die Reise fortzusetzen.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-03-20T21:54:40.256000",
+            "updated_at": null,
+            "id": "zalvmkx5wxdtctifitl5af1y",
+            "name": "Triboar > Oberes Viertel",
+            "aliases": [
+                "oberen Viertel"
+            ],
+            "type": null,
+            "description": "Das Oberes Viertel ist ein hoch gelegener Teil der Stadt, der von hochgeborenen Elfen bewohnt wird. Die Bewohner sind bekannt dafür, sich von den gewöhnlichen Bürgern der Stadt abzuschotten und halten sich zumeist in ihren eigenen Bereichen auf.\n\nEs gibt Berichte über einen Überlebenden, der sich in diesem Viertel aufhält, nachdem er aus den Wäldern zurückgekehrt ist, wo viele Stadtbewohner und Dorfbewohner verschwunden sind. In der Umgebung wurden zahlreiche Vermisstenfälle gemeldet, und die meisten der zurückgekehrten Personen verharren in einem tiefen Schlaf. Die Stadtwache warnt, dass die Bewohner des Oberen Viertels nicht viel mit den anderen Bürgern zu tun haben und dass sie verschlossen sind.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-03-20T21:54:40.192000",
+            "updated_at": null,
+            "id": "c5kh254lywpgxkhk0rq5rhs1",
+            "name": "Nordöstlicher Wald",
+            "aliases": [
+                "nordöstlichen Wald"
+            ],
+            "type": null,
+            "description": "Der Nordöstliche Wald ist ein größerer Wald im Nordosten der Stadt, bekannt für seine reiche Tierpopulation. Die Umgebung bietet eine Vielzahl von Wildtieren, darunter Hirsche und Wölfe. Der Wald ist von frischen Spuren durchzogen, die auf die Anwesenheit von Wildtieren hinweisen.\nIm Wald sind Hufspuren von Rotwild zu finden, und es gibt Lichtungen, auf denen Hirsche und Hirschkühe sichtbar sind. Der Wald ist ein beliebter Ort für die Jagd, und es werden auch Wölfe und Füchse angetroffen. Die erlegten Tiere können am Triboar  > Marktplatz in der Stadt verkauft werden.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-03-20T16:44:59.232000",
+            "updated_at": null,
+            "id": "zc1e8gfk0r2orfwxvzg1hmgg",
+            "name": "Triboar > Bibliothek",
+            "aliases": [
+                "Bibliothek"
+            ],
+            "type": null,
+            "description": "Die **Triboar > Bibliothek** in Triboar ist eine zentrale Wissensstätte, in der jegliches Wissen gesammelt wird. Sie dient als Anlaufstelle für umfassendere Recherchen, insbesondere zu spezifischen Themen wie unsichtbaren, einschläfernden Geisterwesen. Die Triboar > Bibliothek befindet sich im Nordosten der Stadt, als das dritte Haus auf der linken Seite nach der letzten Abbiegung zum Osttor. Sie hat einen größeren Turm und ist mit Regalen voller Bücher und Schriftrollen bis unter die Decke gefüllt. Ein Kamin sorgt für Wärme, ohne dass Flammen die Bücher gefährden.\nDer Bibliothekar, ein älterer Mann in einer hellen, mittelgrauen Robe mit Kapuze und grauen Haaren, verweist auf die Triboar > Bibliothek für detailliertere Informationen. Dîn-io Tempest wird in der Triboar > Bibliothek von Surina Nemmonis und Gwendolyn Silverflame getroffen. Sie zeigen ihm einen Steckbrief einer „Hexe“ und besprechen das Walderlebnis sowie die schlafenden Begleiter. Der Bibliothekar erklärt, dass die Hexe nur aus Berichten weniger Überlebender skizziert wurde, da die meisten Betroffenen gestorben oder nie wieder erwacht sind. Dîn-io Tempest vergleicht die Augen auf dem Steckbrief mit denen der lichtgestaltigen Verfolger aus dem Wald und erkennt Ähnlichkeiten. Auf Anraten des Bibliothekars gehen die Charaktere zur Stadtwache, um weitere Informationen zu erfragen.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": true,
+            "parent_id": null
+        },
+        {
             "created_at": "2026-03-20T16:44:59.158000",
             "updated_at": null,
             "id": "tgli3q0tgli76z5kbkwxzfps",
@@ -238,74 +300,11 @@
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "merge": false,
             "parent_id": null
-        },
-        {
-            "created_at": "2026-03-07T16:50:26.942000",
-            "updated_at": null,
-            "id": "iywkx2nekhnf4gqi4d7wznyb",
-            "name": "Lager der Skelettmenschen",
-            "aliases": [
-                "Lager der Skelette",
-                "Skelettlager"
-            ],
-            "type": null,
-            "description": "Das Lager der Skelettmenschen besteht aus etwa 20 bis 30 Zelten und befindet sich in einem Waldgebiet. In der Nähe des Lagers sind circa 15 bis 20 Untote präsent. Die Gruppe um Gwerk berichtet über das Lager in der Festung. Flint Fireforge, Alagos und Gwerk reiten anschließend zum Lager, während Äon Kalfr und Sudur Ragni sich in der Nähe zurückziehen. Von einem erhöhten Aussichtspunkt, einer Klippe, aus kann das Lager beobachtet werden. Diese strategische Lage ermöglicht eine Analyse der Situation im Lager, bevor die Gruppe zur Festung zurückkehrt, um sich auf einen bevorstehenden Kampf vorzubereiten.\nIn der Nacht bereitet die Gruppe einen Angriff vor und errichtet am Zugang des Lagers eine kleine Straßensperre. Flint Fireforge schleicht sich ins Lager, um Gefangene zu befreien, was zu einem offenen Kampf gegen Orcs und Skelette führt. Die Gruppe sieht sich einer überlegenen Anzahl von Feinden gegenüber, was die Situation gefährlich und chaotisch macht.\nDer Lager der Skelettmenschen ist eine strukturierte Erhebung. Er dient als Beobachtungspunkt und ist mit einem Warnsignal ausgestattet, das in kritischen Situationen aktiviert wird. Während eines Übergriffs auf das Lager der Skelettmenschen ertönte das Warnsignal, was die Lage im Lager eskalierte und die Ankunft des Anführers der Skelette zur Folge hatte. Der Lager der Skelettmenschen lenkte die Aufmerksamkeit auf die Bedrohung, die sich aus der Koordination der feindlichen Kräfte ergab.\nDas Lager der Skelettmenschen ist ein Ort, der zuvor von Bedeutung war. Bei der Durchsuchung fanden Sudur Ragni, Flint Fireforge und Alagos lediglich Stoff von den Zelten. Es wurden keine Schätze, Hinweise oder besondere Ausrüstungsgegenstände entdeckt.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": true,
-            "parent_id": null
-        },
-        {
-            "created_at": "2026-03-07T16:50:26.920000",
-            "updated_at": null,
-            "id": "kdsp5ydq57q5qob7e8rrolfy",
-            "name": "Wald",
-            "aliases": [
-                "nahegelegenen Wald"
-            ],
-            "type": null,
-            "description": "Der Wald ist ein dicht bewachsenes Gebiet, in dem die Gruppe nach Spuren, Gefahren oder Überlebenden sucht. Äon Kalfr nimmt Tierlaute und das Knacken von Holz wahr, was die Gruppe dazu veranlasst, in diese Richtung vorzurücken. Gwerk markiert mehrere Bäume, um den Rückweg zu sichern. Im Wald entdecken sie ein Lager mit etwa 20 bis 30 Zelten, das Gwerk als Lager von Skelettmenschen bezeichnet. Sudur Ragni spürt die Präsenz von circa 15 bis 20 Untoten in der Nähe.\nNach der Entdeckung des Lagers rennt Gwerk zurück zur Festung, um zu berichten. Flint Fireforge, Alagos und Khorum Ironfist durchsuchen die Mine, jedoch ohne Erfolg. Flint und Alagos brechen daraufhin in Richtung Wald auf, wo sie Gwerk treffen, der von den Skelettmenschen berichtet. Die Gruppe versammelt sich wenig entfernt vom Lager, um ihre Beobachtungen abzugleichen. Sie verteilen sich auf einer Klippe, um das Lager zu beobachten, und bestätigen die Bedrohung.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false,
-            "parent_id": null
-        },
-        {
-            "created_at": "2026-03-07T15:54:18.020000",
-            "updated_at": null,
-            "id": "cmmgi7dwk000904l8ty1nlyfl",
-            "name": "Skyreaper",
-            "aliases": [],
-            "type": null,
-            "description": "Skyreaper ist ein Schiff, das von Flint Fireforge im Hafen von Waterdeep umgebaut wird, um als Luftschiff gegen Riesen eingesetzt zu werden. Flint Fireforge ist aktiv mit dem Umbau beschäftigt und sucht eine praktische Lösung zur Bekämpfung der Riesen. Die Gruppe entdeckt die Skyreaper am Hafen, wo Flint sein Ziel verfolgt, das Schiff in ein Luftschiff umzuwandeln.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false,
-            "parent_id": null
-        },
-        {
-            "created_at": "2026-03-07T15:48:17.397000",
-            "updated_at": null,
-            "id": "ozpmr7e2ovlvnotacya1jl8z",
-            "name": "Furcht-Bar",
-            "aliases": [
-                "Taverne"
-            ],
-            "type": null,
-            "description": "Die Furcht-Bar ist ein Ort in Waterdeep. Sie bietet Abenteurern die Möglichkeit, Kontakte zu knüpfen und Informationen zu sammeln. Die Bar ist Teil der lebendigen Stadt Waterdeep. Khorum Ironfist hielt sich in dieser Furcht-Bar auf.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": true,
-            "parent_id": null
         }
     ],
     "from": 21,
     "last_page": 6,
     "per_page": 20,
     "to": 40,
-    "total": 105
+    "total": 109
 }

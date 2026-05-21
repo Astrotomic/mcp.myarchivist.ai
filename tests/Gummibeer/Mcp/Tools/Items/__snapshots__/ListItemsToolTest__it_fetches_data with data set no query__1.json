@@ -2,6 +2,37 @@
     "current_page": 1,
     "data": [
         {
+            "created_at": "2026-05-21T13:29:19.610000",
+            "updated_at": null,
+            "id": "a16m4aipk8ogchg90ivznnoo",
+            "name": "Schiff Mit Kufen",
+            "aliases": [
+                "Schiff Auf Kufen",
+                "Das Schiff"
+            ],
+            "type": null,
+            "description": "Das Schiff mit Kufen ist ein Fischerboot-ähnliches Fahrzeug, das über Schnee gezogen werden kann. Es verfügt über ein außen liegendes Steuer, ein aufziehbares Segel und Raum unter Deck. Ein Zwerg erklärte, dass es bis zur nächsten Stadt halten sollte, obwohl eine gründlichere Stabilisierung zwei Tage in Anspruch nehmen würde.\nDie Gruppe sah das Schiff draußen beim Zwerg, bestieg es, setzte das Segel und verteilte Aufgaben für Steuer und Navigation. Dîn-io übernahm zeitweise den Antrieb mit Windmagie. Die Gruppe befestigte das Schiff an einem größeren Stein für eine Rast, zog das Segel ein, nahm Flopsy an Bord und setzte die Fahrt mit Nachtwachen und gelegentlichen Pausen fort.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-05-21T13:29:19.499000",
+            "updated_at": null,
+            "id": "i8dldu6bzmc4e9tel2ikmndt",
+            "name": "Große Kugel",
+            "aliases": [
+                "Kugel"
+            ],
+            "type": null,
+            "description": "Die Große Kugel, auch bekannt als Navigationsorb, ist eine Metallkugel mit einem Durchmesser von 7 Fuß. Sie befand sich in einem verschlossenen Nebenraum, der von einem Gefängnisaufseher bewacht wurde.\nDie Gruppe wurde in den Raum geführt und versuchte, die Kugel durch den Türrahmen zu schieben. Surina rollte die Kugel zur Tür, wo sie am Rahmen hängen blieb. Beim Blick nach oben entdeckte die Gruppe eine quadratische Öffnung in der Decke, die groß genug für die Kugel war. Dîn-io konnte die Kugel zunächst nicht mit Magie in seinen Ring verschwinden lassen. Nachdem der Aufseher die magische Unterdrückung abschaltete, nahm Dîn-io die Kugel mit seiner Magie in seinen Ring und machte sie transportabel.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
             "created_at": "2026-05-18T16:51:47.081000",
             "updated_at": null,
             "id": "gvuxmhb5m9fhb8qtnihm5isv",
@@ -268,37 +299,11 @@
             "tcg_image": null,
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "merge": false
-        },
-        {
-            "created_at": "2026-04-15T19:43:10.450000",
-            "updated_at": null,
-            "id": "s79gjb9s1obecasf1iexnbgn",
-            "name": "die Erziehung adliger Kinder mit möglichst wenig Schlägen",
-            "aliases": [],
-            "type": null,
-            "description": "Die Erziehung adliger Kinder mit möglichst wenig Schlägen ist ein Buch, das sich mit der Aufzucht von adligen Nachkommen beschäftigt. Es behandelt Methoden und Ansätze zur Erziehung, die darauf abzielen, körperliche Bestrafungen zu minimieren. Das Buch ist Teil einer Reihe, die sich mit Themen wie Geburt und patriarchalischer Haushaltsführung für Söhne befasst. Es wird als eines der unbeliebteren Werke in der Bibliothek beschrieben und ist das einzige seiner Art.\nIn der Bibliothek wurde das Buch als gestohlen gemeldet. Surina untersuchte die Lücke im Regal, wo das Buch zuvor stand, und stellte fest, dass es eine kleine Lücke von etwa sechs Zentimetern gab. Gwendolyn und andere Mitglieder der Gruppe diskutierten die Bedeutung des Buches und vermuteten, dass es möglicherweise mit den verschwundenen Töchtern in Verbindung stehen könnte.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
-        },
-        {
-            "created_at": "2026-04-15T19:43:10.431000",
-            "updated_at": null,
-            "id": "clgrhdkhk4agwjhv8fzorhxi",
-            "name": "Die 13 Leiden einer Frau unter der Geburt",
-            "aliases": [],
-            "type": null,
-            "description": "Buch im Regal der Bibliothek, das direkt an die Lücke angrenzte, an der das gestohlene Buch fehlte (von Surina notiert).",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
         }
     ],
     "from": 1,
     "last_page": 5,
     "per_page": 20,
     "to": 20,
-    "total": 84
+    "total": 86
 }

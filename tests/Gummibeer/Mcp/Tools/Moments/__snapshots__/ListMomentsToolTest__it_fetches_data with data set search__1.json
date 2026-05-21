@@ -2,6 +2,21 @@
     "current_page": 1,
     "data": [
         {
+            "created_at": "2026-05-21T13:32:43.031000",
+            "updated_at": null,
+            "id": "djidsx0998o3zctj8v8sfgn4",
+            "label": "Der Zwerg und das Schiff auf Kufen",
+            "content": "Die Gruppe trifft auf einen Zwerg, der ein Schiff Mit Kufen präsentiert, das über den Schnee gezogen werden kann. Tim, in der Rolle von Dîn-io Tempest, fragt den Zwerg, ob er jemanden empfehlen kann, der sich um das Schiff kümmern könnte, während er sich über die Stabilität des Schiffs erkundigt. Der Zwerg erklärt, dass das Schiff für die Reise zur nächsten Stadt geeignet ist und dass sie es bis zur nächsten Stadt nutzen sollten. Surina Nemmonis zieht Gwendolyn Silverflame an sich und äußert ihre Unsicherheit über die Richtung, während die Gruppe sich auf den Weg macht. Naevys Nerizana fragt den Zwerg, ob das Schiff nun fertig sei, und erhält die Bestätigung, dass es bereit ist.",
+            "image": null,
+            "index": 565,
+            "categories": [
+                "Exploration",
+                "Negotiation"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpffnto0000004l5ahvyz1s7"
+        },
+        {
             "created_at": "2026-05-13T20:21:42.434000",
             "updated_at": null,
             "id": "jt5iuj21tdkeqnyx14dehnq0",
@@ -52,6 +67,6 @@
     "from": 1,
     "last_page": 1,
     "per_page": 20,
-    "to": 3,
-    "total": 3
+    "to": 4,
+    "total": 4
 }

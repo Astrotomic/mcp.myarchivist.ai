@@ -2,6 +2,64 @@
     "current_page": 1,
     "data": [
         {
+            "created_at": "2026-05-21T13:29:19.281000",
+            "updated_at": null,
+            "id": "bv38x9x7n4dj6v9uyd3eivqt",
+            "name": "Teilweise Zugefrorener Flusslauf",
+            "aliases": [],
+            "type": null,
+            "description": "Der teilweise zugefrorene Flusslauf weist keine durchgehende Eisschicht auf. Große Eisschollen liegen auf dem Wasser, während dazwischen fließendes Wasser sichtbar ist. Das umliegende Gelände ist hügelig und verschneit, mit reflektierendem Schnee- und Eisgelände.\nDie Gruppe fuhr mit einem Schiff auf Kufen den Fluss entlang und legte am Abend an einem größeren Stein an. Nachts nutzte die Gruppe Licht zur Weiterfahrt. Später erschienen leuchtend blaue Augen im Schnee; ein Yeti blockierte die Route, wich jedoch auf eine andere Eisinsel aus, sodass die Gruppe passieren konnte.\nDie Gruppe traf auf drei Mammuts an einer Schneelücke, wo sich ein eingeschneites Mammut in einer Grube befand. In der Nähe wurde eine Wolfsmutter mit ihren Jungen gesehen. Vier bewaffnete Jäger erschienen bei der Grube; die Gruppe warnte, zog sich jedoch zurück und setzte die Fahrt fort.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-05-21T13:29:19.174000",
+            "updated_at": null,
+            "id": "kz8plngsrbvwosyx48onz2u6",
+            "name": "Lonelywood",
+            "aliases": [],
+            "type": null,
+            "description": "Lonelywood ist eine Stadt, die mit Holzfällern und Holzarbeitern in Verbindung gebracht wird. Sie ist auch der Herkunftsort von Jägern, die am Mammut-Fundplatz tätig sind.\nDie Jäger, unter dem Anführer Päckli Lomba, kümmern sich um das Mammut und übernehmen dessen Verarbeitung und Transport nach Lonelywood.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-05-21T13:29:19.069000",
+            "updated_at": null,
+            "id": "yao5ziciwkjaexipj0r3ecf3",
+            "name": "Kelvin's Cairn",
+            "aliases": [],
+            "type": null,
+            "description": "Calvin'S Cain ist ein erhöhtes Gelände, das als Hügel bekannt ist. Dîn-io bezeichnete Calvin'S Cain als spezifischen Umwegpunkt und fragte, ob die Gruppe dort landen könnte. Naevys schätzte die Entfernung auf etwa 8 Meilen vom aktuellen Standort und rechnete, dass der Umweg die Strecke auf knapp 20 Meilen ausdehnen würde. Die Gruppe prüfte daraufhin ihre Vorräte und stellte fest, dass genug Proviant für zwei zusätzliche Tage vorhanden war. Sie entschieden sich, den Umweg nach Calvin'S Cain anzutreten.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-05-21T13:29:18.749000",
+            "updated_at": null,
+            "id": "y4ibdbycnt8e3jc1j6vjqb2b",
+            "name": "Revel's End",
+            "aliases": [
+                "Revel's End"
+            ],
+            "type": null,
+            "description": "Revel's End ist ein Raum im Gefängnis, der mit zwei Fässern an der Wand ausgestattet ist, die Wasser enthalten. Der Raum enthält eine rund sieben Fuß durchmessende Metallkugel und hat eine quadratische Öffnung in der Decke von etwa 10×10 Fuß. Das Gefängnis selbst ist eine Anlage mit Zellen, einer schmalen Wendeltreppe, verschlossenen Türen und einem oberen Raum, von dem die Zellen gesteuert werden. In einem Nebenraum steht eine große Metallkugel, und es gibt eine quadratische Öffnung in der Decke über diesem Raum. \n\nIm Gefängnis funktionierte Magie nicht, und die Tür der Zelle ließ sich trotz drehendem Schlüssel nicht öffnen, da sie durch eine magische Verriegelung gesichert war. Die Gruppe ging die Wendeltreppe hinauf, wo ein Gefängnisaufseher erschien und sie in den Kugelraum führte. Zunächst verweigerte der Aufseher die Nutzung von Magie. In der Revel's End mit den Wasserfässern wurde eine Wette gehalten, während der Aufseher Dîn-io dessen Kopf unter Wasser hielt, während andere zusahen. Surina griff ein und löste die Hände des Aufsehers von Dîn-io. \n\nKurz darauf öffnete der Aufseher einen bislang verschlossenen Nebenraum und stellte die magische Unterdrückung im Gefängnis ab. Danach wurde die Kugel per Ringmagie aufgenommen, und die Gruppe nahm ihre Ausrüstung und verließ das Gefängnis.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
             "created_at": "2026-05-18T16:51:46.584000",
             "updated_at": null,
             "id": "mzmcgsnfs8kwhra2q97lohyh",
@@ -237,73 +295,11 @@
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "merge": false,
             "parent_id": null
-        },
-        {
-            "created_at": "2026-03-21T14:04:03.319000",
-            "updated_at": null,
-            "id": "jm7x34fos651lpvzuv8h2klo",
-            "name": "Minenarbeiterpfad",
-            "aliases": [],
-            "type": null,
-            "description": "Der Minenarbeiterpfad ist ein Weg, der durch das Gebirge führt und als Hauptroute zur Gnomen-Siedlung Gnomengard dient. Der Pfad verläuft entlang eines größeren Flusses, den die Reisenden überqueren müssen. Die Landschaft ist geprägt von steilen Hängen und gelegentlichen Sichtungen von Wildtieren, wie Schlangen und Bären.\nReisende, die den Minenarbeiterpfad nutzen, können eine Karte von einem Wirt im Gasthaus erhalten, die den Verlauf des Pfades beschreibt. Die Gruppe folgt dem Minenarbeiterpfad, überquert den Fluss und folgt der Biegung des Flusses bis Gnomengard. Auf dem Weg begegnen sie verschiedenen Tieren und müssen Herausforderungen wie einem Hinterhalt von Goblinoiden bewältigen. Der Pfad führt schließlich zu einem breiten Fluss mit einer Brücke, die überquert werden muss, um die Reise fortzusetzen.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false,
-            "parent_id": null
-        },
-        {
-            "created_at": "2026-03-20T21:54:40.256000",
-            "updated_at": null,
-            "id": "zalvmkx5wxdtctifitl5af1y",
-            "name": "Triboar > Oberes Viertel",
-            "aliases": [
-                "oberen Viertel"
-            ],
-            "type": null,
-            "description": "Das Oberes Viertel ist ein hoch gelegener Teil der Stadt, der von hochgeborenen Elfen bewohnt wird. Die Bewohner sind bekannt dafür, sich von den gewöhnlichen Bürgern der Stadt abzuschotten und halten sich zumeist in ihren eigenen Bereichen auf.\n\nEs gibt Berichte über einen Überlebenden, der sich in diesem Viertel aufhält, nachdem er aus den Wäldern zurückgekehrt ist, wo viele Stadtbewohner und Dorfbewohner verschwunden sind. In der Umgebung wurden zahlreiche Vermisstenfälle gemeldet, und die meisten der zurückgekehrten Personen verharren in einem tiefen Schlaf. Die Stadtwache warnt, dass die Bewohner des Oberen Viertels nicht viel mit den anderen Bürgern zu tun haben und dass sie verschlossen sind.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false,
-            "parent_id": null
-        },
-        {
-            "created_at": "2026-03-20T21:54:40.192000",
-            "updated_at": null,
-            "id": "c5kh254lywpgxkhk0rq5rhs1",
-            "name": "Nordöstlicher Wald",
-            "aliases": [
-                "nordöstlichen Wald"
-            ],
-            "type": null,
-            "description": "Der Nordöstliche Wald ist ein größerer Wald im Nordosten der Stadt, bekannt für seine reiche Tierpopulation. Die Umgebung bietet eine Vielzahl von Wildtieren, darunter Hirsche und Wölfe. Der Wald ist von frischen Spuren durchzogen, die auf die Anwesenheit von Wildtieren hinweisen.\nIm Wald sind Hufspuren von Rotwild zu finden, und es gibt Lichtungen, auf denen Hirsche und Hirschkühe sichtbar sind. Der Wald ist ein beliebter Ort für die Jagd, und es werden auch Wölfe und Füchse angetroffen. Die erlegten Tiere können am Triboar  > Marktplatz in der Stadt verkauft werden.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false,
-            "parent_id": null
-        },
-        {
-            "created_at": "2026-03-20T16:44:59.232000",
-            "updated_at": null,
-            "id": "zc1e8gfk0r2orfwxvzg1hmgg",
-            "name": "Triboar > Bibliothek",
-            "aliases": [
-                "Bibliothek"
-            ],
-            "type": null,
-            "description": "Die **Triboar > Bibliothek** in Triboar ist eine zentrale Wissensstätte, in der jegliches Wissen gesammelt wird. Sie dient als Anlaufstelle für umfassendere Recherchen, insbesondere zu spezifischen Themen wie unsichtbaren, einschläfernden Geisterwesen. Die Triboar > Bibliothek befindet sich im Nordosten der Stadt, als das dritte Haus auf der linken Seite nach der letzten Abbiegung zum Osttor. Sie hat einen größeren Turm und ist mit Regalen voller Bücher und Schriftrollen bis unter die Decke gefüllt. Ein Kamin sorgt für Wärme, ohne dass Flammen die Bücher gefährden.\nDer Bibliothekar, ein älterer Mann in einer hellen, mittelgrauen Robe mit Kapuze und grauen Haaren, verweist auf die Triboar > Bibliothek für detailliertere Informationen. Dîn-io Tempest wird in der Triboar > Bibliothek von Surina Nemmonis und Gwendolyn Silverflame getroffen. Sie zeigen ihm einen Steckbrief einer „Hexe“ und besprechen das Walderlebnis sowie die schlafenden Begleiter. Der Bibliothekar erklärt, dass die Hexe nur aus Berichten weniger Überlebender skizziert wurde, da die meisten Betroffenen gestorben oder nie wieder erwacht sind. Dîn-io Tempest vergleicht die Augen auf dem Steckbrief mit denen der lichtgestaltigen Verfolger aus dem Wald und erkennt Ähnlichkeiten. Auf Anraten des Bibliothekars gehen die Charaktere zur Stadtwache, um weitere Informationen zu erfragen.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": true,
-            "parent_id": null
         }
     ],
     "from": 1,
     "last_page": 6,
     "per_page": 20,
     "to": 20,
-    "total": 105
+    "total": 109
 }

@@ -2,6 +2,64 @@
     "current_page": 1,
     "data": [
         {
+            "created_at": "2026-05-21T13:29:19.281000",
+            "updated_at": null,
+            "id": "bv38x9x7n4dj6v9uyd3eivqt",
+            "name": "Teilweise Zugefrorener Flusslauf",
+            "aliases": [],
+            "type": null,
+            "description": "Der teilweise zugefrorene Flusslauf weist keine durchgehende Eisschicht auf. Große Eisschollen liegen auf dem Wasser, während dazwischen fließendes Wasser sichtbar ist. Das umliegende Gelände ist hügelig und verschneit, mit reflektierendem Schnee- und Eisgelände.\nDie Gruppe fuhr mit einem Schiff auf Kufen den Fluss entlang und legte am Abend an einem größeren Stein an. Nachts nutzte die Gruppe Licht zur Weiterfahrt. Später erschienen leuchtend blaue Augen im Schnee; ein Yeti blockierte die Route, wich jedoch auf eine andere Eisinsel aus, sodass die Gruppe passieren konnte.\nDie Gruppe traf auf drei Mammuts an einer Schneelücke, wo sich ein eingeschneites Mammut in einer Grube befand. In der Nähe wurde eine Wolfsmutter mit ihren Jungen gesehen. Vier bewaffnete Jäger erschienen bei der Grube; die Gruppe warnte, zog sich jedoch zurück und setzte die Fahrt fort.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-05-21T13:29:19.174000",
+            "updated_at": null,
+            "id": "kz8plngsrbvwosyx48onz2u6",
+            "name": "Lonelywood",
+            "aliases": [],
+            "type": null,
+            "description": "Lonelywood ist eine Stadt, die mit Holzfällern und Holzarbeitern in Verbindung gebracht wird. Sie ist auch der Herkunftsort von Jägern, die am Mammut-Fundplatz tätig sind.\nDie Jäger, unter dem Anführer Päckli Lomba, kümmern sich um das Mammut und übernehmen dessen Verarbeitung und Transport nach Lonelywood.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-05-21T13:29:19.069000",
+            "updated_at": null,
+            "id": "yao5ziciwkjaexipj0r3ecf3",
+            "name": "Kelvin's Cairn",
+            "aliases": [],
+            "type": null,
+            "description": "Calvin'S Cain ist ein erhöhtes Gelände, das als Hügel bekannt ist. Dîn-io bezeichnete Calvin'S Cain als spezifischen Umwegpunkt und fragte, ob die Gruppe dort landen könnte. Naevys schätzte die Entfernung auf etwa 8 Meilen vom aktuellen Standort und rechnete, dass der Umweg die Strecke auf knapp 20 Meilen ausdehnen würde. Die Gruppe prüfte daraufhin ihre Vorräte und stellte fest, dass genug Proviant für zwei zusätzliche Tage vorhanden war. Sie entschieden sich, den Umweg nach Calvin'S Cain anzutreten.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-05-21T13:29:18.749000",
+            "updated_at": null,
+            "id": "y4ibdbycnt8e3jc1j6vjqb2b",
+            "name": "Revel's End",
+            "aliases": [
+                "Revel's End"
+            ],
+            "type": null,
+            "description": "Revel's End ist ein Raum im Gefängnis, der mit zwei Fässern an der Wand ausgestattet ist, die Wasser enthalten. Der Raum enthält eine rund sieben Fuß durchmessende Metallkugel und hat eine quadratische Öffnung in der Decke von etwa 10×10 Fuß. Das Gefängnis selbst ist eine Anlage mit Zellen, einer schmalen Wendeltreppe, verschlossenen Türen und einem oberen Raum, von dem die Zellen gesteuert werden. In einem Nebenraum steht eine große Metallkugel, und es gibt eine quadratische Öffnung in der Decke über diesem Raum. \n\nIm Gefängnis funktionierte Magie nicht, und die Tür der Zelle ließ sich trotz drehendem Schlüssel nicht öffnen, da sie durch eine magische Verriegelung gesichert war. Die Gruppe ging die Wendeltreppe hinauf, wo ein Gefängnisaufseher erschien und sie in den Kugelraum führte. Zunächst verweigerte der Aufseher die Nutzung von Magie. In der Revel's End mit den Wasserfässern wurde eine Wette gehalten, während der Aufseher Dîn-io dessen Kopf unter Wasser hielt, während andere zusahen. Surina griff ein und löste die Hände des Aufsehers von Dîn-io. \n\nKurz darauf öffnete der Aufseher einen bislang verschlossenen Nebenraum und stellte die magische Unterdrückung im Gefängnis ab. Danach wurde die Kugel per Ringmagie aufgenommen, und die Gruppe nahm ihre Ausrüstung und verließ das Gefängnis.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
             "created_at": "2026-05-18T16:51:46.584000",
             "updated_at": null,
             "id": "mzmcgsnfs8kwhra2q97lohyh",
@@ -1436,69 +1494,11 @@
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "merge": true,
             "parent_id": "cmjbfbw2v000004ju10c5y44e"
-        },
-        {
-            "created_at": "2025-12-19T14:58:54.055000",
-            "updated_at": null,
-            "id": "cmjczvp47000004jsc2etq363",
-            "name": "The Sandpiper",
-            "aliases": [
-                "Sandpiper"
-            ],
-            "type": null,
-            "description": "Die The Sandpiper ist ein großes Segelschiff, das von Fischmenschen-Soldaten bewohnt wird und im Hafen abfahrbereit ist. Das Schiff, ausgestattet mit einem Mast und drei Segeln, weht ohne Flagge in die offene See. Während einer kritischen Situation auf dem Schiff haben sich einige Abenteurer, darunter Rita, Amari, Morvain, und Korvathun, auf das Oberdeck zurückgezogen, während die Fischmenschen-Soldaten im Unterdeck festsitzen. Die Gruppe diskutiert verschiedene Strategien zur Verteidigung gegen die Fischmenschen, einschließlich der Möglichkeit, das Schiff in Brand zu setzen. Amari blockiert den Zugang zum Unterdeck, indem er mehrere Fässer die Treppe hinunterwirft, während Korvathun eine defensive Position am Treppenabgang einnimmt. Myna, eine flugfähige Fee, schlägt vor, das Schiff loszumachen und gegen Felsen treiben zu lassen, was von Amari als wenig hilfreich erachtet wird. Rita und die anderen erörtern die Vor- und Nachteile eines Brandanschlags auf das Schiff, wobei Myna schließlich einen Feuerspruch auf ein Beiboot wirkt. Die Gruppe beschließt jedoch, das Schiff vorerst nicht zu verbrennen und stattdessen zur Burg des örtlichen Herren zu gehen. Dort erfahren sie von einem Fischmenschen namens Frith Oceanstrider, auch bekannt als „Prinz der See“, von dem es Gerüchte über einen mächtigen Rubycon gibt, der als Quelle der Macht der Fischmenschen gilt. Die Abenteurer vermuten, dass Frith Oceanstrider möglicherweise Einfluss auf Morvain hat, der in Kontakt mit ihm stand. Das Fischerschiff sowie die Bedrohung durch die Fischmenschen bleiben zentrale Themen, während die Gruppe ihre nächsten Schritte plant.\nKürzlich entdeckte Myna die The Sandpiper im Hafen, wo mindestens acht Personen an Bord sind, darunter zwei, die zuvor an Eriks Seite auf dem Marktplatz standen. Als sie über die Burgmauern zum Rogarsheim fliegt und in die Nähe des Schiffes gelangt, wird sie entdeckt und von sechs kleinen Feuerbällen getroffen, was dazu führt, dass sie bewusstlos ins Wasser fällt. Gleichzeitig sieht die Gruppe, die Raed Zaki transportiert, die The Sandpiper, die den Hafen verlässt, und bemerkt die großflächigen Brände im Rogarsheim.\nDie The Sandpiper ist auch ein Schiff, das von einem unheilvollen Geheimnis umgeben ist. Ein seltsames grünes Licht und ein magischer Nebel steigen aus einem verschlossenen Bereich unter einem Gitter auf. Der Nebel hat die Fähigkeit, Wesen zu verwandeln, wie im Fall von Korvathun, der in eine krabbenartige Form, bekannt als „Krabbathun“, verwandelt wurde. Die Gruppe, die die The Sandpiper erkundet, trifft auf fischgesichtige Wesen, die Widerstand leisten. Nach dem Sieg über diese Gegner dringt die Gruppe in den Raum vor, aus dem das grüne Licht strahlt. Nachdem das Gitter aufgebrochen wurde, erhebt sich der grüne Nebel, und Korvathun atmet ihn ein, was zu seiner Verwandlung führt. Der Nebel wird als magisch identifiziert, da er nicht auf Feuer reagiert und das Schiff nicht in Brand setzt.\nIm nebelgefüllten Unterdeck begegnet die Gruppe Frith, der erklärt, dass der grüne Nebel sein Gebiet und Eigentum schützt. Frith fordert die Gruppe auf, einen Würfel zu finden, den er im Besitz eines Dorfbewohners vermutet. Die Gruppe kehrt später zum Gasthaus Goblin Hob zurück, wo sie Kaz, den Goblin-Koch, überwältigen und Informationen über den gesuchten Würfel erhalten. Der Würfel wird als eine Art Kubriks Würfel der Clockwork Plain identifiziert. Als Morvain den Würfel berührt, absorbiert er ihn, was zu einer Veränderung seiner linken Hand führt, die teils aus Obsidian und teils aus Mithrilwürfeln besteht, durchzogen von rubinartigen fadenähnlichen Adern.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": true,
-            "parent_id": null
-        },
-        {
-            "created_at": "2025-12-18T16:37:55.560000",
-            "updated_at": null,
-            "id": "fqmasx72j1eokc9491e4vvbo",
-            "name": "Rogarsheim  > Marktplatz",
-            "aliases": [],
-            "type": null,
-            "description": "Der Marktplatz ist eine offene Fläche in der Nähe des Hafens und spielt eine zentrale Rolle im Dorfleben. Die Atmosphäre erinnert an einen Weihnachtsmarkt und einen Wochenmarkt, besonders am frühen Abend, wenn die Lichter der Öllampen und die Geräusche von Feierlichkeiten die Umgebung erfüllen. Stände bieten frische Fische, Wurzelgemüse, Pilze und Brot an. Die Taverne im Zentrum des Platzes dient als einladender Ort für Dorfbewohner und Besucher. Die Menschen versammeln sich hier, um zu handeln, zu feiern und Geschichten auszutauschen.\n\nDie Marktbesucher stehen in kleinen Gruppen und genießen Bier. Der Marktplatz fungiert als Treffpunkt für den Austausch von Informationen und die Anbahnung von Verhandlungen, während er die Lebensfreude und die Sorgen der Dorfbewohner widerspiegelt. Kürzlich war der Marktplatz jedoch von einer großen Menschenmenge belebt, die verzweifelt versuchte, mehrere Brände in der Umgebung zu löschen. Dorfbewohner transportierten Eimer mit Wasser aus dem Meer und Brunnen, um die Flammen zu bekämpfen. Rita organisierte etwa 100 Dorfbewohner in Eimerketten, um die Löscharbeiten zu koordinieren. Korvathun mobilisierte Anwohner und motivierte sie zur Mitarbeit, während Morvain die Löschaktionen überwachte. Die Gruppe setzte verschiedene Strategien ein, um die Brände einzudämmen, einschließlich des Einsatzes von Zaubern, um brennende Bäume zu fällen und Funkenflug zu verhindern. Nach zwei Stunden intensiver Arbeit wurde das Feuer schließlich unter Kontrolle gebracht.\n\nIn jüngster Zeit wurde der Marktplatz auch als Ort beobachtet, an dem Myna zwei von Eriks Leuten gesehen hatte, was auf mögliche Verwicklungen oder Spannungen im Dorf hindeutet. Der Marktplatz war jedoch auch ruhig, als Amari und Morvain dort auf wenige Menschen trafen, die mehr an Angeln, Netzen oder Essen interessiert waren als an den angebotenen Waffen und Altmetall. Morvain entnahm aus den Kassen insgesamt 67 Kupferstücke, jedoch blieb der Verkauf der Waffen erfolglos. Auf Nachfrage erfuhren sie, dass der Schmied in seinem Haus wohnte und seit Jahren niemand im Dorf Waffen benötigt hatte. An diesem Tag standen keine Menschen an den Marktständen, und das geschäftige Treiben war einem stillen, fast verlassenen Platz gewichen, während Amari und Morvain versuchten, mit den Anwesenden ins Gespräch zu kommen, jedoch wenig Interesse an ihren Waren wecken konnten.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": true,
-            "parent_id": "cmjbfbw2v000004ju10c5y44e"
-        },
-        {
-            "created_at": "2025-12-18T16:37:55.518000",
-            "updated_at": null,
-            "id": "a9remrus01r3tqzguif129xl",
-            "name": "Rogarsheim > Hafen",
-            "aliases": [],
-            "type": null,
-            "description": "Der Hafen ist ein zentraler Ort, geprägt durch solide Bauweise, insbesondere die Händlergilde, die eine umfangreiche Auswahl an Allgemeingütern und Schiffsausrüstung bietet. Die Gebäude bestehen aus robustem Holz und Stein, was sie von einfacheren Bauwerken in der Umgebung abhebt. Die maritime Atmosphäre wird durch die Nähe zum Wasser und den Geruch von frischem Fisch aus den Fischständen auf dem Marktplatz unterstützt. Der Hafen dient sowohl als Handelsplatz als auch als Treffpunkt für die Dorfbewohner.\n\nDer Rogarsheimälteste Aeric hat einen gewohnten Platz am Hafen, der jedoch zuweilen leer sein kann. Die Händlergilde beherbergt einen Mann mittleren Alters, der hinter einem massiven Schreibtisch arbeitet. In der Gilde können Wurfsterne und robuste Lederhandschuhe erworben werden, und es gibt interessante Objekte wie einen Heiltrank und ein schwach magisch schimmerndes Fernrohr. Der Marktplatz ist ein weiterer wichtiger Ort, wo die Dorfbewohner zusammentreffen. Aeric informiert über die Bedrohung durch den Fischmenschen-Anführer Frith und die damit verbundenen Opferhandlungen. Zudem erwähnt er einen geheimen Tunnel, der nur den ältesten Dorfbewohnern bekannt ist, und bietet an, ihn zu zeigen.\n\nIn jüngster Zeit hat der Hafen jedoch mit einer Krise zu kämpfen. Ein großes Segelschiff namens The The Sandpiper liegt dort vor Anker, ausgestattet mit einem Mast, drei Segeln und einer cremeweißen Baumwollbespannung, führt jedoch keine Flagge. Aus Richtung des Dorfes sind mehrere tiefschwarze Rauchsäulen sichtbar, was auf ein unkoordiniertes Feuer hindeutet. Die Dorfbewohner versuchen, die Brände zu löschen, indem sie Wasser aus dem Meer in Eimern transportieren. Myna, eine aufmerksame Beobachterin, fliegt über die Burgmauern und sieht die Löscharbeiten der Dorfbewohner, während die The The Sandpiper abfahrbereit gemacht wird. Sie erkennt zwei Personen an Bord, die zuvor mit Aeric, einem Messerschleifer, gesehen wurden.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": true,
-            "parent_id": "cmjbfbw2v000004ju10c5y44e"
-        },
-        {
-            "created_at": "2025-12-18T12:36:13.080000",
-            "updated_at": null,
-            "id": "cmjbfccrc000204jul6jf6b16",
-            "name": "Norland",
-            "aliases": [],
-            "type": null,
-            "description": null,
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false,
-            "parent_id": "k2xoghkm9qt2dvhbjxyq0xvh"
         }
     ],
     "from": 1,
     "last_page": 2,
     "per_page": 100,
     "to": 100,
-    "total": 105
+    "total": 109
 }

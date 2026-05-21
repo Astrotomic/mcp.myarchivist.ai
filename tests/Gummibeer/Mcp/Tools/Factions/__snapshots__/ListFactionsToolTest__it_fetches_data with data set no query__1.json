@@ -2,6 +2,34 @@
     "current_page": 1,
     "data": [
         {
+            "created_at": "2026-05-21T13:29:18.528000",
+            "updated_at": null,
+            "id": "bjl8cam5c5l5n66tuae69v3z",
+            "name": "Jäger",
+            "aliases": [
+                "Die Jäger"
+            ],
+            "type": null,
+            "description": "Die Jäger sind eine Gruppe bewaffneter Menschen in Jägerkleidung aus Lonelywood. Ihr Anführer trägt den Namen Päckli Lomba. Vier Mitglieder der Gruppe erschienen zunächst beim Schiff und an der Falle und erklärten, das gefangene Mammut sei ihre Beute, die sie verwerten wollten (Fell, Fleisch und Stoßzähne). Sie bestritten, dass der Fluch ansteckend oder eine Krankheit sei. Die Jäger nahmen das Mammut an sich, entzündeten ein Feuer in der Grube und verarbeiteten das Tier, während die übrige Gruppe sich entfernte.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-05-21T13:29:18.292000",
+            "updated_at": null,
+            "id": "wdws726iiar58ui81ye7r9hq",
+            "name": "Mammuts",
+            "aliases": [],
+            "type": "NPC",
+            "description": "Die Mammuts bestehen aus drei Tieren, darunter eine Mutter mit mehreren Jungtieren. Ein Gefährte der Mammuts war in eine Grube gefallen und dort stark eingeschneit sowie mit Eiszapfen bedeckt.\nDie Mammuts standen seit dem Vortag um die Grube herum und stimmten dem Vorschlag zu, das gefangene Mammut mit zusammengebundenen Seilen herauszuziehen. Die übrigen Mammuts zeigten Unruhe und berichteten, dass das gefangene Tier zuvor merkwürdig gewesen sei. Als sich Jäger näherten, registrierten sie Surinas Aufforderung, zu verschwinden, und zogen sich daraufhin zurück. Sie ließen die Jäger mit dem verfluchten Mammut allein und beobachteten später, wie in der Grube Feuer aufflackerte.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
             "created_at": "2026-05-19T20:58:43.482000",
             "updated_at": null,
             "id": "cmpd482bc000r04ld671uw9qf",
@@ -256,39 +284,11 @@
             "tcg_image": null,
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "merge": true
-        },
-        {
-            "created_at": "2026-03-08T21:53:43.026000",
-            "updated_at": null,
-            "id": "ybluxiqsvzgjndk94i16uw2b",
-            "name": "Hammers of Moradin",
-            "aliases": [
-                "Hammers"
-            ],
-            "type": null,
-            "description": "Die Hammers of Moradin sind eine Gruppierung von Paladinen und Klerikern, die in einer Festung operieren. Kürzlich wurden sie von Untoten und Schatten angegriffen, was zu schweren Verlusten führte, darunter 15 Tote und zahlreiche Gefangene, die für Opferungen vorgesehen waren. Der Angriff deutet auf eine organisierte feindliche Streitmacht hin, die von einem Magier angeführt wurde.\nNach dem Angriff wurden in der Festung Maßnahmen zur Verteidigung und Versorgung ergriffen. Eine Weihwasser-Löschanlage-Löschanlage wurde in Auftrag gegeben, um gezielt gegen die Bedrohung durch Untote vorzugehen. Zudem wurden Gespräche über die magische Verteidigung der Festung geführt. Alagos, ein Mitglied der Hammers of Moradin, wurde auf Necromantie angesprochen, was in Anbetracht der Bedrohung durch Untote von Bedeutung ist. Khorum wurde aus der Gemeinschaft verbannt und ins Exil geschickt. Die Hammers of Moradin zeigen damit eine klare Reaktion auf interne und externe Bedrohungen.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
-        },
-        {
-            "created_at": "2026-03-07T16:50:26.714000",
-            "updated_at": null,
-            "id": "sx1n46wkk5toh7cxkbil5gmf",
-            "name": "Gefangene",
-            "aliases": [],
-            "type": null,
-            "description": "Die Gefangenen sind eine Gruppe, die in einem Lager von Skelettmenschen gefangen gehalten wird. Während eines Übergriffs auf das Lager versuchen sie zu fliehen, als sich die Gelegenheit bietet. Im Chaos des Kampfes gelingt es einigen von ihnen, zu entkommen, jedoch wird einer von ihnen von einer Gruppe Skelette eingeholt und wieder gefangen genommen. Ihre Fluchtversuche sind durch die Übermacht der Orcs und Skelette stark gefährdet.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
         }
     ],
     "from": 1,
     "last_page": 3,
     "per_page": 20,
     "to": 20,
-    "total": 42
+    "total": 44
 }

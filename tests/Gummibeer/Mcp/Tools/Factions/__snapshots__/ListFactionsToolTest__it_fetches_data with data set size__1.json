@@ -2,6 +2,34 @@
     "current_page": 1,
     "data": [
         {
+            "created_at": "2026-05-21T13:29:18.528000",
+            "updated_at": null,
+            "id": "bjl8cam5c5l5n66tuae69v3z",
+            "name": "Jäger",
+            "aliases": [
+                "Die Jäger"
+            ],
+            "type": null,
+            "description": "Die Jäger sind eine Gruppe bewaffneter Menschen in Jägerkleidung aus Lonelywood. Ihr Anführer trägt den Namen Päckli Lomba. Vier Mitglieder der Gruppe erschienen zunächst beim Schiff und an der Falle und erklärten, das gefangene Mammut sei ihre Beute, die sie verwerten wollten (Fell, Fleisch und Stoßzähne). Sie bestritten, dass der Fluch ansteckend oder eine Krankheit sei. Die Jäger nahmen das Mammut an sich, entzündeten ein Feuer in der Grube und verarbeiteten das Tier, während die übrige Gruppe sich entfernte.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-05-21T13:29:18.292000",
+            "updated_at": null,
+            "id": "wdws726iiar58ui81ye7r9hq",
+            "name": "Mammuts",
+            "aliases": [],
+            "type": "NPC",
+            "description": "Die Mammuts bestehen aus drei Tieren, darunter eine Mutter mit mehreren Jungtieren. Ein Gefährte der Mammuts war in eine Grube gefallen und dort stark eingeschneit sowie mit Eiszapfen bedeckt.\nDie Mammuts standen seit dem Vortag um die Grube herum und stimmten dem Vorschlag zu, das gefangene Mammut mit zusammengebundenen Seilen herauszuziehen. Die übrigen Mammuts zeigten Unruhe und berichteten, dass das gefangene Tier zuvor merkwürdig gewesen sei. Als sich Jäger näherten, registrierten sie Surinas Aufforderung, zu verschwinden, und zogen sich daraufhin zurück. Sie ließen die Jäger mit dem verfluchten Mammut allein und beobachteten später, wie in der Grube Feuer aufflackerte.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
             "created_at": "2026-05-19T20:58:43.482000",
             "updated_at": null,
             "id": "cmpd482bc000r04ld671uw9qf",
@@ -592,6 +620,6 @@
     "from": 1,
     "last_page": 1,
     "per_page": 100,
-    "to": 42,
-    "total": 42
+    "to": 44,
+    "total": 44
 }

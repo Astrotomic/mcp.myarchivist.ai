@@ -2,6 +2,32 @@
     "current_page": 2,
     "data": [
         {
+            "created_at": "2026-04-15T19:43:10.450000",
+            "updated_at": null,
+            "id": "s79gjb9s1obecasf1iexnbgn",
+            "name": "die Erziehung adliger Kinder mit möglichst wenig Schlägen",
+            "aliases": [],
+            "type": null,
+            "description": "Die Erziehung adliger Kinder mit möglichst wenig Schlägen ist ein Buch, das sich mit der Aufzucht von adligen Nachkommen beschäftigt. Es behandelt Methoden und Ansätze zur Erziehung, die darauf abzielen, körperliche Bestrafungen zu minimieren. Das Buch ist Teil einer Reihe, die sich mit Themen wie Geburt und patriarchalischer Haushaltsführung für Söhne befasst. Es wird als eines der unbeliebteren Werke in der Bibliothek beschrieben und ist das einzige seiner Art.\nIn der Bibliothek wurde das Buch als gestohlen gemeldet. Surina untersuchte die Lücke im Regal, wo das Buch zuvor stand, und stellte fest, dass es eine kleine Lücke von etwa sechs Zentimetern gab. Gwendolyn und andere Mitglieder der Gruppe diskutierten die Bedeutung des Buches und vermuteten, dass es möglicherweise mit den verschwundenen Töchtern in Verbindung stehen könnte.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-04-15T19:43:10.431000",
+            "updated_at": null,
+            "id": "clgrhdkhk4agwjhv8fzorhxi",
+            "name": "Die 13 Leiden einer Frau unter der Geburt",
+            "aliases": [],
+            "type": null,
+            "description": "Buch im Regal der Bibliothek, das direkt an die Lücke angrenzte, an der das gestohlene Buch fehlte (von Surina notiert).",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
             "created_at": "2026-04-15T19:43:10.414000",
             "updated_at": null,
             "id": "hng4mm33dhbaxvmt4igdoiq8",
@@ -268,37 +294,11 @@
             "tcg_image": null,
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "merge": false
-        },
-        {
-            "created_at": "2026-03-07T16:50:27.169000",
-            "updated_at": null,
-            "id": "n2e3ybl8svj5m47b933pq1oq",
-            "name": "Banner",
-            "aliases": [],
-            "type": null,
-            "description": "Das Banner ist ein wichtiges Symbol innerhalb der Festung Hammerhåeim. Khorum Ironfist hat das Banner abgerissen, was zu einer Diskussion über die angemessene Strafe führte. Die genaue Erscheinung oder spezifische Merkmale des Banners sind nicht beschrieben.\nDie Gruppe versammelte sich in der Empfangshalle von Hammerhåeim und stellte fest, dass der Kultist tot war. Flint Fireforge führte eine Befragung durch und erfuhr, dass Khorum Ironfist das Banner abgerissen hatte. Flint blieb unentschlossen bezüglich einer Strafe für diese Tat.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
-        },
-        {
-            "created_at": "2026-03-07T16:50:27.149000",
-            "updated_at": null,
-            "id": "g58bc244zhiu296pft5cijim",
-            "name": "Schwere Armbrust mit Stativ",
-            "aliases": [],
-            "type": null,
-            "description": "Die schwere Armbrust mit Stativ ist ein schweres Geschütz, das von der Gruppe für einen bevorstehenden Angriff auf ein Lager vorbereitet wurde. In der Nacht vor dem Angriff wurde sie zusammen mit Bänken und Tischen verladen. Die Gruppe plante, die Armbrust strategisch im Kampf einzusetzen.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
         }
     ],
     "from": 21,
     "last_page": 5,
     "per_page": 20,
     "to": 40,
-    "total": 84
+    "total": 86
 }

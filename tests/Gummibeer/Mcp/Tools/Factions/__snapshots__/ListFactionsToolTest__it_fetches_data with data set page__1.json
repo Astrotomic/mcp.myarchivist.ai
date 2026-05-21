@@ -2,6 +2,34 @@
     "current_page": 2,
     "data": [
         {
+            "created_at": "2026-03-08T21:53:43.026000",
+            "updated_at": null,
+            "id": "ybluxiqsvzgjndk94i16uw2b",
+            "name": "Hammers of Moradin",
+            "aliases": [
+                "Hammers"
+            ],
+            "type": null,
+            "description": "Die Hammers of Moradin sind eine Gruppierung von Paladinen und Klerikern, die in einer Festung operieren. Kürzlich wurden sie von Untoten und Schatten angegriffen, was zu schweren Verlusten führte, darunter 15 Tote und zahlreiche Gefangene, die für Opferungen vorgesehen waren. Der Angriff deutet auf eine organisierte feindliche Streitmacht hin, die von einem Magier angeführt wurde.\nNach dem Angriff wurden in der Festung Maßnahmen zur Verteidigung und Versorgung ergriffen. Eine Weihwasser-Löschanlage-Löschanlage wurde in Auftrag gegeben, um gezielt gegen die Bedrohung durch Untote vorzugehen. Zudem wurden Gespräche über die magische Verteidigung der Festung geführt. Alagos, ein Mitglied der Hammers of Moradin, wurde auf Necromantie angesprochen, was in Anbetracht der Bedrohung durch Untote von Bedeutung ist. Khorum wurde aus der Gemeinschaft verbannt und ins Exil geschickt. Die Hammers of Moradin zeigen damit eine klare Reaktion auf interne und externe Bedrohungen.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-03-07T16:50:26.714000",
+            "updated_at": null,
+            "id": "sx1n46wkk5toh7cxkbil5gmf",
+            "name": "Gefangene",
+            "aliases": [],
+            "type": null,
+            "description": "Die Gefangenen sind eine Gruppe, die in einem Lager von Skelettmenschen gefangen gehalten wird. Während eines Übergriffs auf das Lager versuchen sie zu fliehen, als sich die Gelegenheit bietet. Im Chaos des Kampfes gelingt es einigen von ihnen, zu entkommen, jedoch wird einer von ihnen von einer Gruppe Skelette eingeholt und wieder gefangen genommen. Ihre Fluchtversuche sind durch die Übermacht der Orcs und Skelette stark gefährdet.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
             "created_at": "2026-03-07T16:50:26.692000",
             "updated_at": null,
             "id": "gju8cf9wb3sm4fnkh9vzdcuu",
@@ -247,39 +275,11 @@
             "tcg_image": null,
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "merge": true
-        },
-        {
-            "created_at": "2026-01-07T20:20:43.962000",
-            "updated_at": null,
-            "id": "fcmqja1hr0qq5fe5qhrufw4n",
-            "name": "Aerics Gefolgsleute",
-            "aliases": [
-                "Aerics Gefolgsleute"
-            ],
-            "type": null,
-            "description": "Aerics Gefolgsleute sind eine geheimnisvolle Gruppe unter der Führung von Aeric, einem einflussreichen Messerschleifer, der als Drahtzieher bekannt ist. Diese Organisation agiert in einem Dorf, dessen Bevölkerung unter dem düsteren Einfluss von Aeric leidet, unfähig, eigenständige Entscheidungen zu treffen, was auf eine lange Tradition von Gehorsam und freiwilligen Opfern hinweist. Aeric wird als zentrale Figur betrachtet, die tief in die Schwierigkeiten des Dorfes und in die Ritualisierung von Opfern verstrickt ist. \n\nDie Gefolgsleute umfassen mindestens zwei Mitglieder, die zuvor an seiner Seite am Marktplatz standen. Myna, ein Mitglied der Gruppe, entdeckte während einer Erkundung die Sandpiper, ein großes Segelschiff, das abfahrbereit war und von mindestens acht Personen besetzt wurde, darunter zwei Mitglieder von Aerics Gefolgsleuten. Der Zwischenfall eskalierte, als Myna versuchte, die Segel des Schiffs mit einem Zauber zu entzünden und dabei entdeckt wurde; sie wurde von Feuerbällen getroffen und ins Wasser geschleudert. \n\nNeueste Informationen legen nahe, dass eine Alte [[Fee]] enthüllte, dass Aeric mehr als nur für das Feuer im Dorf verantwortlich ist und dass er einen gefährlichen Pakt mit einer Höllen-Entität geschlossen hat. Diese Kontrolle wird durch Tätowierungen gesichert, die weniger als Gedankenkontrolle, sondern eher als Versicherungen fungieren. Die Fee warnte zudem, dass Aeric heimlich an den Schicksalen der Dorfbewohner beteiligt sei, wobei diese in der Vergangenheit bereitwillig ihre Freunde für ihn geopfert hätten. In einem besorgniserregenden Wendepunkt wurden Aeric und seine Gefolgsleute als vermisst gemeldet, was auf eine mögliche Flucht oder ein Verschwinden hinweist, während gleichzeitig großflächige Brände im Rogarsheim sichtbar wurden und die Sandpiper den Hafen verließ.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": true
-        },
-        {
-            "created_at": "2025-12-18T16:37:55.378000",
-            "updated_at": null,
-            "id": "dczf5b8kwn7rafbjnqte0mhb",
-            "name": "Händlergilde",
-            "aliases": [],
-            "type": null,
-            "description": "Die Händlergilde ist eine lokale Handelsorganisation, die sich auf den Verkauf von Allgemeingütern und Schiffsausrüstung spezialisiert hat. Sie befindet sich in einem soliden, gut gebauten Gebäude am Hafen, das aus robustem Holz und Stein besteht. Die Gilde bietet eine Vielzahl von Waren an, darunter Fischereibedarf, Kleidung und verschiedene nützliche Gegenstände für die Schifffahrt. Der Betreiber ist ein freundlicher Mann mittleren Alters, der die Kunden bei ihren Anfragen unterstützt. \n\nDie Gilde hat zudem Verbindungen zur örtlichen Gemeinschaft und liefert Informationen über andere Händler, wie zum Beispiel Aeric, den Messerschleifer, der sich häufig auf dem Marktplatz aufhält. In jüngerer Zeit ist die Händlergilde auch als Tierhändler-Gilde bekannt geworden, da sie einen Raum in ihrem Gebäude als sicheren Aufenthaltsort für die Dorfbewohner bereitstellt. Dieser Raum dient nicht nur der Lagerung von Waren, sondern auch als Rückzugsort, in dem das Vertrauen der Dorfbewohner hoch ist, da alle Waren im Haus verbleiben und der Raum aufgeräumt ist.\n\nEine Gruppe bestehend aus Myna, Amari, Rita, Morvain und Korvathun brachte kürzlich den bewusstlosen Raed Zaki in die Händlergilde. Während ihres Aufenthalts in diesem sicheren Raum untersuchten sie ihn auf versteckte Zuhörer, fanden jedoch keine versteckten Wesen. Die Gruppe plant, in dieser Umgebung zu verweilen, während sie auf weitere Anweisungen wartet.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": true
         }
     ],
     "from": 21,
     "last_page": 3,
     "per_page": 20,
     "to": 40,
-    "total": 42
+    "total": 44
 }

@@ -2,6 +2,262 @@
     "current_page": 1,
     "data": [
         {
+            "created_at": "2026-05-21T13:32:43.031000",
+            "updated_at": null,
+            "id": "djidsx0998o3zctj8v8sfgn4",
+            "label": "Der Zwerg und das Schiff auf Kufen",
+            "content": "Die Gruppe trifft auf einen Zwerg, der ein Schiff Mit Kufen präsentiert, das über den Schnee gezogen werden kann. Tim, in der Rolle von Dîn-io Tempest, fragt den Zwerg, ob er jemanden empfehlen kann, der sich um das Schiff kümmern könnte, während er sich über die Stabilität des Schiffs erkundigt. Der Zwerg erklärt, dass das Schiff für die Reise zur nächsten Stadt geeignet ist und dass sie es bis zur nächsten Stadt nutzen sollten. Surina Nemmonis zieht Gwendolyn Silverflame an sich und äußert ihre Unsicherheit über die Richtung, während die Gruppe sich auf den Weg macht. Naevys Nerizana fragt den Zwerg, ob das Schiff nun fertig sei, und erhält die Bestätigung, dass es bereit ist.",
+            "image": null,
+            "index": 565,
+            "categories": [
+                "Exploration",
+                "Negotiation"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpffnto0000004l5ahvyz1s7"
+        },
+        {
+            "created_at": "2026-05-21T13:32:43.031000",
+            "updated_at": null,
+            "id": "dtcp290wnx8n2s14lrs0gf6x",
+            "label": "Naevys und der magische Schlüssel",
+            "content": "Naevys Nerizana nimmt einen Schlüssel und versucht, ihn im Schloss der Zellentür zu drehen. Der Schlüssel dreht sich im Schloss, doch die Tür öffnet sich nicht. Gwendolyn Silverflame vermutet, dass die Tür magisch verriegelt ist. Naevys bemerkt, dass kein Klick zu hören ist, was die Situation merkwürdig macht. Gwendolyn äußert die Möglichkeit von Magie, während die Gruppe über mögliche Lösungen diskutiert. Die Spannung steigt, als sie überlegen, wie sie die Tür überwinden können.",
+            "image": null,
+            "index": 558,
+            "categories": [
+                "Mystery",
+                "Intrigue"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpffnto0000004l5ahvyz1s7"
+        },
+        {
+            "created_at": "2026-05-21T13:32:43.031000",
+            "updated_at": null,
+            "id": "ef7cwklohx5e3b4n7hlexe9p",
+            "label": "Surina übernimmt die Nachtwache",
+            "content": "Während die anderen sich ausruhen oder meditieren, übernimmt Surina Nemmonis, die Drachenherrin, die Nachtwache auf dem Schiff. Sie erklärt, dass sie gut geschlafen hat, im Gegensatz zu den anderen, und bietet an, die Wache zu übernehmen, während Dîn-io Tempest sich für einige Stunden zurückzieht, um zu meditieren. Naevys Nerizana fragt Surina, ob sie die Wache ausnahmsweise übernehmen kann, und Surina stimmt sofort zu. Dîn-io äußert den Wunsch, durchzuschlafen, während die Gruppe sich auf die bevorstehenden Herausforderungen vorbereitet. Surina blickt in den Himmel und hofft, ihre Mutter zu sehen.",
+            "image": null,
+            "index": 570,
+            "categories": [
+                "Conflict",
+                "Heroism"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpffnto0000004l5ahvyz1s7"
+        },
+        {
+            "created_at": "2026-05-21T13:32:43.031000",
+            "updated_at": null,
+            "id": "eh2s5whoil8rju9deny1rcgf",
+            "label": "Der Aufseher öffnet den Nebenraum",
+            "content": "Der Aufseher öffnete den bislang verschlossenen Nebenraum und stellte die magische Unterdrückung ab. Sofort spürten Gwendolyn und Dîn-io, wie ihre Kräfte zurückkehrten. Gwendolyn schaute auf und bemerkte die Veränderung in der Luft, während Dîn-io seine gefesselten Hände bewegte und sich bereit machte, seine Magie wieder zu nutzen. Die beiden waren nun bereit, sich den Herausforderungen zu stellen.",
+            "image": null,
+            "index": 560,
+            "categories": [
+                "Revelation",
+                "Conflict"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpffnto0000004l5ahvyz1s7"
+        },
+        {
+            "created_at": "2026-05-21T13:32:43.031000",
+            "updated_at": null,
+            "id": "g4fodgk9sb2j96ndfza7l3jx",
+            "label": "Wette um die Rückkehr der Magie",
+            "content": "Die Gruppe diskutiert über eine Wette, um die Magie zurückzubringen und den Orb zu erhalten. Naevys schlägt vor, dass sie die Magie zurückbekommen und den Orb mitnehmen, wenn sie gewinnen, während sie im Falle einer Niederlage von Surina angepinkelt wird. Dîn-io bringt die Idee ein, wer am längsten die Luft anhalten kann, was Gwendolyn mit einem Scherz kommentiert. Surina fragt, wer von ihnen die Wette annehmen wird, und die Gruppe überlegt, wie sie die Herausforderung umsetzen können. Die Wette wird als Möglichkeit gesehen, die Langeweile im Gefängnis zu vertreiben und gleichzeitig ein wichtiges Ziel zu erreichen.",
+            "image": null,
+            "index": 562,
+            "categories": [
+                "Banter",
+                "Negotiation",
+                "Chaos"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpffnto0000004l5ahvyz1s7"
+        },
+        {
+            "created_at": "2026-05-21T13:32:43.031000",
+            "updated_at": null,
+            "id": "h4al3bin7k93nre6xms9iho8",
+            "label": "Dîn-io entdeckt die Falle unter dem Mammut",
+            "content": "Titel: Alarm unter dem Mammut\nAls Dîn-io Tempest die magische Aura unter dem Mammut wahrnimmt, erkennt er, dass es sich um Alarm- oder Fangmagie handelt. \"Ich schließe daraus, dass ein Alarm wahrscheinlich losgegangen ist, als der reingefallen ist\", erklärt er seinen Gefährten. Er erläutert weiter, dass der Zauber, der unter dem Mammut platziert wurde, denjenigen informiert, der die Falle aufgestellt hat, dass jemand hineingefallen ist. Naevys Nerizana fragt daraufhin, ob das, was unter dem Mammut ist, der Grund für den Fluch sei, und Dîn-io bestätigt dies mit seiner Analyse der Situation. Die Gruppe wird sich der Gefahr bewusst, die von der Falle ausgeht.",
+            "image": null,
+            "index": 573,
+            "categories": [
+                "Intrigue",
+                "Conflict"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpffnto0000004l5ahvyz1s7"
+        },
+        {
+            "created_at": "2026-05-21T13:32:43.031000",
+            "updated_at": null,
+            "id": "jdysc50jyrezna8hfmgeggkh",
+            "label": "Surina warnt die Mammuts vor den Jägern",
+            "content": "Als die Gruppe auf die Jäger zusteuert, bemerkt Surina die Mammuts in der Nähe und versucht, ihnen zuzuschlüstern, dass sie verschwinden sollen, da die Jäger kommen. Sie geht vorsichtig, aber freundlich auf die Jäger zu und sagt: \"Guten Morgen.\" Naevys, die die Mammuts beobachtet, nickt ihnen zu und signalisiert, dass sie wirklich verschwinden sollten. Die Mammuts scheinen Surinas Warnung registriert zu haben und reagieren entsprechend. Die bewaffneten Jäger bemerken ebenfalls die Mammuts, was die Situation angespannt macht.",
+            "image": null,
+            "index": 574,
+            "categories": [
+                "Conflict",
+                "Suspense"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpffnto0000004l5ahvyz1s7"
+        },
+        {
+            "created_at": "2026-05-21T13:32:43.031000",
+            "updated_at": null,
+            "id": "jnz8jxb1aua4fpsm9b61q7c5",
+            "label": "Naevys und die Mammuts schmieden einen Plan",
+            "content": "Naevys Nerizana schlägt den Mammuts vor, das gefangene Tier mit zusammengebundenen Seilen herauszuziehen. Die Mammuts, die um das Loch versammelt sind, finden diesen Plan gut und stimmen zu. Naevys erfährt, dass das Tier seit gestern im Loch ist und nichts zu essen oder zu trinken hatte. Die Mammuts stellen sich nebeneinander auf, bereit, ihren Freund zu befreien.",
+            "image": null,
+            "index": 571,
+            "categories": [
+                "Heroism",
+                "Conflict"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpffnto0000004l5ahvyz1s7"
+        },
+        {
+            "created_at": "2026-05-21T13:32:43.031000",
+            "updated_at": null,
+            "id": "kgu580hixglgfwt4mknsjfgm",
+            "label": "Die Warnung der Wolfsmutter",
+            "content": "Die Wolfsmutter warnt Naevys, dass mit dem Mammut etwas nicht stimme und dass es in der Gegend Tiere gebe, die einen Fluch weitergeben könnten. Naevys fragt die Wolfsmutter, ob sie gesehen hat, aus welcher Richtung die Mammuts kamen, und erfährt, dass das Mammut, das jetzt im Loch ist, zuvor schon merkwürdig aussah. Sie bietet der Wolfsmutter Trockenfleisch an, um ihre Dankbarkeit zu zeigen. Gwendolyn und Dîn-io diskutieren über die Art des Fluchs, der auf dem Mammut lastet. Naevys erklärt, dass es sich um einen infektiösen Fluch handelt, der aggressives Verhalten hervorrufen könnte, wenn andere Tiere angesteckt werden. Gwendolyn beschließt, mit einem Zauber die magischen Auren in der Umgebung zu untersuchen, um mehr über den Fluch zu erfahren.",
+            "image": null,
+            "index": 572,
+            "categories": [
+                "Suspense",
+                "Intrigue"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpffnto0000004l5ahvyz1s7"
+        },
+        {
+            "created_at": "2026-05-21T13:32:43.031000",
+            "updated_at": null,
+            "id": "kuj8bg2aal9by3xw34cz09bm",
+            "label": "Surina spricht mit dem Yeti",
+            "content": "Surina Nemmonis beginnt, mit dem Yeti zu sprechen, während Dîn-io Tempest seine magischen Fähigkeiten einsetzt, um den Yeti abzulenken. Naevys Nerizana und Gwendolyn Silverflame diskutieren, ob sie den Yeti umgehen oder abwarten sollen, während Surina sich auf ihre Kommunikation mit dem Yeti konzentriert. Dîn-io äußert, dass es nicht ratsam sei, sich mit einem Yeti anzulegen, und bemerkt, dass der Yeti groß ist und viel frisst. Trotz der Bedenken von Dîn-io und Gwendolyn bleibt Surina entschlossen, den Yeti zu kontaktieren. Schließlich führt Surinas Versuch, mit dem Yeti zu sprechen, dazu, dass der Yeti in Panik wegläuft.",
+            "image": null,
+            "index": 568,
+            "categories": [
+                "Negotiation",
+                "Conflict"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpffnto0000004l5ahvyz1s7"
+        },
+        {
+            "created_at": "2026-05-21T13:32:43.031000",
+            "updated_at": null,
+            "id": "o2pf83cda7evue8i9lb80ieh",
+            "label": "Dîn-io und Naevys sammeln Pflanzen während der Ablenkung des Yetis",
+            "content": "Während der Ablenkung des Yetis beugte sich Dîn-io Tempest hinunter und schnitt mit seiner Sichel verwertbare Pflanzen am Ufer ab. Naevys Nerizana rief ihm zu, dass er mit seinem Gemüse weitermachen solle, und bot ihm ihre Unterstützung an. Dîn-io bemerkte, dass der Yeti abgelenkt war, und nutzte die Gelegenheit, um weiter Pflanzen zu sammeln. Naevys half ihm, indem sie ihm eine Hörbele gab, um die Ernte zu erleichtern. Gemeinsam arbeiteten sie effizient, während der Yeti in der Ferne brüllte.",
+            "image": null,
+            "index": 569,
+            "categories": [
+                "Loot",
+                "Hijinx"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpffnto0000004l5ahvyz1s7"
+        },
+        {
+            "created_at": "2026-05-21T13:32:43.031000",
+            "updated_at": null,
+            "id": "o6ywrae3fxsqabcjcmebywl4",
+            "label": "Surina rollt die Metallkugel zur Tür",
+            "content": "Surina Nemmonis, auch bekannt als die Drachenherrin, versucht, die große Metallkugel zur Tür zu rollen. Als sie die Kugel bewegt, bleibt diese im Türrahmen stecken. Die Gruppe diskutiert, wie sie die Situation lösen können. Naevys Nerizana schlägt vor, die Decke durchzubrechen, um die Kugel nach draußen zu werfen. Surina fragt, ob sie Bandscheiben hat, was die anderen zum Schmunzeln bringt. Die Gruppe ist sich einig, dass sie einen kreativen Weg finden müssen, um die Kugel zu befreien.",
+            "image": null,
+            "index": 561,
+            "categories": [
+                "Hijinx",
+                "Conflict"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpffnto0000004l5ahvyz1s7"
+        },
+        {
+            "created_at": "2026-05-21T13:32:43.031000",
+            "updated_at": null,
+            "id": "p9ldztebmayihu6og96z8f2k",
+            "label": "Der Aufseher hält Dîn-io fest",
+            "content": "Während des Wettkampfs hält der Aufseher Dîn-io am Nacken fest, was zu Protesten von Naevys und Gwendolyn führt. Gwendolyn äußert, dass es unfair sei, die Magie zu unterdrücken und die Wette zu manipulieren, während Naevys hinzufügt, dass sie nicht einmal gefragt wurden, ob sie teilnehmen dürfen. Naevys wird zunehmend unzufrieden mit dem Verhalten des Aufsehers und bemerkt, dass dieser sich merkwürdig verhält. Inmitten der angespannten Situation gibt Dîn-io mit einem Daumen nach oben zu verstehen, dass er die Herausforderung annimmt, während die anderen weiterhin gegen die Ungerechtigkeit protestieren. Die Spannung steigt, als der Aufseher Dîn-io weiterhin unter Wasser hält.",
+            "image": null,
+            "index": 563,
+            "categories": [
+                "Conflict",
+                "Suspense"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpffnto0000004l5ahvyz1s7"
+        },
+        {
+            "created_at": "2026-05-21T13:32:43.031000",
+            "updated_at": null,
+            "id": "r044cpmr687g035sl0rdq6k5",
+            "label": "Der Zwerg warnt Surina vor Aveachurus",
+            "content": "Während einer Diskussion über Drachen erfährt Surina Nemmonis von einem Zwerg, dass in der Gegend eine alte weiße Drachin namens Aveachurus umherstreift. Der Zwerg warnt sie eindringlich, dass sie kleinlaut sein sollte, da Drachen, insbesondere Aveachurus, alles vernichten, was sie sehen. Surina notiert sich die Informationen über die Drachin, einschließlich ihrer Eigenschaften und ihrer launischen Natur. Sie äußert den Plan, langsamer zu fahren, um nicht in die Schusslinie der Drachin zu geraten, und bestätigt, dass sie aufpassen werden. Die Gruppe einigt sich darauf, vorsichtig zu sein, um nicht die Aufmerksamkeit der mächtigen Drachin auf sich zu ziehen.",
+            "image": null,
+            "index": 566,
+            "categories": [
+                "Suspense",
+                "Intrigue"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpffnto0000004l5ahvyz1s7"
+        },
+        {
+            "created_at": "2026-05-21T13:32:43.031000",
+            "updated_at": null,
+            "id": "rw6wg79hhgyiptn88b35hbzb",
+            "label": "Rast am zugefrorenen Flusslauf",
+            "content": "Die Gruppe erreicht am Abend einen teilweise zugefrorenen Flusslauf und legt eine kurze Rast ein. Während sie sich umschauen, bemerkt Dîn-io, dass er erschöpft ist, und fragt, ob sie noch weiterfahren können. Naevys schlägt vor, das Boot in den Fluss zu schieben, um ein Stück abwärts zu treiben, doch Gwendolyn meint, dass es besser wäre, eine Pause zu machen, da Dîn-io Schwierigkeiten hat. Die Kälte macht sich bemerkbar, und Flopsy fror in der eisigen Umgebung, was die Gruppe dazu bringt, ihre Entscheidung zu überdenken. Schließlich wird klar, dass eine Rast notwendig ist, um sich zu erholen und die nächsten Schritte zu planen.",
+            "image": null,
+            "index": 567,
+            "categories": [
+                "Banter",
+                "Exploration"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpffnto0000004l5ahvyz1s7"
+        },
+        {
+            "created_at": "2026-05-21T13:32:43.031000",
+            "updated_at": null,
+            "id": "s9t2orexakstdiejzo9zwgoc",
+            "label": "Ausrüstungsanfrage beim Aufseher",
+            "content": "Die Gruppe, bestehend aus Gwendolyn, Dîn-io, Naevys und Surina, wendet sich an den Aufseher und bittet um Ausrüstung für ihre bevorstehende Reise. Dîn-io fragt nach Handwerkssachen und Verbänden, während Gwendolyn einen warmen Mantel anfragt, um sich gegen die Kälte zu schützen. Der Aufseher bietet ihnen eine Sichel und ein Messer an und erwähnt, dass sie bereits wetterfeste Mäntel erhalten haben. Naevys und Surina bestätigen, dass sie ebenfalls Mäntel benötigen, und Surina äußert den Wunsch, einen weiteren Mantel zu nehmen, falls noch einer verfügbar ist. Die Gruppe bedankt sich bei Dîn-io für seine Initiative, die Ausrüstung zu organisieren.",
+            "image": null,
+            "index": 564,
+            "categories": [
+                "Loot",
+                "Negotiation"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpffnto0000004l5ahvyz1s7"
+        },
+        {
+            "created_at": "2026-05-21T13:32:43.031000",
+            "updated_at": null,
+            "id": "wp4isfde11quxdyahwk69yzy",
+            "label": "Aufstieg zur Steuerzentrale",
+            "content": "Die Gruppe, bestehend aus Gwendolyn Silverflame, Naevys Nerizana, Surina Nemmonis und Dîn-io Tempest, diskutiert über ihre nächsten Schritte im Gefängnis. Gwendolyn schlägt vor, nach oben zu gehen, um den Bereich zu suchen, von dem aus die Zellen gesteuert werden. Naevys stimmt zu, da sie noch nicht viel von diesem Gefängnis gesehen hat, und Dîn-io steht auf, um sich der Gruppe anzuschließen. Surina fragt, ob sie zuerst nach oben gehen und dann Gewalt anwenden sollen. Gwendolyn erklärt, dass sie nur nach oben gehen können, solange die Tür unten verschlossen ist. Schließlich beschließen sie, die Treppe hinaufzugehen, um herauszufinden, was sich dort verbirgt.",
+            "image": null,
+            "index": 559,
+            "categories": [
+                "Exploration",
+                "Conflict"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpffnto0000004l5ahvyz1s7"
+        },
+        {
             "created_at": "2026-05-18T16:55:22.523000",
             "updated_at": null,
             "id": "butlp7odsnxj02l6lwc5wtvr",
@@ -1227,268 +1483,11 @@
             ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "session_id": "cmoabbm19000704jq33qjteo5"
-        },
-        {
-            "created_at": "2026-04-22T20:57:18.160000",
-            "updated_at": null,
-            "id": "ugwmypehhfbdmz96ocdoi5ou",
-            "label": "Magische Haarbündel und Hexenpraktiken",
-            "content": "Gwendolyn nutzte ihren Zauber \"Detect Magic\" und stellte fest, dass von einem sorgfältig zusammengebundenen Haarbündel Magie ausging, die an hexenartige Praktiken erinnerte. Morvain ergänzte, dass Haare und ähnliche Materialien oft in solchen Zauberpraktiken verwendet werden. Pio wies die Gruppe zudem auf einen kleinen Haufen aus Asche und Salz hin, der etwas weiter an der Mauer lag. Diese Entdeckung ließ die Gruppe vermuten, dass sie es mit einer Hexe zu tun haben könnten. Gwendolyn bat Mowell um einen weiteren Blick auf die Situation.",
-            "image": null,
-            "index": 480,
-            "categories": [
-                "Intrigue",
-                "Discovery"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmoabbm19000704jq33qjteo5"
-        },
-        {
-            "created_at": "2026-04-22T20:57:18.160000",
-            "updated_at": null,
-            "id": "vhb7hxg1n5ewtchph7c4nftl",
-            "label": "Surina und der Kinderreim",
-            "content": "Surina Nemmonis summte fröhlich einen Kinderreim, während sie mit den anderen in der Gruppe war. Rita versuchte, Surina zu übertönen, indem sie auf ihrer Laute ein anderes Lied spielte, was die Situation chaotisch machte. Gwendolyn Silverflame wirkte den Zauber \"Protection from Evil and Good\" auf Surina, um sie zu schützen. Trotz der Ablenkungen und der schiefen Töne, die durch Ritas Gesang entstanden, summte Surina weiter, bis sie nach etwa einer Minute schließlich aufhörte.",
-            "image": null,
-            "index": 481,
-            "categories": [
-                "Hijinx",
-                "Conflict"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmoabbm19000704jq33qjteo5"
-        },
-        {
-            "created_at": "2026-04-22T20:57:18.160000",
-            "updated_at": null,
-            "id": "wuisemhd999wtg30rol8knlz",
-            "label": "Morvain nutzt die magische Hand",
-            "content": "Auf Gwendolyns Bitte hin beschloss Morvain, seine magische Hand zu nutzen, um mehrere Metallfiolen mit einer Mischung aus Asche und Salz zu füllen. \"Ich kann dir helfen mit Magic Hand\", erklärte er, während er sich darauf vorbereitete, die Fiolen zu befüllen. Gwendolyn äußerte sich dankbar: \"Vielen Dank.\" Während Morvain die Asche und das Salz in die Fiolen einfließen ließ, bemerkte Myna, dass es für alle anderen \"richtig cool\" aussah, auch wenn sie selbst die Hand nicht sehen konnte. Die magische Hand arbeitete geschickt, und die Fiolen füllten sich mit dem gewünschten Inhalt.",
-            "image": null,
-            "index": 483,
-            "categories": [
-                "Hijinx",
-                "Discovery"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmoabbm19000704jq33qjteo5"
-        },
-        {
-            "created_at": "2026-04-22T20:57:18.160000",
-            "updated_at": null,
-            "id": "yn7se20aqm24aqkbmpt2yh1x",
-            "label": "Verhör im unterirdischen Zellentrakt",
-            "content": "Die Gruppe wurde von einer Wache zu zwei goldgepanzerte Leibwachen des Haupthauses geleitet, die anboten, ein Gespräch mit einem Gefangenen zu organisieren. Sie folgten den Wachen durch den Hauptplatz und weiter zu einem kleinen Gebäude, das wie ein Sturmkeller aussah. Im unterirdischen Zellentrakt angekommen, führte eine der Wachen die Gruppe an mehreren Zellen vorbei, bis sie an einem Verhörraum hielten. Dort wurde ein Sack übergestülpter Gefangener auf einen unbequemen Holzstuhl gesetzt, während die Wachen sich verabschiedeten und die Tür von außen abschlossen. Die Gruppe war nun allein mit dem Gefangenen.",
-            "image": null,
-            "index": 472,
-            "categories": [
-                "Intrigue",
-                "Conflict"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmoabbm19000704jq33qjteo5"
-        },
-        {
-            "created_at": "2026-04-15T19:46:07.011000",
-            "updated_at": null,
-            "id": "b3fmi8pz8148ooxlull47eov",
-            "label": "Gerüchte und Unruhen vor Briarwatch",
-            "content": "Vor den Toren von Briarwatch entschuldigte sich lea für den holprigen Start und berichtete von verschiedenen Gerüchten, die die Region betreffen. Sie sprach von Streitigkeiten über verschwundene Adeltöchter und einem brodelnden Krieg zwischen Feuerelementaren und Drachen. Zudem erwähnte sie, dass die Lord’s Alliance in Unruhe sei und dass es seit langer Zeit keine Nachrichten mehr aus Rogarsheim gegeben habe, was den Ort wie ein schwarzes Loch auf der Karte erscheinen lasse. Sie fügte hinzu, dass es nun Anzeichen dafür gebe, dass wieder Nachrichten aus Rogarsheim fließen könnten. lea erklärte, dass sie sich nicht in die Adelsstreitigkeiten einmischen wolle.",
-            "image": null,
-            "index": 454,
-            "categories": [
-                "Intrigue",
-                "Conflict",
-                "Suspense"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmo09c23d000004kyif8br5tt"
-        },
-        {
-            "created_at": "2026-04-15T19:46:07.011000",
-            "updated_at": null,
-            "id": "bsnondh0w7bhqjhxyjorxp4q",
-            "label": "Morvain erforscht die Geschichte von Anauroch und Netheril",
-            "content": "Morvain Schattenfluch vertieft sich in die alten Schriften über Anauroch und Netheril. Er erfährt, dass das magokratische Imperium von Netheril vor etwa 1700 bis 1800 Jahren fiel und dass Anauroch daraufhin zur Wüste wurde. Zudem entdeckt er, dass vor etwa einem Jahrhundert eine kleine Enklave von Netheril zurückkehrte, was die Region mit Relikten und zwielichtigen Gruppen überflutet hat. Diese Informationen lassen Morvain erkennen, dass die Geschichte dieser Gebiete tief mit Magie und Macht verbunden ist. Er schließt seine Lektüre ab.",
-            "image": null,
-            "index": 467,
-            "categories": [
-                "Discovery",
-                "Intrigue"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmo09c23d000004kyif8br5tt"
-        },
-        {
-            "created_at": "2026-04-15T19:46:07.011000",
-            "updated_at": null,
-            "id": "dwyf9vhogf8qhyvbpii6bp2b",
-            "label": "Durnans verlockendes Angebot",
-            "content": "Captain Durnan stellte der Gruppe vier Optionen vor: Sie konnten den Rauchwolken nachgehen, ein Spionage- und Söldnerlager auslöschen, nach Luskan reisen, um einem magischen Vorfall nachzugehen, oder Morvain könnte seinen Unterarm für die Erfüllung eines Wunsches opfern. Während die Gruppe über die Möglichkeiten diskutierte, äußerte Morvain seine Besorgnis um seine Schwester und betonte, dass er sie zurückhaben wolle. Durnan warnte sie: \"Der Würfel gegen eure Schwester.\" Nach dieser Drohung verschwand er durch das Tor, während die Wachen den Weg ins Innere von Briarwatch andeuteten.",
-            "image": null,
-            "index": 460,
-            "categories": [
-                "Intrigue",
-                "Negotiation"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmo09c23d000004kyif8br5tt"
-        },
-        {
-            "created_at": "2026-04-15T19:46:07.011000",
-            "updated_at": null,
-            "id": "g55jbldkt94urrdcg8jgyvcr",
-            "label": "tim enthüllt den wieder zugänglichen Seeweg",
-            "content": "tim erklärte, dass der Seeweg zuvor gesperrt gewesen sei, möglicherweise durch magische Einflüsse. Er bemerkte, dass dieser nun wieder erreichbar zu sein scheint, was mit den Erfahrungen der Gruppe auf der Insel übereinstimmt. lea fragte nach Auffälligkeiten in dieser Hinsicht, und tim bestätigte, dass der Seeweg tatsächlich blockiert war. Diese Informationen führten zu einer Diskussion über die Gerüchte, die die Gruppe über die Lords Alliance und die fehlenden Nachrichten aus Rogarsheim gehört hatte. Es schien, als ob die Situation sich nun änderte und der Seeweg wieder offen war.",
-            "image": null,
-            "index": 455,
-            "categories": [
-                "Discovery",
-                "Intrigue"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmo09c23d000004kyif8br5tt"
-        },
-        {
-            "created_at": "2026-04-15T19:46:07.011000",
-            "updated_at": null,
-            "id": "geqtxl7cdz75mti6pt1udzfq",
-            "label": "Gwendolyn übergibt Gold an Durnan",
-            "content": "Gwendolyn Silverflame greift in Surina Nemmonis' Geldsäckchen und zählt laut bis 50, während sie das Gold herausnimmt. Sie übergibt das Geld zusammen mit dem zurückgegebenen Säckchen direkt an Captain Durnan, der die Gegenstände in seine Tasche steckt. Durnan erklärt daraufhin, dass die Angelegenheit damit geklärt sei.",
-            "image": null,
-            "index": 459,
-            "categories": [
-                "Negotiation",
-                "Conflict"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmo09c23d000004kyif8br5tt"
-        },
-        {
-            "created_at": "2026-04-15T19:46:07.011000",
-            "updated_at": null,
-            "id": "jgy2xwy5ds7rx4cclsng4jev",
-            "label": "Aufbruch zur Bibliothek",
-            "content": "lea äußerte, dass Details über das gestohlene Buch wahrscheinlich vom Bibliothekar oder der Herzogin stammen würden. Sie schlug vor, die Bibliothek aufzusuchen, um dieser Spur nachzugehen. Myna und Gwendolyn stimmten zu, und die Gruppe diskutierte, dass ein kurzer Abstecher in die Bibliothek sinnvoll wäre. tim äußerte, dass er lieber zu seinem Quark gehen wollte, während Morvain plante, im Wald nach Kräutern zu suchen. Schließlich fragte lea, ob jemand sie zur Bibliothek führen könnte, was die Gruppe dazu brachte, sich auf den Weg dorthin zu machen.",
-            "image": null,
-            "index": 462,
-            "categories": [
-                "Exploration",
-                "Intrigue"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmo09c23d000004kyif8br5tt"
-        },
-        {
-            "created_at": "2026-04-15T19:46:07.011000",
-            "updated_at": null,
-            "id": "l9m96qmqbcvh69cok7cazajf",
-            "label": "Captain Durnan bringt den geschlagenen Sohn",
-            "content": "Captain Durnan trat mit sechs Wachen auf die Gruppe zu und bildete einen lockeren Ring um sie. In der Mitte des Rings stützte eine Wache einen geschlagenen Sohn, der sichtbar verletzt war. Durnan erklärte, dass eine Geldbörse gestohlen und ein Gast geschlagen worden sei. tim äußerte, dass er zu dem Schlag stehe, während Surina anbot, die Kosten zu übernehmen, was von lea vehement abgelehnt wurde.",
-            "image": null,
-            "index": 457,
-            "categories": [
-                "Conflict",
-                "Suspense"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmo09c23d000004kyif8br5tt"
-        },
-        {
-            "created_at": "2026-04-15T19:46:07.011000",
-            "updated_at": null,
-            "id": "pq5h7v4xpyxcdeskx60g8de1",
-            "label": "Gwendolyns magische Entdeckung und die Begegnung mit der Goblin-Dame",
-            "content": "Im Korridor wirkte Gwendolyn einen Zauber zur Magieerkennung und spürte starke Transmutationsmagie an bestimmten Statuen. Pio bestätigte, dass keine lebenden Wesen anwesend waren. Gwendolyn entdeckte eine schmale Wendeltreppe, die mit einem steinernen Elchkopf markiert war, und beschloss, diese hinaufzusteigen. Oben angekommen, fand sie sich vor einer hölzernen Tür wieder und klopfte vorsichtig an. Kurz darauf öffnete sich die Tür und eine gepanzerte Goblin-Dame trat hervor.",
-            "image": null,
-            "index": 466,
-            "categories": [
-                "Discovery",
-                "Intrigue"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmo09c23d000004kyif8br5tt"
-        },
-        {
-            "created_at": "2026-04-15T19:46:07.011000",
-            "updated_at": null,
-            "id": "pxunqbl1bhxgm6ggmta83fhp",
-            "label": "Die Bibliotheksprüfung",
-            "content": "In der Bibliothek weigerte sich die Yuan-Ti-Bibliothekarin, die Anfragen der Gruppe bezüglich des fehlenden Buches zu beantworten, da sie nicht registriert waren. Surina inspizierte ein leeres Regal und bemerkte die benachbarten Bände über Geburt, die Erziehung von Adelskindern, patriarchale Haushaltsführung und ein Kompendium der ältesten Häuser Faerûns. Die Gruppe diskutierte, ob der Dieb Zugang zur Bibliothek gehabt haben könnte, und äußerte den Verdacht, dass das fehlende Buch mit Kindern zu tun hatte. lea und die anderen überlegten, ob sie die Überwachungssysteme der Bibliothek verbessern könnten. Schließlich entschied lea, das Buch über die ältesten Häuser zu untersuchen, um mehr Informationen zu erhalten.",
-            "image": null,
-            "index": 463,
-            "categories": [
-                "Intrigue",
-                "Discovery"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmo09c23d000004kyif8br5tt"
-        },
-        {
-            "created_at": "2026-04-15T19:46:07.011000",
-            "updated_at": null,
-            "id": "qgksmsmlmkthg85pjpchd2pf",
-            "label": "Besprechung am Waldrand",
-            "content": "Die Gruppe versammelte sich am Waldrand, während die abgetrennten Wachen in sicherer Entfernung blieben. tim äußerte seine Skepsis über das Angebot, das einen Arm gegen einen Wunsch eintauschen sollte, und nannte es zu einfach, um wahr zu sein. lea stimmte zu und betonte, dass sie nicht einfach schlafen gehen könne, ohne eine Entscheidung zu treffen. Die Diskussion drehte sich um die Rauchwolke, die sie als potenziell zeitkritisch betrachteten, da sie möglicherweise mit den Entführungen in Verbindung stand. Morvain und die anderen waren sich einig, dass sie die Situation weiter untersuchen sollten, um herauszufinden, ob die Rauchwolke mit den verschwundenen Personen zu tun hatte.",
-            "image": null,
-            "index": 461,
-            "categories": [
-                "Intrigue",
-                "Suspense"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmo09c23d000004kyif8br5tt"
-        },
-        {
-            "created_at": "2026-04-15T19:46:07.011000",
-            "updated_at": null,
-            "id": "taxnyjykm830enqboib5ops1",
-            "label": "Korvathuns schmerzhafter Entschluss",
-            "content": "Korvathun betrat das Alchemistenlabor und klopfte fest an die Tür, bevor er hereingebeten wurde. Der Alchemist erklärte ihm die Optionen für ein körperliches Abhärtungsprogramm und bot ihm zwei Varianten an: eine schnelle in drei Tagen oder eine schmerzhafte in einer Woche. Korvathun entschied sich für die schmerzhafte Woche und erhielt mehrere Fläschchen, einen versiegelten Umschlag mit Anweisungen und ein kleines Protokollbuch, um seine täglichen Dosen zu dokumentieren. Der Alchemist informierte ihn, dass die Gegend während des Vorfalls stark verraucht gewesen war. Mit den bereitgestellten Materialien war Korvathun nun bereit, sich der Herausforderung zu stellen.",
-            "image": null,
-            "index": 468,
-            "categories": [
-                "Growth",
-                "Conflict"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmo09c23d000004kyif8br5tt"
-        },
-        {
-            "created_at": "2026-04-15T19:46:07.011000",
-            "updated_at": null,
-            "id": "wt1ttrwfkhxkofhhpu7geizi",
-            "label": "Geständnis und Einigung über den Diebstahl",
-            "content": "In einer hitzigen Diskussion gestand ein Mitglied der Gruppe, dass es den Gast geschlagen hatte, und wies auf Rita hin, die die Geldbörse entwendet hatte. lea bemerkte, dass Rita den Reichtum umverteilt habe, was von tim unterstützt wurde, der hinzufügte, dass er nicht gestohlen, sondern nur umverteilt habe. Die Gruppe einigte sich darauf, dass nur der gestohlene Betrag zurückgegeben werden sollte, wobei Tim anmerkte, dass Rita sich weigern würde, mehr als das zurückzugeben, was sie tatsächlich hatte. lea und tim waren sich einig, dass es sich um 50 Goldstücke und einen Edelstein handelte, den sie zurückgeben sollten. Schließlich wurde klar, dass die Gruppe sich einig war, dass Rita für den Diebstahl verantwortlich war.",
-            "image": null,
-            "index": 458,
-            "categories": [
-                "Betrayal",
-                "Conflict",
-                "Negotiation"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmo09c23d000004kyif8br5tt"
-        },
-        {
-            "created_at": "2026-04-15T19:46:07.011000",
-            "updated_at": null,
-            "id": "xdtagqcckeo2j0jsp7hkyw0d",
-            "label": "Gwendolyn untersucht Morvains Würfelhand",
-            "content": "Im äußeren Bereich von Briarwatch beugte sich Gwendolyn über Morvains ungewöhnliche, würfelförmige Finger. Sie versuchte vorsichtig, einen der \"Würfel\" zu drehen, während sie darauf achtete, keinen Schmerz zu verursachen. Morvain spürte die Berührung und berichtete von keinem Schmerz, und sein Arm zeigte keinerlei Empfindungen. Gwendolyn setzte ihre Untersuchung fort und drehte mit ihrem ganzen Unterarm, wobei sie bemerkte, dass sich die Hand nur leicht bewegte, ohne dass Morvain Schmerzen verspürte. Schließlich stellte sie fest, dass sie mit erheblichem Kraftaufwand die gesamte Hand nur minimal bewegen konnte, was Morvain weiterhin schmerzfrei ließ.",
-            "image": null,
-            "index": 456,
-            "categories": [
-                "Discovery",
-                "Intrigue"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmo09c23d000004kyif8br5tt"
         }
     ],
     "from": 1,
     "last_page": 6,
     "per_page": 100,
     "to": 100,
-    "total": 541
+    "total": 558
 }
