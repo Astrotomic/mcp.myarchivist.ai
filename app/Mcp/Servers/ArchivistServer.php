@@ -38,6 +38,10 @@ use Laravel\Mcp\Server\Attributes\Version;
 #[Instructions('Read-only access to Archivist AI TTRPG campaign data: campaigns, characters, sessions, beats, moments, factions, locations, items, quests, journals, journal folders, and entity links. Archivist AI is a campaign memory platform for tabletop RPG game masters and players. All tools are read-only (v1). Mutating operations are deferred to v2.')]
 class ArchivistServer extends Server
 {
+    public int $maxPaginationLength = 100;
+
+    public int $defaultPaginationLength = 100;
+
     protected array $tools = [
         // Campaigns
         ListCampaignsTool::class,
