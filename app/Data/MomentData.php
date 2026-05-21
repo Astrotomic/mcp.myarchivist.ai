@@ -2,12 +2,7 @@
 
 namespace App\Data;
 
+/** @deprecated List and detail share the same moment shape; use MomentDataShort. */
 class MomentData extends MomentDataShort
 {
-    public static function rules(): array
-    {
-        return array_merge(parent::rules(), [
-            'categories' => ['required', 'array'],
-        ]);
-    }
 }

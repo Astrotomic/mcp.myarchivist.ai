@@ -2,15 +2,7 @@
 
 namespace App\Data;
 
+/** @deprecated List and detail share the same beat shape; use BeatDataShort. */
 class BeatData extends BeatDataShort
 {
-    public static function rules(): array
-    {
-        return array_merge(parent::rules(), [
-            'created_at' => ['required', 'string', 'date'],
-            'updated_at' => ['nullable', 'string', 'date'],
-            'description' => ['nullable', 'string'],
-            'metadata' => ['nullable', 'array'],
-        ]);
-    }
 }

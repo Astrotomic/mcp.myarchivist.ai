@@ -10,10 +10,11 @@ class MomentDataShort extends ArchivistDto
             'id' => ['required', 'string'],
             'campaign_id' => ['required', 'string'],
             'session_id' => ['nullable', 'string'],
-            'label' => ['required', 'string'],
-            'index' => ['required', 'integer'],
+            'label' => ['nullable', 'string'],
+            'index' => ['nullable', 'integer'],
             'content' => ['nullable', 'string'],
             'image' => ['nullable', 'string'],
+            'categories' => ['nullable', 'array'],
             'created_at' => ['required', 'string', 'date'],
             'updated_at' => ['nullable', 'string', 'date'],
         ];
