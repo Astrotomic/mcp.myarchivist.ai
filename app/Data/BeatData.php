@@ -2,7 +2,7 @@
 
 namespace App\Data;
 
-class BeatDataShort extends ArchivistDto
+class BeatData extends ArchivistDto
 {
     public static function rules(): array
     {

@@ -2,7 +2,7 @@
 
 namespace Tests\Gummibeer\Mcp\Tools\Moments;
 
-use App\Data\MomentDataShort;
+use App\Data\MomentData;
 use App\Mcp\Servers\ArchivistServer;
 use App\Mcp\Tools\Moments\ListMomentsTool;
 use Illuminate\Testing\Fluent\AssertableJson;
@@ -18,7 +18,7 @@ final class ListMomentsToolTest extends GummibeerTestCase
             'no query' => [[]],
             'size' => [['size' => 100]],
             'page' => [['page' => 2]],
-            'search' => [['search' => 'battle']],
+            'search' => [['search' => 'schiff']],
         ];
     }
 
@@ -34,7 +34,7 @@ final class ListMomentsToolTest extends GummibeerTestCase
                 $json
                     ->assertPaginatedList(function (AssertableJson $item): void {
                         $item
-                            ->assertJsonSchema(MomentDataShort::class)
+                            ->assertJsonSchema(MomentData::class)
                             ->where('campaign_id', 'cmj78gm6k000004jrvzm7gcjr');
                     });
 

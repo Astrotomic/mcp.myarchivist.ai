@@ -3,7 +3,7 @@
 namespace App\Actions\Archivist\Moments;
 
 use App\Actions\Archivist\ApiAction;
-use App\Data\MomentDataShort;
+use App\Data\MomentData;
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\ValidatedInput;
 
@@ -21,8 +21,8 @@ final readonly class GetMoment extends ApiAction
         return $this->client->get("/v1/moments/{$input->string('moment_id')}", $input->except('moment_id'));
     }
 
-    protected function map(array $data): MomentDataShort
+    protected function map(array $data): MomentData
     {
-        return new MomentDataShort($data);
+        return new MomentData($data);
     }
 }

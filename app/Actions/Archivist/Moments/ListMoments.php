@@ -4,7 +4,7 @@ namespace App\Actions\Archivist\Moments;
 
 use App\Actions\Archivist\ApiAction;
 use App\Collections\ArchivistDtoCollection;
-use App\Data\MomentDataShort;
+use App\Data\MomentData;
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\ValidatedInput;
 
@@ -27,12 +27,12 @@ final readonly class ListMoments extends ApiAction
     }
 
     /**
-     * @return ArchivistDtoCollection<int, MomentDataShort>
+     * @return ArchivistDtoCollection<int, MomentData>
      */
     protected function map(array $data): ArchivistDtoCollection
     {
         return ArchivistDtoCollection::make(
-            collect($data['data'] ?? [])->map(fn (array $item) => new MomentDataShort($item))
+            collect($data['data'] ?? [])->map(fn (array $item) => new MomentData($item))
         );
     }
 }

@@ -2,7 +2,7 @@
 
 namespace App\Data;
 
-class MomentDataShort extends ArchivistDto
+class MomentData extends ArchivistDto
 {
     public static function rules(): array
     {
