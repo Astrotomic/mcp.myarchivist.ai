@@ -19,7 +19,7 @@
         "nunomaduro/collision": "^8.9.4",
         "phpstan/extension-installer": "^1.4.3",
         "phpstan/phpstan-deprecation-rules": "^2.0.4",
-        "phpunit/phpunit": "^12.5.25",
+        "phpunit/phpunit": "^12.5.26",
         "povils/phpmnd": "^3.6.1",
         "spatie/phpunit-snapshot-assertions": "^5.4",
         "spaze/phpstan-disallowed-calls": "^4.12"
