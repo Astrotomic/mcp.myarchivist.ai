@@ -10,7 +10,7 @@ use Laravel\Mcp\Server\Tools\Annotations\IsIdempotent;
 use Laravel\Mcp\Server\Tools\Annotations\IsOpenWorld;
 use Laravel\Mcp\Server\Tools\Annotations\IsReadOnly;
 
-#[Description('List factions in a campaign. Factions represent guilds, organisations, or other groups.')]
+#[Description('List factions in a campaign. Optionally filter by name search. Factions represent guilds, organisations, or other groups.')]
 #[IsReadOnly(true)]
 #[IsDestructive(false)]
 #[IsIdempotent(true)]

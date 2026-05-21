@@ -10,7 +10,7 @@ use Laravel\Mcp\Server\Tools\Annotations\IsIdempotent;
 use Laravel\Mcp\Server\Tools\Annotations\IsOpenWorld;
 use Laravel\Mcp\Server\Tools\Annotations\IsReadOnly;
 
-#[Description('List items in a campaign. Items include weapons, armour, artefacts, and other notable objects.')]
+#[Description('List items in a campaign. Optionally filter by name search. Items include weapons, armour, artefacts, and other notable objects.')]
 #[IsReadOnly(true)]
 #[IsDestructive(false)]
 #[IsIdempotent(true)]

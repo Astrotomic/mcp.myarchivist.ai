@@ -10,7 +10,7 @@ use Laravel\Mcp\Server\Tools\Annotations\IsIdempotent;
 use Laravel\Mcp\Server\Tools\Annotations\IsOpenWorld;
 use Laravel\Mcp\Server\Tools\Annotations\IsReadOnly;
 
-#[Description('List moments in a campaign or session. Moments capture memorable quotes and events.')]
+#[Description('List moments in a campaign or session. Optionally filter by label search. Moments capture memorable quotes and events.')]
 #[IsReadOnly(true)]
 #[IsDestructive(false)]
 #[IsIdempotent(true)]

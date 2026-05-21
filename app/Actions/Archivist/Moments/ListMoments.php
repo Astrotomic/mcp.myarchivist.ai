@@ -15,6 +15,7 @@ final readonly class ListMoments extends ApiAction
         return [
             'campaign_id' => ['nullable', 'string'],
             'session_id' => ['nullable', 'string'],
+            'search' => ['nullable', 'string'],
             'page' => ['nullable', 'integer'],
             'size' => ['nullable', 'integer', 'max:100'],
         ];
