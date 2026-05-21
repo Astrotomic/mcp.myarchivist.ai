@@ -18,7 +18,7 @@ final class ListItemsToolTest extends GummibeerTestCase
             'no query' => [[]],
             'size' => [['size' => 100]],
             'page' => [['page' => 2]],
-            'search' => [['search' => 'Sword']],
+            'search' => [['search' => 'schwert']],
         ];
     }
 

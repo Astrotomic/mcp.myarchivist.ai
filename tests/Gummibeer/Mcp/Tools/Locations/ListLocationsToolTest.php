@@ -18,7 +18,7 @@ final class ListLocationsToolTest extends GummibeerTestCase
             'no query' => [[]],
             'size' => [['size' => 100]],
             'page' => [['page' => 2]],
-            'search' => [['search' => 'Tavern']],
+            'search' => [['search' => 'hammer']],
         ];
     }
 

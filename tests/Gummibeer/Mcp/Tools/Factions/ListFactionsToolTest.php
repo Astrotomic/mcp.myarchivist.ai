@@ -18,7 +18,7 @@ final class ListFactionsToolTest extends GummibeerTestCase
             'no query' => [[]],
             'size' => [['size' => 100]],
             'page' => [['page' => 2]],
-            'search' => [['search' => 'Guild']],
+            'search' => [['search' => 'Stadtwache']],
         ];
     }
 
