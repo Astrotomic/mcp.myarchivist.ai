@@ -4,12 +4,13 @@ namespace App\Data;
 
 use App\Actions\RulesToJsonSchema;
 use Illuminate\JsonSchema\JsonSchemaTypeFactory;
+use Illuminate\JsonSchema\Types\Type;
 
 class SessionHandoutData extends ArchivistDto
 {
     public static function rules(): array
     {
-        return array_merge(static::topLevelRules(), static::nestedRules());
+        return array_merge(self::topLevelRules(), self::nestedRules());
     }
 
     /**
@@ -57,13 +58,13 @@ class SessionHandoutData extends ArchivistDto
     }
 
     /**
-     * @return array<string, \Illuminate\JsonSchema\Types\Type>
+     * @return array<string, Type>
      */
     public static function toJsonSchema(): array
     {
         $schema = new JsonSchemaTypeFactory;
 
-        $properties = RulesToJsonSchema::make()->execute(static::topLevelRules());
+        $properties = RulesToJsonSchema::make()->execute(self::topLevelRules());
 
         $properties['partyStatusAndNextSteps'] = $schema->object([
             'partyStatus' => $schema->object([

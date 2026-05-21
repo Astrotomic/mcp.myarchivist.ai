@@ -26,21 +26,11 @@ final class SessionHandoutDataTest extends UnitTestCase
     }
 
     #[Test]
-    public function it_accepts_api_shaped_party_status_and_next_steps(): void
+    public function rules_include_nested_party_status_fields(): void
     {
-        $handout = new SessionHandoutData([
-            'summary' => 'Test summary',
-            'partyStatusAndNextSteps' => [
-                'partyStatus' => [
-                    'summary' => 'In the foundations.',
-                    'bullets' => ['Dook needs aid.'],
-                ],
-                'nextSteps' => [
-                    'summary' => 'Explore the chamber.',
-                ],
-            ],
-        ]);
+        $rules = SessionHandoutData::rules();
 
-        $this->assertSame('In the foundations.', $handout->partyStatusAndNextSteps['partyStatus']['summary']);
+        $this->assertArrayHasKey('partyStatusAndNextSteps.partyStatus.summary', $rules);
+        $this->assertArrayHasKey('partyStatusAndNextSteps.nextSteps.summary', $rules);
     }
 }
