@@ -1,0 +1,88 @@
+{
+    "current_page": 1,
+    "data": [
+        {
+            "created_at": "2026-05-19T20:58:43.482000",
+            "updated_at": null,
+            "id": "cmpd482bc000r04ld671uw9qf",
+            "name": "Stadtwache von Frozen",
+            "aliases": [],
+            "type": null,
+            "description": "Die Stadtwache wurde am Tempel von der Hohepriesterin über einen Einbruch informiert. Sie nahm drei der Eingefrorenen in Gewahrsam und führte Durchsuchungen Gebäude für Gebäude in Richtung Süden durch.\nDie Stadtwache traf nachts am Tempel ein, wurde von der Hohepriesterin instruiert und übernahm die Verwahrung der drei Eingefrorenen. Sie forderte Surina auf, ein Buch zu zeigen, prüfte ihre und weitere Gegenstände, fand jedoch nicht die gesuchten heiligen Objekte und ließ Surina ihre Sachen wieder zusammenpacken. Die Eingefrorenen wurden in Zellen gehalten. Am Morgen riss ein Mitglied der Stadtwache lautstark eine Zellentür auf, und die Gehaltenen durften die Zellen verlassen. Die Stadtwache setzte die Durchsuchungen in den Gassen fort.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-03-21T13:19:08.856000",
+            "updated_at": null,
+            "id": "cmn0cts9h000w04i80ovfrjnn",
+            "name": "Triboar Stadtwache",
+            "aliases": [],
+            "type": null,
+            "description": "Die Triboar Stadtwache ist für die Sicherheit und Ordnung in der Stadt verantwortlich. Ihre Aufgaben umfassen den Schutz der Bürger und die Reaktion auf Vorfälle. Die Stadtwache hat Steckbriefe aufgehängt, um auf Vermisstenfälle aufmerksam zu machen, und berichtet von zahlreichen Stadtbewohnern und Personen aus umliegenden Dörfern, die verschwunden sind. Nur wenige sind zurückgekehrt, und die meisten von ihnen schlafen seit Wochen und sind nicht erwacht. Zwei Ausnahmen sind ein hochgeborener Elf in der Stadt und eine Person auf einem Hof außerhalb. \n\nDie Stadtwache warnt vor den Gefahren, die mit der Jagd auf die vermissten Personen verbunden sind, da viele Kopfgeldjäger nicht zurückgekehrt sind. Sie haben Informationen über Wesen, die andere ins Schlaf versetzen und Albträume verursachen, um die Betroffenen zu manipulieren. Die Stadtwache empfiehlt, vorsichtig zu sein, wenn man auf die Jagd geht, und gibt Hinweise auf die Gefahren in der Umgebung. \n\nDie Stadtwache interveniert auch in potenziell problematischen Situationen, wie dem Vorfall, bei dem sie Bartho Jargon auf der Straße weckten und ihn ins Bett schickten, nachdem er zuvor von Seraphina mit einem Zauber in den Schlaf versetzt worden war. Ihre Präsenz ist in der Stadt spürbar, insbesondere bei der Reaktion auf Vorfälle oder beim Ansprechen von Personen, die sich ungebührlich verhalten.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-03-07T15:01:38.876000",
+            "updated_at": null,
+            "id": "qyfy8lfoozce3qm01lf0qfxw",
+            "name": "Nightstone Stadtwache",
+            "aliases": [],
+            "type": null,
+            "description": "Die Burgwache besteht aus vier jungen Wachen, die als schwächlich beschrieben werden. Diese Wachen halten in der Burg Stellung, was die Verteidigung unsicher erscheinen lässt. Die Burg selbst ist unzureichend gesichert, was die Lage zusätzlich gefährdet.\n\nIn einer angespannten Situation, die durch den Tod von Lady Velrosa Nandar geprägt ist, versucht die Burgwache, Ordnung in das Chaos zu bringen. Alagos, ein Mitglied der Burgwache, verhört Kella Darkhope, um die Hintergründe der Ereignisse zu klären. Währenddessen nähert sich eine Orc-Horde aus dem Norden, was eine akute äußere Bedrohung darstellt. In der Folge werden Kultisten getötet, und die Orc-Horde tötet ebenfalls drei Kultisten, was die chaotische Mehrfrontenlage unterstreicht.\n\nNach dem Orc-Angriff in der Stadt sind die Stadtwachen von Nightstone eine Gruppe, die verblieben ist. Sie spielen eine wichtige Rolle in der politischen und zwischenmenschlichen Lage des Ortes, insbesondere in der Zeit nach dem Angriff, als sie sich mit den Bürgern über die Zukunft von Nightstone abstimmen. Die Stadtwachen sind in Gespräche involviert, um zu klären, wer Verantwortung übernimmt und wie mit den Folgen des Angriffs umgegangen werden soll. Sie sind entscheidend für die Aufrechterhaltung der Ordnung und der Sicherheit in der Stadt.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": true
+        },
+        {
+            "created_at": "2026-03-06T10:49:03.275000",
+            "updated_at": null,
+            "id": "f6vhlli1z8kxjpz2jgqbg459",
+            "name": "Stadtwache von Scornubel",
+            "aliases": [],
+            "type": null,
+            "description": "Die Stadtwache von Scornubel ist eine autorisierte Organisation, die für die Sicherheit und Ordnung in der Stadt verantwortlich ist. Sie berichtet über aktuelle Informationen zu den Geschehnissen in der Region, einschließlich der Aussage, dass Elturel nicht mehr existiere, basierend auf Berichten von Flüchtlingen. Die Stadtwache hat die Fähigkeit, die Bevölkerung über Bedrohungen zu informieren.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-03-05T08:49:42.726000",
+            "updated_at": null,
+            "id": "lnuqs3nz5ubfc83wq9hjj1xm",
+            "name": "Stadtwache von Waterdeep",
+            "aliases": [],
+            "type": null,
+            "description": "Die Stadtwache von Waterdeep ist eine autorisierte Organisation, die für die Sicherheit und Ordnung in der Stadt verantwortlich ist. Sie arbeitet in Zusammenarbeit mit der Hafenwache und anderen militärischen Einheiten, um die Einhaltung der Gesetze zu gewährleisten und die Stadt vor Bedrohungen zu schützen. Die Stadtwache hat eine Präsenz am Hafen, wo sie ankommende Schiffe und deren Besatzungen kontrolliert und zur Zollabhandlung auffordert.\nDie Stadtwache koordiniert die Ankunft von Reisenden in Waterdeep. Sie empfängt Reisende am Dock und leitet sie in eine Kutsche zur Befragung. Während dieser Befragung bleiben die Reisenden unbewaffnet, jedoch nicht gefesselt. Die Stadtwache überwacht auch den Konvoi, der die Reisenden nach Briarwatch eskortiert, und bleibt am Stadttor zurück, während berittene Soldaten mit unbekanntem Wappen die Kutschen weiter begleiten.\nDie Stadtwache führt ihre Aufgaben effizient aus, indem sie schnell berittene Truppen entsendet und die bürokratischen Abläufe im Torhaus von Briarwatch abwickelt.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": true
+        },
+        {
+            "created_at": "2026-02-21T09:32:18.325000",
+            "updated_at": null,
+            "id": "lac78nbdy0hlpmb0gt2i76sj",
+            "name": "Niewinter Stadtwache",
+            "aliases": [],
+            "type": null,
+            "description": "Die Stadtwache ist eine militärische Organisation, die in Niewinter für die Sicherheit und Ordnung verantwortlich ist. Sie hat ihren Sitz im kreuzförmigen Wachhaus nahe dem Hafen und ist Teil der Lords Alliance. Die Stadtwache hat Einfluss auf die Stadtverwaltung und ist befugt, Bürger zu befragen sowie bei der Aufrechterhaltung der Sicherheit zu helfen.\n\nDie Stadtwache ist mit der Untersuchung von Vorfällen im südöstlichen Distrikt betraut, wo es in der Vergangenheit zu Angriffen durch Barghests und Bärgoblins kam. Sie informierte eine Gruppe, die Niewinter erreichte, über die Bedrohung durch die Zentharim, eine kriminelle Organisation, und bat um Unterstützung bei den Ermittlungen im südlichen Distrikt, da nicht genügend Truppen zur Verfügung standen. Die Stadtwache stellte eine angemessene Belohnung in Aussicht, um den Riss zu verhindern, der durch die Zentharim bedroht wurde. Zwei Stadtwachen, Jax und River, schlossen sich der Gruppe an, um sie im Krisengebiet zu unterstützen. Während eines Einsatzes im südlichen Distrikt schossen die Stadtwachen mit Armbrüsten auf fliehende Verdächtige und halfen bei der Festnahme von drei Personen zur Befragung.\n\nDie Stadtwache von Niewinter hat sich aktiv an der Sicherung eines Risses beteiligt, der von Kultisten, die als Zentharim vermutet werden, bedroht wurde. Durch Festnahmen und Befragungen wurde die Stadtwache überzeugt, dass es wichtig ist, diesen Riss zu sichern, was zur Stabilität von Niewinter beitrug. Die Stadtwache arbeitete in Zusammenarbeit mit den Magiern der Stadt, um die Gefahren zu bannen. Nach der Stabilisierung der Stadt wurde ein Bote von Briarwatch entsandt, um die Gruppe um Gwendolyn Silverflame nach Waterdeep einzuladen. Die Stadtwache war auch an der Überwachung und Kontrolle der Ankunft von Reisenden in Waterdeep beteiligt und bildete zusammen mit der Hafenwache und anderen Soldaten ein Empfangskomitee.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": true
+        }
+    ],
+    "from": 1,
+    "last_page": 1,
+    "per_page": 20,
+    "to": 6,
+    "total": 6
+}

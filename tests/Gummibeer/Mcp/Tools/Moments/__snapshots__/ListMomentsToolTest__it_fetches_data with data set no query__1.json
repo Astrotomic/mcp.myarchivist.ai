@@ -6,220 +6,301 @@
             "updated_at": null,
             "id": "butlp7odsnxj02l6lwc5wtvr",
             "label": "Die Hohepriesterin fragt Surina",
-            "content": "Während die Gruppe in der Diskussion über die Dinge, die sie entwendet haben, vertieft ist, tritt die [[Hohepriesterin]] ein und schaut verwirrt auf die Anwesenden. Sie fragt: \"Wie habt ihr das gemacht?\" Surina, die [[Drachenherrin]], antwortet, dass sie sich mit [[Auriel]] gut versteht, und erklärt, dass ihre Religion und Glaubenssache mit [[Auriel]] verbunden ist. Die [[Hohepriesterin]], halb Kreidebleich, macht einen Schritt zurück und scheint von Surinas Antwort überrascht zu sein. Die Situation bleibt angespannt, während die Gruppe versucht, die [[Hohepriesterin]] von ihren Absichten zu überzeugen.",
+            "content": "Während die Gruppe in der Diskussion über die Dinge, die sie entwendet haben, vertieft ist, tritt die Hohepriesterin ein und schaut verwirrt auf die Anwesenden. Sie fragt: \"Wie habt ihr das gemacht?\" Surina, die Drachenherrin, antwortet, dass sie sich mit Auriel gut versteht, und erklärt, dass ihre Religion und Glaubenssache mit Auriel verbunden ist. Die Hohepriesterin, halb Kreidebleich, macht einen Schritt zurück und scheint von Surinas Antwort überrascht zu sein. Die Situation bleibt angespannt, während die Gruppe versucht, die Hohepriesterin von ihren Absichten zu überzeugen.",
             "image": null,
+            "index": 546,
+            "categories": [
+                "Intrigue",
+                "Conflict"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpbdnlls000004l15qelefj9",
-            "index": 546
+            "session_id": "cmpbdnlls000004l15qelefj9"
         },
         {
             "created_at": "2026-05-18T16:55:22.523000",
             "updated_at": null,
             "id": "co3jawg4k7iyta0q85byrfq9",
             "label": "Dîn-io erhält die Woodcarver’s Tools",
-            "content": "Titel: [[Dîn-io Tempest]] und die Woodcarver’s Tools\nIn den folgenden Tagen arbeitete [[Dîn-io Tempest]] mehrere Tage für einen [[Holzarbeiter]], um sich die Woodcarver’s Tools zu verdienen. Während dieser Zeit wies Gummibeer Herrmann ihn darauf hin, dass er für seine Arbeit auch Gold erhalten würde. [[Dîn-io]] äußerte den Wunsch, die Woodcarver’s Tools zu haben, und plante, zusätzlich Kräuter zu sammeln. Schließlich erhielt er die Werkzeuge und verdiente damit auch etwas Gold, was ihm half, seine finanziellen Mittel zu verbessern.",
+            "content": "Titel: Dîn-io Tempest und die Woodcarver’s Tools\nIn den folgenden Tagen arbeitete Dîn-io Tempest mehrere Tage für einen Holzarbeiter, um sich die Woodcarver’s Tools zu verdienen. Während dieser Zeit wies Gummibeer Herrmann ihn darauf hin, dass er für seine Arbeit auch Gold erhalten würde. Dîn-io äußerte den Wunsch, die Woodcarver’s Tools zu haben, und plante, zusätzlich Kräuter zu sammeln. Schließlich erhielt er die Werkzeuge und verdiente damit auch etwas Gold, was ihm half, seine finanziellen Mittel zu verbessern.",
             "image": null,
+            "index": 552,
+            "categories": [
+                "Loot",
+                "Growth"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpbdnlls000004l15qelefj9",
-            "index": 552
+            "session_id": "cmpbdnlls000004l15qelefj9"
         },
         {
             "created_at": "2026-05-18T16:55:22.523000",
             "updated_at": null,
             "id": "cswxukssejzm7arn02s38tri",
             "label": "Surina verteidigt ihre Absichten",
-            "content": "Während einer Diskussion mit der Stadtwache äußerte [[Surina Nemmonis]], dass die Gruppe lediglich einem Verdacht nachgehen wollte, ohne eine endgültige Beschuldigung auszusprechen. Sie erklärte, dass es nicht ihre Absicht sei, einer der Priesterinnen zu unterstellen, dass sie Dinge tut, die nicht im Interesse der Stadt sind. Surina betonte, dass es sich um eine bloße Vermutung handele und dass sie sicherstellen wollten, dass keine üble Nachrede im Spiel sei. Diese Klarstellung kam in einem Moment, in dem die Stadtwache misstrauisch gegenüber den Absichten der Gruppe war. Surina versuchte, die Situation zu entschärfen, indem sie ihre wahren Absichten darlegte und die Vorwürfe zurückwies.",
+            "content": "Während einer Diskussion mit der Stadtwache äußerte Surina Nemmonis, dass die Gruppe lediglich einem Verdacht nachgehen wollte, ohne eine endgültige Beschuldigung auszusprechen. Sie erklärte, dass es nicht ihre Absicht sei, einer der Priesterinnen zu unterstellen, dass sie Dinge tut, die nicht im Interesse der Stadt sind. Surina betonte, dass es sich um eine bloße Vermutung handele und dass sie sicherstellen wollten, dass keine üble Nachrede im Spiel sei. Diese Klarstellung kam in einem Moment, in dem die Stadtwache misstrauisch gegenüber den Absichten der Gruppe war. Surina versuchte, die Situation zu entschärfen, indem sie ihre wahren Absichten darlegte und die Vorwürfe zurückwies.",
             "image": null,
+            "index": 545,
+            "categories": [
+                "Negotiation",
+                "Intrigue"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpbdnlls000004l15qelefj9",
-            "index": 545
+            "session_id": "cmpbdnlls000004l15qelefj9"
         },
         {
             "created_at": "2026-05-18T16:55:22.523000",
             "updated_at": null,
             "id": "f5gg1jujtum8z3bwwq9nr1v8",
             "label": "Einbruch in die Kirche",
-            "content": "In der Dunkelheit schlich die Gruppe in die [[Kirche]] und schloss leise die Tür hinter sich. [[Gwendolyn Silverflame]] berichtete, dass sie sich vorsichtig umschauten, bis sie vor einer verschlossenen Tür standen. Nach einigen Versuchen, unter anderem mit Dolching Reicheisen, gelang es ihnen schließlich, die Tür zu öffnen und einzutreten. Surina, die ein [[Buch]] in der Hand hielt, öffnete es, und plötzlich erschienen Eissäulen, die die anderen drei in Staunen versetzten. Gwendolyn entschied, die [[Truhe]] mit Bannmagie zu öffnen. Sie planten, die Eissäulen in Tücher zu wickeln und in ihre Hotelzimmer zu bringen.",
+            "content": "In der Dunkelheit schlich die Gruppe in die Kirche und schloss leise die Tür hinter sich. Gwendolyn Silverflame berichtete, dass sie sich vorsichtig umschauten, bis sie vor einer verschlossenen Tür standen. Nach einigen Versuchen, unter anderem mit Dolching Reicheisen, gelang es ihnen schließlich, die Tür zu öffnen und einzutreten. Surina, die ein Buch in der Hand hielt, öffnete es, und plötzlich erschienen Eissäulen, die die anderen drei in Staunen versetzten. Gwendolyn entschied, die Truhe mit Bannmagie zu öffnen. Sie planten, die Eissäulen in Tücher zu wickeln und in ihre Hotelzimmer zu bringen.",
             "image": null,
+            "index": 541,
+            "categories": [
+                "Intrigue",
+                "Hijinx"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpbdnlls000004l15qelefj9",
-            "index": 541
+            "session_id": "cmpbdnlls000004l15qelefj9"
         },
         {
             "created_at": "2026-05-18T16:55:22.523000",
             "updated_at": null,
             "id": "g1vbqn8avf8bi1d4g8l0stfw",
             "label": "Die Hohepriesterin spricht mit den Eingefrorenen",
-            "content": "Die [[Hohepriesterin]] wandte sich an [[Dîn-io]] und erklärte, dass sie zunächst allein mit den Eingefrorenen sprechen wolle. [[Dîn-io]] äußerte seine Bedenken über die Situation und fragte, ob die Eingefrorenen nicht glücklicher außerhalb der Zelle wären. Gwendolyn riet ihm, sich wenigstens eine Decke mitzunehmen, um die Kälte zu mildern. [[Dîn-io]] stimmte zu, dass es besser wäre, die Decken zu nutzen, während die anderen in der Stadtwache warten mussten. Schließlich verließ die [[Hohepriesterin]] den Raum, um mit den Eingefrorenen zu sprechen, während die Gruppe in der Zelle zurückblieb.",
+            "content": "Die Hohepriesterin wandte sich an Dîn-io und erklärte, dass sie zunächst allein mit den Eingefrorenen sprechen wolle. Dîn-io äußerte seine Bedenken über die Situation und fragte, ob die Eingefrorenen nicht glücklicher außerhalb der Zelle wären. Gwendolyn riet ihm, sich wenigstens eine Decke mitzunehmen, um die Kälte zu mildern. Dîn-io stimmte zu, dass es besser wäre, die Decken zu nutzen, während die anderen in der Stadtwache warten mussten. Schließlich verließ die Hohepriesterin den Raum, um mit den Eingefrorenen zu sprechen, während die Gruppe in der Zelle zurückblieb.",
             "image": null,
+            "index": 544,
+            "categories": [
+                "Negotiation",
+                "Conflict"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpbdnlls000004l15qelefj9",
-            "index": 544
+            "session_id": "cmpbdnlls000004l15qelefj9"
         },
         {
             "created_at": "2026-05-18T16:55:22.523000",
             "updated_at": null,
             "id": "g6ruou7txq3gu5bf1kyxn78f",
             "label": "Surina füttert das Walross",
-            "content": "[[Surina Nemmonis]], die [[Drachenherrin]], betritt kurz den Raum und bringt dem zur Crew gehörenden Walross etwas zu essen. Währenddessen diskutieren die anderen über die Situation des Walrosses und dessen Rolle in der Gruppe. [[Naevys Nerizana]] äußert, dass das Walross kein richtiges Tier, sondern ein intelligentes Wesen ist, und fragt sich, ob es noch auf dem [[Schiff]] ist. Surina bekräftigt, dass das Walross zur Crew gehört und erwähnt, dass der Zaubertrick, der ihm seinen Kopf wieder anbringt, beeindruckend ist. Die Gruppe amüsiert sich über die Eigenheiten des Walrosses und dessen Bedeutung für ihre Gemeinschaft.",
+            "content": "Surina Nemmonis, die Drachenherrin, betritt kurz den Raum und bringt dem zur Crew gehörenden Walross etwas zu essen. Währenddessen diskutieren die anderen über die Situation des Walrosses und dessen Rolle in der Gruppe. Naevys Nerizana äußert, dass das Walross kein richtiges Tier, sondern ein intelligentes Wesen ist, und fragt sich, ob es noch auf dem Schiff ist. Surina bekräftigt, dass das Walross zur Crew gehört und erwähnt, dass der Zaubertrick, der ihm seinen Kopf wieder anbringt, beeindruckend ist. Die Gruppe amüsiert sich über die Eigenheiten des Walrosses und dessen Bedeutung für ihre Gemeinschaft.",
             "image": null,
+            "index": 554,
+            "categories": [
+                "Banter",
+                "Friendship"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpbdnlls000004l15qelefj9",
-            "index": 554
+            "session_id": "cmpbdnlls000004l15qelefj9"
         },
         {
             "created_at": "2026-05-18T16:55:22.523000",
             "updated_at": null,
             "id": "hkb3g1ali4tpa68dfmo1m8y9",
             "label": "Die Stadtwache bricht die Zellentür auf",
-            "content": "[[Naevys]] meditierte in ihrer Zelle, während [[Brennan]] in der anderen Zelle ruhte. Plötzlich wurde die Stille durch das laute Aufreißen der Zellentür durch die Stadtwache unterbrochen. Die [[Stadtwache von Frozen]] traten ein und begannen, die Gefangenen zu befragen. Die Gruppe, bestehend aus Gwendolyn, Surina und [[Dîn-io]], wartete in ihren [[Zellen]] und beobachtete die Situation. Die Stadtwache war entschlossen, die Kontrolle über die Situation zu übernehmen.",
+            "content": "Naevys meditierte in ihrer Zelle, während Brennan in der anderen Zelle ruhte. Plötzlich wurde die Stille durch das laute Aufreißen der Zellentür durch die Stadtwache unterbrochen. Die Stadtwache von Frozen traten ein und begannen, die Gefangenen zu befragen. Die Gruppe, bestehend aus Gwendolyn, Surina und Dîn-io, wartete in ihren Zellen und beobachtete die Situation. Die Stadtwache war entschlossen, die Kontrolle über die Situation zu übernehmen.",
             "image": null,
+            "index": 547,
+            "categories": [
+                "Conflict",
+                "Suspense"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpbdnlls000004l15qelefj9",
-            "index": 547
+            "session_id": "cmpbdnlls000004l15qelefj9"
         },
         {
             "created_at": "2026-05-18T16:55:22.523000",
             "updated_at": null,
             "id": "kyhtyziqwvz52ralei779i7c",
             "label": "Surina und die Stadtwache",
-            "content": "In einer engen Gasse bemerkten zwei [[Stadtwache von Frozen]] [[Surina Nemmonis]] und forderten sie auf, ihre Waffen auf den Boden zu legen und einen Schritt zurückzutreten. Surina gehorchte und legte ihre Handachs auf den Boden. Die [[Stadtwache von Frozen]] bestanden darauf, dass sie ihre Waffen ablegen, andernfalls würden sie beschlagnahmt. Schließlich legte Surina ihre Waffen ab und trat einen kleinen Schritt zurück, während die [[Stadtwache von Frozen]] sich ihr näherten und sie fragten, ob sie noch etwas in ihren Taschen hätten. Surina begann, ihre Sachen zu zeigen, darunter ihre Wasserflasche und ein Amulett, und erklärte, dass sie auch Kleidung für kaltes Wetter dabei hatte.",
+            "content": "In einer engen Gasse bemerkten zwei Stadtwache von Frozen Surina Nemmonis und forderten sie auf, ihre Waffen auf den Boden zu legen und einen Schritt zurückzutreten. Surina gehorchte und legte ihre Handachs auf den Boden. Die Stadtwache von Frozen bestanden darauf, dass sie ihre Waffen ablegen, andernfalls würden sie beschlagnahmt. Schließlich legte Surina ihre Waffen ab und trat einen kleinen Schritt zurück, während die Stadtwache von Frozen sich ihr näherten und sie fragten, ob sie noch etwas in ihren Taschen hätten. Surina begann, ihre Sachen zu zeigen, darunter ihre Wasserflasche und ein Amulett, und erklärte, dass sie auch Kleidung für kaltes Wetter dabei hatte.",
             "image": null,
+            "index": 550,
+            "categories": [
+                "Conflict",
+                "Negotiation"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpbdnlls000004l15qelefj9",
-            "index": 550
+            "session_id": "cmpbdnlls000004l15qelefj9"
         },
         {
             "created_at": "2026-05-18T16:55:22.523000",
             "updated_at": null,
             "id": "p0qou30itwbg5yvxkmlf8m30",
             "label": "Dîn-io fragt nach Brennans Zustand",
-            "content": "[[Dîn-io]] beugte sich über [[Brennan]] und fragte laut und gedanklich, ob alles in Ordnung sei. Er teilte [[Brennan]] mit, dass er alle hergeholt habe. Währenddessen hörte [[Brennan]] die Stimme der Hochpriesterin in seinem Kopf, die ihn fragte, was mit ihnen passiert sei. [[Dîn-io]] versuchte, [[Brennan]] zu helfen und zu verstehen, was geschehen war. Die Gruppe versuchte, die Geschehnisse zu klären.",
+            "content": "Dîn-io beugte sich über Brennan und fragte laut und gedanklich, ob alles in Ordnung sei. Er teilte Brennan mit, dass er alle hergeholt habe. Währenddessen hörte Brennan die Stimme der Hochpriesterin in seinem Kopf, die ihn fragte, was mit ihnen passiert sei. Dîn-io versuchte, Brennan zu helfen und zu verstehen, was geschehen war. Die Gruppe versuchte, die Geschehnisse zu klären.",
             "image": null,
+            "index": 542,
+            "categories": [
+                "Suspense",
+                "Conflict"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpbdnlls000004l15qelefj9",
-            "index": 542
+            "session_id": "cmpbdnlls000004l15qelefj9"
         },
         {
             "created_at": "2026-05-18T16:55:22.523000",
             "updated_at": null,
             "id": "quit40z93m32alg9218prm70",
             "label": "Dîn-io und Surina planen die Lösung des Problems",
-            "content": "[[Dîn-io Tempest]] äußerte sich besorgt über die Situation und sagte: \"So viel passiert und dass wir das irgendwie wegkriegen und jetzt wenn wir das zurückgeben dann hilft uns das doch auch nicht.\" Er betonte, dass sie nicht einfach zurückkehren könnten, ohne die Dinge zu klären, und dass sie wie nach einem harten Kampf aussehen müssten. [[Surina Nemmonis]] stimmte ihm zu und fügte hinzu, dass sie die Rente unterbrechen müsse, um die Angelegenheit bis zum Morgengrauen zu klären. Daraufhin erklärte [[Dîn-io]], dass er und Surina versuchen würden, das Problem zu lösen. Die Gruppe begann, über ihre nächsten Schritte nachzudenken.",
+            "content": "Dîn-io Tempest äußerte sich besorgt über die Situation und sagte: \"So viel passiert und dass wir das irgendwie wegkriegen und jetzt wenn wir das zurückgeben dann hilft uns das doch auch nicht.\" Er betonte, dass sie nicht einfach zurückkehren könnten, ohne die Dinge zu klären, und dass sie wie nach einem harten Kampf aussehen müssten. Surina Nemmonis stimmte ihm zu und fügte hinzu, dass sie die Rente unterbrechen müsse, um die Angelegenheit bis zum Morgengrauen zu klären. Daraufhin erklärte Dîn-io, dass er und Surina versuchen würden, das Problem zu lösen. Die Gruppe begann, über ihre nächsten Schritte nachzudenken.",
             "image": null,
+            "index": 548,
+            "categories": [
+                "Conflict",
+                "Negotiation"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpbdnlls000004l15qelefj9",
-            "index": 548
+            "session_id": "cmpbdnlls000004l15qelefj9"
         },
         {
             "created_at": "2026-05-18T16:55:22.523000",
             "updated_at": null,
             "id": "roawnzla5lm83rod4faxm2ap",
             "label": "Verkauf von Eisspinnenhaaren",
-            "content": "[[Naevys Nerizana]] suchte nach Käufern für die von ihr gesammelten Haare der Eisspinnen. Nachdem sie einige Optionen in Betracht gezogen hatte, wandte sie sich an eine [[Hohepriesterin]]. Die [[Hohepriesterin]] betrachtete die Spinnenhaare sorgfältig mit einer Lupe und stellte fest, dass eines der Haare in gutem Zustand war. \"Ihr Gold kann ich euch geben\", sagte sie und bot [[Naevys]] an, das brauchbare Spinnenhaar zu kaufen. [[Naevys]] akzeptierte das Angebot und erhielt dafür ihre Münzen.",
+            "content": "Naevys Nerizana suchte nach Käufern für die von ihr gesammelten Haare der Eisspinnen. Nachdem sie einige Optionen in Betracht gezogen hatte, wandte sie sich an eine Hohepriesterin. Die Hohepriesterin betrachtete die Spinnenhaare sorgfältig mit einer Lupe und stellte fest, dass eines der Haare in gutem Zustand war. \"Ihr Gold kann ich euch geben\", sagte sie und bot Naevys an, das brauchbare Spinnenhaar zu kaufen. Naevys akzeptierte das Angebot und erhielt dafür ihre Münzen.",
             "image": null,
+            "index": 553,
+            "categories": [
+                "Negotiation",
+                "Loot"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpbdnlls000004l15qelefj9",
-            "index": 553
+            "session_id": "cmpbdnlls000004l15qelefj9"
         },
         {
             "created_at": "2026-05-18T16:55:22.523000",
             "updated_at": null,
             "id": "s81abv92pgylz7alj4lqm7s9",
             "label": "Dîn-io und die magische Wolke",
-            "content": "[[Dîn-io Tempest]] schickte seine kleine magische Wolke zwischen den Häusern hindurch, um das Fenster und den Weg ins Innere zu erkunden. Während er sich vorsichtig an die Bäume schlich, bemerkte [[Surina Nemmonis]], dass [[Dîn-io]] mit seiner Wolke herauskam, die nun nicht mehr leise war, da sie sich wie ein Gespensterumhang überziehen musste. [[Dîn-io]] konzentrierte sich darauf, die Rüstungen und andere Gegenstände zu transportieren, während er die Umgebung im Auge behielt. Die Wolke versuchte weiterhin, die Sachen herauszuschütteln. Die Gruppe wartete angespannt auf die Rückkehr der [[Stadtwache von Frozen]].",
+            "content": "Dîn-io Tempest schickte seine kleine magische Wolke zwischen den Häusern hindurch, um das Fenster und den Weg ins Innere zu erkunden. Während er sich vorsichtig an die Bäume schlich, bemerkte Surina Nemmonis, dass Dîn-io mit seiner Wolke herauskam, die nun nicht mehr leise war, da sie sich wie ein Gespensterumhang überziehen musste. Dîn-io konzentrierte sich darauf, die Rüstungen und andere Gegenstände zu transportieren, während er die Umgebung im Auge behielt. Die Wolke versuchte weiterhin, die Sachen herauszuschütteln. Die Gruppe wartete angespannt auf die Rückkehr der Stadtwache von Frozen.",
             "image": null,
+            "index": 551,
+            "categories": [
+                "Intrigue",
+                "Chaos"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpbdnlls000004l15qelefj9",
-            "index": 551
+            "session_id": "cmpbdnlls000004l15qelefj9"
         },
         {
             "created_at": "2026-05-18T16:55:22.523000",
             "updated_at": null,
             "id": "wcar6qntk4xjtil858nlpow7",
             "label": "Dîn-io berichtet von Kämpfen in der Kirche",
-            "content": "[[Dîn-io Tempest]] schilderte der [[Hohepriesterin]], dass in der [[Kirche]] gegen Diebe gekämpft worden sei. Er erklärte, dass er versucht hatte, die Eindringlinge aufzuhalten, da sie in das Büro der [[Kirche]] eindringen wollten. Trotz seiner Bemühungen hatten die Diebe bereits alles aufgebrochen, und es kam zu einem Kampf. [[Dîn-io]] betonte, dass er dachte, er könnte es alleine schaffen, aber letztendlich war er froh, dass seine Freunde ihn gefunden hatten, als die Situation eskalierte. Er berichtete, dass sie gegen die Diebe gekämpft hatten und nun hier waren, um die Geschehnisse zu klären.",
+            "content": "Dîn-io Tempest schilderte der Hohepriesterin, dass in der Kirche gegen Diebe gekämpft worden sei. Er erklärte, dass er versucht hatte, die Eindringlinge aufzuhalten, da sie in das Büro der Kirche eindringen wollten. Trotz seiner Bemühungen hatten die Diebe bereits alles aufgebrochen, und es kam zu einem Kampf. Dîn-io betonte, dass er dachte, er könnte es alleine schaffen, aber letztendlich war er froh, dass seine Freunde ihn gefunden hatten, als die Situation eskalierte. Er berichtete, dass sie gegen die Diebe gekämpft hatten und nun hier waren, um die Geschehnisse zu klären.",
             "image": null,
+            "index": 543,
+            "categories": [
+                "Conflict",
+                "Suspense"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpbdnlls000004l15qelefj9",
-            "index": 543
+            "session_id": "cmpbdnlls000004l15qelefj9"
         },
         {
             "created_at": "2026-05-18T16:55:22.523000",
             "updated_at": null,
             "id": "xvlax0h87bbuawj560rx3pfn",
             "label": "Dîn-io und Auriel: Ein gereizter Austausch",
-            "content": "[[Dîn-io Tempest]], der Genasi mit blauer Haut, äußerte, dass [[Auriel]] ihm \"geholfen\" habe, was zu einer gereizten Reaktion von [[Auriel]] führte. [[Surina Nemmonis]], die [[Drachenherrin]], kommentierte die Situation und bemerkte, dass es \"nett\" sei, auch wenn es \"ein bisschen hart\" war. [[Dîn-io]] widersprach und sagte, dass er [[Auriel]] gar nicht nett fände. In diesem Moment hörten sie Auriels Stimme in ihren Köpfen, die fragte, ob sie nicht finden würden, dass sie nett sei. [[Dîn-io]] entgegnete, dass dies nicht der Fall sei und dass es auch nicht ihr Problem sei, wenn sie die Dinge nicht zurückbekämen.",
+            "content": "Dîn-io Tempest, der Genasi mit blauer Haut, äußerte, dass Auriel ihm \"geholfen\" habe, was zu einer gereizten Reaktion von Auriel führte. Surina Nemmonis, die Drachenherrin, kommentierte die Situation und bemerkte, dass es \"nett\" sei, auch wenn es \"ein bisschen hart\" war. Dîn-io widersprach und sagte, dass er Auriel gar nicht nett fände. In diesem Moment hörten sie Auriels Stimme in ihren Köpfen, die fragte, ob sie nicht finden würden, dass sie nett sei. Dîn-io entgegnete, dass dies nicht der Fall sei und dass es auch nicht ihr Problem sei, wenn sie die Dinge nicht zurückbekämen.",
             "image": null,
+            "index": 549,
+            "categories": [
+                "Banter",
+                "Conflict"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpbdnlls000004l15qelefj9",
-            "index": 549
+            "session_id": "cmpbdnlls000004l15qelefj9"
         },
         {
             "created_at": "2026-05-13T20:21:42.434000",
             "updated_at": null,
             "id": "ac7vimkq793qaf9xznw4paeo",
             "label": "Gwendolyns Flügelkontrolle",
-            "content": "Der infernalische Kommandant bot [[Gwendolyn Silverflame]] im Austausch gegen die [[Frostscherbe]] an, ihre Flammenflügel dauerhaft unter seine Kontrolle zu bringen. Während des Handels packte er Gwendolyns Unterarm und leitete Wärme in ihren Arm und Rücken, was dazu führte, dass ihre Flügel plötzlich aus ihrem Rücken hervorbrachen. Nachdem der Kommandant die [[Frostscherbe]] an sich genommen hatte, erklärte er: „Der Vertrag wurde erfüllt. Es war schön mit euch Geschäfte zu machen.“ Gwendolyn bedankte sich und äußerte, dass sie die Kontrolle über ihre Flügel nun behalten könne. Surina, die die [[Frostscherbe]] gesenkt hatte, akzeptierte Gwendolyns Entscheidung und wünschte ihr viel Freude mit ihrer neuen Fähigkeit.",
+            "content": "Der infernalische Kommandant bot Gwendolyn Silverflame im Austausch gegen die Frostscherbe an, ihre Flammenflügel dauerhaft unter seine Kontrolle zu bringen. Während des Handels packte er Gwendolyns Unterarm und leitete Wärme in ihren Arm und Rücken, was dazu führte, dass ihre Flügel plötzlich aus ihrem Rücken hervorbrachen. Nachdem der Kommandant die Frostscherbe an sich genommen hatte, erklärte er: „Der Vertrag wurde erfüllt. Es war schön mit euch Geschäfte zu machen.“ Gwendolyn bedankte sich und äußerte, dass sie die Kontrolle über ihre Flügel nun behalten könne. Surina, die die Frostscherbe gesenkt hatte, akzeptierte Gwendolyns Entscheidung und wünschte ihr viel Freude mit ihrer neuen Fähigkeit.",
             "image": null,
+            "index": 539,
+            "categories": [
+                "Betrayal",
+                "Negotiation",
+                "Heroism"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmp49egl1000204if2fmow69m",
-            "index": 539
+            "session_id": "cmp49egl1000204if2fmow69m"
         },
         {
             "created_at": "2026-05-13T20:21:42.434000",
             "updated_at": null,
             "id": "bdmtikv33i51plr5hfgdc01c",
             "label": "Dîn-io bedrängt Steve mit Fragen",
-            "content": "[[korva]] hielt den befreiten Mann, den die Gruppe als [[Steve]] kannte, am Baum fest und stellte ihm drängende Fragen. [[Steve]] antwortete, dass seine Leute vor allem Töchtern, Söhnen und anderen Angehörigen adeliger Häuser geholfen hätten, ihre Familien zu verlassen. [[Dîn-io]], mit fester Hand am Nacken des Mannes, drehte ihn in Richtung der nachschwebenden Frauen. Die Situation war angespannt, und [[Dîn-io]] war bereit, weitere Informationen zu erlangen, um die Hintergründe zu verstehen.",
+            "content": "korva hielt den befreiten Mann, den die Gruppe als Steve kannte, am Baum fest und stellte ihm drängende Fragen. Steve antwortete, dass seine Leute vor allem Töchtern, Söhnen und anderen Angehörigen adeliger Häuser geholfen hätten, ihre Familien zu verlassen. Dîn-io, mit fester Hand am Nacken des Mannes, drehte ihn in Richtung der nachschwebenden Frauen. Die Situation war angespannt, und Dîn-io war bereit, weitere Informationen zu erlangen, um die Hintergründe zu verstehen.",
             "image": null,
+            "index": 527,
+            "categories": [
+                "Intrigue",
+                "Conflict"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmp49egl1000204if2fmow69m",
-            "index": 527
+            "session_id": "cmp49egl1000204if2fmow69m"
         },
         {
             "created_at": "2026-05-13T20:21:42.434000",
             "updated_at": null,
             "id": "cl2ea7xsjt3i6ijgyhmcke8i",
             "label": "Konfrontation mit dem infernalischen Schreiber",
-            "content": "Beim Betreten des Haupthauses wurden die Abenteurer von einem infernalischen [[Schreiber]] aufgehalten, der auf die echten Namen bestand. [[Surina Nemmonis]] fragte, wie sie die fliegende Schlange, die vor drei Tagen eingeliefert worden war, zurückbekommen könne, da die Nighthag ihr versichert hatte, dass sie sie zurückerhalten würde. Der [[Schreiber]] erklärte, dass sie einen Nachweis von der Nighthag benötige, um die Schlange sofort zu beanspruchen. Der infernalische Kommandant stellte fest, dass die [[Herzogin]] sich noch auf dem Gelände befand und ihre Auslieferung von Interesse sei. Surina zeigte sich erleichtert, als der [[Schreiber]] bestätigte, dass sie nicht auf der Liste stand und somit frei war, zu gehen.",
+            "content": "Beim Betreten des Haupthauses wurden die Abenteurer von einem infernalischen Schreiber aufgehalten, der auf die echten Namen bestand. Surina Nemmonis fragte, wie sie die fliegende Schlange, die vor drei Tagen eingeliefert worden war, zurückbekommen könne, da die Nighthag ihr versichert hatte, dass sie sie zurückerhalten würde. Der Schreiber erklärte, dass sie einen Nachweis von der Nighthag benötige, um die Schlange sofort zu beanspruchen. Der infernalische Kommandant stellte fest, dass die Herzogin sich noch auf dem Gelände befand und ihre Auslieferung von Interesse sei. Surina zeigte sich erleichtert, als der Schreiber bestätigte, dass sie nicht auf der Liste stand und somit frei war, zu gehen.",
             "image": null,
+            "index": 538,
+            "categories": [
+                "Intrigue",
+                "Conflict"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmp49egl1000204if2fmow69m",
-            "index": 538
+            "session_id": "cmp49egl1000204if2fmow69m"
         },
         {
             "created_at": "2026-05-13T20:21:42.434000",
             "updated_at": null,
             "id": "cl456sk9tpmto5g8pbrgqctb",
             "label": "Enthüllung von Doran und Aurelian",
-            "content": "[[Naevys Nerizana]] setzte den gefangenen [[Steve]] unter Druck und erfuhr, dass sein Auftrag das Befreien weiterer Sklaven war. Bei der Erwähnung der [[Lilie]] zeichnete [[Naevys]] das Zeichen, woraufhin der Gefangene sein Auftreten änderte und sich als [[Doran]] vorstellte. [[Doran]] informierte [[Naevys]], dass sein Vater [[Aurelian]] noch lebt und sich in Calimport aufhält. [[Naevys]] äußerte, dass sie ihm vertraue, nachdem sie ihre Selbstverständnisse ausgeräumt hatten. Sie wollte sicherstellen, dass es nicht zu Missverständnissen kommt und bot [[Doran]] an, sich der Gruppe vorzustellen.",
+            "content": "Naevys Nerizana setzte den gefangenen Steve unter Druck und erfuhr, dass sein Auftrag das Befreien weiterer Sklaven war. Bei der Erwähnung der Lilie zeichnete Naevys das Zeichen, woraufhin der Gefangene sein Auftreten änderte und sich als Doran vorstellte. Doran informierte Naevys, dass sein Vater Aurelian noch lebt und sich in Calimport aufhält. Naevys äußerte, dass sie ihm vertraue, nachdem sie ihre Selbstverständnisse ausgeräumt hatten. Sie wollte sicherstellen, dass es nicht zu Missverständnissen kommt und bot Doran an, sich der Gruppe vorzustellen.",
             "image": null,
+            "index": 537,
+            "categories": [
+                "Revelation",
+                "Intrigue"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmp49egl1000204if2fmow69m",
-            "index": 537
+            "session_id": "cmp49egl1000204if2fmow69m"
         },
         {
             "created_at": "2026-05-13T20:21:42.434000",
             "updated_at": null,
             "id": "cw27d9txv9iuhav22x7gm7rl",
             "label": "Gwendolyn entdeckt Höllenwesen auf Briarwatch",
-            "content": "[[Gwendolyn Silverflame]] suchte auf Briarwatch nach magischen Geheimgängen, fand jedoch nichts. Während sie die Umgebung beobachtete, sah sie, wie [[Infernalische Vollstrecker]] sich öffneten und Ketten herausschossen, die markierte Objekte in die Kästen zogen. Sie erkannte die Wesen, die diese Kästen bedienten, als Kreaturen aus der Hölle. Über ihren Kommunikationsstein meldete sie die Situation und erfuhr von möglichen nächsten Aufträgen. Gwendolyn stellte fest, dass die Höllenwesen eine gezielte Absicht verfolgten.",
+            "content": "Gwendolyn Silverflame suchte auf Briarwatch nach magischen Geheimgängen, fand jedoch nichts. Während sie die Umgebung beobachtete, sah sie, wie Infernalische Vollstrecker sich öffneten und Ketten herausschossen, die markierte Objekte in die Kästen zogen. Sie erkannte die Wesen, die diese Kästen bedienten, als Kreaturen aus der Hölle. Über ihren Kommunikationsstein meldete sie die Situation und erfuhr von möglichen nächsten Aufträgen. Gwendolyn stellte fest, dass die Höllenwesen eine gezielte Absicht verfolgten.",
             "image": null,
+            "index": 536,
+            "categories": [
+                "Intrigue",
+                "Conflict"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmp49egl1000204if2fmow69m",
-            "index": 536
+            "session_id": "cmp49egl1000204if2fmow69m"
         },
         {
             "created_at": "2026-05-13T20:21:42.434000",
             "updated_at": null,
             "id": "ebzdv19r49n4n0thayhw139b",
             "label": "Die Ansage des 9. Registers",
-            "content": "Aus den Ruinen des Haupthauses ertönt eine Stimme, die eine formelle Ansage macht. \"Nach der hinterlegten Klauseln des Hausfriedens wird Pfandnahme verfügt. Eigentum und Widerstand werden als Behinderung einer rechtmäßigen Vollstreckung gewertet,\" erklärt die Stimme. [[Gwendolyn Silverflame]] bemerkt, dass ihr die Stimme bekannt vorkommt, während [[Surina Nemmonis]] und die anderen sich auf ihre eigenen Ziele konzentrieren. Die Atmosphäre ist angespannt, als die Worte durch die Ruinen hallen und die Charaktere sich auf die bevorstehenden Herausforderungen vorbereiten.",
+            "content": "Aus den Ruinen des Haupthauses ertönt eine Stimme, die eine formelle Ansage macht. \"Nach der hinterlegten Klauseln des Hausfriedens wird Pfandnahme verfügt. Eigentum und Widerstand werden als Behinderung einer rechtmäßigen Vollstreckung gewertet,\" erklärt die Stimme. Gwendolyn Silverflame bemerkt, dass ihr die Stimme bekannt vorkommt, während Surina Nemmonis und die anderen sich auf ihre eigenen Ziele konzentrieren. Die Atmosphäre ist angespannt, als die Worte durch die Ruinen hallen und die Charaktere sich auf die bevorstehenden Herausforderungen vorbereiten.",
             "image": null,
+            "index": 529,
+            "categories": [
+                "Intrigue",
+                "Conflict"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmp49egl1000204if2fmow69m",
-            "index": 529
+            "session_id": "cmp49egl1000204if2fmow69m"
         }
     ],
     "from": 1,

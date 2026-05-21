@@ -2,240 +2,350 @@
     "current_page": 1,
     "data": [
         {
+            "created_at": "2026-03-18T21:05:58.025000",
+            "updated_at": null,
             "id": "cmmwj6k9o00000i8g38tra5i0",
             "label": "Morvain returns dressed to dining room",
+            "description": "Morvain war in den Garten gegangen und hatte sich wieder angezogen, während der Rest der Gruppe im großen Empfangsspeisezimmer am Tisch saß und Nachtisch aß.",
             "type": "step",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": "cmmwj8tlb002m0i8grppik165",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmwb2jqn000004jrqzwdmmx5"
             ],
             "game_session_id": "cmmwb2jqn000004jrqzwdmmx5"
         },
         {
+            "created_at": "2026-03-18T21:07:43.235000",
+            "updated_at": null,
             "id": "cmmwj8tga002l0i8gm3ql1vkh",
             "label": "Nachtisch und erstes Trinkspiel",
+            "description": "Die Gruppe aß im großen Empfangsspeisezimmer Nachtisch und begann ein Trinkspiel. Bei der ersten Runde tranken Korvathun, Brennen Voidridge, Surina und Gwendolyn; Surina fiel nach ihrem Krug bewusstlos zu Boden. Korvathun trug sie ins Gästezimmer und legte sie ins Bett, während Gwendolyn bei ihr blieb. Anschließend folgten eine zweite Trinkrunde, ein starkes Erbrechen und Maßnahmen zur Beruhigung und Erholung.",
             "type": "major",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmwb2jqn000004jrqzwdmmx5"
             ],
             "game_session_id": "cmmwb2jqn000004jrqzwdmmx5"
         },
         {
+            "created_at": "2026-03-18T21:07:43.423000",
+            "updated_at": null,
             "id": "cmmwj8tlb002m0i8grppik165",
             "label": "Dessert und erstes Trinkspiel",
+            "description": "Während Morvain in den Garten ging, nahm Seraphina zusätzlichen Nachtisch. Brennen Voidridge schlug ein Trinkspiel vor; Korvathun, Gwendolyn und Surina nahmen teil. Seres holte ein Fass Bier, verteilte Krüge, und bei Start tranken die vier gleichzeitig; Gwendolyn war zuerst fertig, Brennen Voidridge rülpste laut, Korvathun bemerkte einen ungewöhnlich starken Geschmack und Surina fiel bewusstlos vom Stuhl. Korvathun untersuchte Surina, stellte Tiefschlaf ohne Giftzeichen fest, und trug sie schließlich ins Schlafzimmer, wo Gwendolyn sich zu ihr legte.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 16,
+                "eventStartIndex": 0
+            },
             "parent_id": "cmmwj8tga002l0i8gm3ql1vkh",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmwb2jqn000004jrqzwdmmx5"
             ],
             "game_session_id": "cmmwb2jqn000004jrqzwdmmx5"
         },
         {
+            "created_at": "2026-03-18T21:07:43.876000",
+            "updated_at": null,
             "id": "cmmwj8txu002q0i8ghx9vzqtc",
             "label": "Gartenverlassen und Nachtstimmung",
+            "description": "Zwei Stunden nach Sonnenuntergang war der Garten dunkel, aber von Laternen erleuchtet. Surina hob Gwendolyn auf die Schultern, und sie verließen mit Brennen Voidridge gemeinsam das Gästehaus in den Garten. Brennen Voidridge sprach über seinen Eindruck von Korvathun und schlug vor, ihm Vorschuss zu geben; Gwendolyn konterte, Vertrauen müsse man sich verdienen.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 36,
+                "eventStartIndex": 34
+            },
             "parent_id": "cmmwj8tur002p0i8gtlayj1d6",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmwb2jqn000004jrqzwdmmx5"
             ],
             "game_session_id": "cmmwb2jqn000004jrqzwdmmx5"
         },
         {
+            "created_at": "2026-03-18T21:07:44.549000",
+            "updated_at": null,
             "id": "cmmwj8ugk002w0i8gvq79nk9f",
             "label": "Feuerkerne und Showeffekt",
+            "description": "Rita bat Gwendolyn um einige Kerne der Blume, legte drei Kerne in einen Becher in der Nähe des schlafenden Brennen Voidridge und bat um eine Flamme. Gwendolyn schnippte eine kleine Feuerkugel in den Becher; es entstand zunächst eine meterhohe Stichflamme, die sich zu einer 30–50 cm hohen Flamme beruhigte und Unruhe auslöste. Rita erklärte das Feuer als Showprogramm, beruhigte die Gäste und schaffte eine kuscheligere Stimmung.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 81,
+                "eventStartIndex": 78
+            },
             "parent_id": "cmmwj8udh002v0i8ghmg321d9",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmwb2jqn000004jrqzwdmmx5"
             ],
             "game_session_id": "cmmwb2jqn000004jrqzwdmmx5"
         },
         {
+            "created_at": "2026-03-19T13:43:59.905000",
+            "updated_at": null,
             "id": "cmmxiu1f600000teue9ysxz9o",
             "label": "Gruppe verlässt Nightstone",
+            "description": "Die Gruppe (Sudur, Flint, Khorum, Alagos) verließ Nightstone und setzte ihre Reise fort.",
             "type": "step",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": "cmmxiup24000b0teuoqdst394",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmxis1is000004js41p8in62"
             ],
             "game_session_id": "cmmxis1is000004js41p8in62"
         },
         {
+            "created_at": "2026-03-19T13:44:30.415000",
+            "updated_at": null,
             "id": "cmmxiuoyn000a0teuau0zs5c3",
             "label": "Aufbruch zum Ardeep Forest",
+            "description": "Die Gruppe verließ Nightstone und folgte gezielt Spuren sowie einer Einladung von Rond, was sie in Richtung eines elfischen Dorfs im Ardeep Forest führte. Dort trafen sie im Dorf ein und erhielten von den Elfen Hinweise auf eine Goblin-Höhle, in der die entführten Bewohner Nightstone vermutet wurden. Die Hinweise bestimmten ihren nächsten Zielort und führten zur Reise zur genannten Goblin-Höhle.",
             "type": "major",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmxis1is000004js41p8in62"
             ],
             "game_session_id": "cmmxis1is000004js41p8in62"
         },
         {
+            "created_at": "2026-03-19T13:44:30.539000",
+            "updated_at": null,
             "id": "cmmxiup24000b0teuoqdst394",
             "label": "Aufbruch und Spurensuche zum Ardeep Forest",
+            "description": "Die Gruppe (Sudur, Flint, Khorum, Alagos) verließ Nightstone, entschied sich, den Spuren zu folgen, und folgte anschließend der Einladung von Rond in Richtung des Ardeep Forest.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 2,
+                "eventStartIndex": 0
+            },
             "parent_id": "cmmxiuoyn000a0teuau0zs5c3",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmxis1is000004js41p8in62"
             ],
             "game_session_id": "cmmxis1is000004js41p8in62"
         },
         {
+            "created_at": "2026-03-19T13:44:30.898000",
+            "updated_at": null,
             "id": "cmmxiupc2000e0teug3wahgjg",
             "label": "Anreise und Betreten der Höhle",
+            "description": "Die Gruppe reiste mit den erhaltenen Hinweisen zur genannten Goblin-Höhle, erreichte sie und betrat anschließend die feuchten Tiefen der Höhle, um sie zu erkunden.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 6,
+                "eventStartIndex": 5
+            },
             "parent_id": "cmmxiup8r000d0teutzmndc5y",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmxis1is000004js41p8in62"
             ],
             "game_session_id": "cmmxis1is000004js41p8in62"
         },
         {
+            "created_at": "2026-03-19T16:38:24.152000",
+            "updated_at": null,
             "id": "cmmxp2boo00001qi18aemqsfu",
             "label": "Gruppe überstand Kampf gegen Schleim",
+            "description": "Die Gruppe überstand zuvor einen kräftezehrenden Kampf gegen einen zähen Schleim.",
             "type": "step",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": "cmmxp3bup000c1qi1jfgf450v",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmxozubl000104jlegt4q501"
             ],
             "game_session_id": "cmmxozubl000104jlegt4q501"
         },
         {
+            "created_at": "2026-03-19T16:39:10.896000",
+            "updated_at": null,
             "id": "cmmxp3br5000b1qi1wouizc2n",
             "label": "Verhandlungen in der Goblin-Höhle",
+            "description": "Die Gruppe drang in die Goblin-Höhle vor, nachdem sie zuvor einen kräftezehrenden Kampf gegen einen zähen Schleim überstanden hatte. Zwischen der Gruppe und den Goblins entwickelte sich eine Verhandlung, wodurch ein weiterer Kampf vermieden wurde. Flint Fireforge nutzte die Goblin-Sprache, um Missverständnisse zu vermeiden. Die Verhandlung führte zur Vereinbarung, die Gefangenen freizulassen, und die entführten Dorfbewohner wurden befreit.",
             "type": "major",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmxozubl000104jlegt4q501"
             ],
             "game_session_id": "cmmxozubl000104jlegt4q501"
         },
         {
+            "created_at": "2026-03-19T16:39:11.024000",
+            "updated_at": null,
             "id": "cmmxp3bup000c1qi1jfgf450v",
             "label": "Vorspiel und Vorstoß in Höhle",
+            "description": "Die Gruppe hatte zuvor einen kräftezehrenden Kampf gegen einen zähen Schleim überstanden. Anschließend drang die Gruppe weiter in die Goblin-Höhle vor. Zwischen der Gruppe und den Goblins entwickelte sich eine Verhandlung, wodurch ein weiterer Kampf vermieden wurde.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 2,
+                "eventStartIndex": 0
+            },
             "parent_id": "cmmxp3br5000b1qi1wouizc2n",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmxozubl000104jlegt4q501"
             ],
             "game_session_id": "cmmxozubl000104jlegt4q501"
         },
         {
+            "created_at": "2026-03-19T16:39:11.382000",
+            "updated_at": null,
             "id": "cmmxp3c4m000f1qi1pb9bnnpe",
             "label": "Rückkehr mit Befreiten nach Nightstone",
+            "description": "Die Gruppe verließ mit den Befreiten die Höhle und trat den Rückweg nach Nightstone an. Die Dorfbewohner wurden in Nightstone in Sicherheit gebracht.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 7,
+                "eventStartIndex": 6
+            },
             "parent_id": "cmmxp3c1d000e1qi1c8a1gbr7",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmxozubl000104jlegt4q501"
             ],
             "game_session_id": "cmmxozubl000104jlegt4q501"
         },
         {
+            "created_at": "2026-03-19T18:06:35.447000",
+            "updated_at": null,
             "id": "cmmxs7qh300000i859cv5grvf",
             "label": "Durchsuchung der Häuser in Nightstone",
+            "description": "Die Gruppe entschied sich, die restlichen Häuser von Nightstone in einem gestrafften, systematischen Vorgehen nach Nützlichem und Wertvollem zu durchsuchen.",
             "type": "step",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": "cmmxs8i58000c0i8526ndti2g",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmxramg6000004ickfomzviu"
             ],
             "game_session_id": "cmmxramg6000004ickfomzviu"
         },
         {
+            "created_at": "2026-03-19T18:07:11.219000",
+            "updated_at": null,
             "id": "cmmxs8i2n000b0i85qbkswjgs",
             "label": "Aufräumen und Sicherung Nightstone",
+            "description": "Die Gruppe durchsuchte die restlichen Häuser von Nightstone in einem gestrafften, systematischen Vorgehen und führte die Durchsuchung der verbliebenen Gebäude in verkürzter Form durch. Sie führte weitere Gespräche mit Kella Darkhope und befragte sie erneut. Die Gruppe stimmte sich mit den verbliebenen Stadtwachen von Nightstone über die weitere Zukunft des Ortes ab.",
             "type": "major",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmxramg6000004ickfomzviu"
             ],
             "game_session_id": "cmmxramg6000004ickfomzviu"
         },
         {
+            "created_at": "2026-03-19T18:07:11.312000",
+            "updated_at": null,
             "id": "cmmxs8i58000c0i8526ndti2g",
             "label": "Systematische Durchsuchung der Häuser",
+            "description": "Die Gruppe entschied sich, die restlichen Häuser von Nightstone systematisch nach Nützlichem und Wertvollem zu durchsuchen. Sie durchsuchte die verbliebenen Gebäude in verkürzter Form.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 1,
+                "eventStartIndex": 0
+            },
             "parent_id": "cmmxs8i2n000b0i85qbkswjgs",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmxramg6000004ickfomzviu"
             ],
             "game_session_id": "cmmxramg6000004ickfomzviu"
         },
         {
+            "created_at": "2026-03-19T18:07:11.630000",
+            "updated_at": null,
             "id": "cmmxs8ie1000f0i85ogk3imk5",
             "label": "Vorbereitung und Handelsüberlegung mit Elfen",
+            "description": "Die Gruppe traf Vorbereitungen für die Reise in ein Elfen-Dorf. Es wurde erwogen, mit den Elfen funktionierende, friedliche Handelsbeziehungen aufzubauen, nachdem Flint Fireforge einen aggressiven Vorschlag gemacht hatte, den Wald anzuzünden und Elfenkarawanen anzugreifen.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 6,
+                "eventStartIndex": 4
+            },
             "parent_id": "cmmxs8ibl000e0i85b05irtzs",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmxramg6000004ickfomzviu"
             ],
             "game_session_id": "cmmxramg6000004ickfomzviu"
         },
         {
+            "created_at": "2026-03-20T14:21:54.895000",
+            "updated_at": null,
             "id": "cmmyzmnhb00001fgrga4iv9kv",
             "label": "Gruppe kehrt nach Nightstone zurück",
+            "description": "Die Gruppe kehrte nach Nightstone zurück.",
             "type": "step",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": "cmmyznccx00091fgr24xfdcgx",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmyzkvk0000004l53v8oqnwc"
             ],
             "game_session_id": "cmmyzkvk0000004l53v8oqnwc"
         },
         {
+            "created_at": "2026-03-20T14:22:27.015000",
+            "updated_at": null,
             "id": "cmmyznc9j00081fgr75hc7rmb",
             "label": "Durchsuchung der Festung Nightstone",
+            "description": "Die Gruppe kehrte nach Nightstone zurück und entschied sich, die Festung vor dem Aufbruch in den Ardeep Forest ein letztes Mal gründlich zu durchsuchen. Sie betrat die Festung erneut und begann eine systematische, vorsichtige Durchsuchung der Trümmer und Gemächer. Während der Durchsuchung entdeckte die Gruppe ein magisches Schwert und nahm es an sich.",
             "type": "major",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmyzkvk0000004l53v8oqnwc"
             ],
             "game_session_id": "cmmyzkvk0000004l53v8oqnwc"
         },
         {
+            "created_at": "2026-03-20T14:22:27.137000",
+            "updated_at": null,
             "id": "cmmyznccx00091fgr24xfdcgx",
             "label": "Rückkehr und Entscheidung zur Durchsuchung",
+            "description": "Die Gruppe kehrte nach Nightstone zurück, entschied sich, die Festung ein letztes Mal gründlich zu durchsuchen, und betrat die Festung erneut, um systematisch und vorsichtig die Trümmer und Gemächer nach Ressourcen, Gegenständen oder Hinweisen zu durchsuchen.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 2,
+                "eventStartIndex": 0
+            },
             "parent_id": "cmmyznc9j00081fgr75hc7rmb",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmyzkvk0000004l53v8oqnwc"
             ],

@@ -1,0 +1,39 @@
+{
+    "current_page": 1,
+    "data": [
+        {
+            "created_at": "2026-03-20T14:23:17.455000",
+            "updated_at": null,
+            "id": "nabj5i8w19uqa8n6bcz63yfn",
+            "name": "magisches Schwert",
+            "aliases": [
+                "ein magisches Schwert",
+                "das magische Schwert"
+            ],
+            "type": null,
+            "description": "Das magische Schwert wurde in der Festung Nightstone entdeckt. Es handelt sich um eine Waffe, die sich deutlich von gewöhnlicher Ausrüstung abhebt. Die Gruppe nahm das Schwert an sich, nachdem sie es in den Trümmern und Gemächern der Festung gefunden hatte.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-03-04T21:13:23.944000",
+            "updated_at": null,
+            "id": "b8otu9fj4md6lewxdc289yyg",
+            "name": "Drachenschlächter‑Langschwert",
+            "aliases": [],
+            "type": null,
+            "description": "Das Drachenschlächter-Langschwert ist eine Waffe, die von Gwendolyn Silverflame an Surina Nemmonis übergeben wurde. Es handelt sich um ein großes Schwert, das in der Gruppe als untypisch wahrgenommen wird. Gwendolyn Silverflame übergab das Drachenschlächter-Langschwert zusammen mit weiterer Ausrüstung.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        }
+    ],
+    "from": 1,
+    "last_page": 1,
+    "per_page": 20,
+    "to": 2,
+    "total": 2
+}

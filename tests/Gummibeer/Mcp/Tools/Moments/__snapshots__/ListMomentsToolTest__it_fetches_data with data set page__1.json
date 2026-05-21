@@ -6,110 +6,151 @@
             "updated_at": null,
             "id": "jt5iuj21tdkeqnyx14dehnq0",
             "label": "Ankunft auf dem Luftschiff",
-            "content": "[[Gwendolyn Silverflame]] schoss ein Signal in den Himmel, als sich ein [[Luftschiff]] näherte und Strickleitern herabließ. Die Gruppe bestieg das [[Luftschiff]] zusammen mit [[Doran]], während [[Serres]] die [[Herzogin]] ablieferte und später ein Essen für alle brachte. Während der Fahrt diskutierten die Anwesenden mögliche nächste Aufträge, und [[Serres]] erklärte, dass die [[Herzogin]] in politischen Häusern intrigiert habe. [[Naevys]] bemerkte, dass [[Serres]] unglaublich aussah, und Gwendolyn fragte, ob sie für die Auslieferung etwas erhalten hatten. Schließlich schwebte das [[Luftschiff]] über dem Boden, während die Gruppe sich auf die bevorstehenden Abenteuer vorbereitete.",
+            "content": "Gwendolyn Silverflame schoss ein Signal in den Himmel, als sich ein Luftschiff näherte und Strickleitern herabließ. Die Gruppe bestieg das Luftschiff zusammen mit Doran, während Serres die Herzogin ablieferte und später ein Essen für alle brachte. Während der Fahrt diskutierten die Anwesenden mögliche nächste Aufträge, und Serres erklärte, dass die Herzogin in politischen Häusern intrigiert habe. Naevys bemerkte, dass Serres unglaublich aussah, und Gwendolyn fragte, ob sie für die Auslieferung etwas erhalten hatten. Schließlich schwebte das Luftschiff über dem Boden, während die Gruppe sich auf die bevorstehenden Abenteuer vorbereitete.",
             "image": null,
+            "index": 541,
+            "categories": [
+                "Intrigue",
+                "Exploration",
+                "Alliance"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmp49egl1000204if2fmow69m",
-            "index": 541
+            "session_id": "cmp49egl1000204if2fmow69m"
         },
         {
             "created_at": "2026-05-13T20:21:42.434000",
             "updated_at": null,
             "id": "nie2sqlu4536a7o3f01f5mbx",
             "label": "Der verzweifelte Kampf gegen die Ranke",
-            "content": "Eine dicke Ranke packte den Vater am Hals und riss ihn hoch, während [[Surina Nemmonis]], die [[Drachenherrin]], ihre brennende Double Blade zog und mit einem sauberen Schnitt die Ranke durchtrennte. Der Vater fiel zu Boden, doch das verbliebene Stück der Ranke wickelte sich weiterhin um seinen Hals und begann, ihn zu strangulieren. Surina versuchte, die Ranke auseinander zu reißen, doch sie konnte sie nicht abbekommen. In der Zwischenzeit beobachteten die anderen, wie der Vater nach Luft schnappte, während die Ranke sich immer fester um seinen Hals zog.",
+            "content": "Eine dicke Ranke packte den Vater am Hals und riss ihn hoch, während Surina Nemmonis, die Drachenherrin, ihre brennende Double Blade zog und mit einem sauberen Schnitt die Ranke durchtrennte. Der Vater fiel zu Boden, doch das verbliebene Stück der Ranke wickelte sich weiterhin um seinen Hals und begann, ihn zu strangulieren. Surina versuchte, die Ranke auseinander zu reißen, doch sie konnte sie nicht abbekommen. In der Zwischenzeit beobachteten die anderen, wie der Vater nach Luft schnappte, während die Ranke sich immer fester um seinen Hals zog.",
             "image": null,
+            "index": 532,
+            "categories": [
+                "Conflict",
+                "Despair"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmp49egl1000204if2fmow69m",
-            "index": 532
+            "session_id": "cmp49egl1000204if2fmow69m"
         },
         {
             "created_at": "2026-05-13T20:21:42.434000",
             "updated_at": null,
             "id": "onv08jryy9fid5949gjg4h0y",
             "label": "Surina rettet ihren Vater aus der Gefahr",
-            "content": "[[Surina Nemmonis]], die [[Drachenherrin]], nahm ihren geschwächten Vater unter den Arm und verließ mit ihm die [[Gartenanlage]], da sie spürte, dass es dort gefährlich war. Während sie sich durch das Gelände bewegte, bemerkte sie, dass die anderen nicht mitgekommen waren. Sie war sich der Bedrohung bewusst und wollte ihren Vater in Sicherheit bringen, während sie gleichzeitig die Umgebung im Auge behielt. Mit einem entschlossenen Schritt führte sie ihn aus der Gefahrenzone.",
+            "content": "Surina Nemmonis, die Drachenherrin, nahm ihren geschwächten Vater unter den Arm und verließ mit ihm die Gartenanlage, da sie spürte, dass es dort gefährlich war. Während sie sich durch das Gelände bewegte, bemerkte sie, dass die anderen nicht mitgekommen waren. Sie war sich der Bedrohung bewusst und wollte ihren Vater in Sicherheit bringen, während sie gleichzeitig die Umgebung im Auge behielt. Mit einem entschlossenen Schritt führte sie ihn aus der Gefahrenzone.",
             "image": null,
+            "index": 535,
+            "categories": [
+                "Heroism",
+                "Conflict"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmp49egl1000204if2fmow69m",
-            "index": 535
+            "session_id": "cmp49egl1000204if2fmow69m"
         },
         {
             "created_at": "2026-05-13T20:21:42.434000",
             "updated_at": null,
             "id": "oxqymo2817pq1c3dkgzxhrh9",
             "label": "Surina sieht die Wesen aus den Ruinen",
-            "content": "[[Surina Nemmonis]] schlich vorsichtig durch das Gelände und erblickte die seltsamen Wesen aus den Ruinen. Vor ihr stand ein humanoider Anführer, gekleidet in schwarz-rot, umgeben von mehreren schlicht gekleideten Schreibern, die mit Notiztafeln hantierten. Einige mittelmäßig gerüstete [[Vollstrecker]] trugen Netze und Ketten, während ein [[Höllenhund]] in der Nähe umherstreifte. Die Wesen verteilten sich über das Anwesen, markierten Dinge mit roter Kreide und zogen verschiedene Gegenstände in [[Infernalische Vollstrecker]], ohne Surina dabei zu beachten. Sie konnte unbemerkt an ihnen vorbeischlüpfen und das Gelände verlassen.",
+            "content": "Surina Nemmonis schlich vorsichtig durch das Gelände und erblickte die seltsamen Wesen aus den Ruinen. Vor ihr stand ein humanoider Anführer, gekleidet in schwarz-rot, umgeben von mehreren schlicht gekleideten Schreibern, die mit Notiztafeln hantierten. Einige mittelmäßig gerüstete Vollstrecker trugen Netze und Ketten, während ein Höllenhund in der Nähe umherstreifte. Die Wesen verteilten sich über das Anwesen, markierten Dinge mit roter Kreide und zogen verschiedene Gegenstände in Infernalische Vollstrecker, ohne Surina dabei zu beachten. Sie konnte unbemerkt an ihnen vorbeischlüpfen und das Gelände verlassen.",
             "image": null,
+            "index": 533,
+            "categories": [
+                "Intrigue",
+                "Discovery"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmp49egl1000204if2fmow69m",
-            "index": 533
+            "session_id": "cmp49egl1000204if2fmow69m"
         },
         {
             "created_at": "2026-05-13T20:21:42.434000",
             "updated_at": null,
             "id": "s7jnzm2zmxptapmm9asn8g3b",
             "label": "Der schockierende Tod der dritten Tochter",
-            "content": "Die [[Vater der getöteten dritten Tochter]] sprach von Schwund und Schaden, als sie auf der Wiese ein kleines Kaninchen ergriff und ihm mit bloßen Händen das Genick brach. Noch bevor Surina eingreifen konnte, wurden Ranken aus den umliegenden Pflanzen hervorgeschossen, die die Tochter in die Luft hoben und sie durchbohrten. Ihr Kopf sackte nach vorn, und sie wirkte plötzlich tot, während die anderen Töchter und Väter um sie herum in Schockstarre verharrten. Surina beobachtete die Szene und war verstört von dem, was geschehen war. Die Atmosphäre war von einer unheimlichen Stille erfüllt.",
+            "content": "Die Vater der getöteten dritten Tochter sprach von Schwund und Schaden, als sie auf der Wiese ein kleines Kaninchen ergriff und ihm mit bloßen Händen das Genick brach. Noch bevor Surina eingreifen konnte, wurden Ranken aus den umliegenden Pflanzen hervorgeschossen, die die Tochter in die Luft hoben und sie durchbohrten. Ihr Kopf sackte nach vorn, und sie wirkte plötzlich tot, während die anderen Töchter und Väter um sie herum in Schockstarre verharrten. Surina beobachtete die Szene und war verstört von dem, was geschehen war. Die Atmosphäre war von einer unheimlichen Stille erfüllt.",
             "image": null,
+            "index": 531,
+            "categories": [
+                "Despair",
+                "Conflict"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmp49egl1000204if2fmow69m",
-            "index": 531
+            "session_id": "cmp49egl1000204if2fmow69m"
         },
         {
             "created_at": "2026-05-13T20:21:42.434000",
             "updated_at": null,
             "id": "sdkhduh7np4oo0mz63h492or",
             "label": "Surina und Brennen führen Väter zu ihren Töchtern",
-            "content": "[[Surina Nemmonis]] und [[Brennen Voidridge]] führten mehrere Väter in das Innere des Anwesens, um sie zu ihren schwebenden Töchtern zu bringen. Während sie sich durch die Ruinen bewegten, ignorierte Surina die Stimmen, die nicht in der Gemeinsprache sprachen, und konzentrierte sich darauf, die Väter zu ihren Töchtern zu geleiten. Die Atmosphäre war angespannt, als sie sich dem [[Haupthaus]] näherten, wo die Stimmen aus den Ruinen zu hören waren. Surina war fest entschlossen, die Väter zu ihren Töchtern zu bringen, ohne sich von den anderen Geräuschen ablenken zu lassen.",
+            "content": "Surina Nemmonis und Brennen Voidridge führten mehrere Väter in das Innere des Anwesens, um sie zu ihren schwebenden Töchtern zu bringen. Während sie sich durch die Ruinen bewegten, ignorierte Surina die Stimmen, die nicht in der Gemeinsprache sprachen, und konzentrierte sich darauf, die Väter zu ihren Töchtern zu geleiten. Die Atmosphäre war angespannt, als sie sich dem Haupthaus näherten, wo die Stimmen aus den Ruinen zu hören waren. Surina war fest entschlossen, die Väter zu ihren Töchtern zu bringen, ohne sich von den anderen Geräuschen ablenken zu lassen.",
             "image": null,
+            "index": 528,
+            "categories": [
+                "Heroism",
+                "Conflict"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmp49egl1000204if2fmow69m",
-            "index": 528
+            "session_id": "cmp49egl1000204if2fmow69m"
         },
         {
             "created_at": "2026-05-13T20:21:42.434000",
             "updated_at": null,
             "id": "u5qojdbv89bijinye5s3iieb",
             "label": "Surina und das Angebot des Kommandanten",
-            "content": "Der Kommandant erklärte Surina, dass ihr Vater sich in der Hölle befinde und dass Dragonborn nicht auf natürlichem Weg geboren, sondern erschaffen würden. Er behauptete, Surina besäße keine Seele und bot ihr an, für einen [[Höllenhund]] 58 Seelen zu beschaffen, wobei er warnte, dass sie ein Gerät erhalten würde, das innerhalb von 30 Sekunden nach einem Tod aktiviert werden müsse. Surina lehnte ab, da sie die Hitze der Hölle nicht aushielt. Währenddessen diskutierte sie mit den anderen über die Möglichkeit, Seelen zu kaufen und deren Wertsteigerung, was zu einem Austausch über die Unschuld der Seelen führte. Letztendlich stellte sie fest, dass es anscheinend keinen Sinn machte, eine Seele zu kaufen, da es keinen Unterschied machte, ob sie eine hatte oder nicht.",
+            "content": "Der Kommandant erklärte Surina, dass ihr Vater sich in der Hölle befinde und dass Dragonborn nicht auf natürlichem Weg geboren, sondern erschaffen würden. Er behauptete, Surina besäße keine Seele und bot ihr an, für einen Höllenhund 58 Seelen zu beschaffen, wobei er warnte, dass sie ein Gerät erhalten würde, das innerhalb von 30 Sekunden nach einem Tod aktiviert werden müsse. Surina lehnte ab, da sie die Hitze der Hölle nicht aushielt. Währenddessen diskutierte sie mit den anderen über die Möglichkeit, Seelen zu kaufen und deren Wertsteigerung, was zu einem Austausch über die Unschuld der Seelen führte. Letztendlich stellte sie fest, dass es anscheinend keinen Sinn machte, eine Seele zu kaufen, da es keinen Unterschied machte, ob sie eine hatte oder nicht.",
             "image": null,
+            "index": 540,
+            "categories": [
+                "Intrigue",
+                "Negotiation"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmp49egl1000204if2fmow69m",
-            "index": 540
+            "session_id": "cmp49egl1000204if2fmow69m"
         },
         {
             "created_at": "2026-05-13T20:21:42.434000",
             "updated_at": null,
             "id": "vb6ldxxag852fnuru3znp9pr",
             "label": "Der Höllenhund und die Schreiber",
-            "content": "Draußen bei den Verwundeten schnüffelte ein [[Höllenhund]] an jeder Person, während [[Schreiber]] in schlichter Kleidung mit Notizblättern umhergingen. Jedes Mal, wenn der Hund sich bei einer Person niederließ, strich ein [[Schreiber]] den Namen von seiner Liste. [[Träger]] mit schwarzen Kästen schnitten Ketten aus den Kästen, wickelten sie um die markierte Person und zogen sie fort. Humanoide Wesen, die keine echten Waffen trugen, verteilten sich über das Gelände und markierten mit roter Kreide, was sie fanden. Die Szenerie war geprägt von der Präsenz des Hundes und der Routine der [[Schreiber]].",
+            "content": "Draußen bei den Verwundeten schnüffelte ein Höllenhund an jeder Person, während Schreiber in schlichter Kleidung mit Notizblättern umhergingen. Jedes Mal, wenn der Hund sich bei einer Person niederließ, strich ein Schreiber den Namen von seiner Liste. Träger mit schwarzen Kästen schnitten Ketten aus den Kästen, wickelten sie um die markierte Person und zogen sie fort. Humanoide Wesen, die keine echten Waffen trugen, verteilten sich über das Gelände und markierten mit roter Kreide, was sie fanden. Die Szenerie war geprägt von der Präsenz des Hundes und der Routine der Schreiber.",
             "image": null,
+            "index": 534,
+            "categories": [
+                "Suspense",
+                "Conflict"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmp49egl1000204if2fmow69m",
-            "index": 534
+            "session_id": "cmp49egl1000204if2fmow69m"
         },
         {
             "created_at": "2026-05-13T20:21:42.434000",
             "updated_at": null,
             "id": "x0xpjdzgs6jdffo19iwsh8nm",
             "label": "Die Erste Tochter bricht zusammen",
-            "content": "Die [[Erste Tochter]] schwebte langsam herab und landete vor ihrem Vater, Jan. Sie schlug ihm weinend mit den Fäusten gegen die Brust und brach dann vor ihm zusammen, während sie sich an seiner Kleidung festhielt. In diesem Moment lag sie am Boden und schien um Hilfe zu bitten. Gerade als sie am Boden war, kam die [[Zweite Tochter]] herab, die gefasster wirkte, und gab ihrem Vater eine Ohrfeige, während sie ihm befahl, seine Rolle im Haus abzugeben, um das Überleben aller zu sichern.",
+            "content": "Die Erste Tochter schwebte langsam herab und landete vor ihrem Vater, Jan. Sie schlug ihm weinend mit den Fäusten gegen die Brust und brach dann vor ihm zusammen, während sie sich an seiner Kleidung festhielt. In diesem Moment lag sie am Boden und schien um Hilfe zu bitten. Gerade als sie am Boden war, kam die Zweite Tochter herab, die gefasster wirkte, und gab ihrem Vater eine Ohrfeige, während sie ihm befahl, seine Rolle im Haus abzugeben, um das Überleben aller zu sichern.",
             "image": null,
+            "index": 530,
+            "categories": [
+                "Conflict",
+                "Despair"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmp49egl1000204if2fmow69m",
-            "index": 530
+            "session_id": "cmp49egl1000204if2fmow69m"
         },
         {
             "created_at": "2026-05-13T20:21:42.434000",
             "updated_at": null,
             "id": "xmc36a2u2st22m7futtg964e",
             "label": "Das geheimnisvolle Ei der fliegenden Schlange",
-            "content": "Während des Fluges entdeckte Surina in ihrem Rucksack ein faustgroßes [[Ei]] und hielt es skeptisch in der Hand. [[Naevys]] nahm das [[Ei]] und untersuchte es genauer, wobei sie feststellte, dass es sich um das [[Ei]] einer fliegenden Schlange handelte, das ungewöhnlich groß war. Sie erklärte, dass das [[Ei]] etwa 40 Grad Wärme benötige und rund zwei Monate zum Ausbrüten brauche. Surina entschied sich, das [[Ei]] ihrem Fuchs im Tierbereich anzuvertrauen, während das [[Luftschiff]] weiter nach [[Helmerheim]] fuhr.",
+            "content": "Während des Fluges entdeckte Surina in ihrem Rucksack ein faustgroßes Ei und hielt es skeptisch in der Hand. Naevys nahm das Ei und untersuchte es genauer, wobei sie feststellte, dass es sich um das Ei einer fliegenden Schlange handelte, das ungewöhnlich groß war. Sie erklärte, dass das Ei etwa 40 Grad Wärme benötige und rund zwei Monate zum Ausbrüten brauche. Surina entschied sich, das Ei ihrem Fuchs im Tierbereich anzuvertrauen, während das Luftschiff weiter nach Helmerheim fuhr.",
             "image": null,
+            "index": 542,
+            "categories": [
+                "Discovery",
+                "Intrigue"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmp49egl1000204if2fmow69m",
-            "index": 542
+            "session_id": "cmp49egl1000204if2fmow69m"
         },
         {
             "created_at": "2026-04-30T14:26:43.387000",
@@ -118,9 +159,13 @@
             "label": "Übergang zum offenen Meer",
             "content": "Während die Gruppe auf dem Schiff unterwegs war, bemerkten sie, dass die Kälte zunahm und der Fluss immer breiter wurde. Bei Sonnenuntergang erreichte das Schiff den Übergang zum offenen Meer. Die Nacht brach herein, und das Schiff setzte seine Fahrt fort, während die Charaktere sich auf die bevorstehenden Herausforderungen vorbereiteten. Sie ließen die vertrauten Gewässer hinter sich und brachen in die Weiten des Ozeans auf.",
             "image": null,
+            "index": 522,
+            "categories": [
+                "Exploration",
+                "Conflict"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "v865shjac4ndtfrslhtoq8ct",
-            "index": 522
+            "session_id": "v865shjac4ndtfrslhtoq8ct"
         },
         {
             "created_at": "2026-04-30T14:26:43.387000",
@@ -129,97 +174,137 @@
             "label": "Das Einkochen des Monsterbluts",
             "content": "Im Speiseraum des Schiffes versammelten sich die Abenteurer um einen Tisch. Morvain erklärte, dass er das gewonnene Monsterblut zu einem Konzentrat einkochen wollte. Gwendolyn fragte, ob sie das Blut alleine verwenden oder mit anderen Zutaten vermischen sollten. Morvain entschied, das Blut einzukochen, um ein konzentriertes Elixier herzustellen, und bemerkte, dass er dafür etwas extrahieren müsse. Währenddessen diskutierten sie über die Möglichkeiten, das Blut zu verarbeiten, und Morvain äußerte, dass er Kräuter zur Unterstützung verwenden könnte.",
             "image": null,
+            "index": 518,
+            "categories": [
+                "Chaos",
+                "Ritual"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "v865shjac4ndtfrslhtoq8ct",
-            "index": 518
+            "session_id": "v865shjac4ndtfrslhtoq8ct"
         },
         {
             "created_at": "2026-04-30T14:26:43.387000",
             "updated_at": null,
             "id": "bndhxmdroe9t328xahtvcnbb",
             "label": "Training auf dem Deck",
-            "content": "Die Gruppe begab sich an Deck, um ihre Kampffähigkeiten zu trainieren. [[Gwendolyn Silverflame]] nahm den [[Pole of Collapsing]] zur Hand und nutzte ihn als Übungsstab, während [[Surina Nemmonis]] defensiv mit einer Handaxe übte. Die anderen diskutierten über ihre Ausrüstung und die Notwendigkeit, sich auf den nächsten Kampf vorzubereiten. [[Surina]] bemerkte, dass sie sich ein wenig eingerostet fühlte und schlug vor, gemeinsam zu üben, was von Gwendolyn und den anderen befürwortet wurde. Sie konzentrierten sich auf das Training und motivierten sich gegenseitig.",
+            "content": "Die Gruppe begab sich an Deck, um ihre Kampffähigkeiten zu trainieren. Gwendolyn Silverflame nahm den Pole of Collapsing zur Hand und nutzte ihn als Übungsstab, während Surina Nemmonis defensiv mit einer Handaxe übte. Die anderen diskutierten über ihre Ausrüstung und die Notwendigkeit, sich auf den nächsten Kampf vorzubereiten. Surina bemerkte, dass sie sich ein wenig eingerostet fühlte und schlug vor, gemeinsam zu üben, was von Gwendolyn und den anderen befürwortet wurde. Sie konzentrierten sich auf das Training und motivierten sich gegenseitig.",
             "image": null,
+            "index": 520,
+            "categories": [
+                "Growth",
+                "Heroism",
+                "Conflict"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "v865shjac4ndtfrslhtoq8ct",
-            "index": 520
+            "session_id": "v865shjac4ndtfrslhtoq8ct"
         },
         {
             "created_at": "2026-04-30T14:26:43.387000",
             "updated_at": null,
             "id": "csbu69u8qikk2ceylhkxp2iq",
             "label": "Rückkehr und Vorbereitungen für die Reise",
-            "content": "Die Gruppe kehrte nach einer Nacht des Ausruhens zurück und bereitete sich darauf vor, ihr Schiff zu besteigen. [[Surina]] packte alles ein, was sie finden konnte, einschließlich des Segels, während die anderen überlegten, ob sie noch etwas Wichtiges von ihrem Schiff mitnehmen sollten. [[Mister Varos]], der geweckt wurde, wurde ebenfalls mitgenommen. Schließlich machten sie sich auf den Weg, während das Schiff in Bewegung geriet und schneller wurde, als sie es erwartet hatten.",
+            "content": "Die Gruppe kehrte nach einer Nacht des Ausruhens zurück und bereitete sich darauf vor, ihr Schiff zu besteigen. Surina packte alles ein, was sie finden konnte, einschließlich des Segels, während die anderen überlegten, ob sie noch etwas Wichtiges von ihrem Schiff mitnehmen sollten. Mister Varos, der geweckt wurde, wurde ebenfalls mitgenommen. Schließlich machten sie sich auf den Weg, während das Schiff in Bewegung geriet und schneller wurde, als sie es erwartet hatten.",
             "image": null,
+            "index": 516,
+            "categories": [
+                "Exploration",
+                "Hijinx"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "v865shjac4ndtfrslhtoq8ct",
-            "index": 516
+            "session_id": "v865shjac4ndtfrslhtoq8ct"
         },
         {
             "created_at": "2026-04-30T14:26:43.387000",
             "updated_at": null,
             "id": "dcujg3v1udw0frjembtvopft",
             "label": "Mister Varos tritt der Pinguin-Crew bei",
-            "content": "Die [[Pinguin-Crew]] bot an, die Gruppe mitzunehmen, wenn sich jemand ihrer Crew anschließen würde. Die Abenteurer schlugen das sprechende Walross [[Mister Varos]] als neues Crewmitglied vor. Die [[Pinguin-Crew]] akzeptierte diesen Vorschlag, stellte jedoch die Bedingung, dass [[Mister Varos]] an Bord gebracht werde. [[Mister Varos]] stimmte zu, jedoch nur unter der Voraussetzung, dass es am nächsten Morgen Frühstück gebe. Er erklärte, dass er gerne rüberkommen würde, solange es vor Sonnenaufgang geschieht.",
+            "content": "Die Pinguin-Crew bot an, die Gruppe mitzunehmen, wenn sich jemand ihrer Crew anschließen würde. Die Abenteurer schlugen das sprechende Walross Mister Varos als neues Crewmitglied vor. Die Pinguin-Crew akzeptierte diesen Vorschlag, stellte jedoch die Bedingung, dass Mister Varos an Bord gebracht werde. Mister Varos stimmte zu, jedoch nur unter der Voraussetzung, dass es am nächsten Morgen Frühstück gebe. Er erklärte, dass er gerne rüberkommen würde, solange es vor Sonnenaufgang geschieht.",
             "image": null,
+            "index": 514,
+            "categories": [
+                "Alliance",
+                "Negotiation"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "v865shjac4ndtfrslhtoq8ct",
-            "index": 514
+            "session_id": "v865shjac4ndtfrslhtoq8ct"
         },
         {
             "created_at": "2026-04-30T14:26:43.387000",
             "updated_at": null,
             "id": "eh1dqvbm1ljzf1ka3c2adlee",
             "label": "Gwendolyns leuchtendes Amulett für Surina",
-            "content": "In der Dunkelheit, während die Gruppe sich orientierte, ließ [[Gwendolyn Silverflame]] das Amulett von [[Dîn-io Tempest]] leuchten, um [[Surina Nemmonis]] zu helfen, besser zu sehen. \"Ich häng dir mein Amulett, damit du besser siehst,\" sagte Gwendolyn, während das Amulett strahlte und den Weg erhellte. [[Surina]], die zuvor geweint hatte, konnte nun klarer sehen und dankte Gwendolyn für die Unterstützung. \"Das ist sehr lieb von dir,\" erwiderte [[Surina]], während das Licht des Amuletts den Raum erhellte. Gwendolyn zeigte den anderen, dass sie in der Dunkelheit nicht allein waren.",
+            "content": "In der Dunkelheit, während die Gruppe sich orientierte, ließ Gwendolyn Silverflame das Amulett von Dîn-io Tempest leuchten, um Surina Nemmonis zu helfen, besser zu sehen. \"Ich häng dir mein Amulett, damit du besser siehst,\" sagte Gwendolyn, während das Amulett strahlte und den Weg erhellte. Surina, die zuvor geweint hatte, konnte nun klarer sehen und dankte Gwendolyn für die Unterstützung. \"Das ist sehr lieb von dir,\" erwiderte Surina, während das Licht des Amuletts den Raum erhellte. Gwendolyn zeigte den anderen, dass sie in der Dunkelheit nicht allein waren.",
             "image": null,
+            "index": 515,
+            "categories": [
+                "Friendship",
+                "Heroism",
+                "Chaos"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "v865shjac4ndtfrslhtoq8ct",
-            "index": 515
+            "session_id": "v865shjac4ndtfrslhtoq8ct"
         },
         {
             "created_at": "2026-04-30T14:26:43.387000",
             "updated_at": null,
             "id": "gsq8cta33ohmn1u8dlgl9idi",
             "label": "Dîn-io Tempest und die giftige Waffenbeschichtung",
-            "content": "[[Dîn-io Tempest]] holte einen [[Rainbow Mushroom]] aus seiner Tasche und begann, ihn sorgfältig zu zerkleinern. Nachdem er den Pilz in kleine Stücke geschnitten hatte, trocknete er ihn mit Hilfe seines Feuers, um ihn anschließend zu feinem Pulver zu zerstoßen. Mit dem Pilzpulver mischte er Alkohol und kombinierte diese Mischung mit Blutkonzentrat und Wasser, um eine dünnflüssige, giftige Waffenbeschichtung herzustellen. Die Gruppe legte diese Mischung für einen späteren Kampf zurück, um ihre Waffen zu verstärken.",
+            "content": "Dîn-io Tempest holte einen Rainbow Mushroom aus seiner Tasche und begann, ihn sorgfältig zu zerkleinern. Nachdem er den Pilz in kleine Stücke geschnitten hatte, trocknete er ihn mit Hilfe seines Feuers, um ihn anschließend zu feinem Pulver zu zerstoßen. Mit dem Pilzpulver mischte er Alkohol und kombinierte diese Mischung mit Blutkonzentrat und Wasser, um eine dünnflüssige, giftige Waffenbeschichtung herzustellen. Die Gruppe legte diese Mischung für einen späteren Kampf zurück, um ihre Waffen zu verstärken.",
             "image": null,
+            "index": 519,
+            "categories": [
+                "Hijinx",
+                "Conflict"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "v865shjac4ndtfrslhtoq8ct",
-            "index": 519
+            "session_id": "v865shjac4ndtfrslhtoq8ct"
         },
         {
             "created_at": "2026-04-30T14:26:43.387000",
             "updated_at": null,
             "id": "ic3atssps19pizhz2lpqz7hb",
             "label": "Abfahrt mit der Pinguin-Crew",
-            "content": "Die Gruppe trat an Bord des metallenen Raddampfers, während Rauch aus dem Dach aufstieg. [[Mister Varos]] schloss sich ihnen an, und das Schiff setzte sich in Bewegung, beschleunigte schnell flussabwärts und übertraf die Geschwindigkeit ihres eigenen Bootes. Im Inneren des Schiffes bemerkten sie ein humanoides Nilpferd am Steuerrad und einen Pinguin, der in einem luxuriösen Sessel saß. Der Pinguin begrüßte sie und wies ihnen den Weg nach unten, während die Gruppe sich auf die bevorstehende Reise vorbereitete. Das Schiff wurde immer schneller und wirbelte die Wellen hinter sich auf.",
+            "content": "Die Gruppe trat an Bord des metallenen Raddampfers, während Rauch aus dem Dach aufstieg. Mister Varos schloss sich ihnen an, und das Schiff setzte sich in Bewegung, beschleunigte schnell flussabwärts und übertraf die Geschwindigkeit ihres eigenen Bootes. Im Inneren des Schiffes bemerkten sie ein humanoides Nilpferd am Steuerrad und einen Pinguin, der in einem luxuriösen Sessel saß. Der Pinguin begrüßte sie und wies ihnen den Weg nach unten, während die Gruppe sich auf die bevorstehende Reise vorbereitete. Das Schiff wurde immer schneller und wirbelte die Wellen hinter sich auf.",
             "image": null,
+            "index": 517,
+            "categories": [
+                "Exploration",
+                "Hijinx"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "v865shjac4ndtfrslhtoq8ct",
-            "index": 517
+            "session_id": "v865shjac4ndtfrslhtoq8ct"
         },
         {
             "created_at": "2026-04-30T14:26:43.387000",
             "updated_at": null,
             "id": "jsfh5bm6hzf9o023pdilu9u0",
             "label": "Gwendolyns überraschender Treffer",
-            "content": "Im Sparring überraschte [[Gwendolyn Silverflame]] ihre Gegnerin [[Surina Nemmonis]] mit einem gewagten Sprungmanöver. Während [[Surina]], die ihren Stab wie ein Schwert hielt, dachte, Gwendolyn ziele auf ihren Brust- oder Armbereich, hob Gwendolyn ihren Stab im letzten Augenblick an. Mit einem präzisen Schlag traf sie [[Surina]] am Kopf, was zu heftigen Kopfschmerzen bei der Kriegerin führte.",
+            "content": "Im Sparring überraschte Gwendolyn Silverflame ihre Gegnerin Surina Nemmonis mit einem gewagten Sprungmanöver. Während Surina, die ihren Stab wie ein Schwert hielt, dachte, Gwendolyn ziele auf ihren Brust- oder Armbereich, hob Gwendolyn ihren Stab im letzten Augenblick an. Mit einem präzisen Schlag traf sie Surina am Kopf, was zu heftigen Kopfschmerzen bei der Kriegerin führte.",
             "image": null,
+            "index": 521,
+            "categories": [
+                "Growth",
+                "Conflict",
+                "Banter"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "v865shjac4ndtfrslhtoq8ct",
-            "index": 521
+            "session_id": "v865shjac4ndtfrslhtoq8ct"
         },
         {
             "created_at": "2026-04-30T14:26:43.387000",
             "updated_at": null,
             "id": "krde57ph1dzdbl76ynjsuad2",
             "label": "Ressourcensammlung nach dem Kampf",
-            "content": "Nach dem Kampf begann [[Surina Nemmonis]], das erlegte Monster zu zerlegen. Sie schnitt sorgfältig Leder, Krallen und Zähne ab, um sie für die Gruppe mitzunehmen. Ein Gruppenmitglied schüttete eine Ölflasche aus und füllte sie mit dem Blut der Kreatur für alchemistische Zwecke. Die Gruppe diskutierte, wie sie das Leder für Rüstungen oder Kleidung nutzen könnten, während die Krallen als Befestigungen oder Waffenteile in Betracht gezogen wurden. Zudem überlegten sie, das Blut und die Rückenfinne für alchemistische Experimente zu verwenden, um Tränke für Unterwasseratmung oder Kälteresistenz herzustellen.",
+            "content": "Nach dem Kampf begann Surina Nemmonis, das erlegte Monster zu zerlegen. Sie schnitt sorgfältig Leder, Krallen und Zähne ab, um sie für die Gruppe mitzunehmen. Ein Gruppenmitglied schüttete eine Ölflasche aus und füllte sie mit dem Blut der Kreatur für alchemistische Zwecke. Die Gruppe diskutierte, wie sie das Leder für Rüstungen oder Kleidung nutzen könnten, während die Krallen als Befestigungen oder Waffenteile in Betracht gezogen wurden. Zudem überlegten sie, das Blut und die Rückenfinne für alchemistische Experimente zu verwenden, um Tränke für Unterwasseratmung oder Kälteresistenz herzustellen.",
             "image": null,
+            "index": 512,
+            "categories": [
+                "Loot",
+                "Exploration",
+                "Alliance"
+            ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "v865shjac4ndtfrslhtoq8ct",
-            "index": 512
+            "session_id": "v865shjac4ndtfrslhtoq8ct"
         }
     ],
     "from": 21,

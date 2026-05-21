@@ -2,240 +2,356 @@
     "current_page": 2,
     "data": [
         {
+            "created_at": "2026-03-20T14:22:27.490000",
+            "updated_at": null,
             "id": "cmmyzncmq000c1fgrl2pe4s08",
             "label": "Abschluss und Verlassen von Nightstone",
+            "description": "Nach Abschluss der Durchsuchung verließ die Gruppe die Festung und beschloss, Nightstone endgültig hinter sich zu lassen.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 5,
+                "eventStartIndex": 5
+            },
             "parent_id": "cmmyzncji000b1fgrqgounhp4",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmyzkvk0000004l53v8oqnwc"
             ],
             "game_session_id": "cmmyzkvk0000004l53v8oqnwc"
         },
         {
+            "created_at": "2026-03-20T16:41:45.490000",
+            "updated_at": null,
             "id": "cmmz4mhpc00000iatsb6ofnh8",
             "label": "Schütze feuert Bolzen auf Verfolger",
+            "description": "Der Schütze am Ende der Kutsche feuerte einen Hagel aus drei Bolzen auf die Verfolger (zwei Orks und einen vermummten Menschen) und verletzte zwei von ihnen.",
             "type": "step",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": "cmmz4nlgb001i0iatg2g4crso",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "pfbomimgzd38cxlxf3iff0vb"
             ],
             "game_session_id": "pfbomimgzd38cxlxf3iff0vb"
         },
         {
+            "created_at": "2026-03-20T16:42:36.880000",
+            "updated_at": null,
             "id": "cmmz4nlcv001h0iat3ubkwp4i",
             "label": "Flucht und erste Fahrt",
+            "description": "Die Gruppe flieht aus der Burg unter Beschuss und steigt hastig in eine Schwarze Kutsche. Die Kutsche verlässt das Burgtor, passiert Long Settle und eine entgegenkommende Karawane sowie eine zweite Verbündeten-Kutsche, die sich anschließt. Während der Fahrt werden Verletzungen versorgt, Proviant gefunden und die Nachtwache organisiert. Es kommt zu ruhigen Momenten mit Gebet, Essen und Kartenspielen, bevor die Nachtkontrolle beginnt.",
             "type": "major",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "pfbomimgzd38cxlxf3iff0vb"
             ],
             "game_session_id": "pfbomimgzd38cxlxf3iff0vb"
         },
         {
+            "created_at": "2026-03-20T16:42:37.003000",
+            "updated_at": null,
             "id": "cmmz4nlgb001i0iatg2g4crso",
             "label": "Angriff und Einstieg in Kutsche",
+            "description": "Ein Schütze an der Kutsche und ein Bogenschütze auf der Mauer greifen die Verfolger an; zwei Verfolger werden verletzt. Eine Bogenschütze auf der Mauer stürzt von der Mauer zu Boden. Surina und Rosco springen in die Kutsche, Rosco schließt seine Tür, und die Kutsche setzt sich in Bewegung, lässt die Verfolger zurück.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 5,
+                "eventStartIndex": 0
+            },
             "parent_id": "cmmz4nlcv001h0iat3ubkwp4i",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "pfbomimgzd38cxlxf3iff0vb"
             ],
             "game_session_id": "pfbomimgzd38cxlxf3iff0vb"
         },
         {
+            "created_at": "2026-03-20T16:42:37.460000",
+            "updated_at": null,
             "id": "cmmz4nlsz001m0iat2kxl0mfe",
             "label": "Surina hört Echo-Stimme",
+            "description": "Beim nächtlichen Halt geht Surina in den Hain, hört eine Stimme, die ihr Summen nachahmt, und verliert bei Wolken die Orientierung. Sie entzündet eine Fackel, klettert auf einen Baum, erkennt die Laternen der Kutsche und einen Lichtschein am Hain; unter dem Blätterdach setzt das Echo wieder ein. Beim Abstieg bietet sie einem Eichhörnchen Brot an und kehrt zur Gruppe zurück.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 21,
+                "eventStartIndex": 16
+            },
             "parent_id": "cmmz4nlpv001l0iatpj6spgnx",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "pfbomimgzd38cxlxf3iff0vb"
             ],
             "game_session_id": "pfbomimgzd38cxlxf3iff0vb"
         },
         {
+            "created_at": "2026-03-20T16:42:38.136000",
+            "updated_at": null,
             "id": "cmmz4nmbs001s0iathfcbk90s",
             "label": "Einfahrt und Unterbringung",
+            "description": "Die Kutsche nähert sich der ummauerten Stadt; ihr Anblick löst Alarm und vorübergehenden Torverschluss aus. Grob, der Schütze, betätigt außen an der Kutsche einen Hebel, woraufhin das Tor wieder geöffnet wird. Die Kutsche fährt durch das Tor und wird an Position 17 in der Stadt abgestellt; Grob schlägt vor, die Nacht in der Stadt zu verbringen und am Morgen aufzubrechen.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 46,
+                "eventStartIndex": 44
+            },
             "parent_id": "cmmz4nm8n001r0iatio8o6x0b",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "pfbomimgzd38cxlxf3iff0vb"
             ],
             "game_session_id": "pfbomimgzd38cxlxf3iff0vb"
         },
         {
+            "created_at": "2026-03-20T20:59:22.956000",
+            "updated_at": null,
             "id": "cmmzdtsrd000014hoirr5vd8t",
             "label": "Zellentür schloss sich mit Krachen",
+            "description": "Die eiserne Zellentür fiel mit einem Krachen ins Schloss und versiegelte die Gefangenen.",
             "type": "step",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": "cmmzduvdq001q14ho038m1jyf",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmzdpk4k000004l86u1cetpi"
             ],
             "game_session_id": "cmmzdpk4k000004l86u1cetpi"
         },
         {
+            "created_at": "2026-03-20T21:00:12.885000",
+            "updated_at": null,
             "id": "cmmzduvad001p14honef6aahn",
             "label": "Gefangene erwachen und befreien",
+            "description": "Die Gefangenen werden in einer versiegelten Zelle wach und stellen sich einander vor. Orks nähern sich, es entstehen Diskussionen über Fluchtmethoden und Kampfbereitschaft. Als Orks die Zellentür öffnen, kommt es zu einer Unterbrechung durch ein wildes Knurren; die Orks fliehen und die Gefangenen befreien sich und verlassen die Zelle.",
             "type": "major",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmzdpk4k000004l86u1cetpi"
             ],
             "game_session_id": "cmmzdpk4k000004l86u1cetpi"
         },
         {
+            "created_at": "2026-03-20T21:00:13.007000",
+            "updated_at": null,
             "id": "cmmzduvdq001q14ho038m1jyf",
             "label": "Zellentür fällt ins Schloss",
+            "description": "Die eiserne Zellentür fällt ins Schloss und versiegelt die Gefangenen. Drei weitere Gefangene kommen zu Bewusstsein; Dîn-io stellt sich vor, die weiße Drachengeborene knurrt, Brennen fragt nach ihrem Namen und Gwendolyn nennt ihn.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 5,
+                "eventStartIndex": 0
+            },
             "parent_id": "cmmzduvad001p14honef6aahn",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmzdpk4k000004l86u1cetpi"
             ],
             "game_session_id": "cmmzdpk4k000004l86u1cetpi"
         },
         {
+            "created_at": "2026-03-20T21:00:13.593000",
+            "updated_at": null,
             "id": "cmmzduvu1001v14ho3zgud73c",
             "label": "Gang, Turm und Kisten",
+            "description": "Die Gruppe schleicht den Gang entlang, erreicht den halb verfallenen Innenhof und betritt den runden Steinturm. Am Fuß der Treppe stehen mehrere Kisten, eine mit arkanen Fäden versehen; Dîn-io öffnet eine Kiste und identifiziert seine Ausrüstung, und die Gruppe findet ihre Rucksäcke, Waffen und Zauberkomponenten.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 31,
+                "eventStartIndex": 25
+            },
             "parent_id": "cmmzduvqv001u14hogrnpdmt4",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmzdpk4k000004l86u1cetpi"
             ],
             "game_session_id": "cmmzdpk4k000004l86u1cetpi"
         },
         {
+            "created_at": "2026-03-20T21:00:14.057000",
+            "updated_at": null,
             "id": "cmmzduw6x001z14hoql5exzka",
             "label": "Große Tür öffnet den Hof",
+            "description": "Unten betreten sie einen breiten Durchgang mit einer großen, noch geschlossenen Tür; Brennen schlägt vor, nicht zu warten und nachzusehen, wer aufgetaucht sei. Brennen reißt die Tür auf und findet den Hof voller Leichen von Orks, Kultisten und Mastiffs; ein blutüberströmter Ork kriecht noch und wird von einem Armbrustbolzen durchbohrt, und die Gruppe sieht einen großen, eisenbeplatteten Kriegswagen mit montierter Armbrust.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 49,
+                "eventStartIndex": 42
+            },
             "parent_id": "cmmzduw3q001y14hokztbplcp",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmzdpk4k000004l86u1cetpi"
             ],
             "game_session_id": "cmmzdpk4k000004l86u1cetpi"
         },
         {
+            "created_at": "2026-03-20T21:50:19.426000",
+            "updated_at": null,
             "id": "cmmzfnb5e000014mirxgfpvfi",
             "label": "Surina weckt Gwendolyn im Wagen",
+            "description": "Surina Nemmonis wachte in der geparkten Stadtkutsche auf und weckte Gwendolyn Silverflame durch Stupsen mit dem Schwanz.",
             "type": "step",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": "cmmzfofi2001h14mii6k590kt",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "m2s4jpo7e4n5ozf1k5k1tom9"
             ],
             "game_session_id": "m2s4jpo7e4n5ozf1k5k1tom9"
         },
         {
+            "created_at": "2026-03-20T21:51:11.618000",
+            "updated_at": null,
             "id": "cmmzfoff4001g14mi5j0ovxp2",
             "label": "Ankunft und erste Nachforschungen",
+            "description": "Surina Nemmonis erwacht, beide verlassen die Kutsche und stellen fest, dass die Pferde abgespannt sind und Gefährten fehlen. Sie befragen Stadtwachen, entdecken Steckbriefe der gesuchten 'Hexe' und werden zum Marktplatz geleitet. In der Bibliothek treffen sie Dîn-io Tempest, vergleichen Augenmerkmale mit dem Steckbrief und erhalten von Stadtwache und Bibliothekar Informationen über Vermisste und Schlafende.",
             "type": "major",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "m2s4jpo7e4n5ozf1k5k1tom9"
             ],
             "game_session_id": "m2s4jpo7e4n5ozf1k5k1tom9"
         },
         {
+            "created_at": "2026-03-20T21:51:11.724000",
+            "updated_at": null,
             "id": "cmmzfofi2001h14mii6k590kt",
             "label": "Erwachen und Wachenbefragung",
+            "description": "Surina Nemmonis weckt Gwendolyn Silverflame in der geparkten Stadtkutsche; beide steigen aus, finden die Pferde abgespannt vor und bemerken das Fehlen ihrer Gefährten. Surina befragt drei Stadtwachen mit einer Skizze, eine Wache erkennt Dîn-io Tempest und verweist zum Marktplatz.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 3,
+                "eventStartIndex": 0
+            },
             "parent_id": "cmmzfoff4001g14mi5j0ovxp2",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "m2s4jpo7e4n5ozf1k5k1tom9"
             ],
             "game_session_id": "m2s4jpo7e4n5ozf1k5k1tom9"
         },
         {
+            "created_at": "2026-03-20T21:51:12.134000",
+            "updated_at": null,
             "id": "cmmzfoftg001l14mimaopkp6h",
             "label": "Begegnung mit Brennen Voidridge",
+            "description": "Am See Im Park finden sie Brennen Voidridge mit ausgebreiteten Spielkarten; Gwendolyn ruft schwebende Lichter hervor, Brennen fährt erschrocken hoch, schlägt sich den Kopf an und flieht panisch. Stadtwachen stellen ihn, weitere Wachen beruhigen ihn kurz, und Surina und Gwendolyn übernehmen seine Betreuung.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 15,
+                "eventStartIndex": 12
+            },
             "parent_id": "cmmzfofqn001k14miuq6s9nza",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "m2s4jpo7e4n5ozf1k5k1tom9"
             ],
             "game_session_id": "m2s4jpo7e4n5ozf1k5k1tom9"
         },
         {
+            "created_at": "2026-03-20T21:51:12.444000",
+            "updated_at": null,
             "id": "cmmzfog22001o14miyz0br70c",
             "label": "Ansitz, Schuss und Wolfskampf",
+            "description": "Im Wald spürt die Gruppe frische Spuren auf und pirschte zur Lichtung mit Hirsch und Hirschkuh. Dîn-io eröffnet mit der Armbrust (Treffer), Brennen trifft leicht, Gwendolyn tötet den Hirsch mit Magischem Geschoss; die Hirschkuh wird verwundet, ein Wolf greift an und wird von Surina mit dem Säbel tödlich getroffen; die Hirschkuh wird erlöst.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 24,
+                "eventStartIndex": 18
+            },
             "parent_id": "cmmzfofz7001n14mih0hei9tn",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "m2s4jpo7e4n5ozf1k5k1tom9"
             ],
             "game_session_id": "m2s4jpo7e4n5ozf1k5k1tom9"
         },
         {
+            "created_at": "2026-03-21T13:24:10.518000",
+            "updated_at": null,
             "id": "cmn0d090m00000t7rire7k7ea",
             "label": "Dîn-io wacht im Gasthaus",
+            "description": "Dîn-io hielt im Gasthaus Wache, während Gwendolyn Silverflame und Surina gefesselt einschliefen.",
             "type": "step",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": "cmn0d1ean001j0t7rz1nmadsv",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "yusqz1z3bkqwmsctx3yu4nv5"
             ],
             "game_session_id": "yusqz1z3bkqwmsctx3yu4nv5"
         },
         {
+            "created_at": "2026-03-21T13:25:03.877000",
+            "updated_at": null,
             "id": "cmn0d1e6t001i0t7r8u9bhnne",
             "label": "Mitternächtliche Träume und Festnahme",
+            "description": "Gwendolyn Silverflame und Surina teilen zur Nacht denselben intensiven Jagdtraum, in dem Jagdtrieb in den Drang zur Vernichtung umschlägt und eine marode Brücke einstürzt, woraufhin beide abrupt erwachen. Dîn-io hält Wache und versucht, mit den anderen zu interagieren, während Querg und weitere Bewaffnete vor der Zimmertür Stellung beziehen. Die Gruppe entscheidet, nach einem Überlebenden der Nachtangriffe zu suchen, verlässt die Taverne und stößt auf Stadtwache von Triboar, die die Wege abschneiden. Aus der Konfrontation entsteht eine körperliche Auseinandersetzung; alle vier werden mit Eisenfesseln abgeführt und in Einzelzellen gesperrt.",
             "type": "major",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "yusqz1z3bkqwmsctx3yu4nv5"
             ],
             "game_session_id": "yusqz1z3bkqwmsctx3yu4nv5"
         },
         {
+            "created_at": "2026-03-21T13:25:04.014000",
+            "updated_at": null,
             "id": "cmn0d1ean001j0t7rz1nmadsv",
             "label": "Gemeinsamer Jagdtraum und Brücke",
+            "description": "Dîn-io hält im Gasthaus Wache, während Gwendolyn Silverflame und Surina gefesselt einschlafen. Beide erleben denselben Traum von einem undurchdringlichen Wald als Jäger mit Bogen und Dolch, rotäugigen Füchsen und Hirschen; der Jagdtrieb kippt in den Wunsch, die Kreaturen zu vernichten. Sie erreichen im Traum eine Schlucht mit maroder Brücke; kurz vor dem gegenüberliegenden Rand bricht die Brücke unter Surina ein und beide erwachen schlagartig.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 4,
+                "eventStartIndex": 0
+            },
             "parent_id": "cmn0d1e6t001i0t7r8u9bhnne",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "yusqz1z3bkqwmsctx3yu4nv5"
             ],
             "game_session_id": "yusqz1z3bkqwmsctx3yu4nv5"
         },
         {
+            "created_at": "2026-03-21T13:25:04.609000",
+            "updated_at": null,
             "id": "cmn0d1erb001o0t7rbxh7mbcl",
             "label": "Quergs Angebot und Schlüsselwurf",
+            "description": "Querg und eine Stadtwache treten in den Zellentrakt; Querg stellt den Angriff auf die Wache fest und macht auf harte Strafen aufmerksam. Er bietet an, die Anklage gegen Bezahlung oder gegen Mithilfe bei der Jagd auf die Nachthexe (mit Anteil am Kopfgeld) fallen zu lassen. Querg wirft den Schlüsselbund in die Zelle; die Gruppe befreit sich. Auf dem Markt weist ein Bürger Dîn-io zum ersten Haus hinter dem High Market.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 26,
+                "eventStartIndex": 23
+            },
             "parent_id": "cmn0d1enx001n0t7rg87m70qu",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "yusqz1z3bkqwmsctx3yu4nv5"
             ],

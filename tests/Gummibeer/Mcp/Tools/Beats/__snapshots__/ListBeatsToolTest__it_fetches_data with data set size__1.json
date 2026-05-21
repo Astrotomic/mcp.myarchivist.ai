@@ -2,1200 +2,1771 @@
     "current_page": 1,
     "data": [
         {
+            "created_at": "2026-03-18T21:05:58.025000",
+            "updated_at": null,
             "id": "cmmwj6k9o00000i8g38tra5i0",
             "label": "Morvain returns dressed to dining room",
+            "description": "Morvain war in den Garten gegangen und hatte sich wieder angezogen, während der Rest der Gruppe im großen Empfangsspeisezimmer am Tisch saß und Nachtisch aß.",
             "type": "step",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": "cmmwj8tlb002m0i8grppik165",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmwb2jqn000004jrqzwdmmx5"
             ],
             "game_session_id": "cmmwb2jqn000004jrqzwdmmx5"
         },
         {
+            "created_at": "2026-03-18T21:07:43.235000",
+            "updated_at": null,
             "id": "cmmwj8tga002l0i8gm3ql1vkh",
             "label": "Nachtisch und erstes Trinkspiel",
+            "description": "Die Gruppe aß im großen Empfangsspeisezimmer Nachtisch und begann ein Trinkspiel. Bei der ersten Runde tranken Korvathun, Brennen Voidridge, Surina und Gwendolyn; Surina fiel nach ihrem Krug bewusstlos zu Boden. Korvathun trug sie ins Gästezimmer und legte sie ins Bett, während Gwendolyn bei ihr blieb. Anschließend folgten eine zweite Trinkrunde, ein starkes Erbrechen und Maßnahmen zur Beruhigung und Erholung.",
             "type": "major",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmwb2jqn000004jrqzwdmmx5"
             ],
             "game_session_id": "cmmwb2jqn000004jrqzwdmmx5"
         },
         {
+            "created_at": "2026-03-18T21:07:43.423000",
+            "updated_at": null,
             "id": "cmmwj8tlb002m0i8grppik165",
             "label": "Dessert und erstes Trinkspiel",
+            "description": "Während Morvain in den Garten ging, nahm Seraphina zusätzlichen Nachtisch. Brennen Voidridge schlug ein Trinkspiel vor; Korvathun, Gwendolyn und Surina nahmen teil. Seres holte ein Fass Bier, verteilte Krüge, und bei Start tranken die vier gleichzeitig; Gwendolyn war zuerst fertig, Brennen Voidridge rülpste laut, Korvathun bemerkte einen ungewöhnlich starken Geschmack und Surina fiel bewusstlos vom Stuhl. Korvathun untersuchte Surina, stellte Tiefschlaf ohne Giftzeichen fest, und trug sie schließlich ins Schlafzimmer, wo Gwendolyn sich zu ihr legte.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 16,
+                "eventStartIndex": 0
+            },
             "parent_id": "cmmwj8tga002l0i8gm3ql1vkh",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmwb2jqn000004jrqzwdmmx5"
             ],
             "game_session_id": "cmmwb2jqn000004jrqzwdmmx5"
         },
         {
+            "created_at": "2026-03-18T21:07:43.876000",
+            "updated_at": null,
             "id": "cmmwj8txu002q0i8ghx9vzqtc",
             "label": "Gartenverlassen und Nachtstimmung",
+            "description": "Zwei Stunden nach Sonnenuntergang war der Garten dunkel, aber von Laternen erleuchtet. Surina hob Gwendolyn auf die Schultern, und sie verließen mit Brennen Voidridge gemeinsam das Gästehaus in den Garten. Brennen Voidridge sprach über seinen Eindruck von Korvathun und schlug vor, ihm Vorschuss zu geben; Gwendolyn konterte, Vertrauen müsse man sich verdienen.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 36,
+                "eventStartIndex": 34
+            },
             "parent_id": "cmmwj8tur002p0i8gtlayj1d6",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmwb2jqn000004jrqzwdmmx5"
             ],
             "game_session_id": "cmmwb2jqn000004jrqzwdmmx5"
         },
         {
+            "created_at": "2026-03-18T21:07:44.549000",
+            "updated_at": null,
             "id": "cmmwj8ugk002w0i8gvq79nk9f",
             "label": "Feuerkerne und Showeffekt",
+            "description": "Rita bat Gwendolyn um einige Kerne der Blume, legte drei Kerne in einen Becher in der Nähe des schlafenden Brennen Voidridge und bat um eine Flamme. Gwendolyn schnippte eine kleine Feuerkugel in den Becher; es entstand zunächst eine meterhohe Stichflamme, die sich zu einer 30–50 cm hohen Flamme beruhigte und Unruhe auslöste. Rita erklärte das Feuer als Showprogramm, beruhigte die Gäste und schaffte eine kuscheligere Stimmung.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 81,
+                "eventStartIndex": 78
+            },
             "parent_id": "cmmwj8udh002v0i8ghmg321d9",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmwb2jqn000004jrqzwdmmx5"
             ],
             "game_session_id": "cmmwb2jqn000004jrqzwdmmx5"
         },
         {
+            "created_at": "2026-03-19T13:43:59.905000",
+            "updated_at": null,
             "id": "cmmxiu1f600000teue9ysxz9o",
             "label": "Gruppe verlässt Nightstone",
+            "description": "Die Gruppe (Sudur, Flint, Khorum, Alagos) verließ Nightstone und setzte ihre Reise fort.",
             "type": "step",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": "cmmxiup24000b0teuoqdst394",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmxis1is000004js41p8in62"
             ],
             "game_session_id": "cmmxis1is000004js41p8in62"
         },
         {
+            "created_at": "2026-03-19T13:44:30.415000",
+            "updated_at": null,
             "id": "cmmxiuoyn000a0teuau0zs5c3",
             "label": "Aufbruch zum Ardeep Forest",
+            "description": "Die Gruppe verließ Nightstone und folgte gezielt Spuren sowie einer Einladung von Rond, was sie in Richtung eines elfischen Dorfs im Ardeep Forest führte. Dort trafen sie im Dorf ein und erhielten von den Elfen Hinweise auf eine Goblin-Höhle, in der die entführten Bewohner Nightstone vermutet wurden. Die Hinweise bestimmten ihren nächsten Zielort und führten zur Reise zur genannten Goblin-Höhle.",
             "type": "major",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmxis1is000004js41p8in62"
             ],
             "game_session_id": "cmmxis1is000004js41p8in62"
         },
         {
+            "created_at": "2026-03-19T13:44:30.539000",
+            "updated_at": null,
             "id": "cmmxiup24000b0teuoqdst394",
             "label": "Aufbruch und Spurensuche zum Ardeep Forest",
+            "description": "Die Gruppe (Sudur, Flint, Khorum, Alagos) verließ Nightstone, entschied sich, den Spuren zu folgen, und folgte anschließend der Einladung von Rond in Richtung des Ardeep Forest.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 2,
+                "eventStartIndex": 0
+            },
             "parent_id": "cmmxiuoyn000a0teuau0zs5c3",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmxis1is000004js41p8in62"
             ],
             "game_session_id": "cmmxis1is000004js41p8in62"
         },
         {
+            "created_at": "2026-03-19T13:44:30.898000",
+            "updated_at": null,
             "id": "cmmxiupc2000e0teug3wahgjg",
             "label": "Anreise und Betreten der Höhle",
+            "description": "Die Gruppe reiste mit den erhaltenen Hinweisen zur genannten Goblin-Höhle, erreichte sie und betrat anschließend die feuchten Tiefen der Höhle, um sie zu erkunden.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 6,
+                "eventStartIndex": 5
+            },
             "parent_id": "cmmxiup8r000d0teutzmndc5y",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmxis1is000004js41p8in62"
             ],
             "game_session_id": "cmmxis1is000004js41p8in62"
         },
         {
+            "created_at": "2026-03-19T16:38:24.152000",
+            "updated_at": null,
             "id": "cmmxp2boo00001qi18aemqsfu",
             "label": "Gruppe überstand Kampf gegen Schleim",
+            "description": "Die Gruppe überstand zuvor einen kräftezehrenden Kampf gegen einen zähen Schleim.",
             "type": "step",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": "cmmxp3bup000c1qi1jfgf450v",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmxozubl000104jlegt4q501"
             ],
             "game_session_id": "cmmxozubl000104jlegt4q501"
         },
         {
+            "created_at": "2026-03-19T16:39:10.896000",
+            "updated_at": null,
             "id": "cmmxp3br5000b1qi1wouizc2n",
             "label": "Verhandlungen in der Goblin-Höhle",
+            "description": "Die Gruppe drang in die Goblin-Höhle vor, nachdem sie zuvor einen kräftezehrenden Kampf gegen einen zähen Schleim überstanden hatte. Zwischen der Gruppe und den Goblins entwickelte sich eine Verhandlung, wodurch ein weiterer Kampf vermieden wurde. Flint Fireforge nutzte die Goblin-Sprache, um Missverständnisse zu vermeiden. Die Verhandlung führte zur Vereinbarung, die Gefangenen freizulassen, und die entführten Dorfbewohner wurden befreit.",
             "type": "major",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmxozubl000104jlegt4q501"
             ],
             "game_session_id": "cmmxozubl000104jlegt4q501"
         },
         {
+            "created_at": "2026-03-19T16:39:11.024000",
+            "updated_at": null,
             "id": "cmmxp3bup000c1qi1jfgf450v",
             "label": "Vorspiel und Vorstoß in Höhle",
+            "description": "Die Gruppe hatte zuvor einen kräftezehrenden Kampf gegen einen zähen Schleim überstanden. Anschließend drang die Gruppe weiter in die Goblin-Höhle vor. Zwischen der Gruppe und den Goblins entwickelte sich eine Verhandlung, wodurch ein weiterer Kampf vermieden wurde.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 2,
+                "eventStartIndex": 0
+            },
             "parent_id": "cmmxp3br5000b1qi1wouizc2n",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmxozubl000104jlegt4q501"
             ],
             "game_session_id": "cmmxozubl000104jlegt4q501"
         },
         {
+            "created_at": "2026-03-19T16:39:11.382000",
+            "updated_at": null,
             "id": "cmmxp3c4m000f1qi1pb9bnnpe",
             "label": "Rückkehr mit Befreiten nach Nightstone",
+            "description": "Die Gruppe verließ mit den Befreiten die Höhle und trat den Rückweg nach Nightstone an. Die Dorfbewohner wurden in Nightstone in Sicherheit gebracht.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 7,
+                "eventStartIndex": 6
+            },
             "parent_id": "cmmxp3c1d000e1qi1c8a1gbr7",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmxozubl000104jlegt4q501"
             ],
             "game_session_id": "cmmxozubl000104jlegt4q501"
         },
         {
+            "created_at": "2026-03-19T18:06:35.447000",
+            "updated_at": null,
             "id": "cmmxs7qh300000i859cv5grvf",
             "label": "Durchsuchung der Häuser in Nightstone",
+            "description": "Die Gruppe entschied sich, die restlichen Häuser von Nightstone in einem gestrafften, systematischen Vorgehen nach Nützlichem und Wertvollem zu durchsuchen.",
             "type": "step",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": "cmmxs8i58000c0i8526ndti2g",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmxramg6000004ickfomzviu"
             ],
             "game_session_id": "cmmxramg6000004ickfomzviu"
         },
         {
+            "created_at": "2026-03-19T18:07:11.219000",
+            "updated_at": null,
             "id": "cmmxs8i2n000b0i85qbkswjgs",
             "label": "Aufräumen und Sicherung Nightstone",
+            "description": "Die Gruppe durchsuchte die restlichen Häuser von Nightstone in einem gestrafften, systematischen Vorgehen und führte die Durchsuchung der verbliebenen Gebäude in verkürzter Form durch. Sie führte weitere Gespräche mit Kella Darkhope und befragte sie erneut. Die Gruppe stimmte sich mit den verbliebenen Stadtwachen von Nightstone über die weitere Zukunft des Ortes ab.",
             "type": "major",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmxramg6000004ickfomzviu"
             ],
             "game_session_id": "cmmxramg6000004ickfomzviu"
         },
         {
+            "created_at": "2026-03-19T18:07:11.312000",
+            "updated_at": null,
             "id": "cmmxs8i58000c0i8526ndti2g",
             "label": "Systematische Durchsuchung der Häuser",
+            "description": "Die Gruppe entschied sich, die restlichen Häuser von Nightstone systematisch nach Nützlichem und Wertvollem zu durchsuchen. Sie durchsuchte die verbliebenen Gebäude in verkürzter Form.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 1,
+                "eventStartIndex": 0
+            },
             "parent_id": "cmmxs8i2n000b0i85qbkswjgs",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmxramg6000004ickfomzviu"
             ],
             "game_session_id": "cmmxramg6000004ickfomzviu"
         },
         {
+            "created_at": "2026-03-19T18:07:11.630000",
+            "updated_at": null,
             "id": "cmmxs8ie1000f0i85ogk3imk5",
             "label": "Vorbereitung und Handelsüberlegung mit Elfen",
+            "description": "Die Gruppe traf Vorbereitungen für die Reise in ein Elfen-Dorf. Es wurde erwogen, mit den Elfen funktionierende, friedliche Handelsbeziehungen aufzubauen, nachdem Flint Fireforge einen aggressiven Vorschlag gemacht hatte, den Wald anzuzünden und Elfenkarawanen anzugreifen.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 6,
+                "eventStartIndex": 4
+            },
             "parent_id": "cmmxs8ibl000e0i85b05irtzs",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmxramg6000004ickfomzviu"
             ],
             "game_session_id": "cmmxramg6000004ickfomzviu"
         },
         {
+            "created_at": "2026-03-20T14:21:54.895000",
+            "updated_at": null,
             "id": "cmmyzmnhb00001fgrga4iv9kv",
             "label": "Gruppe kehrt nach Nightstone zurück",
+            "description": "Die Gruppe kehrte nach Nightstone zurück.",
             "type": "step",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": "cmmyznccx00091fgr24xfdcgx",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmyzkvk0000004l53v8oqnwc"
             ],
             "game_session_id": "cmmyzkvk0000004l53v8oqnwc"
         },
         {
+            "created_at": "2026-03-20T14:22:27.015000",
+            "updated_at": null,
             "id": "cmmyznc9j00081fgr75hc7rmb",
             "label": "Durchsuchung der Festung Nightstone",
+            "description": "Die Gruppe kehrte nach Nightstone zurück und entschied sich, die Festung vor dem Aufbruch in den Ardeep Forest ein letztes Mal gründlich zu durchsuchen. Sie betrat die Festung erneut und begann eine systematische, vorsichtige Durchsuchung der Trümmer und Gemächer. Während der Durchsuchung entdeckte die Gruppe ein magisches Schwert und nahm es an sich.",
             "type": "major",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmyzkvk0000004l53v8oqnwc"
             ],
             "game_session_id": "cmmyzkvk0000004l53v8oqnwc"
         },
         {
+            "created_at": "2026-03-20T14:22:27.137000",
+            "updated_at": null,
             "id": "cmmyznccx00091fgr24xfdcgx",
             "label": "Rückkehr und Entscheidung zur Durchsuchung",
+            "description": "Die Gruppe kehrte nach Nightstone zurück, entschied sich, die Festung ein letztes Mal gründlich zu durchsuchen, und betrat die Festung erneut, um systematisch und vorsichtig die Trümmer und Gemächer nach Ressourcen, Gegenständen oder Hinweisen zu durchsuchen.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 2,
+                "eventStartIndex": 0
+            },
             "parent_id": "cmmyznc9j00081fgr75hc7rmb",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmyzkvk0000004l53v8oqnwc"
             ],
             "game_session_id": "cmmyzkvk0000004l53v8oqnwc"
         },
         {
+            "created_at": "2026-03-20T14:22:27.490000",
+            "updated_at": null,
             "id": "cmmyzncmq000c1fgrl2pe4s08",
             "label": "Abschluss und Verlassen von Nightstone",
+            "description": "Nach Abschluss der Durchsuchung verließ die Gruppe die Festung und beschloss, Nightstone endgültig hinter sich zu lassen.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 5,
+                "eventStartIndex": 5
+            },
             "parent_id": "cmmyzncji000b1fgrqgounhp4",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmyzkvk0000004l53v8oqnwc"
             ],
             "game_session_id": "cmmyzkvk0000004l53v8oqnwc"
         },
         {
+            "created_at": "2026-03-20T16:41:45.490000",
+            "updated_at": null,
             "id": "cmmz4mhpc00000iatsb6ofnh8",
             "label": "Schütze feuert Bolzen auf Verfolger",
+            "description": "Der Schütze am Ende der Kutsche feuerte einen Hagel aus drei Bolzen auf die Verfolger (zwei Orks und einen vermummten Menschen) und verletzte zwei von ihnen.",
             "type": "step",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": "cmmz4nlgb001i0iatg2g4crso",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "pfbomimgzd38cxlxf3iff0vb"
             ],
             "game_session_id": "pfbomimgzd38cxlxf3iff0vb"
         },
         {
+            "created_at": "2026-03-20T16:42:36.880000",
+            "updated_at": null,
             "id": "cmmz4nlcv001h0iat3ubkwp4i",
             "label": "Flucht und erste Fahrt",
+            "description": "Die Gruppe flieht aus der Burg unter Beschuss und steigt hastig in eine Schwarze Kutsche. Die Kutsche verlässt das Burgtor, passiert Long Settle und eine entgegenkommende Karawane sowie eine zweite Verbündeten-Kutsche, die sich anschließt. Während der Fahrt werden Verletzungen versorgt, Proviant gefunden und die Nachtwache organisiert. Es kommt zu ruhigen Momenten mit Gebet, Essen und Kartenspielen, bevor die Nachtkontrolle beginnt.",
             "type": "major",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "pfbomimgzd38cxlxf3iff0vb"
             ],
             "game_session_id": "pfbomimgzd38cxlxf3iff0vb"
         },
         {
+            "created_at": "2026-03-20T16:42:37.003000",
+            "updated_at": null,
             "id": "cmmz4nlgb001i0iatg2g4crso",
             "label": "Angriff und Einstieg in Kutsche",
+            "description": "Ein Schütze an der Kutsche und ein Bogenschütze auf der Mauer greifen die Verfolger an; zwei Verfolger werden verletzt. Eine Bogenschütze auf der Mauer stürzt von der Mauer zu Boden. Surina und Rosco springen in die Kutsche, Rosco schließt seine Tür, und die Kutsche setzt sich in Bewegung, lässt die Verfolger zurück.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 5,
+                "eventStartIndex": 0
+            },
             "parent_id": "cmmz4nlcv001h0iat3ubkwp4i",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "pfbomimgzd38cxlxf3iff0vb"
             ],
             "game_session_id": "pfbomimgzd38cxlxf3iff0vb"
         },
         {
+            "created_at": "2026-03-20T16:42:37.460000",
+            "updated_at": null,
             "id": "cmmz4nlsz001m0iat2kxl0mfe",
             "label": "Surina hört Echo-Stimme",
+            "description": "Beim nächtlichen Halt geht Surina in den Hain, hört eine Stimme, die ihr Summen nachahmt, und verliert bei Wolken die Orientierung. Sie entzündet eine Fackel, klettert auf einen Baum, erkennt die Laternen der Kutsche und einen Lichtschein am Hain; unter dem Blätterdach setzt das Echo wieder ein. Beim Abstieg bietet sie einem Eichhörnchen Brot an und kehrt zur Gruppe zurück.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 21,
+                "eventStartIndex": 16
+            },
             "parent_id": "cmmz4nlpv001l0iatpj6spgnx",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "pfbomimgzd38cxlxf3iff0vb"
             ],
             "game_session_id": "pfbomimgzd38cxlxf3iff0vb"
         },
         {
+            "created_at": "2026-03-20T16:42:38.136000",
+            "updated_at": null,
             "id": "cmmz4nmbs001s0iathfcbk90s",
             "label": "Einfahrt und Unterbringung",
+            "description": "Die Kutsche nähert sich der ummauerten Stadt; ihr Anblick löst Alarm und vorübergehenden Torverschluss aus. Grob, der Schütze, betätigt außen an der Kutsche einen Hebel, woraufhin das Tor wieder geöffnet wird. Die Kutsche fährt durch das Tor und wird an Position 17 in der Stadt abgestellt; Grob schlägt vor, die Nacht in der Stadt zu verbringen und am Morgen aufzubrechen.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 46,
+                "eventStartIndex": 44
+            },
             "parent_id": "cmmz4nm8n001r0iatio8o6x0b",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "pfbomimgzd38cxlxf3iff0vb"
             ],
             "game_session_id": "pfbomimgzd38cxlxf3iff0vb"
         },
         {
+            "created_at": "2026-03-20T20:59:22.956000",
+            "updated_at": null,
             "id": "cmmzdtsrd000014hoirr5vd8t",
             "label": "Zellentür schloss sich mit Krachen",
+            "description": "Die eiserne Zellentür fiel mit einem Krachen ins Schloss und versiegelte die Gefangenen.",
             "type": "step",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": "cmmzduvdq001q14ho038m1jyf",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmzdpk4k000004l86u1cetpi"
             ],
             "game_session_id": "cmmzdpk4k000004l86u1cetpi"
         },
         {
+            "created_at": "2026-03-20T21:00:12.885000",
+            "updated_at": null,
             "id": "cmmzduvad001p14honef6aahn",
             "label": "Gefangene erwachen und befreien",
+            "description": "Die Gefangenen werden in einer versiegelten Zelle wach und stellen sich einander vor. Orks nähern sich, es entstehen Diskussionen über Fluchtmethoden und Kampfbereitschaft. Als Orks die Zellentür öffnen, kommt es zu einer Unterbrechung durch ein wildes Knurren; die Orks fliehen und die Gefangenen befreien sich und verlassen die Zelle.",
             "type": "major",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmzdpk4k000004l86u1cetpi"
             ],
             "game_session_id": "cmmzdpk4k000004l86u1cetpi"
         },
         {
+            "created_at": "2026-03-20T21:00:13.007000",
+            "updated_at": null,
             "id": "cmmzduvdq001q14ho038m1jyf",
             "label": "Zellentür fällt ins Schloss",
+            "description": "Die eiserne Zellentür fällt ins Schloss und versiegelt die Gefangenen. Drei weitere Gefangene kommen zu Bewusstsein; Dîn-io stellt sich vor, die weiße Drachengeborene knurrt, Brennen fragt nach ihrem Namen und Gwendolyn nennt ihn.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 5,
+                "eventStartIndex": 0
+            },
             "parent_id": "cmmzduvad001p14honef6aahn",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmzdpk4k000004l86u1cetpi"
             ],
             "game_session_id": "cmmzdpk4k000004l86u1cetpi"
         },
         {
+            "created_at": "2026-03-20T21:00:13.593000",
+            "updated_at": null,
             "id": "cmmzduvu1001v14ho3zgud73c",
             "label": "Gang, Turm und Kisten",
+            "description": "Die Gruppe schleicht den Gang entlang, erreicht den halb verfallenen Innenhof und betritt den runden Steinturm. Am Fuß der Treppe stehen mehrere Kisten, eine mit arkanen Fäden versehen; Dîn-io öffnet eine Kiste und identifiziert seine Ausrüstung, und die Gruppe findet ihre Rucksäcke, Waffen und Zauberkomponenten.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 31,
+                "eventStartIndex": 25
+            },
             "parent_id": "cmmzduvqv001u14hogrnpdmt4",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmzdpk4k000004l86u1cetpi"
             ],
             "game_session_id": "cmmzdpk4k000004l86u1cetpi"
         },
         {
+            "created_at": "2026-03-20T21:00:14.057000",
+            "updated_at": null,
             "id": "cmmzduw6x001z14hoql5exzka",
             "label": "Große Tür öffnet den Hof",
+            "description": "Unten betreten sie einen breiten Durchgang mit einer großen, noch geschlossenen Tür; Brennen schlägt vor, nicht zu warten und nachzusehen, wer aufgetaucht sei. Brennen reißt die Tür auf und findet den Hof voller Leichen von Orks, Kultisten und Mastiffs; ein blutüberströmter Ork kriecht noch und wird von einem Armbrustbolzen durchbohrt, und die Gruppe sieht einen großen, eisenbeplatteten Kriegswagen mit montierter Armbrust.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 49,
+                "eventStartIndex": 42
+            },
             "parent_id": "cmmzduw3q001y14hokztbplcp",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmmzdpk4k000004l86u1cetpi"
             ],
             "game_session_id": "cmmzdpk4k000004l86u1cetpi"
         },
         {
+            "created_at": "2026-03-20T21:50:19.426000",
+            "updated_at": null,
             "id": "cmmzfnb5e000014mirxgfpvfi",
             "label": "Surina weckt Gwendolyn im Wagen",
+            "description": "Surina Nemmonis wachte in der geparkten Stadtkutsche auf und weckte Gwendolyn Silverflame durch Stupsen mit dem Schwanz.",
             "type": "step",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": "cmmzfofi2001h14mii6k590kt",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "m2s4jpo7e4n5ozf1k5k1tom9"
             ],
             "game_session_id": "m2s4jpo7e4n5ozf1k5k1tom9"
         },
         {
+            "created_at": "2026-03-20T21:51:11.618000",
+            "updated_at": null,
             "id": "cmmzfoff4001g14mi5j0ovxp2",
             "label": "Ankunft und erste Nachforschungen",
+            "description": "Surina Nemmonis erwacht, beide verlassen die Kutsche und stellen fest, dass die Pferde abgespannt sind und Gefährten fehlen. Sie befragen Stadtwachen, entdecken Steckbriefe der gesuchten 'Hexe' und werden zum Marktplatz geleitet. In der Bibliothek treffen sie Dîn-io Tempest, vergleichen Augenmerkmale mit dem Steckbrief und erhalten von Stadtwache und Bibliothekar Informationen über Vermisste und Schlafende.",
             "type": "major",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "m2s4jpo7e4n5ozf1k5k1tom9"
             ],
             "game_session_id": "m2s4jpo7e4n5ozf1k5k1tom9"
         },
         {
+            "created_at": "2026-03-20T21:51:11.724000",
+            "updated_at": null,
             "id": "cmmzfofi2001h14mii6k590kt",
             "label": "Erwachen und Wachenbefragung",
+            "description": "Surina Nemmonis weckt Gwendolyn Silverflame in der geparkten Stadtkutsche; beide steigen aus, finden die Pferde abgespannt vor und bemerken das Fehlen ihrer Gefährten. Surina befragt drei Stadtwachen mit einer Skizze, eine Wache erkennt Dîn-io Tempest und verweist zum Marktplatz.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 3,
+                "eventStartIndex": 0
+            },
             "parent_id": "cmmzfoff4001g14mi5j0ovxp2",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "m2s4jpo7e4n5ozf1k5k1tom9"
             ],
             "game_session_id": "m2s4jpo7e4n5ozf1k5k1tom9"
         },
         {
+            "created_at": "2026-03-20T21:51:12.134000",
+            "updated_at": null,
             "id": "cmmzfoftg001l14mimaopkp6h",
             "label": "Begegnung mit Brennen Voidridge",
+            "description": "Am See Im Park finden sie Brennen Voidridge mit ausgebreiteten Spielkarten; Gwendolyn ruft schwebende Lichter hervor, Brennen fährt erschrocken hoch, schlägt sich den Kopf an und flieht panisch. Stadtwachen stellen ihn, weitere Wachen beruhigen ihn kurz, und Surina und Gwendolyn übernehmen seine Betreuung.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 15,
+                "eventStartIndex": 12
+            },
             "parent_id": "cmmzfofqn001k14miuq6s9nza",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "m2s4jpo7e4n5ozf1k5k1tom9"
             ],
             "game_session_id": "m2s4jpo7e4n5ozf1k5k1tom9"
         },
         {
+            "created_at": "2026-03-20T21:51:12.444000",
+            "updated_at": null,
             "id": "cmmzfog22001o14miyz0br70c",
             "label": "Ansitz, Schuss und Wolfskampf",
+            "description": "Im Wald spürt die Gruppe frische Spuren auf und pirschte zur Lichtung mit Hirsch und Hirschkuh. Dîn-io eröffnet mit der Armbrust (Treffer), Brennen trifft leicht, Gwendolyn tötet den Hirsch mit Magischem Geschoss; die Hirschkuh wird verwundet, ein Wolf greift an und wird von Surina mit dem Säbel tödlich getroffen; die Hirschkuh wird erlöst.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 24,
+                "eventStartIndex": 18
+            },
             "parent_id": "cmmzfofz7001n14mih0hei9tn",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "m2s4jpo7e4n5ozf1k5k1tom9"
             ],
             "game_session_id": "m2s4jpo7e4n5ozf1k5k1tom9"
         },
         {
+            "created_at": "2026-03-21T13:24:10.518000",
+            "updated_at": null,
             "id": "cmn0d090m00000t7rire7k7ea",
             "label": "Dîn-io wacht im Gasthaus",
+            "description": "Dîn-io hielt im Gasthaus Wache, während Gwendolyn Silverflame und Surina gefesselt einschliefen.",
             "type": "step",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": "cmn0d1ean001j0t7rz1nmadsv",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "yusqz1z3bkqwmsctx3yu4nv5"
             ],
             "game_session_id": "yusqz1z3bkqwmsctx3yu4nv5"
         },
         {
+            "created_at": "2026-03-21T13:25:03.877000",
+            "updated_at": null,
             "id": "cmn0d1e6t001i0t7r8u9bhnne",
             "label": "Mitternächtliche Träume und Festnahme",
+            "description": "Gwendolyn Silverflame und Surina teilen zur Nacht denselben intensiven Jagdtraum, in dem Jagdtrieb in den Drang zur Vernichtung umschlägt und eine marode Brücke einstürzt, woraufhin beide abrupt erwachen. Dîn-io hält Wache und versucht, mit den anderen zu interagieren, während Querg und weitere Bewaffnete vor der Zimmertür Stellung beziehen. Die Gruppe entscheidet, nach einem Überlebenden der Nachtangriffe zu suchen, verlässt die Taverne und stößt auf Stadtwache von Triboar, die die Wege abschneiden. Aus der Konfrontation entsteht eine körperliche Auseinandersetzung; alle vier werden mit Eisenfesseln abgeführt und in Einzelzellen gesperrt.",
             "type": "major",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "yusqz1z3bkqwmsctx3yu4nv5"
             ],
             "game_session_id": "yusqz1z3bkqwmsctx3yu4nv5"
         },
         {
+            "created_at": "2026-03-21T13:25:04.014000",
+            "updated_at": null,
             "id": "cmn0d1ean001j0t7rz1nmadsv",
             "label": "Gemeinsamer Jagdtraum und Brücke",
+            "description": "Dîn-io hält im Gasthaus Wache, während Gwendolyn Silverflame und Surina gefesselt einschlafen. Beide erleben denselben Traum von einem undurchdringlichen Wald als Jäger mit Bogen und Dolch, rotäugigen Füchsen und Hirschen; der Jagdtrieb kippt in den Wunsch, die Kreaturen zu vernichten. Sie erreichen im Traum eine Schlucht mit maroder Brücke; kurz vor dem gegenüberliegenden Rand bricht die Brücke unter Surina ein und beide erwachen schlagartig.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 4,
+                "eventStartIndex": 0
+            },
             "parent_id": "cmn0d1e6t001i0t7r8u9bhnne",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "yusqz1z3bkqwmsctx3yu4nv5"
             ],
             "game_session_id": "yusqz1z3bkqwmsctx3yu4nv5"
         },
         {
+            "created_at": "2026-03-21T13:25:04.609000",
+            "updated_at": null,
             "id": "cmn0d1erb001o0t7rbxh7mbcl",
             "label": "Quergs Angebot und Schlüsselwurf",
+            "description": "Querg und eine Stadtwache treten in den Zellentrakt; Querg stellt den Angriff auf die Wache fest und macht auf harte Strafen aufmerksam. Er bietet an, die Anklage gegen Bezahlung oder gegen Mithilfe bei der Jagd auf die Nachthexe (mit Anteil am Kopfgeld) fallen zu lassen. Querg wirft den Schlüsselbund in die Zelle; die Gruppe befreit sich. Auf dem Markt weist ein Bürger Dîn-io zum ersten Haus hinter dem High Market.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 26,
+                "eventStartIndex": 23
+            },
             "parent_id": "cmn0d1enx001n0t7rg87m70qu",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "yusqz1z3bkqwmsctx3yu4nv5"
             ],
             "game_session_id": "yusqz1z3bkqwmsctx3yu4nv5"
         },
         {
+            "created_at": "2026-03-21T13:25:05.209000",
+            "updated_at": null,
             "id": "cmn0d1f7t001t0t7rp8wavv5w",
             "label": "Ritual auf dem Reisehügel",
+            "description": "Während der mehrtägigen Fahrt hält Dîn-io auf einem Hügel ein Räucher-Ritual mit den Kräutern ab; danach setzt ein spürbarer lauer Wind ein, der anhält. Nach rund zehn Reisetagen erreicht die Kutsche eine befestigte Anlage; Querg führt die Gruppe durch das Tor, und eine runde Innentür schließt sich hinter ihnen.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 41,
+                "eventStartIndex": 40
+            },
             "parent_id": "cmn0d1f4k001s0t7rr0ekcxct",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "yusqz1z3bkqwmsctx3yu4nv5"
             ],
             "game_session_id": "yusqz1z3bkqwmsctx3yu4nv5"
         },
         {
+            "created_at": "2026-03-21T13:59:55.051000",
+            "updated_at": null,
             "id": "cmn0ea7qy00000td2cdmmw543",
             "label": "Querg woke the group in fortress",
+            "description": "Querg weckte die Gruppe am Morgen in der Bergfestung, öffnete ihre Zellentüren und führte sie nach oben durch die bereits arbeitenden Schmieden.",
             "type": "step",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": "cmn0eb6ax00130td2dxi6okjo",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "gfsn4we82il590v99h1guti9"
             ],
             "game_session_id": "gfsn4we82il590v99h1guti9"
         },
         {
+            "created_at": "2026-03-21T14:00:39.730000",
+            "updated_at": null,
             "id": "cmn0eb68000120td2sh2tk7nu",
             "label": "Aufwachen, Frühstück und Auftrag",
+            "description": "Die Gruppe wurde morgens in der Bergfestung geweckt, durch die arbeitenden Schmieden geführt und erhielt im Speisesaal ein reichliches Frühstück. Wachen begleiteten sie in einen Besprechungsraum, wo Flint die erste Mission erklärte: eine Truhe nach Gnomengard zu bringen. Flint demonstrierte die ungewöhnliche, laufende Truhe und übergab Surina einen mechanischen Metallvogel zur Fernsicht. Die Gruppe erhielt Ausrüstung, Brennen schloss eine Wette mit Flint ab, und sie verließen den Thronsaal mit der laufenden Truhe und dem Vogel.",
             "type": "major",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "gfsn4we82il590v99h1guti9"
             ],
             "game_session_id": "gfsn4we82il590v99h1guti9"
         },
         {
+            "created_at": "2026-03-21T14:00:39.835000",
+            "updated_at": null,
             "id": "cmn0eb6ax00130td2dxi6okjo",
             "label": "Wecken und Frühstück serviert",
+            "description": "Querg weckte die Gruppe in der Bergfestung, öffnete die Zellentüren und führte sie durch die Schmieden nach oben. Murak servierte im Speisesaal ein reichliches Frühstück, von dem sich die Gruppe bediente.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 1,
+                "eventStartIndex": 0
+            },
             "parent_id": "cmn0eb68000120td2sh2tk7nu",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "gfsn4we82il590v99h1guti9"
             ],
             "game_session_id": "gfsn4we82il590v99h1guti9"
         },
         {
+            "created_at": "2026-03-21T14:00:40.259000",
+            "updated_at": null,
             "id": "cmn0eb6mp00170td2gzzjf006",
             "label": "Route und Karteninformation",
+            "description": "Querg erläuterte vor den Toren die Route nach Gnomengard und die Marschdauer; Karten gebe es im Gasthaus. Im Gasthaus zeigte Morak Ur'gray auf einer Karte den Minenarbeiterpfad, einen größeren Fluss und die weitere Flussbiegung bis Gnomengard.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 11,
+                "eventStartIndex": 10
+            },
             "parent_id": "cmn0eb6jp00160td2mj2pqv40",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "gfsn4we82il590v99h1guti9"
             ],
             "game_session_id": "gfsn4we82il590v99h1guti9"
         },
         {
+            "created_at": "2026-03-21T14:00:40.567000",
+            "updated_at": null,
             "id": "cmn0eb6v9001a0td2o0jnsb4v",
             "label": "Wegbeobachtungen und Aufklärung",
+            "description": "Die Gruppe passierte eine sich sonnende Schlange ohne Interaktion. Surina ließ den mechanischen Vogel aufsteigen, sichtete eine Ansammlung von Schlangen auf einem Plateau und rief den Vogel zurück; an einer Weggabelung entschied die Gruppe sich für den rechten Abzweig.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 17,
+                "eventStartIndex": 15
+            },
             "parent_id": "cmn0eb6sf00190td2jwoqkcfc",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "gfsn4we82il590v99h1guti9"
             ],
             "game_session_id": "gfsn4we82il590v99h1guti9"
         },
         {
+            "created_at": "2026-03-21T21:32:42.548000",
+            "updated_at": null,
             "id": "cmn0ugibq00002nh86t8uep35",
             "label": "Gruppe folgt Fluss zu Wasserfall",
+            "description": "Die Gruppe folgte dem Fluss bergauf bis zu einem Wasserfall mit einer Brücke auf erhöhten Felsplateaus und erkannte dort vorerst eine Sackgasse.",
             "type": "step",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": "cmn0ujyga002a2nh83wxx05ho",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "nd3pb9kjdqbw7t6n6rvds4dg"
             ],
             "game_session_id": "nd3pb9kjdqbw7t6n6rvds4dg"
         },
         {
+            "created_at": "2026-03-21T21:35:23.278000",
+            "updated_at": null,
             "id": "cmn0ujycd00292nh8xdxkftxj",
             "label": "Höhlenzugang und erste Erkundung",
+            "description": "Die Gruppe folgte dem Fluss zu einem Wasserfall, entdeckte einen schmalen Pfad am Berghang und betrat eine Höhle. Innen riefen sie 'Hallo' und erhielten nur ein Echo. Sie fanden Vorratsräume, Öl in geöffneten Krügen und eine Küche mit noch glühenden Kohlen und einem halb gerupften, toten Huhn. Die Gruppe stieß auf ein Stolperseil mit Bolzenschützen und erreichte danach einen Raum mit zwölf großen Fässern.",
             "type": "major",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "nd3pb9kjdqbw7t6n6rvds4dg"
             ],
             "game_session_id": "nd3pb9kjdqbw7t6n6rvds4dg"
         },
         {
+            "created_at": "2026-03-21T21:35:23.419000",
+            "updated_at": null,
             "id": "cmn0ujyga002a2nh83wxx05ho",
             "label": "Wasserfall, Höhleneingang, Pfad",
+            "description": "Die Gruppe folgte dem Fluss bergauf zu einem Wasserfall mit einer Brücke auf Felsplateaus, erkannte zunächst eine Sackgasse, entdeckte links am Berghang einen schmalen Pfad und folgte ihm in eine Höhle. In der Höhle rief die Gruppe 'Hallo' und erhielt nur ein normales Echo.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 2,
+                "eventStartIndex": 0
+            },
             "parent_id": "cmn0ujycd00292nh8xdxkftxj",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "nd3pb9kjdqbw7t6n6rvds4dg"
             ],
             "game_session_id": "nd3pb9kjdqbw7t6n6rvds4dg"
         },
         {
+            "created_at": "2026-03-21T21:35:23.875000",
+            "updated_at": null,
             "id": "cmn0ujysy002e2nh80q6pjw5o",
             "label": "Begegnung mit Gnomen und Werkstatt",
+            "description": "Dîn-io klopfte an ein Fass, daraus schnellte eine Zunge hervor; Brennan blieb kurz außen und kehrte dann mit der Kiste zurück. Ein Gnom forderte Identifikation, erkannte die Lieferung aus Hammerheim, ließ die Kiste vorlaufen und führte die Gruppe durch Gänge. Ein Gnom wirkte Magie, verlangsamte und stoppte einen schnell rotierenden Schwertzylinder, führte die Gruppe in eine Metallwerkstatt mit zwei Gnomen und der Elfin Lunara Darkwood; die Kiste wurde in die Ecke gestellt und die Gnome erklärten, der Tausch dauere bis morgen. Die Gruppe wurde in einen Thronsaal geführt, zwei gnomische Könige begrüßten sie und baten um Hilfe wegen eines Fasses; Dîn-io fragte zudem nach einem hochgelegenen, windigen Schrein und erhielt Wegbeschreibung und Zeitangabe.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 20,
+                "eventStartIndex": 10
+            },
             "parent_id": "cmn0ujypu002d2nh88qwhf3bq",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "nd3pb9kjdqbw7t6n6rvds4dg"
             ],
             "game_session_id": "nd3pb9kjdqbw7t6n6rvds4dg"
         },
         {
+            "created_at": "2026-03-21T21:35:24.445000",
+            "updated_at": null,
             "id": "cmn0ujz8t002j2nh8xr29liga",
             "label": "Alarm, Wächter und Audienz",
+            "description": "Ein Gruppenmitglied teleportierte an den rotierenden Klingenfallen vorbei in die Festung; der Gnomwächter Fatix schlug Alarm. Fatix bot an, die Fallen kurz zu stoppen, wenn alle Gruppenmitglieder zurückkehrten; die Gruppe tat dies und die Fallen wurden gestoppt. Denjo bat höflich um Einlass und erhielt Erlaubnis. Beim Vorbeigehen verbreitete sich ein unangenehmer Geruch; Nix bedankte sich für die Rettung und warnte vor Streichen, bevor die Gruppe vor Die Zwei Gnomischen Könige trat und bestätigte, dass der Mimik beseitigt worden war. Die Könige erklärten, die Fässer enthielten Öl und Treibstoff, dankten und boten Heilung und Zimmer an.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 66,
+                "eventStartIndex": 58
+            },
             "parent_id": "cmn0ujz5n002i2nh8ab0ci4mv",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "nd3pb9kjdqbw7t6n6rvds4dg"
             ],
             "game_session_id": "nd3pb9kjdqbw7t6n6rvds4dg"
         },
         {
+            "created_at": "2026-03-23T14:18:28.907000",
+            "updated_at": null,
             "id": "cmn39tsje00000tiqipklvrbd",
             "label": "Treffen im Gasthaus Goblin Hob",
+            "description": "Die Gruppe traf sich im Gasthaus Goblin Hob in Rogarsheim auf Norland (Moonshae Isles).",
             "type": "step",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": "cmn39upoo000w0tiqexabalw0",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmn36s33c000204l27ztg7k7e"
             ],
             "game_session_id": "cmn36s33c000204l27ztg7k7e"
         },
         {
+            "created_at": "2026-03-23T14:19:11.744000",
+            "updated_at": null,
             "id": "cmn39uplc000v0tiqmvg166g0",
             "label": "Vorfall im Gasthaus Goblin Hob",
+            "description": "Die Gruppe traf sich im Gasthaus Goblin Hob in Rogarsheim auf Norland. Ein Schrei aus der Küche führte dazu, dass der Goblin-Koch panisch in den Schankraum stürmte; Korva stellte ihn und Morvain verriegelte die Küchentür mit Mage Hand. Krabben und Oktopoden schossen aus der Küche, lösten Chaos aus und wurden im Schankraum von der Gruppe bekämpft. Nach der Niederlage verwandelten sich die Meereswesen zurück in Fischer; die Gruppe befragte die Fischer und den Koch und sammelte Hinweise, darunter fragmentarische Erinnerungen an grünes Licht und eine Kapuzenfigur sowie ein Angebot des Kochs auf 250 Gold zur Klärung des Vorfalls.",
             "type": "major",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmn36s33c000204l27ztg7k7e"
             ],
             "game_session_id": "cmn36s33c000204l27ztg7k7e"
         },
         {
+            "created_at": "2026-03-23T14:19:11.864000",
+            "updated_at": null,
             "id": "cmn39upoo000w0tiqexabalw0",
             "label": "Treffen und Küchenalarm im Gasthaus",
+            "description": "Die Gruppe traf sich im Gasthaus Goblin Hob; die Bedienung Trina erklärte Verzögerungen wegen fehlender Fischlieferung und die Gruppe wartete. Aus der Küche ertönte ein Schrei, der Goblin-Koch stürmte panisch in den Schankraum, Korva stellte ihn zur Rede und Morvain verriegelte die Küchentür mittels Mage Hand.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 5,
+                "eventStartIndex": 0
+            },
             "parent_id": "cmn39uplc000v0tiqmvg166g0",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmn36s33c000204l27ztg7k7e"
             ],
             "game_session_id": "cmn36s33c000204l27ztg7k7e"
         },
         {
+            "created_at": "2026-03-23T14:19:12.452000",
+            "updated_at": null,
             "id": "cmn39uq5000110tiqbso9keoj",
             "label": "Ermittlung bis zum Lieferjungen",
+            "description": "Die Ermittlungen führten zur Sandpiper und die Gruppe machte den Lieferjungen ausfindig. Der Lieferjunge roch stark nach Fisch und erklärte, er bringe regelmäßig Fracht zur oder von der Sandpiper, habe die Mannschaft aber nie persönlich getroffen.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 23,
+                "eventStartIndex": 20
+            },
             "parent_id": "cmn39uq1q00100tiq0z8yd1vh",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmn36s33c000204l27ztg7k7e"
             ],
             "game_session_id": "cmn36s33c000204l27ztg7k7e"
         },
         {
+            "created_at": "2026-03-23T16:11:23.642000",
+            "updated_at": null,
             "id": "cmn3duzyh00000hc7yyrmxfri",
             "label": "Gruppe steigt Treppen hinab",
+            "description": "Die Gruppe entschied sich, die Treppen in den unteren Bereich der Sandpiper hinabzusteigen, um dem von unten sichtbaren grünen Licht nachzugehen, und stieg hinab.",
             "type": "step",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": "cmn3dvszc000k0hc71kd2cwac",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmn3cw3o2000004l7mt653jov"
             ],
             "game_session_id": "cmn3cw3o2000004l7mt653jov"
         },
         {
+            "created_at": "2026-03-23T16:12:01.142000",
+            "updated_at": null,
             "id": "cmn3dvsw5000j0hc7yqwwuom5",
             "label": "Abstieg und erster Kampf",
+            "description": "Die Gruppe stieg die Treppen in den unteren Bereich der Sandpiper hinab und folgte dem von unten sichtbaren grünen Licht. Unten trafen sie auf Fischgesichtige Wesen, was unmittelbar zum Kampf führte. Die Gruppe kämpfte sich durch die Enge und besiegte die Gegner, wodurch der unmittelbare Widerstand gebrochen wurde.",
             "type": "major",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmn3cw3o2000004l7mt653jov"
             ],
             "game_session_id": "cmn3cw3o2000004l7mt653jov"
         },
         {
+            "created_at": "2026-03-23T16:12:01.257000",
+            "updated_at": null,
             "id": "cmn3dvszc000k0hc71kd2cwac",
             "label": "Treppenabstieg zum Licht",
+            "description": "Die Gruppe entschied sich, die Treppen in den unteren Bereich der Sandpiper hinabzusteigen, um dem grünen Licht nachzugehen, und stieg hinab. Unten traf die Gruppe auf Fischgesichtige Wesen, was unmittelbar zum Kampf führte.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 1,
+                "eventStartIndex": 0
+            },
             "parent_id": "cmn3dvsw5000j0hc7yqwwuom5",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmn3cw3o2000004l7mt653jov"
             ],
             "game_session_id": "cmn3cw3o2000004l7mt653jov"
         },
         {
+            "created_at": "2026-03-23T16:12:01.586000",
+            "updated_at": null,
             "id": "cmn3dvt8h000n0hc7o8xa7qtb",
             "label": "Raumerkundung und Öffnung",
+            "description": "Die Gruppe drang in den dahinterliegenden Raum vor, aus dem das grüne Licht kam, und stand vor einem verschlossenen Bereich unter einem Gitter. Das Gitter wurde aufgebrochen, um den Bereich darunter freizulegen, und eine Öffnung entstand. Aus der Öffnung stieg grüner Nebel auf, und Korvathun atmete den Nebel ein und wurde in eine krabbenartige Form verwandelt („Krabbathun“).",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 6,
+                "eventStartIndex": 3
+            },
             "parent_id": "cmn3dvt5g000m0hc75bzchxzq",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmn3cw3o2000004l7mt653jov"
             ],
             "game_session_id": "cmn3cw3o2000004l7mt653jov"
         },
         {
+            "created_at": "2026-03-23T16:12:02.026000",
+            "updated_at": null,
             "id": "cmn3dvtkp000r0hc7kpv4yrsv",
             "label": "Frith stellt Anspruch und fordert",
+            "description": "Unten folgte Krabbathun einem starken inneren Drang zur Vorderseite des Schiffs zu laufen. Im nebelgefüllten Unterdeck kam es zur Begegnung mit Frith. Frith stellte sich vor, erklärte, dass der grüne Nebel sein Gebiet und Eigentum schütze, und beanspruchte die Sandpiper bzw. das, was sich auf ihr befinde.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 14,
+                "eventStartIndex": 12
+            },
             "parent_id": "cmn3dvthn000q0hc7ibh2ve8t",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmn3cw3o2000004l7mt653jov"
             ],
             "game_session_id": "cmn3cw3o2000004l7mt653jov"
         },
         {
+            "created_at": "2026-03-23T17:01:18.163000",
+            "updated_at": null,
             "id": "cmn3fn6jn00000if2euzrpaez",
             "label": "Frith fordert Würfel von Dorfbewohner",
+            "description": "Frith stellte Forderungen: die Gruppe solle einen Würfel finden, den er im Besitz eines Dorfbewohners vermutete, und er beanspruchte die Sandpiper, sein Revier und sein vermeintliches Eigentum.",
             "type": "step",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": "cmn3fob8i000k0if25bse7v47",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmn3ep276000804jrkdtsl58r"
             ],
             "game_session_id": "cmn3ep276000804jrkdtsl58r"
         },
         {
+            "created_at": "2026-03-23T17:02:10.775000",
+            "updated_at": null,
             "id": "cmn3fob53000j0if2k29i399h",
             "label": "Friths Forderung und Burgsuche",
+            "description": "Frith stellte Forderungen: die Gruppe solle einen Würfel finden, den er im Besitz eines Dorfbewohners vermutete, und er beanspruchte die Sandpiper, sein Revier und sein vermeintliches Eigentum. Die Gruppe verließ die Sandpiper und ging an Land, dem Hinweis folgend. Sie begab sich zur Burg, traf dort den Hausherrn, einen Halbriesen, und sprach mit ihm. Der Halbriese erklärte, dass er den gesuchten Würfel nicht besaß und äußerte, seiner Einschätzung nach würde sich kein Dorfbewohner trauen, Frith etwas zu stehlen.",
             "type": "major",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmn3ep276000804jrkdtsl58r"
             ],
             "game_session_id": "cmn3ep276000804jrkdtsl58r"
         },
         {
+            "created_at": "2026-03-23T17:02:10.898000",
+            "updated_at": null,
             "id": "cmn3fob8i000k0if25bse7v47",
             "label": "Friths Forderung an Gruppe",
+            "description": "Frith forderte, die Gruppe solle einen Würfel finden, den er im Besitz eines Dorfbewohners vermutete, und beanspruchte die Sandpiper sowie sein angebliches Eigentum. Die Gruppe verließ die Sandpiper und ging an Land, dem Hinweis folgend.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 1,
+                "eventStartIndex": 0
+            },
             "parent_id": "cmn3fob53000j0if2k29i399h",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmn3ep276000804jrkdtsl58r"
             ],
             "game_session_id": "cmn3ep276000804jrkdtsl58r"
         },
         {
+            "created_at": "2026-03-23T17:02:11.249000",
+            "updated_at": null,
             "id": "cmn3fobi9000n0if2y0zx73f7",
             "label": "Kaz als wahrscheinlichster Verdächtiger",
+            "description": "Die Gruppe zog Kaz Kardwell, als wahrscheinlichsten Verdächtigen in Betracht und kehrte in das Gasthaus Goblin Hob zurück.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 7,
+                "eventStartIndex": 6
+            },
             "parent_id": "cmn3fobf0000m0if2w3upfqq7",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmn3ep276000804jrkdtsl58r"
             ],
             "game_session_id": "cmn3ep276000804jrkdtsl58r"
         },
         {
+            "created_at": "2026-03-23T17:02:11.595000",
+            "updated_at": null,
             "id": "cmn3fobrv000q0if26n2uyosf",
             "label": "Würfelidentifikation und erste Berührungen",
+            "description": "Der Würfel wurde untersucht und Morvain stellte fest, es handele sich um eine Art Kubriks Würfel der Clockwork Plain. Korvathun berührte den Würfel; die Magie bewirkte, dass alles, was er tat, für andere uninteressant wirkte, ohne dass die Zuneigung der Gruppe verschwand. Myna berührte den Würfel und schrumpfte auf etwa zehn Zentimeter Größe.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 14,
+                "eventStartIndex": 12
+            },
             "parent_id": "cmn3foboo000p0if2qmvi6djz",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmn3ep276000804jrkdtsl58r"
             ],
             "game_session_id": "cmn3ep276000804jrkdtsl58r"
         },
         {
+            "created_at": "2026-04-02T20:42:53.447000",
+            "updated_at": null,
             "id": "cmnhxynx100002oiml4qqqlfz",
             "label": "Morvain schloss sich Gwendolyn und Surina an",
+            "description": "Morvain ging zu Gwendolyn und Surina hinüber und schloss sich ihrem Gespräch an.",
             "type": "step",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": "cmnhy0gyt002o2oimvwanl29h",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmnhoa5e6000004juew4mv3o2"
             ],
             "game_session_id": "cmnhoa5e6000004juew4mv3o2"
         },
         {
+            "created_at": "2026-04-02T20:44:17.665000",
+            "updated_at": null,
             "id": "cmnhy0gwe002n2oimdfm4tu69",
             "label": "Gespräche im Pavillon und Laternen",
+            "description": "Die Gruppe führt persönliche Gespräche im Pavillon, erinnert sich an frühere Abenteuer und beschließt, nach Brennen zu suchen. Sie finden Brennen am See, trocknen und wärmen ihn, beobachten den Vollmond und diskutieren ein vermeintliches Sternbild. Rita verführt kurz Korvathun und schließt sich danach der Hauptgruppe an. Ein einzelner Glockenschlag erzeugt eine fünfminütige Stille; anschließend beteiligt sich die Gruppe an einem Laternenritual und schreibt Nachrichten.",
             "type": "major",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmnhoa5e6000004juew4mv3o2"
             ],
             "game_session_id": "cmnhoa5e6000004juew4mv3o2"
         },
         {
+            "created_at": "2026-04-02T20:44:17.753000",
+            "updated_at": null,
             "id": "cmnhy0gyt002o2oimvwanl29h",
             "label": "Erinnerungen und Anekdoten am Pavillon",
+            "description": "Morvain setzt sich zu Gwendolyn und Surina; Gwendolyn und Surina führen ein halböffentliches Gespräch und erinnern an ihr erstes gemeinsames Abenteuer, das Austauschen einer Schlange gegen einen Hasen, Brennens Pferdehandel und beinahe tödliche Beleidigungen in Hineitek. Die beiden stoßen auf weitere gute Zeiten an.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 5,
+                "eventStartIndex": 0
+            },
             "parent_id": "cmnhy0gwe002n2oimdfm4tu69",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmnhoa5e6000004juew4mv3o2"
             ],
             "game_session_id": "cmnhoa5e6000004juew4mv3o2"
         },
         {
+            "created_at": "2026-04-02T20:44:18.279000",
+            "updated_at": null,
             "id": "cmnhy0hdf002u2oimn76w3ear",
             "label": "Brennens Begegnung mit Verzweifelten",
+            "description": "Brennen spricht einen kauernden Mann an, dessen Tochter Sonval seit kurzer Zeit vermisst wird; der Mann dankt und Brennen bietet Hilfe mit seiner Gruppe an. Anschließend wird Brennen in eine Gruppe fröhlicher Männer gezogen, gezwungen, Krüge zu heben und zu trinken, bekommt Bier ins Gesicht und eilt schließlich zum Gästehaus, um die Toilette zu benutzen.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 43,
+                "eventStartIndex": 36
+            },
             "parent_id": "cmnhy0haz002t2oimquq3fan9",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmnhoa5e6000004juew4mv3o2"
             ],
             "game_session_id": "cmnhoa5e6000004juew4mv3o2"
         },
         {
+            "created_at": "2026-04-02T20:44:18.719000",
+            "updated_at": null,
             "id": "cmnhy0hpn002z2oimsrn0eeqk",
             "label": "Weitere Entführungen und Fund",
+            "description": "Ein Kapuzenmann (Garan) gesellt sich zu Brennan und bestätigt, dass seine Tochter seit heute vermisst sei. Brennan informiert seine Gruppe, findet einen Sohn eines Gastes, erfährt von drei weiteren verschwundenen Töchtern aus anderen Häusern, Korvathun schlägt den Sohn nieder; die Gruppe durchsucht ihn, findet ein Pergament mit dunkelgrünem Briarwatch-Siegel, und Brennan öffnet später die Einladung zum Mondfest.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 78,
+                "eventStartIndex": 66
+            },
             "parent_id": "cmnhy0hn6002y2oimdttwjk98",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmnhoa5e6000004juew4mv3o2"
             ],
             "game_session_id": "cmnhoa5e6000004juew4mv3o2"
         },
         {
+            "created_at": "2026-04-15T19:39:28.724000",
+            "updated_at": null,
             "id": "cmo0gf6ue00000tezjn77wcl0",
             "label": "Gruppe außerhalb von Briarwatch",
+            "description": "Die Gruppe befand sich nach einem Gespräch mit Seres außerhalb von Briarwatch und bereitete sich darauf vor, Informationen auszutauschen.",
             "type": "step",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": "cmo0ggesq00180tez3qi1idxs",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmo09c23d000004kyif8br5tt"
             ],
             "game_session_id": "cmo09c23d000004kyif8br5tt"
         },
         {
+            "created_at": "2026-04-15T19:40:25.567000",
+            "updated_at": null,
             "id": "cmo0ggepc00170tezsfhl29aa",
             "label": "Konfrontation mit Captain Durnan",
+            "description": "Die Gruppe traf sich nach einem Gespräch mit Seres außerhalb von Briarwatch, tauschte Informationen und untersuchte Morvains ungewöhnliche Hand. Captain Durnan und sechs Wachen erschienen, klärten einen Diebstahl und nahmen zurückgegebene 50 Gold und eine Geldbörse entgegen. Captain Durnan bot mehrere Aufgabenoptionen an, darunter ein Angebot, Morvain seinen Unterarm gegen die Erfüllung eines Wunsches abzugeben, setzte eine Entscheidungsfrist bis zum Morgengrauen und verließ den Ort.",
             "type": "major",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmo09c23d000004kyif8br5tt"
             ],
             "game_session_id": "cmo09c23d000004kyif8br5tt"
         },
         {
+            "created_at": "2026-04-15T19:40:25.690000",
+            "updated_at": null,
             "id": "cmo0ggesq00180tez3qi1idxs",
             "label": "Informationsaustausch mit Seres",
+            "description": "Die Gruppe sprach mit Seres außerhalb von Briarwatch; lea entschuldigte sich für den unruhigen Start und berichtete über Gerüchte zu verschwundenen adligen Töchtern, Konflikten zwischen Feuerelementaren und Drachen, Unruhe in der Lord’s Alliance und fehlenden Nachrichten aus Rogarsheim. tim erklärte, der Seeweg sei zuvor blockiert gewesen und nun vermutlich wieder offen. Gwendolyn untersuchte Morvains würfelförmige Finger und testete Schmerzreaktionen am Arm.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 6,
+                "eventStartIndex": 0
+            },
             "parent_id": "cmo0ggepc00170tezsfhl29aa",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmo09c23d000004kyif8br5tt"
             ],
             "game_session_id": "cmo09c23d000004kyif8br5tt"
         },
         {
+            "created_at": "2026-04-15T19:40:26.289000",
+            "updated_at": null,
             "id": "cmo0ggf9d001d0tez4nk43c2i",
             "label": "Weg zur Bibliothek und Zugang",
+            "description": "Seres erklärte, dass Informationen zum gestohlen Buch eher bei der Bibliothekarin oder der Herzogin zu erhalten seien, und führte die Gruppe zur Bibliothek. Auf dem Weg bemerkte Gwendolyn, dass manche Statuen und Rüstungen im Gang mehr als nur Statuen wirkten. In der Bibliothek wies eine Yuan‑Ti‑Bibliothekarin Anfragen zum gestohlenen Buch ab, da die Gruppe nicht für die Untersuchung registriert sei.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 25,
+                "eventStartIndex": 22
+            },
             "parent_id": "cmo0ggf62001c0tezmt02dos3",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmo09c23d000004kyif8br5tt"
             ],
             "game_session_id": "cmo09c23d000004kyif8br5tt"
         },
         {
+            "created_at": "2026-04-15T19:40:26.767000",
+            "updated_at": null,
             "id": "cmo0ggfmn001h0tezbkvttmkg",
             "label": "Treppe, Tür und Pause",
+            "description": "Gwendolyn entdeckte eine schmale Wendeltreppe mit steinernem Elchkopf, stieg hinauf, klopfte an eine Holztür und sprach kurz mit einer vollgerüsteten Goblindame, die das Gespräch beendete und die Tür schloss. Die Gruppe machte anschließend eine kurze Rast, teils im Pavillon, bis kurz vor Morgengrauen.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 37,
+                "eventStartIndex": 36
+            },
             "parent_id": "cmo0ggfjb001g0tez5tqbweju",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmo09c23d000004kyif8br5tt"
             ],
             "game_session_id": "cmo09c23d000004kyif8br5tt"
         },
         {
+            "created_at": "2026-04-22T20:43:44.098000",
+            "updated_at": null,
             "id": "cmoaissc100000tf47uzisto0",
             "label": "Gruppe trifft sich am Brunnen",
+            "description": "Die Gruppe traf sich am Brunnen und bestätigte ihre Entscheidung, den Nebel-Zwischenfall zu untersuchen (nicht den Diebstahl selbst).",
             "type": "step",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": "cmoaiulc000190tf4knuf66tg",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmoabbm19000704jq33qjteo5"
             ],
             "game_session_id": "cmoabbm19000704jq33qjteo5"
         },
         {
+            "created_at": "2026-04-22T20:45:08.220000",
+            "updated_at": null,
             "id": "cmoaiul8s00180tf4sz6lsm24",
             "label": "Verhör im Zellentrakt",
+            "description": "Die Gruppe traf sich am Brunnen und beschloss, den Nebel-Zwischenfall gemeinsam zu untersuchen; Gwendolyn und Morvain übernahmen die Führung und Pio wurde ausgesandt, nach Hinweisen zu suchen. Die Gruppe sprach Wachen an, wurde zu zwei goldgepanzer­ten Leibwachen weitergeleitet und in einen unterirdischen Zellentrakt gebracht. Dort wurde einem mit Sack verhüllten Gefangenen der Sack abgenommen; die Gruppe identifizierte ihn als „Steven“, entfernte eine Rosen-Brosche und setzte verschiedene Verhörmethoden (Frostbite, Waterboarding) ein. Das Verhör wurde durch das Eintreffen der Herzogin und ihrer Offizierin unterbrochen; Die Herzogin ordnete an, dass die Gruppe sich nicht weiter einmischt, und eine stumme Wache begleitete die Gruppe beim Verlassen.",
             "type": "major",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmoabbm19000704jq33qjteo5"
             ],
             "game_session_id": "cmoabbm19000704jq33qjteo5"
         },
         {
+            "created_at": "2026-04-22T20:45:08.337000",
+            "updated_at": null,
             "id": "cmoaiulc000190tf4knuf66tg",
             "label": "Entschluss und Vorgehensweise festlegen",
+            "description": "Die Gruppe traf sich am Brunnen und bestätigte, den Nebel-Zwischenfall (nicht den Diebstahl) zu untersuchen. Sie entschieden, nicht zu splitten; Gwendolyn Silverflame und Morvain übernahmen die Leitung, und Gwendolyn schickte ihren Vertrauten Pio, autark nach Spuren des Nebels (Geruch/untypische Spuren) zu suchen.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 2,
+                "eventStartIndex": 0
+            },
             "parent_id": "cmoaiul8s00180tf4sz6lsm24",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmoabbm19000704jq33qjteo5"
             ],
             "game_session_id": "cmoabbm19000704jq33qjteo5"
         },
         {
+            "created_at": "2026-04-22T20:45:09.128000",
+            "updated_at": null,
             "id": "cmoaiulxz001g0tf4kfoejszq",
             "label": "Pio führt zur Haarbündelentdeckung",
+            "description": "Pio führte Gwendolyn zu einem am Baum befestigten, säuberlich gebündelten Haarbüschel in U-Form aus Haaren verschiedener Farben. Gwendolyn stellte mit Detect Magic fest, dass vom Haarbündel Magie eines hexenähnlichen Stils ausging; Morvain ergänzte, dass Haare und ähnliche Materialien zu hexenartigen Zauberpraktiken gehören. Pio wies zudem auf einen kleinen Haufen aus Asche und Salz etwas weiter an der Mauer hin.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 27,
+                "eventStartIndex": 23
+            },
             "parent_id": "cmoaiuluv001f0tf48o70jc18",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmoabbm19000704jq33qjteo5"
             ],
             "game_session_id": "cmoabbm19000704jq33qjteo5"
         },
         {
+            "created_at": "2026-04-29T19:33:19.481000",
+            "updated_at": null,
             "id": "cmokgd79m00000tk1v65f9z29",
             "label": "Brennen nahm die Knochenkette in die Hand",
+            "description": "Brennen nahm die Knochenkette in die Hand, und seine Sicht war vernebelt.",
             "type": "step",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": "cmokgeymr002b0tk1d1q26cb6",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmok9b9au000004l73982sid9"
             ],
             "game_session_id": "cmok9b9au000004l73982sid9"
         },
         {
+            "created_at": "2026-04-29T19:34:41.484000",
+            "updated_at": null,
             "id": "cmokgeyjg002a0tk1y69ofgxb",
             "label": "Knochenkette und heimliche Beratung",
+            "description": "Die Gruppe untersucht die Knochenkette, mehrere Personen erleben einen Nebel-Effekt, und Surina übernimmt die Kette. Drei Gruppenmitglieder ziehen sich für ein vertrauliches Gespräch zurück, berichten von einer Nighthag und planen, die nahe Wache kampfunfähig zu machen. Es folgt eine Diskussion über Vertrauen zur Nighthag, frühere Tötungen von Wachen und die Idee, Gefangene später während Unruhen zu befreien.",
             "type": "major",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmok9b9au000004l73982sid9"
             ],
             "game_session_id": "cmok9b9au000004l73982sid9"
         },
         {
+            "created_at": "2026-04-29T19:34:41.603000",
+            "updated_at": null,
             "id": "cmokgeymr002b0tk1d1q26cb6",
             "label": "Kette verursacht Nebelblick",
+            "description": "Brennen und Gwendolyn berühren die Knochenkette und ihre Sicht vernebelt sich, Surina nimmt die Kette und deren Sicht klärt sich wieder.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 2,
+                "eventStartIndex": 0
+            },
             "parent_id": "cmokgeyjg002a0tk1y69ofgxb",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmok9b9au000004l73982sid9"
             ],
             "game_session_id": "cmok9b9au000004l73982sid9"
         },
         {
+            "created_at": "2026-04-29T19:34:42.073000",
+            "updated_at": null,
             "id": "cmokgeyzv002f0tk1yhhawnvq",
             "label": "Telepathischer Kontakt zu Flint",
+            "description": "Gwendolyn aktiviert den telepathischen Stein, Flint berichtet von der Lage in Briarwatch (wenig Unterstützer, Lord’s Alliance vor Ort) und rät, sicherzustellen, dass die gefesselte Wache nicht wieder eingreift; die Gruppe entscheidet, die Festung nicht direkt anzugreifen und Steve während des Chaos zu befreien.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 28,
+                "eventStartIndex": 22
+            },
             "parent_id": "cmokgeywn002e0tk1bo278s6p",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmok9b9au000004l73982sid9"
             ],
             "game_session_id": "cmok9b9au000004l73982sid9"
         },
         {
+            "created_at": "2026-04-29T19:34:42.652000",
+            "updated_at": null,
             "id": "cmokgezfv002k0tk1kiwnu5uk",
             "label": "Beobachtung der Angriffe",
+            "description": "Gwendolyn und andere warten und beobachten das Geschehen; Rita und Korvathun sehen eine Illusionskuppel, schwebende Frauen und ein herannahendes Luftschiff und berichten dies der Gruppe. Brennen bereitet sich mit Armbrust vor, während erste Bomben in der Stadt einschlagen.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 54,
+                "eventStartIndex": 47
+            },
             "parent_id": "cmokgezcp002j0tk1y9u7pfkr",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmok9b9au000004l73982sid9"
             ],
             "game_session_id": "cmok9b9au000004l73982sid9"
         },
         {
+            "created_at": "2026-04-30T13:48:00.516000",
+            "updated_at": null,
             "id": "cmoljgz2r00000tft7levzo48",
             "label": "Anker wurde gehoben und Fahrt begonnen",
+            "description": "Die Gruppe hob am frühen Nachmittag den Anker, setzte mit dem Boot flussabwärts ab und wurde trotz schwachem Wind von der Strömung mitgetragen, während durch das Ende des Winters die Eisdecke in Schollen zerbrach.",
             "type": "step",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": "cmolji2fi001f0tftax68ai6a",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "sz3s13nfaid7oxa0oh771joh"
             ],
             "game_session_id": "sz3s13nfaid7oxa0oh771joh"
         },
         {
+            "created_at": "2026-04-30T13:48:51.410000",
+            "updated_at": null,
             "id": "cmolji2cg001e0tfty51v3edv",
             "label": "Flussfahrt, Eisbruch und Drache",
+            "description": "Die Gruppe hob am frühen Nachmittag den Anker und fuhr flussabwärts, wobei die auftauende Eisdecke in Schollen zerbrach. Gwendolyn zerschoss größere Eisschollen mit Feuerzaubern, während einzelne Gruppenmitglieder nach Kräutern suchten, Äste sammelten und nach einem Drachen Ausschau hielten. Ein großer weißer Drache erschien, wurde angesprochen, kehrte zurück, brach den Segelmast und verlangte, dass mit ihm nur in seinem Drachenhort gesprochen werde. Die Gruppe brachte sich kurzzeitig in seichte Uferzone in Sicherheit, setzte die Fahrt später mit der Strömung fort und entdeckte an Land Anzeichen von vulkanischen Einschlagsstellen und ziehende Wildtiere; bei Einbruch der Dämmerung richteten sie auf einer Flussinsel ein Nachtlager ein.",
             "type": "major",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "sz3s13nfaid7oxa0oh771joh"
             ],
             "game_session_id": "sz3s13nfaid7oxa0oh771joh"
         },
         {
+            "created_at": "2026-04-30T13:48:51.519000",
+            "updated_at": null,
             "id": "cmolji2fi001f0tftax68ai6a",
             "label": "Abfahrt und Eisbrecher-Aktionen",
+            "description": "Die Gruppe hob den Anker, setzte mit dem Boot flussabwärts ab und wurde von der Strömung mitgetragen, während durch das Ende des Winters die Eisdecke in Schollen zerbrach. Gwendolyn Silverflame schoss fortlaufend größere Eisschollen mit Feuerzaubern, Brennen Voidridge suchte am Ufer nach Heilkräutern und verwarf den Plan, Dîn-io Tempest sammelte treibende Äste, und Surina Nemmonis hielt nach einem Drachen Ausschau.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 4,
+                "eventStartIndex": 0
+            },
             "parent_id": "cmolji2cg001e0tfty51v3edv",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "sz3s13nfaid7oxa0oh771joh"
             ],
             "game_session_id": "sz3s13nfaid7oxa0oh771joh"
         },
         {
+            "created_at": "2026-04-30T13:48:51.950000",
+            "updated_at": null,
             "id": "cmolji2rg001j0tftf0ij3u1k",
             "label": "Wache und Hilfegesuch",
+            "description": "Surina übernahm die erste Wache, patrouillierte mit einer Fackel und wurde von einem Pinguin angesprochen, der um Hilfe bat, weil ein Aklut den Rückweg zum Boot versperrte und Robben riss. Der Pinguin beschrieb den Aklut als gefährlich und wies außerdem auf einen feststeckenden Eisbär in der Umgebung hin; Surina holte Naevys zur Ablösung und weckte danach die Gruppe, um auszurücken.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 16,
+                "eventStartIndex": 14
+            },
             "parent_id": "cmolji2of001i0tft8d2flk2t",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "sz3s13nfaid7oxa0oh771joh"
             ],
             "game_session_id": "sz3s13nfaid7oxa0oh771joh"
         },
         {
+            "created_at": "2026-04-30T13:48:52.470000",
+            "updated_at": null,
             "id": "cmolji35x001o0tftz2xj9aze",
             "label": "Ausbeutung und Geschenkübergabe",
+            "description": "Die Gruppe häutete und zerlegte den Aklut, bereitete Fleisch zum Essen zu und sammelte Zähne, Krallen, Finne und das zähe Leder; Dîn-io bemerkte, dass die Haut gut für eine Rüstung geeignet sein könnte. Am Abend vollendete Dîn-io eine Schnitzarbeit und schenkte Surina einen kleinen Bären-Anhänger, den Surina an ihrem Gürtel befestigte.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 43,
+                "eventStartIndex": 42
+            },
             "parent_id": "cmolji330001n0tft6skafijo",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "sz3s13nfaid7oxa0oh771joh"
             ],
             "game_session_id": "sz3s13nfaid7oxa0oh771joh"
         },
         {
+            "created_at": "2026-04-30T14:20:29.992000",
+            "updated_at": null,
             "id": "cmolkmrat00000tha8cgss08a",
             "label": "Surina schnitt Leder, Krallen und Zähne ab",
+            "description": "Surina Nemmonis schnitt von der erlegten Kreatur Leder, Krallen und Zähne ab, um sie mitzunehmen.",
             "type": "step",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": "cmolknpxz000t0thauox5z28e",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "v865shjac4ndtfrslhtoq8ct"
             ],
             "game_session_id": "v865shjac4ndtfrslhtoq8ct"
         },
         {
+            "created_at": "2026-04-30T14:21:14.788000",
+            "updated_at": null,
             "id": "cmolknpv5000s0thal4ay2t2w",
             "label": "Beute sichern und Mast prüfen",
+            "description": "Die Gruppe sicherte Materialien von der erlegten Kreatur und beriet deren Verwendung. Anschließend untersuchte sie nachts das beschädigte Schiff, stellte den zerstörten Mast fest und schätzte den Reparaturbedarf. Die Entscheidung fiel, nachts nicht zu reparieren und stattdessen eine Passage mit der Pinguin-Crew zu suchen.",
             "type": "major",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "v865shjac4ndtfrslhtoq8ct"
             ],
             "game_session_id": "v865shjac4ndtfrslhtoq8ct"
         },
         {
+            "created_at": "2026-04-30T14:21:14.889000",
+            "updated_at": null,
             "id": "cmolknpxz000t0thauox5z28e",
             "label": "Beute bergen und aufbewahren",
+            "description": "Surina Nemmonis schnitt Leder, Krallen und Zähne von der erlegten Kreatur ab. Ein Gruppenmitglied füllte eine Ölflasche mit dem Blut der Kreatur, und die Gruppe besprach konkrete Verwendungen für Leder, Krallen, Blut und Rückenfinne (Rüstung, Waffenbestandteile, alchemistische Experimente).",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 2,
+                "eventStartIndex": 0
+            },
             "parent_id": "cmolknpv5000s0thal4ay2t2w",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "v865shjac4ndtfrslhtoq8ct"
             ],
             "game_session_id": "v865shjac4ndtfrslhtoq8ct"
         },
         {
+            "created_at": "2026-04-30T14:21:15.188000",
+            "updated_at": null,
             "id": "cmolknq6h000w0thah520gh0p",
             "label": "Bedingungen aushandeln und Vorschlag",
+            "description": "Surina informierte die pinguinartigen Ansprechpartner, dass die Gruppe mitfahren wolle und nicht die Drachenherrin angreifen werde; die Gegenseite verlangte Bezahlung. Auf Bitte nach Material bot die Pinguin-Crew stattdessen an, die Gruppe mitzunehmen, wenn sich jemand ihrer Crew anschließen würde; die Gruppe schlug Mister Varos vor und die Pinguin-Crew akzeptierte die Bedingung.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 9,
+                "eventStartIndex": 7
+            },
             "parent_id": "cmolknq3j000v0tharjo95p69",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "v865shjac4ndtfrslhtoq8ct"
             ],
             "game_session_id": "v865shjac4ndtfrslhtoq8ct"
         },
         {
+            "created_at": "2026-04-30T14:21:15.604000",
+            "updated_at": null,
             "id": "cmolknqht00100thaqtlsyym3",
             "label": "Alchemistische Vorbereitung an Bord",
+            "description": "Im Inneren des Schiffes sah die Gruppe die Besatzung am Steuer und wurde in einen Speiseraum geführt. Ein Gruppenmitglied konzentrierte das gewonnene Monsterblut; Dîn-io zerkleinerte und trocknete einen Rainbow Mushroom und zerstieß ihn zu Pulver, das mit Alkohol, Blutkonzentrat und Wasser zu einer dünnflüssigen, giftigen Waffenbeschichtung vermengt wurde.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 20,
+                "eventStartIndex": 17
+            },
             "parent_id": "cmolknqf2000z0thaerutwe57",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "v865shjac4ndtfrslhtoq8ct"
             ],
             "game_session_id": "v865shjac4ndtfrslhtoq8ct"
         },
         {
+            "created_at": "2026-05-13T20:14:29.781000",
+            "updated_at": null,
             "id": "cmp4i02oz00001ga64b871rzk",
             "label": "Steve half adeligen Familien zu entkommen",
+            "description": "korva hielt den aus Briarwatch befreiten Mann, den die Gruppe bisher als Steve kannte, am Baum fest und bedrängte ihn mit Fragen; der Mann antwortete, seine Leute hätten vor allem Töchtern, Söhnen und anderen Angehörigen adeliger Häuser geholfen, ihre Familien zu verlassen.",
             "type": "step",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": "cmp4i1rjp003f1ga6vn1dbooo",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmp49egl1000204if2fmow69m"
             ],
             "game_session_id": "cmp49egl1000204if2fmow69m"
         },
         {
+            "created_at": "2026-05-13T20:15:48.558000",
+            "updated_at": null,
             "id": "cmp4i1rh6003e1ga6zzz4jn0f",
             "label": "Gartenrettung und erste Begegnung",
+            "description": "Die Gruppe bringt mehrere Väter in den inneren Garten, wo schwebende Töchter auf sie herabkommen. Drei Töchter interagieren unterschiedlich mit ihren Vätern; eine wird durch Ranken getötet, eine weitere bleibt bewusst feindselig. Surina versucht Verletzte zu versorgen, befreit einen erstickenden Vater von Ranken und führt ihn aus dem Garten. Beim Verlassen erkennt sie infernalische Wesen, die das Anwesen markieren, während einige Frauen und Väter im Garten zurückbleiben.",
             "type": "major",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmp49egl1000204if2fmow69m"
             ],
             "game_session_id": "cmp49egl1000204if2fmow69m"
         },
         {
+            "created_at": "2026-05-13T20:15:48.649000",
+            "updated_at": null,
             "id": "cmp4i1rjp003f1ga6vn1dbooo",
             "label": "Ankunft und Durchsage",
+            "description": "Die Gruppe hört Schritte und eine formelhafte Ansage aus dem Haupthaus, die eine Pfandnahme nach dem ‚9. Register‘ verkündet und Widerstand als Behinderung einer Vollstreckung wertet. Niemand in der Gruppe erkennt die Stimme aus den Ruinen. Surina führt zusammen mit Brennen mehrere Väter ins Innere, um sie zu ihren schwebenden Töchtern zu bringen.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 5,
+                "eventStartIndex": 0
+            },
             "parent_id": "cmp4i1rh6003e1ga6zzz4jn0f",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmp49egl1000204if2fmow69m"
             ],
             "game_session_id": "cmp49egl1000204if2fmow69m"
         },
         {
+            "created_at": "2026-05-13T20:15:49.185000",
+            "updated_at": null,
             "id": "cmp4i1ryl003l1ga6f5lx8jf4",
             "label": "Doran offenbart Identität",
+            "description": "Naevys setzt den gefangenen ‚Steve‘ unter Druck; dieser offenbart das Symbol und nennt seinen echten Namen Doran. Doran erklärt Organisation, Entführungs- und Befreiungsauftrag und warnt, dass Naevys’ Herkunft gefährlich sei; er nennt Aurelian de Rosson als ihren Vater und Calimport als dessen Aufenthaltsort.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 36,
+                "eventStartIndex": 30
+            },
             "parent_id": "cmp4i1rw5003k1ga6b3siujyp",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmp49egl1000204if2fmow69m"
             ],
             "game_session_id": "cmp49egl1000204if2fmow69m"
         },
         {
+            "created_at": "2026-05-13T20:15:49.719000",
+            "updated_at": null,
             "id": "cmp4i1sdf003r1ga6g3r77ewt",
             "label": "Abholung und Transport vor Ort",
+            "description": "Gwendolyn sendet das Signal zur Abholung; das Luftschiff senkt sich, Strickleitern werden herabgelassen und die Gruppe besteigt das Schiff. Serres bringt die Herzogin an den infernalischen Kommandanten; danach kehrt Serres zum Luftschiff zurück und trägt einen anderen, kampftauglichen Anzug.",
             "type": "minor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": {
+                "eventEndIndex": 93,
+                "eventStartIndex": 87
+            },
             "parent_id": "cmp4i1saz003q1ga6csipjruz",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmp49egl1000204if2fmow69m"
             ],
             "game_session_id": "cmp49egl1000204if2fmow69m"
         },
         {
+            "created_at": "2026-05-18T16:49:58.638000",
+            "updated_at": null,
             "id": "cmpbfwbjw00000tkbya6sgsf9",
             "label": "Gruppe öffnet verschlossene Tür in Kirche",
+            "description": "Die Gruppe ging nachts in die Kirche, schloss die Tür hinter sich, sah sich vorsichtig um, stand schließlich vor einer verschlossenen Tür und bekam sie nach einigem Hantieren mit Werkzeugen und anderen Gegenständen auf.",
             "type": "step",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "index": 0,
+            "metadata": null,
             "parent_id": "cmpbfxmcm00270tkb7cpvlit4",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "game_session_ids": [
                 "cmpbdnlls000004l15qelefj9"
             ],

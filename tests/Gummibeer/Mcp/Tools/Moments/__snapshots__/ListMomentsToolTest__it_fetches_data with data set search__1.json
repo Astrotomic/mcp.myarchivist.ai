@@ -1,0 +1,57 @@
+{
+    "current_page": 1,
+    "data": [
+        {
+            "created_at": "2026-05-13T20:21:42.434000",
+            "updated_at": null,
+            "id": "jt5iuj21tdkeqnyx14dehnq0",
+            "label": "Ankunft auf dem Luftschiff",
+            "content": "Gwendolyn Silverflame schoss ein Signal in den Himmel, als sich ein Luftschiff näherte und Strickleitern herabließ. Die Gruppe bestieg das Luftschiff zusammen mit Doran, während Serres die Herzogin ablieferte und später ein Essen für alle brachte. Während der Fahrt diskutierten die Anwesenden mögliche nächste Aufträge, und Serres erklärte, dass die Herzogin in politischen Häusern intrigiert habe. Naevys bemerkte, dass Serres unglaublich aussah, und Gwendolyn fragte, ob sie für die Auslieferung etwas erhalten hatten. Schließlich schwebte das Luftschiff über dem Boden, während die Gruppe sich auf die bevorstehenden Abenteuer vorbereitete.",
+            "image": null,
+            "index": 541,
+            "categories": [
+                "Intrigue",
+                "Exploration",
+                "Alliance"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmp49egl1000204if2fmow69m"
+        },
+        {
+            "created_at": "2026-04-30T14:26:43.387000",
+            "updated_at": null,
+            "id": "tnuy4jj2c9p8aqw8pk1dpzcd",
+            "label": "Schiffsmast zerstört und Reparaturversuch",
+            "content": "Die Gruppe näherte sich in der Dunkelheit ihrem beschädigten Schiff und begann, den Mast zu untersuchen. Der Mast war vollständig zerstört, was bedeutete, dass das Schiff ohne fachkundige Reparatur nicht segelfähig war. Gwendolyn äußerte, dass sie mit Holz umgehen könne, aber unsicher war, ob sie die Reparatur alleine bewältigen könnte. Morvain und die anderen diskutierten, dass sie entweder versuchen müssten, den Mast in den nächsten ein oder zwei Tagen zu reparieren, oder mit den anderen mitfahren sollten. Schließlich wurde als Notlösung ein sehr niedriges, provisorisch gespanntes Segel in Erwägung gezogen, das nur mit Strömungshilfe genutzt werden konnte.",
+            "image": null,
+            "index": 513,
+            "categories": [
+                "Conflict",
+                "Despair",
+                "Chaos"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "v865shjac4ndtfrslhtoq8ct"
+        },
+        {
+            "created_at": "2026-03-06T11:22:43.317000",
+            "updated_at": null,
+            "id": "nizfwuuxvq95zx3wi9yyuxiw",
+            "label": "Das geheimnisvolle Schiff der Festung",
+            "content": "Während die Gruppe in der Festung verweilte, erfuhren sie von einem geheimnisvollen Schiff, das vor etwa 150 Jahren ohne bekannte Herkunft dort aufgetaucht war. Diese Entdeckung sorgte für Aufregung unter den Mitgliedern, da sie die Möglichkeit erahnten, dass das Schiff mit den mysteriösen Ereignissen in der Region verbunden sein könnte. Die Gruppe diskutierte die Bedeutung dieser Information und überlegte, welche weiteren Schritte sie unternehmen sollten, um mehr über das Schiff und seine Geschichte herauszufinden. Schließlich beschlossen sie, ihre Reise fortzusetzen und in Richtung Baldur’s Gate zu reisen, während sie die neu gewonnenen Erkenntnisse über das Schiff im Hinterkopf behielten.",
+            "image": null,
+            "index": 242,
+            "categories": [
+                "Mystery",
+                "Discovery"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmmesoyxm000004l2xc0lsasn"
+        }
+    ],
+    "from": 1,
+    "last_page": 1,
+    "per_page": 20,
+    "to": 3,
+    "total": 3
+}
