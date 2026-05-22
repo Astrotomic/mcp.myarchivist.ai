@@ -10,7 +10,7 @@ class BeatData extends ArchivistDto
             'id' => ['required', 'string'],
             'campaign_id' => ['required', 'string'],
             'game_session_id' => ['nullable', 'string'],
-            'game_session_ids' => ['nullable', 'array'],
+            'game_session_ids' => ['nullable', 'list'],
             'label' => ['required', 'string'],
             'type' => ['required', 'string', 'in:major,minor,step'],
             'index' => ['required', 'integer'],

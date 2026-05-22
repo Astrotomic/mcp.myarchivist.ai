@@ -44,8 +44,12 @@ final readonly class RulesToJsonSchema extends Action
             return $this->schema->boolean();
         }
 
-        if ($rules->intersect(['array'])->isNotEmpty()) {
+        if ($rules->intersect(['list'])->isNotEmpty()) {
             return $this->schema->array();
+        }
+
+        if ($rules->intersect(['array'])->isNotEmpty()) {
+            return $this->schema->object();
         }
 
         if ($rules->intersect(['numeric'])->isNotEmpty()) {

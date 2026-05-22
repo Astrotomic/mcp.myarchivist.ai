@@ -10,7 +10,7 @@ class SessionTranscriptData extends ArchivistDto
             'version' => ['required', 'integer'],
             'metadata' => ['required', 'array'],
             'text' => ['required', 'string'],
-            'utterances' => ['required', 'array'],
+            'utterances' => ['required', 'list'],
             'stats' => ['required', 'array'],
             'created_at' => ['required', 'string', 'date'],
         ];

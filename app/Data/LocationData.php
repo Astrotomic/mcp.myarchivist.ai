@@ -14,7 +14,7 @@ class LocationData extends ArchivistDto
             'type' => ['nullable', 'string'],
             'parent_id' => ['nullable', 'string'],
             'image' => ['nullable', 'string'],
-            'aliases' => ['nullable', 'array'],
+            'aliases' => ['nullable', 'list'],
             'tcg_image' => ['nullable', 'string'],
             'merge' => ['nullable', 'bool'],
             'created_at' => ['required', 'string', 'date'],

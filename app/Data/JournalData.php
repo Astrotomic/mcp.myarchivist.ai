@@ -9,7 +9,7 @@ class JournalData extends JournalDataShort
         return array_merge(parent::rules(), [
             'content' => ['nullable', 'string'],
             'content_rich' => ['nullable', 'array'],
-            'content_metadata' => ['nullable', 'array'],
+            'content_metadata' => ['nullable', 'list'],
             'permission_level' => ['nullable', 'string'],
         ]);
     }

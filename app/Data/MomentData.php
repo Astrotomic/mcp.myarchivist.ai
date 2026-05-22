@@ -14,7 +14,7 @@ class MomentData extends ArchivistDto
             'index' => ['nullable', 'integer'],
             'content' => ['nullable', 'string'],
             'image' => ['nullable', 'string'],
-            'categories' => ['nullable', 'array'],
+            'categories' => ['nullable', 'list'],
             'created_at' => ['required', 'string', 'date'],
             'updated_at' => ['nullable', 'string', 'date'],
         ];

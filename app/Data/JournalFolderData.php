@@ -14,7 +14,7 @@ class JournalFolderData extends ArchivistDto
             'path' => ['required', 'string'],
             'position' => ['required', 'integer'],
             'description' => ['nullable', 'string'],
-            'metadata' => ['nullable', 'array'],
+            'metadata' => ['nullable', 'list'],
             'created_at' => ['required', 'string', 'date'],
             'updated_at' => ['nullable', 'string', 'date'],
         ];
