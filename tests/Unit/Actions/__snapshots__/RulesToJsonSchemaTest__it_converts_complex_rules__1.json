@@ -15,6 +15,9 @@
         "roles": {
             "type": "array"
         },
+        "metadata": {
+            "type": "object"
+        },
         "is_admin": {
             "type": "boolean"
         },
@@ -37,6 +40,7 @@
         "id",
         "email",
         "roles",
+        "metadata",
         "is_admin"
     ]
 }

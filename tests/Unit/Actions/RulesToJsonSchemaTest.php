@@ -48,6 +48,12 @@ final class RulesToJsonSchemaTest extends UnitTestCase
     }
 
     #[Test]
+    public function it_converts_list_rule(): void
+    {
+        $this->assertRules(['tags' => 'list']);
+    }
+
+    #[Test]
     public function it_converts_numeric_rule(): void
     {
         $this->assertRules(['price' => 'numeric']);
@@ -78,7 +84,8 @@ final class RulesToJsonSchemaTest extends UnitTestCase
             'id' => 'required|integer',
             'email' => 'required|string',
             'score' => 'nullable|numeric',
-            'roles' => 'required|array',
+            'roles' => 'required|list',
+            'metadata' => 'required|array',
             'is_admin' => 'required|boolean',
             'category' => 'in:news,blog,article',
             'size' => ['int', 'min:1', 'max:100'],

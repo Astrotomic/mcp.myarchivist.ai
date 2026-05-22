@@ -1,7 +1,7 @@
 {
     "properties": {
         "tags": {
-            "type": "object"
+            "type": "array"
         }
     },
     "type": "object"
