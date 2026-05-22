@@ -1,47 +1,61 @@
 # Archivist AI MCP Server
 
+[![MIT License](https://img.shields.io/github/license/Astrotomic/mcp.myarchivist.ai.svg?label=License&color=blue&style=for-the-badge)](https://github.com/Astrotomic/mcp.myarchivist.ai/blob/master/LICENSE)
+[![Treeware](https://img.shields.io/badge/Treeware-%F0%9F%8C%B3-green?style=for-the-badge)](https://plant.treeware.earth/Astrotomic/mcp.myarchivist.ai)
+[![Larabelles](https://img.shields.io/badge/Larabelles-%F0%9F%A6%84-lightpink?style=for-the-badge)](https://www.larabelles.com/)
+
+[![GitHub PHPunit Status](https://img.shields.io/github/actions/workflow/status/Astrotomic/mcp.myarchivist.ai/phpunit.yml?style=flat-square&logoColor=white&logo=github&label=PHPunit)](https://github.com/Astrotomic/mcp.myarchivist.ai/actions/workflows/phpunit.yml)
+[![GitHub PHPStan Status](https://img.shields.io/github/actions/workflow/status/Astrotomic/mcp.myarchivist.ai/phpstan.yml?style=flat-square&logoColor=white&logo=github&label=PHPStan)](https://github.com/Astrotomic/mcp.myarchivist.ai/actions/workflows/phpstan.yml)
+[![GitHub Pint Status](https://img.shields.io/github/actions/workflow/status/Astrotomic/mcp.myarchivist.ai/pint.yml?style=flat-square&logoColor=white&logo=github&label=Pint)](https://github.com/Astrotomic/mcp.myarchivist.ai/actions/workflows/pint.yml)
+[![GitHub PHPMND Status](https://img.shields.io/github/actions/workflow/status/Astrotomic/mcp.myarchivist.ai/phpmnd.yml?style=flat-square&logoColor=white&logo=github&label=PHPMND)](https://github.com/Astrotomic/mcp.myarchivist.ai/actions/workflows/phpmnd.yml)
+
+[![Discord](https://img.shields.io/badge/Discord-MyArchivist-5865F2?style=flat-square&logoColor=white&logo=discord)](https://discord.gg/t3yk6AWyg7)
+[![Smithery](https://img.shields.io/badge/Smithery-MyArchivist-ff5601?style=flat-square)](https://smithery.ai/servers/me-26lt/archivist-ai)
+[![Glama](https://img.shields.io/badge/Glama-MyArchivist-00d992?style=flat-square)](https://glama.ai/mcp/connectors/ai.myarchivist.mcp/mcp-archivist-ai)
+[![mcp.so](https://img.shields.io/badge/mcp.so-MyArchivist-c96442?style=flat-square)](https://mcp.so/server/archivist-ai/Archivist%20AI)
+
 The official [Model Context Protocol](https://modelcontextprotocol.io) (MCP) server for [Archivist AI](https://www.myarchivist.ai) -- a TTRPG campaign memory platform for game masters and players.
 
-Connect AI assistants like Claude, ChatGPT, Cursor, and Windsurf directly to your campaign data: characters, sessions, locations, factions, items, quests, journals, and more.
+Connect AI assistants like Claude, ChatGPT, Cursor, Notion, and Windsurf directly to your campaign data: characters, sessions, locations, factions, items, quests, journals, and more.
 
 ## Quick Start
 
 **MCP Server URL:** `https://mcp.myarchivist.ai/mcp`
 
-### Claude Desktop
+<details>
+<summary>Claude Desktop</summary>
 
 Add to your `claude_desktop_config.json`:
-
 ```json
 {
   "mcpServers": {
     "archivist-ai": {
-      "type": "streamable-http",
       "url": "https://mcp.myarchivist.ai/mcp"
     }
   }
 }
 ```
+</details>
 
-### Cursor
+<details>
+<summary>Cursor</summary>
 
 Add to `.cursor/mcp.json` in your project:
-
 ```json
 {
   "mcpServers": {
     "archivist-ai": {
-      "type": "streamable-http",
       "url": "https://mcp.myarchivist.ai/mcp"
     }
   }
 }
 ```
+</details>
 
-### Windsurf
+<details>
+<summary>Windsurf</summary>
 
 Add to your MCP configuration:
-
 ```json
 {
   "mcpServers": {
@@ -51,36 +65,13 @@ Add to your MCP configuration:
   }
 }
 ```
+</details>
 
-### ChatGPT
+<details>
+<summary>ChatGPT</summary>
 
 Archivist AI is available as a ChatGPT plugin. Search for "Archivist AI" in the ChatGPT plugin store.
-
-## Authentication
-
-The MCP server supports two authentication methods:
-
-- **OAuth 2.0** (recommended for interactive clients): Authorization code flow with PKCE. When you first use a tool, your MCP client will redirect you to sign in with your Archivist account.
-- **Bearer token**: Pass your Archivist API key as a Bearer token for programmatic access.
-
-Get your API key from the [Developer tab](https://app.myarchivist.ai/profile?section=dev) in your Archivist profile.
-
-### OAuth Details
-
-- Authorization Server Metadata: `https://mcp.myarchivist.ai/.well-known/oauth-authorization-server`
-- Supported scopes: `profile`, `worlds_read`, `sessions_read`, `characters_read`
-
-## Server Details
-
-| Property | Value |
-|----------|-------|
-| **Name** | Archivist AI |
-| **Version** | 1.0.0 |
-| **Transport** | Streamable HTTP |
-| **URL** | `https://mcp.myarchivist.ai/mcp` |
-| **Tools** | 25 read-only tools |
-| **Resources** | None (v1) |
-| **Prompts** | None (v1) |
+</details>
 
 ## Available Tools
 
@@ -94,13 +85,6 @@ All tools are **read-only**, **non-destructive**, and **idempotent**. Write oper
 | `get_campaign` | Get a specific campaign by ID. |
 | `get_campaign_stats` | Get statistics for a campaign: character count, session count, and more. |
 
-### Characters
-
-| Tool | Description |
-|------|-------------|
-| `list_characters` | List characters in a campaign. Filter by name, type (PC/NPC), or approval status. |
-| `get_character` | Get a character by ID including aliases, backstory, and speaker linkage. |
-
 ### Sessions
 
 | Tool | Description |
@@ -108,6 +92,8 @@ All tools are **read-only**, **non-destructive**, and **idempotent**. Write oper
 | `list_sessions` | List game sessions. Filter by session type or public-only. |
 | `get_session` | Get a session by ID. Optionally include related beats and moments. |
 | `get_session_cast_analysis` | Get cast analysis: talk-share breakdown and core session metrics. |
+| `get_session_transcript` | Get the cleaned transcript for a game session, including utterances, full text, and aggregate stats. |
+| `get_session_handout` | Get the generated session handout for a game session, including summary, outlines, spotlights, and notable moments. |
 
 ### Story Structure
 
@@ -122,6 +108,8 @@ All tools are **read-only**, **non-destructive**, and **idempotent**. Write oper
 
 | Tool | Description |
 |------|-------------|
+| `list_characters` | List characters in a campaign. Filter by name, type (PC/NPC), or approval status. |
+| `get_character` | Get a character by ID including aliases, backstory, and speaker linkage. |
 | `list_factions` | List factions. Factions represent guilds, organisations, or other groups. |
 | `get_faction` | Get a specific faction by ID. |
 | `list_locations` | List locations. Locations can be nested (cities, taverns, dungeons, etc.). |
@@ -150,32 +138,3 @@ All tools are **read-only**, **non-destructive**, and **idempotent**. Write oper
 | Tool | Description |
 |------|-------------|
 | `list_links` | List links between entities. Filter by source/target entity and relationship alias. |
-
-## Discovery
-
-- **Server Card:** `https://mcp.myarchivist.ai/.well-known/mcp/server-card.json`
-- **MCP Discovery:** `https://mcp.myarchivist.ai/.well-known/mcp`
-- **OAuth Metadata:** `https://mcp.myarchivist.ai/.well-known/oauth-authorization-server`
-
-## Available On
-
-- [Smithery](https://smithery.ai/servers/me-26lt/archivist-ai) -- MCP server registry
-- [Glama](https://glama.ai/mcp/connectors/ai.myarchivist.mcp/mcp-archivist-ai) -- MCP connector
-- [mcp.so](https://mcp.so/server/archivist-ai/Archivist%20AI) -- MCP server directory
-
-## Resources
-
-- [Archivist AI](https://www.myarchivist.ai) -- Product homepage
-- [Developer Portal](https://developers.myarchivist.ai) -- API reference, playground, guides
-- [Agent Examples](https://github.com/Archivist-AI/agent-examples) -- Working agent examples and configs
-- [REST API](https://api.myarchivist.ai) -- Direct API access
-- [OpenAPI Spec](https://api.myarchivist.ai/openapi.json) -- Machine-readable API specification
-- [Discord](https://discord.gg/t3yk6AWyg7) -- Community and support
-
-## Technology
-
-Built with [Laravel](https://laravel.com) and [laravel/mcp](https://github.com/laravel/mcp). The server proxies authenticated requests to the Archivist REST API (`https://api.myarchivist.ai`).
-
-## License
-
-MIT
