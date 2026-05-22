@@ -8,14 +8,18 @@
             "name": "Schiff Mit Kufen",
             "aliases": [
                 "Schiff Auf Kufen",
-                "Das Schiff"
+                "Das Schiff",
+                "Boot",
+                "Das Boot",
+                "Kleines Zurückgebliebenes Fischerboot",
+                "Fischerboot"
             ],
             "type": null,
-            "description": "Das Schiff mit Kufen ist ein Fischerboot-ähnliches Fahrzeug, das über Schnee gezogen werden kann. Es verfügt über ein außen liegendes Steuer, ein aufziehbares Segel und Raum unter Deck. Ein Zwerg erklärte, dass es bis zur nächsten Stadt halten sollte, obwohl eine gründlichere Stabilisierung zwei Tage in Anspruch nehmen würde.\nDie Gruppe sah das Schiff draußen beim Zwerg, bestieg es, setzte das Segel und verteilte Aufgaben für Steuer und Navigation. Dîn-io übernahm zeitweise den Antrieb mit Windmagie. Die Gruppe befestigte das Schiff an einem größeren Stein für eine Rast, zog das Segel ein, nahm Flopsy an Bord und setzte die Fahrt mit Nachtwachen und gelegentlichen Pausen fort.",
+            "description": "Das Schiff mit Kufen ist ein Schiff Mit Kufen-ähnliches Fahrzeug, das über Schnee gezogen werden kann. Es verfügt über ein außen liegendes Steuer, ein aufziehbares Segel und Raum unter Deck. Ein Zwerg erklärte, dass es bis zur nächsten Stadt halten sollte, obwohl eine gründlichere Stabilisierung zwei Tage in Anspruch nehmen würde.\nDie Gruppe sah das Schiff draußen beim Zwerg, bestieg es, setzte das Segel und verteilte Aufgaben für Steuer und Navigation. Dîn-io übernahm zeitweise den Antrieb mit Windmagie. Die Gruppe befestigte das Schiff an einem größeren Stein für eine Rast, zog das Segel ein, nahm Flopsy an Bord und setzte die Fahrt mit Nachtwachen und gelegentlichen Pausen fort.\nSpäter wurde das Boot als schlittenartiges Fahrzeug mit einem Ausguck oben beschrieben und in Richtung Kervis Kern genutzt. Ein quer liegender Baum blockierte das Weiterkommen mit dem Boot. Die Gruppe hielt beim Boot an, aß und stellte das Boot sicher ab. Es blieb während der Arbeiten an dem Hindernis geparkt, bis der Baum Stück für Stück entfernt wurde, damit das Boot wieder vorwärts konnte. Gwendolyn blieb zum Übernachten auf dem Boot.\nIn einer anderen Beobachtung wurde das Schiff mit Kufen als ein am Seeweg zurückgebliebenes Fischerboot beschrieben, das zuletzt Proviant gebracht hatte. Es wird als Option an der Küste genannt und steht in Verbindung mit dem Seeweg als mögliche Transportmöglichkeit.",
             "image": null,
             "tcg_image": null,
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
+            "merge": true
         },
         {
             "created_at": "2026-05-21T13:29:19.499000",
@@ -26,11 +30,11 @@
                 "Kugel"
             ],
             "type": null,
-            "description": "Die Große Kugel, auch bekannt als Navigationsorb, ist eine Metallkugel mit einem Durchmesser von 7 Fuß. Sie befand sich in einem verschlossenen Nebenraum, der von einem Gefängnisaufseher bewacht wurde.\nDie Gruppe wurde in den Raum geführt und versuchte, die Kugel durch den Türrahmen zu schieben. Surina rollte die Kugel zur Tür, wo sie am Rahmen hängen blieb. Beim Blick nach oben entdeckte die Gruppe eine quadratische Öffnung in der Decke, die groß genug für die Kugel war. Dîn-io konnte die Kugel zunächst nicht mit Magie in seinen Ring verschwinden lassen. Nachdem der Aufseher die magische Unterdrückung abschaltete, nahm Dîn-io die Kugel mit seiner Magie in seinen Ring und machte sie transportabel.",
+            "description": "Die Große Kugel, auch bekannt als Navigationsorb, ist eine Metallkugel mit einem Durchmesser von 7 Fuß. Sie befand sich in einem verschlossenen Nebenraum, der von einem Gefängnisaufseher bewacht wurde. Die glatt polierte Kugel ist ein gefundenes Objekt, das als glatt poliert und ohne erkennbare Bedienelemente beschrieben wird. Gwendolyn fand die Kugel im oberen Raum beim Durchsuchen von Bett, Schreibtisch, Schublade und Kleiderschrank. Die Kugel hat keine Knöpfe, kann nicht benutzt werden und zeigt nichts.\nDie Gruppe wurde in den Raum geführt und versuchte, die Kugel durch den Türrahmen zu schieben. Surina rollte die Kugel zur Tür, wo sie am Rahmen hängen blieb. Beim Blick nach oben entdeckte die Gruppe eine quadratische Öffnung in der Decke, die groß genug für die Kugel war. Dîn-io konnte die Kugel zunächst nicht mit Magie in seinen Ring verschwinden lassen. Nachdem der Aufseher die magische Unterdrückung abschaltete, nahm Dîn-io die Kugel mit seiner Magie in seinen Ring und machte sie transportabel.",
             "image": null,
             "tcg_image": null,
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
+            "merge": true
         },
         {
             "created_at": "2026-05-18T16:51:47.081000",
@@ -56,11 +60,11 @@
                 "Ring"
             ],
             "type": null,
-            "description": "Der magische Ring gehört Dîn-io Tempest, der ihn als „mein Ring“ bezeichnet. Der Ring diente als Medium, über das Dîn-io versuchte, auf verstautes Gut zuzugreifen. Während dieser Nutzung ertönte eine Stimme im Kopf, die seinen Anspruch auf den Inhalt in Frage stellte. Kurz darauf wurde Dîn-io gewaltsam aus dem Ring herausgedrängt, und der Ring fiel zu Boden.",
+            "description": "Der magische Ring, bekannt als der Dîn-Ios Ring, gehört Dîn-io Tempest, der ihn als „mein Ring“ bezeichnet. Der Ring diente als Medium, über das Dîn-io versuchte, auf verstautes Gut zuzugreifen. Während dieser Nutzung ertönte eine Stimme im Kopf, die seinen Anspruch auf den Inhalt in Frage stellte. Kurz darauf wurde Dîn-io gewaltsam aus dem Ring herausgedrängt, und der Ring fiel zu Boden.\nDîn-io beschreibt den Ring als „keinen Teufel“ und als „Brücke“ zu einer Macht, die von einem seiner Vorfahren stammt. Er verschwand chronologisch in dem Ring und ließ nur den Ring in seiner Hand zurück. Dîn-io berichtete, dass er weiterhin wahrnimmt, was um den Ring herum geschieht, und dass er später in der Nähe des Rings wieder auftauchen kann. Es wurde erwähnt, dass eine Nachthexe besonderes Interesse an dem Ring gezeigt hat, wobei es um Seelen ging.",
             "image": null,
             "tcg_image": null,
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
+            "merge": true
         },
         {
             "created_at": "2026-05-18T16:51:46.844000",
@@ -865,9 +869,12 @@
             "updated_at": null,
             "id": "kiclp87tm3iluw0a7wuhpy5k",
             "name": "Sending Stones",
-            "aliases": [],
+            "aliases": [
+                "Stein",
+                "Ihren Stein"
+            ],
             "type": null,
-            "description": "Sending Stones sind magische Kommunikationsgeräte, die von Handelsgilden wie der Lionsshield Coster genutzt werden. Sie ermöglichen die Kommunikation über große Entfernungen und dienen der Überprüfung von Kontoständen und anderen Transaktionen zwischen verschiedenen Standorten. Die Nutzung von Sending Stones ist mit einer Gebühr verbunden, was ihre Rolle in den finanziellen und Handelsnetzwerken der Welt unterstreicht.\nDer Sending Stone ist ein magisches Kommunikationsmittel, das von Miriam Harpell bereitgestellt wird. Flint Fireforge nahm den Sending Stone von Miriam Harpell an sich und steckte ihn ein. Dieser Sending Stone wurde als Belohnung in Waterdeep erhalten und ist Teil der magischen Gegenstände, die Flint während seiner Abenteuer erwarb. Die Gruppe entschied sich, den Sending Stone zurückzuholen.\nMore recently, die Sending Stones ermöglichen direkte Kommunikation zwischen den Benutzern über Entfernungen hinweg und erleichtern die Koordination und den Austausch von Informationen. Sie werden auch als Mittel zum Versenden von Nachrichten in dringenden Angelegenheiten oder Notfällen erwähnt. Es wird berichtet, dass jemand durch Sending Stones von einer vermissten Person erfahren hat, was ihre Verwendung zur Übermittlung wichtiger Informationen anzeigt. Die Steine ermöglichen eine bidirektionale Kommunikation, und ein Charakter erkennt an, sie zuvor verwendet zu haben, was darauf hinweist, dass sie den Charakteren bekannt sind.",
+            "description": "Sending Stones sind magische Kommunikationsgeräte, die von Handelsgilden wie der Lionsshield Coster genutzt werden. Sie ermöglichen die Kommunikation über große Entfernungen und dienen der Überprüfung von Kontoständen und anderen Transaktionen zwischen verschiedenen Standorten. Die Nutzung von Sending Stones ist mit einer Gebühr verbunden, was ihre Rolle in den finanziellen und Handelsnetzwerken der Welt unterstreicht.\nDer Sending Stone ist ein magisches Kommunikationsmittel, das von Miriam Harpell bereitgestellt wird. Flint Fireforge nahm den Sending Stone von Miriam Harpell an sich und steckte ihn ein. Dieser Sending Stone wurde als Belohnung in Waterdeep erhalten und ist Teil der magischen Gegenstände, die Flint während seiner Abenteuer erwarb. Die Gruppe entschied sich, den Sending Stone zurückzuholen.\nMore recently, die Sending Stones ermöglichen direkte Kommunikation zwischen den Benutzern über Entfernungen hinweg und erleichtern die Koordination und den Austausch von Informationen. Sie werden auch als Mittel zum Versenden von Nachrichten in dringenden Angelegenheiten oder Notfällen erwähnt. Es wird berichtet, dass jemand durch Sending Stones von einer vermissten Person erfahren hat, was ihre Verwendung zur Übermittlung wichtiger Informationen anzeigt. Die Steine ermöglichen eine bidirektionale Kommunikation, und ein Charakter erkennt an, sie zuvor verwendet zu haben, was darauf hinweist, dass sie den Charakteren bekannt sind.\nEin spezifisches Beispiel ist ein kleiner, magischer Stein, der von Gwendolyn Silverflame getragen wird. Der Stein pulsiert und blinkt, wenn er aktiviert wird, und leuchtet auf. Gwendolyn nutzt den Stein, um eine Verbindung herzustellen. Sie ruft Hammerheim/Flint an, der über die Freisprecheinrichtung antwortet und bestätigt, dass er Truppen zum Gefängnis geschickt hat.",
             "image": null,
             "tcg_image": null,
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",

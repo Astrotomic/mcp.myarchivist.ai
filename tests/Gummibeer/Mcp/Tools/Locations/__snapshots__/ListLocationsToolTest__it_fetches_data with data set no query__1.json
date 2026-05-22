@@ -2,6 +2,41 @@
     "current_page": 1,
     "data": [
         {
+            "created_at": "2026-05-22T12:19:24.787000",
+            "updated_at": null,
+            "id": "vsslu9kuuknvesv52tuutyyn",
+            "name": "Night Hag Wald",
+            "aliases": [
+                "Mitte Der Lichtung",
+                "Lichtung"
+            ],
+            "type": null,
+            "description": "Der Wald ist ein Ort, in dem Lichter erscheinen und eine weibliche Stimme zu den Anwesenden spricht. Die Stimme begrüßt die Gruppe und wirft ihnen vor, den Wald geschändet zu haben. Ranken wachsen am Boden und fesseln die Gruppenmitglieder, die in die Mitte des Waldes geschoben werden. Die Stimme fordert bis zum nächsten Morgen drei humanoide Opfer und präzisiert, dass Seelen von Humanoiden verlangt seien, nicht von Tieren. Sie erwähnt, dass die zerstörte Larve den Preis erhöhen könne. Alternativ bietet sie die Seele eines unbekannten Wesens für die Freiheit der Gruppe an und zeigt ein Gefäß, in dem Seelen gebunden und handelbar sind. Die Stimme erklärt, dass sie offenbar nicht auf der Materialebene ist und betont, dass sie nicht allein auf diese Gruppe angewiesen sei. Die Begegnung endet abrupt, und die Gruppe wird aus dem Wald fortgerissen.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-05-22T12:19:24.312000",
+            "updated_at": null,
+            "id": "cq0z8sun87cpopu2wqifdmi8",
+            "name": "Gehöft",
+            "aliases": [
+                "Bauernhof",
+                "Hof",
+                "Gehöft"
+            ],
+            "type": null,
+            "description": "Das Gehöft ist ein brennendes Bauernhaus mit verbrannten Kohlkopffeldern, einem in Flammen stehenden Gehöft, einigen feuergegriffenen Bäumen und einem kleinen Häuschen, das ebenfalls Feuer gefangen hat. Die Umgebung ist offen und flach, ohne sichtbaren Wald. Teile des Gehöfts standen in Flammen, und die brennenden Felder sind vom Hügel über dem Gehöft aus gut sichtbar.\n\nAls die Gruppe den Hügel über dem Gehöft erreichte, begann das Häuschen zu brennen und war im Feuerschein des brennenden Hofs sichtbar. Die Gruppe beobachtete das brennende Häuschen vom Hügel aus zusammen mit den anderen brennenden Teilen des Geländes. \n\nAm Gehöft wurde ein vielbeiniges wurmartiges Wesen und eingeritzte Zeichen auf dem Körper von Nathalie gefunden, die tot aufgefunden wurde. Gwendolyn Silverflame stellte fest, dass nur das wurmartige Wesen stark magisch war. Surina begann, ein Grab für Nathalie zu schaufeln, als das wurmartige Wesen durch das Brennen getötet wurde. Surina legte Blumen zu Nathalie.\n\nDas Gehöft beim Bauernhof war Teil des brennenden Gehöfts. Teile des Schweinegatters standen in Flammen, und zwei verbliebene Schweine liefen aus dem Gatter. Die Gruppe beobachtete das brennende Gatter von einem Hügel oberhalb.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": true,
+            "parent_id": null
+        },
+        {
             "created_at": "2026-05-21T13:29:19.281000",
             "updated_at": null,
             "id": "bv38x9x7n4dj6v9uyd3eivqt",
@@ -34,13 +69,15 @@
             "updated_at": null,
             "id": "yao5ziciwkjaexipj0r3ecf3",
             "name": "Kelvin's Cairn",
-            "aliases": [],
+            "aliases": [
+                "Der Berg"
+            ],
             "type": null,
-            "description": "Calvin'S Cain ist ein erhöhtes Gelände, das als Hügel bekannt ist. Dîn-io bezeichnete Calvin'S Cain als spezifischen Umwegpunkt und fragte, ob die Gruppe dort landen könnte. Naevys schätzte die Entfernung auf etwa 8 Meilen vom aktuellen Standort und rechnete, dass der Umweg die Strecke auf knapp 20 Meilen ausdehnen würde. Die Gruppe prüfte daraufhin ihre Vorräte und stellte fest, dass genug Proviant für zwei zusätzliche Tage vorhanden war. Sie entschieden sich, den Umweg nach Calvin'S Cain anzutreten.",
+            "description": "Kelvin's Cairn ist ein erhöhter Gelände, das als Hügel bekannt ist. Dîn-io bezeichnete Kelvin's Cairn als spezifischen Umwegpunkt und fragte, ob die Gruppe dort landen könnte. Naevys schätzte die Entfernung auf etwa 8 Meilen vom aktuellen Standort und rechnete, dass der Umweg die Strecke auf knapp 20 Meilen ausdehnen würde. Die Gruppe prüfte daraufhin ihre Vorräte und stellte fest, dass genug Proviant für zwei zusätzliche Tage vorhanden war. Sie entschieden sich, den Umweg nach Kelvin's Cairn anzutreten.\nKelvin's Cairn wird als Ursprung anhaltender Kälte und Dunkelheit benannt. Von dort geht eine Macht aus, die die Gegend kälter und lebensfeindlicher macht. Naevys versprach, die Gruppe zum Berg zu führen. Ihr schamanischer Vater warnte, dass sich die Lage täglich verschlechtere und Eile geboten sei. Die Gruppe besprach Reisestunden und logistische Probleme, insbesondere das lange Fortbringen von Naevys’ Clan und den beengten Platz im Boot.",
             "image": null,
             "tcg_image": null,
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false,
+            "merge": true,
             "parent_id": null
         },
         {
@@ -49,14 +86,14 @@
             "id": "y4ibdbycnt8e3jc1j6vjqb2b",
             "name": "Revel's End",
             "aliases": [
-                "Revel's End"
+                "Zellenebene"
             ],
             "type": null,
-            "description": "Revel's End ist ein Raum im Gefängnis, der mit zwei Fässern an der Wand ausgestattet ist, die Wasser enthalten. Der Raum enthält eine rund sieben Fuß durchmessende Metallkugel und hat eine quadratische Öffnung in der Decke von etwa 10×10 Fuß. Das Gefängnis selbst ist eine Anlage mit Zellen, einer schmalen Wendeltreppe, verschlossenen Türen und einem oberen Raum, von dem die Zellen gesteuert werden. In einem Nebenraum steht eine große Metallkugel, und es gibt eine quadratische Öffnung in der Decke über diesem Raum. \n\nIm Gefängnis funktionierte Magie nicht, und die Tür der Zelle ließ sich trotz drehendem Schlüssel nicht öffnen, da sie durch eine magische Verriegelung gesichert war. Die Gruppe ging die Wendeltreppe hinauf, wo ein Gefängnisaufseher erschien und sie in den Kugelraum führte. Zunächst verweigerte der Aufseher die Nutzung von Magie. In der Revel's End mit den Wasserfässern wurde eine Wette gehalten, während der Aufseher Dîn-io dessen Kopf unter Wasser hielt, während andere zusahen. Surina griff ein und löste die Hände des Aufsehers von Dîn-io. \n\nKurz darauf öffnete der Aufseher einen bislang verschlossenen Nebenraum und stellte die magische Unterdrückung im Gefängnis ab. Danach wurde die Kugel per Ringmagie aufgenommen, und die Gruppe nahm ihre Ausrüstung und verließ das Gefängnis.",
+            "description": "Revel's End ist ein Raum im Gefängnis, das sich in einer kalten Region befindet. Der Raum ist mit zwei Fässern an der Wand ausgestattet, die Wasser enthalten. Er enthält eine rund sieben Fuß durchmessende Metallkugel und hat eine quadratische Öffnung in der Decke von etwa 10×10 Fuß. Das Gefängnis selbst ist eine Anlage mit Zellen, einer schmalen Wendeltreppe, verschlossenen Türen und einem oberen Raum, von dem die Zellen gesteuert werden. In einem Nebenraum steht eine große Metallkugel, und es gibt eine quadratische Öffnung in der Decke über diesem Raum.\nDie Gruppe fand sich in einem geschlossenen Raum wieder und identifizierte den Ort als Revel's End. Dîn-io musste sich nach der Ankunft übergeben. Der Raum hatte einen Zugang, durch den nur ein schmaler Gang sichtbar war. Dîn-io kletterte eine Leiter hinauf und erreichte einen Turm, von dem aus er eine Landungs- und Krananlage, Brückenteile, einen weiteren schmalen höheren Turm und nahe Klippen sehen konnte. Im Raum fanden sie gewöhnliche Lebensmittel. Im Gefängnis funktionierte Magie nicht, und die Tür der Zelle ließ sich trotz drehendem Schlüssel nicht öffnen, da sie durch eine magische Verriegelung gesichert war. Die Gruppe ruhte sich aus und erkundete das Gefängnis weiter. Surina entdeckte um eine Ecke einen einzelnen Ork als Wache. Sie legte einen Hinterhalt, stürmte vor und tötete den Ork mit einem Stich in die Brust bis zur Kehle. Der Leichnam und die Axt fielen laut zu Boden, und die Gruppe versuchte, den Leichnam unauffällig zu ziehen. Orcs patrouillierten auf denselben Routen.\nKurz darauf öffnete der Aufseher einen bislang verschlossenen Nebenraum und stellte die magische Unterdrückung im Gefängnis ab. Danach wurde die Kugel per Ringmagie aufgenommen, und die Gruppe nahm ihre Ausrüstung und verließ das Gefängnis. Die Revel's End ist die Ebene des Gefängnisses, auf der sich die Zellen und die befreiten Gefangenen befinden. Die Gruppe traf dort zusammen. Brennen begegnete einem Riesen, der angab, in einer Zelle eingesperrt gewesen zu sein, bis seine Magie zurückgekehrt sei, und der sich weigerte zu kämpfen. Dîn-io fand eine besetzte Zelle, schloss sie auf und befreite einen Zwerg, der daraufhin weitere Zellen öffnete. Nach und nach wurden mehrere Zwerge, ein Mensch, eine ältere Elfe und ein voll gerüsteter Hund befreit. Zudem wurde der Gefängnisdirektor befreit, der Informationen über die Übernahme durch Orks gab. Die Gruppe versammelte sich nach den Kämpfen erneut auf der Revel's End mit dem Gefängnisdirektor.",
             "image": null,
             "tcg_image": null,
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false,
+            "merge": true,
             "parent_id": null
         },
         {
@@ -172,11 +209,11 @@
                 "Hütte"
             ],
             "type": null,
-            "description": "Die Hütte mit Feuerstelle dient der Gruppe als Unterkunft und bietet Platz für die Übernachtung. Sie ist stabil gebaut und befindet sich auf einer mittelgroßen Flussinsel, die die Gruppe bei Einbruch der Dämmerung erreicht hat.\nNach dem Sieg über den Aklut führt der Pinguin die Gruppe zur Hütte und bietet an, dort zu übernachten. In der Hütte häutet und zerlegt die Gruppe den Aklut, bereitet Fleisch zum Essen zu und sammelt wertvolle Materialien wie Zähne, Krallen und das zähe Leder. Am Abend vollendet Dîn-io Tempest eine Schnitzarbeit und schenkt Surina Nemmonis einen kleinen Bären-Anhänger. Der Pinguin verlässt die Hütte kurz, um sein größeres, Stählernes Schiff durch das Eis zur Insel zu bringen. Surina Nemmonis geht mit dem Pinguin an Bord, wo sie eine Crew aus mehreren Pinguinen, einem Hai und einigen Enten sieht. Der Pinguin, der sich als Admiral des Schiffs vorstellt, bietet an, die Gruppe zur Insel mit dem Hort von Ava Charus zu bringen.",
+            "description": "Die Hütte mit Feuerstelle dient der Gruppe als Unterkunft und bietet Platz für die Übernachtung. Sie ist stabil gebaut und befindet sich auf einer mittelgroßen Flussinsel, die die Gruppe bei Einbruch der Dämmerung erreicht hat. Nach dem Sieg über den Aklut führt der Pinguin die Gruppe zur Hütte und bietet an, dort zu übernachten. In der Hütte häutet und zerlegt die Gruppe den Aklut, bereitet Fleisch zum Essen zu und sammelt wertvolle Materialien wie Zähne, Krallen und das zähe Leder. Am Abend vollendet Dîn-io Tempest eine Schnitzarbeit und schenkt Surina Nemmonis einen kleinen Bären-Anhänger. Der Pinguin verlässt die Hütte kurz, um sein größeres, Stählernes Schiff durch das Eis zur Insel zu bringen. Surina Nemmonis geht mit dem Pinguin an Bord, wo sie eine Crew aus mehreren Pinguinen, einem Hai und einigen Enten sieht. Der Pinguin, der sich als Admiral des Schiffs vorstellt, bietet an, die Gruppe zur Insel mit dem Hort von Ava Charus zu bringen.\nSpäter, in einer anderen Hütte, die als die Große Hütte bekannt ist, lebt Naevys’ schamanischer Vater. Diese Hütte ist warm und bewohnbar, jedoch ist die Einrichtung, das Geschirr und die Portionen deutlich größer als für Orks oder die Gruppe, was darauf hindeutet, dass das Haus ursprünglich den riesenhaften Gestalten gehörte. Naevys und ihr Clan gingen in die Große Hütte, wo Naevys ihren Naevys Nerizana unterstützte. Ihr Vater berichtete, dass die Kälte ihm zu schaffen machte. Die Anwesenden stellten fest, dass die Bewohner des Hauses offenbar getötet worden waren. Naevys bat um eine Totenwache und Bestattung der im Haus Getöteten, und ihr Vater stimmte zu, sie draußen mit den eigenen Toten aufzubahren und gemeinsam zu verbrennen. Die Gruppe verbrachte den Rest des Tages mit Arbeiten außerhalb, während Teile der Gemeinschaft in und bei der Hütte blieben.\nIn der Warme Hütte, die ebenfalls für riesenhafte Gestalten ausgelegt ist, kam es zu einer Auseinandersetzung über die getöteten riesenhaften Bewohner. Naevys’ Vater erklärte, dass die zunehmende Kälte ihm auf die alten Knochen schlage, er jedoch nicht ernsthaft krank sei. Naevys sprach mit ihrem Naevys Nerizana über die anhaltende Dunkelheit und Kälte. Ihr Vater äußerte, dass aller Wahrscheinlichkeit nach eine Macht vom Berg dahinter stecke und die Lage mit jedem Tag schlimmer werde.",
             "image": null,
             "tcg_image": null,
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false,
+            "merge": true,
             "parent_id": null
         },
         {
@@ -267,39 +304,11 @@
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "merge": false,
             "parent_id": null
-        },
-        {
-            "created_at": "2026-03-23T16:38:23.879000",
-            "updated_at": null,
-            "id": "m3uyh35o2b3ss1s1zjatfrib",
-            "name": "Clockwork Plain",
-            "aliases": [],
-            "type": null,
-            "description": "Die Clockwork Plain ist ein Ort mit mächtigen Artefakten, die tiefgreifende magische Eigenschaften besitzen. Ein Beispiel ist ein Kubriks Würfel, der als ein Artefakt der Clockwork Plain identifiziert wurde. Dieser Würfel ist ein magisches Objekt, das mit Kräften verbunden ist, die über die alltäglichen Gegebenheiten einer Hafenstadt hinausgehen.\nBei einer Interaktion mit dem Würfel erlebten die Charaktere signifikante Veränderungen. Korvathun wurde durch die Magie des Würfels so beeinflusst, dass alles, was er tat, für andere uninteressant wirkte. Myna erlebte eine drastische körperliche Verwandlung und schrumpfte auf etwa zehn Zentimeter Größe. Morvain absorbierte den Würfel, was zu einer Transformation seiner linken Hand führte, die sich in eine Mischung aus Obsidian und Mithrilwürfeln verwandelte, durchzogen von rubinartigen Fäden.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false,
-            "parent_id": null
-        },
-        {
-            "created_at": "2026-03-21T21:35:49.043000",
-            "updated_at": null,
-            "id": "mapu1z87bmkg93si0zy1x03a",
-            "name": "Schrein der Göttin Akadi",
-            "aliases": [],
-            "type": null,
-            "description": "Der Schrein der Göttin Akadi befindet sich hoch oben an einer vereisten Felswand und ist ein windiger Ort. Er liegt oberhalb einer großen Felswand, und der Zugang erfolgt über einen schmalen Pfad, der weiter oben zu finden ist.\nDer Aufstieg zum Schrein kann je nach Kletterfähigkeit und Lichtverhältnissen unterschiedlich lange dauern. Akadi ist die Göttin des Windes, und der Schrein könnte für ihre Anhänger von Bedeutung sein.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false,
-            "parent_id": null
         }
     ],
     "from": 1,
     "last_page": 6,
     "per_page": 20,
     "to": 20,
-    "total": 109
+    "total": 111
 }

@@ -2,6 +2,34 @@
     "current_page": 2,
     "data": [
         {
+            "created_at": "2026-03-23T16:38:23.879000",
+            "updated_at": null,
+            "id": "m3uyh35o2b3ss1s1zjatfrib",
+            "name": "Clockwork Plain",
+            "aliases": [],
+            "type": null,
+            "description": "Die Clockwork Plain ist ein Ort mit mächtigen Artefakten, die tiefgreifende magische Eigenschaften besitzen. Ein Beispiel ist ein Kubriks Würfel, der als ein Artefakt der Clockwork Plain identifiziert wurde. Dieser Würfel ist ein magisches Objekt, das mit Kräften verbunden ist, die über die alltäglichen Gegebenheiten einer Hafenstadt hinausgehen.\nBei einer Interaktion mit dem Würfel erlebten die Charaktere signifikante Veränderungen. Korvathun wurde durch die Magie des Würfels so beeinflusst, dass alles, was er tat, für andere uninteressant wirkte. Myna erlebte eine drastische körperliche Verwandlung und schrumpfte auf etwa zehn Zentimeter Größe. Morvain absorbierte den Würfel, was zu einer Transformation seiner linken Hand führte, die sich in eine Mischung aus Obsidian und Mithrilwürfeln verwandelte, durchzogen von rubinartigen Fäden.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
+            "created_at": "2026-03-21T21:35:49.043000",
+            "updated_at": null,
+            "id": "mapu1z87bmkg93si0zy1x03a",
+            "name": "Schrein der Göttin Akadi",
+            "aliases": [],
+            "type": null,
+            "description": "Der Schrein der Göttin Akadi befindet sich hoch oben an einer vereisten Felswand und ist ein windiger Ort. Er liegt oberhalb einer großen Felswand, und der Zugang erfolgt über einen schmalen Pfad, der weiter oben zu finden ist.\nDer Aufstieg zum Schrein kann je nach Kletterfähigkeit und Lichtverhältnissen unterschiedlich lange dauern. Akadi ist die Göttin des Windes, und der Schrein könnte für ihre Anhänger von Bedeutung sein.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false,
+            "parent_id": null
+        },
+        {
             "created_at": "2026-03-21T14:04:03.319000",
             "updated_at": null,
             "id": "jm7x34fos651lpvzuv8h2klo",
@@ -272,39 +300,11 @@
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "merge": true,
             "parent_id": null
-        },
-        {
-            "created_at": "2026-03-09T00:11:07.298000",
-            "updated_at": null,
-            "id": "ic0rmz0dj4g85q9hprd8q3in",
-            "name": "Triboar > Karawanen-Platz",
-            "aliases": [],
-            "type": null,
-            "description": "Karawanen-Platz ist ein Außenbereich in Triboar, wo Reisende und Händler ihre Pferde und Kutschen abstellen. Der Platz dient als Anlaufstelle für die Ankunft in Triboar.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false,
-            "parent_id": null
-        },
-        {
-            "created_at": "2026-03-07T18:29:15.964000",
-            "updated_at": null,
-            "id": "ueiowj7y9nj8gef3p3a2yr15",
-            "name": "Waterdeep > Palast",
-            "aliases": [],
-            "type": null,
-            "description": "Der Palast in Waterdeep ist ein zentraler Ort für Verhandlungen und Belohnungen. Die Gruppe erhielt dort für ihre Leistungen 150 Gold pro Kopf sowie ein Set Sending Stones für Flint Fireforge.\n\nNach dem erfolgreichen Testflug mit dem Skyreaper über Waterdeep begab sich die Gruppe in den Palast, um ihre Belohnung abzuholen.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false,
-            "parent_id": null
         }
     ],
     "from": 21,
     "last_page": 6,
     "per_page": 20,
     "to": 40,
-    "total": 109
+    "total": 111
 }

@@ -2,6 +2,847 @@
     "current_page": 1,
     "data": [
         {
+            "created_at": "2026-05-22T15:54:39.561000",
+            "updated_at": null,
+            "id": "ar8mofhczd1jzax8p7y256aw",
+            "label": "Nathalie (Schwein) und Gefangene",
+            "content": "Nathalie (Schwein) wandte sich den lebenden Gefangenen zu und lief zu Surina, die Gefangene in ihrer Hand hielt. Es sprang an ihr hoch, um näher an die Gefesselten zu gelangen. Surina hob Gefangene höher und rief dem Schwein zu, dass es zuerst die Toten fressen solle. Einer der Gefangenen schrie, da Nathalie (Schwein) auf seinem Fuß herumkatschte.",
+            "image": null,
+            "index": 4,
+            "categories": [
+                "Hijinx",
+                "Conflict"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmph1tau7000d04kzygjz8zig"
+        },
+        {
+            "created_at": "2026-05-22T15:54:39.561000",
+            "updated_at": null,
+            "id": "b008rhadgnbc0vl401taehjr",
+            "label": "Gwendolyns Traum und Surinas Suche",
+            "content": "In Gwendolyns Traum fand sie sich in einem großen, hallenden Steinbau mit hohen Räumen, Rüstungen und Schilden wieder. Surina befand sich in einem unnatürlich stillen Wald, in dem selbst die Geräusche von Vögeln und plätscherndem Wasser fehlten. Sie hörte Gwendolyns Ruf und versuchte, sich in die Richtung des Klanges zu orientieren, während Gwendolyn die akustischen Gegebenheiten des Raumes erkundete und die Echos ihrer Umgebung wahrnahm. Gwendolyn bemerkte, dass die Stimmen, die sie hörte, sich orten ließen, was ihr half, sich in diesem Traum zurechtzufinden.",
+            "image": null,
+            "index": 7,
+            "categories": [
+                "Mystery",
+                "Intrigue"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmph1tau7000d04kzygjz8zig"
+        },
+        {
+            "created_at": "2026-05-22T15:54:39.561000",
+            "updated_at": null,
+            "id": "bpm0u4kv0mdwk5kxn3w82iel",
+            "label": "Gwendolyn heilt Surina in der Arena",
+            "content": "Gwendolyn Silverflame legte sanft ihre Hand auf Surina Nemmonis' Kopf und sagte: \"Ich werde jetzt meine Hand leicht auf deinen Kopf legen.\" Surina beugte sich ein wenig herunter. Nach der Heilung fühlte sich Surina deutlich besser und bedankte sich mit den Worten: \"Mir geht's viel besser. Dankeschön!\" Währenddessen äußerten die übrigen Menschen in der Arena lautstark, dass ihrer Meinung nach noch mehr Blut fließen müsse, bevor jemand freigelassen werden könne.",
+            "image": null,
+            "index": 10,
+            "categories": [
+                "Heroism",
+                "Conflict"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmph1tau7000d04kzygjz8zig"
+        },
+        {
+            "created_at": "2026-05-22T15:54:39.561000",
+            "updated_at": null,
+            "id": "d26eft6659n072lapvh9xnaf",
+            "label": "Gwendolyn entfesselt das Feuer",
+            "content": "Die Gruppe war auf dem Weg zur Stadt Niewinter, um Elysia Darkthorn zu finden, die den Wald kontrollierte. Gwendolyn Silverflame bereitete sich vor, indem sie einen Feuerhaufen machte und plante, ihn mit einem Firebolt zu entzünden, sobald Elysia Darkthorn in Sichtweite war. Währenddessen diskutierten die anderen über die Identität der Hexe und äußerten Zweifel an ihrer Gefährlichkeit. Plötzlich schoss ein Firebolt an den beiden vorbei, was Die Gruppe in Alarmbereitschaft versetzte. Brennen Voidridge bemerkte, dass Gwendolyn verschwunden war und fragte sich, ob sie Elysia Darkthorn sein könnte.",
+            "image": null,
+            "index": 6,
+            "categories": [
+                "Conflict",
+                "Combat"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmph1tau7000d04kzygjz8zig"
+        },
+        {
+            "created_at": "2026-05-22T15:54:39.561000",
+            "updated_at": null,
+            "id": "efrwx0t3ocsb8mb6pwppe903",
+            "label": "Dîn-io sieht das Feuer übergreifen",
+            "content": "Dîn-io entfernte sich kurz, um einen Kohlkopf zu holen, als er bemerkte, dass das Feuer beim Bauernhof weiter auf das Gehöft übergriff. Hinter dem Hügel stieg eine deutliche Rauchsäule auf, die die Gefahr der Situation verdeutlichte. Während er den Kohlkopf holte, wurde ihm klar, dass die Flammen sich unaufhaltsam ausbreiteten und das gesamte Anwesen bedrohten.",
+            "image": null,
+            "index": 1,
+            "categories": [
+                "Conflict",
+                "Despair"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmph1tau7000d04kzygjz8zig"
+        },
+        {
+            "created_at": "2026-05-22T15:54:39.561000",
+            "updated_at": null,
+            "id": "f8gnlguu202ktq9d79fgi276",
+            "label": "Surina und Nathalie auf dem Weg zum Bauernhof",
+            "content": "Als der Rauch um sie herum dichter wurde, bereitete sich Die Gruppe darauf vor, sich in Bewegung zu setzen und dem Bauernhof zuzuwenden. Surina Nemmonis, die Drachenherrin, nahm Nathalie, Nathalie (Schwein), in ihre Obhut. Währenddessen hörte man den Bauern, der aufgrund seiner Verletzung laut schrie. Brennen Voidridge äußerte sich besorgt über die lebenden Menschen in der Nähe und stellte fest, dass es nicht richtig sei, sie zu essen. Die Gruppe war in einem Zustand der Unruhe, während sie sich auf den Weg zum Bauernhof machte, mit Nathalie an Surinas Seite.",
+            "image": null,
+            "index": 5,
+            "categories": [
+                "Chaos",
+                "Intrigue"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmph1tau7000d04kzygjz8zig"
+        },
+        {
+            "created_at": "2026-05-22T15:54:39.561000",
+            "updated_at": null,
+            "id": "g3xwqx5yavn3jmn1o93xsvr7",
+            "label": "Gwendolyns Feuerball im Brunnen",
+            "content": "Gwendolyn Silverflame stellte sich entschlossen an den Rand des Brunnens und rief: \"Brennen, ich möchte Fireball da runterkasten!\" Mit einem kraftvollen Schwung schleuderte sie den Feuerball in die Tiefe, während Brennen Voidridge gerade hinunterblickte. Im letzten Moment schaffte er es, sich zurückzuziehen, als aus dem Brunnen Dampf und Wasser in die Höhe schossen. Die explosive Kraft des Zaubers ließ die Umgebung erzittern und sorgte für einen dramatischen Anblick, während die Hitze des Feuers die Luft erfüllte. Brennen bemerkte: \"Mein Gott, sah das aus!\"",
+            "image": null,
+            "index": 2,
+            "categories": [
+                "Combat",
+                "Hijinx"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmph1tau7000d04kzygjz8zig"
+        },
+        {
+            "created_at": "2026-05-22T15:54:39.561000",
+            "updated_at": null,
+            "id": "kpfjf5rajf6ntovawcpb6iil",
+            "label": "Brennen enthüllt den Fluch der verlorenen Kutschen",
+            "content": "Brennen Voidridge stellte fest, dass Die Gruppe fast alle verfluchten Personen aus den verlorenen Kutschen getötet hatte, aber auch einige Gefangene gemacht hatte. Er erklärte, dass sie aus den Überlebenden schließen konnten, dass die verschwundenen Kutschen und ihre Insassen unter einem Fluch standen. \"Das sind diese verlorenen Kutschen, die waren weg. Und die standen halt unter dem Fluch unter einem Batsch\", sagte er und äußerte die Befürchtung, dass sie Elysia Darkthorn verärgert hatten, nachdem sie die meisten ihrer verfluchten Anhänger besiegt hatten. Während Die Gruppe darüber diskutierte, was mit den Überlebenden geschehen sollte, dachte Brennen an Dîn-io Rachen.",
+            "image": null,
+            "index": 0,
+            "categories": [
+                "Revelation",
+                "Conflict"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmph1tau7000d04kzygjz8zig"
+        },
+        {
+            "created_at": "2026-05-22T15:54:39.561000",
+            "updated_at": null,
+            "id": "qpvrlfh780vl7ligqlkn3l6m",
+            "label": "Gwendolyn in der Arena",
+            "content": "Gwendolyn Silverflame trat mutig in den Steinbau ein und fand sich in einer sandigen Arena wieder, umgeben von mehreren großen Toren und einer Menge von Zuschauern, die sie beobachteten. Sie stellte sich strategisch auf, um alle Zugänge im Blick zu behalten, während die Zuschauer um sie herum eine lebhafte Atmosphäre schufen. Gwendolyn war sich der Blicke bewusst, die auf ihr ruhten, und überlegte, ob sie sich bemerkbar machen sollte, während der Jubel der Menge es schwierig machte, gehört zu werden. Entschlossen, ihre Position zu halten und auf mögliche Bedrohungen zu achten, bereitete sie sich auf das Unbekannte vor. Die Arena, mit ihren hohen Wänden und dem aufsteigenden Weg, bot einen eindrucksvollen Anblick.",
+            "image": null,
+            "index": 8,
+            "categories": [
+                "Conflict",
+                "Suspense"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmph1tau7000d04kzygjz8zig"
+        },
+        {
+            "created_at": "2026-05-22T15:54:39.561000",
+            "updated_at": null,
+            "id": "se55ief09duc8guules3zct8",
+            "label": "Gwendolyn und Surina im Kampf gegen wilde Tiere",
+            "content": "In der Arena setzte Gwendolyn Silverflame ihre Magie ein, um die angreifenden Tiere abzuwehren, während Surina Nemmonis zu ihr sprang und im Nahkampf an ihrer Seite kämpfte. Der Schwarzbär griff die Wache an, die sich geschickt verteidigte. Mit einem präzisen Stoß rammte die Wache dem Bären den Speer in den Hals und erlegte ihn. Gwendolyn rief während des Kampfes: \"Wie wäre es mal mit kämpfen und nicht nur wegrennen?\" und versuchte, ihre Verbündeten zu motivieren, während sie die Bedrohung durch die Tiere abwehrte.",
+            "image": null,
+            "index": 9,
+            "categories": [
+                "Combat",
+                "Heroism"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmph1tau7000d04kzygjz8zig"
+        },
+        {
+            "created_at": "2026-05-22T15:54:39.561000",
+            "updated_at": null,
+            "id": "sqsd56rhwq6klsad1tjdy5y4",
+            "label": "Nathalie (Schwein)",
+            "content": "Eines der Schweine wandte sich von den Köpfen ab und kam zu Brennen Voidridge herüber. Als Brennen Nathalie (Schwein) fragte: \"Ey Schwein, was versuchst du mir damit zu sagen?\", antwortete das Tier schlicht: \"Ich bin ein Schwein. Wer soll ich wissen, was ich dir sagen soll?\" Brennen, verwirrt und am Boden sitzend, fragte Nathalie (Schwein), ob es ihm einen Namen geben könne. Nathalie (Schwein) schien jedoch nicht in der Lage zu sein, mehr als seine eigene Identität zu kommunizieren. Währenddessen beobachteten die anderen Charaktere, wie Nathalie (Schwein) und Brennen miteinander interagierten, was zu weiteren Kommentaren und Scherzen führte.",
+            "image": null,
+            "index": 3,
+            "categories": [
+                "Hijinx",
+                "Banter"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmph1tau7000d04kzygjz8zig"
+        },
+        {
+            "created_at": "2026-05-22T13:57:55.832000",
+            "updated_at": null,
+            "id": "bmjshvuuwf33azwd6iifro2p",
+            "label": "Überraschungsangriff auf die Kultisten",
+            "content": "Als die Tür des Gefängnisses aufging, waren Gwendolyn und Dîn-io bereit, ihre Angriffe auszuführen. Gwendolyn rief \"Ja ja ready set go mit Magic-Missel\" und bereitete sich darauf vor, ihre Magie gegen die Gegner im Inneren einzusetzen. Dîn-io stürmte mit einem entschlossenen Blick in den Raum und griff den ersten Kultisten an. In diesem Moment entfesselte Gwendolyn einen mächtigen Zauber, während Dîn-io mit seinem Stab zuschlug, um die überraschten Kultisten zu überwältigen. Die beiden Kämpfer setzten ihre Angriffe gleichzeitig ein und überraschten die Gegner.",
+            "image": null,
+            "index": 613,
+            "categories": [
+                "Combat",
+                "Heroism"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgxzkvy000004leuglaq3nz"
+        },
+        {
+            "created_at": "2026-05-22T13:57:55.832000",
+            "updated_at": null,
+            "id": "cuahv5332l2nmxxng1z2wh7x",
+            "label": "Naevys beschwört Flopsy für den Kampf",
+            "content": "Naevys Nerizana, die Waldläuferin, bereitete sich auf den bevorstehenden Kampf vor und fragte, ob sie ihren drakonischen Begleiter, Flopsy, beschwören könne. Nachdem sie die Erlaubnis erhalten hatte, rief sie ihren Drachen-Companion herbei, der hinter ihr erschien. Naevys war entschlossen, Flopsy in den Kampf zu schicken, um die feindlichen Kultisten zu unterstützen. Der Drache stand bereit, um an ihrer Seite zu kämpfen. Mit einem klaren Befehl schickte Naevys Flopsy in den Kampf, um die Gegner zu attackieren.",
+            "image": null,
+            "index": 614,
+            "categories": [
+                "Combat",
+                "Heroism"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgxzkvy000004leuglaq3nz"
+        },
+        {
+            "created_at": "2026-05-22T13:57:55.832000",
+            "updated_at": null,
+            "id": "d5bzl92z7fdcmz05vkrty20c",
+            "label": "Brennen Voidridge in schlechter Laune",
+            "content": "Brennen Voidridge saß zusammengesunken da, nachdem er am Ende der letzten Sitzung Heilung für alle gemacht hatte. Während die anderen sich neu orientierten und über verschiedene Themen diskutierten, blieb Brennen still. Seine Gedanken schienen woanders zu sein, während die Gruppe sich auf die bevorstehenden Herausforderungen vorbereitete. Die Atmosphäre war angespannt.",
+            "image": null,
+            "index": 603,
+            "categories": [
+                "Despair",
+                "Conflict"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgxzkvy000004leuglaq3nz"
+        },
+        {
+            "created_at": "2026-05-22T13:57:55.832000",
+            "updated_at": null,
+            "id": "ge9efefkw4rq446u6r1oj91d",
+            "label": "Gwendolyn aktiviert den Kommunikationsstein",
+            "content": "Gwendolyn Silverflame holte ihren magischen Stein hervor und rief damit Hammerheim an. Der Stein pulsierte und blinkte für einige Sekunden, während sie flüsterte, dass sie sich im Gefängnis befanden und einige Leute bereit wären, zu reden. Flint antwortete, dass er die Gruppe auf den Weg geschickt hatte, um das Gefängnis zurückzuholen, und betonte, dass dies ihr größter Vorteil sei. Gwendolyn fragte, ob die Anwesenden mit Flint sprechen wollten oder ob sie die Banane weitergeben sollte. Schließlich endete das Gespräch, und die Gruppe bereitete sich darauf vor, ihre nächsten Schritte zu unternehmen.",
+            "image": null,
+            "index": 616,
+            "categories": [
+                "Negotiation",
+                "Intrigue"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgxzkvy000004leuglaq3nz"
+        },
+        {
+            "created_at": "2026-05-22T13:57:55.832000",
+            "updated_at": null,
+            "id": "gjw1qysyzhq4vwy7x7tfokz1",
+            "label": "Surinas Klinge glüht auf",
+            "content": "Während des Kampfes bemerkte Surina Nemmonis, dass ihre Klinge kurz aufglühte, als sie einen Treffer landete. \"Da wurde es vorhin so rot meine Klinge als ich,\" äußerte sie. Diese unerwartete Reaktion ihrer Waffe geschah genau in dem Moment, als sie in das Fleisch eines Gegners eindrang. Nachdem sie die Klinge wieder herauszog, war sie jedoch wieder normal. Surina war sich unsicher, ob dies ein einmaliges Ereignis war oder ob es erneut passieren könnte.",
+            "image": null,
+            "index": 615,
+            "categories": [
+                "Combat",
+                "Intrigue"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgxzkvy000004leuglaq3nz"
+        },
+        {
+            "created_at": "2026-05-22T13:57:55.832000",
+            "updated_at": null,
+            "id": "gkrfwkp6kgbg9nbq35d51t40",
+            "label": "Brennen verbarrikadiert die Tür",
+            "content": "Brennen Voidridge begann, die Tür mit Möbeln zu verbarrikadieren, während er mit seinen Gefährten zusammenarbeitete. \"Ja, das würd ich auch mal sagen!\" rief er, als er die Barrikade aufbaute. Die Gruppe unterstützte ihn, indem sie weitere Möbelstücke heranholten und die Tür sicherten. \"Hast du fein gemacht? Da ist schon gutes Zeug drin!\" bemerkte Gwendolyn Silverflame, während sie die Barrikade verstärkten. Gemeinsam schufen sie eine solide Verteidigung gegen die drohende Gefahr.",
+            "image": null,
+            "index": 610,
+            "categories": [
+                "Conflict",
+                "Heroism"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgxzkvy000004leuglaq3nz"
+        },
+        {
+            "created_at": "2026-05-22T13:57:55.832000",
+            "updated_at": null,
+            "id": "gnq1u2of0ojpvipihwmt9em2",
+            "label": "Surina bricht die Tür auf",
+            "content": "Surina Nemmonis schob den leblosen Körper eines Orks beiseite und bereitete sich vor, die beschädigte Tür aufzubrechen. Mit einem kräftigen Schwung trat sie gegen die Tür, die bereits durch vorherige Angriffe geschwächt war. Ein lautes Knacken ertönte, als die Tür nach außen ins Treppenhaus brach und den Weg für ihre Gefährten freimachte. Dîn-io Tempest stürmte sofort voran, während die anderen sich hinter ihm positionierten, um in den Raum einzudringen. \"Seht ihn! Ich renne vor!\" rief Dîn-io.",
+            "image": null,
+            "index": 609,
+            "categories": [
+                "Combat",
+                "Heroism"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgxzkvy000004leuglaq3nz"
+        },
+        {
+            "created_at": "2026-05-22T13:57:55.832000",
+            "updated_at": null,
+            "id": "ibsz9azveq8z2ok1o7pmc0e2",
+            "label": "Magische Türöffnung durch den Gefängnisdirektor",
+            "content": "Vor einer verschlossenen Tür stand der Gefängnisdirektor, der seine Hand auf das Schloss legte und leise Worte murmelte. Dîn-io Tempest bemerkte, dass der Gefängnisdirektor ein Magier war. Plötzlich hörte man ein Klicken, und das Schloss öffnete sich auf magische Weise. Der Gefängnisdirektor öffnete die Tür und gab den Blick auf das, was dahinter war, frei. Gwendolyn Silverflame und Dîn-io Tempest waren bereit, ihre Zauber einzusetzen, während die Gruppe sich auf das Unbekannte vorbereitete.",
+            "image": null,
+            "index": 612,
+            "categories": [
+                "Intrigue",
+                "Mystery"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgxzkvy000004leuglaq3nz"
+        },
+        {
+            "created_at": "2026-05-22T13:57:55.832000",
+            "updated_at": null,
+            "id": "iliq2lmhy7azbd6hyt1rrpxp",
+            "label": "Surina späht in den Raum",
+            "content": "Surina Nemmonis öffnete die Tür einen Spalt und spähte vorsichtig hinein. Sie entdeckte einen größeren Ork und einen Kultisten im Raum. Die Situation wirkte angespannt, und Surina war sich der Gefahr bewusst, die von den beiden ausging. Sie lehnte sich weiter vor, um mehr zu sehen, während sie gleichzeitig darauf vorbereitet war, sich zurückzuziehen, falls es nötig sein sollte.",
+            "image": null,
+            "index": 608,
+            "categories": [
+                "Intrigue",
+                "Suspense"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgxzkvy000004leuglaq3nz"
+        },
+        {
+            "created_at": "2026-05-22T13:57:55.832000",
+            "updated_at": null,
+            "id": "ogjb7gp632pz4qhzmxgw4nms",
+            "label": "Gwendolyns Erkundung des oberen Raums",
+            "content": "Gwendolyn Silverflame durchsuchte den angrenzenden oberen Raum und entdeckte ein Bett in der Ecke. Auf einem Schreibtisch lagen einige Papiere verstreut, während eine große Schublade unter dem Tisch darauf wartete, geöffnet zu werden. In der gegenüberliegenden Ecke fand sie einen Kleiderschrank, der mit Kleidung gefüllt war. Besonders auffällig war eine Große Kugel, die in der Mitte des Raumes stand und keine erkennbaren Bedienelemente aufwies. Gwendolyn betrachtete die Gegenstände.",
+            "image": null,
+            "index": 607,
+            "categories": [
+                "Discovery",
+                "Exploration"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgxzkvy000004leuglaq3nz"
+        },
+        {
+            "created_at": "2026-05-22T13:57:55.832000",
+            "updated_at": null,
+            "id": "q8yj7idya8i56kfa0s4go3y3",
+            "label": "Dîn-io's unerklärliche Wunden",
+            "content": "Während des Kampfes bemerkte Dîn-io Tempest plötzlich, dass sich offene Wunden an seinem Körper gebildet hatten, ohne dass er einen direkten Treffer wahrgenommen hatte. Verwirrt über die unerklärlichen Verletzungen, beobachtete er, wie die anderen in der Gruppe mit den anstehenden Herausforderungen beschäftigt waren. Die Situation wurde angespannt, als die Geräusche von Schritten im Treppenhaus lauter wurden und die Gruppe sich auf einen möglichen Angriff vorbereitete. Dîn-io, der sich in einer kritischen Lage befand, versuchte, die Kontrolle über die Situation zu behalten, während seine Verbündeten Strategien entwickelten, um sich zu verteidigen. Die unerwarteten Wunden schienen ein ominöses Zeichen für die bevorstehenden Gefahren zu sein.",
+            "image": null,
+            "index": 606,
+            "categories": [
+                "Suspense",
+                "Conflict"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgxzkvy000004leuglaq3nz"
+        },
+        {
+            "created_at": "2026-05-22T13:57:55.832000",
+            "updated_at": null,
+            "id": "qso1f06a6cs7pj34fvi7ij7s",
+            "label": "Kampf am Türbereich",
+            "content": "Im Türbereich brach sofort ein Kampf aus, als Surina Nemmonis mit ihrem doppelten Grumshebel angriff und laut rief: \"Acht mit seinem Kopf!\" Dîn-io Tempest, der sich ebenfalls in der Nähe befand, lud seinen Stab mit magischer Energie auf. Gwendolyn Silverflame trat ein und wirkte einen mächtigen Feuerball, der mehrere Kultisten tötete oder schwer verletzte, während Brennen Voidridge nach einer strategischen Möglichkeit suchte, den Raum zu nutzen. Die Charaktere koordinierten ihre Angriffe und versuchten, die Überhand zu gewinnen. Der Kampf forderte alle Anwesenden heraus, während sie sich gegen die Angreifer verteidigten.",
+            "image": null,
+            "index": 605,
+            "categories": [
+                "Combat",
+                "Conflict"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgxzkvy000004leuglaq3nz"
+        },
+        {
+            "created_at": "2026-05-22T13:57:55.832000",
+            "updated_at": null,
+            "id": "u6p01mo4zpz36rpbv0goyuyx",
+            "label": "Surina Nemmonis führt die Gruppe die Wendeltreppe hinauf",
+            "content": "Surina Nemmonis, die Drachenherrin, übernahm die Führung an der Wendeltreppe und erklärte: \"Hoch. Also ich geh weiter hoch. Ich weiß nicht, was die anderen machen.\" Während sie sich nach oben bewegte, wartete sie darauf, dass die anderen folgten, und rutschte ein wenig auf der Treppe, um Platz zu schaffen. Gwendolyn Silverflame äußerte, dass sie keine Zeit für eine Untersuchung im Hospital hätten, was die Dringlichkeit der Situation unterstrich. Dîn-io Tempest und die anderen schlossen sich Surina an, während sie sich auf den Weg nach oben machten.",
+            "image": null,
+            "index": 604,
+            "categories": [
+                "Conflict",
+                "Exploration"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgxzkvy000004leuglaq3nz"
+        },
+        {
+            "created_at": "2026-05-22T13:57:55.832000",
+            "updated_at": null,
+            "id": "v87tdele7mpug6hqyjtoamw5",
+            "label": "Durchsuchung der Waffenkammer",
+            "content": "Die Gruppe durchsuchte die zurückeroberte Waffenkammer und fand nur gewöhnliche Ausrüstung eines Gefängnisses. Tim bemerkte, dass es merkwürdig sei, dass niemand getötet wurde, während Gummibeer Herrmann erklärte, dass normalerweise 75 Wachen im Gefängnis eingeteilt sind, aber nur noch weniger als 10 zurückgeblieben sind. Brennen Voidridge fragte nach dem taktischen Vorteil der Orks, die das Gefängnis übernommen hatten, und Gummibeer Herrmann erläuterte, dass die Orks gedroht hatten, eine Wache nach der anderen zu töten, falls das Gefängnis nicht übergeben würde. Die Gruppe diskutierte, was sie tun könnten, um sich besser auf die Herausforderungen draußen vorzubereiten, während sie die bescheidene Ausrüstung betrachteten.",
+            "image": null,
+            "index": 617,
+            "categories": [
+                "Exploration",
+                "Conflict"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgxzkvy000004leuglaq3nz"
+        },
+        {
+            "created_at": "2026-05-22T13:57:55.832000",
+            "updated_at": null,
+            "id": "zstydmsq5t5uknxpvvfin0eo",
+            "label": "Befreiung des Zwerges",
+            "content": "Dîn-io Tempest fand eine besetzte Zelle und öffnete sie. Darin befand sich ein Zwerg, der sofort zu einem der Orks rannte, um sich Schlüssel zu holen. Mit diesen begann er, weitere Zellen zu öffnen und die anderen Gefangenen zu befreien. Die anderen beobachteten, wie die Situation sich entwickelte und bereiteten sich auf mögliche Gefahren vor.",
+            "image": null,
+            "index": 611,
+            "categories": [
+                "Heroism",
+                "Conflict"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgxzkvy000004leuglaq3nz"
+        },
+        {
+            "created_at": "2026-05-22T12:21:44.326000",
+            "updated_at": null,
+            "id": "d5a7pssak4e2z25tgwheht77",
+            "label": "Brennen Voidridge tötet das wurmartige Wesen",
+            "content": "Während die Gruppe im Wald verweilte, diskutierte Surina Nemmonis darüber, wie sie das wurmartige Wesen, das sie zuvor gefangen hatten, unschädlich machen sollten. Brennen Voidridge ergriff die Initiative und erklärte: \"Ich nehm diesen Wurm und reiß ihn ab.\" Nach einem kurzen Moment des Zögerns und einigen verwirrten Kommentaren von Surina, die fragte, ob er ihn abbeißen wolle, stellte Brennen klar, dass er ihn auseinanderreißen würde. Schließlich war der Wurm tot, und Surina begann, schnell ein paar Blumen auf der Wiese zu pflücken, um sie als Opfergabe zu verwenden. Sie bemerkte, dass der Wurm in Schande sterben sollte, und legte die Blumen nieder, während die Gruppe sich auf den weiteren Weg vorbereitete.",
+            "image": null,
+            "index": 593,
+            "categories": [
+                "Conflict",
+                "Victory"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgv73wm000004jsaegyc983"
+        },
+        {
+            "created_at": "2026-05-22T12:21:44.326000",
+            "updated_at": null,
+            "id": "f4rd4w77srcgemrd9vv3l6cj",
+            "label": "Wurm mit humanoidem Gesicht auf Nathalies Körper",
+            "content": "Die Gruppe entdeckt ein Wurmartiges Wesen, das sich auf Nathalies Körper bewegt und mit unbekannter Magie durchdrungen ist. Brennen Voidridge bemerkt, dass das Wesen \"ein bisschen schleimig\" aussieht und fragt sich, ob es süß sein kann. Gwendolyn Silverflame wirkt einen Zauber, um die magischen Spuren sowohl auf Nathalie als auch auf dem Wurm zu erkennen, und stellt fest, dass der Wurm \"nahezu vor Aura glüht\". Währenddessen diskutieren die anderen über die merkwürdige Kreatur, die ein kleines humanoides Gesicht hat und sich bewegt. Tim, der als Dîn-io Tempest agiert, bemerkt, dass sich das Wesen erneut bewegt und fragt, ob er von der anderen Seite anfangen soll.",
+            "image": null,
+            "index": 591,
+            "categories": [
+                "Mystery",
+                "Intrigue"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgv73wm000004jsaegyc983"
+        },
+        {
+            "created_at": "2026-05-22T12:21:44.326000",
+            "updated_at": null,
+            "id": "gi9zh3u5r32y8idxsbdj6r1w",
+            "label": "Drei Menschenopfer zur Rettung des Waldes",
+            "content": "Die Gruppe steht in der Wald, gefangen von Ranken, als eine Stimme erklärt, dass sie bis zum nächsten Morgen drei Menschen opfern müssen, um die Schändung des Waldes zu beenden. Gwendolyn Silverflame fragt entsetzt: \"Nee aber jetzt unschuldige Leute?\" Brennen Voidridge äußert Bedenken über eine Karawane, während Dîn-io Tempest verwirrt fragt, wofür sie das Opfer bringen sollen. Die Stimme erklärt, dass sie nur so verhindern können, dass jemals wieder ein Wald geschändet wird. Die Gruppe erkennt, was sie bis zum Morgen zu tun hat.",
+            "image": null,
+            "index": 594,
+            "categories": [
+                "Sacrifice",
+                "Conflict"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgv73wm000004jsaegyc983"
+        },
+        {
+            "created_at": "2026-05-22T12:21:44.326000",
+            "updated_at": null,
+            "id": "gx2dw6rvivibdfdfxvbje6kk",
+            "label": "Der Fall des Orks",
+            "content": "Der Körper des toten Orks rutscht von Surinas Klinge und fällt scheppernd zu Boden. Dîn-io Tempest, der die Szene beobachtet, wird durch das Geräusch alarmiert und drängt hastig weiter in Richtung Tür und Gang. Währenddessen diskutiert die Gruppe über die Situation, wobei Brennen Voidridge sich fragt, was gerade geschehen ist. Surina, die den Ork mit einem präzisen Stich getötet hat, sorgt dafür, dass der Körper nicht zu Boden fällt, um die anderen nicht zu alarmieren. Die Gruppe bereitet sich auf die nächsten Schritte vor.",
+            "image": null,
+            "index": 599,
+            "categories": [
+                "Conflict",
+                "Combat"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgv73wm000004jsaegyc983"
+        },
+        {
+            "created_at": "2026-05-22T12:21:44.326000",
+            "updated_at": null,
+            "id": "hwi3vek3aeq0uysx7fdm9nke",
+            "label": "Gwendolyn entdeckt magische Spuren",
+            "content": "Gwendolyn Silverflame konzentriert sich und wirkt den Zauber Detect Magic, um die Umgebung nach magischen Auren abzusuchen. Während sie den Bereich absucht, bemerkt sie einen schwachen Restschimmer an der Stelle, an der ihr Fireball eingeschlagen hat. \"Ich finde hier wirklich nichts\", sagt sie, doch der leichte Schimmer lässt sie innehalten und nachdenken. Die anderen in der Gruppe, darunter Surina Nemmonis und Dîn-io Tempest, diskutieren über die magischen Gegenstände, die sie bei sich tragen, während Gwendolyn weiterhin den Bereich beobachtet. Der schwache Schimmer bleibt ein Hinweis auf die magische Energie, die von ihrem vorherigen Zauber ausgeht.",
+            "image": null,
+            "index": 589,
+            "categories": [
+                "Discovery",
+                "Intrigue"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgv73wm000004jsaegyc983"
+        },
+        {
+            "created_at": "2026-05-22T12:21:44.326000",
+            "updated_at": null,
+            "id": "iczal9ldmktjjz3i8dn5l1je",
+            "label": "Nathalies Drohgedicht und groteske Verwandlung",
+            "content": "Plötzlich ertönt eine unheimliche Stimme aus Nathalie, die ein Drohgedicht rezitiert: \"In der Dunkelheit geboren von ein Flüstern im nächtlichen Wind, ein Ruf aus der Tiefe so sündig und blind. Ihr flackerndes Licht. Eure Wahl. Euer Untergang in Sicht. Ein Tanz der Schatten. Ein Pakt geschlossen. Drei Opfer für euch. Die Seelen verdrossen. Die Zeit verrinnt. Das Schicksal ist nah.\" Während sie spricht, werden Nathalies Gelenke und Beine auf groteske Weise auseinandergezogen, bis sie flach wie eine Flunder auf dem Boden liegt. Ein schmerzhaftes Quieken entfährt ihr, während ihre Gliedmaßen mit einem Ruck in eine unnatürliche Position gebracht werden. Die Anwesenden sind schockiert und versuchen zu begreifen, was gerade geschehen ist.",
+            "image": null,
+            "index": 590,
+            "categories": [
+                "Suspense",
+                "Conflict"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgv73wm000004jsaegyc983"
+        },
+        {
+            "created_at": "2026-05-22T12:21:44.326000",
+            "updated_at": null,
+            "id": "mx3z8llf7myx8sndxjvps1p2",
+            "label": "Abrupte Versetzung in einen geschlossenen Raum",
+            "content": "Plötzlich wird die Gruppe von einem unbekannten Wesen in einen geschlossenen Raum katapultiert, der sich in einer kälteren Region befindet. Dîn-io Tempest äußert, dass er sich zunächst übergeben möchte, und fragt Brennen, ob es ihm gut geht. Während die anderen sich umsehen, bemerken sie, dass sie sich auf einer anderen planaren Ebene befinden. Gwendolyn Silverflame versucht, ihre Fähigkeiten zu überprüfen, während die Gruppe sich an die neue Umgebung anpasst. Die Atmosphäre ist angespannt, und die Unsicherheit über ihre Situation wächst, als sie den Raum erkunden.",
+            "image": null,
+            "index": 596,
+            "categories": [
+                "Suspense",
+                "Intrigue"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgv73wm000004jsaegyc983"
+        },
+        {
+            "created_at": "2026-05-22T12:21:44.326000",
+            "updated_at": null,
+            "id": "nlfj5fwd667zxt97ep93qss8",
+            "label": "Untersuchung des Gefängnisses",
+            "content": "Die Gruppe betritt den Raum und beginnt, ihn zu untersuchen. Gwendolyn Silverflame versucht, ihre Fähigkeiten zu lesen, hat jedoch Schwierigkeiten, das Zauberbuch zu öffnen. Dîn-io Tempest bemerkt, dass sie sich in einem Revel's End befinden, und fragt, ob es hier etwas Interessantes gibt. Surina Nemmonis bleibt wachsam und achtet darauf, ob sie irgendwo Spuren finden kann. Schließlich stellt die Gruppe fest, dass sie nur gewöhnliche Lebensmittel vorfinden, bevor sie sich entschließen, weiter in das Revel's End vorzudringen.",
+            "image": null,
+            "index": 597,
+            "categories": [
+                "Exploration",
+                "Discovery"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgv73wm000004jsaegyc983"
+        },
+        {
+            "created_at": "2026-05-22T12:21:44.326000",
+            "updated_at": null,
+            "id": "qcgric4vdn7raqwbbcjj2sep",
+            "label": "Gwendolyn widerspricht dem Töten Unschuldiger",
+            "content": "Während die Gruppe über mögliche Ziele diskutiert, äußert Gwendolyn Silverflame entschieden: \"Es ist gegen unsere Prinzipien, unschuldige Leute zu töten, auch wenn wir nicht wissen, ob sie etwas getan haben.\" Ihre Worte stehen im Kontrast zu den Überlegungen ihrer Gefährten, die bereit sind, drastische Maßnahmen zu ergreifen, um ihre Ziele zu erreichen. Dîn-io Tempest argumentiert, dass das Töten von Unschuldigen notwendig sein könnte, um das Revel's End zu übernehmen, doch Gwendolyn bleibt standhaft in ihrer Überzeugung.",
+            "image": null,
+            "index": 595,
+            "categories": [
+                "Conflict",
+                "Betrayal"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgv73wm000004jsaegyc983"
+        },
+        {
+            "created_at": "2026-05-22T12:21:44.326000",
+            "updated_at": null,
+            "id": "r8n5jh6v3yuzxbceaegkeoo9",
+            "label": "Surina plant einen Hinterhalt für den Ork",
+            "content": "Surina Nemmonis beobachtet einen einzelnen Ork, der als Wache dient, und bemerkt, dass die Soldaten unaufmerksam und gelangweilt wirken. Sie diskutiert mit Gwendolyn Silverflame und Dîn-io Tempest, ob sie den Ork direkt ansprechen oder lieber einen Hinterhalt planen sollen. Die Gefährten stimmen zu, dass sie sich entscheiden müssen, wie sie mit der Situation umgehen wollen. Surina erkennt, dass es sich um eine gemischte Gruppe aus Kavallerie und Infanterie handelt, die gut bewaffnet ist. Die Gruppe beschließt, sich strategisch zu positionieren, um den Ork zu überlisten.",
+            "image": null,
+            "index": 592,
+            "categories": [
+                "Intrigue",
+                "Conflict"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgv73wm000004jsaegyc983"
+        },
+        {
+            "created_at": "2026-05-22T12:21:44.326000",
+            "updated_at": null,
+            "id": "ses2dekpwgez37y7g1nylxqt",
+            "label": "Surina Nemmonis trifft den Ork schwer",
+            "content": "Surina Nemmonis, die Drachenherrin, stürmt mit ihrem Säbel auf den Ork zu und trifft ihn mit einem präzisen Stich in den oberen Brustkorb. Der Ork grunzt auf, als die Klinge tief in sein Fleisch eindringt und bis zur Kehle aufschlitzt. Mit einem letzten Aufstöhnen sinkt der Ork zu Boden, während Surina die Klinge langsam zurückzieht, um sicherzustellen, dass er nicht mehr aufsteht. Die anderen in der Gruppe beobachten den schnellen und tödlichen Angriff, der die Bedrohung durch den Ork neutralisiert.",
+            "image": null,
+            "index": 598,
+            "categories": [
+                "Combat",
+                "Victory"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgv73wm000004jsaegyc983"
+        },
+        {
+            "created_at": "2026-05-22T12:21:44.326000",
+            "updated_at": null,
+            "id": "sta8z3fiiw6mkr5lk2oyon35",
+            "label": "Warten auf die Hexe am brennenden Gehöft",
+            "content": "Die Gruppe beobachtet das brennende Gehöft, während sie auf das Erscheinen der Hexe wartet. Gwendolyn Silverflame bemerkt: \"Das Häuschen brennt. Ist ein bisschen riskant, gell? Ich möchte gerne Fireball-Ready halten.\" Dîn-io Tempest äußert, dass der Plan für die Nacht, auf die Hexe zu warten, herausfordernd sei. Surina Nemmonis fragt, ob sie auf das Gehöft laufen sollen, während die Flammen das Haus und die umliegenden Felder erleuchten. Die Gruppe bleibt angespannt und beobachtet die Umgebung, während das Feuer weiter wütet.",
+            "image": null,
+            "index": 588,
+            "categories": [
+                "Suspense",
+                "Conflict"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgv73wm000004jsaegyc983"
+        },
+        {
+            "created_at": "2026-05-22T08:50:34.992000",
+            "updated_at": null,
+            "id": "a21vxelxhrnu4msp8m5r8a1k",
+            "label": "Wiedersehen mit dem Jäger-Anführer",
+            "content": "Titel: Die Wiedervereinigung der Gefährten\nAls Naevys Nerizana sich umblickte, um ihre Gefährten zu finden, rief der Jäger-Anführer freudig: \"Naevys, bist du's?\" Er wandte sich zu ihr und berichtete, dass die letzte Zeit deutlich schwerer gewesen sei als früher. Naevys stellte sicher, dass die Orks, die sie befreit hatten, zu ihrer Gruppe gehörten, und erklärte: \"Meine Lieben, keine Sorge, die gehören zu mir. Die haben mich befreit im Gefängnis.\" Währenddessen schauten Gwendolyn und die anderen gespannt zu, wie sich die Gruppe wieder vereinte und die Herausforderungen der letzten Zeit besprochen wurden.",
+            "image": null,
+            "index": 580,
+            "categories": [
+                "Friendship",
+                "Revelation"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgmsxob000004l4lexb42h9"
+        },
+        {
+            "created_at": "2026-05-22T08:50:34.992000",
+            "updated_at": null,
+            "id": "bjoqfogyvpj8ra4ng0mqqu5g",
+            "label": "Gwendolyns Lichtzauber auf Surinas Vogel",
+            "content": "Gwendolyn Silverflame übertrug ihr Licht von ihrem Amulett auf den Vogel von Surina Nemmonis. Nachdem Surina sich zu ihr hinuntergebeugt hatte, vollzog Gwendolyn den Zauber, wodurch der Vogel als bewegliche Lichtquelle diente. Surina bemerkte humorvoll, dass der Vogel nun auf ihrem Kopf saß, und Gwendolyn bestätigte, dass es nun \"die neue Sonne\" sei. Die Gruppe reagierte auf die neue Lichtquelle mit Erstaunen und Freude.",
+            "image": null,
+            "index": 577,
+            "categories": [
+                "Hijinx",
+                "Discovery"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgmsxob000004l4lexb42h9"
+        },
+        {
+            "created_at": "2026-05-22T08:50:34.992000",
+            "updated_at": null,
+            "id": "dr0xg6y7bkaxyl63zk7qaqo0",
+            "label": "Der Fall des leuchtenden Vogels",
+            "content": "Als der leuchtende Vogel zurückflog, erblickte die Gruppe plötzlich mehrere Orks, darunter mindestens einen, den Naevys aus ihrem Clan erkannte. \"Leute, Leute, schalt Stopp Kommando zurück. Ich glaube, das sind sogar... oder zumindest einer!\" rief Naevys alarmiert. Der Vogel fiel dann abrupt zu Boden, was die Situation weiter eskalierte. \"Mein Vogel ist kaputt!\" klagte Tim, während die anderen sich auf die Bedrohung konzentrierten. Die Orks waren nun sichtbar und die Gruppe musste schnell reagieren.",
+            "image": null,
+            "index": 578,
+            "categories": [
+                "Conflict",
+                "Suspense"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgmsxob000004l4lexb42h9"
+        },
+        {
+            "created_at": "2026-05-22T08:50:34.992000",
+            "updated_at": null,
+            "id": "eqn3r1q454oi4ftvv3eie7k2",
+            "label": "Nachtlager bei der Hütte",
+            "content": "Gegen Ende des Tages hatten die Abenteurer das Hindernis beseitigt und bereiteten sich auf die Nacht vor. Während ein Teil der Gruppe bei der Hütte blieb, entschied sich Gwendolyn, auf dem Boot zu übernachten. Naevys äußerte den Wunsch, Feuerholz zu sammeln, um die Nächte für die anderen angenehmer zu gestalten. Die Gruppe diskutierte, wie sie die Nacht verbringen würden, und Gwendolyn stellte klar, dass sie sich mit dem Boot einrichten würde. Die Vorbereitungen für die Nacht waren in vollem Gange.",
+            "image": null,
+            "index": 593,
+            "categories": [
+                "Banter",
+                "Chaos"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgmsxob000004l4lexb42h9"
+        },
+        {
+            "created_at": "2026-05-22T08:50:34.992000",
+            "updated_at": null,
+            "id": "febf9yaeg31rv2f37ws8h6g5",
+            "label": "Naevys erklärt die Zugehörigkeit der Orks",
+            "content": "Naevys Nerizana wandte sich an die Gruppe und rief: \"Meine Lieben, keine Sorge, die gehören zu mir. Die haben mich befreit im Gefängnis.\" Sie stellte klar, dass die sich nähernden Orks Teil ihrer Gruppe waren und dass sie nicht sofort angegriffen werden sollten. Währenddessen fragte sie, ob sie aus der Entfernung erkennen könne, ob die Orks zu ihr gehörten oder nicht. Naevys' Stimme war fest, als sie die anderen ermutigte, die Orks nicht als Feinde zu betrachten, sondern als Verbündete, die ihr in der Vergangenheit geholfen hatten.",
+            "image": null,
+            "index": 579,
+            "categories": [
+                "Alliance",
+                "Negotiation"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgmsxob000004l4lexb42h9"
+        },
+        {
+            "created_at": "2026-05-22T08:50:34.992000",
+            "updated_at": null,
+            "id": "femeacemzv0x529enc8qm14b",
+            "label": "Surina greift an und zieht sich zurück",
+            "content": "Inmitten des Kampfes in der Stadt Niewinter griff Surina Nemmonis, auch bekannt als die Drachenherrin, einen nahen Gegner gezielt an den Beinen an. Mit einem präzisen und schnellen Zug verletzte sie den Feind und zog sich geschickt zurück, ohne einen Treffer zu kassieren. Die anderen Kämpfer in der Nähe beobachteten, wie sie die Situation meisterhaft handhabte, während der Kampf um sie herum tobte.",
+            "image": null,
+            "index": 584,
+            "categories": [
+                "Combat",
+                "Heroism"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgmsxob000004l4lexb42h9"
+        },
+        {
+            "created_at": "2026-05-22T08:50:34.992000",
+            "updated_at": null,
+            "id": "fyz8x94aqhmtflrigwlg4qn4",
+            "label": "Kampf gegen die Orks",
+            "content": "Auf den Warnruf der Orks hin stürmten der Jäger-Anführer und weitere Orks der Bedrohung entgegen. Während des Kampfes schoss Naevys Nerizana mit ihrem Langbogen und traf einen Ork direkt ins Auge, wodurch das Gehirn des Gegners herausgespritzt wurde. Dîn-io Tempest, der zuvor gefesselt war, befreite sich und bereitete sich darauf vor, die Orks anzugreifen. Gwendolyn Silverflame wirkte mächtige Zauber, um die Kultisten zu dezimieren und ihre Verbündeten zu unterstützen. Der Kampf entbrannte, während die Orks ihre Wurfgeschosse auf die Gruppe schleuderten.",
+            "image": null,
+            "index": 586,
+            "categories": [
+                "Combat",
+                "Conflict"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgmsxob000004l4lexb42h9"
+        },
+        {
+            "created_at": "2026-05-22T08:50:34.992000",
+            "updated_at": null,
+            "id": "k511ujo7pchm60rboohzaulj",
+            "label": "Gwendolyn heilt Surina",
+            "content": "Gwendolyn legte ihre Hand auf Surina, um sie zu heilen, während die Gruppe nach dem Kampf versammelt war. Naevys äußerte den Wunsch, Surina Heilung zukommen zu lassen, da sie in Gefahr war, getötet zu werden. Dîn-io bemerkte, dass Gwendolyn die Heilung durchführen könnte, und es wurde diskutiert, wie viel Heilung nötig sei. Gwendolyn konzentrierte sich und wirkte ihren Zauber, um Surina zu unterstützen und ihre Wunden zu heilen.",
+            "image": null,
+            "index": 588,
+            "categories": [
+                "Heroism",
+                "Friendship",
+                "Sacrifice"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgmsxob000004l4lexb42h9"
+        },
+        {
+            "created_at": "2026-05-22T08:50:34.992000",
+            "updated_at": null,
+            "id": "pj6spr1o8z6hvhfugcbgeol2",
+            "label": "Die Hütte der Riesen",
+            "content": "In der Hütte bemerkten Gwendolyn, Naevys und Dîn-io, dass die Einrichtung und das Geschirr viel größer waren, als es für Orks oder ihre Gruppe angemessen gewesen wäre. Dîn-io stellte fest: \"Das sind riesengroße Teller mit riesengroben Portionen\", was die Vermutung nahelegte, dass das Haus ursprünglich den riesenhaften Gestalten draußen gehörte. Naevys äußerte, dass es untypisch für ihren Clan sei, einfach ein Haus zu besetzen, und Dîn-io fügte hinzu, dass die Bewohner umgebracht worden waren, weil sie dachten, sie seien eindrucksvoll. Die Gruppe diskutierte die Unannehmlichkeiten, die durch den Tod der Bewohner entstanden waren, während sie die merkwürdigen Umstände der Hütte betrachteten.",
+            "image": null,
+            "index": 590,
+            "categories": [
+                "Conflict",
+                "Despair"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgmsxob000004l4lexb42h9"
+        },
+        {
+            "created_at": "2026-05-22T08:50:34.992000",
+            "updated_at": null,
+            "id": "qmrwxut8a80unnh9br32pdh1",
+            "label": "Dîn-io schlägt den gefesselten Gegner nieder",
+            "content": "Inmitten des Chaos, als die Kämpfe in der Stadt Niewinter toben, nutzt Dîn-io Tempest die Gelegenheit, die sich ihm bietet. Mit einem entschlossenen Blick auf den gefesselten Gegner, der vor ihm steht, entfaltet er seine Fähigkeiten im Nahkampf. \"Komm her, du Fettbackel!\" ruft er herausfordernd, bevor er mit einem präzisen Schlag zuschlägt und den Gegner niederstreckt. Der Kampf um ihn herum tobt weiter, doch Dîn-io bleibt fokussiert und nutzt die Verwirrung, um den gefesselten Feind zu überwältigen.",
+            "image": null,
+            "index": 585,
+            "categories": [
+                "Combat",
+                "Heroism"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgmsxob000004l4lexb42h9"
+        },
+        {
+            "created_at": "2026-05-22T08:50:34.992000",
+            "updated_at": null,
+            "id": "r1w3pqv5pm74lbn6yexpv8yu",
+            "label": "Naevys' Bitte um eine Totenwache für die Riesen",
+            "content": "Naevys Nerizana wandte sich an ihren Vater und bat ihn, auch für die getöteten Riesen eine Totenwache abzuhalten, da es deren Zuhause gewesen sei. Ihr Vater stimmte zu und erklärte, dass sie die Riesen draußen zusammen mit den eigenen Toten aufbahren und gemeinsam verbrennen könnten. Naevys fand diese Idee gut und stimmte zu, während die anderen in der Gruppe ebenfalls ihre Zustimmung äußerten.",
+            "image": null,
+            "index": 591,
+            "categories": [
+                "Loss",
+                "Ritual"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgmsxob000004l4lexb42h9"
+        },
+        {
+            "created_at": "2026-05-22T08:50:34.992000",
+            "updated_at": null,
+            "id": "rg2jtn6ain8v166z362yv35h",
+            "label": "Gwendolyns magische Krone",
+            "content": "Gwendolyn Silverflame, die Kriegsmagierin, beschloss, einen der riesenhaften Angreifer mit einer mächtigen magischen Krone zu belegen. Über dem Kopf des Angreifers erschien sichtbar eine geflochten wirkende Krone, die sofort seine Aufmerksamkeit auf sich zog. Die Kreatur geriet unter den Einfluss von Gwendolyns Zauber und schien für einen Moment verwirrt und gefangen in der Magie. Gwendolyns Fähigkeit, die Kreatur zu kontrollieren, war ein entscheidender Moment im Gefecht.",
+            "image": null,
+            "index": 583,
+            "categories": [
+                "Heroism",
+                "Combat"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgmsxob000004l4lexb42h9"
+        },
+        {
+            "created_at": "2026-05-22T08:50:34.992000",
+            "updated_at": null,
+            "id": "rzb57tep5vpwce5a90ukgzu3",
+            "label": "Dunkelheit trotz Sonnenhöhe",
+            "content": "Während die Sonne in der nördlichen Region ihren höchsten Stand erreichte, blieb es ungewöhnlich dunkel. Die Gruppe folgte Naevys Nerizanas Wegbeschreibung in Richtung Kervis Kern und wunderte sich über die seltsame Dunkelheit. Tim bemerkte, dass die Sonne \"irgendwie dort weiter\" sei, und fragte sich, ob es normal sei, dass es so dunkel sei. Naevys hatte zuvor einen Baum entdeckt, der quer lag und den Weg versperrte. Trotz der Dunkelheit war Gwendolyn bereit, ihre Zauber zu wirken, um die Gruppe zu unterstützen.",
+            "image": null,
+            "index": 576,
+            "categories": [
+                "Exploration",
+                "Mystery"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgmsxob000004l4lexb42h9"
+        },
+        {
+            "created_at": "2026-05-22T08:50:34.992000",
+            "updated_at": null,
+            "id": "sjjqsra3h68ieoqxzmnmejpr",
+            "label": "Dîn-io verbindet Surinas Wunden",
+            "content": "Nach dem Ende des Kampfes kniete Dîn-io Tempest neben Surina Nemmonis, die verletzt am Boden lag. \"Halte durch, Surina,\" sagte er, während er begann, ihre Wunden mit Bandagen zu verbinden. Das Blut spritzte überall, und Gwendolyn Silverflame wirkte Healing Hands, um Surina zu unterstützen. Dîn-io konzentrierte sich darauf, die Verletzungen zu versorgen, während die anderen sich um die Situation kümmerten. \"Ich bin ja schon am Verbinden,\" fügte Dîn-io hinzu.",
+            "image": null,
+            "index": 587,
+            "categories": [
+                "Heroism",
+                "Conflict"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgmsxob000004l4lexb42h9"
+        },
+        {
+            "created_at": "2026-05-22T08:50:34.992000",
+            "updated_at": null,
+            "id": "wrdfmgr4cczplmbdfsv14nfd",
+            "label": "Dîn-io sieht die großen Bären",
+            "content": "Dîn-io Tempest kniete sich hin und beobachtete aufmerksam die Umgebung. Plötzlich bemerkte er eine Bewegung in der Ferne, die ihm seltsam vorkam. \"Ich glaube, da stehen große Bären!\" rief er aus und deutete in die Richtung, wo er die Kreaturen sah. Sie waren mindestens doppelt so groß wie die Mitglieder seiner Gruppe. Die Anspannung stieg, als er feststellte, dass es nicht nur ein Bär war, sondern eine ganze Familie, die sich näherte.",
+            "image": null,
+            "index": 582,
+            "categories": [
+                "Conflict",
+                "Suspense"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgmsxob000004l4lexb42h9"
+        },
+        {
+            "created_at": "2026-05-22T08:50:34.992000",
+            "updated_at": null,
+            "id": "zhyifku3ixg9gvik7ucfk8h2",
+            "label": "Naevys entdeckt den blockierenden Baum",
+            "content": "Während die Gruppe auf dem schlittenartigen Boot in Richtung Niewinter fährt, bemerkt Naevys Nerizana plötzlich einen Baum, der quer vor ihnen liegt und das Weiterkommen blockiert. Sie ruft: \"Dann muss ich gleich hin.\" Die anderen bewegen sich in die Richtung des Hindernisses. Dîn-io Tempest äußert, dass sie sich zuerst um den Schlitten kümmern müssen, während Surina Nemmonis vorschlägt, einfach vorbei zu kommen. Die Gruppe steht vor der Herausforderung, den Baum zu umgehen, um ihre Reise fortzusetzen.",
+            "image": null,
+            "index": 581,
+            "categories": [
+                "Conflict",
+                "Exploration"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgmsxob000004l4lexb42h9"
+        },
+        {
+            "created_at": "2026-05-22T08:50:34.992000",
+            "updated_at": null,
+            "id": "zvzjlidgvhuwp61necmoys6u",
+            "label": "Löschen des brennenden Baumes",
+            "content": "Die Gruppe und die Orks arbeiteten gemeinsam daran, den brennenden, umgestürzten Baum Stück für Stück zu löschen und zu zerlegen, um das Boot wieder flott zu machen. Gwendolyn Silverflame bot ihre Hilfe an, um die Flammen zu bekämpfen. Surina Nemmonis und Dîn-io Tempest schlossen sich ebenfalls an, um die Aufgabe zu bewältigen, während sie über die Möglichkeit diskutierten, die Toten gemeinsam zu verbrennen. Der Tag verging mit dieser mühsamen Arbeit, und die Gruppe war entschlossen, den Baum zu beseitigen, um ihre Reise fortzusetzen.",
+            "image": null,
+            "index": 592,
+            "categories": [
+                "Conflict",
+                "Heroism"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgmsxob000004l4lexb42h9"
+        },
+        {
+            "created_at": "2026-05-22T08:50:34.992000",
+            "updated_at": null,
+            "id": "zwazkjifdixbzqvb9neuvndl",
+            "label": "Naevys Nerizana und die Kälte",
+            "content": "Naevys Nerizana äußerte, dass die Kälte ihm auf seine alten Knochen schlage, jedoch sei er nicht ernsthaft krank. Er erklärte, dass es einfach das Alter sei, das ihm zu schaffen mache. Die Anwesenden nahmen diese Bemerkung zur Kenntnis und stellten fest, dass es ihm gut gehe, trotz der Beschwerden, die die Kälte mit sich brachte.",
+            "image": null,
+            "index": 589,
+            "categories": [
+                "Despair",
+                "Loss"
+            ],
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmpgmsxob000004l4lexb42h9"
+        },
+        {
             "created_at": "2026-05-21T13:32:43.031000",
             "updated_at": null,
             "id": "djidsx0998o3zctj8v8sfgn4",
@@ -663,831 +1504,11 @@
             ],
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "session_id": "cmp49egl1000204if2fmow69m"
-        },
-        {
-            "created_at": "2026-05-13T20:21:42.434000",
-            "updated_at": null,
-            "id": "vb6ldxxag852fnuru3znp9pr",
-            "label": "Der Höllenhund und die Schreiber",
-            "content": "Draußen bei den Verwundeten schnüffelte ein Höllenhund an jeder Person, während Schreiber in schlichter Kleidung mit Notizblättern umhergingen. Jedes Mal, wenn der Hund sich bei einer Person niederließ, strich ein Schreiber den Namen von seiner Liste. Träger mit schwarzen Kästen schnitten Ketten aus den Kästen, wickelten sie um die markierte Person und zogen sie fort. Humanoide Wesen, die keine echten Waffen trugen, verteilten sich über das Gelände und markierten mit roter Kreide, was sie fanden. Die Szenerie war geprägt von der Präsenz des Hundes und der Routine der Schreiber.",
-            "image": null,
-            "index": 534,
-            "categories": [
-                "Suspense",
-                "Conflict"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmp49egl1000204if2fmow69m"
-        },
-        {
-            "created_at": "2026-05-13T20:21:42.434000",
-            "updated_at": null,
-            "id": "x0xpjdzgs6jdffo19iwsh8nm",
-            "label": "Die Erste Tochter bricht zusammen",
-            "content": "Die Erste Tochter schwebte langsam herab und landete vor ihrem Vater, Jan. Sie schlug ihm weinend mit den Fäusten gegen die Brust und brach dann vor ihm zusammen, während sie sich an seiner Kleidung festhielt. In diesem Moment lag sie am Boden und schien um Hilfe zu bitten. Gerade als sie am Boden war, kam die Zweite Tochter herab, die gefasster wirkte, und gab ihrem Vater eine Ohrfeige, während sie ihm befahl, seine Rolle im Haus abzugeben, um das Überleben aller zu sichern.",
-            "image": null,
-            "index": 530,
-            "categories": [
-                "Conflict",
-                "Despair"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmp49egl1000204if2fmow69m"
-        },
-        {
-            "created_at": "2026-05-13T20:21:42.434000",
-            "updated_at": null,
-            "id": "xmc36a2u2st22m7futtg964e",
-            "label": "Das geheimnisvolle Ei der fliegenden Schlange",
-            "content": "Während des Fluges entdeckte Surina in ihrem Rucksack ein faustgroßes Ei und hielt es skeptisch in der Hand. Naevys nahm das Ei und untersuchte es genauer, wobei sie feststellte, dass es sich um das Ei einer fliegenden Schlange handelte, das ungewöhnlich groß war. Sie erklärte, dass das Ei etwa 40 Grad Wärme benötige und rund zwei Monate zum Ausbrüten brauche. Surina entschied sich, das Ei ihrem Fuchs im Tierbereich anzuvertrauen, während das Luftschiff weiter nach Helmerheim fuhr.",
-            "image": null,
-            "index": 542,
-            "categories": [
-                "Discovery",
-                "Intrigue"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmp49egl1000204if2fmow69m"
-        },
-        {
-            "created_at": "2026-04-30T14:26:43.387000",
-            "updated_at": null,
-            "id": "adh57nqtdb9yvb0r466mjpk4",
-            "label": "Übergang zum offenen Meer",
-            "content": "Während die Gruppe auf dem Schiff unterwegs war, bemerkten sie, dass die Kälte zunahm und der Fluss immer breiter wurde. Bei Sonnenuntergang erreichte das Schiff den Übergang zum offenen Meer. Die Nacht brach herein, und das Schiff setzte seine Fahrt fort, während die Charaktere sich auf die bevorstehenden Herausforderungen vorbereiteten. Sie ließen die vertrauten Gewässer hinter sich und brachen in die Weiten des Ozeans auf.",
-            "image": null,
-            "index": 522,
-            "categories": [
-                "Exploration",
-                "Conflict"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "v865shjac4ndtfrslhtoq8ct"
-        },
-        {
-            "created_at": "2026-04-30T14:26:43.387000",
-            "updated_at": null,
-            "id": "agovdm2n6uwmzdsu4rd06wa0",
-            "label": "Das Einkochen des Monsterbluts",
-            "content": "Im Speiseraum des Schiffes versammelten sich die Abenteurer um einen Tisch. Morvain erklärte, dass er das gewonnene Monsterblut zu einem Konzentrat einkochen wollte. Gwendolyn fragte, ob sie das Blut alleine verwenden oder mit anderen Zutaten vermischen sollten. Morvain entschied, das Blut einzukochen, um ein konzentriertes Elixier herzustellen, und bemerkte, dass er dafür etwas extrahieren müsse. Währenddessen diskutierten sie über die Möglichkeiten, das Blut zu verarbeiten, und Morvain äußerte, dass er Kräuter zur Unterstützung verwenden könnte.",
-            "image": null,
-            "index": 518,
-            "categories": [
-                "Chaos",
-                "Ritual"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "v865shjac4ndtfrslhtoq8ct"
-        },
-        {
-            "created_at": "2026-04-30T14:26:43.387000",
-            "updated_at": null,
-            "id": "bndhxmdroe9t328xahtvcnbb",
-            "label": "Training auf dem Deck",
-            "content": "Die Gruppe begab sich an Deck, um ihre Kampffähigkeiten zu trainieren. Gwendolyn Silverflame nahm den Pole of Collapsing zur Hand und nutzte ihn als Übungsstab, während Surina Nemmonis defensiv mit einer Handaxe übte. Die anderen diskutierten über ihre Ausrüstung und die Notwendigkeit, sich auf den nächsten Kampf vorzubereiten. Surina bemerkte, dass sie sich ein wenig eingerostet fühlte und schlug vor, gemeinsam zu üben, was von Gwendolyn und den anderen befürwortet wurde. Sie konzentrierten sich auf das Training und motivierten sich gegenseitig.",
-            "image": null,
-            "index": 520,
-            "categories": [
-                "Growth",
-                "Heroism",
-                "Conflict"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "v865shjac4ndtfrslhtoq8ct"
-        },
-        {
-            "created_at": "2026-04-30T14:26:43.387000",
-            "updated_at": null,
-            "id": "csbu69u8qikk2ceylhkxp2iq",
-            "label": "Rückkehr und Vorbereitungen für die Reise",
-            "content": "Die Gruppe kehrte nach einer Nacht des Ausruhens zurück und bereitete sich darauf vor, ihr Schiff zu besteigen. Surina packte alles ein, was sie finden konnte, einschließlich des Segels, während die anderen überlegten, ob sie noch etwas Wichtiges von ihrem Schiff mitnehmen sollten. Mister Varos, der geweckt wurde, wurde ebenfalls mitgenommen. Schließlich machten sie sich auf den Weg, während das Schiff in Bewegung geriet und schneller wurde, als sie es erwartet hatten.",
-            "image": null,
-            "index": 516,
-            "categories": [
-                "Exploration",
-                "Hijinx"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "v865shjac4ndtfrslhtoq8ct"
-        },
-        {
-            "created_at": "2026-04-30T14:26:43.387000",
-            "updated_at": null,
-            "id": "dcujg3v1udw0frjembtvopft",
-            "label": "Mister Varos tritt der Pinguin-Crew bei",
-            "content": "Die Pinguin-Crew bot an, die Gruppe mitzunehmen, wenn sich jemand ihrer Crew anschließen würde. Die Abenteurer schlugen das sprechende Walross Mister Varos als neues Crewmitglied vor. Die Pinguin-Crew akzeptierte diesen Vorschlag, stellte jedoch die Bedingung, dass Mister Varos an Bord gebracht werde. Mister Varos stimmte zu, jedoch nur unter der Voraussetzung, dass es am nächsten Morgen Frühstück gebe. Er erklärte, dass er gerne rüberkommen würde, solange es vor Sonnenaufgang geschieht.",
-            "image": null,
-            "index": 514,
-            "categories": [
-                "Alliance",
-                "Negotiation"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "v865shjac4ndtfrslhtoq8ct"
-        },
-        {
-            "created_at": "2026-04-30T14:26:43.387000",
-            "updated_at": null,
-            "id": "eh1dqvbm1ljzf1ka3c2adlee",
-            "label": "Gwendolyns leuchtendes Amulett für Surina",
-            "content": "In der Dunkelheit, während die Gruppe sich orientierte, ließ Gwendolyn Silverflame das Amulett von Dîn-io Tempest leuchten, um Surina Nemmonis zu helfen, besser zu sehen. \"Ich häng dir mein Amulett, damit du besser siehst,\" sagte Gwendolyn, während das Amulett strahlte und den Weg erhellte. Surina, die zuvor geweint hatte, konnte nun klarer sehen und dankte Gwendolyn für die Unterstützung. \"Das ist sehr lieb von dir,\" erwiderte Surina, während das Licht des Amuletts den Raum erhellte. Gwendolyn zeigte den anderen, dass sie in der Dunkelheit nicht allein waren.",
-            "image": null,
-            "index": 515,
-            "categories": [
-                "Friendship",
-                "Heroism",
-                "Chaos"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "v865shjac4ndtfrslhtoq8ct"
-        },
-        {
-            "created_at": "2026-04-30T14:26:43.387000",
-            "updated_at": null,
-            "id": "gsq8cta33ohmn1u8dlgl9idi",
-            "label": "Dîn-io Tempest und die giftige Waffenbeschichtung",
-            "content": "Dîn-io Tempest holte einen Rainbow Mushroom aus seiner Tasche und begann, ihn sorgfältig zu zerkleinern. Nachdem er den Pilz in kleine Stücke geschnitten hatte, trocknete er ihn mit Hilfe seines Feuers, um ihn anschließend zu feinem Pulver zu zerstoßen. Mit dem Pilzpulver mischte er Alkohol und kombinierte diese Mischung mit Blutkonzentrat und Wasser, um eine dünnflüssige, giftige Waffenbeschichtung herzustellen. Die Gruppe legte diese Mischung für einen späteren Kampf zurück, um ihre Waffen zu verstärken.",
-            "image": null,
-            "index": 519,
-            "categories": [
-                "Hijinx",
-                "Conflict"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "v865shjac4ndtfrslhtoq8ct"
-        },
-        {
-            "created_at": "2026-04-30T14:26:43.387000",
-            "updated_at": null,
-            "id": "ic3atssps19pizhz2lpqz7hb",
-            "label": "Abfahrt mit der Pinguin-Crew",
-            "content": "Die Gruppe trat an Bord des metallenen Raddampfers, während Rauch aus dem Dach aufstieg. Mister Varos schloss sich ihnen an, und das Schiff setzte sich in Bewegung, beschleunigte schnell flussabwärts und übertraf die Geschwindigkeit ihres eigenen Bootes. Im Inneren des Schiffes bemerkten sie ein humanoides Nilpferd am Steuerrad und einen Pinguin, der in einem luxuriösen Sessel saß. Der Pinguin begrüßte sie und wies ihnen den Weg nach unten, während die Gruppe sich auf die bevorstehende Reise vorbereitete. Das Schiff wurde immer schneller und wirbelte die Wellen hinter sich auf.",
-            "image": null,
-            "index": 517,
-            "categories": [
-                "Exploration",
-                "Hijinx"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "v865shjac4ndtfrslhtoq8ct"
-        },
-        {
-            "created_at": "2026-04-30T14:26:43.387000",
-            "updated_at": null,
-            "id": "jsfh5bm6hzf9o023pdilu9u0",
-            "label": "Gwendolyns überraschender Treffer",
-            "content": "Im Sparring überraschte Gwendolyn Silverflame ihre Gegnerin Surina Nemmonis mit einem gewagten Sprungmanöver. Während Surina, die ihren Stab wie ein Schwert hielt, dachte, Gwendolyn ziele auf ihren Brust- oder Armbereich, hob Gwendolyn ihren Stab im letzten Augenblick an. Mit einem präzisen Schlag traf sie Surina am Kopf, was zu heftigen Kopfschmerzen bei der Kriegerin führte.",
-            "image": null,
-            "index": 521,
-            "categories": [
-                "Growth",
-                "Conflict",
-                "Banter"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "v865shjac4ndtfrslhtoq8ct"
-        },
-        {
-            "created_at": "2026-04-30T14:26:43.387000",
-            "updated_at": null,
-            "id": "krde57ph1dzdbl76ynjsuad2",
-            "label": "Ressourcensammlung nach dem Kampf",
-            "content": "Nach dem Kampf begann Surina Nemmonis, das erlegte Monster zu zerlegen. Sie schnitt sorgfältig Leder, Krallen und Zähne ab, um sie für die Gruppe mitzunehmen. Ein Gruppenmitglied schüttete eine Ölflasche aus und füllte sie mit dem Blut der Kreatur für alchemistische Zwecke. Die Gruppe diskutierte, wie sie das Leder für Rüstungen oder Kleidung nutzen könnten, während die Krallen als Befestigungen oder Waffenteile in Betracht gezogen wurden. Zudem überlegten sie, das Blut und die Rückenfinne für alchemistische Experimente zu verwenden, um Tränke für Unterwasseratmung oder Kälteresistenz herzustellen.",
-            "image": null,
-            "index": 512,
-            "categories": [
-                "Loot",
-                "Exploration",
-                "Alliance"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "v865shjac4ndtfrslhtoq8ct"
-        },
-        {
-            "created_at": "2026-04-30T14:26:43.387000",
-            "updated_at": null,
-            "id": "srgs63yyfhgpgfgr9i08fssj",
-            "label": "Verhandlungen mit der Pinguin-Crew",
-            "content": "Die Gruppe entschied, vorerst von einer nächtlichen Reparatur abzusehen und stattdessen erneut mit der pinguin-geführten Crew über eine Passage zu sprechen. Surina hatte zuvor mit dem Pinguin zu seinem Schiff gesprochen, wo sich herausstellte, dass es sich nicht um normale Seefahrer, sondern vermutlich um Piraten handelte, die eine ganze Crew mit Hai-Albatrossen hatten. Obwohl Surina kurz davor war, das Angebot anzunehmen, das ihnen eine Mitfahrt auf dem massiven Metallschiff versprach, lehnte sie schließlich ab, da die Piraten die Hälfte des Schatzes forderten, den sie nach dem Kampf mit Arvaccharus erbeuten wollten. Die Gruppe beschloss, das Thema zu vertagen.",
-            "image": null,
-            "index": 511,
-            "categories": [
-                "Negotiation",
-                "Intrigue"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "v865shjac4ndtfrslhtoq8ct"
-        },
-        {
-            "created_at": "2026-04-30T14:26:43.387000",
-            "updated_at": null,
-            "id": "tnuy4jj2c9p8aqw8pk1dpzcd",
-            "label": "Schiffsmast zerstört und Reparaturversuch",
-            "content": "Die Gruppe näherte sich in der Dunkelheit ihrem beschädigten Schiff und begann, den Mast zu untersuchen. Der Mast war vollständig zerstört, was bedeutete, dass das Schiff ohne fachkundige Reparatur nicht segelfähig war. Gwendolyn äußerte, dass sie mit Holz umgehen könne, aber unsicher war, ob sie die Reparatur alleine bewältigen könnte. Morvain und die anderen diskutierten, dass sie entweder versuchen müssten, den Mast in den nächsten ein oder zwei Tagen zu reparieren, oder mit den anderen mitfahren sollten. Schließlich wurde als Notlösung ein sehr niedriges, provisorisch gespanntes Segel in Erwägung gezogen, das nur mit Strömungshilfe genutzt werden konnte.",
-            "image": null,
-            "index": 513,
-            "categories": [
-                "Conflict",
-                "Despair",
-                "Chaos"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "v865shjac4ndtfrslhtoq8ct"
-        },
-        {
-            "created_at": "2026-04-30T13:54:43.918000",
-            "updated_at": null,
-            "id": "bw74x0homfejhs84j24nnqqa",
-            "label": "Surina stürzt ins Chaos",
-            "content": "Surina ließ das Seil los und stürmte mit ihrer Doppelwaffe voran, bemerkte jedoch nicht, dass das Seil unter ihr lag. Sie verfing sich darin und stürzte zu Boden. Während sie fiel, warf Brennen eine Karte und traf den Orca mit einem tödlichen Schlag. Der Orca fiel, und Surina lag am Boden, während die anderen sich auf die verbleibenden Gegner konzentrierten. Die Kämpfer bereiteten sich auf den nächsten Angriff vor.",
-            "image": null,
-            "index": 508,
-            "categories": [
-                "Chaos"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "sz3s13nfaid7oxa0oh771joh"
-        },
-        {
-            "created_at": "2026-04-30T13:54:43.918000",
-            "updated_at": null,
-            "id": "df4h0jo4n4ei82fxw2o3xymy",
-            "label": "Häuten und Zerlegen des Aklut",
-            "content": "Die Gruppe begann, das Aklut sorgfältig zu häuten und zu zerlegen, während sie über die Nützlichkeit der verschiedenen Teile diskutierten. Dîn-io stellte fest, dass die Haut des Aklut stabil genug für eine Rüstung sein könnte, was die anderen dazu anregte, die Möglichkeiten zu erkunden. Morvain und die anderen überlegten, wie sie das zähe Leder am besten verarbeiten könnten, während sie gleichzeitig das Fleisch für eine Mahlzeit zubereiteten. Sie sammelten Zähne, Krallen und Flossen, wobei Morvain anmerkte, dass die Kreatur selten sei und ihre Teile wertvoll sein könnten. Schließlich legten sie eine Pause ein und genossen das zubereitete Fleisch, während sie die gesammelten Materialien für zukünftige Rüstungen und Ausrüstungen betrachteten.",
-            "image": null,
-            "index": 509,
-            "categories": [
-                "Loot"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "sz3s13nfaid7oxa0oh771joh"
-        },
-        {
-            "created_at": "2026-04-30T13:54:43.918000",
-            "updated_at": null,
-            "id": "dv8xbslv9l42tzxzdw677au8",
-            "label": "Surina winkt dem Drachen zu",
-            "content": "Als der Drache sich dem Schiff näherte, winkte Surina Nemmonis enthusiastisch und rief laut \"Hallo\". Sie hob die Hand und grüßte freundlich, um die Aufmerksamkeit des Drachen zu gewinnen und ihm zu signalisieren, dass sie keine Bedrohung darstellten. Während die anderen überlegten, wie sie mit dem Drachen sprechen sollten, setzte Surina ihre freundliche Welle fort, in der Hoffnung, dass der Drache sie verstehen würde.",
-            "image": null,
-            "index": 501,
-            "categories": [
-                "Banter"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "sz3s13nfaid7oxa0oh771joh"
-        },
-        {
-            "created_at": "2026-04-30T13:54:43.918000",
-            "updated_at": null,
-            "id": "g61usah76mvkijfc1yjcis22",
-            "label": "Surina sucht den Drachen am Himmel",
-            "content": "Surina Nemmonis blickte immer wieder in den Himmel, während sie mit ihrer Gruppe auf die Stadt Niewinter zusteuerte. Sie hörte, wie jemand erwähnte, dass sie zu der Drachenlady Ava Charus reisen wollten, und fragte sich, ob diese tatsächlich hoch oben zu sehen war. Surina äußerte, dass die Drachenlady sich ehrlich und einladend verhalten hatte, was ihre Neugier weckte. Während die anderen über die Gefahren sprachen, die mit dem Reisen zu dem Drachen verbunden waren, blieb Surina skeptisch, aber auch fasziniert von der Möglichkeit, mit Ava Charus zu sprechen. Ihre Blicke suchten weiterhin den Himmel ab, in der Hoffnung, den Drachen zu entdecken.",
-            "image": null,
-            "index": 510,
-            "categories": [
-                "Suspense"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "sz3s13nfaid7oxa0oh771joh"
-        },
-        {
-            "created_at": "2026-04-30T13:54:43.918000",
-            "updated_at": null,
-            "id": "g9yltdrex9gxz1yen7a7us7r",
-            "label": "Abfahrt mit dem Boot und Eisbrecher",
-            "content": "Am frühen Nachmittag hob die Gruppe den Anker und setzte mit ihrem Boot flussabwärts ab. Trotz des schwachen Winds wurde das Boot von der Strömung mitgetragen, während die Eisdecke durch das Ende des Winters in Schollen zerbrach. Gwendolyn Silverflame stand vorne und bereitete sich darauf vor, jede größere Eisscholle mit ihrem Feuerball zu beschießen, um sicherzustellen, dass sie nicht mit dem Boot kollidierten. Morvain und die anderen diskutierten, wer das Steuer übernehmen sollte. Die Gruppe war entschlossen, die Herausforderungen des schmelzenden Eises zu meistern und nach Highkräutern Ausschau zu halten.",
-            "image": null,
-            "index": 499,
-            "categories": [
-                "Exploration"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "sz3s13nfaid7oxa0oh771joh"
-        },
-        {
-            "created_at": "2026-04-30T13:54:43.918000",
-            "updated_at": null,
-            "id": "h99l3hj1vka419llkmen9wgp",
-            "label": "Dîn-io sammelt treibende Äste für Schnitzarbeiten",
-            "content": "Während die Gruppe auf dem Wasser unterwegs ist, bemerkt Dîn-io Tempest, dass Äste und Holzstücke im Wasser treiben. Er beschließt, einige dieser Äste einzusammeln, um später Schnitzarbeiten anzufertigen. Dîn-io sucht gezielt nach geeignetem Holz, das sich gut schnitzen lässt, und sortiert die gefundenen Stücke, um die besten auszuwählen. Gwendolyn und Morvain sind ebenfalls aktiv und haben ihre eigenen Aufgaben, während Dîn-io sich um das Holz kümmert. Die Gruppe ist in Bewegung und jeder trägt zum Fortschritt bei.",
-            "image": null,
-            "index": 500,
-            "categories": [
-                "Discovery"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "sz3s13nfaid7oxa0oh771joh"
-        },
-        {
-            "created_at": "2026-04-30T13:54:43.918000",
-            "updated_at": null,
-            "id": "hkmd8u0v5a1vhc0t0i4v90a6",
-            "label": "Der Aklut wird überwältigt",
-            "content": "Der Aklut schoss plötzlich aus einem Eisloch und packte eine Robbe. Gwendolyn Silverflame wirkte einen Feuerball, der den Aklut traf. Surina Nemmonis schnitt mit ihrer an das Seil gebundenen Handaxt ins vordere Bein des Akluts. Dîn-io Tempest ließ einen Blitzangriff los, während Naevys Nerizana mit präzisen Pfeilen auf ihn zielte. Brennen Voidridge warf eine magische Karte, die ebenfalls den Aklut traf, und Flopsis setzte einen weiteren Feuerangriff ein. Das Eis unter dem Aklut begann zu dünnen, während die Angriffe unaufhörlich auf ihn einprasselten.",
-            "image": null,
-            "index": 506,
-            "categories": [
-                "Combat"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "sz3s13nfaid7oxa0oh771joh"
-        },
-        {
-            "created_at": "2026-04-30T13:54:43.918000",
-            "updated_at": null,
-            "id": "id1w4ugqiq4ufdyaht6gftzx",
-            "label": "Surina und der sprechende Pinguin",
-            "content": "Während Surina Nemmonis die erste Wache übernahm und mit einer Fackel patrouillierte, wurde sie von einem sprechenden Pinguin aufgesucht. Der Pinguin bat um Hilfe, da ein Aklut seinen Rückweg blockierte und Robben riss. Surina stellte Fragen über den Aklut und dessen Gefährlichkeit. Der Pinguin erklärte, dass das Monster gefährlich sei und ihn daran hindere, zu seinem Boot zu gelangen. Surina überlegte, ob sie Unterstützung holen sollte, um dem Pinguin zu helfen und das Problem zu lösen.",
-            "image": null,
-            "index": 504,
-            "categories": [
-                "Intrigue"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "sz3s13nfaid7oxa0oh771joh"
-        },
-        {
-            "created_at": "2026-04-30T13:54:43.918000",
-            "updated_at": null,
-            "id": "kzuo3ss230tr4zaahlrh4iww",
-            "label": "Dîn-io schenkt Surina einen Bären-Anhänger",
-            "content": "Am Abend beendete Dîn-io Tempest seine Schnitzarbeit und überreichte Surina einen kleinen Bären-Anhänger. \"Wow. Weil du so stark bist wie ein Bär, hab ich gedacht, das ist vielleicht eine gute Idee für dich\", erklärte er, während Surina den Anhänger bewunderte und die Details bestaunte. Sie hielt ihn über ihren Kopf und war begeistert von der Qualität der Arbeit. Dîn-io schlug vor, dass sie den Anhänger an ihrer Rüstung oder am Griff ihres Schwertes befestigen könnte, und Surina entschied sich schließlich, ihn an ihrem Gürtel zu tragen. \"Das ist ja schon voll wertvoll\", bemerkte sie, während sie den Anhänger anbrachte.",
-            "image": null,
-            "index": 512,
-            "categories": [
-                "Friendship"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "sz3s13nfaid7oxa0oh771joh"
-        },
-        {
-            "created_at": "2026-04-30T13:54:43.918000",
-            "updated_at": null,
-            "id": "n50e4m0mnhe1lsk6hee01hfc",
-            "label": "Die Gruppe bereitet sich auf den Kampf vor",
-            "content": "Die Gruppe bezog strategisch ihre Positionen: Naevys suchte Deckung und bereitete ihren Bogen vor, während Gwendolyn sich auf Feuerangriffe vorbereitete. Surina befestigte ein Seil an ihrer Handaxt, das sie zwischen zwei Eislöchern spannte, um ihre Gegner zu fangen. Dîn-io stellte sich in Angriffsreichweite, bereit, seine Zauber zu wirken, und Brennen machte seine Wurfkarten bereit, um im Kampf zu unterstützen.",
-            "image": null,
-            "index": 507,
-            "categories": [
-                "Combat"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "sz3s13nfaid7oxa0oh771joh"
-        },
-        {
-            "created_at": "2026-04-30T13:54:43.918000",
-            "updated_at": null,
-            "id": "pif3qjicf9nusl1g99qhmr46",
-            "label": "Verhandlung mit dem Admiral über Ava Charus",
-            "content": "An Bord des Schiffes erklärte der Admiral, dass sie Piraten seien und bot an, die Gruppe zur Insel mit dem Hort von Ava Charus in der offenen See zu bringen. Er schlug vor, den Hort im Erfolgsfall „halbe-halbe“ zu teilen, falls die Drachenlady getötet würde. Surina lehnte das Töten ab und erklärte, sie wolle mit Ava Charus sprechen. Der Admiral stellte in Frage, was so wichtig sei, dass sie bereit seien, ihr Leben zu riskieren, während Surina betonte, dass man respektvoll mit der Drachenlady umgehen müsse. Der Admiral informierte die Gruppe, dass sie bis zum nächsten Morgen Zeit hätten, um zu entscheiden, ob sie ablegen wollen.",
-            "image": null,
-            "index": 511,
-            "categories": [
-                "Negotiation"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "sz3s13nfaid7oxa0oh771joh"
-        },
-        {
-            "created_at": "2026-04-30T13:54:43.918000",
-            "updated_at": null,
-            "id": "qg3kd8xsww2u96lekd2bcacl",
-            "label": "Der Pinguin und der Aklut",
-            "content": "Der Pinguin erklärte der Gruppe, dass der Aklut ein Wasserjäger sei, der auch an Land laufen könne und in seiner Gefährlichkeit einem sehr großen Bären gleiche. Während die Gruppe über die Eigenschaften des Akluts diskutierte, stellte sich heraus, dass dieser gefährlich sei und die Robben, die auf dem Eis festsitzen, bedrohe. Der Pinguin wies auf einen vereisten Strand hin, wo er eine frisch gerissene Robbe als Spur zeigte. Die Diskussion über die Gefährlichkeit des Akluts führte zu einer Debatte, in der die Gruppe versuchte, die Bedrohung einzuschätzen und mögliche Maßnahmen zu planen.",
-            "image": null,
-            "index": 505,
-            "categories": [
-                "Discovery"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "sz3s13nfaid7oxa0oh771joh"
-        },
-        {
-            "created_at": "2026-04-30T13:54:43.918000",
-            "updated_at": null,
-            "id": "vghzf36kntegilrxayxc4cv7",
-            "label": "Dîn-io sendet eine Botschaft an den Drachen",
-            "content": "Als der Drache sich dem Boot näherte, versuchte Dîn-io Tempest, in dessen Kopf zu kommunizieren. Er sandte eine mentale Botschaft mit den Worten: \"Wir wollen nicht kämpfen.\" Währenddessen flog der Drache sehr knapp über dem Boot hinweg und riss mit seiner Schwanzspitze einen Großteil des Segelmasts ab. Die Gruppe war sich bewusst, dass sie schnell handeln mussten, um die drohende Gefahr abzuwenden.",
-            "image": null,
-            "index": 502,
-            "categories": [
-                "Negotiation"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "sz3s13nfaid7oxa0oh771joh"
-        },
-        {
-            "created_at": "2026-04-30T13:54:43.918000",
-            "updated_at": null,
-            "id": "wi22w0n80c40fz3wf8jgw6h6",
-            "label": "Flussfahrt durch vulkanische Landschaften",
-            "content": "Die Gruppe setzte ihre Flussfahrt fort, trotz des beschädigten Mastes, und ließ sich von der Strömung treiben. Während sie unterwegs waren, beobachteten sie die Auswirkungen eines kürzlichen Vulkanausbruchs, wo Magma-Bomben die Landschaft verwüstet hatten und nur verbrannte Erde zurückgelassen wurde. In der Ferne sahen sie, wie verschiedene Wildtiere, darunter Rentiere, Wölfe, Füchse und Bären, in Gruppen gen Süden flüchteten. Die Tiere waren nicht direkt am Ufer sichtbar.",
-            "image": null,
-            "index": 503,
-            "categories": [
-                "Exploration"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "sz3s13nfaid7oxa0oh771joh"
-        },
-        {
-            "created_at": "2026-04-29T19:41:32.769000",
-            "updated_at": null,
-            "id": "bqevnplumld3nrcuyywhlxh1",
-            "label": "Die Befreiung von Steve im Chaos",
-            "content": "Die Gruppe diskutierte über ihre nächsten Schritte, während sie sich der Festung näherten. Gwendolyn Silverflame schlug vor, sich zunächst auf die Zerstörung der Besenlöcher zu konzentrieren, um das Chaos zu nutzen. Rita äußerte den Wunsch, Steve zu befreien, und betonte, dass sie nicht einfach in die Festung stürmen wolle, während die anderen alles töten. Gwendolyn ermutigte sie, ihren Plan in die Tat umzusetzen. Die Gruppe einigte sich darauf, die gefundenen Gegenstände zu vernichten und Steve während des entstehenden Chaos zu befreien. Schließlich wurde beschlossen, abzuwarten, bis Briarwatch mit anderen Dingen beschäftigt war, um eine Chance zu haben, Steve zu retten.",
-            "image": null,
-            "index": 490,
-            "categories": [
-                "Alliance"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmok9b9au000004l73982sid9"
-        },
-        {
-            "created_at": "2026-04-29T19:41:32.769000",
-            "updated_at": null,
-            "id": "ckq97c0haighfpvfvn3ae2eh",
-            "label": "Die gefesselte Wache ahmt Morvain nach",
-            "content": "Während Morvain sich bewegte, stand die gefesselte, teilweise entkleidete und geknebelte Wache auf und ahmte Morvains Bewegungen mit leichter Verzögerung nach. Morvain entfernte den Knebel und fragte sie: „Auf welche Befehle hörst du?“ Die Wache antwortete: „Ich tue, was mir befohlen wird, und gehorche meinem Meister.“ Morvain stellte fest, dass die Wache ihm folgte und bemerkte, dass sie sich in ihrer Position bewegte, als ob sie seine Bewegungen nachahmte. Die Gruppe diskutierte, ob sie die Wache weiter befragen sollten, um mehr über ihre Machenschaften zu erfahren.",
-            "image": null,
-            "index": 493,
-            "categories": [
-                "Mystery"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmok9b9au000004l73982sid9"
-        },
-        {
-            "created_at": "2026-04-29T19:41:32.769000",
-            "updated_at": null,
-            "id": "emz7ugvlz1k9280wtantlwbu",
-            "label": "Gwendolyn und Surina überwältigen die Wache",
-            "content": "Gwendolyn Silverflame zog der Wache den Helm ab und schlug mit ihrem Stab zu, traf jedoch nur die Rüstung. In der Zwischenzeit nutzte Surina Nemmonis die Gelegenheit, um der Wache die Hände zu fesseln, sie zu knebeln und ihre Sicht mit Asche einzuschränken. Diese koordinierte Aktion der beiden Kämpferinnen brachte die Wache schnell unter Kontrolle, während die anderen Mitglieder der Gruppe sich auf die bevorstehenden Herausforderungen vorbereiteten.",
-            "image": null,
-            "index": 489,
-            "categories": [
-                "Conflict"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmok9b9au000004l73982sid9"
-        },
-        {
-            "created_at": "2026-04-29T19:41:32.769000",
-            "updated_at": null,
-            "id": "g7ebdhxtlfmzg8gcqmd0t32w",
-            "label": "Bombardement über Niewinter",
-            "content": "Die Gruppe betrat die Stadt Niewinter durch ein unbesetztes Tor, als plötzlich ein Luftschiff über ihnen auftauchte und ein Bombardement begann. Die ersten Bomben schlugen gezielt in die Menschenmenge ein, während die fünf schwebenden Frauen unberührt über dem Gelände schwebten. Gwendolyn Silverflame fragte, was die Hexen in dieser Situation taten, und Dîn-io Tempest bemerkte, dass die Frauen die Adeligen ablenkten. Die Explosionen im Hintergrund verstärkten die chaotische und gefährliche Situation.",
-            "image": null,
-            "index": 498,
-            "categories": [
-                "Chaos"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmok9b9au000004l73982sid9"
-        },
-        {
-            "created_at": "2026-04-29T19:41:32.769000",
-            "updated_at": null,
-            "id": "hh5zkttgp3czhanazbi3s677",
-            "label": "Korvathuns heldenhafter Eingriff",
-            "content": "Titel: Korvathuns Eingreifen\nAls Surina Asche in das Gesicht der Wache pustete, stach der Wachmann sofort mit seinem Speer auf sie zu. Im entscheidenden Moment sprang Korvathun dazwischen, um Surina zu schützen. Mit einem kraftvollen Griff setzte er die Wache außer Gefecht und hielt sie bewegungsunfähig, während die Situation sich zuspitzte. Die anderen Mitglieder der Gruppe beobachteten, wie Korvathun seine Stärke und Entschlossenheit unter Beweis stellte, um seine Gefährtin zu verteidigen.",
-            "image": null,
-            "index": 487,
-            "categories": [
-                "Heroism"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmok9b9au000004l73982sid9"
-        },
-        {
-            "created_at": "2026-04-29T19:41:32.769000",
-            "updated_at": null,
-            "id": "ir64jt1ylr70ct5qjeb8sykb",
-            "label": "Morvain weist die Wache an",
-            "content": "Morvain Schattenfluch wies die Wache an, Gwendolyn Silverflame zu folgen. Die Wache folgte mit minimalem Abstand, wich jedoch eine Handbreit zurück, nachdem Morvain präzisierte: „nicht so nah“. Morvain tippte die Wache an, woraufhin die Wache Gwendolyn spiegelnd antippte.",
-            "image": null,
-            "index": 495,
-            "categories": [
-                "Intrigue"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmok9b9au000004l73982sid9"
-        },
-        {
-            "created_at": "2026-04-29T19:41:32.769000",
-            "updated_at": null,
-            "id": "lwxhea6vwjsmclaepk49xfzp",
-            "label": "Morvain tätowiert die gefesselte Wache",
-            "content": "Morvain bereitete sich vor, die gefesselte Wache zu tätowieren, während Korvathun half, die Haut freizulegen. Brennen entfernte Teile der Rüstung, um den Zugang zu erleichtern. Morvain kopierte grob eine Rune auf seine eigene Haut, und die nachgestochene Rune blieb als erkennbare Nachahmung bestehen. Gwendolyn bemerkte: \"Und ihr nennt uns Psycho?\" während sie die Szene betrachtete.",
-            "image": null,
-            "index": 492,
-            "categories": [
-                "Ritual"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmok9b9au000004l73982sid9"
-        },
-        {
-            "created_at": "2026-04-29T19:41:32.769000",
-            "updated_at": null,
-            "id": "ndejq7hgje0dfbnw68ikptua",
-            "label": "Surina und die Nighthag",
-            "content": "Surina, Gwendolyn und Rita zogen sich 10 bis 20 Meter von der restlichen Gruppe zurück, um ein vertrauliches Gespräch zu führen. Surina berichtete, dass eine Nighthag versprochen habe, \"Rie\" zurückzubringen, und warnte, dass etwas \"Großes\" geplant sei. Gwendolyn äußerte Bedenken, dass sie in illegale Seelensammlungen verwickelt sein könnten, während Rita skeptisch nachfragte, inwiefern Seelen gesammelt worden seien. Surina bestätigte, dass die Nighthag etwas Großes plane und sie sich von ihr fernhalten sollten. Rita machte einen kleinen Schritt zurück und zeigte sich besorgt.",
-            "image": null,
-            "index": 486,
-            "categories": [
-                "Revelation"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmok9b9au000004l73982sid9"
-        },
-        {
-            "created_at": "2026-04-29T19:41:32.769000",
-            "updated_at": null,
-            "id": "s6szpwivy4g15tp0uxfvzbjv",
-            "label": "Brennen und die vernebelte Kette",
-            "content": "Brennen nahm die Knochenkette in die Hand, und als Gwendolyn sie ebenfalls berührte, vernebelte sich ihre Sicht. Beide schienen benommen, als ob sie in eine andere Welt eintauchten, während die anderen Mitglieder der Gruppe sie weiterhin normal wahrnahmen. Rita fragte, ob sie sich im Nebel sehen konnten. Gwendolyn und Brennen waren in ihrer eigenen, vernebelten Realität gefangen, während die anderen um sie herum diskutierten, was als Nächstes zu tun sei. Die Kette schien eine geheimnisvolle Macht zu besitzen, die die Wahrnehmung der beiden beeinflusste.",
-            "image": null,
-            "index": 485,
-            "categories": [
-                "Mystery"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmok9b9au000004l73982sid9"
-        },
-        {
-            "created_at": "2026-04-29T19:41:32.769000",
-            "updated_at": null,
-            "id": "s7sa4t81estde60iqet7wn3a",
-            "label": "Ritual der Zerstörung",
-            "content": "Gwendolyn Silverflame zündete eine Haarsträhne an, und der Nebel um sie lichtete sich. Eine Stimme sagte: „Ja gut.“ Surina zerbrach ein kleines Knochenstück der Kette, was eine Stimme in ihren Köpfen hervorrief, die verkündete: „Ihr macht das großartig.“ In diesem Moment zerschlug Brennen Voidridge eine Spiegelscherbe, was die mystische Atmosphäre verstärkte. Gwendolyn sammelte die Überreste der verbrannten Haare und häufte sie zu Asche, um weiteres Material darüber zu geben, während die Gruppe sich auf das Ritual konzentrierte.",
-            "image": null,
-            "index": 491,
-            "categories": [
-                "Ritual"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmok9b9au000004l73982sid9"
-        },
-        {
-            "created_at": "2026-04-29T19:41:32.769000",
-            "updated_at": null,
-            "id": "voaesdhl3tc5wbry66kglwgm",
-            "label": "Befreiung von Steve im Sturmkeller",
-            "content": "Rita durchsuchte ihren Rucksack und den Verhörraum nach einem Werkzeug, um die Zelle zu öffnen, in der Steve gefangen war. Als Korvathun und die anderen hinzukamen, bat sie um Hilfe. Morvain erinnerte daran, dass Surina mit ihrem Frostatem das Metall einfrieren könnte, um es leichter aufzubrechen. Surina setzte ihren Frostatem ein, und Korvathun brach mit einer Brechstange das Gittertor auf, während die anderen Gefangenen um Hilfe riefen. Nachdem Steve befreit wurde, entschied die Gruppe, ihn zusammen mit einem weiteren Gefangenen zur Waldgrenze zu bringen, während sie mindestens eine Brechstange zurückließen.",
-            "image": null,
-            "index": 497,
-            "categories": [
-                "Heroism",
-                "Betrayal",
-                "Conflict",
-                "Victory"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmok9b9au000004l73982sid9"
-        },
-        {
-            "created_at": "2026-04-29T19:41:32.769000",
-            "updated_at": null,
-            "id": "w2xlxu0q9yt9viaco71fm5zb",
-            "label": "Magische Grenze der Stadt",
-            "content": "Gwendolyn Silverflame nutzte ihren Zauber \"Detect Magic\", um die magische Grenze der Stadt zu untersuchen. Sie stellte fest, dass die Magie direkt an der Stadtmauer begann und sich mit kleineren Ausläufern innerhalb der Stadt erstreckte. Die Gruppe entschied sich, tiefer in den Wald zu gehen, um sich besser zu positionieren. Morvain band währenddessen die Wache an einem Baum fest.",
-            "image": null,
-            "index": 494,
-            "categories": [
-                "Discovery"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmok9b9au000004l73982sid9"
-        },
-        {
-            "created_at": "2026-04-29T19:41:32.769000",
-            "updated_at": null,
-            "id": "wunb892laduo1a9ghy6hdvto",
-            "label": "Dunkelheit über Briarwatch",
-            "content": "Am Abend hörte die Gruppe aus Richtung Briarwatch zunächst Feierlichkeiten, gefolgt von panischen Schreien. Rita und Korvathun beobachteten über Briarwatch einen dunkellilafarbenen Himmel, der von dünnen pinken Linien durchzogen war. Plötzlich erblickten sie fünf junge Frauen in Nachthemden, die über der Gartenanlage schwebten. Die Schreie aus der Stadt wurden lauter, während die Gruppe sich näherte, um die unheimliche Szene zu beobachten. \"Ich wiederhole nochmal, am Himmel sind fünf Frauen\", rief Rita, während die anderen angespannt auf das Geschehen starrten.",
-            "image": null,
-            "index": 496,
-            "categories": [
-                "Suspense"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmok9b9au000004l73982sid9"
-        },
-        {
-            "created_at": "2026-04-29T19:41:32.769000",
-            "updated_at": null,
-            "id": "x7yrlhq49nh7wyr0eticmddk",
-            "label": "Telepathische Verbindung zu Flint",
-            "content": "Gwendolyn Silverflame aktivierte den telepathischen Stein und meldete sich bei Flint. Flint bestätigte, dass Briarwatch die meisten Angriffe abwehren könne und dass zwölf Wachen vor Ort seien. Er warnte, dass ein Angriff bis zur Nacht Briarwatch in Flammen setzen würde. Flint bot an, die Gruppe nach dem Angriff mitzunehmen, wenn sie ihre Position sichtbar markieren würden. Gwendolyn und ihre Gruppe waren in Briarwatch angekommen und besprachen die Situation.",
-            "image": null,
-            "index": 488,
-            "categories": [
-                "Negotiation"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmok9b9au000004l73982sid9"
-        },
-        {
-            "created_at": "2026-04-29T19:41:32.769000",
-            "updated_at": null,
-            "id": "zt5y33990ljueszpixlsy2jp",
-            "label": "Rettung unter Bombardement",
-            "content": "Unter dem dröhnenden Geräusch der Explosionen, die in die Menschenmenge auf dem Gelände einschlugen, feuerte Gwendolyn Silverflame mit Magic Missile auf die herabfallenden Geschosse. Sie verstärkte ihren Angriff mit einem stürmischen Asche-/Glut-Effekt, während Morvain seine Feuerzauber wirkte, um eine Mauer zu sprengen. Korvathun nutzte den Nebel, um die Vorderreihen zu bilden und die Flüchtenden zu leiten, während Surina ihre Rüstung und ihren Schild ergriff, um die Gruppen beim Durchbruch zu decken. Rita warf sich in die Schusslinie und fing Projektile ab, während die Gruppe mehrere Personen durch das Tor und den aufgesprengten Mauerabschnitt rettete. Schließlich zogen sie sich zur Waldgrenze zurück.",
-            "image": null,
-            "index": 499,
-            "categories": [
-                "Heroism"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmok9b9au000004l73982sid9"
-        },
-        {
-            "created_at": "2026-04-22T20:57:18.160000",
-            "updated_at": null,
-            "id": "ar21xj3cpgtnplu1ft4l4dsq",
-            "label": "Surina und die Nighthag",
-            "content": "Surina entdeckte nahe dem Torhaus eine kleine Knochenkette und griff danach. Als sie die Kette ergriff, verstummte der Kinderreim, und eine vertraute Stimme, die der Nighthag, sprach telepathisch zu ihr. Sie forderte Surina auf, die gefundenen Gegenstände – Asche, Salz, Haare, Scherbe und Kette – zu vernichten, sich von Briarwatch fernzuhalten und die Begleitwache zu töten oder sicher zu fesseln, um die Informationsweitergabe zu verhindern. Die Nighthag kündigte \"etwas Großes\" zum Mondfest an und versprach, \"rit\" lebendig und unverändert zu übergeben, wenn Surina ihren Anweisungen folgte. Surina willigte ein und kehrte zur Gruppe zurück.",
-            "image": null,
-            "index": 484,
-            "categories": [
-                "Intrigue",
-                "Conflict"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmoabbm19000704jq33qjteo5"
-        },
-        {
-            "created_at": "2026-04-22T20:57:18.160000",
-            "updated_at": null,
-            "id": "d6qz8ce1m8nonlkbt3uk23l5",
-            "label": "Brennen droht mit Waterboarding",
-            "content": "In einem angespannten Moment drohte Brennen mit Einschüchterungsmaßnahmen und bereitete Waterboarding vor, während Rita versuchte, mit Steven über seine Herkunft, Waterdeep und die Rosen-Brosche zu sprechen. Gwendolyn setzte Frostbite gezielt an der Brosche ein, was Steven einen Schmerzensschrei entlockte. Gwendolyn entfernte die Brosche und reichte sie an Rita weiter, die die Bedeutung des Artefakts zu verstehen versuchte.",
-            "image": null,
-            "index": 474,
-            "categories": [
-                "Conflict",
-                "Suspense"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmoabbm19000704jq33qjteo5"
-        },
-        {
-            "created_at": "2026-04-22T20:57:18.160000",
-            "updated_at": null,
-            "id": "fjim6wzenbkjivktjfkwfg5k",
-            "label": "Gwendolyn schickt Pio auf Spurensuche",
-            "content": "Gwendolyn Silverflame befiehlt ihrem Vertrauten Pio, autark nach Anhaltspunkten wie Gerüchen oder untypischen Spuren des Nebels zu suchen. Während sie sich in die Richtung bewegt, in die Pio gegangen ist, fragt sie, ob er etwas gefunden hat. Myna, die Gwendolyn begleitet, zeigt sich interessiert und fragt, ob Pio etwas in der Schnauze hat. Schließlich bemerken sie, dass Pio ein Bündel von Haaren gefunden hat, das ordentlich zusammengebunden ist und nicht wie von einem Tier gerissen aussieht. Gwendolyn und Myna betrachten die Haare und überlegen, welche Herkunft und Bedeutung sie haben könnten.",
-            "image": null,
-            "index": 479,
-            "categories": [
-                "Discovery",
-                "Intrigue"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmoabbm19000704jq33qjteo5"
-        },
-        {
-            "created_at": "2026-04-22T20:57:18.160000",
-            "updated_at": null,
-            "id": "ho4znaxhhshy0rf3nxecbbha",
-            "label": "Brennans Vision im Nebel",
-            "content": "Surina reichte Brennan die Knochenkette zum Testen. Als Brennan die Kette berührte, überkam ihn erneut der Nebel, und er sah die verschwommenen Umrisse von etwas, das sich im Dunst verbarg. Die anderen in der Gruppe beobachteten aufmerksam, was Brennan erlebte. Der Nebel schien eine Verbindung zu den Geheimnissen zu haben, die sie umgaben. Brennan war betroffen von der Vision, die ihn erfasste. \"Was ist das für ein Nebel?\" murmelte er, während er versuchte, die Bilder in seinem Kopf zu deuten.",
-            "image": null,
-            "index": 475,
-            "categories": [
-                "Mystery",
-                "Revelation"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmoabbm19000704jq33qjteo5"
-        },
-        {
-            "created_at": "2026-04-22T20:57:18.160000",
-            "updated_at": null,
-            "id": "l9np8gz8b379xxh7i57iosmh",
-            "label": "Rita stiehlt die Rosen-Brosche",
-            "content": "Als die Gruppe das Gebäude verlässt, schlüpft Rita unbemerkt die Rosen-Brosche in ihre Tasche, während sie sich hastig von den Wachen entfernt. Steven, der in der Nähe steht, murmelt ihr im Vorbeigehen etwas Unverständliches zu, doch Rita hört nicht genau hin und konzentriert sich darauf, die Brosche zu verbergen. Die Wachen scheinen nichts zu bemerken, während die Gruppe sich auf den Weg nach draußen macht. Rita ist eine der letzten, die den Raum verlässt, und die Spannung in der Luft ist spürbar, als sie die Brosche sicher verstaut.",
-            "image": null,
-            "index": 477,
-            "categories": [
-                "Hijinx",
-                "Intrigue"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmoabbm19000704jq33qjteo5"
-        },
-        {
-            "created_at": "2026-04-22T20:57:18.160000",
-            "updated_at": null,
-            "id": "ltg9nno6sjehtr3cc42q0plp",
-            "label": "Brennen und der geheimnisvolle Nebel",
-            "content": "Brennen Voidridge nahm ein Stück Stoff und sammelte eine Portion Asche und Salz, die er um seine Hand legte. Als die Asche seine Haut berührte, sah er plötzlich dichten Nebel, während seine Gefährten, darunter Myna, Morvain und Naevys, den Nebel nicht wahrnahmen. Brennen fragte: \"Wo seid ihr? Ich kann euch nicht mehr sehen!\" Myna forderte ihn auf, seine Hand zu reinigen. Brennen wischte die Asche an seiner Robe ab, und die Sicht auf den Nebel verschwand. Myna bemerkte: \"Ey, wir haben den Nebel gefunden!\"",
-            "image": null,
-            "index": 482,
-            "categories": [
-                "Discovery",
-                "Mystery"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmoabbm19000704jq33qjteo5"
-        },
-        {
-            "created_at": "2026-04-22T20:57:18.160000",
-            "updated_at": null,
-            "id": "nj7bo44cufavymvszzpv7ngd",
-            "label": "Rita befreit Steven aus seiner Gefangenschaft",
-            "content": "Rita zog dem Gefangenen den Sack ab und begrüßte ihn mit einem typischen \"Hallo\", während sie seine Gesichtszüge musterte. Der Gefangene stellte sich als \"Steven\" vor, wirkte jung und klein und klagte über die schlechten Essensbedingungen, seit er vor etwa einer Woche gefangen genommen worden war. Morvain näherte sich ihm, fragte nach seinem Namen und legte eine Hand auf Stevens Schulter, um ihm zu signalisieren, dass er ihm helfen wollte. Steven antwortete, dass er nicht wüsste, warum er gefangen genommen wurde, und zeigte sich neugierig auf die Gruppe. Die Situation war angespannt, und die Gruppe war entschlossen, mehr über Steven und seine Umstände zu erfahren.",
-            "image": null,
-            "index": 473,
-            "categories": [
-                "Conflict",
-                "Discovery"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmoabbm19000704jq33qjteo5"
-        },
-        {
-            "created_at": "2026-04-22T20:57:18.160000",
-            "updated_at": null,
-            "id": "od1wgyj556ucooicqrxs1e6i",
-            "label": "Gwendolyns magische Enthüllung",
-            "content": "Gwendolyn Silverflame aktivierte ihren Zauber \"Detect Magic\" und begann, die ankommenden Personen zu untersuchen. Sie stellte fest, dass die Leibwachen in goldener Rüstung verzaubert waren und dass Die Herzogin selbst von transmutativer Schutzmagie umgeben war. Diese magische Aura schien eine Art Schutzverstärkung zu bieten. Während Die Herzogin mit ihrer Leibwache den Gang verließ, diskutierten die anderen über die Situation und überlegten, ob sie in den Wald gehen sollten.",
-            "image": null,
-            "index": 478,
-            "categories": [
-                "Intrigue",
-                "Discovery"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmoabbm19000704jq33qjteo5"
-        },
-        {
-            "created_at": "2026-04-22T20:57:18.160000",
-            "updated_at": null,
-            "id": "p8twl0hs1i2yvhf5p7avzzfw",
-            "label": "Brennen waterboardet Steven zur Wahrheit",
-            "content": "Brennen Voidridge führte eine Waterboarding-Prozedur durch, nachdem Steven auf Fragen zum Nebel ausweichend reagierte. Nach dem ersten Waterboarding, das Steven stark zusetzte, wurde er erneut unter Wasser gesetzt. Schließlich bot Steven an, alles zu erzählen, um dem Druck zu entkommen. Brennen ließ ihn daraufhin wieder hochkommen, um die Befragung fortzusetzen. Die Gruppe beobachtete, wie sich die Dynamik zwischen Brennen und Steven veränderte.",
-            "image": null,
-            "index": 476,
-            "categories": [
-                "Betrayal",
-                "Conflict",
-                "Suspense"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmoabbm19000704jq33qjteo5"
-        },
-        {
-            "created_at": "2026-04-22T20:57:18.160000",
-            "updated_at": null,
-            "id": "qlfmgwfr73h45nrtq6bcd4gl",
-            "label": "Untersuchung des Nebel-Zwischenfalls",
-            "content": "Die Gruppe versammelte sich am Brunnen, um ihre nächsten Schritte zu besprechen. Gwendolyn Silverflame und Morvain übernahmen die Führung und entschieden, den Nebel-Zwischenfall gemeinsam zu untersuchen. Dabei wurde klargestellt, dass ihr Ziel darin bestand, den Nebel zu untersuchen und nicht die Diebstähle selbst. Die Gruppe bereitete sich darauf vor, ihre Aufgabe zu übernehmen und die Hintergründe des Nebels zu ergründen.",
-            "image": null,
-            "index": 470,
-            "categories": [
-                "Exploration",
-                "Conflict"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmoabbm19000704jq33qjteo5"
-        },
-        {
-            "created_at": "2026-04-22T20:57:18.160000",
-            "updated_at": null,
-            "id": "sh9syyxnyslo3d1lgm4vzpfl",
-            "label": "Eingreifen der Herzogin und Wachen",
-            "content": "Plötzlich betraten Die Herzogin, eine Hobgoblin-Offizierin und mehrere Wachen den Raum. Die Wachen, in goldenen Rüstungen und Helmen, schauten mit ernsten Mienen auf die Gruppe, während Die Herzogin mit autoritärer Stimme befahl, das Verhör zu beenden. \"Ihr müsst den Raum verlassen!\" rief sie, und die Wachen positionierten sich bedrohlich, bereit, die Anweisung durchzusetzen. Die Gruppe sah sich gezwungen, den Raum zu verlassen, während die Wachen ihre Waffen griffbereit hielten. Die Autorität der Herzogin und die Präsenz der Wachen ließen keinen Raum für Widerstand.",
-            "image": null,
-            "index": 471,
-            "categories": [
-                "Conflict",
-                "Intrigue"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmoabbm19000704jq33qjteo5"
-        },
-        {
-            "created_at": "2026-04-22T20:57:18.160000",
-            "updated_at": null,
-            "id": "spu5zxr2nvsq2qsncjkciwvt",
-            "label": "Surina analysiert die Wache",
-            "content": "Surina musterte die begleitende Wache und stellte fest, dass die Wache, die etwas kleiner, aber muskulös gebaut war und in schwerer Plattenrüstung steckte, kaum zu überwältigen war. Ein schneller Ausschaltversuch schien aufgrund der Rüstung und der Ausbildung der Wache kaum möglich. Surina bemerkte, dass die Wache sich auf andere Dinge konzentrierte und nicht mit der Gruppe sprach, was ihre Wachsamkeit unterstrich. Sie überlegte, wie sie die Situation anders angehen könnte, während sie die Wache weiterhin beobachtete.",
-            "image": null,
-            "index": 485,
-            "categories": [
-                "Intrigue",
-                "Conflict"
-            ],
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmoabbm19000704jq33qjteo5"
         }
     ],
     "from": 1,
-    "last_page": 6,
+    "last_page": 7,
     "per_page": 100,
     "to": 100,
-    "total": 558
+    "total": 614
 }

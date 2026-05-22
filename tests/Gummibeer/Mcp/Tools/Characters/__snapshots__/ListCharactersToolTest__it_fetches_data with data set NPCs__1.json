@@ -2,6 +2,112 @@
     "current_page": 1,
     "data": [
         {
+            "created_at": "2026-05-22T13:55:28.597000",
+            "updated_at": null,
+            "id": "iu58zy2d71svccr6btofib7k",
+            "character_name": "Der Riese",
+            "character_alias": null,
+            "character_aliases": [
+                "Ein Riese",
+                "Einen Riesen"
+            ],
+            "player_name": null,
+            "player_handle": null,
+            "player": null,
+            "description": "Der Riese ist ein Individuum, das in einer Zelle auf der Zellenebene eingesperrt war, bis seine Magie plötzlich zurückkehrte.\nChronologie: Brennen traf den Riesen auf der Zellenebene. Der Riese erklärte, dass er in einer Zelle eingesperrt gewesen sei, bis seine Magie zurückkehrte. Auf die Aufforderung, mit der Gruppe zu kämpfen, lehnte Der Riese ab und sagte, er sei bereits frei. Er begann zu schweben und glitt nach oben davon.",
+            "backstory": null,
+            "type": "NPC",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-05-22T12:19:23.945000",
+            "updated_at": null,
+            "id": "uubep7ty22zvyyjk4xhagon1",
+            "character_name": "Ork",
+            "character_alias": null,
+            "character_aliases": [
+                "Einzelner Ork",
+                "Ork (wache)"
+            ],
+            "player_name": null,
+            "player_handle": null,
+            "player": null,
+            "description": "Ein Ork stand als Wache vor einer Tür und führte eine Axt mit sich.\nSurina Nemmonis stürmte vor, traf den Ork und stach ihm in den oberen Brustbereich, schlitzte bis zur Kehle. Der Ork fiel tot zu Boden, und sowohl sein Körper als auch die Axt fielen scheppernd zu Boden. Die Gruppe versuchte, den toten Ork unauffällig zu halten und wegzuziehen.",
+            "backstory": null,
+            "type": "NPC",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-05-22T12:19:23.702000",
+            "updated_at": null,
+            "id": "ygl5anqxdtv179koj12l5h7m",
+            "character_name": "Wurmartiges Wesen",
+            "character_alias": null,
+            "character_aliases": [
+                "Vielbeiniges, Wurmartiges Wesen Mit Einem Kleinen Humanoiden Gesicht"
+            ],
+            "player_name": null,
+            "player_handle": null,
+            "player": null,
+            "description": "Ein vielbeiniges, Wurmartiges Wesen mit einem kleinen humanoiden Gesicht und schleimiger Erscheinung. Es hatte viele Füße und glühte vor Aura, stark durchdrungen von unbekannter Magie.\n\nDas Wesen kroch auf Nathalies Körper und wurde dort entdeckt. Auf Nathalies Haut waren eingeritzte Zeichen zu sehen, was die Gruppe zu der Erkenntnis führte, dass es kein gewöhnliches Tier war. Surina Nemmonis hielt das Wesen in der Hand, bevor Brennen Voidridge es auseinander riss und tötete.\n\nLarvae, also called soul larvae, were a form of evil petitioner that were consumed and sold by the denizens of the Lower planes. They were the primary source of income for the night hags and had a variety of fiendish uses.",
+            "backstory": null,
+            "type": "NPC",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-05-22T12:19:23.369000",
+            "updated_at": null,
+            "id": "ufnkda6hm8m5qgyt4jp0d4fy",
+            "character_name": "Nathalie (Schwein)",
+            "character_alias": null,
+            "character_aliases": [
+                "Verzaubertes Nathalie",
+                "Nathalie"
+            ],
+            "player_name": null,
+            "player_handle": null,
+            "player": null,
+            "description": "Nathalie, Mitglied der Gruppe, sprach während des Frühstücks mit einer fremden Stimme und trug ein rätselhaftes Drohgedicht vor. Kurz darauf wurde ihr Körper unnatürlich auseinandergezogen und flach auf den Boden gerissen, wobei viel Blut austrat. Auf ihrem Körper kroch eine vielbeinige, wurmartige Kreatur mit einem kleinen humanoiden Gesicht. Eingeritzte Zeichen oder Worte waren auf Nathalies Haut sichtbar. Surina Nemmonis begann, ein Grab für Nathalie auszuheben, kam jedoch nur langsam voran, da Nathalies breiter, flachgerissener Körper ein größeres Grab erforderte. Brennen Voidridge riss die wurmartige Kreatur auseinander und tötete sie. Surina Nemmonis pflückte Blumen von der Wiese und legte sie zu Nathalie.\n\nZuvor wurde ein sprechendes Nathalie, das als verzaubert beschrieben wurde, im Bereich eines Bauernhofs angetroffen. Es gehörte zu den zwei verbliebenen Schweinen auf dem Gelände. Die Gruppe sah das Nathalie, während sie vom Hügel aus das brennende Gehöft beobachtete. Im Gespräch mit Nathalie wurde festgestellt, dass es verzaubert sein müsse, da es mit der Gruppe sprechen konnte. Alle Gruppenmitglieder konnten mit dem Nathalie reden. Beim Frühstück saß die Gruppe mit einem ausblutenden Nathalie zusammen und diskutierte, das Nathalie zu begraben.",
+            "backstory": null,
+            "type": "NPC",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": true
+        },
+        {
+            "created_at": "2026-05-22T08:46:01.037000",
+            "updated_at": null,
+            "id": "fjecjk1qgqmkhfkl7bl2vv42",
+            "character_name": "Jäger-Anführer",
+            "character_alias": null,
+            "character_aliases": [
+                "Vordersten Ork",
+                "Früheren Anführer",
+                "Führenden Jäger",
+                "Der Jäger-Anführer"
+            ],
+            "player_name": null,
+            "player_handle": null,
+            "player": null,
+            "description": "Der Jäger-Anführer ist ein früherer Anführer und führender Jäger aus Naevys’ Clan. Naevys erkennt ihn als Angehörigen ihres Clans und nennt ihn \"Jäger-Anführer\".\nEr kletterte mit weiteren Orks an einem Seil von einer Felskante hinunter zu Naevys und der Gruppe. Er rief Naevys freudig zu und zeigte sich froh, sie wiederzusehen. Er berichtete, dass die letzte Zeit deutlich schwerer gewesen sei. Nach einem Ork-Warnruf stürmte der Jäger-Anführer mit weiteren Orks der herannahenden Bedrohung entgegen und nahm am folgenden Kampf gegen mehrere riesenhafte humanoide Gestalten teil.",
+            "backstory": null,
+            "type": "NPC",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
             "created_at": "2026-05-21T13:29:18.082000",
             "updated_at": null,
             "id": "zkcx9osgz2rnddizsx31gd87",
@@ -64,19 +170,19 @@
             "character_name": "Gefängnisaufseher",
             "character_alias": null,
             "character_aliases": [
-                "Aufseher",
-                "Gefängnisaufseher"
+                "Gefängnisdirektor",
+                "Der Gefängnisdirektor"
             ],
             "player_name": null,
             "player_handle": null,
             "player": null,
-            "description": "Der Gefängnisaufseher ist eine Aufsichtsperson des Gefängnisses, die hinter der Tür sprach und die Gruppe durch verschlossene Türen in den Revel's End führte. Er begleitete die Gruppe zum Raum mit der Kugel und blieb daneben stehen, während sie versuchten, die Kugel herauszubekommen. Auf die Bitte der Gruppe, die Magie wieder zuzulassen, lehnte er ab und erklärte, dass es für ihn dann nicht mehr lustig wäre. \n\nEr führte die Gruppe in die Revel's End zu zwei Wasserfässern, nahm eine Wette an, hielt Dîn-io während des Wettkampfs am Nacken unter Wasser und ließ ihn auf Bitte der Gruppe schließlich los. Er erklärte, die Gruppe hätte die Kugel von Anfang an herausbekommen können, wenn sie gefragt hätten, und öffnete kurz darauf den bislang verschlossenen Nebenraum, um die magische Unterdrückung abzuschalten. Vor dem Aufbruch bot er Handwerkssachen und wetterfeste Mäntel an, die die Gruppe mitnahm.",
+            "description": "Der Gefängnisaufseher ist eine Aufsichtsperson des Gefängnisses, die hinter der Tür sprach und die Gruppe durch verschlossene Türen in den Revel's End führte. Er begleitete die Gruppe zum Raum mit der Kugel und blieb daneben stehen, während sie versuchten, die Kugel herauszubekommen. Auf die Bitte der Gruppe, die Magie wieder zuzulassen, lehnte er ab und erklärte, dass es für ihn dann nicht mehr lustig wäre.\nEr führte die Gruppe in die Revel's End zu zwei Wasserfässern, nahm eine Wette an, hielt Dîn-io während des Wettkampfs am Nacken unter Wasser und ließ ihn auf Bitte der Gruppe schließlich los. Er erklärte, die Gruppe hätte die Kugel von Anfang an herausbekommen können, wenn sie gefragt hätten, und öffnete kurz darauf den bislang verschlossenen Nebenraum, um die magische Unterdrückung abzuschalten. Vor dem Aufbruch bot er Handwerkssachen und wetterfeste Mäntel an, die die Gruppe mitnahm.\nSpäter wurde er als Gefängnisaufseher identifiziert, der befreite Leiter des Gefängnisses und offenbar magisch begabt. Nach seiner Befreiung erklärte er, dass das Gefängnis eines Nachts von Orks überrannt wurde. Kurz nach der Übernahme seien die bisherigen Insassen und Verantwortlichen eingesperrt worden. Er berichtete, dass die Waffenkammer noch nicht gesichert sei und machte sich daran, sie zurückzuerobern. Mit den Schlüsseln ließ sich eine verschlossene Tür nicht öffnen; er öffnete sie magisch, woraufhin Gwendolyn und Dîn-io Angriffe auslösten. In dem anschließenden Gefecht wurde er von einem Gegner angegriffen.\nEr dankte der Gruppe für die Rückeroberung und gab an, dass das Gefängnis normalerweise mit 75 Wachen besetzt sei, jetzt aber nicht einmal zehn zurück seien. Die Orks hätten zwei seiner Wachen getötet. Er beschrieb das Gefängnis als militärischen Stützpunkt mit Ställen, Küche und Vorräten. Er bot der Gruppe Unterkunft für die Nacht, Verpflegung sowie Transportmöglichkeiten für Gepäck und Verletzte an und erwähnte einen Seeweg entlang der Küste sowie ein kleines Fischerboot mit etwas Proviant. Er äußerte die Haltung, dass „Orks seien Orks.“",
             "backstory": null,
             "type": "NPC",
             "image": null,
             "tcg_image": null,
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
+            "merge": true
         },
         {
             "created_at": "2026-05-21T13:29:17.652000",
@@ -88,13 +194,13 @@
             "player_name": null,
             "player_handle": null,
             "player": null,
-            "description": "Der Zwerg stand draußen bei einem Schiff Mit Kufen. Er erklärte, das Schiff solle bis zur nächsten Stadt halten, auch wenn eine gründlichere Stabilisierung länger dauern würde, und bot an, am Bau und der Stabilisierung zu arbeiten.\nBeim Ausstieg sprach der Zwerg mit Surina und warnte sie vor einer sehr alten weißen Drachin namens Aveachurus. Er sagte, man könne mit der Drachin reden, sie sei aber außerordentlich gefährlich, und riet Surina, ihr gegenüber kleinlaut zu sein.",
+            "description": "Der Zwerg stand draußen bei einem Schiff Mit Kufen. Er erklärte, das Schiff solle bis zur nächsten Stadt halten, auch wenn eine gründlichere Stabilisierung länger dauern würde, und bot an, am Bau und der Stabilisierung zu arbeiten. Beim Ausstieg sprach der Zwerg mit Surina und warnte sie vor einer sehr alten weißen Drachin namens Aveachurus. Er sagte, man könne mit der Drachin reden, sie sei aber außerordentlich gefährlich, und riet Surina, ihr gegenüber kleinlaut zu sein.\nZuvor war der Zwerg ein Gefangener in einer Zelle des Gefängnisses. Dîn-io schloss die Zelle auf und befreite den Zwerg. Daraufhin lief der Zwerg zu einem der Orks, nahm sich Schlüssel und begann, weitere Zellen zu öffnen.",
             "backstory": null,
             "type": "NPC",
             "image": null,
             "tcg_image": null,
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
+            "merge": true
         },
         {
             "created_at": "2026-05-18T16:51:45.629000",
@@ -282,109 +388,11 @@
             "tcg_image": null,
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "merge": false
-        },
-        {
-            "created_at": "2026-05-13T20:01:06.020000",
-            "updated_at": null,
-            "id": "kaxujs47d8g9cf9odqtwcc4i",
-            "character_name": "Erste Tochter",
-            "character_alias": null,
-            "character_aliases": [],
-            "player_name": null,
-            "player_handle": null,
-            "player": null,
-            "description": "Die Erste Tochter erscheint in humanoider Gestalt vor ihrem Vater, schwebt langsam herab und schlägt ihm unter Tränen mit den Fäusten gegen die Brust, bevor sie vor ihm zusammenbricht. Ihre Erscheinung ist von Traurigkeit geprägt, was durch ihre Tränen und den körperlichen Ausdruck ihrer Verzweiflung deutlich wird.\nNachdem die Erste Tochter zu Boden gefallen ist, folgt die Zweite Tochter, die gefasst auf ihren Vater zugeht und ihm eine Ohrfeige gibt. Sie fordert ihn auf, seine Rolle im Haus abzugeben, andernfalls würden sie alle sterben. Die Vater der getöteten dritten Tochter schwebt ebenfalls herab und äußert, dass es immer Schwund und Schaden gebe, aber man deshalb nicht die Werte seines Hauses verraten sollte. Diese Tochter bemerkt ein kleines Kaninchen, packt es und bricht ihm mit bloßen Händen das Genick.\nDie Vater der getöteten dritten Tochter wird dann von Ranken aus dem Gebüsch ergriffen, in die Luft gerissen und durchbohrt. Ihr Kopf sackt nach vorn, und sie wirkt tot. Die anderen Töchter sinken ebenfalls zu Boden, und eine von ihnen kauert sich zusammen.",
-            "backstory": null,
-            "type": "NPC",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
-        },
-        {
-            "created_at": "2026-05-13T20:01:05.957000",
-            "updated_at": null,
-            "id": "takoxa545xshumxrk9wauo97",
-            "character_name": "Aurelian Rosethorne",
-            "character_alias": null,
-            "character_aliases": [],
-            "player_name": null,
-            "player_handle": null,
-            "player": null,
-            "description": "Aurelian ist ein Mitglied der Familie de Rosson und lebt in Calimport. Auf ihn ist ein hohes Kopfgeld ausgesetzt. Er wird als Vater von Naevys Nerizana identifiziert.\n\nNaevys erfährt von Doran, dass Aurelian noch lebt und dass es vorteilhaft für sie sei, in seiner Nähe zu sein, da sein Kopf wertvoll sein könnte. Doran erklärt, dass Aurelian in der Vergangenheit eine bedeutende Rolle gespielt hat und dass seine Identität geheim gehalten werden sollte, um Naevys zu schützen.",
-            "backstory": null,
-            "type": "NPC",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
-        },
-        {
-            "created_at": "2026-04-30T14:06:52.324000",
-            "updated_at": null,
-            "id": "jl60my4lyipc77ro3iisx18p",
-            "character_name": "Mister Walross",
-            "character_alias": null,
-            "character_aliases": [],
-            "player_name": null,
-            "player_handle": null,
-            "player": null,
-            "description": "Mister Varos ist ein sprechendes Walross und wird als neues Crewmitglied vorgeschlagen. Er hat die Fähigkeit zu sprechen und ist bereit, sich der Pinguin-Crew anzuschließen, sofern er am nächsten Morgen Frühstück erhält.\nSurina Nemmonis sucht Mister Varos auf und fragt ihn, ob er sich der Pinguin-Crew anschließen möchte. Mister Varos stimmt zu, am nächsten Morgen vor Sonnenaufgang zu ihnen zu wechseln. Am Morgen nimmt die Gruppe Mister Varos mit und führt ihn zur Pinguin-Crew, wo er sich ihnen anschließt und an Bord des metallenen Schiffes geht.\nMister Varos gehört zur Schiffscrew. Surina brachte dem Walross etwas zu fressen und führte es kurz an Bord des Schiffs. Sie bezeichnete es als „Zaubertrick“, dass dem Walross sein Kopf wieder dran sei. Während der Schiffreparaturen wurde diskutiert, ob das Walross noch am Schiff sei.",
-            "backstory": null,
-            "type": "NPC",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": true
-        },
-        {
-            "created_at": "2026-04-30T13:49:33.878000",
-            "updated_at": null,
-            "id": "ao0r8gkb539ipujh0vc8yewu",
-            "character_name": "Akhlut",
-            "character_alias": null,
-            "character_aliases": [
-                "der Aklut"
-            ],
-            "player_name": null,
-            "player_handle": null,
-            "player": null,
-            "description": "Aklut ist ein Wasserjäger, der auch an Land laufen kann. Er wird als sehr groß beschrieben und ist in seiner Gefährlichkeit einem großen Bären ähnlich. Während einer Begegnung schoss Aklut aus einem Eisloch, packte eine Robbe und bewegte sich in Richtung eines weiteren Eislochs. Er wurde von Gwendolyn Silverflame mit einem Feuerzauber getroffen und von Surina Nemmonis, die eine Handaxt mit einem Seil befestigt hatte, am vorderen Bein eingehakt. Dîn-io Tempest traf Aklut mit einem Blitzangriff, während Naevys Nerizana und Brennen Voidridge ihn ebenfalls verletzten. Flopsi setzte einen Feuerangriff gegen Aklut ein, wodurch das Eis unter ihm zu dünn wurde.\n\nSurina Nemmonis stemmte sich mit aller Kraft gegen den Zug am Seil, um zu verhindern, dass Aklut sofort wieder vollständig abzutauchen konnte. Aklut versuchte, sich um Surina Nemmonis herum zu bewegen, was Dîn-io Tempest die Gelegenheit gab, ihn zu treffen. Naevys Nerizana ging in den Nahkampf über und setzte mehrere Hiebe mit Kurzschwertern. Gwendolyn Silverflame und Flopsi wirkten weitere Feuerangriffe, wodurch Aklut deutliche Schwächen zeigte und humpelte. Schließlich wurde Aklut von Brennen Voidridge getötet.",
-            "backstory": null,
-            "type": "NPC",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
-        },
-        {
-            "created_at": "2026-04-30T13:49:33.858000",
-            "updated_at": null,
-            "id": "di7k23ss1fewy18oqzgkd441",
-            "character_name": "Admiral Eri",
-            "character_alias": null,
-            "character_aliases": [
-                "Der Pinguin",
-                "Pinguin",
-                "Kapitän",
-                "der Admiral",
-                "Admiral des Schiffs"
-            ],
-            "player_name": null,
-            "player_handle": null,
-            "player": null,
-            "description": "Der Admiral ist ein Pinguin, der ein stabiles Schiff kommandiert, das durch das Eis bricht. Er stellt sich als der Admiral des Schiffs vor und erklärt, dass sie Piraten sind. Der Admiral bietet der Gruppe an, sie zur Insel mit dem Hort von Ava Charus in der offenen See zu bringen und warnt, dass seit zweihundert Jahren kein Schiff diese Passage wegen Ava Charus geschafft hat. Er schlägt vor, gemeinsam zu fahren und den Hort im Erfolgsfall „halbe-halbe“ zu teilen, falls die Gruppe die Drachenlady tötet.\n\nSurina Nemmonis geht mit dem Admiral an Bord seines Schiffes, wo sie eine Crew aus mehreren Pinguinen, einem Hai und einigen Enten sieht, die den eintreffenden Kapitän salutieren. Der Admiral fragt die Gruppe, ob sie nicht bei ihm mitfahren wollen, und versichert, dass sein Schiff besser schwimmt als ihres. Er erklärt, dass sie nur auf die offene See hinaus müssen, um zur Insel zu gelangen, wo Ava Charus lebt. Der Admiral fordert die Gruppe auf, bis zum Morgen über die Mitfahrt zu entscheiden, da sein Schiff dann ablegen wird.",
-            "backstory": null,
-            "type": "NPC",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
         }
     ],
     "from": 1,
     "last_page": 7,
     "per_page": 20,
     "to": 20,
-    "total": 123
+    "total": 128
 }

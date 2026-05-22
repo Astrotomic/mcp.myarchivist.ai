@@ -2,6 +2,34 @@
     "current_page": 1,
     "data": [
         {
+            "created_at": "2026-05-22T08:46:01.396000",
+            "updated_at": null,
+            "id": "mxbjkn9oz6p521d0jl8in78x",
+            "name": "Riesenhaften Humanoiden Gestalten",
+            "aliases": [],
+            "type": null,
+            "description": "Die Riesenhaften Humanoiden Gestalten sind etwa so hoch wie ein Schiff und treten als zweibeinige Kreaturen auf. Sie gingen in Kampfhandlungen mit einer Gruppe und Orks. Ein von Gwendolyn mit einer magischen Krone beeinflusster Angehöriger der Riesenhaften Humanoiden Gestalten kämpfte unter den Orks. Gwendolyn schleuderte einen Feuerball in eine Gruppe der Riesenhaften Humanoiden Gestalten auf dem Eis, was ein Loch ins Eis riss und mindestens einen der Riesenhaften Humanoiden Gestalten ins Wasser stürzen ließ. Orks fingen einen der Riesenhaften Humanoiden Gestalten mit einem Netz ein; Dîn-io nutzte die Fesselung und schlug diesen im Nahkampf nieder. Naevys tötete einen weiteren der Riesenhaften Humanoiden Gestalten mit einem Pfeil, der durch das Auge ging.\nDie Gruppe untersuchte die Gefallenen der Riesenhaften Humanoiden Gestalten und zog in die Nahegelegene Hütte mit Feuerstelle, die offenbar ursprünglich ihnen gehörte. Die Einrichtung, das Geschirr und die Portionen in der Hütte waren deutlich größer. Naevys bat um eine Totenwache für die getöteten Riesenhaften Humanoiden Gestalten; ihr Vater stimmte zu und sagte, man könne sie draußen mit den eigenen Toten zusammen aufbahren und gemeinsam verbrennen.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
+            "created_at": "2026-05-22T08:46:01.314000",
+            "updated_at": null,
+            "id": "x97eiyxb2fzzbxn01xmujjg5",
+            "name": "Naevys’ Clan",
+            "aliases": [
+                "Ihr Clan"
+            ],
+            "type": null,
+            "description": "Naevys’ Clan ist eine Gruppe von Orks, die in der Nähe einer warmen Hütte wohnen, in der sich ein Schamane und Naevys’ alter Vater befinden. Der Clan wurde sichtbar, nachdem Surinas Vogel vorgeflogen war. Naevys erkannte mindestens einen Ork als Mitglied ihres Clans, und der vorderste Ork wurde als früherer Anführer und führender Jäger identifiziert.\nNaevys’ Clan kletterte an einem Seil zu der Gruppe hinab, begrüßte Naevys und erfuhr, dass ihr Vater noch lebte, sich aber wegen der Kälte schlechter fühlte und beim Schamanen in der Hütte blieb. Im folgenden Kampf griff Naevys’ Clan gestaffelt mit Netzen, Schleudern und anderen Waffen an, fing einen der riesenhaften Gegner mit einem Netz ein und hielt ihn fest. Nach dem Kampf ging Naevys’ Clan in die Nahegelegene Hütte mit Feuerstelle, stimmte einer Totenwache für die getöteten Riesen zu und half beim Löschen und Zerlegen des brennenden Baumes, während ein Teil bei der Hütte blieb.",
+            "image": null,
+            "tcg_image": null,
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "merge": false
+        },
+        {
             "created_at": "2026-05-21T13:29:18.528000",
             "updated_at": null,
             "id": "bjl8cam5c5l5n66tuae69v3z",
@@ -207,9 +235,14 @@
             "updated_at": null,
             "id": "v7vzjkyxf7h7iwotg7et7jyn",
             "name": "Lord’s Alliance",
-            "aliases": [],
+            "aliases": [
+                "Truppe",
+                "Große Herannahende Truppe",
+                "Gemischte Streitmacht",
+                "Streitmacht Aus Kavallerie Und Infanterie"
+            ],
             "type": null,
-            "description": "Die Lord’s Alliance ist eine politische Fraktion, die in Padig operiert und in der Region einflussreich ist. Sie hat Verbindungen zu verschiedenen Adelsfamilien und befasst sich mit der Sicherheit und Stabilität dieser Familien. Aktuell ist die Allianz in Panik, da Luskan um Hilfe gebeten hat, nachdem ein Vulkan in der Nähe ausgebrochen ist und Feuerelementare umherstreifen. Während eines Mondfestes wurden mehrere Töchter aus Adelsfamilien entführt, was zu Besorgnis und dem Wunsch nach Unterstützung führte. Mitglieder der Allianz, darunter Brennen, boten ihre Hilfe an, um die vermissten Mädchen zu finden. Es wird vermutet, dass die Entführungen möglicherweise mit Erpressung oder Ritualen in Verbindung stehen.\nEs gibt Berichte über Unruhe innerhalb der Lord’s Alliance, die möglicherweise mit einem schwelenden Krieg zwischen Feuerelementaren und Drachen zusammenhängt. Die Allianz hat seit langer Zeit keine Nachrichten mehr aus Roggersheim erhalten. Eine Gruppe, die sich mit lea und anderen Mitgliedern der Lord’s Alliance trifft, diskutiert Gerüchte über die verschwundenen adeligen Töchter und die allgemeine Lage in der Region. Captain Durnan, ein Vertreter der Lord’s Alliance, informiert die Gruppe über einen Vorfall, bei dem eine Geldbörse entwendet wurde. Die Gruppe einigt sich darauf, dass Rita die Geldbörse genommen hat, und gibt den entwendeten Betrag zurück. Captain Durnan erklärt, dass die Lord’s Alliance ihnen freie Hand gewährt, solange sie unter Aufsicht bleiben.\nCaptain Durnan bietet der Gruppe mehrere Optionen an, darunter die Untersuchung einer Rauchwolke, das Auslöschen eines Spion-/Söldnerlagers oder die Klärung eines magischen Zwischenfalls in Luskan. Die Gruppe entscheidet sich, die Rauchwolke zu untersuchen. Die Gruppe, der Brennen angehört, wurde aufgrund ihrer Taten im Norden eingeladen, jedoch wurde ihnen geraten, vorsichtig zu sein, da die Interessen der Lord’s Alliance nicht unbedingt mit ihren eigenen übereinstimmen.\nDie Lord’s Alliance ist auch in der Region aktiv und hat Vertreter in Briarwatch. Die Gruppe hat Einfluss auf die Sicherheit und Ordnung in der Stadt, insbesondere während der Bedrohung durch Angreifer. Sie ist mit dem Krieg gegen die Feuerelementare beschäftigt, was die Anzahl ihrer Vertreter in Briarwatch begrenzt. Während eines Übergriffs auf Briarwatch kommuniziert Gwendolyn über einen telepathischen Stein mit Flint, der Informationen über die aktuelle Lage und die Anzahl der Wachen in der Stadt bereitstellt. Flint erwähnt, dass die Besatzung von Briarwatch in der Lage ist, die meisten Angriffe abzuwehren, und dass die Lord's Alliance vor Ort ist. Die Lord's Alliance ist unzufrieden mit der Situation ihrer höchsten Abgesandten.\nDie Gruppe diskutiert, ob sie der Nighthag vertrauen oder die Lord’s Alliance warnen sollen, während sie sich auf einen möglichen Angriff vorbereiten. Gwendolyn und ihre Gefährten planen, während der Unruhen in Briarwatch zu agieren und die Situation zu ihrem Vorteil zu nutzen.",
+            "description": "Die Lord’s Alliance ist eine politische Fraktion, die in Padig operiert und in der Region einflussreich ist. Sie hat Verbindungen zu verschiedenen Adelsfamilien und befasst sich mit der Sicherheit und Stabilität dieser Familien. Aktuell ist die Allianz in Panik, da Luskan um Hilfe gebeten hat, nachdem ein Vulkan in der Nähe ausgebrochen ist und Feuerelementare umherstreifen. Während eines Mondfestes wurden mehrere Töchter aus Adelsfamilien entführt, was zu Besorgnis und dem Wunsch nach Unterstützung führte. Mitglieder der Allianz, darunter Brennen, boten ihre Hilfe an, um die vermissten Mädchen zu finden. Es wird vermutet, dass die Entführungen möglicherweise mit Erpressung oder Ritualen in Verbindung stehen.\nEs gibt Berichte über Unruhe innerhalb der Lord’s Alliance, die möglicherweise mit einem schwelenden Krieg zwischen Feuerelementaren und Drachen zusammenhängt. Die Allianz hat seit langer Zeit keine Nachrichten mehr aus Roggersheim erhalten. Eine Gruppe, die sich mit lea und anderen Mitgliedern der Lord’s Alliance trifft, diskutiert Gerüchte über die verschwundenen adeligen Töchter und die allgemeine Lage in der Region. Captain Durnan, ein Vertreter der Lord’s Alliance, informiert die Gruppe über einen Vorfall, bei dem eine Geldbörse entwendet wurde. Die Gruppe einigt sich darauf, dass Rita die Geldbörse genommen hat, und gibt den entwendeten Betrag zurück. Captain Durnan erklärt, dass die Lord’s Alliance ihnen freie Hand gewährt, solange sie unter Aufsicht bleiben.\nCaptain Durnan bietet der Gruppe mehrere Optionen an, darunter die Untersuchung einer Rauchwolke, das Auslöschen eines Spion-/Söldnerlagers oder die Klärung eines magischen Zwischenfalls in Luskan. Die Gruppe entscheidet sich, die Rauchwolke zu untersuchen. Die Gruppe, der Brennen angehört, wurde aufgrund ihrer Taten im Norden eingeladen, jedoch wurde ihnen geraten, vorsichtig zu sein, da die Interessen der Lord’s Alliance nicht unbedingt mit ihren eigenen übereinstimmen.\nDie Lord’s Alliance ist auch in der Region aktiv und hat Vertreter in Briarwatch. Die Gruppe hat Einfluss auf die Sicherheit und Ordnung in der Stadt, insbesondere während der Bedrohung durch Angreifer. Sie ist mit dem Krieg gegen die Feuerelementare beschäftigt, was die Anzahl ihrer Vertreter in Briarwatch begrenzt. Während eines Übergriffs auf Briarwatch kommuniziert Gwendolyn über einen telepathischen Stein mit Flint, der Informationen über die aktuelle Lage und die Anzahl der Wachen in der Stadt bereitstellt. Flint erwähnt, dass die Besatzung von Briarwatch in der Lage ist, die meisten Angriffe abzuwehren, und dass die Lord's Alliance vor Ort ist. Die Lord's Alliance ist unzufrieden mit der Situation ihrer höchsten Abgesandten.\nDie Gruppe diskutiert, ob sie der Nighthag vertrauen oder die Lord’s Alliance warnen sollen, während sie sich auf einen möglichen Angriff vorbereiten. Gwendolyn und ihre Gefährten planen, während der Unruhen in Briarwatch zu agieren und die Situation zu ihrem Vorteil zu nutzen.\nEs wurde eine Lord’s Alliance beobachtet, eine gemischte Streitkraft aus Kavallerie und Infanterie, begleitet von Versorgungswagen und zusätzlichen Waffen auf Karren. Die Lord’s Alliance besteht ausschließlich aus Soldaten und umfasst mehr als zehn, aber weniger als tausend Mitglieder. Surina Nemmonis erkundete die Lord’s Alliance mit ihrem Vogel und erkannte die Kavallerie vorne, die Infanterie dahinter sowie diverse Versorgungswagen und Karren mit zusätzlicher Bewaffnung. Die Lord’s Alliance war bewaffnet, marschbereit und aufmerksam, wirkte jedoch nicht wie ein unmittelbar angreifender Sturmtrupp. Die Orientierung der Gruppe zeigte, dass die Lord’s Alliance in derselben groben Richtung wie Longsaddle und weiter in Richtung des Gefängnisses lag.",
             "image": null,
             "tcg_image": null,
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
@@ -237,11 +270,11 @@
                 "Ork"
             ],
             "type": null,
-            "description": "Die Orks sind eine brutale und kriegerische Rasse, die in der Umgebung der Gefangenen präsent ist. Sie zeigen eine rohe Belustigung und Autorität, wie es bei den zwei Orks zu beobachten ist, die die Zelle betreten und befehlen, aufzustehen, da der Boss ihn zuerst sehen wolle. Ihre Sprache ist guttural, und sie kommunizieren in Orcisch. Die Orks haben die Fähigkeit, die Gefangenen zu bewachen und zu befehligen.\nDie Orks stehen in einem Konflikt mit Kultisten, da beide Seiten bewaffnet in Richtung des Haupttors rennen. Im Hof sind die Leichen von Orks und Kultisten zu sehen, was auf einen Kampf oder eine Auseinandersetzung hinweist. Der Kampf, der sich entfaltet, ist chaotisch und gewalttätig, was die aggressive Natur der Orks unterstreicht.",
+            "description": "Die Orks sind eine brutale und kriegerische Rasse, die in der Umgebung der Gefangenen präsent ist. Sie zeigen eine rohe Belustigung und Autorität, wie es bei den zwei Orks zu beobachten ist, die die Zelle betreten und befehlen, aufzustehen, da der Boss ihn zuerst sehen wolle. Ihre Sprache ist guttural, und sie kommunizieren in Orcisch. Die Orks haben die Fähigkeit, die Gefangenen zu bewachen und zu befehligen.\nDie Orks sind Mitglieder von Naevys Nerizanas Clan. Ihr Anführer, der vorderste Jäger, trat als Führender Jäger auf. Naevys stellte ihre Gefährten den Orks vor und berichtete, dass Dîn-io, Gwendolyn, Surina und die übrigen Naevys aus dem Gefängnis befreit hätten. Der Jäger-Anführer teilte mit, dass die letzte Zeit schwer gewesen sei und dass Naevys’ Vater lebe und sich beim Schamanen in der warmen Hütte aufhalte.\nDie Orks überrannten das Gefängnis nach Kriegsbeginn, drangen in großer Zahl durch die Tore ein, töteten zwei Wachen und erzwangen die Übergabe durch Drohungen, weitere Wachen zu töten. Surina erkannte einen größeren Ork zusammen mit einem Kultisten in einem oberen Raum. Im anschließenden Gefecht trafen Orks von außen das Treppenhaus und schlugen mit Axtschlägen und einer Spektralwaffe gegen die verbarrikadierte Tür. Während der Verteidigung lagen Orks im Türbereich, und ein Orks wurde als Puffer gegen die Schläge genutzt. Im weiteren Verlauf traf die Gruppe auf gefallene Gegner, und im Kampf in der Waffenkammer wurde mindestens ein Ork schnell niedergerungen.\nDie Orks stehen in einem Konflikt mit Kultisten, da beide Seiten bewaffnet in Richtung des Haupttors rennen. Im Hof sind die Leichen von Orks und Kultisten zu sehen, was auf einen Kampf oder eine Auseinandersetzung hinweist. Auf einen Warnruf hin stürmten der Jäger-Anführer und weitere Orks einer Bedrohung entgegen und kämpften gegen mehrere riesenhafte humanoide Gestalten. Die Orks griffen gestaffelt mit Netzen, Schleudern und anderen Waffen an, fingen einen der riesenhaften Gegner mit einem Netz ein und hielten ihn fest. Anschließend gingen die Orks in die nahegelegene Hütte mit Feuerstelle und verbrachten den restlichen Tag damit, den brennenden, umgestürzten Baum zu löschen und zu zerlegen, damit das Boot weiterfahren konnte. Der Kampf, der sich entfaltet, ist chaotisch und gewalttätig, was die aggressive Natur der Orks unterstreicht.",
             "image": null,
             "tcg_image": null,
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
+            "merge": true
         },
         {
             "created_at": "2026-03-20T16:44:58.991000",
@@ -311,7 +344,7 @@
             "image": null,
             "tcg_image": null,
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
+            "merge": true
         },
         {
             "created_at": "2026-03-07T16:50:26.692000",
@@ -499,11 +532,11 @@
             "name": "Zwerge",
             "aliases": [],
             "type": null,
-            "description": "Die Zwerge sind in der Siedlung Rogasheim präsent und haben sich aus den aktuellen Konflikten herausgehalten. Sie sind nicht wie die Menschen betroffen und scheinen in einer stabilen Verfassung zu sein. Ein Zwerg erklärte die Bereitschaft, das Dorf zu übernehmen, was von Rita als nicht akzeptabel zurückgewiesen wurde. Die Zwerge boten an, die Minen im naheliegenden Berg zu betreiben, wo sie Stein, Kohle, Eisen und gelegentlich Kupfer abbauen könnten. Zudem behaupteten sie, landwirtschaftlich produktiver als die aktuellen Dorfbewohner zu sein.\nWährend einer Ratssitzung forderte ein Zwerg die Apothekerin auf, den Tisch zu verlassen, und schleifte sie nach Hause. Die Zwerge waren bereit, Verantwortung für den Wiederaufbau und den Schutz des Dorfes zu übernehmen. Sie boten ihre Fähigkeiten in Handwerk, Sicherheit, Fischfang und Lebensmittelproduktion an und erklärten, dass sie auch Menschen ausbilden könnten. Ein Zwerg stellte klar, dass die Zwerge für den Betrieb der Minen unerlässlich seien und dass sie zur Produktivität des Dorfes beitragen könnten.",
+            "description": "Die Zwerge sind in der Siedlung Rogasheim präsent und haben sich aus den aktuellen Konflikten herausgehalten. Sie sind nicht wie die Menschen betroffen und scheinen in einer stabilen Verfassung zu sein. Ein Zwerg erklärte die Bereitschaft, das Dorf zu übernehmen, was von Rita als nicht akzeptabel zurückgewiesen wurde. Die Zwerge boten an, die Minen im naheliegenden Berg zu betreiben, wo sie Stein, Kohle, Eisen und gelegentlich Kupfer abbauen könnten. Zudem behaupteten sie, landwirtschaftlich produktiver als die aktuellen Dorfbewohner zu sein. Während einer Ratssitzung forderte ein Zwerg die Apothekerin auf, den Tisch zu verlassen, und schleifte sie nach Hause. Die Zwerge waren bereit, Verantwortung für den Wiederaufbau und den Schutz des Dorfes zu übernehmen. Sie boten ihre Fähigkeiten in Handwerk, Sicherheit, Fischfang und Lebensmittelproduktion an und erklärten, dass sie auch Menschen ausbilden könnten. Ein Zwerg stellte klar, dass die Zwerge für den Betrieb der Minen unerlässlich seien und dass sie zur Produktivität des Dorfes beitragen könnten.\nChronologisch kamen die befreiten Zwerge, eine Gruppe von zuvor in Zellen gefangenen Zwergen, nach und nach frei, nachdem Dîn-io eine besetzte Zelle geöffnet hatte. Ein befreiter Zwerg nahm einem Ork Schlüssel ab und begann, weitere Zellen zu öffnen. Während des Gesprächs mit Flint signalisierten die befreiten Zwerge ihre Bereitschaft, sich dem Kampf anzuschließen, und am Ort der Befreiung nickten alle Zwerge zustimmend.",
             "image": null,
             "tcg_image": null,
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
+            "merge": true
         },
         {
             "created_at": "2026-02-18T19:05:55.789000",
@@ -620,6 +653,6 @@
     "from": 1,
     "last_page": 1,
     "per_page": 100,
-    "to": 44,
-    "total": 44
+    "to": 46,
+    "total": 46
 }
