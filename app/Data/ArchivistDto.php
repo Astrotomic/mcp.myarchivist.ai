@@ -17,6 +17,11 @@ abstract class ArchivistDto extends Fluent implements JsonSchemaable
         $this->validate($attributes);
         $this->checkForUnexpectedKeys($attributes);
 
+        $attributes = array_merge(
+            collect(static::rules())->undot()->map(fn (mixed $rules) => null)->all(),
+            $attributes
+        );
+
         parent::__construct($attributes);
     }
 
