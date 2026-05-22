@@ -9,7 +9,7 @@ class ShowMcpController
 {
     public function __invoke(): JsonResponse
     {
-        $server = app(ArchivistServer::class);
+        $server = ArchivistServer::fake();
         $context = $server->createContext();
 
         return response()->json([

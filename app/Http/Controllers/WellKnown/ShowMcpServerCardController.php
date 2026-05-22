@@ -4,13 +4,12 @@ namespace App\Http\Controllers\WellKnown;
 
 use App\Mcp\Servers\ArchivistServer;
 use Illuminate\Http\JsonResponse;
-use Laravel\Mcp\Server\Transport\FakeTransporter;
 
 class ShowMcpServerCardController
 {
     public function __invoke(): JsonResponse
     {
-        $server = new ArchivistServer(new FakeTransporter);
+        $server = ArchivistServer::fake();
         $context = $server->createContext();
         $tools = $context->tools();
         $resources = $context->resources();

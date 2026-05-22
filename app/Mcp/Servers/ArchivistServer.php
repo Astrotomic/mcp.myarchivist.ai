@@ -33,11 +33,12 @@ use Laravel\Mcp\Server;
 use Laravel\Mcp\Server\Attributes\Instructions;
 use Laravel\Mcp\Server\Attributes\Name;
 use Laravel\Mcp\Server\Attributes\Version;
+use Laravel\Mcp\Server\Transport\FakeTransporter;
 
 #[Name('Archivist AI')]
 #[Version('1.0.0')]
 #[Instructions('Read-only access to Archivist AI TTRPG campaign data: campaigns, characters, sessions, beats, moments, factions, locations, items, quests, journals, journal folders, and entity links. Archivist AI is a campaign memory platform for tabletop RPG game masters and players. All tools are read-only (v1). Mutating operations are deferred to v2.')]
-class ArchivistServer extends Server
+final class ArchivistServer extends Server
 {
     public int $maxPaginationLength = 100;
 
@@ -95,4 +96,9 @@ class ArchivistServer extends Server
         // Links
         ListLinksTool::class,
     ];
+
+    public static function fake(): self
+    {
+        return new ArchivistServer(new FakeTransporter);
+    }
 }
