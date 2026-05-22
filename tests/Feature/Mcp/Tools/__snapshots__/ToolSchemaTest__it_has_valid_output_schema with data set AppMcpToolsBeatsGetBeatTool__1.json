@@ -1,0 +1,72 @@
+{
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "campaign_id": {
+            "type": "string"
+        },
+        "game_session_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "game_session_ids": {
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "label": {
+            "type": "string"
+        },
+        "type": {
+            "enum": [
+                "major",
+                "minor",
+                "step"
+            ],
+            "type": "string"
+        },
+        "index": {
+            "type": "integer"
+        },
+        "parent_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "metadata": {
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "created_at": {
+            "type": "string"
+        },
+        "updated_at": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "id",
+        "campaign_id",
+        "label",
+        "type",
+        "index",
+        "created_at"
+    ]
+}

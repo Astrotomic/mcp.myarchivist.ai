@@ -1,0 +1,29 @@
+{
+    "properties": {
+        "data": {
+            "description": "List of items records.",
+            "type": "array"
+        },
+        "total": {
+            "description": "Total number of matching records.",
+            "type": "integer"
+        },
+        "page": {
+            "description": "Current page number.",
+            "type": "integer"
+        },
+        "size": {
+            "description": "Page size.",
+            "maximum": 100,
+            "type": "integer"
+        },
+        "pages": {
+            "description": "Total number of pages.",
+            "type": "integer"
+        }
+    },
+    "type": "object",
+    "required": [
+        "data"
+    ]
+}

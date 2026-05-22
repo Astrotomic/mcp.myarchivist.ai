@@ -1,0 +1,42 @@
+{
+    "properties": {
+        "campaign_id": {
+            "type": "string"
+        },
+        "search": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "character_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "approved_only": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "page": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "size": {
+            "maximum": 100,
+            "type": [
+                "integer",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "campaign_id"
+    ]
+}

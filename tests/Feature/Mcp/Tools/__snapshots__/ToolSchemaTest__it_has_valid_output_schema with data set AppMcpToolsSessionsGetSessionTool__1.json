@@ -1,0 +1,101 @@
+{
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "campaign_id": {
+            "type": "string"
+        },
+        "type": {
+            "enum": [
+                "audioUpload",
+                "playByPost",
+                "discordVoice",
+                "rawNotes"
+            ],
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "title": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "summary": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "session_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "public": {
+            "type": "boolean"
+        },
+        "notes": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "image": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "index": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "pbp_start_msg_url": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "pbp_end_msg_url": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_at": {
+            "type": "string"
+        },
+        "updated_at": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "beats": {
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "moments": {
+            "type": [
+                "array",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "id",
+        "campaign_id",
+        "public",
+        "created_at"
+    ]
+}

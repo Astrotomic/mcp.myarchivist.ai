@@ -1,0 +1,11 @@
+{
+    "properties": {
+        "moment_id": {
+            "type": "string"
+        }
+    },
+    "type": "object",
+    "required": [
+        "moment_id"
+    ]
+}

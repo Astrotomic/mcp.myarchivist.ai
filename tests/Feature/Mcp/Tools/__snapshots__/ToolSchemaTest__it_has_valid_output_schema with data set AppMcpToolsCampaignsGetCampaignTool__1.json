@@ -1,0 +1,67 @@
+{
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "system": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "image": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "public": {
+            "type": "boolean"
+        },
+        "mature": {
+            "type": "boolean"
+        },
+        "owner_id": {
+            "type": "string"
+        },
+        "created_at": {
+            "type": "string"
+        },
+        "summary": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "language": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "updated_at": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "id",
+        "title",
+        "public",
+        "mature",
+        "owner_id",
+        "created_at"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "properties": {
+        "quest_id": {
+            "type": "string"
+        }
+    },
+    "type": "object",
+    "required": [
+        "quest_id"
+    ]
+}

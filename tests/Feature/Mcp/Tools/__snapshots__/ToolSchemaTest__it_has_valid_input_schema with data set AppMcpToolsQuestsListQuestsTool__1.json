@@ -1,0 +1,57 @@
+{
+    "properties": {
+        "campaign_id": {
+            "type": "string"
+        },
+        "search": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "status": {
+            "enum": [
+                "planned",
+                "in-progress",
+                "blocked",
+                "failed",
+                "done",
+                "n/a"
+            ],
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "quest_category": {
+            "enum": [
+                "main",
+                "side",
+                "faction",
+                "personal",
+                "n/a"
+            ],
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "page": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "size": {
+            "maximum": 100,
+            "type": [
+                "integer",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "campaign_id"
+    ]
+}

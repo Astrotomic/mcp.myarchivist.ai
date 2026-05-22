@@ -1,0 +1,23 @@
+{
+    "properties": {
+        "session_id": {
+            "type": "string"
+        },
+        "include_beats": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "include_moments": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "session_id"
+    ]
+}

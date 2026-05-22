@@ -1,0 +1,35 @@
+{
+    "properties": {
+        "campaign_id": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "characters": {
+            "type": "integer"
+        },
+        "sessions": {
+            "type": "integer"
+        },
+        "moments": {
+            "type": "integer"
+        },
+        "public": {
+            "type": "boolean"
+        },
+        "created_at": {
+            "type": "string"
+        }
+    },
+    "type": "object",
+    "required": [
+        "campaign_id",
+        "title",
+        "characters",
+        "sessions",
+        "moments",
+        "public",
+        "created_at"
+    ]
+}

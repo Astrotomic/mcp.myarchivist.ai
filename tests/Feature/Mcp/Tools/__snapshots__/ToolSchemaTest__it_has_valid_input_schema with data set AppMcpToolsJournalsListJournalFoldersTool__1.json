@@ -1,0 +1,17 @@
+{
+    "properties": {
+        "campaign_id": {
+            "type": "string"
+        },
+        "parent_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "campaign_id"
+    ]
+}

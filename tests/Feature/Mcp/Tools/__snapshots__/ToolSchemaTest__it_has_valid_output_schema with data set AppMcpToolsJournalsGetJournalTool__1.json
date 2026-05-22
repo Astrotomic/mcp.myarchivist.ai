@@ -1,0 +1,128 @@
+{
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "campaign_id": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "summary": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "status": {
+            "enum": [
+                "draft",
+                "published",
+                "archived"
+            ],
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "folder_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "is_public": {
+            "type": "boolean"
+        },
+        "is_pinned": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "tags": {
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "author_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "last_edited_by_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "token_count": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "cover_image": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "published_at": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "archived_at": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_at": {
+            "type": "string"
+        },
+        "updated_at": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "content": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "content_rich": {
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "content_metadata": {
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "permission_level": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "id",
+        "campaign_id",
+        "title",
+        "is_public",
+        "created_at"
+    ]
+}

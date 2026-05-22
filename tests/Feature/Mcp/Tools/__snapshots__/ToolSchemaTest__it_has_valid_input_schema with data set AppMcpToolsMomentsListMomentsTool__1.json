@@ -1,0 +1,36 @@
+{
+    "properties": {
+        "campaign_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "session_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "search": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "page": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "size": {
+            "maximum": 100,
+            "type": [
+                "integer",
+                "null"
+            ]
+        }
+    },
+    "type": "object"
+}

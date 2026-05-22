@@ -1,0 +1,31 @@
+{
+    "properties": {
+        "version": {
+            "type": "integer"
+        },
+        "metadata": {
+            "type": "array"
+        },
+        "text": {
+            "type": "string"
+        },
+        "utterances": {
+            "type": "array"
+        },
+        "stats": {
+            "type": "array"
+        },
+        "created_at": {
+            "type": "string"
+        }
+    },
+    "type": "object",
+    "required": [
+        "version",
+        "metadata",
+        "text",
+        "utterances",
+        "stats",
+        "created_at"
+    ]
+}

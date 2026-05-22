@@ -1,0 +1,80 @@
+{
+    "properties": {
+        "summary": {
+            "type": "string"
+        },
+        "sessionOutline": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "encounters": {
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "characterSpotlight": {
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "otherEntitySpotlight": {
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "items": {
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "valuableInformation": {
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "partyStatusAndNextSteps": {
+            "properties": {
+                "partyStatus": {
+                    "properties": {
+                        "summary": {
+                            "type": "string"
+                        },
+                        "bullets": {
+                            "type": "array"
+                        }
+                    },
+                    "type": "object"
+                },
+                "nextSteps": {
+                    "properties": {
+                        "summary": {
+                            "type": "string"
+                        }
+                    },
+                    "type": "object"
+                }
+            },
+            "type": [
+                "object",
+                "null"
+            ]
+        },
+        "moments": {
+            "type": [
+                "array",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "summary"
+    ]
+}

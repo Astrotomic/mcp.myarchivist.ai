@@ -1,0 +1,24 @@
+{
+    "properties": {
+        "campaign_id": {
+            "type": "string"
+        },
+        "page": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "size": {
+            "maximum": 100,
+            "type": [
+                "integer",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "campaign_id"
+    ]
+}

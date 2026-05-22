@@ -1,0 +1,180 @@
+{
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "campaign_id": {
+            "type": "string"
+        },
+        "order_index": {
+            "type": "integer"
+        },
+        "quest_name": {
+            "type": "string"
+        },
+        "quest_category": {
+            "enum": [
+                "main",
+                "side",
+                "faction",
+                "personal",
+                "n/a"
+            ],
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "status": {
+            "enum": [
+                "planned",
+                "in-progress",
+                "blocked",
+                "failed",
+                "done",
+                "n/a"
+            ],
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "quest_giver": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "quest_giver_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_at": {
+            "type": "string"
+        },
+        "updated_at": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "next_action": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "resolution": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "objective_count": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "completed_objective_count": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "progress_entry_count": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "related_entity_count": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "first_session": {
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "last_session": {
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "success_definition": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "failure_conditions": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "objectives": {
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "progress_log": {
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "progress_log_entries": {
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "related_characters": {
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "related_factions": {
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "related_locations": {
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "related_items": {
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "related_entity_refs": {
+            "type": [
+                "array",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "id",
+        "campaign_id",
+        "order_index",
+        "quest_name",
+        "created_at"
+    ]
+}

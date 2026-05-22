@@ -1,0 +1,11 @@
+{
+    "properties": {
+        "campaign_id": {
+            "type": "string"
+        }
+    },
+    "type": "object",
+    "required": [
+        "campaign_id"
+    ]
+}

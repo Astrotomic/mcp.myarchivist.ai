@@ -1,0 +1,97 @@
+{
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "campaign_id": {
+            "type": "string"
+        },
+        "character_name": {
+            "type": "string"
+        },
+        "character_alias": {
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "player_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "player": {
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "image": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "type": {
+            "enum": [
+                "PC",
+                "NPC"
+            ],
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "character_aliases": {
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "player_handle": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "backstory": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "tcg_image": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "merge": {
+            "type": "boolean"
+        },
+        "created_at": {
+            "type": "string"
+        },
+        "updated_at": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "id",
+        "campaign_id",
+        "character_name",
+        "merge",
+        "created_at"
+    ]
+}

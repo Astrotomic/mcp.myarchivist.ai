@@ -1,0 +1,11 @@
+{
+    "properties": {
+        "faction_id": {
+            "type": "string"
+        }
+    },
+    "type": "object",
+    "required": [
+        "faction_id"
+    ]
+}

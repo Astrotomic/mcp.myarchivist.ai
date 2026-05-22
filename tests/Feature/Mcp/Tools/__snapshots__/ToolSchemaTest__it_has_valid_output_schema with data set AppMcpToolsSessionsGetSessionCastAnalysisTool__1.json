@@ -1,0 +1,29 @@
+{
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "session_id": {
+            "type": "string"
+        },
+        "analysis": {
+            "type": "array"
+        },
+        "created_at": {
+            "type": "string"
+        },
+        "updated_at": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "id",
+        "session_id",
+        "analysis",
+        "created_at"
+    ]
+}

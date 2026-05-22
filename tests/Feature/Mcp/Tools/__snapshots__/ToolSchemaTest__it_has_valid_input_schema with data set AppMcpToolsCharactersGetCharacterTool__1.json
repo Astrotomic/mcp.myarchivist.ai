@@ -1,0 +1,11 @@
+{
+    "properties": {
+        "character_id": {
+            "type": "string"
+        }
+    },
+    "type": "object",
+    "required": [
+        "character_id"
+    ]
+}

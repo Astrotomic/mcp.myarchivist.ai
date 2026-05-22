@@ -1,0 +1,55 @@
+{
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "campaign_id": {
+            "type": "string"
+        },
+        "parent_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "name": {
+            "type": "string"
+        },
+        "path": {
+            "type": "string"
+        },
+        "position": {
+            "type": "integer"
+        },
+        "description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "metadata": {
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "created_at": {
+            "type": "string"
+        },
+        "updated_at": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "id",
+        "campaign_id",
+        "name",
+        "path",
+        "position",
+        "created_at"
+    ]
+}

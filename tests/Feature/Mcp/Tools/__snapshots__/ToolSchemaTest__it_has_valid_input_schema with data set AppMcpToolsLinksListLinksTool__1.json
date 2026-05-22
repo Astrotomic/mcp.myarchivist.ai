@@ -1,0 +1,54 @@
+{
+    "properties": {
+        "campaign_id": {
+            "type": "string"
+        },
+        "from_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "from_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "to_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "to_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "alias": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "page": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "size": {
+            "maximum": 100,
+            "type": [
+                "integer",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "campaign_id"
+    ]
+}
