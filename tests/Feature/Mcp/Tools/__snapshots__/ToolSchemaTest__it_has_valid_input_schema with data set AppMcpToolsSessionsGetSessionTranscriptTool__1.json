@@ -2,16 +2,6 @@
     "properties": {
         "session_id": {
             "type": "string"
-        },
-        "fromat": {
-            "enum": [
-                "json",
-                "markdown"
-            ],
-            "type": [
-                "string",
-                "null"
-            ]
         }
     },
     "type": "object",

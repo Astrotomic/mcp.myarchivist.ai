@@ -4,7 +4,7 @@
             "type": "integer"
         },
         "metadata": {
-            "type": "array"
+            "type": "object"
         },
         "text": {
             "type": "string"
@@ -13,7 +13,7 @@
             "type": "array"
         },
         "stats": {
-            "type": "array"
+            "type": "object"
         },
         "created_at": {
             "type": "string"

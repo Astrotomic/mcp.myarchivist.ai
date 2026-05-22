@@ -23,7 +23,7 @@
         },
         "player": {
             "type": [
-                "array",
+                "object",
                 "null"
             ]
         },

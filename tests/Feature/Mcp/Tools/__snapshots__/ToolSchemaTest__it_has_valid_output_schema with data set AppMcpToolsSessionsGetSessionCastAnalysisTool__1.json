@@ -7,7 +7,7 @@
             "type": "string"
         },
         "analysis": {
-            "type": "array"
+            "type": "object"
         },
         "created_at": {
             "type": "string"
