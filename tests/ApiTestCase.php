@@ -4,12 +4,16 @@ namespace Tests;
 
 use Closure;
 use Illuminate\Contracts\Support\Arrayable;
+use Illuminate\JsonSchema\JsonSchemaTypeFactory;
 use Illuminate\JsonSchema\Types\Type;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Testing\Fluent\AssertableJson;
 use Illuminate\Validation\ValidationException;
+use Opis\JsonSchema\Errors\ErrorFormatter;
+use Opis\JsonSchema\Validator as JsonValidator;
+use PHPUnit\Framework\Assert;
 use Spatie\Snapshots\MatchesSnapshots;
 
 abstract class ApiTestCase extends FeatureTestCase
@@ -41,18 +45,23 @@ abstract class ApiTestCase extends FeatureTestCase
             /** @var array<string, Type> $schema */
             $schema = is_string($schemaable) ? $schemaable::toJsonSchema() : $schemaable;
 
+            $validator = new JsonValidator;
+            $validator->setStopAtFirstError(false);
+            $result = $validator->validate(
+                data: json_decode(json_encode($this->toArray()), false),
+                schema: json_encode((new JsonSchemaTypeFactory)->object($schema)->toArray())
+            );
+            Assert::assertTrue(
+                $result->isValid(),
+                ($error = $result->error())
+                    ? json_encode(
+                        value: (new ErrorFormatter)->format($error),
+                        flags: JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_THROW_ON_ERROR
+                    )
+                    : ''
+            );
+
             foreach ($schema as $key => $type) {
-                $definition = $type->toArray();
-                $types = collect($definition['type'])->map(fn (string $type) => match ($type) {
-                    'object' => 'array',
-                    default => $type,
-                })->all();
-                $this->whereType($key, $types);
-
-                if (isset($definition['enum'])) {
-                    $this->where($key, fn (mixed $value) => in_array($value, $definition['enum'], true));
-                }
-
                 if (is_object($schemaable) && method_exists($schemaable, 'rules')) {
                     $rules = data_get($schemaable->rules(), $key, []);
 
