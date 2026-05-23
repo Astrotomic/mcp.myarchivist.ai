@@ -2,15 +2,15 @@
 
 namespace App\Actions\Archivist\Locations;
 
-use App\Actions\Archivist\ApiAction;
+use App\Actions\Archivist\ListApiAction;
 use App\Collections\ArchivistDtoCollection;
 use App\Data\LocationData;
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\ValidatedInput;
 
-final readonly class ListLocations extends ApiAction
+final readonly class ListLocations extends ListApiAction
 {
-    public static function rules(): array
+    protected static function listRules(): array
     {
         return [
             'campaign_id' => ['required', 'string'],
@@ -20,9 +20,25 @@ final readonly class ListLocations extends ApiAction
         ];
     }
 
+
+    protected static function filterableAttributes(): array
+    {
+        return ['campaign_id', 'search'];
+    }
+
     protected function request(ValidatedInput $input): Response
     {
         return $this->client->get('/v1/locations', $input->all());
+    }
+
+
+    protected function poolRequestForPage(array $params, int $page): array
+    {
+        return [
+            'path' => '/v1/locations',
+            'query' => array_merge($params, ['page' => $page]),
+            'key' => (string) $page,
+        ];
     }
 
     /**

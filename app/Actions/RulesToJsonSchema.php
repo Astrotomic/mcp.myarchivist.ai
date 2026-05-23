@@ -12,13 +12,18 @@ final readonly class RulesToJsonSchema extends Action
 
     /**
      * @param  array<string, string|string[]>  $rules
-     * @return array<string, Type>
+     * @return array<string, Type|array<string, mixed>>
      */
     public function execute(array $rules): array
     {
         $properties = [];
 
         foreach ($rules as $field => $fieldRules) {
+            if (str_contains($field, '.*.')) {
+                $this->mergeNestedArrayObjectProperty($properties, $field, is_string($fieldRules) ? explode('|', $fieldRules) : $fieldRules);
+                continue;
+            }
+
             if (is_string($fieldRules)) {
                 $fieldRules = explode('|', $fieldRules);
             }
@@ -77,5 +82,20 @@ final readonly class RulesToJsonSchema extends Action
         }
 
         return $type;
+    }
+
+    private function mergeNestedArrayObjectProperty(array &$properties, string $field, array $rules): void
+    {
+        [$arrayField, $nestedField] = explode('.*.', $field, 2);
+
+        $properties[$arrayField] ??= ['type' => 'array', 'items' => ['type' => 'object', 'properties' => [], 'required' => []]];
+
+        $type = $this->configure($this->type($rules), $rules)->toArray();
+        $properties[$arrayField]['items']['properties'][$nestedField] = $type;
+
+        if (in_array('required', $rules, true)) {
+            $properties[$arrayField]['items']['required'][] = $nestedField;
+            $properties[$arrayField]['items']['required'] = array_values(array_unique($properties[$arrayField]['items']['required']));
+        }
     }
 }

@@ -2,15 +2,15 @@
 
 namespace App\Actions\Archivist\Beats;
 
-use App\Actions\Archivist\ApiAction;
+use App\Actions\Archivist\ListApiAction;
 use App\Collections\ArchivistDtoCollection;
 use App\Data\BeatData;
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\ValidatedInput;
 
-final readonly class ListBeats extends ApiAction
+final readonly class ListBeats extends ListApiAction
 {
-    public static function rules(): array
+    protected static function listRules(): array
     {
         return [
             'campaign_id' => ['required', 'string'],
@@ -19,9 +19,25 @@ final readonly class ListBeats extends ApiAction
         ];
     }
 
+
+    protected static function filterableAttributes(): array
+    {
+        return ['campaign_id'];
+    }
+
     protected function request(ValidatedInput $input): Response
     {
         return $this->client->get('/v1/beats', $input->all());
+    }
+
+
+    protected function poolRequestForPage(array $params, int $page): array
+    {
+        return [
+            'path' => '/v1/beats',
+            'query' => array_merge($params, ['page' => $page]),
+            'key' => (string) $page,
+        ];
     }
 
     /**
