@@ -8,9 +8,9 @@ use App\Data\MomentData;
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\ValidatedInput;
 
-final readonly class ListMoments extends ApiAction
+final readonly class ListMoments extends ListApiAction
 {
-    public static function rules(): array
+    protected static function listRules(): array
     {
         return [
             'campaign_id' => ['nullable', 'string'],

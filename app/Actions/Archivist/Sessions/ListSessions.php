@@ -8,9 +8,9 @@ use App\Data\SessionDataShort;
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\ValidatedInput;
 
-final readonly class ListSessions extends ApiAction
+final readonly class ListSessions extends ListApiAction
 {
-    public static function rules(): array
+    protected static function listRules(): array
     {
         return [
             'campaign_id' => ['required', 'string'],

@@ -8,9 +8,9 @@ use App\Data\JournalFolderData;
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\ValidatedInput;
 
-final readonly class ListJournalFolders extends ApiAction
+final readonly class ListJournalFolders extends ListApiAction
 {
-    public static function rules(): array
+    protected static function listRules(): array
     {
         return [
             'campaign_id' => ['required', 'string'],

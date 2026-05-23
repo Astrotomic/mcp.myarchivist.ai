@@ -8,9 +8,9 @@ use App\Data\BeatData;
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\ValidatedInput;
 
-final readonly class ListBeats extends ApiAction
+final readonly class ListBeats extends ListApiAction
 {
-    public static function rules(): array
+    protected static function listRules(): array
     {
         return [
             'campaign_id' => ['required', 'string'],

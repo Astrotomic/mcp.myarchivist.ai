@@ -8,9 +8,9 @@ use App\Data\CampaignDataShort;
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\ValidatedInput;
 
-final readonly class ListCampaigns extends ApiAction
+final readonly class ListCampaigns extends ListApiAction
 {
-    public static function rules(): array
+    protected static function listRules(): array
     {
         return [
             'page' => ['nullable', 'integer'],
