@@ -2,7 +2,7 @@
 
 namespace App\Actions\Archivist\Campaigns;
 
-use App\Actions\Archivist\ApiAction;
+use App\Actions\Archivist\ListApiAction;
 use App\Collections\ArchivistDtoCollection;
 use App\Data\CampaignDataShort;
 use Illuminate\Http\Client\Response;
@@ -16,6 +16,12 @@ final readonly class ListCampaigns extends ListApiAction
             'page' => ['nullable', 'integer'],
             'size' => ['nullable', 'integer', 'max:100'],
         ];
+    }
+
+
+    protected static function filterableAttributes(): array
+    {
+        return [];
     }
 
     protected function request(ValidatedInput $input): Response

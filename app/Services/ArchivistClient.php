@@ -5,6 +5,7 @@ namespace App\Services;
 use App\Exceptions\ArchivistApiException;
 use Illuminate\Http\Client\ConnectionException;
 use Illuminate\Http\Client\PendingRequest;
+use Illuminate\Http\Client\Pool;
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\Facades\Http;
 
@@ -22,7 +23,7 @@ class ArchivistClient
         try {
             $response = $this->pending()->get(
                 url: $path,
-                query: $this->normalizeQuery($query)
+                query: $this->normalizeQuery($query),
             );
         } catch (ConnectionException $e) {
             throw new ArchivistApiException(
@@ -32,17 +33,10 @@ class ArchivistClient
             );
         }
 
-        if ($response->failed()) {
-            throw new ArchivistApiException(
-                status: $response->status(),
-                detail: $response->fluent()->string('detail', $response->body()),
-            );
-        }
+        $this->throwIfFailed($response);
 
         return $response;
     }
-
-
 
     /**
      * @param  array<int, array{path: string, query?: array, key?: string}>  $requests
@@ -53,21 +47,20 @@ class ArchivistClient
     public function getPool(array $requests, int $concurrency = 10): array
     {
         try {
-            $responses = $this->pending()->pool(
-                fn ($pool) => collect($requests)
+            $responses = Http::pool(function (Pool $pool) use ($requests): array {
+                return collect($requests)
                     ->mapWithKeys(function (array $request, int $index) use ($pool): array {
                         $key = $request['key'] ?? (string) $index;
 
                         return [
-                            $key => $pool->as($key)->get(
+                            $key => $this->configurePendingRequest($pool->as($key))->get(
                                 url: $request['path'],
                                 query: $this->normalizeQuery($request['query'] ?? []),
                             ),
                         ];
                     })
-                    ->all(),
-                $concurrency,
-            );
+                    ->all();
+            }, $concurrency);
         } catch (ConnectionException $e) {
             throw new ArchivistApiException(
                 status: 0,
@@ -76,16 +69,21 @@ class ArchivistClient
             );
         }
 
-        foreach ($responses as $key => $response) {
-            if ($response->failed()) {
-                throw new ArchivistApiException(
-                    status: $response->status(),
-                    detail: $response->fluent()->string('detail', $response->body()),
-                );
-            }
+        foreach ($responses as $response) {
+            $this->throwIfFailed($response);
         }
 
         return $responses;
+    }
+
+    private function throwIfFailed(Response $response): void
+    {
+        if ($response->failed()) {
+            throw new ArchivistApiException(
+                status: $response->status(),
+                detail: $response->fluent()->string('detail', $response->body()),
+            );
+        }
     }
 
     private function normalizeQuery(array $query): array
@@ -98,14 +96,19 @@ class ArchivistClient
 
     private function pending(): PendingRequest
     {
-        return Http::baseUrl(config()->string('services.archivist.base_url'))
+        return $this->configurePendingRequest(Http::baseUrl(config()->string('services.archivist.base_url')));
+    }
+
+    private function configurePendingRequest(PendingRequest $request): PendingRequest
+    {
+        return $request
             ->timeout(30)
             ->connectTimeout(3)
             ->acceptJson()
             ->when(
                 value: app()->runningUnitTests(),
-                callback: fn (PendingRequest $request) => $request->withHeader('x-api-key', $this->token),
-                default: fn (PendingRequest $request) => $request->withToken($this->token),
+                callback: fn (PendingRequest $pending) => $pending->withHeader('x-api-key', $this->token),
+                default: fn (PendingRequest $pending) => $pending->withToken($this->token),
             );
     }
 }

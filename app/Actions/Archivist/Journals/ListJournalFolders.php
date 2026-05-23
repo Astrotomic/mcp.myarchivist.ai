@@ -2,7 +2,7 @@
 
 namespace App\Actions\Archivist\Journals;
 
-use App\Actions\Archivist\ApiAction;
+use App\Actions\Archivist\ListApiAction;
 use App\Collections\ArchivistDtoCollection;
 use App\Data\JournalFolderData;
 use Illuminate\Http\Client\Response;
@@ -16,6 +16,12 @@ final readonly class ListJournalFolders extends ListApiAction
             'campaign_id' => ['required', 'string'],
             'parent_id' => ['nullable', 'string'],
         ];
+    }
+
+
+    protected static function filterableAttributes(): array
+    {
+        return ['campaign_id', 'parent_id'];
     }
 
     protected function request(ValidatedInput $input): Response

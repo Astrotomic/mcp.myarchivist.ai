@@ -2,7 +2,7 @@
 
 namespace App\Actions\Archivist\Links;
 
-use App\Actions\Archivist\ApiAction;
+use App\Actions\Archivist\ListApiAction;
 use App\Collections\ArchivistDtoCollection;
 use App\Data\LinkData;
 use Illuminate\Http\Client\Response;
@@ -22,6 +22,12 @@ final readonly class ListLinks extends ListApiAction
             'page' => ['nullable', 'integer'],
             'size' => ['nullable', 'integer', 'max:100'],
         ];
+    }
+
+
+    protected static function filterableAttributes(): array
+    {
+        return ['campaign_id', 'from_id', 'from_type', 'to_id', 'to_type', 'alias'];
     }
 
     protected function request(ValidatedInput $input): Response

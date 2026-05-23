@@ -2,7 +2,7 @@
 
 namespace App\Actions\Archivist\Beats;
 
-use App\Actions\Archivist\ApiAction;
+use App\Actions\Archivist\ListApiAction;
 use App\Collections\ArchivistDtoCollection;
 use App\Data\BeatData;
 use Illuminate\Http\Client\Response;
@@ -17,6 +17,12 @@ final readonly class ListBeats extends ListApiAction
             'page' => ['nullable', 'integer'],
             'size' => ['nullable', 'integer', 'max:100'],
         ];
+    }
+
+
+    protected static function filterableAttributes(): array
+    {
+        return ['campaign_id'];
     }
 
     protected function request(ValidatedInput $input): Response

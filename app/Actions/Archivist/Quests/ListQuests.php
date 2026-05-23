@@ -2,7 +2,7 @@
 
 namespace App\Actions\Archivist\Quests;
 
-use App\Actions\Archivist\ApiAction;
+use App\Actions\Archivist\ListApiAction;
 use App\Collections\ArchivistDtoCollection;
 use App\Data\QuestDataShort;
 use Illuminate\Http\Client\Response;
@@ -20,6 +20,12 @@ final readonly class ListQuests extends ListApiAction
             'page' => ['nullable', 'integer'],
             'size' => ['nullable', 'integer', 'max:100'],
         ];
+    }
+
+
+    protected static function filterableAttributes(): array
+    {
+        return ['campaign_id', 'search', 'status', 'quest_category'];
     }
 
     protected function request(ValidatedInput $input): Response

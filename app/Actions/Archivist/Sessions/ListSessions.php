@@ -2,7 +2,7 @@
 
 namespace App\Actions\Archivist\Sessions;
 
-use App\Actions\Archivist\ApiAction;
+use App\Actions\Archivist\ListApiAction;
 use App\Collections\ArchivistDtoCollection;
 use App\Data\SessionDataShort;
 use Illuminate\Http\Client\Response;
@@ -19,6 +19,12 @@ final readonly class ListSessions extends ListApiAction
             'page' => ['nullable', 'integer'],
             'size' => ['nullable', 'integer', 'max:100'],
         ];
+    }
+
+
+    protected static function filterableAttributes(): array
+    {
+        return ['campaign_id', 'session_type', 'public_only'];
     }
 
     protected function request(ValidatedInput $input): Response

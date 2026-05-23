@@ -2,7 +2,7 @@
 
 namespace App\Actions\Archivist\Characters;
 
-use App\Actions\Archivist\ApiAction;
+use App\Actions\Archivist\ListApiAction;
 use App\Collections\ArchivistDtoCollection;
 use App\Data\CharacterData;
 use Illuminate\Http\Client\Response;
@@ -20,6 +20,12 @@ final readonly class ListCharacters extends ListApiAction
             'page' => ['nullable', 'integer'],
             'size' => ['nullable', 'integer', 'max:100'],
         ];
+    }
+
+
+    protected static function filterableAttributes(): array
+    {
+        return ['campaign_id', 'search', 'character_type', 'approved_only'];
     }
 
     protected function request(ValidatedInput $input): Response
