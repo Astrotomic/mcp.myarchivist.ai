@@ -25,6 +25,16 @@ final readonly class ListFactions extends ListApiAction
         return $this->client->get('/v1/factions', $input->all());
     }
 
+
+    protected function poolRequestForPage(array $params, int $page): array
+    {
+        return [
+            'path' => '/v1/factions',
+            'query' => array_merge($params, ['page' => $page]),
+            'key' => (string) $page,
+        ];
+    }
+
     /**
      * @return ArchivistDtoCollection<int, FactionData>
      */

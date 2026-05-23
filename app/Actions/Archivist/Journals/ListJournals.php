@@ -25,6 +25,16 @@ final readonly class ListJournals extends ListApiAction
         return $this->client->get('/v1/journals', $input->all());
     }
 
+
+    protected function poolRequestForPage(array $params, int $page): array
+    {
+        return [
+            'path' => '/v1/journals',
+            'query' => array_merge($params, ['page' => $page]),
+            'key' => (string) $page,
+        ];
+    }
+
     /**
      * @return ArchivistDtoCollection<int, JournalDataShort>
      */

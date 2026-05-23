@@ -27,6 +27,16 @@ final readonly class ListCharacters extends ListApiAction
         return $this->client->get('/v1/characters', $input->all());
     }
 
+
+    protected function poolRequestForPage(array $params, int $page): array
+    {
+        return [
+            'path' => '/v1/characters',
+            'query' => array_merge($params, ['page' => $page]),
+            'key' => (string) $page,
+        ];
+    }
+
     /**
      * @return ArchivistDtoCollection<int, CharacterData>
      */

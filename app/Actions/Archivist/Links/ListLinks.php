@@ -29,6 +29,16 @@ final readonly class ListLinks extends ListApiAction
         return $this->client->get("/v1/campaigns/{$input->string('campaign_id')}/links", $input->except('campaign_id'));
     }
 
+
+    protected function poolRequestForPage(array $params, int $page): array
+    {
+        return [
+            'path' => "/v1/campaigns/{$params['campaign_id']}/links",
+            'query' => array_merge(collect($params)->except('campaign_id')->all(), ['page' => $page]),
+            'key' => (string) $page,
+        ];
+    }
+
     /**
      * @return ArchivistDtoCollection<int, LinkData>
      */

@@ -45,6 +45,43 @@ class ArchivistClient
         return $response;
     }
 
+
+
+    /**
+     * @param  array<int, array{path: string, query?: array, key?: string}>  $requests
+     * @return array<string, Response>
+     *
+     * @throws ArchivistApiException
+     */
+    public function getPool(array $requests, int $concurrency = 10): array
+    {
+        $responses = $this->pending()
+            ->pool(fn ($pool) => collect($requests)
+                ->mapWithKeys(function (array $request, int $index) use ($pool): array {
+                    $key = $request['key'] ?? (string) $index;
+
+                    return [
+                        $key => $pool->as($key)->get(
+                            url: $request['path'],
+                            query: $request['query'] ?? [],
+                        ),
+                    ];
+                })
+                ->all(),
+            $concurrency);
+
+        foreach ($responses as $key => $response) {
+            if ($response->failed()) {
+                throw new ArchivistApiException(
+                    status: $response->status(),
+                    detail: $response->fluent()->string('detail', $response->body()),
+                );
+            }
+        }
+
+        return $responses;
+    }
+
     private function pending(): PendingRequest
     {
         return Http::baseUrl(config()->string('services.archivist.base_url'))

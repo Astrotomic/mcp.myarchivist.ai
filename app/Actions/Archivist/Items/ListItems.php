@@ -25,6 +25,16 @@ final readonly class ListItems extends ListApiAction
         return $this->client->get('/v1/items', $input->all());
     }
 
+
+    protected function poolRequestForPage(array $params, int $page): array
+    {
+        return [
+            'path' => '/v1/items',
+            'query' => array_merge($params, ['page' => $page]),
+            'key' => (string) $page,
+        ];
+    }
+
     /**
      * @return ArchivistDtoCollection<int, ItemData>
      */

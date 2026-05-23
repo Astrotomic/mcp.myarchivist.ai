@@ -26,6 +26,16 @@ final readonly class ListMoments extends ListApiAction
         return $this->client->get('/v1/moments', $input->all());
     }
 
+
+    protected function poolRequestForPage(array $params, int $page): array
+    {
+        return [
+            'path' => '/v1/moments',
+            'query' => array_merge($params, ['page' => $page]),
+            'key' => (string) $page,
+        ];
+    }
+
     /**
      * @return ArchivistDtoCollection<int, MomentData>
      */

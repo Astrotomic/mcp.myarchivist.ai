@@ -24,6 +24,16 @@ final readonly class ListBeats extends ListApiAction
         return $this->client->get('/v1/beats', $input->all());
     }
 
+
+    protected function poolRequestForPage(array $params, int $page): array
+    {
+        return [
+            'path' => '/v1/beats',
+            'query' => array_merge($params, ['page' => $page]),
+            'key' => (string) $page,
+        ];
+    }
+
     /**
      * @return ArchivistDtoCollection<int, BeatData>
      */

@@ -25,6 +25,16 @@ final readonly class ListLocations extends ListApiAction
         return $this->client->get('/v1/locations', $input->all());
     }
 
+
+    protected function poolRequestForPage(array $params, int $page): array
+    {
+        return [
+            'path' => '/v1/locations',
+            'query' => array_merge($params, ['page' => $page]),
+            'key' => (string) $page,
+        ];
+    }
+
     /**
      * @return ArchivistDtoCollection<int, LocationData>
      */

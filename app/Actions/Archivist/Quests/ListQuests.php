@@ -27,6 +27,16 @@ final readonly class ListQuests extends ListApiAction
         return $this->client->get('/v1/quests', $input->all());
     }
 
+
+    protected function poolRequestForPage(array $params, int $page): array
+    {
+        return [
+            'path' => '/v1/quests',
+            'query' => array_merge($params, ['page' => $page]),
+            'key' => (string) $page,
+        ];
+    }
+
     /**
      * @return ArchivistDtoCollection<int, QuestDataShort>
      */
