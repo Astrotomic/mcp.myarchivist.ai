@@ -3,6 +3,7 @@
 namespace App\Actions\Archivist;
 
 use App\Collections\ArchivistDtoCollection;
+use App\Data\ArchivistDto;
 use Illuminate\Http\Client\Response;
 use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Support\LazyCollection;
@@ -14,6 +15,11 @@ abstract readonly class ListApiAction extends ApiAction
     private const int PAGE_FETCH_CONCURRENCY = 10;
 
     abstract protected static function listRules(): array;
+
+    /**
+     * @return array<string, mixed>
+     */
+    abstract protected function poolRequestForPage(array $params, int $page): array;
 
     final public static function rules(): array
     {
@@ -30,10 +36,7 @@ abstract readonly class ListApiAction extends ApiAction
 
     public function execute(array $params): LengthAwarePaginator
     {
-        $filters = $params['filters'] ?? [];
-        $sort = $params['sort'] ?? [];
-
-        if (is_array($filters) && $filters !== [] || is_array($sort) && $sort !== []) {
+        if ($this->shouldUseAllPagesFlow($params)) {
             return $this->fetchAllAndProcess($params);
         }
 
@@ -48,11 +51,10 @@ abstract readonly class ListApiAction extends ApiAction
         $filters = is_array($params['filters'] ?? null) ? $params['filters'] : [];
         $sort = is_array($params['sort'] ?? null) ? $params['sort'] : [];
 
-        unset($params['filters'], $params['sort'], $params['page']);
-        $params['size'] = self::MAX_PAGE_SIZE;
+        $baseParams = $this->normalizedFetchParams($params);
 
-        $allItems = $this->buildAllPagesLazyCollection($params);
-        $processed = $this->applySort($this->applyFilters(ArchivistDtoCollection::make($allItems->all()), $filters), $sort)->values();
+        $allItems = ArchivistDtoCollection::make($this->buildAllPagesLazyCollection($baseParams)->all());
+        $processed = $this->applySort($this->applyFilters($allItems, $filters), $sort)->values();
 
         return new LengthAwarePaginator(
             items: $processed,
@@ -62,15 +64,32 @@ abstract readonly class ListApiAction extends ApiAction
         );
     }
 
+    private function shouldUseAllPagesFlow(array $params): bool
+    {
+        $filters = $params['filters'] ?? [];
+        $sort = $params['sort'] ?? [];
+
+        return (is_array($filters) && $filters !== []) || (is_array($sort) && $sort !== []);
+    }
+
+    private function normalizedFetchParams(array $params): array
+    {
+        unset($params['filters'], $params['sort'], $params['page']);
+        $params['size'] = self::MAX_PAGE_SIZE;
+
+        return $params;
+    }
+
+    /**
+     * @return LazyCollection<int, ArchivistDto>
+     */
     private function buildAllPagesLazyCollection(array $baseParams): LazyCollection
     {
         return LazyCollection::make(function () use ($baseParams): \Generator {
             $firstPage = parent::execute(array_merge($baseParams, ['page' => 1]));
-
             yield from $firstPage->getCollection();
 
             $lastPage = $firstPage->lastPage();
-
             if ($lastPage <= 1) {
                 return;
             }
@@ -82,31 +101,44 @@ abstract readonly class ListApiAction extends ApiAction
                 );
 
                 foreach ($pageChunk as $page) {
-                    /** @var Response $response */
-                    $response = $responses[(string) $page];
-                    $mapped = $this->map($response->fluent()->all());
-
-                    if ($mapped instanceof ArchivistDtoCollection) {
-                        yield from $mapped;
-                    }
+                    $mapped = $this->mapResponse($responses[(string) $page]);
+                    yield from $mapped;
                 }
             }
         });
     }
 
-    abstract protected function poolRequestForPage(array $params, int $page): array;
+    /**
+     * @return ArchivistDtoCollection<int, ArchivistDto>
+     */
+    private function mapResponse(Response $response): ArchivistDtoCollection
+    {
+        $mapped = $this->map($response->fluent()->all());
 
-    protected function applyFilters(ArchivistDtoCollection $items, array $filters): ArchivistDtoCollection { /* unchanged */
+        return $mapped instanceof ArchivistDtoCollection ? $mapped : new ArchivistDtoCollection([$mapped]);
+    }
+
+    protected function applyFilters(ArchivistDtoCollection $items, array $filters): ArchivistDtoCollection
+    {
         foreach ($filters as $filter) {
             $field = $filter['field'] ?? null;
             $operator = $filter['operator'] ?? null;
             $filterValue = $filter['value'] ?? null;
-            if (! is_string($field) || ! is_string($operator)) { continue; }
-            $items = ArchivistDtoCollection::make($items->filter(function ($dto) use ($field, $operator, $filterValue): bool {
+
+            if (! is_string($field) || ! is_string($operator)) {
+                continue;
+            }
+
+            $items = ArchivistDtoCollection::make($items->filter(function (ArchivistDto $dto) use ($field, $operator, $filterValue): bool {
                 $value = $dto->get($field);
+
                 return match ($operator) {
-                    'eq' => is_numeric($value) && is_numeric($filterValue) ? (float) $value === (float) $filterValue : $value === $filterValue,
-                    'neq' => is_numeric($value) && is_numeric($filterValue) ? (float) $value !== (float) $filterValue : $value !== $filterValue,
+                    'eq' => is_numeric($value) && is_numeric($filterValue)
+                        ? (float) $value === (float) $filterValue
+                        : $value === $filterValue,
+                    'neq' => is_numeric($value) && is_numeric($filterValue)
+                        ? (float) $value !== (float) $filterValue
+                        : $value !== $filterValue,
                     'gt' => is_numeric($value) && is_numeric($filterValue) && (float) $value > (float) $filterValue,
                     'gte' => is_numeric($value) && is_numeric($filterValue) && (float) $value >= (float) $filterValue,
                     'lt' => is_numeric($value) && is_numeric($filterValue) && (float) $value < (float) $filterValue,
@@ -117,36 +149,81 @@ abstract readonly class ListApiAction extends ApiAction
                 };
             })->values());
         }
+
         return $items;
     }
 
-    protected function applySort(ArchivistDtoCollection $items, array $sort): ArchivistDtoCollection { /* unchanged */
-        if ($sort === []) { return $items; }
+    protected function applySort(ArchivistDtoCollection $items, array $sort): ArchivistDtoCollection
+    {
+        if ($sort === []) {
+            return $items;
+        }
+
         $sorted = $items->all();
-        usort($sorted, function ($left, $right) use ($sort): int {
+
+        usort($sorted, function (ArchivistDto $left, ArchivistDto $right) use ($sort): int {
             foreach ($sort as $sortRule) {
                 $field = $sortRule['field'] ?? null;
                 $direction = strtolower((string) ($sortRule['direction'] ?? 'asc'));
-                if (! is_string($field)) { continue; }
+
+                if (! is_string($field)) {
+                    continue;
+                }
+
                 $leftValue = $left->get($field);
                 $rightValue = $right->get($field);
-                if ($leftValue === $rightValue) { continue; }
+
+                if ($leftValue === $rightValue) {
+                    continue;
+                }
+
                 $comparison = is_numeric($leftValue) && is_numeric($rightValue)
                     ? (float) $leftValue <=> (float) $rightValue
                     : strcmp(strtolower((string) $leftValue), strtolower((string) $rightValue));
+
                 return $direction === 'desc' ? -$comparison : $comparison;
             }
+
             return 0;
         });
+
         return ArchivistDtoCollection::make($sorted);
     }
 
     public static function toJsonSchema(): array
     {
         $schema = parent::toJsonSchema();
-        $schema['properties']['filters'] = ['type' => 'array', 'items' => ['type' => 'object', 'required' => ['field', 'operator', 'value'], 'properties' => ['field' => ['type' => 'string'], 'operator' => ['type' => 'string', 'enum' => ['eq', 'neq', 'gt', 'gte', 'lt', 'lte', 'contains', 'in']], 'value' => new \stdClass]]];
-        $schema['properties']['sort'] = ['type' => 'array', 'items' => ['type' => 'object', 'required' => ['field', 'direction'], 'properties' => ['field' => ['type' => 'string'], 'direction' => ['type' => 'string', 'enum' => ['asc', 'desc']]]]];
-        $schema['required'] = array_values(array_filter($schema['required'] ?? [], fn (string $field): bool => ! in_array($field, ['filters', 'sort'], true)));
+
+        $schema['properties']['filters'] = [
+            'type' => 'array',
+            'items' => [
+                'type' => 'object',
+                'required' => ['field', 'operator', 'value'],
+                'properties' => [
+                    'field' => ['type' => 'string'],
+                    'operator' => ['type' => 'string', 'enum' => ['eq', 'neq', 'gt', 'gte', 'lt', 'lte', 'contains', 'in']],
+                    'value' => new \stdClass,
+                ],
+            ],
+        ];
+
+        $schema['properties']['sort'] = [
+            'type' => 'array',
+            'items' => [
+                'type' => 'object',
+                'required' => ['field', 'direction'],
+                'properties' => [
+                    'field' => ['type' => 'string'],
+                    'direction' => ['type' => 'string', 'enum' => ['asc', 'desc']],
+                ],
+            ],
+        ];
+
+        $schema['required'] = array_values(array_filter(
+            $schema['required'] ?? [],
+            fn (string $field): bool => ! in_array($field, ['filters', 'sort'], true),
+        ));
+
         return $schema;
     }
 }

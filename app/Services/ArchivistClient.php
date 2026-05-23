@@ -22,10 +22,7 @@ class ArchivistClient
         try {
             $response = $this->pending()->get(
                 url: $path,
-                query: collect($query)
-                    ->reject(fn (mixed $value) => $value === null)
-                    ->map(fn (mixed $value) => is_bool($value) ? json_encode($value) : $value)
-                    ->all()
+                query: $this->normalizeQuery($query)
             );
         } catch (ConnectionException $e) {
             throw new ArchivistApiException(
@@ -55,20 +52,29 @@ class ArchivistClient
      */
     public function getPool(array $requests, int $concurrency = 10): array
     {
-        $responses = $this->pending()
-            ->pool(fn ($pool) => collect($requests)
-                ->mapWithKeys(function (array $request, int $index) use ($pool): array {
-                    $key = $request['key'] ?? (string) $index;
+        try {
+            $responses = $this->pending()->pool(
+                fn ($pool) => collect($requests)
+                    ->mapWithKeys(function (array $request, int $index) use ($pool): array {
+                        $key = $request['key'] ?? (string) $index;
 
-                    return [
-                        $key => $pool->as($key)->get(
-                            url: $request['path'],
-                            query: $request['query'] ?? [],
-                        ),
-                    ];
-                })
-                ->all(),
-            $concurrency);
+                        return [
+                            $key => $pool->as($key)->get(
+                                url: $request['path'],
+                                query: $this->normalizeQuery($request['query'] ?? []),
+                            ),
+                        ];
+                    })
+                    ->all(),
+                $concurrency,
+            );
+        } catch (ConnectionException $e) {
+            throw new ArchivistApiException(
+                status: 0,
+                detail: $e->getMessage(),
+                previous: $e,
+            );
+        }
 
         foreach ($responses as $key => $response) {
             if ($response->failed()) {
@@ -80,6 +86,14 @@ class ArchivistClient
         }
 
         return $responses;
+    }
+
+    private function normalizeQuery(array $query): array
+    {
+        return collect($query)
+            ->reject(fn (mixed $value) => $value === null)
+            ->map(fn (mixed $value) => is_bool($value) ? json_encode($value) : $value)
+            ->all();
     }
 
     private function pending(): PendingRequest
