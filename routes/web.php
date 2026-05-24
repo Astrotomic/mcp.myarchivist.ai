@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::redirect('/', '/mcp');
 
-Route::post('/oauth/register', RegisterOauthClientController::class)->name('oauth.register');
+Route::match(['POST', 'OPTIONS'], '/oauth/register', RegisterOauthClientController::class)->name('oauth.register');
 
 Route::prefix('.well-known')->name('well-known.')->middleware(WellKnownHeadersMiddleware::class)->group(function (): void {
     // MCP Discovery

@@ -14,7 +14,7 @@ class ShowOauthAuthorizationServerController
             'authorization_endpoint' => URL::toApp('/oauth/authorize'),
             'token_endpoint' => URL::toApp('/api/oauth/token'),
             'revocation_endpoint' => URL::toApp('/api/oauth/revoke'),
-            'registration_endpoint' => URL::toApp('/api/oauth/register'),
+            'registration_endpoint' => route('oauth.register'),
             'response_types_supported' => ['code'],
             'grant_types_supported' => ['authorization_code', 'refresh_token'],
             'code_challenge_methods_supported' => ['S256'],

@@ -3,7 +3,6 @@
 namespace App\Http\Middleware;
 
 use Closure;
-use Illuminate\Auth\AuthenticationException;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 
@@ -16,7 +15,18 @@ class ArchivistPassthroughMiddleware
     public function handle(Request $request, Closure $next): Response
     {
         if (empty($request->bearerToken())) {
-            throw new AuthenticationException('Unauthenticated.');
+            $scopes = implode(' ', config()->array('services.archivist.oauth_scopes_supported'));
+            $resourceMetadata = route('well-known.oauth-protected-resource');
+
+            return response()->json([
+                'message' => 'Unauthenticated.',
+            ], Response::HTTP_UNAUTHORIZED, [
+                'WWW-Authenticate' => sprintf(
+                    'Bearer resource_metadata="%s", scope="%s"',
+                    $resourceMetadata,
+                    $scopes
+                ),
+            ]);
         }
 
         return $next($request);
