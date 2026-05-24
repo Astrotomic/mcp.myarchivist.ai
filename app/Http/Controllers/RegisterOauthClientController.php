@@ -29,9 +29,10 @@ class RegisterOauthClientController
             return response('', Response::HTTP_NO_CONTENT, self::CORS_HEADERS);
         }
 
-        $payload = $request->json()?->all() ?? [];
-        if ($payload === [] && is_string($request->getContent()) && $request->getContent() !== '') {
-            $decoded = json_decode($request->getContent(), true);
+        $payload = $request->json()->all();
+        $content = $request->getContent();
+        if ($payload === [] && $content !== '') {
+            $decoded = json_decode($content, true);
             $payload = is_array($decoded) ? $decoded : [];
         }
 

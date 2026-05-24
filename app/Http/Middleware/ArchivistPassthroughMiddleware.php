@@ -15,18 +15,9 @@ class ArchivistPassthroughMiddleware
     public function handle(Request $request, Closure $next): Response
     {
         if (empty($request->bearerToken())) {
-            $scopes = implode(' ', config()->array('services.archivist.oauth_scopes_supported'));
-            $resourceMetadata = route('well-known.oauth-protected-resource');
-
             return response()->json([
                 'message' => 'Unauthenticated.',
-            ], Response::HTTP_UNAUTHORIZED, [
-                'WWW-Authenticate' => sprintf(
-                    'Bearer resource_metadata="%s", scope="%s"',
-                    $resourceMetadata,
-                    $scopes
-                ),
-            ]);
+            ], Response::HTTP_UNAUTHORIZED);
         }
 
         return $next($request);

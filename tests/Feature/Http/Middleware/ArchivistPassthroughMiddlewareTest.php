@@ -23,10 +23,7 @@ class ArchivistPassthroughMiddlewareTest extends FeatureTestCase
             ->assertUnauthorized()
             ->assertHeader(
                 'WWW-Authenticate',
-                sprintf(
-                    'Bearer resource_metadata="%s", scope="profile worlds_read sessions_read characters_read"',
-                    route('well-known.oauth-protected-resource')
-                )
+                'Bearer resource_metadata="mcp", error="invalid_token"'
             );
     }
 }
