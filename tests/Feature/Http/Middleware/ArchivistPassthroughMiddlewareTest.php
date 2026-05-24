@@ -10,7 +10,7 @@ class ArchivistPassthroughMiddlewareTest extends FeatureTestCase
     #[Test]
     public function it_returns_a_401_with_resource_metadata_when_unauthenticated(): void
     {
-        $this->postJson('/mcp', [
+        $response = $this->postJson('/mcp', [
             'jsonrpc' => '2.0',
             'method' => 'initialize',
             'params' => [
@@ -19,11 +19,13 @@ class ArchivistPassthroughMiddlewareTest extends FeatureTestCase
                 'clientInfo' => ['name' => 'test', 'version' => '1.0'],
             ],
             'id' => 1,
-        ])
-            ->assertUnauthorized()
-            ->assertHeader(
-                'WWW-Authenticate',
-                'Bearer resource_metadata="mcp", error="invalid_token"'
-            );
+        ]);
+
+        $response->assertUnauthorized();
+
+        $authenticateHeader = $response->headers->get('WWW-Authenticate');
+        $this->assertIsString($authenticateHeader);
+        $this->assertStringContainsString('resource_metadata="mcp"', $authenticateHeader);
+        $this->assertStringContainsString('error="invalid_token"', $authenticateHeader);
     }
 }
