@@ -44,6 +44,12 @@ class RegisterOauthClientController
         $body = $upstream->json();
         if (! is_array($body)) {
             $body = ['error' => 'server_error'];
+        } elseif ($upstream->successful()) {
+            $body['client_id_issued_at'] = $body['client_id_issued_at'] ?? time();
+
+            if (! isset($body['scope']) && isset($body['scopes_supported']) && is_array($body['scopes_supported'])) {
+                $body['scope'] = implode(' ', array_map(strval(...), $body['scopes_supported']));
+            }
         }
 
         return response()->json($body, $upstream->status(), self::CORS_HEADERS);

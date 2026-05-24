@@ -42,7 +42,8 @@ class RegisterOauthClientControllerTest extends FeatureTestCase
         ])
             ->assertCreated()
             ->assertHeader('Access-Control-Allow-Origin', '*')
-            ->assertJsonPath('client_id', 'dcr_test123');
+            ->assertJsonPath('client_id', 'dcr_test123')
+            ->assertJsonPath('scope', 'profile worlds_read');
 
         Http::assertSent(fn ($request) => $request->url() === 'https://app.myarchivist.ai/api/oauth/register'
             && $request['client_name'] === 'ChatGPT');
