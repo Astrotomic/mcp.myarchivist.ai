@@ -26,6 +26,8 @@ class ArchivistPassthroughMiddlewareTest extends FeatureTestCase
         $authenticateHeader = $response->headers->get('WWW-Authenticate');
         $this->assertIsString($authenticateHeader);
         $this->assertStringContainsString('"mcp"', $authenticateHeader);
+        $this->assertStringContainsString('resource_metadata="', $authenticateHeader);
+        $this->assertStringContainsString('/.well-known/oauth-protected-resource/mcp"', $authenticateHeader);
         $this->assertStringContainsString('error="invalid_token"', $authenticateHeader);
     }
 }
