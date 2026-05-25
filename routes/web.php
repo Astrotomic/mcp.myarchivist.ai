@@ -29,7 +29,12 @@ Route::prefix('.well-known')->name('well-known.')->middleware(WellKnownHeadersMi
     Route::get('/openid-configuration', ShowOauthAuthorizationServerController::class)->name('openid-configuration');
     Route::get('/openid-configuration/{path}', ShowOauthAuthorizationServerController::class)->where('path', '.+');
     Route::get('/oauth-protected-resource', ShowOauthProtectedResourceController::class)->name('oauth-protected-resource');
-    Route::get('/oauth-protected-resource/{path}', ShowOauthProtectedResourceController::class)->where('path', '.+');
     // OpenAI
     Route::get('/openai-apps-challenge', ShowOpenaiAppsChallengeController::class)->name('openai-apps-challenge');
 });
+
+// Laravel MCP AddWwwAuthenticateHeader enables resource_metadata when this route name exists.
+Route::get('/.well-known/oauth-protected-resource/{path}', ShowOauthProtectedResourceController::class)
+    ->where('path', '.+')
+    ->middleware(WellKnownHeadersMiddleware::class)
+    ->name('mcp.oauth.protected-resource.nested');
