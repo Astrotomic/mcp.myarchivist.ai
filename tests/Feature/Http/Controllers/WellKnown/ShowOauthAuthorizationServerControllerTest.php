@@ -22,4 +22,24 @@ class ShowOauthAuthorizationServerControllerTest extends FeatureTestCase
                     ->etc();
             });
     }
+
+    #[Test]
+    public function it_serves_authorization_server_metadata_at_path_suffixed_well_known_urls(): void
+    {
+        $this->getJson('/.well-known/oauth-authorization-server/mcp')
+            ->assertOk()
+            ->assertJsonPath('registration_endpoint', route('oauth.register'));
+
+        $this->getJson('/mcp/.well-known/oauth-authorization-server')
+            ->assertOk()
+            ->assertJsonPath('registration_endpoint', route('oauth.register'));
+    }
+
+    #[Test]
+    public function it_serves_openid_configuration_as_an_alias_for_oauth_authorization_server_metadata(): void
+    {
+        $this->getJson('/.well-known/openid-configuration')
+            ->assertOk()
+            ->assertJsonPath('registration_endpoint', route('oauth.register'));
+    }
 }

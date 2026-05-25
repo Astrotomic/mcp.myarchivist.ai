@@ -13,13 +13,23 @@ Route::redirect('/', '/mcp');
 
 Route::match(['POST', 'OPTIONS'], '/oauth/register', RegisterOauthClientController::class)->name('oauth.register');
 
+Route::prefix('mcp/.well-known')->middleware(WellKnownHeadersMiddleware::class)->group(function (): void {
+    Route::get('/oauth-protected-resource', ShowOauthProtectedResourceController::class);
+    Route::get('/oauth-authorization-server', ShowOauthAuthorizationServerController::class);
+    Route::get('/openid-configuration', ShowOauthAuthorizationServerController::class);
+});
+
 Route::prefix('.well-known')->name('well-known.')->middleware(WellKnownHeadersMiddleware::class)->group(function (): void {
     // MCP Discovery
     Route::get('/mcp', ShowMcpController::class)->name('mcp');
     Route::get('/mcp/server-card.json', ShowMcpServerCardController::class)->name('mcp.server-card');
-    // oAuth
+    // OAuth / OIDC discovery (RFC 9728 path suffix + RFC 8414 fallbacks)
     Route::get('/oauth-authorization-server', ShowOauthAuthorizationServerController::class)->name('oauth-authorization-server');
+    Route::get('/oauth-authorization-server/{path}', ShowOauthAuthorizationServerController::class)->where('path', '.+');
+    Route::get('/openid-configuration', ShowOauthAuthorizationServerController::class)->name('openid-configuration');
+    Route::get('/openid-configuration/{path}', ShowOauthAuthorizationServerController::class)->where('path', '.+');
     Route::get('/oauth-protected-resource', ShowOauthProtectedResourceController::class)->name('oauth-protected-resource');
+    Route::get('/oauth-protected-resource/{path}', ShowOauthProtectedResourceController::class)->where('path', '.+');
     // OpenAI
     Route::get('/openai-apps-challenge', ShowOpenaiAppsChallengeController::class)->name('openai-apps-challenge');
 });
