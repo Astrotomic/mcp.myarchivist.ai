@@ -28,6 +28,5 @@ class ArchivistPassthroughMiddlewareTest extends FeatureTestCase
         $this->assertStringContainsString('"mcp"', $authenticateHeader);
         $this->assertStringContainsString('resource_metadata="', $authenticateHeader);
         $this->assertStringContainsString('/.well-known/oauth-protected-resource/mcp"', $authenticateHeader);
-        $this->assertStringContainsString('error="invalid_token"', $authenticateHeader);
     }
 }

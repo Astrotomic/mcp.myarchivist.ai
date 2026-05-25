@@ -15,16 +15,9 @@ class ArchivistPassthroughMiddleware
     public function handle(Request $request, Closure $next): Response
     {
         if (empty($request->bearerToken())) {
-            $resourceMetadata = url('/.well-known/oauth-protected-resource/mcp');
-
             return response()->json([
                 'message' => 'Unauthenticated.',
-            ], Response::HTTP_UNAUTHORIZED, [
-                'WWW-Authenticate' => sprintf(
-                    'Bearer realm="mcp", resource_metadata="%s", error="invalid_token"',
-                    $resourceMetadata,
-                ),
-            ]);
+            ], Response::HTTP_UNAUTHORIZED);
         }
 
         return $next($request);
