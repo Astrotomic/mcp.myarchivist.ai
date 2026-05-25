@@ -26,7 +26,7 @@ class SessionHandoutData extends ArchivistDto
             'otherEntitySpotlight' => ['nullable', 'list'],
             'items' => ['nullable', 'list'],
             'valuableInformation' => ['nullable', 'list'],
-            'partyStatusAndNextSteps' => ['nullable', 'list'],
+            'partyStatusAndNextSteps' => ['nullable', 'array'],
             'moments' => ['nullable', 'list'],
         ];
     }
