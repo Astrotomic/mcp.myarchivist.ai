@@ -1,6 +1,6 @@
 <?php
 
-namespace Gummibeer\Mcp\Tools\Sessions;
+namespace Tests\Gummibeer\Mcp\Tools\Sessions;
 
 use App\Data\SessionHandoutData;
 use App\Mcp\Servers\ArchivistServer;

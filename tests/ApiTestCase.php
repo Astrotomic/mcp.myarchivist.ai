@@ -62,8 +62,8 @@ abstract class ApiTestCase extends FeatureTestCase
             );
 
             foreach ($schema as $key => $type) {
-                if (is_object($schemaable) && method_exists($schemaable, 'rules')) {
-                    $rules = data_get($schemaable->rules(), $key, []);
+                if (is_string($schemaable) && method_exists($schemaable, 'rules')) {
+                    $rules = data_get($schemaable::rules(), $key, []);
 
                     if (filled($rules)) {
                         $this->where($key, function (mixed $value) use ($key, $rules): bool {
