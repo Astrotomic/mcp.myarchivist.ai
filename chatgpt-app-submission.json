@@ -2,9 +2,9 @@
   "$schema": "https://developers.openai.com/apps-sdk/schemas/chatgpt-app-submission.v1.json",
   "schema_version": 1,
   "app_info": {
-    "display_name": "MyArchivist",
+    "display_name": "Archivist AI",
     "subtitle": "Read campaign lore",
-    "description": "MyArchivist lets users browse their tabletop campaign data in ChatGPT, including campaigns, characters, sessions, story beats, moments, factions, locations, items, quests, journals, journal folders, and entity links.",
+    "description": "Archivist AI lets users browse their tabletop campaign data in ChatGPT, including campaigns, characters, sessions, story beats, moments, factions, locations, items, quests, journals, journal folders, and entity links.",
     "category": "PRODUCTIVITY"
   },
   "tools": {
@@ -15,7 +15,7 @@
         "destructiveHint": false
       },
       "justifications": {
-        "read_only_justification": "Only retrieves the caller's campaign list from MyArchivist and does not modify data.",
+        "read_only_justification": "Only retrieves the caller's campaign list from Archivist AI and does not modify data.",
         "open_world_justification": "Does not publish content or change public internet state.",
         "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
       }
@@ -27,7 +27,7 @@
         "destructiveHint": false
       },
       "justifications": {
-        "read_only_justification": "Only retrieves one MyArchivist campaign by ID and does not modify data.",
+        "read_only_justification": "Only retrieves one Archivist AI campaign by ID and does not modify data.",
         "open_world_justification": "Does not publish content or change public internet state.",
         "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
       }
@@ -39,7 +39,7 @@
         "destructiveHint": false
       },
       "justifications": {
-        "read_only_justification": "Only retrieves aggregate campaign statistics from MyArchivist and does not modify data.",
+        "read_only_justification": "Only retrieves aggregate campaign statistics from Archivist AI and does not modify data.",
         "open_world_justification": "Does not publish content or change public internet state.",
         "destructive_justification": "Does not delete, overwrite, revoke access, or perform irreversible actions."
       }
@@ -336,7 +336,7 @@
   "test_cases": [
     {
       "description": "List available campaigns for the authenticated user.",
-      "user_prompt": "Show my MyArchivist campaigns.",
+      "user_prompt": "Show my Archivist AI campaigns.",
       "file_attachment_urls": null,
       "tools_triggered": "list-campaigns-tool",
       "expected_output": "Returns a paginated list of campaigns with titles and summary metadata.",
@@ -402,7 +402,7 @@
   "negative_test_cases": [
     {
       "description": "Do not trigger for creating or editing campaign content.",
-      "user_prompt": "Create a new quest in MyArchivist called The Broken Crown.",
+      "user_prompt": "Create a new quest in Archivist AI called The Broken Crown.",
       "file_attachment_urls": null,
       "tools_triggered": null,
       "expected_output": "The app should not be invoked because this MCP server only supports read-only campaign access.",
@@ -421,7 +421,7 @@
       "user_prompt": "Give me five tips for running a better combat encounter.",
       "file_attachment_urls": null,
       "tools_triggered": null,
-      "expected_output": "The app should not be invoked because the request does not need MyArchivist campaign records.",
+      "expected_output": "The app should not be invoked because the request does not need Archivist AI campaign records.",
       "expected_output_url": null
     },
     {
