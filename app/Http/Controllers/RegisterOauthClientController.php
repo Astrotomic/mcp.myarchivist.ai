@@ -48,7 +48,10 @@ class RegisterOauthClientController
             $body['client_id_issued_at'] = $body['client_id_issued_at'] ?? time();
 
             if (! isset($body['scope']) && isset($body['scopes_supported']) && is_array($body['scopes_supported'])) {
-                $body['scope'] = implode(' ', array_map(strval(...), $body['scopes_supported']));
+                $body['scope'] = implode(' ', array_map(
+                    static fn (mixed $scope): string => (string) $scope,
+                    $body['scopes_supported'],
+                ));
             }
         }
 
