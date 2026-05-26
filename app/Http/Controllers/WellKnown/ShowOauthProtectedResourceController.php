@@ -11,7 +11,7 @@ class ShowOauthProtectedResourceController
     {
         return response()->json([
             'resource' => url('/mcp'),
-            'authorization_servers' => [URL::toApp('/')],
+            'authorization_servers' => [rtrim(URL::toApp('/'), '/')],
             'scopes_supported' => config()->array('services.archivist.oauth_scopes_supported'),
             'bearer_methods_supported' => ['header'],
         ]);

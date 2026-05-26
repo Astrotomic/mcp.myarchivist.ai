@@ -25,16 +25,30 @@ Connect AI assistants like Claude, ChatGPT, Cursor, Notion, and Windsurf directl
 <details>
 <summary>Claude Desktop</summary>
 
-Add to your `claude_desktop_config.json`:
+Claude Desktop requires the [`mcp-remote`](https://github.com/geelen/mcp-remote) proxy (Node.js must be installed).
+
+Add to your `claude_desktop_config.json` (`~/Library/Application Support/Claude/claude_desktop_config.json` on macOS, `%APPDATA%\Claude\claude_desktop_config.json` on Windows):
 ```json
 {
   "mcpServers": {
     "archivist-ai": {
-      "url": "https://mcp.myarchivist.ai/mcp"
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://mcp.myarchivist.ai/mcp",
+        "--header",
+        "Authorization:${AUTH_HEADER}"
+      ],
+      "env": {
+        "AUTH_HEADER": "Bearer YOUR_API_KEY"
+      }
     }
   }
 }
 ```
+
+Replace `YOUR_API_KEY` with your Archivist AI API key from [app.myarchivist.ai](https://app.myarchivist.ai). Restart Claude Desktop after saving.
 </details>
 
 <details>
