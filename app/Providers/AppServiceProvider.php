@@ -70,7 +70,7 @@ class AppServiceProvider extends ServiceProvider
                     throw ArchivistApiException::fromResponse($response, $exception);
                 })
                 ->when(
-                    value: app()->runningUnitTests(),
+                    value: app()->runningUnitTests() || app()->isLocal(),
                     callback: fn (PendingRequest $request) => $request->withHeader('x-api-key', $token),
                     default: fn (PendingRequest $request) => $request->withToken($token),
                 );
