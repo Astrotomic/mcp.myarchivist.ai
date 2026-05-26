@@ -10,7 +10,7 @@ class ShowOauthAuthorizationServerController
     public function __invoke(): JsonResponse
     {
         return response()->json([
-            'issuer' => URL::toApp('/'),
+            'issuer' => rtrim(URL::toApp('/'), '/'),
             'authorization_endpoint' => URL::toApp('/oauth/authorize'),
             'token_endpoint' => URL::toApp('/api/oauth/token'),
             'revocation_endpoint' => URL::toApp('/api/oauth/revoke'),

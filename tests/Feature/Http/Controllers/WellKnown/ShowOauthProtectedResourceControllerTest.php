@@ -16,7 +16,7 @@ class ShowOauthProtectedResourceControllerTest extends FeatureTestCase
             ->assertJson(function (AssertableJson $json): void {
                 $json
                     ->where('resource', url('/mcp'))
-                    ->where('authorization_servers', ['https://app.myarchivist.ai/'])
+                    ->where('authorization_servers', ['https://app.myarchivist.ai'])
                     ->etc();
             });
     }
