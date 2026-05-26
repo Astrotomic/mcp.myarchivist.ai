@@ -7,7 +7,7 @@
     "require": {
         "php": "^8.4",
         "laravel/framework": "^13.11.2",
-        "laravel/mcp": "^0.7.1",
+        "laravel/mcp": "^0.7.2",
         "sentry/sentry-laravel": "^4.25.1"
     },
     "require-dev": {
@@ -20,7 +20,7 @@
         "opis/json-schema": "^2.6",
         "phpstan/extension-installer": "^1.4.3",
         "phpstan/phpstan-deprecation-rules": "^2.0.4",
-        "phpunit/phpunit": "^12.5.26",
+        "phpunit/phpunit": "^12.5.27",
         "povils/phpmnd": "^3.6.1",
         "spatie/phpunit-snapshot-assertions": "^5.4",
         "spaze/phpstan-disallowed-calls": "^4.12"
