@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Astrotomic/archivist-ai",
+  "title": "Archivist AI",
+  "description": "Official remote MCP server for Archivist AI TTRPG campaign memory: characters, sessions, and more.",
+  "repository": {
+    "url": "https://github.com/Astrotomic/mcp.myarchivist.ai",
+    "source": "github",
+    "id": "1230335263"
+  },
+  "version": "1.0.0",
+  "websiteUrl": "https://www.myarchivist.ai",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.myarchivist.ai/mcp"
+    }
+  ]
+}

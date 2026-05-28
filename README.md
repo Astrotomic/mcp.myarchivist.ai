@@ -16,6 +16,8 @@
 
 The official [Model Context Protocol](https://modelcontextprotocol.io) (MCP) server for [Archivist AI](https://www.myarchivist.ai) -- a TTRPG campaign memory platform for game masters and players.
 
+Registry metadata lives in [`server.json`](./server.json). Publishing to the [official MCP Registry](https://modelcontextprotocol.io/registry) is automated on version tags via [`.github/workflows/publish-mcp.yml`](./.github/workflows/publish-mcp.yml) (`git tag v1.0.0 && git push origin v1.0.0`).
+
 Connect AI assistants like Claude, ChatGPT, Cursor, Notion, and Windsurf directly to your campaign data: characters, sessions, locations, factions, items, quests, journals, and more.
 
 ## Quick Start
