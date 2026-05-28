@@ -9,7 +9,7 @@
     "id": "1230335263"
   },
   "version": "1.0.0",
-  "websiteUrl": "https://www.myarchivist.ai",
+  "websiteUrl": "https://www.myarchivist.ai/mcp",
   "remotes": [
     {
       "type": "streamable-http",
