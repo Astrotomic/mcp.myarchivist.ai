@@ -14,6 +14,9 @@ return Application::configure(basePath: dirname(__DIR__))
         $middleware->validateCsrfTokens(except: [
             'oauth/register',
         ]);
+
+        // This app has no web login route; return 401 JSON instead of redirecting.
+        $middleware->redirectGuestsTo(fn () => null);
     })
     ->withExceptions(function (Exceptions $exceptions): void {
         if (! app()->runningUnitTests() && filled(config()->string('sentry.dsn'))) {

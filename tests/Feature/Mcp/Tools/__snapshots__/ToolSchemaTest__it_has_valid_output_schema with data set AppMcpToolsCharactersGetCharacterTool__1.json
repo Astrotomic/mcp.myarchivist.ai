@@ -11,7 +11,7 @@
         },
         "character_alias": {
             "type": [
-                "array",
+                "string",
                 "null"
             ]
         },
