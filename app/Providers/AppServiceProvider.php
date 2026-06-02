@@ -67,11 +67,7 @@ class AppServiceProvider extends ServiceProvider
                 ->connectTimeout(3)
                 ->acceptJson()
                 ->throw(function (Response $response, RequestException $exception): never {
-                    throw new ArchivistApiException(
-                        status: $response->status(),
-                        detail: $response->fluent()->string('detail', $response->body()),
-                        previous: $exception,
-                    );
+                    throw ArchivistApiException::fromResponse($response, $exception);
                 })
                 ->when(
                     value: app()->runningUnitTests(),

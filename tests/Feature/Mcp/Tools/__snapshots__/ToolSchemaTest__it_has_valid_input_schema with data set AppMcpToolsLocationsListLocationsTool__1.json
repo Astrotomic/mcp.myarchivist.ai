@@ -13,14 +13,16 @@
             "type": [
                 "integer",
                 "null"
-            ]
+            ],
+            "minimum": 1
         },
         "size": {
             "maximum": 100,
             "type": [
                 "integer",
                 "null"
-            ]
+            ],
+            "minimum": 1
         }
     },
     "type": "object",

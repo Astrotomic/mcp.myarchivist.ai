@@ -12,12 +12,10 @@ final readonly class ListJournals extends ApiAction
 {
     public static function rules(): array
     {
-        return [
+        return array_merge(self::paginationRules(), [
             'campaign_id' => ['required', 'string'],
             'folder_id' => ['nullable', 'string'],
-            'page' => ['nullable', 'integer'],
-            'size' => ['nullable', 'integer', 'max:100'],
-        ];
+        ]);
     }
 
     protected function request(ValidatedInput $input): Response

@@ -12,10 +12,7 @@ final readonly class ListCampaigns extends ApiAction
 {
     public static function rules(): array
     {
-        return [
-            'page' => ['nullable', 'integer'],
-            'size' => ['nullable', 'integer', 'max:100'],
-        ];
+        return self::paginationRules();
     }
 
     protected function request(ValidatedInput $input): Response

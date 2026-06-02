@@ -12,13 +12,11 @@ final readonly class ListSessions extends ApiAction
 {
     public static function rules(): array
     {
-        return [
+        return array_merge(self::paginationRules(), [
             'campaign_id' => ['required', 'string'],
             'session_type' => ['nullable', 'string', 'in:audioUpload,playByPost,discordVoice,txtUpload,rawNotes,other'],
             'public_only' => ['nullable', 'boolean'],
-            'page' => ['nullable', 'integer'],
-            'size' => ['nullable', 'integer', 'max:100'],
-        ];
+        ]);
     }
 
     protected function request(ValidatedInput $input): Response
