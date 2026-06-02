@@ -67,11 +67,21 @@ class ArchivistApiException extends RuntimeException
                             return 'Validation error';
                         }
 
-                        $location = collect($error['loc'] ?? [])
+                        $locations = $error['loc'] ?? [];
+                        if (! is_array($locations)) {
+                            $locations = [];
+                        }
+
+                        $location = collect($locations)
                             ->reject(fn (mixed $part): bool => $part === 'body' || $part === 'query')
+                            ->map(fn (mixed $part): string => (string) $part)
                             ->implode('.');
 
-                        $message = $error['msg'] ?? 'Validation error';
+                        $message = match (true) {
+                            is_string($error['msg'] ?? null) => $error['msg'],
+                            is_scalar($error['msg'] ?? null) => (string) $error['msg'],
+                            default => 'Validation error',
+                        };
 
                         return $location !== '' ? "{$location}: {$message}" : $message;
                     })
