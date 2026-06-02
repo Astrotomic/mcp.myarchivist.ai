@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Middleware\McpCorsMiddleware;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Foundation\Configuration\Middleware;
@@ -13,10 +14,13 @@ return Application::configure(basePath: dirname(__DIR__))
     ->withMiddleware(function (Middleware $middleware): void {
         $middleware->validateCsrfTokens(except: [
             'oauth/register',
+            'mcp',
         ]);
 
         // This app has no web login route; return 401 JSON instead of redirecting.
         $middleware->redirectGuestsTo(fn () => null);
+
+        $middleware->append(McpCorsMiddleware::class);
     })
     ->withExceptions(function (Exceptions $exceptions): void {
         if (! app()->runningUnitTests() && filled(config()->string('sentry.dsn'))) {
