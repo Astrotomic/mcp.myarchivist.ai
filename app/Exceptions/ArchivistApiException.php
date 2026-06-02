@@ -74,12 +74,23 @@ class ArchivistApiException extends RuntimeException
 
                         $location = collect($locations)
                             ->reject(fn (mixed $part): bool => $part === 'body' || $part === 'query')
-                            ->map(fn (mixed $part): string => (string) $part)
+                            ->map(function (mixed $part): string {
+                                if (is_string($part)) {
+                                    return $part;
+                                }
+
+                                if (is_int($part)) {
+                                    return (string) $part;
+                                }
+
+                                return '';
+                            })
                             ->implode('.');
 
+                        $msg = $error['msg'] ?? null;
                         $message = match (true) {
-                            is_string($error['msg'] ?? null) => $error['msg'],
-                            is_scalar($error['msg'] ?? null) => (string) $error['msg'],
+                            is_string($msg) => $msg,
+                            is_int($msg), is_float($msg), is_bool($msg) => (string) $msg,
                             default => 'Validation error',
                         };
 
