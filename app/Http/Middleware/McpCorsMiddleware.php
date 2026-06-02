@@ -23,6 +23,10 @@ class McpCorsMiddleware
 
     public function handle(Request $request, Closure $next): Response
     {
+        if (! $request->is('mcp')) {
+            return $next($request);
+        }
+
         $response = $next($request);
 
         foreach ($this->corsHeaders() as $header => $value) {
