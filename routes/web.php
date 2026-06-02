@@ -12,6 +12,8 @@ use Illuminate\Support\Facades\Route;
 Route::redirect('/', '/mcp');
 
 Route::match(['POST', 'OPTIONS'], '/oauth/register', RegisterOauthClientController::class)->name('oauth.register');
+// Alias for clients that assume the app.myarchivist.ai /api/oauth/register path shape.
+Route::match(['POST', 'OPTIONS'], '/api/oauth/register', RegisterOauthClientController::class);
 
 Route::prefix('mcp/.well-known')->middleware(WellKnownHeadersMiddleware::class)->group(function (): void {
     Route::get('/oauth-protected-resource', ShowOauthProtectedResourceController::class);
