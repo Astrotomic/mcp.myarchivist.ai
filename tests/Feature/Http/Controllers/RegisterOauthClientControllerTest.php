@@ -48,4 +48,26 @@ class RegisterOauthClientControllerTest extends FeatureTestCase
         Http::assertSent(fn ($request) => $request->url() === 'https://app.myarchivist.ai/api/oauth/register'
             && $request['client_name'] === 'ChatGPT');
     }
+
+    #[Test]
+    public function it_serves_dynamic_client_registration_at_the_api_path_alias(): void
+    {
+        Http::fake([
+            'https://app.myarchivist.ai/api/oauth/register' => Http::response([
+                'client_id' => 'dcr_alias123',
+                'client_name' => 'ChatGPT',
+                'redirect_uris' => ['https://chatgpt.com/connector/oauth/test'],
+                'grant_types' => ['authorization_code'],
+                'response_types' => ['code'],
+                'token_endpoint_auth_method' => 'none',
+            ], 201),
+        ]);
+
+        $this->postJson('/api/oauth/register', [
+            'client_name' => 'ChatGPT',
+            'redirect_uris' => ['https://chatgpt.com/connector/oauth/test'],
+        ])
+            ->assertCreated()
+            ->assertJsonPath('client_id', 'dcr_alias123');
+    }
 }

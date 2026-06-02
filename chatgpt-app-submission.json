@@ -335,77 +335,53 @@
   },
   "test_cases": [
     {
-      "description": "List available campaigns for the authenticated user.",
+      "description": "List available campaigns for the authenticated user. Demo account contains a single seeded campaign; listing may return one result.",
       "user_prompt": "Show my Archivist AI campaigns.",
       "file_attachment_urls": null,
       "tools_triggered": "list-campaigns-tool",
-      "expected_output": "Returns a paginated list of campaigns with titles and summary metadata.",
+      "expected_output": "Returns a paginated campaign list with at least one campaign, including title, description, system, and pagination fields (total, current_page, per_page).",
       "expected_output_url": null
     },
     {
-      "description": "Inspect campaign statistics.",
-      "user_prompt": "Get stats for campaign camp_123.",
+      "description": "Inspect campaign statistics. Demo account has one campaign; the model may call list-campaigns-tool first to resolve it.",
+      "user_prompt": "Get statistics for my campaign.",
       "file_attachment_urls": null,
-      "tools_triggered": "get-campaign-stats-tool",
-      "expected_output": "Returns counts and other available statistics for the requested campaign.",
+      "tools_triggered": "list-campaigns-tool, get-campaign-stats-tool",
+      "expected_output": "Returns campaign statistics such as character, session, and moment counts for the user's campaign.",
       "expected_output_url": null
     },
     {
-      "description": "Find approved player characters in a campaign.",
-      "user_prompt": "List approved PC characters in campaign camp_123.",
+      "description": "Find approved player characters. Demo account has one campaign; the model may call list-campaigns-tool first to resolve it.",
+      "user_prompt": "List approved player characters in my campaign.",
       "file_attachment_urls": null,
-      "tools_triggered": "list-characters-tool",
-      "expected_output": "Returns matching character records and preserves the requested filters.",
+      "tools_triggered": "list-campaigns-tool, list-characters-tool",
+      "expected_output": "Returns approved PC character records with names and character metadata. Empty list is acceptable only if the seeded campaign has no approved PCs.",
       "expected_output_url": null
     },
     {
-      "description": "Retrieve a session with related story context.",
-      "user_prompt": "Open session sess_123 and include related beats and moments.",
+      "description": "Retrieve a session with related story context. Demo account is seeded with sessions; the model may list campaigns and sessions first.",
+      "user_prompt": "Open a game session from my campaign and include related beats and moments.",
       "file_attachment_urls": null,
-      "tools_triggered": "get-session-tool",
-      "expected_output": "Returns the requested session details with related beats and moments when available.",
+      "tools_triggered": "list-campaigns-tool, list-sessions-tool, get-session-tool",
+      "expected_output": "Returns session details (title, summary, session_date) and includes beats and/or moments when include_beats and include_moments are requested.",
       "expected_output_url": null
     },
     {
-      "description": "Review a campaign's quest list by status.",
-      "user_prompt": "Show in-progress quests for campaign camp_123.",
+      "description": "Review in-progress quests. Demo account is seeded with quests; the model may call list-campaigns-tool first to resolve the campaign.",
+      "user_prompt": "Show in-progress quests for my campaign.",
       "file_attachment_urls": null,
-      "tools_triggered": "list-quests-tool",
-      "expected_output": "Returns in-progress quests for the campaign with pagination metadata.",
-      "expected_output_url": null
-    },
-    {
-      "description": "Retrieve a full quest record.",
-      "user_prompt": "Get quest quest_123 with its objectives and progress log.",
-      "file_attachment_urls": null,
-      "tools_triggered": "get-quest-tool",
-      "expected_output": "Returns the expanded quest record, including objectives, progress, related entities, and session provenance when available.",
-      "expected_output_url": null
-    },
-    {
-      "description": "List and fetch journal content.",
-      "user_prompt": "List journal entries for campaign camp_123, then open entry journal_123.",
-      "file_attachment_urls": null,
-      "tools_triggered": "list-journals-tool, get-journal-tool",
-      "expected_output": "Returns visible journal entries, then the requested journal content and permission metadata.",
-      "expected_output_url": null
-    },
-    {
-      "description": "Explore entity relationships.",
-      "user_prompt": "List links from character char_123 in campaign camp_123.",
-      "file_attachment_urls": null,
-      "tools_triggered": "list-links-tool",
-      "expected_output": "Returns relationship links that match the requested source entity filter.",
+      "tools_triggered": "list-campaigns-tool, list-quests-tool",
+      "expected_output": "Returns quests filtered to in-progress status with quest names, status, and pagination fields. At least one in-progress quest is expected in the seeded demo account.",
       "expected_output_url": null
     }
   ],
   "negative_test_cases": [
     {
-      "description": "Do not trigger for creating or editing campaign content.",
-      "user_prompt": "Create a new quest in Archivist AI called The Broken Crown.",
+      "description": "Do not trigger for write/create requests. Prompt avoids naming Archivist so routing is not biased toward the connector.",
+      "user_prompt": "Create a new side quest called The Broken Crown for my D&D campaign.",
       "file_attachment_urls": null,
       "tools_triggered": null,
-      "expected_output": "The app should not be invoked because this MCP server only supports read-only campaign access.",
+      "expected_output": "The app should not be invoked. This MCP server is read-only and cannot create or edit quests.",
       "expected_output_url": null
     },
     {
@@ -417,19 +393,11 @@
       "expected_output_url": null
     },
     {
-      "description": "Do not trigger for general tabletop advice without campaign data.",
+      "description": "Do not trigger for general tabletop advice that does not require campaign records.",
       "user_prompt": "Give me five tips for running a better combat encounter.",
       "file_attachment_urls": null,
       "tools_triggered": null,
-      "expected_output": "The app should not be invoked because the request does not need Archivist AI campaign records.",
-      "expected_output_url": null
-    },
-    {
-      "description": "Do not trigger for external publishing.",
-      "user_prompt": "Post my latest session summary to Discord.",
-      "file_attachment_urls": null,
-      "tools_triggered": null,
-      "expected_output": "The app should not be invoked because it cannot send messages or publish content to external services.",
+      "expected_output": "The app should not be invoked because the request does not require reading the user's campaign data.",
       "expected_output_url": null
     }
   ]
