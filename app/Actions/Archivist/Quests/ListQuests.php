@@ -12,7 +12,7 @@ final readonly class ListQuests extends ApiAction
 {
     public static function rules(): array
     {
-        return array_merge(static::paginationRules(), [
+        return array_merge(self::paginationRules(), [
             'campaign_id' => ['required', 'string'],
             'search' => ['nullable', 'string'],
             'status' => ['nullable', 'string', 'in:planned,in-progress,blocked,failed,done,n/a'],

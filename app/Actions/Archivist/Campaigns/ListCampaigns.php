@@ -12,7 +12,7 @@ final readonly class ListCampaigns extends ApiAction
 {
     public static function rules(): array
     {
-        return static::paginationRules();
+        return self::paginationRules();
     }
 
     protected function request(ValidatedInput $input): Response

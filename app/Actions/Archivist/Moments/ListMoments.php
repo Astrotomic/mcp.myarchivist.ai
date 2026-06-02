@@ -12,7 +12,7 @@ final readonly class ListMoments extends ApiAction
 {
     public static function rules(): array
     {
-        return array_merge(static::paginationRules(), [
+        return array_merge(self::paginationRules(), [
             'campaign_id' => ['nullable', 'string'],
             'session_id' => ['nullable', 'string'],
             'search' => ['nullable', 'string'],

@@ -12,7 +12,7 @@ final readonly class ListSessions extends ApiAction
 {
     public static function rules(): array
     {
-        return array_merge(static::paginationRules(), [
+        return array_merge(self::paginationRules(), [
             'campaign_id' => ['required', 'string'],
             'session_type' => ['nullable', 'string', 'in:audioUpload,playByPost,discordVoice,txtUpload,rawNotes,other'],
             'public_only' => ['nullable', 'boolean'],

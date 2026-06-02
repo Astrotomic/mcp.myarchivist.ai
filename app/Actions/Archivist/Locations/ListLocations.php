@@ -12,7 +12,7 @@ final readonly class ListLocations extends ApiAction
 {
     public static function rules(): array
     {
-        return array_merge(static::paginationRules(), [
+        return array_merge(self::paginationRules(), [
             'campaign_id' => ['required', 'string'],
             'search' => ['nullable', 'string'],
         ]);

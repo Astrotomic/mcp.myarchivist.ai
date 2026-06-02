@@ -12,7 +12,7 @@ final readonly class ListLinks extends ApiAction
 {
     public static function rules(): array
     {
-        return array_merge(static::paginationRules(), [
+        return array_merge(self::paginationRules(), [
             'campaign_id' => ['required', 'string'],
             'from_id' => ['nullable', 'string'],
             'from_type' => ['nullable', 'string'],

@@ -62,7 +62,11 @@ class ArchivistApiException extends RuntimeException
         if (is_array($detail)) {
             if (isset($detail[0]) && is_array($detail[0])) {
                 return collect($detail)
-                    ->map(function (array $error): string {
+                    ->map(function (mixed $error): string {
+                        if (! is_array($error)) {
+                            return 'Validation error';
+                        }
+
                         $location = collect($error['loc'] ?? [])
                             ->reject(fn (mixed $part): bool => $part === 'body' || $part === 'query')
                             ->implode('.');
