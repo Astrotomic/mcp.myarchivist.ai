@@ -15,6 +15,17 @@ use Illuminate\Support\ValidatedInput;
 
 abstract readonly class ApiAction extends Action implements JsonSchemaable
 {
+    /**
+     * @return array<string, array<int, string>>
+     */
+    protected static function paginationRules(): array
+    {
+        return [
+            'page' => ['nullable', 'integer', 'min:1'],
+            'size' => ['nullable', 'integer', 'min:1', 'max:100'],
+        ];
+    }
+
     public function __construct(protected ArchivistClient $client) {}
 
     public function execute(array $params): ArchivistDto|LengthAwarePaginator

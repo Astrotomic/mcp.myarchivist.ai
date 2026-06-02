@@ -12,16 +12,14 @@ final readonly class ListLinks extends ApiAction
 {
     public static function rules(): array
     {
-        return [
+        return array_merge(static::paginationRules(), [
             'campaign_id' => ['required', 'string'],
             'from_id' => ['nullable', 'string'],
             'from_type' => ['nullable', 'string'],
             'to_id' => ['nullable', 'string'],
             'to_type' => ['nullable', 'string'],
             'alias' => ['nullable', 'string'],
-            'page' => ['nullable', 'integer'],
-            'size' => ['nullable', 'integer', 'max:100'],
-        ];
+        ]);
     }
 
     protected function request(ValidatedInput $input): Response

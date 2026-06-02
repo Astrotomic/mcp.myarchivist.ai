@@ -12,13 +12,11 @@ final readonly class ListMoments extends ApiAction
 {
     public static function rules(): array
     {
-        return [
+        return array_merge(static::paginationRules(), [
             'campaign_id' => ['nullable', 'string'],
             'session_id' => ['nullable', 'string'],
             'search' => ['nullable', 'string'],
-            'page' => ['nullable', 'integer'],
-            'size' => ['nullable', 'integer', 'max:100'],
-        ];
+        ]);
     }
 
     protected function request(ValidatedInput $input): Response
