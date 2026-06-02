@@ -42,11 +42,8 @@ class ArchivistPassthroughMiddleware
 
     private function resolveJsonRpcMethod(Request $request): ?string
     {
+        /** @var array<string, mixed> $payload */
         $payload = $request->json()->all();
-
-        if (! is_array($payload)) {
-            return null;
-        }
 
         $method = $payload['method'] ?? null;
 
