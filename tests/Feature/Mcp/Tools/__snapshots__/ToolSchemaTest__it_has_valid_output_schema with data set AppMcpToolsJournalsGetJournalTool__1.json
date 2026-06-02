@@ -106,7 +106,7 @@
         },
         "content_metadata": {
             "type": [
-                "array",
+                "object",
                 "null"
             ]
         },

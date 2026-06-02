@@ -11,7 +11,9 @@
                 "audioUpload",
                 "playByPost",
                 "discordVoice",
-                "rawNotes"
+                "txtUpload",
+                "rawNotes",
+                "other"
             ],
             "type": [
                 "string",
