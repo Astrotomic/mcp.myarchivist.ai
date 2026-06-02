@@ -23,10 +23,6 @@ class McpCorsMiddleware
 
     public function handle(Request $request, Closure $next): Response
     {
-        if ($request->isMethod('OPTIONS')) {
-            return response('', Response::HTTP_NO_CONTENT, $this->corsHeaders());
-        }
-
         $response = $next($request);
 
         foreach ($this->corsHeaders() as $header => $value) {

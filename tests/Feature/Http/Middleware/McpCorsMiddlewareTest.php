@@ -14,7 +14,7 @@ class McpCorsMiddlewareTest extends FeatureTestCase
             'Origin' => 'https://platform.openai.com',
             'Access-Control-Request-Method' => 'POST',
         ])
-            ->assertNoContent()
+            ->assertOk()
             ->assertHeader('Access-Control-Allow-Origin', '*')
             ->assertHeader('Access-Control-Allow-Methods', 'GET, POST, DELETE, OPTIONS');
     }
