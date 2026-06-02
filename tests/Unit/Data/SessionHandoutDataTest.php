@@ -33,4 +33,24 @@ final class SessionHandoutDataTest extends UnitTestCase
         $this->assertArrayHasKey('partyStatusAndNextSteps.partyStatus.summary', $rules);
         $this->assertArrayHasKey('partyStatusAndNextSteps.nextSteps.summary', $rules);
     }
+
+    #[Test]
+    public function it_accepts_party_status_and_next_steps_as_objects(): void
+    {
+        $handout = new SessionHandoutData([
+            'summary' => 'Session summary',
+            'partyStatusAndNextSteps' => [
+                'partyStatus' => [
+                    'summary' => 'The party is rested.',
+                    'bullets' => ['Recovered HP', 'Restocked supplies'],
+                ],
+                'nextSteps' => [
+                    'summary' => 'Head to the dungeon.',
+                ],
+            ],
+        ]);
+
+        $this->assertSame('The party is rested.', $handout->get('partyStatusAndNextSteps.partyStatus.summary'));
+        $this->assertSame('Head to the dungeon.', $handout->get('partyStatusAndNextSteps.nextSteps.summary'));
+    }
 }

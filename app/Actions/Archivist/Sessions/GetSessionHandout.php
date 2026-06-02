@@ -18,7 +18,11 @@ final readonly class GetSessionHandout extends ApiAction
 
     protected function request(ValidatedInput $input): Response
     {
-        return $this->client->get("/v1/sessions/{$input->string('session_id')}/handout", $input->except('session_id'));
+        return $this->client->get(
+            "/v1/sessions/{$input->string('session_id')}/handout",
+            $input->except('session_id'),
+            timeout: 90,
+        );
     }
 
     protected function map(array $data): SessionHandoutData

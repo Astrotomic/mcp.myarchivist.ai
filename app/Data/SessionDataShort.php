@@ -9,7 +9,7 @@ class SessionDataShort extends ArchivistDto
         return [
             'id' => ['required', 'string'],
             'campaign_id' => ['required', 'string'],
-            'type' => ['nullable', 'string', 'in:audioUpload,playByPost,discordVoice,rawNotes'],
+            'type' => ['nullable', 'string', 'in:audioUpload,playByPost,discordVoice,txtUpload,rawNotes,other'],
             'title' => ['nullable', 'string'],
             'summary' => ['nullable', 'string'],
             'session_date' => ['nullable', 'string'],

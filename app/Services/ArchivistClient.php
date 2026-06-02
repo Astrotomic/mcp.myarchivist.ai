@@ -11,9 +11,15 @@ class ArchivistClient
         private readonly string $token,
     ) {}
 
-    public function get(string $path, array $query = []): Response
+    public function get(string $path, array $query = [], ?int $timeout = null): Response
     {
-        return Http::archivist(token: $this->token)->get(
+        $request = Http::archivist(token: $this->token);
+
+        if ($timeout !== null) {
+            $request = $request->timeout($timeout);
+        }
+
+        return $request->get(
             url: $path,
             query: collect($query)
                 ->reject(fn (mixed $value) => $value === null)

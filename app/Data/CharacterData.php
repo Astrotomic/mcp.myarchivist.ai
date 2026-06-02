@@ -10,7 +10,7 @@ class CharacterData extends ArchivistDto
             'id' => ['required', 'string'],
             'campaign_id' => ['required', 'string'],
             'character_name' => ['required', 'string'],
-            'character_alias' => ['nullable', 'list'],
+            'character_alias' => ['nullable', 'string'],
             'player_name' => ['nullable', 'string'],
             'player' => ['nullable', 'array'],
             'description' => ['nullable', 'string'],

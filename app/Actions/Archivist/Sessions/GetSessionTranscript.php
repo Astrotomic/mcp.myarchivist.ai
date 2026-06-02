@@ -18,7 +18,11 @@ final readonly class GetSessionTranscript extends ApiAction
 
     protected function request(ValidatedInput $input): Response
     {
-        return $this->client->get("/v1/sessions/{$input->string('session_id')}/transcript", $input->except('session_id'));
+        return $this->client->get(
+            "/v1/sessions/{$input->string('session_id')}/transcript",
+            $input->except('session_id'),
+            timeout: 90,
+        );
     }
 
     protected function map(array $data): SessionTranscriptData
