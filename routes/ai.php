@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Middleware\ArchivistPassthroughMiddleware;
+use App\Http\Middleware\McpCorsMiddleware;
 use App\Mcp\Servers\ArchivistServer;
 use Laravel\Mcp\Facades\Mcp;
 
@@ -10,7 +11,10 @@ use Laravel\Mcp\Facades\Mcp;
  */
 Mcp::web('/mcp', ArchivistServer::class)
     ->name('mcp')
-    ->middleware(ArchivistPassthroughMiddleware::class);
+    ->middleware([
+        McpCorsMiddleware::class,
+        ArchivistPassthroughMiddleware::class,
+    ]);
 
 /*
  * Local (stdio) transport — for editor integrations such as Cursor.
