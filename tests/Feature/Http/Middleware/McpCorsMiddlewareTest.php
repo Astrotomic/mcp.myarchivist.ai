@@ -29,7 +29,7 @@ class McpCorsMiddlewareTest extends FeatureTestCase
         ], [
             'Origin' => 'https://platform.openai.com',
         ])
-            ->assertOk()
+            ->assertUnauthorized()
             ->assertHeader('Access-Control-Allow-Origin', '*');
     }
 }

@@ -10,20 +10,9 @@ use Symfony\Component\HttpFoundation\Response;
 class ArchivistPassthroughMiddleware
 {
     /**
-     * MCP methods that expose only server metadata and may be called
-     * without a Bearer token (e.g. ChatGPT submission tool scans).
-     *
-     * @var list<string>
-     */
-    private const DISCOVERY_METHODS = [
-        'initialize',
-        'tools/list',
-        'notifications/initialized',
-    ];
-
-    /**
-     * Extract the Bearer token from the Authorization header and store it
-     * in the request so that ArchivistClient can forward it as x-api-key.
+     * All MCP JSON-RPC calls require a Bearer token. OAuth clients (e.g. mcp-remote /
+     * Nexus) must complete browser sign-in so tokens are issued before connect.
+     * Public tool metadata for store review lives at /.well-known/mcp/server-card.json.
      */
     public function handle(Request $request, Closure $next): Response
     {
@@ -31,23 +20,7 @@ class ArchivistPassthroughMiddleware
             return $next($request);
         }
 
-        $method = $this->resolveJsonRpcMethod($request);
-
-        if ($method !== null && in_array($method, self::DISCOVERY_METHODS, true)) {
-            return $next($request);
-        }
-
         return $this->unauthenticatedResponse($request);
-    }
-
-    private function resolveJsonRpcMethod(Request $request): ?string
-    {
-        /** @var array<string, mixed> $payload */
-        $payload = $request->json()->all();
-
-        $method = $payload['method'] ?? null;
-
-        return is_string($method) && $method !== '' ? $method : null;
     }
 
     private function unauthenticatedResponse(Request $request): JsonResponse
