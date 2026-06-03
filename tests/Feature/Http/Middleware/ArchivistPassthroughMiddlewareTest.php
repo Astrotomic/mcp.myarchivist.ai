@@ -8,9 +8,9 @@ use Tests\FeatureTestCase;
 class ArchivistPassthroughMiddlewareTest extends FeatureTestCase
 {
     #[Test]
-    public function it_allows_unauthenticated_initialize_for_tool_discovery(): void
+    public function it_requires_auth_for_unauthenticated_initialize(): void
     {
-        $this->postJson('/mcp', [
+        $response = $this->postJson('/mcp', [
             'jsonrpc' => '2.0',
             'method' => 'initialize',
             'params' => [
@@ -19,21 +19,23 @@ class ArchivistPassthroughMiddlewareTest extends FeatureTestCase
                 'clientInfo' => ['name' => 'test', 'version' => '1.0'],
             ],
             'id' => 1,
-        ])
-            ->assertOk()
+        ]);
+
+        $response
+            ->assertUnauthorized()
             ->assertJsonPath('jsonrpc', '2.0')
             ->assertJsonPath('id', 1)
-            ->assertJsonStructure([
-                'result' => [
-                    'protocolVersion',
-                    'capabilities',
-                    'serverInfo',
-                ],
-            ]);
+            ->assertJsonPath('error.code', -32001)
+            ->assertJsonPath('error.message', 'Unauthorized');
+
+        $this->assertStringContainsString(
+            'resource_metadata="',
+            (string) $response->headers->get('WWW-Authenticate')
+        );
     }
 
     #[Test]
-    public function it_allows_unauthenticated_tools_list_for_tool_discovery(): void
+    public function it_requires_auth_for_unauthenticated_tools_list(): void
     {
         $response = $this->postJson('/mcp', [
             'jsonrpc' => '2.0',
@@ -42,17 +44,11 @@ class ArchivistPassthroughMiddlewareTest extends FeatureTestCase
         ]);
 
         $response
-            ->assertOk()
+            ->assertUnauthorized()
             ->assertJsonPath('jsonrpc', '2.0')
-            ->assertJsonStructure([
-                'result' => [
-                    'tools',
-                ],
-            ]);
-
-        $tools = $response->json('result.tools');
-        $this->assertIsArray($tools);
-        $this->assertNotEmpty($tools);
+            ->assertJsonPath('id', 2)
+            ->assertJsonPath('error.code', -32001)
+            ->assertJsonPath('error.message', 'Unauthorized');
     }
 
     #[Test]

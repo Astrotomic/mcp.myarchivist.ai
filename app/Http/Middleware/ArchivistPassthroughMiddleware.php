@@ -10,16 +10,13 @@ use Symfony\Component\HttpFoundation\Response;
 class ArchivistPassthroughMiddleware
 {
     /**
-     * MCP methods that expose only server metadata and may be called
-     * without a Bearer token (e.g. ChatGPT submission tool scans).
+     * Unauthenticated MCP JSON-RPC methods are disabled so OAuth clients
+     * (e.g. mcp-remote / Nexus) receive 401 + WWW-Authenticate on connect.
+     * Public tool metadata for store review lives at /.well-known/mcp/server-card.json.
      *
      * @var list<string>
      */
-    private const DISCOVERY_METHODS = [
-        'initialize',
-        'tools/list',
-        'notifications/initialized',
-    ];
+    private const DISCOVERY_METHODS = [];
 
     /**
      * Extract the Bearer token from the Authorization header and store it
