@@ -2,284 +2,294 @@
     "current_page": 2,
     "data": [
         {
-            "created_at": "2026-03-20T16:44:58.820000",
-            "updated_at": null,
-            "id": "zto2p4rpf341t0di01kokk3d",
-            "name": "Flammengestalten",
-            "aliases": [],
-            "type": "NPC",
-            "description": "Der Schütze, bekannt als Grob, sitzt am Geschütz der Kutsche und feuert Bolzen auf die Verfolger ab. Er kann mehrere Bolzen gleichzeitig abfeuern und demonstriert dies während einer Verfolgung, indem er drei Bolzen in Richtung der Angreifer schießt und zwei von ihnen verletzt. Grob steuert die Kutsche während der Flucht und bestätigt die Route nach Süden.\nAls die Gruppe von Flammengestalten verfolgt wird, nimmt Grob das Geschütz in raschem Feuer auf die Wesen und trifft eine der Flammengestalten, die daraufhin in einer großen Feuerkugel explodiert. Während der weiteren Flucht verweigert Grob Brennen Auskunft über die Natur der flammenden Wesen und äußert, dass Unwissen hier besser sei. Am nächsten Tag stellt sich Grob als der Schütze vor, als die Kutsche in einer großen, ummauerten Stadt ankommt.",
-            "image": null,
-            "tcg_image": null,
+            "id": "c8i3xdxy1kn2g755ceb2po43",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
-        },
-        {
-            "created_at": "2026-03-18T21:07:48.002000",
-            "updated_at": null,
-            "id": "s3jtqqudzxogzectoaztik7i",
-            "name": "Wachen von Briarwatch",
-            "aliases": [],
+            "name": "Haus Floshin",
+            "description": "Floschinen ist ein Adelshaus, das mit dem Verschwinden von drei Töchtern aus den Häusern Vordren, Edivalen und Floschinen in Verbindung gebracht wird. Es wird vermutet, dass diese Entführungen möglicherweise mit den Vätern der Mädchen zusammenhängen, möglicherweise zur Erpressung oder für Opfer. Haus Floshin ist eines der ältesten Häuser in Faerûn, das den Gold- oder Sonnenelfen zugeordnet ist. Der Sitz von Haus Floshin befindet sich im Dellenbier-Tal, bekannt als „Liam’s Hold“. Haus Floshin wird in einem Kompendium zusammen mit anderen alten Häusern wie Haus Borderen und Belisare erwähnt.\nBrennen Voidridge, der sich mit einer Gruppe versammelt hat, erfährt von einem Sohn eines der betroffenen Häuser, dass die Entführungen in den letzten Stunden stattgefunden haben. Brennen äußert den Verdacht, dass es sich um ein doppeltes Spiel handelt und dass die Entführungen möglicherweise Teil eines größeren Plans sind. Seres, eine Informantin, erklärt, dass die verschwundenen Mädchen nicht das Ziel der „Jagd“ seien und vermutet, dass sie wegen ihrer Väter entführt wurden.",
             "type": null,
-            "description": "Die Wachen von Briarwatch sind eine militärische Einheit, die in Briarwatch operiert. Sie sind für die Sicherheit und Ordnung in der Region verantwortlich und nehmen an verschiedenen gesellschaftlichen Ereignissen teil. Die Wachen tragen eine einheitliche Kleidung, die mit dem Briarwatch-Wappen versehen ist.\nBriarwatch ist eine Institution, die nicht direkt in die Angelegenheiten zwischen den Häusern eingreift und nicht als Haus im traditionellen Sinne betrachtet wird. Die Gruppe hat durch ihre Taten im Norden Aufmerksamkeit erregt, was zu ihrer Einladung zum Mondfest führte. Briarwatch hat Einfluss in der Region, und es gilt als Ehre, eine Einladung von ihnen zu erhalten.\nWährend einer Feierlichkeit halfen zwei Wachen von Briarwatch einem Mitglied der Gruppe, Brennen Voidridge, als er in einen See fiel. Sie zogen ihn ans Ufer und hielten ihn fest, bis er wieder festen Halt hatte. Die Wachen wiesen Brennen Voidridge an, nicht im See zu baden, und zogen ihn weiter vom Ufer weg.\nWährend des Mondfestes wurden mehrere Töchter entführt, was Besorgnis und Verdacht unter den Anwesenden auslöste. Brennen Voidridge äußerte den Verdacht, dass die Entführungen im Zusammenhang mit Ritualen stehen könnten. Seres, eine Vertreterin von Briarwatch, erklärte, dass die verschwundenen Mädchen nicht Ziel der „Jagd“ seien und vermutete, dass sie aufgrund ihrer Väter entführt wurden. Sie warnte die Gruppe, dass die Interessen von Briarwatch nicht unbedingt mit ihren übereinstimmen. Brennen fand ein Pergament mit dem dunkelgrünen Siegel von Briarwatch, das eine Einladung zum Mondfest enthielt, jedoch ohne spezifische Angaben zu Absender oder Empfänger.",
             "image": null,
+            "aliases": [],
             "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": true
+            "merge": true,
+            "created_at": "2026-04-02T20:44:47.506000",
+            "updated_at": null
         },
         {
-            "created_at": "2026-03-08T21:53:43.026000",
-            "updated_at": null,
+            "id": "d3b2bkwjfpsm2mubfc8fai6l",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Haus Edevane",
+            "description": "Haus Edevane ist ein Haus, das mit dem Verschwinden von drei Töchtern aus den Häusern Vordren, Edevane und Floschinen in Verbindung gebracht wird. Die Entführungen könnten möglicherweise mit den Vätern der betroffenen Mädchen zusammenhängen, möglicherweise zur Erpressung oder für Opfer. Edevane gehört zu einer Gruppe von Adelsfamilien, die an einem Fest teilnehmen, bei dem auch andere Häuser vertreten sind. Ein Sohn des Hauses Edevane äußert, dass seine Halbschwester nicht in der Linie des Hauses steht. Während eines Gesprächs über die Entführungen identifizieren die Mitglieder der Gruppe, die nach den vermissten Mädchen suchen, Edevane als eines der betroffenen Häuser.\nEdevane ist auch bekannt als Haus Edevane und repräsentiert Tieflinge, wobei es als eines der ältesten Häuser in Faerûn gilt. Die genaue Altersbestimmung des Hauses ist unklar, was darauf hindeutet, dass es möglicherweise älter ist als die bekannten Aufzeichnungen. Haus Edevane wird in Diskussionen über die Entführung adeliger Töchter und andere Vorfälle als eines der Häuser genannt, das mit den ältesten Häusern in Verbindung steht. Es besteht Interesse an Informationen über Haus Edevane, insbesondere in Bezug auf die Rassen, die mit den verschiedenen Häusern verbunden sind.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Edewana"
+            ],
+            "tcg_image": null,
+            "merge": true,
+            "created_at": "2026-04-02T20:44:47.488000",
+            "updated_at": null
+        },
+        {
+            "id": "neskroip8idjfhzjcgnwnhxh",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Haus Vaudren",
+            "description": "Haus Vaudren ist ein bekanntes Adelshaus in der Region. Töchter aus den Häusern Vaudren, Edivalen und Floschinen sind in den letzten Stunden verschwunden. Ein Mann, dessen Tochter Sonval vermisst wird, berichtet von drei weiteren entführten Töchtern aus diesen Häusern.\nEine Gruppe, die sich um die Entführungen kümmert, erfährt von einem Kapuzenträger namens Garan, dessen Tochter ebenfalls vermisst ist. Garan hat über Sending Stones von der Entführung erfahren, jedoch keine Botschaft der Entführer erhalten. Die Gruppe vermutet, dass die verschwundenen Mädchen möglicherweise wegen ihrer Väter entführt wurden, möglicherweise zur Erpressung oder als Opfer.\nSeres, eine Person, die mit der Gruppe spricht, erklärt, dass die verschwundenen Mädchen nicht Ziel der „Jagd“ seien und rät, etwaige „Austausche“ nur außerhalb des Geländes zu versuchen. Sie erwähnt, dass die Gruppe aufgrund ihrer Taten im Norden aufgefallen ist und deshalb eingeladen wurde, warnt jedoch, dass die Interessen von Briarwatch, der Institution, zu der Seres gehört, nicht zwingend mit denen der Gruppe übereinstimmen.\nHaus Vaudren wird zusammen mit Haus Floshin und Haus Belisare als eines der drei ältesten Häuser erwähnt. In einem Kompendium über die ältesten Häuser Faerûns wird Haus Vaudren als Teil einer Liste aufgeführt, die auch die zugeordneten Rassen der Häuser enthält. Haus Vaudren ist in einem Buch über die ältesten Häuser verzeichnet, das von einer Yuan-Ti-Bibliothekarin in der Bibliothek verwaltet wird.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Haus Borderen"
+            ],
+            "tcg_image": null,
+            "merge": true,
+            "created_at": "2026-04-02T20:44:47.471000",
+            "updated_at": null
+        },
+        {
+            "id": "v7vzjkyxf7h7iwotg7et7jyn",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Lord’s Alliance",
+            "description": "Die Lord’s Alliance ist eine politische Fraktion, die in Padig operiert und in der Region einflussreich ist. Sie hat Verbindungen zu verschiedenen Adelsfamilien und befasst sich mit der Sicherheit und Stabilität dieser Familien. Aktuell ist die Allianz in Panik, da Luskan um Hilfe gebeten hat, nachdem ein Vulkan in der Nähe ausgebrochen ist und Feuerelementare umherstreifen. Während eines Mondfestes wurden mehrere Töchter aus Adelsfamilien entführt, was zu Besorgnis und dem Wunsch nach Unterstützung führte. Mitglieder der Allianz, darunter Brennen, boten ihre Hilfe an, um die vermissten Mädchen zu finden. Es wird vermutet, dass die Entführungen möglicherweise mit Erpressung oder Ritualen in Verbindung stehen.\nEs gibt Berichte über Unruhe innerhalb der Lord’s Alliance, die möglicherweise mit einem schwelenden Krieg zwischen Feuerelementaren und Drachen zusammenhängt. Die Allianz hat seit langer Zeit keine Nachrichten mehr aus Roggersheim erhalten. Eine Gruppe, die sich mit Lea und anderen Mitgliedern der Lord’s Alliance trifft, diskutiert Gerüchte über die verschwundenen adeligen Töchter und die allgemeine Lage in der Region. Captain Durnan, ein Vertreter der Lord’s Alliance, informiert die Gruppe über einen Vorfall, bei dem eine Geldbörse entwendet wurde. Die Gruppe einigt sich darauf, dass Rita die Geldbörse genommen hat, und gibt den entwendeten Betrag zurück. Captain Durnan erklärt, dass die Lord’s Alliance ihnen freie Hand gewährt, solange sie unter Aufsicht bleiben.\nCaptain Durnan bietet der Gruppe mehrere Optionen an, darunter die Untersuchung einer Rauchwolke, das Auslöschen eines Spion-/Söldnerlagers oder die Klärung eines magischen Zwischenfalls in Luskan. Die Gruppe entscheidet sich, die Rauchwolke zu untersuchen. Die Gruppe, der Brennen angehört, wurde aufgrund ihrer Taten im Norden eingeladen, jedoch wurde ihnen geraten, vorsichtig zu sein, da die Interessen der Lord’s Alliance nicht unbedingt mit ihren eigenen übereinstimmen.\nDie Lord’s Alliance ist auch in der Region aktiv und hat Vertreter in Briarwatch. Die Gruppe hat Einfluss auf die Sicherheit und Ordnung in der Stadt, insbesondere während der Bedrohung durch Angreifer. Sie ist mit dem Krieg gegen die Feuerelementare beschäftigt, was die Anzahl ihrer Vertreter in Briarwatch begrenzt. Während eines Übergriffs auf Briarwatch kommuniziert Gwendolyn über einen telepathischen Stein mit Flint, der Informationen über die aktuelle Lage und die Anzahl der Wachen in der Stadt bereitstellt. Flint erwähnt, dass die Besatzung von Briarwatch in der Lage ist, die meisten Angriffe abzuwehren, und dass die Lord’s Alliance vor Ort ist. Die Lord’s Alliance ist unzufrieden mit der Situation ihrer höchsten Abgesandten.\nDie Gruppe diskutiert, ob sie der Nighthag vertrauen oder die Lord’s Alliance warnen sollen, während sie sich auf einen möglichen Angriff vorbereiten. Gwendolyn und ihre Gefährten planen, während der Unruhen in Briarwatch zu agieren und die Situation zu ihrem Vorteil zu nutzen.\nEs wurde eine Lord’s Alliance beobachtet, eine gemischte Streitkraft aus Kavallerie und Infanterie, begleitet von Versorgungswagen und zusätzlichen Waffen auf Karren. Die Lord’s Alliance besteht ausschließlich aus Soldaten und umfasst mehr als zehn, aber weniger als tausend Mitglieder. Surina Nemmonis erkundete die Lord’s Alliance mit ihrem Vogel und erkannte die Kavallerie vorne, die Infanterie dahinter sowie diverse Versorgungswagen und Karren mit zusätzlicher Bewaffnung. Die Lord’s Alliance war bewaffnet, marschbereit und aufmerksam, wirkte jedoch nicht wie ein unmittelbar angreifender Sturmtrupp. Die Orientierung der Gruppe zeigte, dass die Lord’s Alliance in derselben groben Richtung wie Longsaddle und weiter in Richtung des Gefängnisses lag.\nDie Lord’s Alliance ist auch die politische Zugehörigkeit der Stadt Tribor. Tribor wird als standhaft beschrieben und hält zur Lord’s Alliance. Dane, ein Soldat der Triboar Stadtwache, bestätigt in einer Unterhaltung, dass Tribor weiterhin zur Lord’s Alliance gehört.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Lords-Alliance"
+            ],
+            "tcg_image": null,
+            "merge": true,
+            "created_at": "2026-04-02T20:44:47.455000",
+            "updated_at": null
+        },
+        {
+            "id": "cmn0cts9h000w04i80ovfrjnn",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Stadtwache von Triboar",
+            "description": "Die Triboar Stadtwache ist für die Sicherheit und Ordnung in der Stadt verantwortlich. Ihre Aufgaben umfassen den Schutz der Bürger und die Reaktion auf Vorfälle. Die Stadtwache hat Steckbriefe aufgehängt, um auf Vermisstenfälle aufmerksam zu machen, und berichtet von zahlreichen Stadtbewohnern und Personen aus umliegenden Dörfern, die verschwunden sind. Nur wenige sind zurückgekehrt, und die meisten von ihnen schlafen seit Wochen und sind nicht erwacht. Zwei Ausnahmen sind ein hochgeborener Elf in der Stadt und eine Person auf einem Hof außerhalb. Die Stadtwache warnt vor den Gefahren, die mit der Jagd auf die vermissten Personen verbunden sind, da viele Kopfgeldjäger nicht zurückgekehrt sind. Zudem haben sie Informationen über Wesen, die andere ins Schlaf versetzen und Albträume verursachen, um die Betroffenen zu manipulieren. Die Stadtwache empfiehlt, vorsichtig zu sein, wenn man auf die Jagd geht, und gibt Hinweise auf die Gefahren in der Umgebung.\n\nDie Stadtwache hat die Stadtmauer besetzt. Ein Trupp Stadtwachen erschien zusammen mit dem ersten Zwergenschmied an der offenen Schmiede und stellte Dîn-io und Surina Nemmonis vor. Die Stadtwachen durchsuchten ihre Rucksäcke und gaben die Sachen anschließend zurück, hielten jedoch wegen in einem Rucksack gefundener Edelsteine weiter nach und verlangten Angaben zur Herkunft. Sie forderten Belege für einen Bezug zu Flint und baten um dessen Zeichen. Nach dem Anblick eines Steins mit dem Symbol lockerte sich ihre Haltung deutlich.\n\nDie Stadtwache erkundigte sich nach den vermummten Leuten und notierte Hinweise, darunter ein Schlangensymbol und ein Brief mit zwei Namen. Sie dankten für die Informationen und beendeten die Befragung. Die Stadtwache fungiert zudem als städtische Sicherheitsmacht unter Leitung eines Kommandanten. Sie besteht aus mehreren Wachen, die öffentliche Ordnung durch Festnahmen und Gerichtsvorführungen durchsetzen. Ein höhergestellter Offizier trägt poliertere, prunkvollere Rüstung und einen verzierten Wappenrock.\n\nDie Stadtwache stoppte eine Gruppe auf den leeren Straßen, drückte ihnen Speerspitzen an die Brust und beschuldigte sie, den Kapuzenträgern geholfen zu haben. Es wurde erklärt, dass man während des Blutmonds nicht hinausgehen dürfe. Die Stadtwache konfiszierte Waffen, Rucksäcke und Ausrüstung, brachte die Gruppe zur Wache und hielt sie im Vorraum. Ein Stadtwächter brachte später Brennen Voidridge Voidridges Rucksack herein. Die Stadtwache behielt die Briefe ein, gab der Gruppe teilweise die Ausrüstung zurück und erlaubte schließlich, die Gefangenen zu verhören.\n\nDie Stadtwache nahm Surina Nemmonis die Schlange ab, packte die zerlegten Skelettteile und den Schädel ein und führte Surina Nemmonis aus dem Gasthaus ab. Sie erklärten, dass Surina Nemmonis wegen Beleidigung und mutmaßlicher Kultistenverbindung dem Richter vorgeführt werde. Dîn-io geriet mit den Wachen in Streit, woraufhin zwei Wachen auch ihn festnahmen. Die Stadtwache legte beide Gefangenen in Ketten, trieb sie durch die Stadt zum Steinbruch, stellte Spitzhacken zur Verfügung und überwachte die Zwangsarbeit, setzte Peitschenstrafen durch und brachte sie anschließend zur Verhandlung. Vor dem Richter vertraten Vertreter der Stadtwache die Anklagen; die Wache entschied, dass die Schlange nun der Stadtwache gehöre. Nach der Verhandlung entließen die Wachen Surina Nemmonis und Dîn-io.\n\nDer Kommandant der Stadtwache, Sir Richardson, leitet die Stadtwache, die als städtische Befestigungs- und Kontrolltruppe fungiert und am Wacheingang des Marktplatzes stationiert ist, wo sich ein Empfangsbereich und das Büro des Kommandanten befinden. Am Haupteingang der Stadt steht eine Stadtwache, die Gruppen durchlässt, und im Inneren des Wacheingangs gibt es Treppen auf der linken und rechten Seite; die linke Treppe führt zum Büro des Kommandanten, dessen Tür wenige Zentimeter offen steht, während Sir Richardson hinter seinem großen Schreibtisch sitzt.\n\nDie Stadtwache erkennt Personen am Eingang und führt sie zum Büro des Kommandanten. Beim Verlassen melden die Wachen oben und öffnen das Tor für die Gruppe, warnen jedoch, dass eine spätere Wiedereinlassung nicht garantiert werden kann. Zudem äußert die Stadtwache Bedenken bezüglich einer unterirdischen Bibliothek. Die Stadtwache verfügt über Kutschen, und der Kommandeur erklärte, dass der blauhäutige Gefährte seine Entlohnung bereits beim gestrigen Urteil erhalten habe. Zur vereinbarten Zeit stand eine große, bessere Kutsche vor der Stadtwache. Brennen Voidridge bestätigte, bedankte sich und gab einem Wachmann ein Goldstück, worauf die Gruppe die Kutsche übernahm und die Stadt verließ.\n\nDie Stadtwache von Tribor ist Teil der Lords’ Alliance. Der Soldat Dane berichtet, dass er seit seiner Jugend bei der Stadtwache dient. Dane beschreibt, dass seine Einheit nicht auf Nahrungssuche war, sondern einen Gegenangriff plante, um eine Schneise durch den Belagerungsring zu schlagen. Nur er konnte entkommen, und beim Verlassen der Stadt war Tribor noch nicht eingenommen. Seit Beginn der Abriegelung komme niemand mehr hinein oder heraus, und Tribor sei nahezu vollständig eingeschlossen. Das Hauptproblem sei der Mangel an Lebensmitteln, nicht an Waffen oder Kämpfern. Die innerstädtische Versorgung bestehe höchstens aus ein paar Kübeln oder Fensterpflanzungen, während echte Felder außerhalb der Mauern liegen. Dane schätzt, dass sich noch etwa zwei- bis dreitausend Menschen in Tribor befinden. Angehörige der Stadtwache kennen die typischen Wege, die das Gesindel nutzt, und zahlreiche Spähtrupps hätten vergeblich nach einem unbewachten Punkt gesucht.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Wachen von Triboar",
+                "Die Wache",
+                "STadtwache Triboar"
+            ],
+            "tcg_image": null,
+            "merge": true,
+            "created_at": "2026-03-21T13:19:08.856000",
+            "updated_at": null
+        },
+        {
+            "id": "p968fklk4c0vf282cv9pqyrq",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Orks",
+            "description": "Die Orks sind eine brutale und kriegerische Rasse, die in der Umgebung der Gefangenen präsent ist. Sie zeigen eine rohe Belustigung und Autorität, wie es bei den zwei Orks zu beobachten ist, die die Zelle betreten und befehlen, aufzustehen, da der Boss ihn zuerst sehen wolle. Ihre Sprache ist guttural, und sie kommunizieren in Orcisch. Die Orks haben die Fähigkeit, die Gefangenen zu bewachen und zu befehligen.\nDie Orks sind Mitglieder von Naevys Nerizanas Clan. Ihr Anführer, der vorderste Jäger, trat als Führender Jäger auf. Naevys stellte ihre Gefährten den Orks vor und berichtete, dass Dîn-io Tempest, Gwendolyn, Surina Nemmonis und die übrigen Naevys aus dem Gefängnis befreit hätten. Der Jäger-Anführer teilte mit, dass die letzte Zeit schwer gewesen sei und dass Naevys’ Vater lebe und sich beim Schamanen in der warmen Hütte aufhalte.\nDie Orks überrannten das Gefängnis nach Kriegsbeginn, drangen in großer Zahl durch die Tore ein, töteten zwei Wachen und erzwangen die Übergabe durch Drohungen, weitere Wachen zu töten. Surina Nemmonis erkannte einen größeren Ork zusammen mit einem Kultisten in einem oberen Raum. Im anschließenden Gefecht trafen Orks von außen das Treppenhaus und schlugen mit Axtschlägen und einer Spektralwaffe gegen die verbarrikadierte Tür. Während der Verteidigung lagen Orks im Türbereich, und ein Ork wurde als Puffer gegen die Schläge genutzt. Im weiteren Verlauf traf die Gruppe auf gefallene Gegner, und im Kampf in der Waffenkammer wurde mindestens ein Ork schnell niedergerungen.\nDie Orks stehen in einem Konflikt mit Kultisten, da beide Seiten bewaffnet in Richtung des Haupttors rennen. Im Hof sind die Leichen von Orks und Kultisten zu sehen, was auf einen Kampf oder eine Auseinandersetzung hinweist. Auf einen Warnruf hin stürmten der Jäger-Anführer und weitere Orks einer Bedrohung entgegen und kämpften gegen mehrere riesenhafte humanoide Gestalten. Die Orks griffen gestaffelt mit Netzen, Schleudern und anderen Waffen an, fingen einen der riesenhaften Gegner mit einem Netz ein und hielten ihn fest. Anschließend gingen die Orks in die nahegelegene Hütte mit Feuerstelle und verbrachten den restlichen Tag damit, den brennenden, umgestürzten Baum zu löschen und zu zerlegen, damit das Boot weiterfahren konnte. Der Kampf, der sich entfaltet, ist chaotisch und gewalttätig, was die aggressive Natur der Orks unterstreicht.\nOrks treten als feindliche Gegner auf. Mehrere Orks wurden im Gefecht getötet. Bei einem Kampf lagen tote Zwerge und tote Orks an dem Ort, von dem Dîn-io Tempest und Surina Nemmonis Edelsteine an sich nahmen. Dîn-io Tempest berichtete, die toten Orks seien von Flint, dem König, aufgebrannt worden. Bei mindestens einem der bekämpften Orks wurde ein Brief gefunden, auf dem zwei Namen standen, von denen einer durchgestrichen war.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Ork"
+            ],
+            "tcg_image": null,
+            "merge": true,
+            "created_at": "2026-03-20T21:01:12.039000",
+            "updated_at": null
+        },
+        {
+            "id": "bjd5lqcksxpb2imgxq6tf6fq",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Befreier",
+            "description": "Die Befreier sind eine Gruppe von Abenteurern, die in einer Kutsche reisen und sich in einer gefährlichen Situation mit Verfolgern konfrontiert sehen. Die Gruppe besteht aus mehreren Mitgliedern, darunter Surina, Rosco, Brennen, Gwendolyn und Dîn-io, von denen zwei halblinghaft sind. Sie operieren in einer Region, die von Burgen und Städten geprägt ist.\nDie Befreier wurden von Verfolgern, darunter Orks und ein vermummter Mensch, verfolgt, als sie in die Kutsche einstiegen und schnell in Bewegung setzten. Während der Flucht feuerten sie mit einem Geschütz auf ihre Verfolger, was zu Verletzungen unter den Angreifern führte. Die Kutsche setzte ihre Fahrt ohne Halt fort, während die Gruppe sich gegenseitig unterstützte, indem sie Verletzungen heilte und Wachen abwechselte. Während der Nachtfahrt begegneten sie einer Handelskarawane, die sich in eine Wagenburg formierte, als die Kutsche näherkam.\nIn der Dunkelheit entfernte sich Surina von der Gruppe und ging in den Wald. Als die anderen Mitglieder der Befreier bemerkten, dass sie fehlte, suchten sie nach ihr. Dîn-io und die beiden halblinghaften Befreier suchten im Wald, während Brennen und Gwendolyn hinterherkamen. Während ihrer Suche hörten sie ein Echo, das Surinas Summen nachahmte. Schließlich fanden sie Surina wieder, die in der Nähe der Kutsche war, aber die Gruppe wurde dann von humanoiden, flammenden Gestalten angegriffen. Die Befreier reagierten schnell, indem sie die schlafenden Mitglieder in die Kutsche zogen und sich in Sicherheit brachten, während sie das Geschütz gegen die Flammengestalten einsetzten.\nNach der Flucht erreichten die Befreier eine große, ummauerte Stadt, wo sie zunächst auf Alarm stießen, aber schließlich durch das Tor gelassen wurden. In der Stadt suchte Dîn-io nach Informationen über unsichtbare, einschläfernde Geisterwesen in einer Bibliothek, während Brennen in einem Park betete.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "die beiden halblinghaften Befreier",
+                "die Befreier"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-03-20T16:44:58.991000",
+            "updated_at": null
+        },
+        {
+            "id": "zto2p4rpf341t0di01kokk3d",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Flammengestalten",
+            "description": "Der Schütze, bekannt als Grob, sitzt am Geschütz der Kutsche und feuert Bolzen auf die Verfolger ab. Er kann mehrere Bolzen gleichzeitig abfeuern und demonstriert dies während einer Verfolgung, indem er drei Bolzen in Richtung der Angreifer schießt und zwei von ihnen verletzt. Grob steuert die Kutsche während der Flucht und bestätigt die Route nach Süden.\nAls die Gruppe von Flammengestalten verfolgt wird, nimmt Grob das Geschütz in raschem Feuer auf die Wesen und trifft eine der Flammengestalten, die daraufhin in einer großen Feuerkugel explodiert. Während der weiteren Flucht verweigert Grob Brennen Auskunft über die Natur der flammenden Wesen und äußert, dass Unwissen hier besser sei. Am nächsten Tag stellt sich Grob als der Schütze vor, als die Kutsche in einer großen, ummauerten Stadt ankommt.",
+            "type": "NPC",
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-03-20T16:44:58.820000",
+            "updated_at": null
+        },
+        {
+            "id": "s3jtqqudzxogzectoaztik7i",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Wachen von Briarwatch",
+            "description": "Die Wachen von Briarwatch sind eine militärische Einheit, die in Briarwatch operiert. Sie sind für die Sicherheit und Ordnung in der Region verantwortlich und nehmen an verschiedenen gesellschaftlichen Ereignissen teil. Die Wachen tragen eine einheitliche Kleidung, die mit dem Briarwatch-Wappen versehen ist.\nBriarwatch ist eine Institution, die nicht direkt in die Angelegenheiten zwischen den Häusern eingreift und nicht als Haus im traditionellen Sinne betrachtet wird. Die Gruppe hat durch ihre Taten im Norden Aufmerksamkeit erregt, was zu ihrer Einladung zum Mondfest führte. Briarwatch hat Einfluss in der Region, und es gilt als Ehre, eine Einladung von ihnen zu erhalten.\nWährend einer Feierlichkeit halfen zwei Wachen von Briarwatch einem Mitglied der Gruppe, Brennen Voidridge, als er in einen See fiel. Sie zogen ihn ans Ufer und hielten ihn fest, bis er wieder festen Halt hatte. Die Wachen wiesen Brennen Voidridge an, nicht im See zu baden, und zogen ihn weiter vom Ufer weg.\nWährend des Mondfestes wurden mehrere Töchter entführt, was Besorgnis und Verdacht unter den Anwesenden auslöste. Brennen Voidridge äußerte den Verdacht, dass die Entführungen im Zusammenhang mit Ritualen stehen könnten. Seres, eine Vertreterin von Briarwatch, erklärte, dass die verschwundenen Mädchen nicht Ziel der „Jagd“ seien und vermutete, dass sie aufgrund ihrer Väter entführt wurden. Sie warnte die Gruppe, dass die Interessen von Briarwatch nicht unbedingt mit ihren übereinstimmen. Brennen fand ein Pergament mit dem dunkelgrünen Siegel von Briarwatch, das eine Einladung zum Mondfest enthielt, jedoch ohne spezifische Angaben zu Absender oder Empfänger.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": true,
+            "created_at": "2026-03-18T21:07:48.002000",
+            "updated_at": null
+        },
+        {
             "id": "ybluxiqsvzgjndk94i16uw2b",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "name": "Hammers of Moradin",
+            "description": "Die Hammers of Moradin sind eine Gruppierung von Paladinen und Klerikern, die in einer Festung operieren. Kürzlich wurden sie von Untoten und Schatten angegriffen, was zu schweren Verlusten führte, darunter 15 Tote und zahlreiche Gefangene, die für Opferungen vorgesehen waren. Der Angriff deutet auf eine organisierte feindliche Streitmacht hin, die von einem Magier angeführt wurde.\nNach dem Angriff wurden in der Festung Maßnahmen zur Verteidigung und Versorgung ergriffen. Eine Weihwasser-Löschanlage-Löschanlage wurde in Auftrag gegeben, um gezielt gegen die Bedrohung durch Untote vorzugehen. Zudem wurden Gespräche über die magische Verteidigung der Festung geführt. Alagos, ein Mitglied der Hammers of Moradin, wurde auf Necromantie angesprochen, was in Anbetracht der Bedrohung durch Untote von Bedeutung ist. Khorum wurde aus der Gemeinschaft verbannt und ins Exil geschickt. Die Hammers of Moradin zeigen damit eine klare Reaktion auf interne und externe Bedrohungen.",
+            "type": null,
+            "image": null,
             "aliases": [
                 "Hammers"
             ],
-            "type": null,
-            "description": "Die Hammers of Moradin sind eine Gruppierung von Paladinen und Klerikern, die in einer Festung operieren. Kürzlich wurden sie von Untoten und Schatten angegriffen, was zu schweren Verlusten führte, darunter 15 Tote und zahlreiche Gefangene, die für Opferungen vorgesehen waren. Der Angriff deutet auf eine organisierte feindliche Streitmacht hin, die von einem Magier angeführt wurde.\nNach dem Angriff wurden in der Festung Maßnahmen zur Verteidigung und Versorgung ergriffen. Eine Weihwasser-Löschanlage-Löschanlage wurde in Auftrag gegeben, um gezielt gegen die Bedrohung durch Untote vorzugehen. Zudem wurden Gespräche über die magische Verteidigung der Festung geführt. Alagos, ein Mitglied der Hammers of Moradin, wurde auf Necromantie angesprochen, was in Anbetracht der Bedrohung durch Untote von Bedeutung ist. Khorum wurde aus der Gemeinschaft verbannt und ins Exil geschickt. Die Hammers of Moradin zeigen damit eine klare Reaktion auf interne und externe Bedrohungen.",
-            "image": null,
             "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
+            "merge": false,
+            "created_at": "2026-03-08T21:53:43.026000",
+            "updated_at": null
         },
         {
-            "created_at": "2026-03-07T16:50:26.714000",
-            "updated_at": null,
             "id": "sx1n46wkk5toh7cxkbil5gmf",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "name": "Gefangene",
-            "aliases": [],
-            "type": null,
             "description": "Die Gefangenen sind eine Gruppe, die in einem Lager von Skelettmenschen gefangen gehalten wird. Während eines Übergriffs auf das Lager versuchen sie zu fliehen, als sich die Gelegenheit bietet. Im Chaos des Kampfes gelingt es einigen von ihnen, zu entkommen, jedoch wird einer von ihnen von einer Gruppe Skelette eingeholt und wieder gefangen genommen. Ihre Fluchtversuche sind durch die Übermacht der Orcs und Skelette stark gefährdet.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": true
-        },
-        {
-            "created_at": "2026-03-07T16:50:26.692000",
-            "updated_at": null,
-            "id": "gju8cf9wb3sm4fnkh9vzdcuu",
-            "name": "Skelette",
-            "aliases": [],
             "type": null,
-            "description": "Die Skelette sind eine Gruppe von Untoten, die in einem Lager mit etwa 20 bis 30 Zelten organisiert sind. Sudur Ragni nimmt die Anwesenheit von circa 15 bis 20 Untoten wahr. Das Lager der Skelette stellt eine ernstzunehmende Bedrohung dar. Eine Gruppe plant einen Angriff auf das Lager der Skelette. Flint Fireforge infiltriert das Lager, um Gefangene zu befreien, was zu einem offenen Gefecht gegen die Skelette und Orcs führt. Während des Kampfes erscheint der Anführer der Skelette, was die Situation eskaliert. Die Gruppe sieht sich einer größeren, koordinierten Masse aus Orcs und Skeletten gegenüber. Die Orcs sind eine aggressive und koordinierte Bedrohung, die ebenfalls in einem Lager mit etwa 20 bis 30 Zelten leben und zusammen mit den Skeletten kämpfen, wodurch sie eine zahlenmäßige Übermacht darstellen. Während eines Übergriffs blockieren zwei Orcs den Weg zu den Gefangenen, was zu einem offenen Kampf führt. Im Verlauf des Kampfes formiert sich eine größere Masse aus Orcs und Skeletten, die die Gruppe umzingelt und unter Druck setzt.",
             "image": null,
+            "aliases": [],
             "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
+            "merge": true,
+            "created_at": "2026-03-07T16:50:26.714000",
+            "updated_at": null
         },
         {
-            "created_at": "2026-03-07T15:26:27.133000",
-            "updated_at": null,
+            "id": "gju8cf9wb3sm4fnkh9vzdcuu",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Skelette",
+            "description": "Die Skelette sind eine Gruppe von Untoten, die in einem Lager mit etwa 20 bis 30 Zelten organisiert sind. Sudur Ragni nimmt die Anwesenheit von circa 15 bis 20 Untoten wahr. Das Lager der Skelette stellt eine ernstzunehmende Bedrohung dar. Eine Gruppe plant einen Angriff auf das Lager der Skelette. Flint Fireforge infiltriert das Lager, um Gefangene zu befreien, was zu einem offenen Gefecht gegen die Skelette und Orcs führt. Während des Kampfes erscheint der Anführer der Skelette, was die Situation eskaliert. Die Gruppe sieht sich einer größeren, koordinierten Masse aus Orcs und Skeletten gegenüber. Die Orcs sind eine aggressive und koordinierte Bedrohung, die ebenfalls in einem Lager mit etwa 20 bis 30 Zelten leben und zusammen mit den Skeletten kämpfen, wodurch sie eine zahlenmäßige Übermacht darstellen. Während eines Übergriffs blockieren zwei Orcs den Weg zu den Gefangenen, was zu einem offenen Kampf führt. Im Verlauf des Kampfes formiert sich eine größere Masse aus Orcs und Skeletten, die die Gruppe umzingelt und unter Druck setzt.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-03-07T16:50:26.692000",
+            "updated_at": null
+        },
+        {
             "id": "njsovu07a9u6s8ky8aajbt2x",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "name": "Ardeep Forest Elfen",
+            "description": "Die Berittenen Elfen aus dem Norden sind eine militärische Fraktion, die aktiv in Konflikte eingreift. Sie erscheinen während Kämpfen gegen Orcs und verfolgen flüchtende Orcs, um die Bedrohung vollständig zu beseitigen. Ihr Anführer, Ront, tritt nach dem Kampf in Kontakt mit Khorum.\n\nNach dem erfolgreichen Kampf und der Beseitigung der Orcs wird die Anwesenheit der Berittenen Elfen als neue Präsenz auf dem Schlachtfeld wahrgenommen. Ront stellt sich als Anführer der Elfen vor, was den ersten direkten Austausch zwischen der Gruppe und den Elfen darstellt.",
+            "type": null,
+            "image": null,
             "aliases": [
                 "Berittene Elfen",
                 "Elfen"
             ],
-            "type": null,
-            "description": "Die Berittenen Elfen aus dem Norden sind eine militärische Fraktion, die aktiv in Konflikte eingreift. Sie erscheinen während Kämpfen gegen Orcs und verfolgen flüchtende Orcs, um die Bedrohung vollständig zu beseitigen. Ihr Anführer, Ront, tritt nach dem Kampf in Kontakt mit Khorum.\n\nNach dem erfolgreichen Kampf und der Beseitigung der Orcs wird die Anwesenheit der Berittenen Elfen als neue Präsenz auf dem Schlachtfeld wahrgenommen. Ront stellt sich als Anführer der Elfen vor, was den ersten direkten Austausch zwischen der Gruppe und den Elfen darstellt.",
-            "image": null,
             "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
+            "merge": false,
+            "created_at": "2026-03-07T15:26:27.133000",
+            "updated_at": null
         },
         {
-            "created_at": "2026-03-07T15:01:38.945000",
-            "updated_at": null,
             "id": "mzwc5cdfcjyl91angd8jrw2f",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "name": "Orc-Horde",
+            "description": "Die Orc-Horde stellt eine Bedrohung dar, die sich aus dem Norden der Burg nähert. Diese Horde hat Gewalt ausgeübt, was durch die Tötung von drei Kultisten belegt wird. Die Anwesenheit der Orc-Horde verstärkt die chaotische und instabile Lage, in der verschiedene feindliche Kräfte aufeinandertreffen. Die Horde ist Teil eines komplexen Konflikts, der mehrere Gruppen umfasst und die Situation weiter eskalieren lässt.\nDie Orcs sind eine aggressive und kriegerische Fraktion, die als direkte Bedrohung auftrat und aus mehreren Richtungen angreift. Während eines Kampfes wurde ein Orc von einem Skelettanführer getötet. Alagos, ein Mitglied der Gruppe, belebt zwei gefallene Orcs wieder, die fortan für ihn kämpfen, was die Dynamik des Kampfes verändert. Ein Orc-Zombie wird von Alagos auf einen Kultisten gehetzt. Die Gruppe zieht sich geordnet zurück, während die Orcs und ihre Verbündeten, die Kultisten, ihre Verfolgung abbrechen.\nDie Orc-Horde wurde in einem Kampf besiegt, wodurch die unmittelbare Gefahr ausgeschaltet wurde. Einige Orcs versuchten zu fliehen, wurden jedoch von berittenen Elfen verfolgt und getötet, sodass keine Orcs entkamen. Die Auseinandersetzung war dynamisch, da einige Orcs versuchten zu fliehen. Die Elfen aus dem Norden beseitigten den restlichen Widerstand und beendeten den Kampf vollständig. Nach den Kämpfen wurde das Schlachtfeld durchsucht, was den Übergang zur Auswertung des Geschehenen markierte. Die Gruppe traf sich anschließend in der Dorfmitte. Die Flucht der Gruppe nach Hammerhåeim wurde durch die Bedrohung der Orcs und die Kontrolle, die Alagos über das Schlachtfeld ausübte, beeinflusst.",
+            "type": null,
+            "image": null,
             "aliases": [
                 "Orcs"
             ],
-            "type": null,
-            "description": "Die Orc-Horde stellt eine Bedrohung dar, die sich aus dem Norden der Burg nähert. Diese Horde hat Gewalt ausgeübt, was durch die Tötung von drei Kultisten belegt wird. Die Anwesenheit der Orc-Horde verstärkt die chaotische und instabile Lage, in der verschiedene feindliche Kräfte aufeinandertreffen. Die Horde ist Teil eines komplexen Konflikts, der mehrere Gruppen umfasst und die Situation weiter eskalieren lässt.\nDie Orcs sind eine aggressive und kriegerische Fraktion, die als direkte Bedrohung auftrat und aus mehreren Richtungen angreift. Während eines Kampfes wurde ein Orc von einem Skelettanführer getötet. Alagos, ein Mitglied der Gruppe, belebt zwei gefallene Orcs wieder, die fortan für ihn kämpfen, was die Dynamik des Kampfes verändert. Ein Orc-Zombie wird von Alagos auf einen Kultisten gehetzt. Die Gruppe zieht sich geordnet zurück, während die Orcs und ihre Verbündeten, die Kultisten, ihre Verfolgung abbrechen.\nDie Orc-Horde wurde in einem Kampf besiegt, wodurch die unmittelbare Gefahr ausgeschaltet wurde. Einige Orcs versuchten zu fliehen, wurden jedoch von berittenen Elfen verfolgt und getötet, sodass keine Orcs entkamen. Die Auseinandersetzung war dynamisch, da einige Orcs versuchten zu fliehen. Die Elfen aus dem Norden beseitigten den restlichen Widerstand und beendeten den Kampf vollständig. Nach den Kämpfen wurde das Schlachtfeld durchsucht, was den Übergang zur Auswertung des Geschehenen markierte. Die Gruppe traf sich anschließend in der Dorfmitte. Die Flucht der Gruppe nach Hammerhåeim wurde durch die Bedrohung der Orcs und die Kontrolle, die Alagos über das Schlachtfeld ausübte, beeinflusst.",
-            "image": null,
             "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": true
+            "merge": true,
+            "created_at": "2026-03-07T15:01:38.945000",
+            "updated_at": null
         },
         {
-            "created_at": "2026-03-07T15:01:38.876000",
-            "updated_at": null,
             "id": "qyfy8lfoozce3qm01lf0qfxw",
-            "name": "Nightstone Stadtwache",
-            "aliases": [],
-            "type": null,
-            "description": "Die Burgwache besteht aus vier jungen Wachen, die als schwächlich beschrieben werden. Diese Wachen halten in der Burg Stellung, was die Verteidigung unsicher erscheinen lässt. Die Burg selbst ist unzureichend gesichert, was die Lage zusätzlich gefährdet.\n\nIn einer angespannten Situation, die durch den Tod von Lady Velrosa Nandar geprägt ist, versucht die Burgwache, Ordnung in das Chaos zu bringen. Alagos, ein Mitglied der Burgwache, verhört Kella Darkhope, um die Hintergründe der Ereignisse zu klären. Währenddessen nähert sich eine Orc-Horde aus dem Norden, was eine akute äußere Bedrohung darstellt. In der Folge werden Kultisten getötet, und die Orc-Horde tötet ebenfalls drei Kultisten, was die chaotische Mehrfrontenlage unterstreicht.\n\nNach dem Orc-Angriff in der Stadt sind die Stadtwachen von Nightstone eine Gruppe, die verblieben ist. Sie spielen eine wichtige Rolle in der politischen und zwischenmenschlichen Lage des Ortes, insbesondere in der Zeit nach dem Angriff, als sie sich mit den Bürgern über die Zukunft von Nightstone abstimmen. Die Stadtwachen sind in Gespräche involviert, um zu klären, wer Verantwortung übernimmt und wie mit den Folgen des Angriffs umgegangen werden soll. Sie sind entscheidend für die Aufrechterhaltung der Ordnung und der Sicherheit in der Stadt.",
-            "image": null,
-            "tcg_image": null,
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": true
+            "name": "Stadtwache von Nightstone",
+            "description": "Die Burgwache besteht aus vier jungen Wachen, die als schwächlich beschrieben werden. Diese Wachen halten in der Burg Stellung, was die Verteidigung unsicher erscheinen lässt. Die Burg selbst ist unzureichend gesichert, was die Lage zusätzlich gefährdet.\n\nIn einer angespannten Situation, die durch den Tod von Lady Velrosa Nandar geprägt ist, versucht die Burgwache, Ordnung in das Chaos zu bringen. Alagos, ein Mitglied der Burgwache, verhört Kella Darkhope, um die Hintergründe der Ereignisse zu klären. Währenddessen nähert sich eine Orc-Horde aus dem Norden, was eine akute äußere Bedrohung darstellt. In der Folge werden Kultisten getötet, und die Orc-Horde tötet ebenfalls drei Kultisten, was die chaotische Mehrfrontenlage unterstreicht.\n\nNach dem Orc-Angriff in der Stadt sind die Stadtwachen von Nightstone eine Gruppe, die verblieben ist. Sie spielen eine wichtige Rolle in der politischen und zwischenmenschlichen Lage des Ortes, insbesondere in der Zeit nach dem Angriff, als sie sich mit den Bürgern über die Zukunft von Nightstone abstimmen. Die Stadtwachen sind in Gespräche involviert, um zu klären, wer Verantwortung übernimmt und wie mit den Folgen des Angriffs umgegangen werden soll. Sie sind entscheidend für die Aufrechterhaltung der Ordnung und der Sicherheit in der Stadt.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": true,
+            "created_at": "2026-03-07T15:01:38.876000",
+            "updated_at": null
         },
         {
-            "created_at": "2026-03-06T16:00:54.618000",
-            "updated_at": null,
             "id": "yuk9yetrm84jdopzq23xcb8t",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "name": "Goblins",
+            "description": "Die Goblins sind eine aggressive Fraktion, die in der Umgebung von Nightstone aktiv ist. Sie verfügen über eine nennenswerte Menge an Ausrüstung und Material, darunter Waffen und Ausrüstung wie Krummsäbel, Rundschilde, Kurzbögen, Eisenplatten und Lederriemen. In einer Begegnung in der Kirche von Nightstone wurden zwei Goblins entdeckt, die die Glocke läuteten, was die Unruhe im Dorf erklärte. Ihre Anwesenheit in einem heiligen Raum zeigt, dass sie in der Lage sind, geschützte Orte zu infiltrieren und zu stören. Die Goblins sind eine feindliche Präsenz, die in mehreren Kämpfen gegen die Gruppe auftritt. Zu Beginn wird ein Goblin durch einen Katapult-Zauber von Flint Fireforge getötet. Ein weiterer Goblin fällt, als Alagos Toll of the Dead einsetzt und Khorum Ironfist einen Bolzen abfeuert. Während die Gruppe mehrere Gebäude durchsucht, kommt es wiederholt zu Kämpfen mit weiteren Goblins, was die Umgebung als unsicher und gefährlich kennzeichnet. Im Verlauf der Erkundung wird eines der Gebäude als Haus der Lionshield Coster identifiziert. Die Gruppe trifft in einer Taverne auf Sudur Ragni und Kella Darkhope. Flint Fireforge entwaffnet Sudur Ragni und Kella Darkhope, was die Dynamik der Begegnung verändert. Die Gruppe setzt ihre Erkundung in einer feindlichen Umgebung fort, in der sie kontinuierlich auf Goblins trifft.\nDie Goblins sind eine Fraktion, die als Bedrohung auftrat. Gwerk und Flint töteten gemeinsam die Goblins, wodurch diese Bedrohung beendet wurde. Gwerk stach den ersten Goblin ab und äußerte dabei eine persönliche Bemerkung, die auf eine vorherige negative Erfahrung mit diesem Goblin hinweist. Die Gruppe hatte zuvor gegen Orcs und Goblins gekämpft. Flint erwarb Kenntnisse in der Sprache Goblinisch und vereinbarte, in den nächsten Wochen von Gwerk Goblinisch zu lernen.\nDie Goblins sind auch in der Lage, Verhandlungen zu führen, was zu Lösungen ohne Gewalt führt. Sie operieren in einer Höhle und haben zuvor Dorfbewohner entführt. Die Verwendung der Goblin-Sprache ermöglicht es, Missverständnisse zu vermeiden und Situationen zu deeskalieren. Die Verhandlungen mit den Goblins führten zur Freilassung der gefangenen Dorfbewohner. Nach der erfolgreichen Verhandlung verließen die Abenteurer die Höhle mit den befreiten Bewohnern und traten den Rückweg nach Nightstone an. Die unmittelbare Bedrohung durch die Goblins für Nightstone wurde als beendet angesehen.\nDie Goblins bestanden aus drei Mitgliedern, die sich bei einer Kutsche positionierten. Sie warfen eine Granate, die zwei Gegner zu Boden drückte, während die oberen Goblins sich mit ihren Schilden schützten. Ein Goblin feuerte mit einer Armbrust und traf. Die Goblins an der Kutsche schossen später, verfehlten jedoch. Die Goblins in der Nähe von Gwendolyn Silverflame riefen „Geht raus!“, standen auf und griffen Surina Nemmonis mit Kurzschwertern an; ein Goblin traf, während ein anderer verfehlte. Die oberen Goblins feuerten drei Armbrustbolzen ab, die niemand trafen. Die Goblins von unten schossen mehrfach Bolzen, wobei zeitweise ein Bolzen den Hauptgoblin neben Surina Nemmonis traf. In späteren Runden blieben die vier Goblins untätig, bis weitere Schussaktionen folgten.\nDie Worge sind große, wolfartige Kreaturen, die ebenfalls in der Umgebung von Nightstone vorkommen. Während eines Angriffs auf eine Gruppe, bestehend aus Sudur Ragni, Flint Fireforge, Khorum Ironfist und Alagos, griff Alagos die Worge mit einem Firebolt an. Einer der Worge wurde durch diesen Angriff entzündet und floh, während der andere Worg Flint Fireforge niederstreckte und kurz darauf starb. Äon Kalfr stabilisierte und heilte Flint, was die Gefährlichkeit dieser Kreaturen und die Bedrohung, die sie für die Gruppe darstellen, verdeutlicht.",
+            "type": null,
+            "image": null,
             "aliases": [
                 "Worg",
                 "Worge"
             ],
-            "type": null,
-            "description": "Die Goblins sind eine aggressive Fraktion, die in der Umgebung von Nightstone aktiv ist. Sie verfügen über eine nennenswerte Menge an Ausrüstung und Material, darunter Waffen und Ausrüstung wie Krummsäbel, Rundschilde, Kurzbögen, Eisenplatten und Lederriemen. In einer Begegnung in der Kirche von Nightstone wurden zwei Goblins entdeckt, die die Glocke läuteten, was die Unruhe im Dorf erklärte. Ihre Anwesenheit in einem heiligen Raum zeigt, dass sie in der Lage sind, geschützte Orte zu infiltrieren und zu stören. Die Goblins sind eine feindliche Präsenz, die in mehreren Kämpfen gegen die Gruppe auftritt. Zu Beginn wird ein Goblin durch einen Katapult-Zauber von Flint Fireforge getötet. Ein weiterer Goblin fällt, als Alagos Toll of the Dead einsetzt und Khorum Ironfist einen Bolzen abfeuert. Während die Gruppe mehrere Gebäude durchsucht, kommt es wiederholt zu Kämpfen mit weiteren Goblins, was die Umgebung als unsicher und gefährlich kennzeichnet. Im Verlauf der Erkundung wird eines der Gebäude als Haus der Lionshield Coster identifiziert. Die Gruppe trifft in einer Taverne auf Sudur Ragni und Kella Darkhope. Flint Fireforge entwaffnet Sudur Ragni und Kella Darkhope, was die Dynamik der Begegnung verändert. Die Gruppe setzt ihre Erkundung in einer feindlichen Umgebung fort, in der sie kontinuierlich auf Goblins trifft.\nDie Goblins sind eine Fraktion, die als Bedrohung auftrat. Gwerk und Flint töteten gemeinsam die Goblins, wodurch diese Bedrohung beendet wurde. Gwerk stach den ersten Goblin ab und äußerte dabei eine persönliche Bemerkung, die auf eine vorherige negative Erfahrung mit diesem Goblin hinweist. Die Gruppe hatte zuvor gegen Orcs und Goblins gekämpft. Flint erwarb Kenntnisse in der Sprache Goblinisch und vereinbarte, in den nächsten Wochen von Gwerk Goblinisch zu lernen.\nDie Goblins sind auch in der Lage, Verhandlungen zu führen, was zu Lösungen ohne Gewalt führt. Sie operieren in einer Höhle und haben zuvor Dorfbewohner entführt. Die Verwendung der Goblin-Sprache ermöglicht es, Missverständnisse zu vermeiden und Situationen zu deeskalieren. Die Verhandlungen mit den Goblins führten zur Freilassung der gefangenen Dorfbewohner. Nach der erfolgreichen Verhandlung verließen die Abenteurer die Höhle mit den befreiten Bewohnern und traten den Rückweg nach Nightstone an. Die unmittelbare Bedrohung durch die Goblins für Nightstone wurde als beendet angesehen.\nDie Worge sind große, wolfartige Kreaturen, die ebenfalls in der Umgebung von Nightstone vorkommen. Während eines Angriffs auf eine Gruppe, bestehend aus Sudur Ragni, Flint Fireforge, Khorum Ironfist und Alagos, griff Alagos die Worge mit einem Firebolt an. Einer der Worge wurde durch diesen Angriff entzündet und floh, während der andere Worg Flint Fireforge niederstreckte und kurz darauf starb. Äon Kalfr stabilisierte und heilte Flint, was die Gefährlichkeit dieser Kreaturen und die Bedrohung, die sie für die Gruppe darstellen, verdeutlicht.",
-            "image": null,
             "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": true
+            "merge": true,
+            "created_at": "2026-03-06T16:00:54.618000",
+            "updated_at": null
         },
         {
-            "created_at": "2026-03-06T10:49:03.275000",
-            "updated_at": null,
             "id": "f6vhlli1z8kxjpz2jgqbg459",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "name": "Stadtwache von Scornubel",
-            "aliases": [],
-            "type": null,
             "description": "Die Stadtwache von Scornubel ist eine autorisierte Organisation, die für die Sicherheit und Ordnung in der Stadt verantwortlich ist. Sie berichtet über aktuelle Informationen zu den Geschehnissen in der Region, einschließlich der Aussage, dass Elturel nicht mehr existiere, basierend auf Berichten von Flüchtlingen. Die Stadtwache hat die Fähigkeit, die Bevölkerung über Bedrohungen zu informieren.",
+            "type": null,
             "image": null,
+            "aliases": [],
             "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
+            "merge": true,
+            "created_at": "2026-03-06T10:49:03.275000",
+            "updated_at": null
         },
         {
-            "created_at": "2026-03-05T08:49:42.743000",
-            "updated_at": null,
             "id": "eqqk9h9rqk5ygusek9702hn7",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "name": "Hafenwache von Waterdeep",
-            "aliases": [],
-            "type": null,
             "description": "Die Hafenwache ist eine militärische Organisation, die in Waterdeep operiert. Sie ist für die Sicherheit und Ordnung im Hafenbereich zuständig und arbeitet eng mit der Stadtwache zusammen. Die Hafenwache ist mit gut gekleideten und gerüsteten Soldaten besetzt, die nicht das Wappen von Waterdeep tragen, was auf eine gewisse Unabhängigkeit oder spezielle Aufgaben hinweisen könnte.\n\nAm 25. Uktar wurden Reisende bei der Ankunft eines Konvois von einem gemischten Komitee aus Stadtwache und Hafenwache empfangen. Die Hafenwache wies die Reisenden an, an einer speziellen Anlegestelle für wertvolle Fracht und Schiffe festzumachen, anstatt den offenen Hafen im Dogwards anzulaufen. Sie begleitete die Reisenden zur Zollabhandlung und stellte sicher, dass sie in eine robuste Kutsche stiegen, um zur Befragung gebracht zu werden.\n\nDie Hafenwache zeigte sich als gut organisiert und in der Lage, schnell zu reagieren, als berittene Truppen entsandt wurden, um aufkommende Situationen zu bewältigen.",
+            "type": null,
             "image": null,
+            "aliases": [],
             "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
+            "merge": false,
+            "created_at": "2026-03-05T08:49:42.743000",
+            "updated_at": null
         },
         {
-            "created_at": "2026-03-05T08:49:42.726000",
-            "updated_at": null,
             "id": "lnuqs3nz5ubfc83wq9hjj1xm",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "name": "Stadtwache von Waterdeep",
-            "aliases": [],
-            "type": null,
             "description": "Die Stadtwache von Waterdeep ist eine autorisierte Organisation, die für die Sicherheit und Ordnung in der Stadt verantwortlich ist. Sie arbeitet in Zusammenarbeit mit der Hafenwache und anderen militärischen Einheiten, um die Einhaltung der Gesetze zu gewährleisten und die Stadt vor Bedrohungen zu schützen. Die Stadtwache hat eine Präsenz am Hafen, wo sie ankommende Schiffe und deren Besatzungen kontrolliert und zur Zollabhandlung auffordert.\nDie Stadtwache koordiniert die Ankunft von Reisenden in Waterdeep. Sie empfängt Reisende am Dock und leitet sie in eine Kutsche zur Befragung. Während dieser Befragung bleiben die Reisenden unbewaffnet, jedoch nicht gefesselt. Die Stadtwache überwacht auch den Konvoi, der die Reisenden nach Briarwatch eskortiert, und bleibt am Stadttor zurück, während berittene Soldaten mit unbekanntem Wappen die Kutschen weiter begleiten.\nDie Stadtwache führt ihre Aufgaben effizient aus, indem sie schnell berittene Truppen entsendet und die bürokratischen Abläufe im Torhaus von Briarwatch abwickelt.",
+            "type": null,
             "image": null,
+            "aliases": [],
             "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": true
+            "merge": true,
+            "created_at": "2026-03-05T08:49:42.726000",
+            "updated_at": null
         },
         {
-            "created_at": "2026-03-05T08:49:42.709000",
-            "updated_at": null,
             "id": "xk1xm86cs7sxn57dr56svwgo",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "name": "Magier von Niewinter",
-            "aliases": [],
-            "type": null,
             "description": "Die Magier der Stadt sind eine autorisierte Gruppe, die in Niewinta operiert und an der Sicherung eines Risses beteiligt war, der von Kultisten, die als Zentharim vermutet werden, bedroht wurde. Sie haben zusammen mit der Stadtwache und anderen Gruppen an der Stabilisierung von Niewinta gearbeitet. Ihre Aktivitäten umfassten Festnahmen und Befragungen, um die Sicherheit der Stadt zu gewährleisten.\n\nNach der Stabilisierung von Niewinta wurde ein Bote aus Briarwatch entsandt, um eine Einladung an die Gruppe um Gwendolyn Silverflame zu überbringen. Die Einladung forderte die Gruppe auf, bis zum 25. Uktar in Waterdeep zu sein, um am 30. Uktar in Briarwatch empfangen zu werden.",
+            "type": null,
             "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
-        },
-        {
-            "created_at": "2026-02-21T13:00:34.989000",
-            "updated_at": null,
-            "id": "tvqfsvrefu77mr60wswni2h7",
-            "name": "Lionsschild Coster",
             "aliases": [],
-            "type": null,
-            "description": "Die Lionsschild Coster ist eine Händlergilde, die stadtübergreifende Geldtransfers, magische Schließfächer und Kommunikationsdienste, wie den Einsatz von Sending Stones, gegen Gebühren anbietet. Sie ist eine der größten nicht-politischen und nicht-militärischen Organisationen und erstreckt ihre Aktivitäten über mehrere Städte.\nDie Lionsschild Coster ermöglicht es, Geld in einer Stadt einzuzahlen und in einer anderen abzuheben. Zudem bietet die Gilde magische Lösungen für die sichere Aufbewahrung von Werten an.",
-            "image": null,
             "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
-        },
-        {
-            "created_at": "2026-02-21T11:02:31.960000",
-            "updated_at": null,
-            "id": "eufr9nlu2qtw8hdhzwl4pbxi",
-            "name": "Die Letzten Drei",
-            "aliases": [],
-            "type": null,
-            "description": "Die Letzten Drei sind eine mysteriöse Entität, zu der Naomi gehört, die als „der Schild, das Urteil, der Wille zur Ordnung“ bezeichnet wird. Die anderen beiden Mitglieder sind „Die Hüterin des Mondes“ und „Der Rufe der Legionen“. Sie wurden geschaffen oder verflucht, um das Tor zu bewachen, agieren jedoch niemals zusammen. Ihre Präsenz ist mit Kälte verbunden, die in der Bibliothek spürbar wird, und es wird gesagt, dass in ihrer Nähe jede Wärme stirbt.\nDie Letzten Drei existieren nicht nur in der Vergangenheit, sondern auch gegenwärtig. Während einer Interaktion in der Bibliothek wird die Temperatur drastisch reduziert, was als Erinnerung an Die Letzten Drei gedeutet wird. Naomi tötet nicht aus Laune, sondern nur aus Notwendigkeit, was auf ihre strategische Rolle hinweist. Die Letzten Drei sind mit einem uralten Tor verbunden, das als das Tor der Wurzel bekannt ist und das Potenzial hat, alles zu verändern, was hindurchgeht.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
-        },
-        {
-            "created_at": "2026-02-21T09:32:18.346000",
-            "updated_at": null,
-            "id": "tvdx9q0uyywoeyfwjloabfaa",
-            "name": "Zentharim",
-            "aliases": [
-                "Zhentarim"
-            ],
-            "type": null,
-            "description": "Die Zentharim sind eine kriminelle Organisation, die in Niewinter operiert. Sie sind als Schlangenfraktion bekannt und mit fliegender-Schlange-Symbolik assoziiert. Die Stadtwachen betrachten die Zentharim als Hauptverdächtige für die Unruhen im südöstlichen Distrikt, wo jemand versucht, alte Siegel zu brechen, die einen Riss verschlossen halten, durch den einst ein Barghest-Angriff stattfand. Die Stadtwachen haben die Zentharim um Unterstützung bei den Ermittlungen im südlichen Distrikt gebeten, da nicht genügend Truppen zur Verfügung stehen. Bei einem Treffen mit den Stadtwachen wird die Zentharim als eine der Banden erwähnt, die für die Probleme verantwortlich gemacht werden.\nDie Zentharim ist auch mit Kultisten in Verbindung gebracht worden. Eine Gruppe um Gwendolyn Silverflame, Brennen Voidridge, Surina Nemmonis, Dîn-io Tempest und Naevys Nerizana hat in Niewinter gegen Elementare gekämpft und Hinweise auf die Zentharim entdeckt. Diese Hinweise deuten darauf hin, dass die Zentharim möglicherweise Pläne haben, einen Riss in Niewinter zu öffnen. Die Gruppe konnte die Stadtwache und die Magier von Niewinter überzeugen, den Riss zu sichern, was schließlich gelang und die Stadt stabilisierte.\nNach einigen Wochen in Niewinter erhielten sie eine Einladung von einem Boten aus Briarwatch, die sie aufgrund ihrer Taten zum Schutz der Stadt nach Waterdeep einlud. Die Einladung verlangte ihre Ankunft in Waterdeep bis zum 25. Uktar, um am 30. Uktar in Briarwatch zu sein. Nach einer Reise von etwa 20 Tagen erreichten sie Waterdeep und wurden dort von einem gemischten Komitee aus Stadtwache und Soldaten empfangen, die sie zur Zollabhandlung begleiteten. Während ihrer Zeit in Waterdeep wurden sie in Kutschen eskortiert, wobei sie eine zweite, hochwertigere Kutsche sahen, in die die Gruppe um Gwendolyn Silverflame einstieg. Der Konvoi verließ Waterdeep und kam am 30. Uktar in Briarwatch an, wo sie in das Torhaus geleitet wurden, um bürokratische Abläufe zu durchlaufen.\nDie Zentharim agiert inmitten einer komplexen Situation, die auch die Zentharim betrifft, die aus sieben berittenen Menschen unterschiedlicher Herkunft sowie einem Halb-Elfen bestehen. Diese Gruppe wird nicht als geschlossene Einheit wahrgenommen, was in der angespannten Lage der Burg Aufmerksamkeit erregt. Während die Zentharim in der Burg eintrafen, näherte sich eine Orc-Horde aus dem Norden, was eine akute äußere Bedrohung darstellte. In der Folge wurden Kultisten getötet, was die Eskalation der Gewalt verdeutlichte. Die Orc-Horde tötete darüber hinaus drei Kultisten, was die chaotische Mehrfrontenlage unterstrich.\nMehr kürzlich sind die Neun Kultisten, eine Gruppe, die auf Riesengeiern zu Zephyros’ Turm fliegt, aufgetreten. Sie fordern eine Audienz bei Zephyros, dem Wolkenriesen, und bieten ihm Feenstaub an, um ihm zu helfen, ihre Gottheit wieder zu alter Kraft zu verhelfen. Während eines Gesprächs äußert Khorum Ironfist den Verdacht, dass diese Kultisten hinter den Bedrohungen stehen, die die Gruppe bekämpft. Zephyros lehnt die Bitte der Kultisten ab und fordert sie auf, den Turm zu verlassen. Die Kultisten drohen, es sei töricht, sich gegen sie zu stellen, und verlassen daraufhin den Turm auf ihren Riesengeiern.\nZusätzlich sind die Kultisten eine geheime und gefährliche Gruppe, die in die Angelegenheiten im Norden verwickelt ist. Sie haben Flint Fireforges Vater mit seiner Armee in den Bergen nahe Longsaddle gefangen gehalten und planen dessen Tötung. Der Angriff auf Hammerhåeim wurde als Warnung für die Einmischung in ihre Vorhaben betrachtet. Flint Fireforge entdeckte während der Erkundung der Festung Hammerhåeim einen Kultisten in seinem Schlafzimmer. Flint verhörte den Kultisten gewaltsam, wobei er ihm die linke Hand zertrümmerte und ihm mehrere Bolzen in die Hände und den Bauch rammte. Trotz der Folter gab der Kultisten-Anführer keine nützlichen Informationen preis, warnte jedoch, dass der Angriff auf Hammerhåeim eine Botschaft war und dass die Kultisten Flint Fireforges Vater gefangen hielten.\nDie Kultisten sind eine Gruppe, die in karmesinroten Roben gekleidet ist und bewaffnet auftritt. Sie zeigen eine aggressive Haltung, während sie in Richtung eines Haupttors rennen. In einem Kampf sind sie zusammen mit Orks auf einem Hof zu sehen, der mit Leichen von Orks und Kultisten übersät ist. Die Kultisten und Orks agieren Seite an Seite, während sie sich auf einen bevorstehenden Konflikt vorbereiten. Die aggressive Situation deutet darauf hin, dass die Kultisten feindlich gegenüber den Orks eingestellt sind.\nDie Kultisten sind eine Gruppe, die in chaotischen Kampfgeschehen aktiv ist. Der Kultisten-Anführer befiehlt, den Angriff einzustellen und die Gruppe fliegen zu lassen, da „Wichtigeres“ anstünde. Diese Entscheidung führt dazu, dass die Kultisten ihre Verfolgung abbrechen. Ein Orc-Zombie, belebt von Alagos, verfolgt einen bekannten Kultisten. Zudem schickt dieser Kultisten-Anführer eine Fliegende Schlange los, die der Auseinandersetzung entkommt. Die Kultisten verlagern ihre Prioritäten und beenden die Verfolgung der Gruppe, was deren Rückzug ermöglicht.\nIn späteren Ereignissen erhielt die Gruppe um Gwendolyn Silverflame die Gelegenheit, vier Pferde, die Brennen zuvor zu einem sehr günstigen Preis erhandelt hatte, zurückzuerlangen.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": true
-        },
-        {
-            "created_at": "2026-02-21T09:32:18.325000",
-            "updated_at": null,
-            "id": "lac78nbdy0hlpmb0gt2i76sj",
-            "name": "Niewinter Stadtwache",
-            "aliases": [],
-            "type": null,
-            "description": "Die Stadtwache ist eine militärische Organisation, die in Niewinter für die Sicherheit und Ordnung verantwortlich ist. Sie hat ihren Sitz im kreuzförmigen Wachhaus nahe dem Hafen und ist Teil der Lords Alliance. Die Stadtwache hat Einfluss auf die Stadtverwaltung und ist befugt, Bürger zu befragen sowie bei der Aufrechterhaltung der Sicherheit zu helfen.\n\nDie Stadtwache ist mit der Untersuchung von Vorfällen im südöstlichen Distrikt betraut, wo es in der Vergangenheit zu Angriffen durch Barghests und Bärgoblins kam. Sie informierte eine Gruppe, die Niewinter erreichte, über die Bedrohung durch die Zentharim, eine kriminelle Organisation, und bat um Unterstützung bei den Ermittlungen im südlichen Distrikt, da nicht genügend Truppen zur Verfügung standen. Die Stadtwache stellte eine angemessene Belohnung in Aussicht, um den Riss zu verhindern, der durch die Zentharim bedroht wurde. Zwei Stadtwachen, Jax und River, schlossen sich der Gruppe an, um sie im Krisengebiet zu unterstützen. Während eines Einsatzes im südlichen Distrikt schossen die Stadtwachen mit Armbrüsten auf fliehende Verdächtige und halfen bei der Festnahme von drei Personen zur Befragung.\n\nDie Stadtwache von Niewinter hat sich aktiv an der Sicherung eines Risses beteiligt, der von Kultisten, die als Zentharim vermutet werden, bedroht wurde. Durch Festnahmen und Befragungen wurde die Stadtwache überzeugt, dass es wichtig ist, diesen Riss zu sichern, was zur Stabilität von Niewinter beitrug. Die Stadtwache arbeitete in Zusammenarbeit mit den Magiern der Stadt, um die Gefahren zu bannen. Nach der Stabilisierung der Stadt wurde ein Bote von Briarwatch entsandt, um die Gruppe um Gwendolyn Silverflame nach Waterdeep einzuladen. Die Stadtwache war auch an der Überwachung und Kontrolle der Ankunft von Reisenden in Waterdeep beteiligt und bildete zusammen mit der Hafenwache und anderen Soldaten ein Empfangskomitee.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": true
-        },
-        {
-            "created_at": "2026-02-18T19:05:55.805000",
-            "updated_at": null,
-            "id": "hw2lutec2vsq2aby8qzvhhwn",
-            "name": "Zwerge",
-            "aliases": [],
-            "type": null,
-            "description": "Die Zwerge sind in der Siedlung Rogasheim präsent und haben sich aus den aktuellen Konflikten herausgehalten. Sie sind nicht wie die Menschen betroffen und scheinen in einer stabilen Verfassung zu sein. Ein Zwerg erklärte die Bereitschaft, das Dorf zu übernehmen, was von Rita als nicht akzeptabel zurückgewiesen wurde. Die Zwerge boten an, die Minen im naheliegenden Berg zu betreiben, wo sie Stein, Kohle, Eisen und gelegentlich Kupfer abbauen könnten. Zudem behaupteten sie, landwirtschaftlich produktiver als die aktuellen Dorfbewohner zu sein. Während einer Ratssitzung forderte ein Zwerg die Apothekerin auf, den Tisch zu verlassen, und schleifte sie nach Hause. Die Zwerge waren bereit, Verantwortung für den Wiederaufbau und den Schutz des Dorfes zu übernehmen. Sie boten ihre Fähigkeiten in Handwerk, Sicherheit, Fischfang und Lebensmittelproduktion an und erklärten, dass sie auch Menschen ausbilden könnten. Ein Zwerg stellte klar, dass die Zwerge für den Betrieb der Minen unerlässlich seien und dass sie zur Produktivität des Dorfes beitragen könnten.\nChronologisch kamen die befreiten Zwerge, eine Gruppe von zuvor in Zellen gefangenen Zwergen, nach und nach frei, nachdem Dîn-io eine besetzte Zelle geöffnet hatte. Ein befreiter Zwerg nahm einem Ork Schlüssel ab und begann, weitere Zellen zu öffnen. Während des Gesprächs mit Flint signalisierten die befreiten Zwerge ihre Bereitschaft, sich dem Kampf anzuschließen, und am Ort der Befreiung nickten alle Zwerge zustimmend.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": true
-        },
-        {
-            "created_at": "2026-02-18T19:05:55.789000",
-            "updated_at": null,
-            "id": "npdzf9jtkq2ty3zjnu36gfi4",
-            "name": "Halbriesen-Clan",
-            "aliases": [
-                "Halbriesen",
-                "Riesen"
-            ],
-            "type": null,
-            "description": "Der Halbriesen-Clan besteht aus etwa 30 Mitgliedern und hat die Fähigkeit, das Dorf zu schützen und beim Wiederaufbau zu helfen. Der Clan verpflichtet sich, die Dorfbewohner zur Selbstständigkeit zu befähigen und duldet keine Versklavung. Sie bieten Unterstützung in den Bereichen Handwerk, Sicherheit, Fischfang, Lebensmittelproduktion und Ausbildung an. Der Clan verfügt über einen Runenbinder und Zugang zu altem Wissen.\nSaki, ein Mitglied des Halbriesen-Clans, bat um Erlaubnis, dass sein Clan einen Teil des Dorfes beziehen könne. Er erklärte, dass Erik ohne seinen Pakt schwächer sei und dass die Halbriesen das Dorf verteidigen könnten. Saki versprach, mit den Feen in einem Rat zusammenzuarbeiten. Der Clanführer erklärte, dass niemand wissentlich Schaden verursacht habe und dass sie bereit seien, Verantwortung für den Wiederaufbau und den Schutz des Dorfes zu übernehmen. Sie boten an, mit etwa 40 Halbriesen zur neuen Größe des Dorfes beizutragen und stellten Handwerk, Sicherheit und Ausbildungskapazitäten in Aussicht.\nWährend einer Ratssitzung bot der Clanführer an, einen Regierungsplan mit einer Völkerkammer zu präsentieren, in der Menschen, Halbriesen, Zwerge und Feen jeweils drei Sitze erhalten sollten. Der Plan wurde von den Anwesenden akzeptiert. Der Halbriesen-Clan studierte ein magisch geschütztes Wissensbuch, das Informationen zu Siedlungsplanung, Ressourcenmanagement und Medizin enthielt.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
-        },
-        {
-            "created_at": "2026-02-18T19:05:55.770000",
-            "updated_at": null,
-            "id": "mru0fnc5lbcrfo1gplvty1wg",
-            "name": "Menschen",
-            "aliases": [],
-            "type": null,
-            "description": "Die Menschen sind eine Fraktion, die in einem Dorf lebt, das von verschiedenen anderen Völkern umgeben ist. Sie gelten als die schwächste Fraktion und haben Schwierigkeiten mit der Selbstständigkeit. Trina, die Wirtin des Gasthauses, und ein männlicher Mensch, der den Handelsposten leitet, vertreten die Menschen in Verhandlungen. Ihr Ziel ist es, die Selbstständigkeit zurückzugewinnen und mit anderen Völkern, insbesondere den Halbriesen und Feen, zusammenzuarbeiten.\nIn einer Versammlung im Marktplatz des Dorfes wurden verschiedene Vorschläge zur Zukunft des Dorfes diskutiert. Rita, eine Vertreterin der Menschen, stellte die Tagesordnung vor und bat die anderen Fraktionen um Vorschläge. Trina plädierte für gemeinsames Handeln und betonte die Notwendigkeit der Einheit. Die Halbriesen boten ihre Unterstützung an, um das Dorf wieder aufzubauen und die Menschen auszubilden. Rita und Korvathun forderten Zugang zu Wissen und Ressourcen, um die Menschen zu stärken.\nDie Menschen stimmten einem neuen Regierungsmodell zu, das eine Völkerkammer und eine Bürgerkammer vorsah, um die Belange des Dorfes zu regeln. Die Fraktionen einigten sich darauf, bis zum nächsten Morgen einen gemeinsamen Plan zu erarbeiten. Ein Schiff für die Abreise zur Schwertküste nach Waterdeep wurde organisiert, und die Menschen bereiteten sich auf die Reise vor.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
+            "merge": false,
+            "created_at": "2026-03-05T08:49:42.709000",
+            "updated_at": null
         }
     ],
     "from": 21,
     "last_page": 3,
     "per_page": 20,
     "to": 40,
-    "total": 46
+    "total": 53
 }

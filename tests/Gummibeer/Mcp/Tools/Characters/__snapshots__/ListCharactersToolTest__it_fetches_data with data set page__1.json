@@ -2,51 +2,49 @@
     "current_page": 1,
     "data": [
         {
-            "created_at": "2026-05-22T13:55:28.597000",
-            "updated_at": null,
-            "id": "iu58zy2d71svccr6btofib7k",
-            "character_name": "Der Riese",
-            "character_alias": null,
-            "character_aliases": [
-                "Ein Riese",
-                "Einen Riesen"
-            ],
-            "player_name": null,
-            "player_handle": null,
-            "player": null,
-            "description": "Der Riese ist ein Individuum, das in einer Zelle auf der Zellenebene eingesperrt war, bis seine Magie plötzlich zurückkehrte.\nChronologie: Brennen traf den Riesen auf der Zellenebene. Der Riese erklärte, dass er in einer Zelle eingesperrt gewesen sei, bis seine Magie zurückkehrte. Auf die Aufforderung, mit der Gruppe zu kämpfen, lehnte Der Riese ab und sagte, er sei bereits frei. Er begann zu schweben und glitt nach oben davon.",
-            "backstory": null,
-            "type": "NPC",
-            "image": null,
-            "tcg_image": null,
+            "id": "l2zftgjq4r09dypgbybhebg8",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
+            "character_name": "Schläfriger Wächter (Bryn Shander)",
+            "character_alias": null,
+            "player_name": null,
+            "player": null,
+            "description": "Der Schläfrige Wächter ist eine Stadtwache, die am Nordtor postiert ist. Er steht halbbewusst auf Wache und wirkt wiederholt schläfrig. Beim Vorbeigehen sagt er: „Geht ruhig durch“ und stützt sich halb auf seinen Speer. Als Dîn-io Tempest ihn ansprach, nannte er verzögert das dritte Haus die Straße hinunter und erschrak kurz. Auf die Meldung vom Tempel reagiert er zunächst langsam, bevor er wieder handelte.",
+            "image": null,
+            "type": "NPC",
+            "character_aliases": [
+                "Wächter"
+            ],
+            "player_handle": null,
+            "backstory": null,
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T16:11:47.925000",
+            "updated_at": null
         },
         {
-            "created_at": "2026-05-22T12:19:23.945000",
-            "updated_at": null,
-            "id": "uubep7ty22zvyyjk4xhagon1",
-            "character_name": "Ork",
-            "character_alias": null,
-            "character_aliases": [
-                "Einzelner Ork",
-                "Ork (wache)"
-            ],
-            "player_name": null,
-            "player_handle": null,
-            "player": null,
-            "description": "Ein Ork stand als Wache vor einer Tür und führte eine Axt mit sich.\nSurina Nemmonis stürmte vor, traf den Ork und stach ihm in den oberen Brustbereich, schlitzte bis zur Kehle. Der Ork fiel tot zu Boden, und sowohl sein Körper als auch die Axt fielen scheppernd zu Boden. Die Gruppe versuchte, den toten Ork unauffällig zu halten und wegzuziehen.",
-            "backstory": null,
-            "type": "NPC",
-            "image": null,
-            "tcg_image": null,
+            "id": "ccxkkt5s3m5svu0r455a8owt",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
+            "character_name": "Vermummte Person (Bryn Shander)",
+            "character_alias": null,
+            "player_name": null,
+            "player": null,
+            "description": "Die Vermummte Person trug eine Verhüllung und hatte eine kräftige Statur. Bei Ansprache gab sie nur ein tiefes Brummen von sich.\n\nDie Vermummte Person traf sich mit der Hohepriesterin in ruhigem Gespräch. Nach etwa anderthalb Minuten reichte sie ihr ein in Stoff eingeschlagenes, brotdosengroßes Paket, das die Hohepriesterin unter ihrer Kleidung verbarg. Anschließend ging die Vermummte Person weg und wurde beim Vorbeigehen von Brennan scheinbar versehentlich angerempelt.",
+            "image": null,
+            "type": "NPC",
+            "character_aliases": [
+                "Gestalt"
+            ],
+            "player_handle": null,
+            "backstory": null,
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T16:11:47.834000",
+            "updated_at": null
         }
     ],
     "from": 1,
-    "last_page": 74,
+    "last_page": 92,
     "per_page": 2,
     "to": 2,
-    "total": 147
+    "total": 184
 }

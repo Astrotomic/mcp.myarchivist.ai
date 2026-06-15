@@ -1,16 +1,16 @@
 {
-    "created_at": "2026-05-13T20:01:06.486000",
-    "updated_at": null,
     "id": "xs5x4fz3qp1i6uvcrfrof2w1",
+    "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
     "name": "Luftschiff",
+    "description": "Das Luftschiff ist ein fliegendes Gefährt, das über dem Gelände schwebt und mit Annehmlichkeiten wie einer Toilette ausgestattet ist. Es bietet Platz für die Besatzung und die Reisenden. An Bord wird eine Mahlzeit serviert, die aus Kartoffeln, Wildbraten, Möhren-Rüben-Gemüse und Bier besteht. Die Besatzung sorgt für die Verpflegung der Passagiere.\nDas Luftschiff ist ein bewohnbares Schiff mit Labor, Essensräumen, einer Küche, Mehrfachkabinen in Reihen, Decks und einem Zellentrakt. Es senkt sich über das Gelände und lässt Strickleitern herab, um die Gruppe an Bord zu holen. Die Gruppe verbrachte den Nachmittag mit eigenen Tätigkeiten, während das Schiff ruhig und schnell durch die Luft glitt. Zum Abendessen versammelten sich die Figuren in den Essensräumen, erhielten schlichtes Essen und besprachen Aufträge. Gwendolyn ging später ins Labor. In der Nacht weckte Ceres Gwendolyn in ihrer Koje und gab ihr einen Dolch. Gwendolyn durchsuchte mehrere Kabinen, es kam zu einem Kampf im Gang, bei dem ein Doppelgänger getötet wurde. Der Leichnam wurde ins Labor gebracht und dort befragt; danach wurde Rita in eine Zelle des Luftschiffs gebracht. Am Morgen fehlte Rita beim Frühstück, und die Gruppe versammelte sich im Zellentrakt.\nDas Luftschiff fliegt direkt zur Festung zurück.",
+    "type": null,
+    "parent_id": null,
+    "image": null,
     "aliases": [
         "Luftschiff (die Abholung)"
     ],
-    "type": null,
-    "description": "Das Luftschiff ist ein fliegendes Gefährt, das über dem Gelände schwebt und mit Annehmlichkeiten wie einer Toilette ausgestattet ist. Es bietet Platz für die Besatzung und die Reisenden. An Bord wird eine Mahlzeit serviert, die aus Kartoffeln, Wildbraten, Möhren-Rüben-Gemüse und Bier besteht. Die Besatzung sorgt für die Verpflegung der Passagiere.\nDas Luftschiff senkt sich über das Gelände und lässt Strickleitern herab, um die Gruppe an Bord zu holen. Es fliegt direkt zur Festung zurück.",
-    "image": null,
     "tcg_image": null,
-    "parent_id": null,
-    "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-    "merge": false
+    "merge": true,
+    "created_at": "2026-05-13T20:01:06.486000",
+    "updated_at": null
 }
