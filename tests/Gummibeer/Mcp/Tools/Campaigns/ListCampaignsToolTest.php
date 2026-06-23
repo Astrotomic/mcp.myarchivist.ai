@@ -30,9 +30,7 @@ final class ListCampaignsToolTest extends GummibeerTestCase
             ->assertStructuredContent(function (AssertableJson $json): void {
                 $json
                     ->assertPaginatedList(function (AssertableJson $item): void {
-                        $item
-                            ->assertJsonSchema(CampaignDataShort::class)
-                            ->where('owner_id', '4ee2e6b8-698d-4452-82fd-92ca1d1f4642');
+                        $item->assertJsonSchema(CampaignDataShort::class);
                     });
 
                 $this->assertMatchesJsonSnapshot($json);

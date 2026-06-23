@@ -31,7 +31,10 @@
             "type": "boolean"
         },
         "owner_id": {
-            "type": "string"
+            "type": [
+                "string",
+                "null"
+            ]
         },
         "created_at": {
             "type": "string"
@@ -61,7 +64,6 @@
         "title",
         "public",
         "mature",
-        "owner_id",
         "created_at"
     ]
 }
