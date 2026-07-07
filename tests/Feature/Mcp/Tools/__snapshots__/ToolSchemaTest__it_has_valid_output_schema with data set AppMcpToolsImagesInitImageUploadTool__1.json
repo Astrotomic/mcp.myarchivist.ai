@@ -1,0 +1,23 @@
+{
+    "properties": {
+        "object_key": {
+            "type": "string"
+        },
+        "upload_url": {
+            "type": "string"
+        },
+        "public_url": {
+            "type": "string"
+        },
+        "expires_in_seconds": {
+            "type": "integer"
+        }
+    },
+    "type": "object",
+    "required": [
+        "object_key",
+        "upload_url",
+        "public_url",
+        "expires_in_seconds"
+    ]
+}

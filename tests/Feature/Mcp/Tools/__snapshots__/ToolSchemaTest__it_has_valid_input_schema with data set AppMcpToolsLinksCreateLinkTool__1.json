@@ -1,0 +1,50 @@
+{
+    "properties": {
+        "campaign_id": {
+            "type": "string"
+        },
+        "from_id": {
+            "type": "string"
+        },
+        "from_type": {
+            "enum": [
+                "Character",
+                "Faction",
+                "Location",
+                "Item",
+                "Moment",
+                "GameSession",
+                "Beat",
+                "Backstory",
+                "Journal",
+                "World"
+            ],
+            "type": "string"
+        },
+        "to_id": {
+            "type": "string"
+        },
+        "to_type": {
+            "enum": [
+                "Character",
+                "Faction",
+                "Location",
+                "Item",
+                "Moment"
+            ],
+            "type": "string"
+        },
+        "alias": {
+            "type": "string"
+        }
+    },
+    "type": "object",
+    "required": [
+        "campaign_id",
+        "from_id",
+        "from_type",
+        "to_id",
+        "to_type",
+        "alias"
+    ]
+}

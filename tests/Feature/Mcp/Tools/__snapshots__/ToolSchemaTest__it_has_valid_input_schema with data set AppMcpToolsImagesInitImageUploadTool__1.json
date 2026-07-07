@@ -1,0 +1,42 @@
+{
+    "properties": {
+        "campaign_id": {
+            "type": "string"
+        },
+        "entity_type": {
+            "enum": [
+                "campaign",
+                "world",
+                "character",
+                "faction",
+                "location",
+                "item",
+                "moment",
+                "session",
+                "gamesession"
+            ],
+            "type": "string"
+        },
+        "entity_id": {
+            "type": "string"
+        },
+        "file_name": {
+            "minLength": 1,
+            "maxLength": 255,
+            "type": "string"
+        },
+        "content_type": {
+            "minLength": 1,
+            "maxLength": 100,
+            "type": "string"
+        }
+    },
+    "type": "object",
+    "required": [
+        "campaign_id",
+        "entity_type",
+        "entity_id",
+        "file_name",
+        "content_type"
+    ]
+}

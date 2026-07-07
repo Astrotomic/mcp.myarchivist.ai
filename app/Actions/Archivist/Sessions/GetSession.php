@@ -15,6 +15,7 @@ final readonly class GetSession extends ApiAction
             'session_id' => ['required', 'string'],
             'include_beats' => ['nullable', 'boolean'],
             'include_moments' => ['nullable', 'boolean'],
+            'with_links' => ['nullable', 'boolean'],
         ];
     }
 

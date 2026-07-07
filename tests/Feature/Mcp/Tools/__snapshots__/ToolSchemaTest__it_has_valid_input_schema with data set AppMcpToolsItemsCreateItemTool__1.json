@@ -1,0 +1,39 @@
+{
+    "properties": {
+        "campaign_id": {
+            "type": "string"
+        },
+        "name": {
+            "type": "string"
+        },
+        "aliases": {
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "image": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "campaign_id",
+        "name"
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "campaign_id": {
+            "type": "string"
+        },
+        "from_id": {
+            "type": "string"
+        },
+        "from_type": {
+            "type": "string"
+        },
+        "to_id": {
+            "type": "string"
+        },
+        "to_type": {
+            "type": "string"
+        },
+        "alias": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_at": {
+            "type": "string"
+        }
+    },
+    "type": "object",
+    "required": [
+        "id",
+        "campaign_id",
+        "from_id",
+        "from_type",
+        "to_id",
+        "to_type",
+        "created_at"
+    ]
+}

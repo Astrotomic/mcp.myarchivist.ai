@@ -1,0 +1,17 @@
+{
+    "properties": {
+        "success": {
+            "type": "boolean"
+        },
+        "task_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "success"
+    ]
+}

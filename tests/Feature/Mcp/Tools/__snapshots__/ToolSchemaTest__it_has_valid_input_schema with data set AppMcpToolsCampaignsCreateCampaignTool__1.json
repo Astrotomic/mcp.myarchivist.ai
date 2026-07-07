@@ -1,0 +1,71 @@
+{
+    "properties": {
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "system": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "summary": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "language": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "chat_tone": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "campaign_tone": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "entities_tone": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "ai_image_gen": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "public": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "mature": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "title"
+    ]
+}

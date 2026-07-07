@@ -1,0 +1,49 @@
+{
+    "properties": {
+        "folder_id": {
+            "type": "string"
+        },
+        "name": {
+            "maxLength": 255,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "path": {
+            "maxLength": 1024,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "parent_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "position": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "metadata": {
+            "type": [
+                "object",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "folder_id"
+    ]
+}

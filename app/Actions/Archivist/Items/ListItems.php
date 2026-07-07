@@ -15,6 +15,7 @@ final readonly class ListItems extends ApiAction
         return array_merge(self::paginationRules(), [
             'campaign_id' => ['required', 'string'],
             'search' => ['nullable', 'string'],
+            'with_links' => ['nullable', 'boolean'],
         ]);
     }
 

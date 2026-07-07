@@ -1,0 +1,45 @@
+{
+    "properties": {
+        "campaign_id": {
+            "type": "string"
+        },
+        "name": {
+            "maxLength": 255,
+            "type": "string"
+        },
+        "path": {
+            "maxLength": 1024,
+            "type": "string"
+        },
+        "parent_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "position": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "metadata": {
+            "type": [
+                "object",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "campaign_id",
+        "name",
+        "path"
+    ]
+}

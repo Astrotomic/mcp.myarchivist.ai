@@ -1,0 +1,36 @@
+{
+    "properties": {
+        "session_id": {
+            "type": "string"
+        },
+        "title": {
+            "maxLength": 255,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "session_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "summary": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "image": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "session_id"
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "properties": {
+        "campaign_id": {
+            "type": "string"
+        },
+        "object_key": {
+            "minLength": 1,
+            "maxLength": 2048,
+            "type": "string"
+        },
+        "entity_type": {
+            "enum": [
+                "campaign",
+                "world",
+                "character",
+                "faction",
+                "location",
+                "item",
+                "moment",
+                "session",
+                "gamesession"
+            ],
+            "type": "string"
+        },
+        "entity_id": {
+            "type": "string"
+        },
+        "attach": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "campaign_id",
+        "object_key",
+        "entity_type",
+        "entity_id"
+    ]
+}

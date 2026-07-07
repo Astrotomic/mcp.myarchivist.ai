@@ -13,6 +13,7 @@ final readonly class GetBeat extends ApiAction
     {
         return [
             'beat_id' => ['required', 'string'],
+            'with_links' => ['nullable', 'boolean'],
         ];
     }
 

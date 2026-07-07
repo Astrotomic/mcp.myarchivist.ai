@@ -1,0 +1,61 @@
+{
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "campaign_id": {
+            "type": "string"
+        },
+        "session_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "label": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "index": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "content": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "image": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "categories": {
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "created_at": {
+            "type": "string"
+        },
+        "updated_at": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "id",
+        "campaign_id",
+        "created_at"
+    ]
+}

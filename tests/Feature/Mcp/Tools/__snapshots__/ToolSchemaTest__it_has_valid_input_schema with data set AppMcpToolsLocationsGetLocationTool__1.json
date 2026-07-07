@@ -2,6 +2,12 @@
     "properties": {
         "location_id": {
             "type": "string"
+        },
+        "with_links": {
+            "type": [
+                "boolean",
+                "null"
+            ]
         }
     },
     "type": "object",

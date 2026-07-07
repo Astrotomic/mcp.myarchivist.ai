@@ -1,0 +1,55 @@
+{
+    "properties": {
+        "operation": {
+            "enum": [
+                "add",
+                "remove",
+                "update"
+            ],
+            "type": "string"
+        },
+        "campaign_id": {
+            "type": "string"
+        },
+        "target_id": {
+            "type": "string"
+        },
+        "target_type": {
+            "enum": [
+                "Character",
+                "Faction",
+                "Location",
+                "Item",
+                "Moment"
+            ],
+            "type": "string"
+        },
+        "alias": {
+            "maxLength": 255,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "new_alias": {
+            "maxLength": 255,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "new_target_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "operation",
+        "campaign_id",
+        "target_id",
+        "target_type"
+    ]
+}

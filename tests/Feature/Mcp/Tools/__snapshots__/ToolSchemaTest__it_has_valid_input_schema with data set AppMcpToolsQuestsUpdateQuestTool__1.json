@@ -1,0 +1,122 @@
+{
+    "properties": {
+        "quest_id": {
+            "type": "string"
+        },
+        "quest_name": {
+            "maxLength": 255,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "quest_giver": {
+            "maxLength": 255,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "quest_category": {
+            "enum": [
+                "main",
+                "side",
+                "faction",
+                "personal",
+                "n/a"
+            ],
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "status": {
+            "enum": [
+                "planned",
+                "in-progress",
+                "blocked",
+                "failed",
+                "done",
+                "n/a"
+            ],
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "success_definition": {
+            "maxLength": 2000,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "failure_conditions": {
+            "maxLength": 2000,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "next_action": {
+            "maxLength": 2000,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "resolution": {
+            "maxLength": 2000,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "objectives": {
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "progress_log": {
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "related_characters": {
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "related_factions": {
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "related_locations": {
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "related_items": {
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "related_entity_refs": {
+            "type": [
+                "array",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "quest_id"
+    ]
+}

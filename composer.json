@@ -70,7 +70,10 @@
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
         ],
-        "dev": "@php artisan serve",
+        "dev": [
+            "Composer\\Config::disableProcessTimeout",
+            "@php artisan serve"
+        ],
         "fix": "@php vendor/bin/pint",
         "fix-dirty": "@php vendor/bin/pint --dirty",
         "lint": "@php vendor/bin/pint --test",

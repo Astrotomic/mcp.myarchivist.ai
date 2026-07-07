@@ -9,7 +9,8 @@ class CampaignData extends CampaignDataShort
         return array_merge(parent::rules(), [
             'summary' => ['nullable', 'string'],
             'language' => ['nullable', 'string'],
-            'updated_at' => ['nullable', 'string', 'date'],
+            'archived' => ['nullable', 'boolean'],
+            'archived_at' => ['nullable', 'string'],
         ]);
     }
 }

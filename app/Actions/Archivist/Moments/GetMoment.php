@@ -13,6 +13,7 @@ final readonly class GetMoment extends ApiAction
     {
         return [
             'moment_id' => ['required', 'string'],
+            'with_links' => ['nullable', 'boolean'],
         ];
     }
 

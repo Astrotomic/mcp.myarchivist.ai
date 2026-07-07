@@ -3,9 +3,11 @@
 namespace App\Mcp\Tools;
 
 use App\Actions\Archivist\ApiAction;
+use App\Actions\Archivist\WriteApiAction;
 use App\Collections\ArchivistDtoCollection;
 use App\Data\ArchivistDto;
 use App\Exceptions\ArchivistApiException;
+use App\Services\AuthContext;
 use Illuminate\Contracts\JsonSchema\JsonSchema;
 use Illuminate\JsonSchema\Types\Type;
 use Illuminate\Pagination\LengthAwarePaginator;
@@ -25,6 +27,25 @@ use ReflectionNamedType;
 abstract class Tool extends BaseTool
 {
     abstract protected function action(): ApiAction;
+
+    /**
+     * Hide write tools from `tools/list` (and reject `tools/call`) when the
+     * calling OAuth agent client lacks the `agent_write` scope. Read tools
+     * and non-agent credentials (API keys, product OAuth) always pass — the
+     * API remains the authoritative gate for those.
+     *
+     * Invoked by Laravel MCP's `Primitive::eligibleForRegistration()` via
+     * `ServerContext::resolvePrimitives()`, so the same check filters both
+     * the tool listing and the tool-call routing.
+     */
+    public function shouldRegister(AuthContext $authContext): bool
+    {
+        if (! $this->action() instanceof WriteApiAction) {
+            return true;
+        }
+
+        return $authContext->canWrite();
+    }
 
     public function handle(Request $request): Response|ResponseFactory
     {

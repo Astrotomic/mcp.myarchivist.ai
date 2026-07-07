@@ -1,0 +1,95 @@
+{
+    "properties": {
+        "entry_id": {
+            "type": "string"
+        },
+        "title": {
+            "maxLength": 255,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "summary": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "content": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "content_rich": {
+            "type": [
+                "object",
+                "null"
+            ]
+        },
+        "content_metadata": {
+            "type": [
+                "object",
+                "null"
+            ]
+        },
+        "tags": {
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "cover_image": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "is_pinned": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "is_public": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "status": {
+            "enum": [
+                "draft",
+                "published",
+                "archived"
+            ],
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "published_at": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "archived_at": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "folder_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "entry_id"
+    ]
+}
