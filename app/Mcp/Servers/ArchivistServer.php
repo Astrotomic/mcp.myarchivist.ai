@@ -4,6 +4,7 @@ namespace App\Mcp\Servers;
 
 use App\Mcp\Tools\Beats\GetBeatTool;
 use App\Mcp\Tools\Beats\ListBeatsTool;
+use App\Mcp\Tools\Campaigns\AskCampaignTool;
 use App\Mcp\Tools\Campaigns\GetCampaignStatsTool;
 use App\Mcp\Tools\Campaigns\GetCampaignTool;
 use App\Mcp\Tools\Campaigns\ListCampaignsTool;
@@ -49,6 +50,7 @@ final class ArchivistServer extends Server
         ListCampaignsTool::class,
         GetCampaignTool::class,
         GetCampaignStatsTool::class,
+        AskCampaignTool::class,
 
         // Characters
         ListCharactersTool::class,

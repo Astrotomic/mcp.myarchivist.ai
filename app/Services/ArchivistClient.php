@@ -2,6 +2,7 @@
 
 namespace App\Services;
 
+use Illuminate\Http\Client\PendingRequest;
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\Facades\Http;
 
@@ -13,18 +14,30 @@ class ArchivistClient
 
     public function get(string $path, array $query = [], ?int $timeout = null): Response
     {
-        $request = Http::archivist(token: $this->token);
+        return Http::archivist(token: $this->token)
+            ->when(
+                $timeout,
+                fn (PendingRequest $request, int $timeout) => $request->timeout($timeout)
+            )
+            ->get(
+                url: $path,
+                query: collect($query)
+                    ->reject(fn (mixed $value) => $value === null)
+                    ->map(fn (mixed $value) => is_bool($value) ? json_encode($value) : $value)
+                    ->all()
+            );
+    }
 
-        if ($timeout !== null) {
-            $request = $request->timeout($timeout);
-        }
-
-        return $request->get(
-            url: $path,
-            query: collect($query)
-                ->reject(fn (mixed $value) => $value === null)
-                ->map(fn (mixed $value) => is_bool($value) ? json_encode($value) : $value)
-                ->all()
-        );
+    public function post(string $path, array $data = [], ?int $timeout = null): Response
+    {
+        return Http::archivist(token: $this->token)
+            ->when(
+                $timeout,
+                fn (PendingRequest $request, int $timeout) => $request->timeout($timeout)
+            )
+            ->post(
+                url: $path,
+                data: $data,
+            );
     }
 }

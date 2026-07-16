@@ -1,0 +1,36 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Content-Type": [
+            "application/json"
+        ],
+        "Date": [
+            "Thu, 16 Jul 2026 17:04:12 GMT"
+        ],
+        "Server": [
+            "railway-hikari"
+        ],
+        "x-process-time": [
+            "30.65028405189514"
+        ],
+        "x-railway-request-id": [
+            "5IAthN4qSryQuoV2CYBc-A"
+        ],
+        "Content-Length": [
+            "1372"
+        ],
+        "x-hikari-trace": [
+            "ams1.b55h"
+        ],
+        "x-railway-edge": [
+            "ams1"
+        ],
+        "vary": [
+            "accept-encoding"
+        ],
+        "Connection": [
+            "keep-alive"
+        ]
+    },
+    "data": "{\"answer\":\"**Boromir Overview**\\n\\n- **Name:** Bronn Boromir\\n- **Type:** Character\\n- **Aliases:** Bronn\\n- **Sheet Type:** Player Character (PC)\\n\\n**Description:**\\nBronn Boromir is depicted as dark-haired, dark-eyed, and muscular, resembling a fighter rather than a wizard. He is a member of the prestigious Boromir Family, although he notes his lack of their magical talent and wealth.\\n\\n**Notable Actions:**\\n- Witnessed Gideon Xander fall and helped him up.\\n- Proposed using a fake pile of gold to trap a dragon.\\n- Engaged in combat with Mountain Giants, using various spells and weapons, including a greatclub and a dagger wreathed in green flame.\\n- Participated in strategic plans against a dragon named Haldraxis, including using Ice-Flower Petals to injure it.\\n- Sent a message to his uncle Bogo Boromir after a significant battle.\\n\\n**Session Appearances:**\\n- Dragon's Ransom and Healing Bonds\\n- Clash with the Slumbering Dragon\\n- Dragon's Fall and Glory\\n\\n**Related Characters and Factions:**\\n- **Bogo Boromir:** Another character associated with the Boromir name.\\n- **Boromir Family:** A faction that includes Bronn Boromir and is noted for its prestige. \\n\\nThis information provides a comprehensive view of Bronn Boromir within the campaign \\\"My First Campaign.\\\"\",\"citations\":[],\"monthlyTokensRemaining\":4983762,\"hourlyTokensRemaining\":483762}"
+}
