@@ -10,6 +10,8 @@ abstract class GummibeerTestCase extends ApiTestCase
     {
         parent::setUp();
 
-        $this->app->instance(ArchivistClient::class, new ArchivistClient(env('GUMMIBEER_TOKEN')));
+        $this->app->instance(ArchivistClient::class, new ArchivistClient(
+            $this->shouldRecordHttpFixtures() ? env('GUMMIBEER_TOKEN') : 'fixture-token',
+        ));
     }
 }

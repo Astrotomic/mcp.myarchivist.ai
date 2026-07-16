@@ -1,0 +1,36 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Content-Type": [
+            "application/json"
+        ],
+        "Date": [
+            "Thu, 16 Jul 2026 16:28:37 GMT"
+        ],
+        "Server": [
+            "railway-hikari"
+        ],
+        "x-process-time": [
+            "1.642899751663208"
+        ],
+        "x-railway-request-id": [
+            "QdUTw5ZBR7ungl_h9I3ezw"
+        ],
+        "Content-Length": [
+            "2733"
+        ],
+        "x-hikari-trace": [
+            "ams1.aydy"
+        ],
+        "x-railway-edge": [
+            "ams1"
+        ],
+        "vary": [
+            "accept-encoding"
+        ],
+        "Connection": [
+            "keep-alive"
+        ]
+    },
+    "data": "{\"created_at\":\"2026-03-04T21:13:23.742000\",\"updated_at\":null,\"id\":\"ffh55eoknmwl9tseg0i0or9y\",\"character_name\":\"Flint Fireforge\",\"character_alias\":null,\"character_aliases\":[],\"player_name\":null,\"player_handle\":null,\"description\":\"Flint Fireforge \u2014 Zwerg (Waffenschmied) und K\u00f6nig\\n- Flint Fireforge ist ein Zwerg (Waffenschmied) und Volk\u00f6nig, der in der Festung residiert und in Hammerh\u00e5eim ans\u00e4ssig ist; sein Einfluss reicht \u00fcber die alte Festung hinaus und zeigt sich in Befestigungen, Landeplattformen, Handelswegen und Patrouillen.\\n- Er folgt Afora Rivia und Lorcan Magora heimlich vom See aus, nachdem er bemerkt hat, dass sie sich auf den Weg zum Mausoleum machen.\\n- Flint schickte einen Boten mit einem Brief zu Elmar Barthen nach Hammerh\u00e5eim, in dem er nach der Entscheidung der Festungsbewohner zum Angebot von K\u00f6nigin Naome\u2019e fragte, nach Problemen in der Festung erkundigte, ein Erntedankfest vorschlug und um die Nutzung von 5\u201310 Gold aus der Schatzkammer bat.\\n- Er hat die Goblin-Sprache gelernt, um Missverst\u00e4ndnisse zu vermeiden, und spielte eine entscheidende Rolle in der Verhandlung mit den Goblins, die zur Freilassung der entf\u00fchrten Dorfbewohner f\u00fchrte.\\n- Flint ist bekannt f\u00fcr seinen Humor und seine pragmatische Denkweise.\\n- Er erkl\u00e4rte, dass Gift, Schmerz, Blutverlust, Ersch\u00f6pfung und Angst gegen Untote kaum Bedeutung haben und erl\u00e4uterte, dass Skelette zerschmettert, Zombies gr\u00fcndlich zerst\u00f6rt und geisterhafte Untote mit magischen oder geweihten Mitteln bek\u00e4mpft werden m\u00fcssen.\\n- Flint stellte Vorr\u00e4te und Ausr\u00fcstung bereit; Surina kaufte unter anderem eine Battleaxe Of Warning, Magische Bolzen, Armsch\u00fctzer und Baumwollstreifen.\\n- Er reagierte hart auf Rita Flint, gab ihr jedoch Vorr\u00e4te mit und \u00fcbergab Brennen Voidridge eine Schwere, Dunkle Laterne Mit Fast Schwarzem Glas, deren Licht f\u00fcr Untote toxisch ist und eine einzige Ladung Pyrelume Oil enth\u00e4lt.\\n- Flint besitzt ein erkennbares Zeichen, das auf einem Stein eingepr\u00e4gt ist und zur Kommunikation mit ihm verwendet werden kann.\\n- Er ist der Inhaber eines Reichs, bekannt als \u201eFlints Reich\u201c, und hat die Autorit\u00e4t, die von den Anwesenden respektiert wird, einschlie\u00dflich der Anordnung von Schlafpl\u00e4tzen und der Bereitstellung von Ausr\u00fcstung.\\nHaken:\\n- Seine Ausr\u00fcstungserkl\u00e4rungen bestimmten die Untoten-Strategie der Gruppe.\\n- Die von ihm \u00fcbergebenen Ressourcen beeinflussen die unmittelbare Einsatzbereitschaft der Gruppe.\\nBedrohungs-/Wert-Einsch\u00e4tzung: mittel \u2014 wegen logistischer Unterst\u00fctzung und spezialisierter Ausr\u00fcstung f\u00fcr den Kampf gegen Untote.\",\"backstory\":null,\"type\":\"PC\",\"image\":null,\"campaign_id\":\"cmj78gm6k000004jrvzm7gcjr\",\"player\":null,\"tcg_image\":null,\"merge\":true}"
+}

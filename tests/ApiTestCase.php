@@ -15,9 +15,11 @@ use Opis\JsonSchema\Errors\ErrorFormatter;
 use Opis\JsonSchema\Validator as JsonValidator;
 use PHPUnit\Framework\Assert;
 use Spatie\Snapshots\MatchesSnapshots;
+use Tests\Concerns\InteractsWithHttpFixtures;
 
 abstract class ApiTestCase extends FeatureTestCase
 {
+    use InteractsWithHttpFixtures;
     use MatchesSnapshots {
         assertMatchesJsonSnapshot as __assertMatchesJsonSnapshot;
     }
@@ -25,6 +27,8 @@ abstract class ApiTestCase extends FeatureTestCase
     protected function setUp(): void
     {
         parent::setUp();
+
+        $this->setUpHttpFixtures();
 
         AssertableJson::macro('assertPaginatedList', function (Closure $assertDataItem): AssertableJson {
             /** @var AssertableJson $this */
@@ -85,6 +89,13 @@ abstract class ApiTestCase extends FeatureTestCase
 
             return $this;
         });
+    }
+
+    protected function tearDown(): void
+    {
+        $this->tearDownHttpFixtures();
+
+        parent::tearDown();
     }
 
     /**
