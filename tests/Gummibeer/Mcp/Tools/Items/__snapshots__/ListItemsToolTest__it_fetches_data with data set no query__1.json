@@ -2,6 +2,271 @@
     "current_page": 1,
     "data": [
         {
+            "id": "nqx9jbb1wtrnb9957elmatgm",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Kugellagerkugeln",
+            "description": "Rolle: lose Kugeln auf dem Boden der Mine.\n- Kugellagerkugeln: kleine, verstreute Kugeln auf dem Boden im Wave Echo Cave > Gang vor der Tür.\n- Sie lagen während des nächtlichen Kampfes hinter der Gruppe auf dem Boden.\n- Zwei Zombies, zwei Skelette und eine weitere Untote Gestalt waren damit beschäftigt, die Kugeln aufzulesen.\n- Die Kugeln befanden sich sichtbar im Bereich vor der verbarrikadierten Tür, während Die Gruppe die Tür sicherte.\nHooks:\n- Aktuell werden die Kugeln von Untoten aufgehoben.\n- Ihre Lage ist im Gang unmittelbar vor der Tür.\nThreat/Value: niedrig — es sind aufgefundene, aufgesammelte Gegenstände, ohne explizit genannte direkte Wirkung.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Verstreuten Kugellagerkugeln"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-08T20:06:39.717000",
+            "updated_at": null
+        },
+        {
+            "id": "ek4xle3mme53cuqxksirs046",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Brennende Doppelwaffe",
+            "description": "Kampfwaffe (geführt von Surina Nemmonis)\n- Name: Brennende Doppelwaffe; beschrieben als brennendes Klingenpaar, von Surina geführt.\n- Verwendung: Surina stürzte sich mit der Waffe auf den großen Backbär und traf ihn mehrfach.\n- Wirkung: Treffer am großen Backbären wurden teilweise von dessen dicker Lederhaut, schwerem Fell und vernarbter Haut abgefangen.\n- Weitere Einsätze: Surina erschlug mit der Doppelwaffe einen Tentakelwurm und setzte die Waffe erneut im Korridorkampf ein.\n- Relevanz: Wird aktuell von Surina als primäre Nahkampfwaffe verwendet.\nThreat/Value rating: mittel — verursacht Treffer, zeigte gegen robuste Rüstungliche Begrenzungen verringerte Wirkung.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Ihr Brennendes Klingenpaar"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-17T20:07:15.759000",
+            "updated_at": null
+        },
+        {
+            "id": "u3d61x3kiwjxldmk324brfqp",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Kohlenotiz",
+            "description": "Rolle: Gefundene Warnnotiz auf dem Leichnam eines großen Backbären.\n- Fakten: alt; stark verschmiert; mit Kohle geschrieben; bruchstückhafte, teils unvollständige Sätze.\n- Fakten: Gefunden und gelesen von der Gruppe unmittelbar nach dem Kampf.\n- Fakten: Enthält explizite Fragmente: „Finger weg Sum-Sum“, „Auge macht Kopfmatsch“, „Finger mach auch böse“, „Ries lügt“, „nicht Brüll nicht Hau“, „klau macht Aua“.\n- Hooks: Warnt vor unbekannten Gefahren; deutet auf feindliche Reaktionen bei Berührung.\n- Hooks: Fragmentarische Sprache könnte auf Hast oder Störung beim Schreiben hinweisen.\n- Bedrohungs-/Wert-Einstufung: niedrig — physisches Objekt mit potenziell nützlichen, aber unvollständigen Warnhinweisen.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Alte, Stark Verschmierte Kohlenotiz"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-17T20:07:15.661000",
+            "updated_at": null
+        },
+        {
+            "id": "rxom8vkn6sw5b44twd9sdzct",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Flammensphäre",
+            "description": "Beschworenes magisches Objekt\n- Erzeugerin/Kontrolle: Gwendolyn\n- Erscheinung: brennende Kugel\n- Verhalten: wurde in den oberen Bereich gerollt\n- Wirkung: verbrannte Teile von Morvains Netz\n- Wirkung: bedrohte obere Gegner mit Feuer, führte zum Zusammenbruch mindestens eines Gegners\nHooks\n- Kann klebrige Netze entzünden\n- Kann durch Rollen Bereiche anhaltend bedrohen\nThreat/Value: mittel — verursacht anhaltenden Feuerschaden durch Positionierung und Entzündung von Netzen.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-17T20:07:15.467000",
+            "updated_at": null
+        },
+        {
+            "id": "ivflw6qx47tl10vlib6iask3",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Vergoldeter Bärenschädel",
+            "description": "Vergoldeter Bärenschädel (magisches Artefakt)\n- Gereinigter Bärenschädel, überzogen mit Gold\n- Erschafft einen untoten Bärenbegleiter durch ein Ritual\n- Ursprünglich bearbeitet von Morvain\n- Befindet sich in Hammerhåeim\n- Morvain hält den untoten Bären aus Hammerhåeim fern.\n- Der Schädel könnte für andere Ritualisten von Interesse sein.\nWertungsstufe: hoch, da er die Fähigkeit besitzt, einen untoten Begleiter zu erschaffen.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-12T15:33:20.164000",
+            "updated_at": null
+        },
+        {
+            "id": "fian0znfjpiaj9g3g9w8hbmh",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Silberner Ohrring",
+            "description": "Objekt, persönlicher Schmuckgegenstand.\n- Silberner Ohrring, von Seris an Gwendolyn übergeben.\n- Gwendolyn konnte ihn zunächst nicht tragen, weil sie kein Ohrloch hatte.\n- Brennen stach Gwendolyn in der Nacht ein Ohrloch und setzte den silbernen Ohrring ein.\n- Der Ohrring wurde danach von Gwendolyn getragen.\nThreat/Value: niedrig — reiner persönlicher Schmuck ohne weitere beschriebene Wirkung.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Silbernen Ohrring"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-12T15:33:20.066000",
+            "updated_at": null
+        },
+        {
+            "id": "of1si5it0trzj3rzzkgixrfc",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Pyrelume Oil",
+            "description": "Brennstoff für eine Einmalladung-Notlaterne\n- Pyrelume Oil ist der Inhalt einer Laterne.\n- Die Laterne enthält nur eine Ladung Pyrelume Oil.\n- Die Laterne wurde von Flint Fireforge an Brennen Voidridge übergeben.\n- Pyrelume Oil soll nicht verschwendet werden und ist für Notfälle bestimmt.\n- Einmalladung — nur für einen einzigen Einsatz.\n- Vorgesehen für Situationen, in denen Rückzug wichtiger ist als Heldentum.\nThreat/Value: Hoch — einmalige Ladung für einen Notfall, daher taktisch wertvoll.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-12T15:33:19.969000",
+            "updated_at": null
+        },
+        {
+            "id": "i552cnv9of2ibffc59qaut0u",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Schwere, Dunkle Laterne Mit Fast Schwarzem Glas",
+            "description": "Notfalllaterne\n- Erscheinung: Schwere, dunkle Laterne mit fast schwarzem Glas.\n- Fähigkeiten: Brennt etwa eine Minute, Licht ist für Untote toxisch; schwächere Untote werden zurückgedrängt oder verbrannt, stärkere spüren es.\n- Herkunft: Übergeben von Flint an Brennen Voidridge.\n- Ressourcen: Enthält eine Ladung Pyrelume Oil; als Einmal-Notfallwerkzeug für den Rückzug gedacht.\n- Aktuelle Relevanz: Ihre toxischen Eigenschaften gegen Untote machen sie in gefährlichen Situationen wertvoll.\n- Nutzung: Kann in kritischen Momenten zur Flucht eingesetzt werden.\nBedrohungs-/Wertbewertung: hoch, da sie gegen Untote wirksam ist und in Notfällen entscheidend sein kann.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Laterne"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-12T15:33:19.866000",
+            "updated_at": null
+        },
+        {
+            "id": "rat59mjj9we5zfydvmpeopnu",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Wurfkartendeck",
+            "description": "Schurke/Trickwerfer.\n- Wurfkartendeck gehört zu Brennen Voidridge.\n- Geplanter Einsatz: Kampf gegen Untote.\n- Empfehlung: Aufbewahrung der Karten in einer auslaufsicheren Box mit Weihwasser.\n- Schmied fertigte eine Metallschatulle mit Dichtung, Lederinnenleben und Befestigungsmöglichkeiten für die Karten.\n- Brennen zahlte dafür 22 Gold.\n- Aktuell transportfähig und in einer versiegelten Metallschatulle verwahrt.\n- Zweck: Schutz der Karten vor Auslaufen und Bereitstellung von Weihwasser für den Gebrauch.\nThreat/Value: niedrig — Gegenstand für persönlichen Kampfgebrauch, geschützt aufbewahrt.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Die Karten"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-12T15:33:19.770000",
+            "updated_at": null
+        },
+        {
+            "id": "ptf0ww30y6gjxgivni6elikk",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Metallschatulle Mit Dichtung",
+            "description": "Role: Aufbewahrungsbehältnis für Brennens Kartendeck.\n- Metallschatulle mit Dichtung, gefertigt vom Schmied, mit Lederinnenleben und Befestigungsmöglichkeiten.\n- Entstand auf Vorschlag eines Klerikers Moradins, um Karten in einer auslaufsicheren Box mit Weihwasser aufzubewahren.\n- Brennen Voidridge bezahlte 22 Gold für die Metallschatulle.\n- Die Schatulle ist für die Aufbewahrung von Wurfkartendeck gedacht.\n- Hooks: schützt empfindliche Karten; ausgelegt für Transport an Befestigungen.\nThreat/Value: mittel — schützt Karten durch Dichtung und Lederinnenleben; wurde für 22 Gold angefertigt.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Metallschatulle"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-12T15:33:19.673000",
+            "updated_at": null
+        },
+        {
+            "id": "akyerigk8bhz7t7b0a0kb38j",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Zehn Heiltränke",
+            "description": "Rolle: Vorrat von Heilmitteln für die Gruppe\n- Zehn Heiltränke, beschafft von Gwendolyn Silverflame in Hammerhåeim.\n- Funktion: Heilressourcen zur Behandlung Verwundeter.\n- Einfluss: schlossen die letzten Lücken bei Stauraum, Heilressourcen und magischer Vorbereitung vor dem Aufbruch zur Wave Echo Cave.\n- Lagerung/Verwendung: Teil der aus dem Lager verteilten Ausrüstung und Gruppenvorräte beim Aufbruch.\n- Warum relevant: erhöhen die direkte Heilkapazität der Gruppe und ergänzen andere vorbereitende Maßnahmen.\n- Warum relevant: wurden unmittelbar vor dem Aufbruch beschafft.\nWert: mittel — erweitern die Heilressourcen der Gruppe für die bevorstehende Expedition.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "10 Heiltränke"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-12T15:33:19.576000",
+            "updated_at": null
+        },
+        {
+            "id": "p7b34qv6o4xxk4ex3xnbaqzh",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Bag Of Holding",
+            "description": "Behältnis, das Korvathun als Ausrüstungsgegenstand erwarb.\n- Name: Bag of Holding.\n- Erwerb: Korvathun kaufte den Bag of Holding im Lagerraum in Hammerhåeim.\n- Fundort/Verwahrung: Verfügbar im gruppeninternen Lagerraum von Hammerhåeim.\n- Funktion/Ergebnis: Schuf mehr Stauraum und trug dazu bei, die letzten Ausrüstungslücken vor dem Ausmarsch zu schließen.\n- Relevanz jetzt: Erweitert das Gepäckvolumen für die bevorstehende Expedition zur Wave Echo Cave.\n- Relevanz jetzt: Erlaubt Verteilung zusätzlicher Ausrüstung unter den Gruppenmitgliedern.\nWert/Bedrohung: hoch — weil er laut Ablauf die letzten logistischen Lücken der Gruppe schloss.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-12T15:33:19.479000",
+            "updated_at": null
+        },
+        {
+            "id": "s7ks2fb015oc9j9jedi5hesd",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Arcane Grimoire +1",
+            "description": "Rolle: Gegenstand\n- Name: Arcane Grimoire +1; Kategorie: other.\n- Standort: im Lagerraum in Hammerhåeim; wurde dort von Morvain genommen/gekauft.\n- Funktion/Status: Teil der an die Gruppe ausgegebenen Ausrüstung zur Vorbereitung.\n- Warum relevant: trug zur Verbesserung der magischen Vorbereitung der Gruppe bei.\n- Warum relevant jetzt: gehört zur Ausrüstung, mit der die Gruppe in die Wave Echo Cave aufbrach.\nWert: mittel — Bestandteil der magischen Vorbereitung der Gruppe.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-12T15:33:19.382000",
+            "updated_at": null
+        },
+        {
+            "id": "v89mt2dglsl3iy1eagrrti1e",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Baumwollstreifen",
+            "description": "Gegenstand: Baumwollstreifen\n- Gekauft von Surina Nemmonis.\n- Teil brauchbarer Ausrüstung gegen Untote.\n- Bestandteil eines Einkaufspakets, das zusammen mit anderen Gegenständen 1.000 Gold kostete.\n- Erwähnt im Zusammenhang mit der Vorbereitung auf die Wave Echo Cave.\n- Relevanz jetzt: Gehört zu den gegen Untote vorgesehenen Geräten.\n- Relevanz jetzt: Teil der Ausrüstung, die die Gruppe vor dem Aufbruch sammelte.\nWert/Risiko: niedrig — wurde als Teil allgemeiner Ausrüstung gegen Untote erworben.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-12T15:33:19.284000",
+            "updated_at": null
+        },
+        {
+            "id": "e83jynwm5pxb6ucc6asu6i3u",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Armschützer",
+            "description": "Schutzausrüstung (gegen Untote), getragen von Surina Nemmonis.\n- Gekauft bei Flint Fireforge als Teil von Ausrüstung gegen Untote; explizit genannt beim Kauf (\"Armschützer\" zusammen mit Battleaxe of Warning, magische Bolzen und Baumwollstreifen).\n- Kauf erfolgte nach Flints Erklärung, welche Mittel gegen Untote sinnvoll sind.\n- Bestandteil eines Gesamtkaufs von 1.000 Gold (Gesamtsumme für mehrere Gegenstände).\n- Surina präsentierte die neue Ausrüstung am nächsten Morgen im Speisesaal.\n- Die Armschützer begleiteten Surina beim Aufbruch in Richtung Wave Echo Cave.\n- Relevanz jetzt: Schützt ein Gruppenmitglied beim bevorstehenden Untoten-Einsatz.\n- Relevanz jetzt: Teil der koordinierten Vorbereitung gegen Untote.\nThreat/Value: mittel — weil sie als Teil der explizit gegen Untote beschafften Ausrüstung in die Expedition mitgenommen wurde.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-12T15:33:19.187000",
+            "updated_at": null
+        },
+        {
+            "id": "akqehqx4jbylwvrsu1o8gcla",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Magische Bolzen",
+            "description": "Magische Bolzen\n- Teil der Ausrüstung gegen Untote, beschafft in Hammerhåeim\n- Erworben von Surina Nemmonis nach einer Erklärung von Flint Fireforge\n- Bestandteil eines Gesamtkaufs über 1.000 Gold\n- Umfasst auch eine Battleaxe of Warning, Armschützer und Baumwollstreifen\nHooks:\n- Wichtige Waffe im Kampf gegen Untote\n- Teil einer größeren strategischen Vorbereitung\nThreat/Value rating: med, da sie gezielt gegen Untote eingesetzt werden können.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-12T15:33:19.091000",
+            "updated_at": null
+        },
+        {
+            "id": "krk07m1vxj9gozdlv6xi13j5",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Battleaxe Of Warning",
+            "description": "Rolle: Ausgerüsteter Gegenstand im Besitz von Surina Nemmonis\n- Die Battleaxe of Warning ist ein benannter Gegenstand, den Surina Nemmonis in Hammerhåeim erwarb.\n- Der Kauf erfolgte nach dem Informationsaustausch über Untote bei Flint Fireforge.\n- Die Battleaxe of Warning wurde zusammen mit magischen Bolzen, Armschützern und Baumwollstreifen für insgesamt 1.000 Gold erworben.\n- Der Erwerb war Teil der Ausrüstung gegen Untote vor dem Aufbruch zur Wave Echo Cave.\n- Wird von Surina als Teil ihrer Ausrüstung mitgeführt.\nHooks:\n- Teil der Vorbereitung der Gruppe auf die Untoten in der Wave Echo Cave.\n- Bereits zugewiesen und einsatzbereit bei Abreise aus Hammerhåeim.\nThreat/Value: mittel — weil sie explizit als Ausrüstungsgegenstand gegen Untote gekauft und in die Vorbereitungen für den Aufbruch einbezogen wurde.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-12T15:33:18.987000",
+            "updated_at": null
+        },
+        {
+            "id": "esir8juzrnpvjmmst21z78cl",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Beutehaufen Im Raum",
+            "description": "Beutehaufen\n- Ein Haufen mit Fundstücken, gefunden nach einem Kampf.\n- Enthält etwa 10 Kupfer sowie Wertgegenstände und verwertbare Dinge.\n- Die Gegenstände wurden von der Gruppe an sich genommen.\n- Korvathun bot an, alchemistische Dinge und den Rest zu tragen; die Beute wurde anschließend verteilt.\n- Der Haufen lag in dem Bereich mit dem Loch, nahe den freigeräumten Geröllstellen.\n- Warum es jetzt wichtig ist: Die Beute beeinflusst die Ausrüstung der Gruppe.\n- Warum es jetzt wichtig ist: Korvathuns Kapazität bestimmt, wer was tragen kann.\nThreat/Value: mittel — enthält verwertbare Gegenstände und etwas Bargeld, wurde bereits geborgen.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Beutehaufen"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-10T20:10:57.775000",
+            "updated_at": null
+        },
+        {
+            "id": "ib644nq5baxk46wc1nftt4mz",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Magische Karte",
+            "description": "Erzähler/Chronist.\n- Magische Karte: ein einzelnes, magisch wirksames Kartenstück, das Brennan bei sich trug.\n- Brennan schlug Surina mit der magischen Karte gegen den Kopf und wirkte so Cure Wounds.\n- Nach dem Treffer fühlte sich Surina deutlich besser.\n- Die Karte wurde von Brennan im Verlauf der Begegnungen eingesetzt.\n- Wird aktuell von Brennan getragen und ist einsetzbar zur schnellen Heilung.\n- Wurde inmitten des Kampfes physisch angewendet.\nThreat/Value: hoch — bewiesen durch direkte Heilwirkung an Surina.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-10T20:10:57.594000",
+            "updated_at": null
+        },
+        {
             "id": "w6s13yxthr5pu5huaebda5bc",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "name": "Leerer Sarkophag",
@@ -15,286 +280,11 @@
             "merge": false,
             "created_at": "2026-06-03T07:57:49.378000",
             "updated_at": null
-        },
-        {
-            "id": "rw3iur6uec6dob1x3bnds3y6",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Vorräte",
-            "description": "Vorräte sind der Proviant und weitere benötigte Güter, die Gwerk ins provisorische Lager brachte und die für die Versorgung der belagerten Stadt Triboar bestimmt sind.\nDie Gruppe schüttete den Proviant und Nötiges in eine große Zeltplane und bündelte die Last zu einem schweren Paket. Dîn-io nahm die befüllte Zeltplane und ließ die Vorräte in seinen Ring verschwinden. Surinas Vogel Cogling Aviad trug den Ring in Richtung der belagerten Stadt Triboar.",
-            "type": null,
-            "image": null,
-            "aliases": [
-                "Proviant",
-                "Proviant Und Weitere Benötigte Güter"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-06-02T09:56:48.627000",
-            "updated_at": null
-        },
-        {
-            "id": "dtzayj7839t3unrm3r3ejx0k",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Große Zeltplane",
-            "description": "Die Große Zeltplane ist ein großer Stoffbeutel aus Planenstoff, der von der Gruppe verwendet wird, um Vorräte und nötige Güter zu transportieren. Sie wird prall gefüllt und zu einem schweren Paket gebündelt. Dîn-io Tempest nahm die befüllte Große Zeltplane und ließ den gesamten Inhalt in seinen Ring verschwinden. Der Ring wurde anschließend von Surinas Vogel aus dem Lager in Richtung Triboar getragen.",
-            "type": null,
-            "image": null,
-            "aliases": [
-                "Zeltplane"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-06-02T09:56:48.436000",
-            "updated_at": null
-        },
-        {
-            "id": "cmpwgi1fz000a04jydz3du2zf",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Der Brieföffner der Hohepriesterin ",
-            "description": "Der schmale Dolch oder Brieföffner ist ein dünnes Metallwerkzeug, das in einer Schublade des Schreibtischs der Hohepriesterin gefunden wurde, neben Ersatzschreibfedern.\nBrennan entdeckte den schmalen Dolch/Brieföffner in der Schublade und nutzte ihn, um an der Unterseite der Schublade einen doppelten Boden zu hebeln. Dadurch entfernte er das Fach, in dem sich ein kleiner silberner Schlüssel befand.",
-            "type": null,
-            "image": null,
-            "aliases": [
-                "Der Dolch"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-06-02T09:50:01.649000",
-            "updated_at": null
-        },
-        {
-            "id": "h3zqtru0cf06njw0ufc9w6vb",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Felle",
-            "description": "Felle sind abdeckende Textilien, die als Hüllen verwendet wurden. Dîn-io und Gwendolyn deckten die gefrorenen Gefährten mit Fellen und Gewändern ab, nachdem sie beschlossen hatten, diese aus der Kirche zu schaffen. Dîn-io brachte Naevys in Fellen gehüllt zur Taverne, transportierte Brennan auf dieselbe Weise und schließlich auch Surina, die er in Fellen eingewickelt in Betten ablegte. Ein Erzählerkommentar beschreibt das Tragen einer Figur „in den Fellen eingeschlagen“ auf dem Arm zur Taverne.",
-            "type": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-06-01T16:11:50.563000",
-            "updated_at": null
-        },
-        {
-            "id": "lyppt2k74jkv8gykaiv0g52g",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Buch Eines Alten Magiers",
-            "description": "Das Buch eines alten Magiers ist ein verschlossenes, reich verziertes Band mit einem Gebirgsbild, einem Drachen auf dem Einband und fremden Runen. Die Hohepriesterin nannte ein solches Buch unter den verschwundenen Gegenständen, das ein alter Magier in der Stadt zurückgelassen habe. Naevys fand das Buch in der Tempelbibliothek; es zeigte eine magische Aura. Surina öffnete es mit einem kleinen silbernen Schlüssel trotz spürbaren Widerstands. Beim Öffnen löste das Buch eine Schockwelle aus, die Brennan, Naevys und Surina reglos mit Frostüberzug erstarren ließ, während Gwendolyn beweglich blieb. Gwendolyn erkannte Zeichen, die an Runen aus dem schwarzen Tempel erinnerten. Nach erneutem Verschließen wirkte das Buch nicht mehr magisch gesichert. Gwendolyn versteckte das verschlossene Buch später in einem Gebüsch beim Bootsplatz.",
-            "type": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-06-01T16:11:50.463000",
-            "updated_at": null
-        },
-        {
-            "id": "kbk9o4n16peysjj9yubljtor",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Juwelen Aus Den Spenden Der Minenarbeiter",
-            "description": "Die Juwelen sind gesammelte Spenden der Minenarbeiter, die sich im Tempel angesammelt haben. Sie befanden sich zusammen mit weiteren Gegenständen in einer verschlossenen Truhe im Büro der Hohepriesterin, die mit einem Schutzzauber versehen war. Beim Aufbrechen der Truhe trat ein kalter Stoß auf, und nach dem Öffnen waren die Juwelen verschwunden. Die Hohepriesterin meldete ihren Verlust der Stadtwache.",
-            "type": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-06-01T16:11:50.371000",
-            "updated_at": null
-        },
-        {
-            "id": "dsooh22s7ez3d7rfq6s17bgm",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Schwert Eines Ehemaligen Helden",
-            "description": "Das Schwert eines ehemaligen Helden wurde von der Hohepriesterin als eines der unwiederbringlichen und für die Stadt bedeutsamen Gegenstände genannt, die aus ihrem Büro verschwunden seien. Gwendolyn und Dîn-io öffneten daraufhin die verschlossene Truhe im Büro, in der sich ein magisches Langschwert befand. Dîn-io und Surina bemerkten das Schwert kurz nach dem Öffnen.",
-            "type": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-06-01T16:11:50.282000",
-            "updated_at": null
-        },
-        {
-            "id": "budrr84ccbbiqrz519n6ls1g",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Zwei Schreiben Aus Luskan",
-            "description": "Zwei Schreiben aus Luskan sind geöffnete Briefe, die auf der rechten Seite des Schreibtischs der Hohepriesterin lagen. Die Siegel waren gebrochen. Ihr Inhalt befasste sich mit einem geplanten Wissensaustausch mit einer anerkannten Magiergilde oder Akademie. Die Briefe wurden von Brennan während der Durchsuchung des Büros gefunden.",
-            "type": null,
-            "image": null,
-            "aliases": [
-                "Schreiben Aus Luskan"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-06-01T16:11:50.101000",
-            "updated_at": null
-        },
-        {
-            "id": "wvbkugmrl679tu20vm2f6vyf",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Magisches Langschwert",
-            "description": "Magisches Langschwert: ein als magisch beschriebenes Langschwert, aufgeführt unter den magischen Gegenständen in der von Dîn-io geöffneten Truhe.\nDie Truhe wurde von Dîn-io aufgebrochen, wobei ein kalter Stoß den Anwesenden entgegen schlug. Das Langschwert gehörte zur Beute aus der Truhe, die später von Dîn-io als Teil der entnommenen magischen Gegenstände versteckt wurde.",
-            "type": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-06-01T16:11:49.920000",
-            "updated_at": null
-        },
-        {
-            "id": "o7tjmc3796c9mb46t4xi428x",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Magischer Krummsäbel",
-            "description": "Der Magische Krummsäbel ist ein magischer Gegenstand, der in einer geöffneten Truhe im Büro der Hohepriesterin gefunden wurde. Beim Öffnen der Truhe erlebten die Anwesenden einen kalten Stoß, der die bereits Gefrorenen mit stärkerem Frost und Eisklumpen versorgte. Der Magische Krummsäbel wurde zusammen mit anderen magischen Gegenständen von Dîn-io unter einem Bett in einer Taverne versteckt.",
-            "type": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-06-01T16:11:49.832000",
-            "updated_at": null
-        },
-        {
-            "id": "ksf8poxnrxu3562opj6k9rb3",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Magisches Kettenhemd",
-            "description": "Das magische Kettenhemd ist ein magischer Gegenstand, der zusammen mit weiteren magischen Artefakten in einer geöffneten Truhe im Büro der Hohepriesterin gefunden wurde. Es wurde beim Aufbrechen der Truhe durch Dîn-io sichtbar. Später versteckte Dîn-io die aus der Truhe genommenen magischen Gegenstände in einem anderen Zimmer der Taverne unter einem Bett.",
-            "type": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-06-01T16:11:49.739000",
-            "updated_at": null
-        },
-        {
-            "id": "jw2rx105w4io9lo4lpeveymd",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Arkaner Fokus",
-            "description": "Arcane Foci sind magische Gegenstände, die in einer geöffneten Truhe gefunden wurden. Sie wurden als mehrere, unterschiedliche Foki aufgeführt.\n\nDie Arcane Foci lagen zusammen mit anderem magischen Inventar in der Truhe, die Dîn-io aufbrach. Das Öffnen der Truhe löste einen kalten Stoß aus. Die Foki wurden als bunte Sammlung beschrieben, darunter kugelartige und kristallkugelartige Gegenstände. Dîn-io warf einen solchen Fokus später in Richtung der Tür und der eintretenden Person.",
-            "type": null,
-            "image": null,
-            "aliases": [
-                "Verschiedene Arcane Foci"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-06-01T16:11:49.648000",
-            "updated_at": null
-        },
-        {
-            "id": "nkibf4co2c85ipz32n5vx63t",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Truhe",
-            "description": "Die Truhe ist ein magisch wirkender Behälter im Büro der Hohepriesterin, der mit einem Schutzzauber versehen war. Beim Aufbrechen trat ein sehr kalter Stoß auf; die Hohepriesterin bezeichnete sie als Quelle des Zaubers, der Brennan traf.\nChronologie: Gwendolyn und Dîn-io näherten sich der Truhe. Gwendolyn rutschte beim Aufbrechen ab, Dîn-io brach schließlich das Schloss auf und öffnete die Truhe. Aus ihr entströmte Kälte, die die Gefrorenen stärker fror. In der Truhe befanden sich zahlreiche magische Gegenstände, darunter verschiedene Arcane Foci, ein magisches Kettenhemd, ein magischer Krummsäbel und ein magisches Langschwert, sowie ein leeres Buch. Dîn-io versteckte später die aus der Truhe genommenen Gegenstände unter einem Bett.",
-            "type": null,
-            "image": null,
-            "aliases": [
-                "Magische Truhe"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-06-01T16:11:49.556000",
-            "updated_at": null
-        },
-        {
-            "id": "eptzbecu81jl0yji7qraf7db",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Kleiner Silberner Schlüssel",
-            "description": "Kleiner silberner Schlüssel: Ein kleiner silberner Schlüssel, den Brennan im Hohlraum unter dem doppelten Boden einer Schublade im Büro der Hohepriesterin fand. Brennan gab den Schlüssel an die Gruppe weiter. Surina steckte den Schlüssel in das Schloss des verschlossenen Drachenbuchs und drehte ihn trotz spürbaren Widerstands weiter, bis das Buch aufging. Es wurde bestätigt, dass der Schlüssel in das Schloss passt.",
-            "type": null,
-            "image": null,
-            "aliases": [
-                "Silberner Schlüssel"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-06-01T16:11:49.467000",
-            "updated_at": null
-        },
-        {
-            "id": "krfte2h35hlp6rgcxn7z89nu",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Verschlossenes Drachenbuch",
-            "description": "Das Verschlossene Drachenbuch ist ein reich verziertes, dickes Buch mit einer Gebirgslandschaft und einem Drachen auf dem Einband. Es ist mit einem Schloss und komischen Runen versehen. Gwendolyn nahm eine Bannmagie-Aura wahr. Naevys fand das Buch in der Bibliothek und zeigte es Surina. Surina steckte einen kleinen silbernen Schlüssel in das Schloss und drehte ihn. Beim Öffnen des Buches löste sich eine Schockwelle aus, die Brennan, Naevys und Surina mit Frostüberzug erstarren ließ, während Gwendolyn beweglich blieb. Gwendolyn schloss das Buch erneut, und danach wirkte es nicht mehr wie zuvor magisch gesichert. Gwendolyn versteckte das Buch später am Boot der Gruppe im Gebüsch.",
-            "type": null,
-            "image": null,
-            "aliases": [
-                "Drachenbuch"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-06-01T16:11:49.368000",
-            "updated_at": null
-        },
-        {
-            "id": "l2jdw0btmc5mjqb9ms06baad",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Rauchgranate",
-            "description": "Rauchgranate: eine kleine Rauchgranate, die vom letzten Hauptgoblin mit der linken Hand fallen gelassen wurde. Sie erzeugte eine dichte Rauchwolke, die den Goblin und Surina umhüllte. Die Rauchwolke versperrte die Sicht und zwang die Gruppe zu blinden oder area-basierten Aktionen wie Säurewurf, Entangle und Blindschüsse. Die Wirkung hielt an, bis der Rauch später verzog, woraufhin die Sicht wiederhergestellt wurde.",
-            "type": null,
-            "image": null,
-            "aliases": [
-                "Rauchgranate",
-                "Granate"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-06-01T15:15:38.433000",
-            "updated_at": null
-        },
-        {
-            "id": "h414thf2airj92jt8nqb10qs",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Signalpfeife",
-            "description": "Signalpfeife: ein geraubtes Ausrüstungsstück, das von der Gruppe geborgen wurde und von Brennen Voidridge beansprucht wurde. Nach dem Kampf wurde die Signalpfeife unter den Beutegegenständen aufgeführt. Brennen erklärte: „Nehme die Flöte. Das ist meine Flöte“ und beanspruchte sie. Der Spielleiter korrigierte die Bezeichnung und nannte es „Signalfeife“.",
-            "type": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-06-01T15:15:38.357000",
-            "updated_at": null
-        },
-        {
-            "id": "c1oof8fslevi04ck2cixhdpl",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Abgeschnittene Hobgoblin-Finger",
-            "description": "Abgeschnittene Hobgoblin-Finger: Sechzig einzelne Finger, von Surina aus sechs Hobgoblin-Leichen in einer kuppelförmigen Höhle abgeschnitten und in einen Eimer gelegt; die Finger bluteten kaum.\nChronologie: Surina schnitt alle Finger von den Leichen, füllte damit einen Eimer (etwa halbvoll bis zwei Drittel), ließ den Eimer nach oben ziehen. Brennen schüttete den Inhalt neben dem Brunnen aus und ließ den Eimer wieder hinab. Später legte Surina die abgeschnittenen Hobgoblin-Finger ans Feuer, um sie zu trocknen und haltbar zu machen.",
-            "type": null,
-            "image": null,
-            "aliases": [
-                "Surinas Abgeschnittenen Fingern"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-06-01T13:10:51.631000",
-            "updated_at": null
-        },
-        {
-            "id": "cmpqojnf8001504l45w5lzxpy",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Kutsche von Triboar Stadtwache",
-            "description": "Kutsche: Eine von der Stadtwache bereitgestellte, große Kutsche mit Platz für geschätzt 10–12 Personen. Brennen und Gwendolyn erhielten die Kutsche nach Rückfrage bei der Stadtwache. Brennen bestätigte, dass sie für die Gruppe bestimmt war, und gab einem Wachmann ein Goldstück. Die Kutsche wurde mit einem Zugpferd angespannt; die Gruppe spann weitere Tiere an und verließ die Stadt in Richtung Norden. Während der Reise stellte die Gruppe fest, dass die Kutsche langsamer war als ihr früheres Reisetempo.",
-            "type": null,
-            "image": null,
-            "aliases": [
-                "die schwarze Kutsche",
-                "Kutsche",
-                "Kriegswagen",
-                "Großer, eisenbeplatteter Kriegswagen mit montierter Armbrust",
-                "Wagen"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-05-29T08:48:36.664000",
-            "updated_at": null
         }
     ],
     "from": 1,
-    "last_page": 7,
+    "last_page": 8,
     "per_page": 20,
     "to": 20,
-    "total": 128
+    "total": 147
 }

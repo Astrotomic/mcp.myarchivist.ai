@@ -29,6 +29,8 @@ class ArchivistDtoTest extends FeatureTestCase
                 'owner_id' => Str::uuid()->toString(),
                 'summary' => null,
                 'language' => 'en',
+                'archived' => false,
+                'archived_at' => null,
             ]);
         });
 

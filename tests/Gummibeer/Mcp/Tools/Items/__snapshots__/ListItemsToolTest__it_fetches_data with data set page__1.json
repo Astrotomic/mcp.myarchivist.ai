@@ -2,6 +2,281 @@
     "current_page": 2,
     "data": [
         {
+            "id": "rw3iur6uec6dob1x3bnds3y6",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Vorräte",
+            "description": "Vorräte sind der Proviant und weitere benötigte Güter, die Gwerk ins provisorische Lager brachte und die für die Versorgung der belagerten Stadt Triboar bestimmt sind.\nDie Gruppe schüttete den Proviant und Nötiges in eine große Zeltplane und bündelte die Last zu einem schweren Paket. Dîn-io nahm die befüllte Zeltplane und ließ die Vorräte in seinen Ring verschwinden. Surinas Vogel Cogling Aviad trug den Ring in Richtung der belagerten Stadt Triboar.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Proviant",
+                "Proviant Und Weitere Benötigte Güter"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-02T09:56:48.627000",
+            "updated_at": null
+        },
+        {
+            "id": "dtzayj7839t3unrm3r3ejx0k",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Große Zeltplane",
+            "description": "Die Große Zeltplane ist ein großer Stoffbeutel aus Planenstoff, der von der Gruppe verwendet wird, um Vorräte und nötige Güter zu transportieren. Sie wird prall gefüllt und zu einem schweren Paket gebündelt. Dîn-io Tempest nahm die befüllte Große Zeltplane und ließ den gesamten Inhalt in seinen Ring verschwinden. Der Ring wurde anschließend von Surinas Vogel aus dem Lager in Richtung Triboar getragen.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Zeltplane"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-02T09:56:48.436000",
+            "updated_at": null
+        },
+        {
+            "id": "cmpwgi1fz000a04jydz3du2zf",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Der Brieföffner der Hohepriesterin ",
+            "description": "Der schmale Dolch oder Brieföffner ist ein dünnes Metallwerkzeug, das in einer Schublade des Schreibtischs der Hohepriesterin gefunden wurde, neben Ersatzschreibfedern.\nBrennan entdeckte den schmalen Dolch/Brieföffner in der Schublade und nutzte ihn, um an der Unterseite der Schublade einen doppelten Boden zu hebeln. Dadurch entfernte er das Fach, in dem sich ein kleiner silberner Schlüssel befand.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Der Dolch"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-02T09:50:01.649000",
+            "updated_at": null
+        },
+        {
+            "id": "h3zqtru0cf06njw0ufc9w6vb",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Felle",
+            "description": "Felle sind abdeckende Textilien, die als Hüllen verwendet wurden. Dîn-io und Gwendolyn deckten die gefrorenen Gefährten mit Fellen und Gewändern ab, nachdem sie beschlossen hatten, diese aus der Kirche zu schaffen. Dîn-io brachte Naevys in Fellen gehüllt zur Taverne, transportierte Brennan auf dieselbe Weise und schließlich auch Surina, die er in Fellen eingewickelt in Betten ablegte. Ein Erzählerkommentar beschreibt das Tragen einer Figur „in den Fellen eingeschlagen“ auf dem Arm zur Taverne.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T16:11:50.563000",
+            "updated_at": null
+        },
+        {
+            "id": "lyppt2k74jkv8gykaiv0g52g",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Buch Eines Alten Magiers",
+            "description": "Das Buch eines alten Magiers ist ein verschlossenes, reich verziertes Band mit einem Gebirgsbild, einem Drachen auf dem Einband und fremden Runen. Die Hohepriesterin nannte ein solches Buch unter den verschwundenen Gegenständen, das ein alter Magier in der Stadt zurückgelassen habe. Naevys fand das Buch in der Tempelbibliothek; es zeigte eine magische Aura. Surina öffnete es mit einem kleinen silbernen Schlüssel trotz spürbaren Widerstands. Beim Öffnen löste das Buch eine Schockwelle aus, die Brennan, Naevys und Surina reglos mit Frostüberzug erstarren ließ, während Gwendolyn beweglich blieb. Gwendolyn erkannte Zeichen, die an Runen aus dem schwarzen Tempel erinnerten. Nach erneutem Verschließen wirkte das Buch nicht mehr magisch gesichert. Gwendolyn versteckte das verschlossene Buch später in einem Gebüsch beim Bootsplatz.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T16:11:50.463000",
+            "updated_at": null
+        },
+        {
+            "id": "kbk9o4n16peysjj9yubljtor",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Juwelen Aus Den Spenden Der Minenarbeiter",
+            "description": "Die Juwelen sind gesammelte Spenden der Minenarbeiter, die sich im Tempel angesammelt haben. Sie befanden sich zusammen mit weiteren Gegenständen in einer verschlossenen Truhe im Büro der Hohepriesterin, die mit einem Schutzzauber versehen war. Beim Aufbrechen der Truhe trat ein kalter Stoß auf, und nach dem Öffnen waren die Juwelen verschwunden. Die Hohepriesterin meldete ihren Verlust der Stadtwache.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T16:11:50.371000",
+            "updated_at": null
+        },
+        {
+            "id": "dsooh22s7ez3d7rfq6s17bgm",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Schwert Eines Ehemaligen Helden",
+            "description": "Das Schwert eines ehemaligen Helden wurde von der Hohepriesterin als eines der unwiederbringlichen und für die Stadt bedeutsamen Gegenstände genannt, die aus ihrem Büro verschwunden seien. Gwendolyn und Dîn-io öffneten daraufhin die verschlossene Truhe im Büro, in der sich ein magisches Langschwert befand. Dîn-io und Surina bemerkten das Schwert kurz nach dem Öffnen.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T16:11:50.282000",
+            "updated_at": null
+        },
+        {
+            "id": "budrr84ccbbiqrz519n6ls1g",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Zwei Schreiben Aus Luskan",
+            "description": "Zwei Schreiben aus Luskan sind geöffnete Briefe, die auf der rechten Seite des Schreibtischs der Hohepriesterin lagen. Die Siegel waren gebrochen. Ihr Inhalt befasste sich mit einem geplanten Wissensaustausch mit einer anerkannten Magiergilde oder Akademie. Die Briefe wurden von Brennan während der Durchsuchung des Büros gefunden.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Schreiben Aus Luskan"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T16:11:50.101000",
+            "updated_at": null
+        },
+        {
+            "id": "wvbkugmrl679tu20vm2f6vyf",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Magisches Langschwert",
+            "description": "Magisches Langschwert: ein als magisch beschriebenes Langschwert, aufgeführt unter den magischen Gegenständen in der von Dîn-io geöffneten Truhe.\nDie Truhe wurde von Dîn-io aufgebrochen, wobei ein kalter Stoß den Anwesenden entgegen schlug. Das Langschwert gehörte zur Beute aus der Truhe, die später von Dîn-io als Teil der entnommenen magischen Gegenstände versteckt wurde.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T16:11:49.920000",
+            "updated_at": null
+        },
+        {
+            "id": "o7tjmc3796c9mb46t4xi428x",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Magischer Krummsäbel",
+            "description": "Der Magische Krummsäbel ist ein magischer Gegenstand, der in einer geöffneten Truhe im Büro der Hohepriesterin gefunden wurde. Beim Öffnen der Truhe erlebten die Anwesenden einen kalten Stoß, der die bereits Gefrorenen mit stärkerem Frost und Eisklumpen versorgte. Der Magische Krummsäbel wurde zusammen mit anderen magischen Gegenständen von Dîn-io unter einem Bett in einer Taverne versteckt.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T16:11:49.832000",
+            "updated_at": null
+        },
+        {
+            "id": "ksf8poxnrxu3562opj6k9rb3",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Magisches Kettenhemd",
+            "description": "Das magische Kettenhemd ist ein magischer Gegenstand, der zusammen mit weiteren magischen Artefakten in einer geöffneten Truhe im Büro der Hohepriesterin gefunden wurde. Es wurde beim Aufbrechen der Truhe durch Dîn-io sichtbar. Später versteckte Dîn-io die aus der Truhe genommenen magischen Gegenstände in einem anderen Zimmer der Taverne unter einem Bett.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T16:11:49.739000",
+            "updated_at": null
+        },
+        {
+            "id": "jw2rx105w4io9lo4lpeveymd",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Arkaner Fokus",
+            "description": "Arcane Foci sind magische Gegenstände, die in einer geöffneten Truhe gefunden wurden. Sie wurden als mehrere, unterschiedliche Foki aufgeführt.\n\nDie Arcane Foci lagen zusammen mit anderem magischen Inventar in der Truhe, die Dîn-io aufbrach. Das Öffnen der Truhe löste einen kalten Stoß aus. Die Foki wurden als bunte Sammlung beschrieben, darunter kugelartige und kristallkugelartige Gegenstände. Dîn-io warf einen solchen Fokus später in Richtung der Tür und der eintretenden Person.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Verschiedene Arcane Foci"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T16:11:49.648000",
+            "updated_at": null
+        },
+        {
+            "id": "nkibf4co2c85ipz32n5vx63t",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Truhe",
+            "description": "Die Truhe ist ein magisch wirkender Behälter im Büro der Hohepriesterin, der mit einem Schutzzauber versehen war. Beim Aufbrechen trat ein sehr kalter Stoß auf; die Hohepriesterin bezeichnete sie als Quelle des Zaubers, der Brennan traf.\nChronologie: Gwendolyn und Dîn-io näherten sich der Truhe. Gwendolyn rutschte beim Aufbrechen ab, Dîn-io brach schließlich das Schloss auf und öffnete die Truhe. Aus ihr entströmte Kälte, die die Gefrorenen stärker fror. In der Truhe befanden sich zahlreiche magische Gegenstände, darunter verschiedene Arcane Foci, ein magisches Kettenhemd, ein magischer Krummsäbel und ein magisches Langschwert, sowie ein leeres Buch. Dîn-io versteckte später die aus der Truhe genommenen Gegenstände unter einem Bett.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Magische Truhe"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T16:11:49.556000",
+            "updated_at": null
+        },
+        {
+            "id": "eptzbecu81jl0yji7qraf7db",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Kleiner Silberner Schlüssel",
+            "description": "Kleiner silberner Schlüssel: Ein kleiner silberner Schlüssel, den Brennan im Hohlraum unter dem doppelten Boden einer Schublade im Büro der Hohepriesterin fand. Brennan gab den Schlüssel an die Gruppe weiter. Surina steckte den Schlüssel in das Schloss des verschlossenen Drachenbuchs und drehte ihn trotz spürbaren Widerstands weiter, bis das Buch aufging. Es wurde bestätigt, dass der Schlüssel in das Schloss passt.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Silberner Schlüssel"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T16:11:49.467000",
+            "updated_at": null
+        },
+        {
+            "id": "krfte2h35hlp6rgcxn7z89nu",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Verschlossenes Drachenbuch",
+            "description": "Das Verschlossene Drachenbuch ist ein reich verziertes, dickes Buch mit einer Gebirgslandschaft und einem Drachen auf dem Einband. Es ist mit einem Schloss und komischen Runen versehen. Gwendolyn nahm eine Bannmagie-Aura wahr. Naevys fand das Buch in der Bibliothek und zeigte es Surina. Surina steckte einen kleinen silbernen Schlüssel in das Schloss und drehte ihn. Beim Öffnen des Buches löste sich eine Schockwelle aus, die Brennan, Naevys und Surina mit Frostüberzug erstarren ließ, während Gwendolyn beweglich blieb. Gwendolyn schloss das Buch erneut, und danach wirkte es nicht mehr wie zuvor magisch gesichert. Gwendolyn versteckte das Buch später am Boot der Gruppe im Gebüsch.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Drachenbuch"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T16:11:49.368000",
+            "updated_at": null
+        },
+        {
+            "id": "l2jdw0btmc5mjqb9ms06baad",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Rauchgranate",
+            "description": "Rauchgranate: eine kleine Rauchgranate, die vom letzten Hauptgoblin mit der linken Hand fallen gelassen wurde. Sie erzeugte eine dichte Rauchwolke, die den Goblin und Surina umhüllte. Die Rauchwolke versperrte die Sicht und zwang die Gruppe zu blinden oder area-basierten Aktionen wie Säurewurf, Entangle und Blindschüsse. Die Wirkung hielt an, bis der Rauch später verzog, woraufhin die Sicht wiederhergestellt wurde.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Rauchgranate",
+                "Granate"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T15:15:38.433000",
+            "updated_at": null
+        },
+        {
+            "id": "h414thf2airj92jt8nqb10qs",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Signalpfeife",
+            "description": "Signalpfeife: ein geraubtes Ausrüstungsstück, das von der Gruppe geborgen wurde und von Brennen Voidridge beansprucht wurde. Nach dem Kampf wurde die Signalpfeife unter den Beutegegenständen aufgeführt. Brennen erklärte: „Nehme die Flöte. Das ist meine Flöte“ und beanspruchte sie. Der Spielleiter korrigierte die Bezeichnung und nannte es „Signalfeife“.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T15:15:38.357000",
+            "updated_at": null
+        },
+        {
+            "id": "c1oof8fslevi04ck2cixhdpl",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Abgeschnittene Hobgoblin-Finger",
+            "description": "Abgeschnittene Hobgoblin-Finger: Sechzig einzelne Finger, von Surina aus sechs Hobgoblin-Leichen in einer kuppelförmigen Höhle abgeschnitten und in einen Eimer gelegt; die Finger bluteten kaum.\nChronologie: Surina schnitt alle Finger von den Leichen, füllte damit einen Eimer (etwa halbvoll bis zwei Drittel), ließ den Eimer nach oben ziehen. Brennen schüttete den Inhalt neben dem Brunnen aus und ließ den Eimer wieder hinab. Später legte Surina die abgeschnittenen Hobgoblin-Finger ans Feuer, um sie zu trocknen und haltbar zu machen.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Surinas Abgeschnittenen Fingern"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T13:10:51.631000",
+            "updated_at": null
+        },
+        {
+            "id": "cmpqojnf8001504l45w5lzxpy",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Kutsche von Triboar Stadtwache",
+            "description": "Kutsche: Eine von der Stadtwache bereitgestellte, große Kutsche mit Platz für geschätzt 10–12 Personen. Brennen und Gwendolyn erhielten die Kutsche nach Rückfrage bei der Stadtwache. Brennen bestätigte, dass sie für die Gruppe bestimmt war, und gab einem Wachmann ein Goldstück. Die Kutsche wurde mit einem Zugpferd angespannt; die Gruppe spann weitere Tiere an und verließ die Stadt in Richtung Norden. Während der Reise stellte die Gruppe fest, dass die Kutsche langsamer war als ihr früheres Reisetempo.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "die schwarze Kutsche",
+                "Kutsche",
+                "Kriegswagen",
+                "Großer, eisenbeplatteter Kriegswagen mit montierter Armbrust",
+                "Wagen"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-05-29T08:48:36.664000",
+            "updated_at": null
+        },
+        {
             "id": "cmpqlw5w7000004l1eomji6nw",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "name": "Vergoldeter Schädel",
@@ -15,302 +290,11 @@
             "merge": false,
             "created_at": "2026-05-29T07:34:21.617000",
             "updated_at": null
-        },
-        {
-            "id": "wsp9oznanvk7355veu8otp4b",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Der Wahrheitsdolch ",
-            "description": "Der Dolch ist ein von Ceres übergebenes magisches Messer. Ceres erklärte, dass eine Wunde durch diesen Dolch für zehn Atemzüge Einsicht in die Wahrheit gewährt.\n\nCeres übergab den Dolch nachts an Gwendolyn Silverflame. Gwendolyn stach sich zuerst in den Finger, ohne sichtbare Veränderung, hob den Dolch in der rechten Hand und prüfte damit nacheinander Rita (Fußsohle), Surina Nemmonis (Hand) und Morvain (Oberschenkel). Sie ließ den Dolch beim Verstecken gegen das Bettgestell fallen und stach später mehrfach in den Leib des am Boden Liegenden (Doppelgänger), bevor sie den Dolch schließlich Ceres aushändigte.",
-            "type": null,
-            "image": null,
-            "aliases": [
-                "Der Dolch"
-            ],
-            "tcg_image": null,
-            "merge": true,
-            "created_at": "2026-05-29T06:51:39.682000",
-            "updated_at": null
-        },
-        {
-            "id": "b781mepceous3av3bsbm0ans",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Hase",
-            "description": "Der Hase ist ein lebendes Tier, das Gwendolyn vom bekannten Jägerstand auf dem Markt für 5 Silber erwerben ließ. Er wurde als mögliches Haustier für Surina erworben.\nGwendolyn ging zum Markt, wo der Jäger lebende Tiere gegen 5 Silber anbot. Sie erhielt daraufhin einen Hasen und brachte ihn später in der Verhandlung als Alternativvorschlag vor, um zu zeigen, dass Surina Haustiere mag.",
-            "type": null,
-            "image": null,
-            "aliases": [
-                "Hasen"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-05-28T07:49:32.521000",
-            "updated_at": null
-        },
-        {
-            "id": "bhgc4s4hzstguunhek09s7o9",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Schädel Des Skeletts",
-            "description": "Der Schädel des Skeletts ist der abgetrennte Schädel eines der in Gwendolyns Zimmer gefundenen Skelette, den Surina nach einer Auseinandersetzung in der Hand behielt.\nChronologie: Surina trennte dem Skelett den Kopf ab; der Schädel blieb in ihrer Hand, während der restliche Körper weiterstand. Surina versuchte, den Schädel zu befragen; der Schädel reagierte nur mit Kopfbewegungen und ausweichenden Reaktionen, nicht mit Sprache. Später wurde der Schädel zusammen mit den zerlegten Skelettteilen verpackt und der Stadtwache übergeben.",
-            "type": null,
-            "image": null,
-            "aliases": [
-                "Der Schädel"
-            ],
-            "tcg_image": null,
-            "merge": true,
-            "created_at": "2026-05-28T07:49:32.269000",
-            "updated_at": null
-        },
-        {
-            "id": "cmpp6l99w001o04k0fl8vhrxk",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Große Kugel",
-            "description": "Kugel: Eine einzelne Kugel aus einem den Findern unbekannten Material, gefunden am Körper der Bluthexe. Surina Nemmonis entdeckte die Kugel und nahm sie an sich. Nach dem Tod der Bluthexe hielt Surina die Kugel in der Hand und fragte die Gruppe, ob jemand damit etwas anfangen könne. Die Kugel wurde als Teilkugel aus unbekanntem Material beschrieben.",
-            "type": null,
-            "image": null,
-            "aliases": [
-                "Kugel"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-05-28T07:38:12.374000",
-            "updated_at": null
-        },
-        {
-            "id": "piv2k307bibbgghouac2if2p",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Kissen",
-            "description": "Kissen: Ein Kissen, gelegen neben einem Altar im oberen Bereich der Höhle, aus dem Dîn-io das Buch geholt hatte. Gwendolyn bemerkte das Kissen zusammen mit dem Altar.",
-            "type": null,
-            "image": null,
-            "aliases": [
-                "Kissen"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-05-27T20:26:36.941000",
-            "updated_at": null
-        },
-        {
-            "id": "vtwn9zy4fwq8etexbnwuvx12",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Altar",
-            "description": "Der Altar ist ein gefundenes Objekt im oberen Bereich der Höhle, zusammen mit einem Kissen. Er befindet sich in der Nähe der Stelle, aus der Dîn-io das Buch entnommen hat. Der Altar wurde gesehen, nachdem das Buch geborgen war. Gwendolyn und die Gruppe bemerkten ihn beim Blick in den oberen Bereich. Es folgen keine weiteren ausdrücklich dem Altar zurechenbaren Handlungen oder Beschädigungen im Verlauf der Szene.",
-            "type": null,
-            "image": null,
-            "aliases": [
-                "Altar"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-05-27T20:26:36.835000",
-            "updated_at": null
-        },
-        {
-            "id": "zektigguzzv4flpkc2f1fbo9",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Kerze",
-            "description": "Kerze: Ein einfacher Gegenstand, der bei den toten Kultisten gefunden wurde. Nach dem Fall der verbleibenden Kultisten durchsuchten die SC die Leichen und entdeckten bei jedem der gefallenen Kultisten eine Kerze.",
-            "type": null,
-            "image": null,
-            "aliases": [
-                "Eine Kerze"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-05-27T20:26:36.624000",
-            "updated_at": null
-        },
-        {
-            "id": "u3ry5j402qibh994sf5hqjmw",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Leuchtender Gegenstand",
-            "description": "Der Leuchtende Gegenstand ist ein etwa 30 Zentimeter langer Stab, der im Höhle leuchtet. Er wurde zuerst in oder über dem Höhle sichtbar, wobei im Wasser zwei exakt gleich aussehende Abbilder dieses Stabes erschienen. Der Stab blieb nach dem Ritual weiterhin leuchtend sichtbar, und die Leuchtwirkung hielt nach Aussage der Beobachter mindestens eine Stunde an.",
-            "type": null,
-            "image": null,
-            "aliases": [
-                "Zwei Gleichen Stäben",
-                "Leuchtenden Gegenstands",
-                "Stäbe"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-05-27T20:26:36.411000",
-            "updated_at": null
-        },
-        {
-            "id": "jpp4fykee3gb0zrhhppzux8q",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Buch",
-            "description": "Das Buch ist ein Schriftstück, das Dîn-io Tempest bei sich trägt. Es berichtet von Blutopfern, einem schwarzen Spiegel und einem Gedicht. Dîn-io bewegte sich mit dem Buch durch die Höhle, las darin und erkannte einzelne Schlagwörter. Später steckte Dîn-io das Buch kurz weg, holte es wieder hervor und teilte den anderen mit, dass darin von Blutopfern, einem schwarzen Spiegel und einem Gedicht die Rede sei. Dîn-io arbeitete das Buch weiter durch und entzifferte einen Abschnitt, der ein Ritual in der Stunde des Blutmonds mit den Worten der Dunkelheit und ein Blutopfer von 13 Verlorenen nennt.",
-            "type": null,
-            "image": null,
-            "aliases": [
-                "Erbeuteten Buch",
-                "Das Buch"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-05-27T20:26:36.304000",
-            "updated_at": null
-        },
-        {
-            "id": "vrhzro4bdapyxlx35gyrx5rn",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Schwarzer Spiegel",
-            "description": "Der Schwarze Spiegel ist ein in den Boden eingelassenes, schwarzes Material im Zentrum des Blutsees. Das Blut des Sees zieht hinunter zum Spiegel. Dîn-io fror einen würfelförmigen Teil der Oberfläche ein und stellte fest, dass das Blut weiterhin nach unten abgezogen wurde. Der Käpt’n rammte mit dem Großschwert gegen den Spiegel, die Spitze rutschte ab. Eine Luftblase stieg aus dem Spiegel auf, das Blut zog sich zur Mitte zurück, am Rand des nun erkennbaren Spiegels erschienen Egel, und aus dem Spiegel erhob sich die Bluthexe. Nach dem Fall der Bluthexe schlug die Gruppe auf das nun offenliegende schwarze Material ein; es klang wie Stein, die Grundfläche war mit dem Untergrund verschmolzen und ließ sich mit einem Dolch nicht lösen.",
-            "type": null,
-            "image": null,
-            "aliases": [
-                "Spiegel",
-                "Schwarzen Spiegel",
-                "Der Spiegel",
-                "Das Schwarze Material"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-05-27T20:26:36.189000",
-            "updated_at": null
-        },
-        {
-            "id": "nmab8mlobomn6fyhim9zx9y9",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Pergamentrollen",
-            "description": "Pergamentrollen: Mehrere Schriftrollen, gefunden in teilweise verschlossenen Kisten am Fuß eines großen Hügels mit einer Rauchsäule. Die Kisten waren teilweise geöffnet und geplündert; in einigen verblieben noch Pergamentrollen. Diese lagen zusammen mit Pergament, Kräutern, Kerzen und weiterem Material, das wie Ritualbedarf wirkte. In den Kisten gab es keine Hinweise auf Bergbau.",
-            "type": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-05-27T20:08:18.322000",
-            "updated_at": null
-        },
-        {
-            "id": "hjlonft80f3kv7psv5clqtxj",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Edelstein",
-            "description": "Edelstein: ein einzelner Edelstein, der in einem der Rucksäcke der Gruppe lag.\nDer Stadtwächter brachte Brennen Voidridges Rucksack herein und hielt den Edelstein kurz Brennen entgegen. Gwerk entnahm aus dem Rucksack Briefe und den Edelstein, blätterte die Briefe durch und steckte den Edelstein anschließend wieder zurück in den Rucksack.",
-            "type": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-05-27T20:08:18.161000",
-            "updated_at": null
-        },
-        {
-            "id": "lfjxmt5tduttaxfyrfv7bmgu",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Briefe",
-            "description": "Die Briefe sind Schriftstücke, die Brennen Voidridge und seine Gruppe bei der Durchsuchung eines Hauses gefunden haben. Ein Brief war versiegelt. Die Briefe wurden zusammen mit einem Edelstein in Brennens Rucksack zur Stadtwache gebracht und dort einbehalten. Gwerk von der Stadtwache nahm den Rucksack, blätterte die Briefe durch, erklärte, sie enthielten nützliche Informationen, fragte nach ihrer Herkunft und dankte der Gruppe. Anschließend löste er deren Fesseln.",
-            "type": null,
-            "image": null,
-            "aliases": [
-                "Brief",
-                "Noch Versiegelter Brief",
-                "Versiegelter Brief"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-05-27T20:08:18.081000",
-            "updated_at": null
-        },
-        {
-            "id": "xk3hmqualsydy43py07wdrx7",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Kleines Messer",
-            "description": "Das kleine Messer wurde auf Anons Schreibtisch gefunden und als Werkzeug zum Öffnen oder Schneiden von Papier beschrieben. Brennen entdeckte es beim Durchsehen der Unterlagen, benutzte das Messer, um eine versteckte Klappe im Schreibtisch zu öffnen, nahm den Inhalt aus dem Geheimfach an sich und legte beim Verlassen die Klappe wieder zu und das Messer an seinen Platz zurück.",
-            "type": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-05-27T16:37:39.517000",
-            "updated_at": null
-        },
-        {
-            "id": "x6eaxi4jyso8onvxca8su8b0",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Zeichen Der Geflügelten Schlange",
-            "description": "Das Zeichen der geflügelten Schlange ist ein Symbol, das mit den Zhentarim in Verbindung steht. Es erschien als Siegel mit Siegelwachs auf Anons Schreibtischunterlagen.\nStadtwachen benannten das Zeichen chronologisch als Erkennungszeichen der Zhentarim. Brennen und Surina fanden in Anons Arbeitszimmer ein Siegel mit diesem Symbol sowie Papiere mit Rückständen von Siegelwachs, die auf Verbindungen zur Gruppe hinwiesen.",
-            "type": null,
-            "image": null,
-            "aliases": [
-                "Siegel Mit Dem Symbol Der Geflügelten Schlange",
-                "Das Zeichen Der Geflügelten Schlange"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-05-27T16:37:39.354000",
-            "updated_at": null
-        },
-        {
-            "id": "z4tjgn4iyf6838t6h5p6br3f",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Schreiben Aus Dem Geheimfach",
-            "description": "Die Schreiben aus dem Geheimfach sind Dokumente, die Brennen in einer versteckten Klappe von Anons Schreibtisch fand. An den Papieren waren Reste von Siegelwachs, die auf zuvor vorhandene Siegel hinwiesen.\nBrennen entnahm die Schreiben dem Geheimfach und legte sie später auf den Tavernen-Tisch. Die Gruppe untersuchte die Papiere im Zimmer. Die Schreiben bezogen sich auf eine als „der Priester“ bezeichnete Person und beschrieben dessen Experimente, die Kranken und Armen geholfen haben sollen. Weitere Teile berichteten, dass vor den Stadttoren Banditen auf ein Ziel warteten und dass einer der Flüchtigen bereits gefasst worden sei und bald exekutiert werden sollte. Die Unterlagen standen außerdem im Zusammenhang mit den Zhentarim; eine unsauber geschriebene Notiz erwähnte die „Reiter der Hölle“ und eine Summe von 5000 Gold.",
-            "type": null,
-            "image": null,
-            "aliases": [
-                "Buchhaltungs- Und Auftragsunterlagen",
-                "Papiere",
-                "Unterlagen",
-                "Aus Dem Geheimfach Genommene Papiere",
-                "Aus Dem Geheimfach Genommene Schreiben"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-05-27T16:37:39.260000",
-            "updated_at": null
-        },
-        {
-            "id": "twsoipghlpg5kg00kpu0db8n",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Edelsteine",
-            "description": "Edelsteine sind Gegenstände, die in einem Rucksack gefunden wurden. Sie lagen nach einem Kampf an einem Ort, an dem tote Zwerge und Orks gefunden wurden. Die Wachen hielten aufgrund der im Rucksack gefundenen Edelsteine an und forderten Auskunft über deren Herkunft. Dîn-io zeigte einen Stein mit demselben Zeichen wie Flint; nach Sicht des Zeichens lockerte sich die Haltung der Wachen.",
-            "type": null,
-            "image": null,
-            "aliases": [
-                "Edelstein",
-                "Die Edelsteine"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-05-27T08:37:25.541000",
-            "updated_at": null
-        },
-        {
-            "id": "lc3dkv59if9jnyupmf3ryyim",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Stabförmiger Gegenstand",
-            "description": "Der stabförmige Gegenstand ist ein stabähnliches Objekt, das auf dem Tisch der Könige lag. Die Gruppe konnte seine Verzauberungen nicht bestimmen. Der Gegenstand wurde als „Stab/Zauberstab“ bezeichnet; er hat oben ein kleines Loch und einen Hohlraum und wirkt nicht wie ein normaler Zauberstab. Gwendolyn beanspruchte den Stab als Begleiter für Brennen und nahm ihn mit.",
-            "type": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-05-26T14:30:47.462000",
-            "updated_at": null
-        },
-        {
-            "id": "ra1sd69zvz7mtlko7wt5eqmh",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Pinker Hut",
-            "description": "Der Pinker Hut ist ein pinkfarbener Kopfbedeckungsgegenstand, der von Königen getragen wird. Er dient dazu, Regen abzuhalten, und seit seiner Herstellung hat die königliche Schneiderin offenbar bessere Ergebnisse erzielt. Die Gruppe begutachtete den Hut auf einem Tisch mit Belohnungen. Surina hob ihn hoch und fragte nach seiner Verwendung, woraufhin die Könige nur den Regenschutz bestätigten. Die Gruppe konnte die Verzauberungen nicht bestimmen, und sein praktischer Nutzen blieb unklar. Der Hut wurde nicht eindeutig als Wahlgegenstand übernommen.",
-            "type": null,
-            "image": null,
-            "aliases": [
-                "Hut"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-05-26T14:30:47.373000",
-            "updated_at": null
         }
     ],
     "from": 21,
-    "last_page": 7,
+    "last_page": 8,
     "per_page": 20,
     "to": 40,
-    "total": 128
+    "total": 147
 }

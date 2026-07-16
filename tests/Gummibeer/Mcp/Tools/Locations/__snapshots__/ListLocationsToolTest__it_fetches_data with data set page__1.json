@@ -2,6 +2,301 @@
     "current_page": 2,
     "data": [
         {
+            "id": "lo68j4zrckl6ii777yinpuy4",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Triboar > Mausoleum > Ungewöhnlich Langer Raum",
+            "description": "Der Ungewöhnlich Langer Raum ist ein langer Gangraum. In der Mitte steht eine Fremde Frau, die in Rätseln spricht. Nachdem Die Gruppe eintritt, schließt sich die Tür aus Stein hinter ihnen. Die Schatten der Anwesenden lösen sich vom Boden und greifen an; die Schattenmagie fesselt Brennen Voidridge, Surina Nemmonis und die übrigen, während Dîn-io Tempest ungebunden bleibt. Vor Dîn-io erscheint als erste Prüfung ein Labyrinth Mit Hüfthohen Wänden, das Blut verlangt. Dîn-io löscht Fackeln, wodurch sich der Schattengriff schwächt, bis die Fesseln brechen.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Langer Raum"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-03T07:57:49.075000",
+            "updated_at": null
+        },
+        {
+            "id": "g9xc5lppmhiedaj95q8mwyhw",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Triboar > Mausoleum > Kleine Rechteckige Kammer",
+            "description": "Die Kleine Rechteckige Kammer ist ein enger, rechteckiger Raum am Ende einer Wendeltreppe. Sie ist kaum größer als der Schacht selbst und bietet wenig Platz, sodass Teile der Gruppe auf der Treppe warten mussten. In der Kammer befinden sich keine Särge, Wappen oder Inschriften, sondern nur eine einzelne Tür.\n\nHinter dieser Tür erstreckt sich ein Ungewöhnlich Langer Raum.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-03T07:57:48.977000",
+            "updated_at": null
+        },
+        {
+            "id": "rh8wo5kjcxzgdq05n3yepqqm",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Triboar > Mausoleum > Verborgener Raum",
+            "description": "Der Verborgene Raum ist eine Kammer, die hinter einer aufgebrochenen Wand freigelegt wurde. In der Kammer steht ein Leerer Sarkophag, und am Boden befindet sich ein Einstieg zu einer Wendeltreppe, die nach unten führt.\n\nDie Wendeltreppe endet in einer kleinen rechteckigen Kammer mit einer einzigen Tür. Nach dem Öffnen der Tür führt ein Ungewöhnlich Langer Raum, in dessen Mitte eine Fremde Frau wartet. Die steinerne Tür schließt sich hinter der Gruppe.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Verborgenen Raum"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-03T07:57:48.882000",
+            "updated_at": null
+        },
+        {
+            "id": "cfel0xml1bwutjb8qed2xzia",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Triboar > Mausoleum > Bereich Mit Acht Grufttüren",
+            "description": "Der Bereich Mit Acht Grufttüren ist ein unterirdischer Abschnitt mit acht Grufttüren, von denen jede ein eigenes Symbol oder Wappen trägt. In den meisten Kammern befinden sich Särge oder Sarkophage, einige haben Nebenräume mit weiteren Toten. In einem Raum fehlt anstelle einer erwarteten Tür eine Wand. Brennen zertrümmerte Fackelhalterungen, wodurch ein Stein sich löste und die Wand freigelegt wurde. Dahinter befindet sich ein Leerer Sarkophag mit einem Einstieg zu einer Wendeltreppe nach unten. Beim Abstieg wird die Luft kälter, und Die Gruppe hat das Gefühl, beobachtet zu werden. Die Treppe endet in einer kleinen rechteckigen Kammer mit einer einzigen Tür, die in einen ungewöhnlich langen Raum führt.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-03T07:57:48.785000",
+            "updated_at": null
+        },
+        {
+            "id": "cmpwhw1db001904jy5hpcxbg6",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "provisorische Lager der Gruppe bei Triboar",
+            "description": "Das provisorische Lager liegt im Schatten der Belagerung vor dem belagerten Triboar. Es weist Rauch auf und wird von Wachen bewacht.\n\nGwerk brachte Vorräte ins Lager. Die Gruppe bündelte Proviant und nötige Güter in einer großen Zeltplane. Dîn-io ließ die gefüllte Zeltplane in seinen Ring verschwinden. Surinas Vogel Cogling Aviad hob im Lager ab und trug den Ring Richtung Triboar davon. Die übrige Gruppe stieg in die Kutsche Iron Fang und verließ das Lager in Richtung Belagerungsring.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Lager der Skelette",
+                "Skelettlager"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-02T10:28:54.352000",
+            "updated_at": null
+        },
+        {
+            "id": "cmpwg5vxg000304jynqiom6ba",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Bryn Shander > Marktplatz",
+            "description": "Der Marktplatz ist ein offener Ort in der Stadt, an dem Personen einander begegnen. Gwendolyn traf Dîn‑io auf dem Marktplatz und zog ihn von dort aus zur Kirche.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-02T09:40:34.631000",
+            "updated_at": null
+        },
+        {
+            "id": "cmpwg5lul000004jydtqbniua",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Bryn Shander > Büro der Hohepriesterin",
+            "description": "Hinter der Tür lag das Büro der Hohepriesterin, ein verschlossenes Zimmer im Tempel mit Regalreihen, einem Schreibtisch und einer verschlossenen Truhe. Die Gruppe brach die Tür auf und durchsuchte das Büro. An den Regalen fanden Surina und Naevys religiöse Gegenstände, Kräuter, Rauchwerk, Kohle, Ersatzgewänder und zwei private Notizbücher. Am Schreibtisch lagen geöffnete Schreiben aus Luskan; in einer Schublade lagen ein schmaler Dolch/Brieföffner und Ersatzfedern. Unter dem Schubladenboden entdeckte Brennan einen kleinen silbernen Schlüssel. Mit diesem Schlüssel wurde ein draußenhergebrachtes, verschlossenes Buch geöffnet, was eine Schockwelle durch den Raum auslöste und drei Anwesende mit Frostüberzug erstarren ließ. Dîn-io brach anschließend das Truhenschloss auf; aus der Truhe schlug ein kalter Stoß, die Gefrorenen zeigten stärkeren Reif, und in der Truhe lagen mehrere magische Gegenstände sowie ein leeres Buch.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-02T09:40:21.564000",
+            "updated_at": null
+        },
+        {
+            "id": "n4ixb9d0w5jbnd015flejzgf",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Bryn Shander > Laube",
+            "description": "Die Laube ist ein Gasthaus und Schanklokal, das in der Vergangenheit von nächtlichem Getümmel geprägt war und später teilweise abgebrannt ist. Zu Beginn der Chronik waren Brennan und Gwendolyn Silverflame im Auftrag des Schmieds in der Laube, um Schulden bei einem Glücksspieler einzutreiben. Der Schuldner stolperte und brach sich die Nase, während Gwendolyn Silverflame versuchte, sie wieder einzurenken. Die Hohepriesterin passierte die Laube zufällig auf ihrem Weg, sah das Getümmel und erkannte zwei Gesichter aus der Messe, kannte die Laube selbst jedoch nicht.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T16:11:49.177000",
+            "updated_at": null
+        },
+        {
+            "id": "ocuzoot1ktjzti7i5obfwtwv",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Bryn Shander > Holzhaus Der Hohepriesterin",
+            "description": "Das Holzhaus der Hohepriesterin ist ein unauffälliges Wohnhaus, vollständig aus Holz gebaut und als das dritte Haus die Straße hinunter benannt. Die Hohepriesterin öffnete die Tür, nachdem Dîn-io Tempest geklopft hatte. Auf die Mitteilung, dass Brennan in der Kirche gefroren worden sei, wurde die Hohepriesterin sofort wach und machte sich mit Dîn-io Tempest und Gwendolyn Silverflame auf den Weg zurück zur Kirche. Sie betrat ihr Haus und eilte zum Tempel.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Haus Der Hohepriesterin"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T16:11:48.980000",
+            "updated_at": null
+        },
+        {
+            "id": "k1pvdktsq13x3iw3643923wu",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Bryn Shander > Nordtor",
+            "description": "Das Nordtor ist ein Stadttor, an dem eine Stadtwache postiert ist. Ein Wächter, der dort schläfrig ist, nennt das Haus der Hohepriesterin als das dritte Haus die Straße hinunter und reagiert verzögert auf Nachrichten vom Tempel. Die Gruppe wird halb schlafend durchgelassen.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T16:11:48.890000",
+            "updated_at": null
+        },
+        {
+            "id": "md1bfm9yk2ssuwa7gj49peud",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Bryn Shander > Taverne",
+            "description": "Die Taverne ist ein Gasthaus mit Zimmern und Betten. Zu Beginn war sie leer. Dîn-io Tempest kehrte zur Taverne zurück und fand sie unbesetzt. Später brachte Dîn-io Tempest nacheinander Naevys Nerizana, Brennan und Surina Nemmonis dorthin, legte sie in Betten ab und deckte sie zu. Dîn-io Tempest versteckte magische Gegenstände, die aus einer Truhe genommen wurden, in einem anderen Zimmer der Taverne unter einem Bett.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Leere Taverne"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T16:11:48.707000",
+            "updated_at": null
+        },
+        {
+            "id": "jfj82aqe8q64u8oiscu26zvb",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Bryn Shander > Bibliothek",
+            "description": "Die Bibliothek ist ein separates Schreibzimmer im hinteren Bereich des Tempels. Sie enthält Bücher zur Geschichte der Stadt Aurel und Targos, zwei Bände zur Geschichte des Tempels und seiner Priester, zahlreiche Erzählungen und Märchen sowie ein verschlossenes, reich verziertes Buch mit Gebirgs- und Drachenmotiv auf dem Einband.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Schreibzimmer"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T16:11:48.617000",
+            "updated_at": null
+        },
+        {
+            "id": "drm1pm5y5nxezj4itk2l9nnw",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Bryn Shander > Kirche",
+            "description": "Die Kirche ist ein Gebäude mit einem großen Hauptsaal und einem erhöhten Altar auf der linken Seite. Zu den hinteren Räumlichkeiten gehören fünf Zimmer, ein Bad, ein Büro, eine Bibliothek/Schreibzimmer, eine kleine Küche, ein Schlafzimmer sowie Latrinen. Die Eingangstüren sind massive doppelflügelige Holztüren, die von innen mit einem schweren Balken verriegelt werden können.\n\nIn der Kirche verrichtete Brennan Dienst und wurde von der Hohepriesterin mit der Reinigung beauftragt. Er beobachtete die Besucher, während die Hohepriesterin die Kirche verließ, woraufhin er die Gruppe holte. Die Gruppe suchte die Räume ab und fand keine Kellertreppe, jedoch eine Leiter zum Dach, Bücherbestände, einschließlich eines verschlossenen Drachenbuchs, religiöse Gegenstände, Kräuter, Ersatzgewänder, zwei Notizbücher, geöffnete Schreiben aus Luskan, einen versteckten silbernen Schlüssel im Schreibtisch und eine mit Bannmagie belegte Truhe.\n\nSurina Nemmonis öffnete das Drachenbuch mit dem silbernen Schlüssel, was eine Schockwelle auslöste und drei Personen einfrierte. Später öffnete Dîn-io Tempest die Truhe, die erneut kalte Luft ausstieß und zahlreiche magische Gegenstände sowie ein leeres Buch enthielt. Die Hohepriesterin stellte das aufgebrochene Bürozimmer fest und meldete den Verlust der Gegenstände der Stadtwache, woraufhin die Stadttore geschlossen wurden.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Tempel"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T16:11:48.424000",
+            "updated_at": null
+        },
+        {
+            "id": "cmpvd5qrl002104icclfegsfi",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Hain",
+            "description": "Der Hain ist ein kleiner Baumhain am Straßenrand, in den die Kutsche gefahren und dort quergestellt wurde. Die Gruppe hielt die Kutsche im Hain an und hatte von dort freie Sicht auf die belagerte Stadt, ohne sofort bemerkt zu werden. Sie blieben im Hain verborgen und nutzten die Fahrt als kurze Rast, während sie ihre Planung verlegten und Ried den Auftrag gaben, sich vorsichtig ins Mausoleum vorzuschicken. Am Einbruch der Dunkelheit blieb die Gruppe weiterhin im Hain verborgen.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Baumgrenze",
+                "Hain"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T15:28:42.918000",
+            "updated_at": null
+        },
+        {
+            "id": "jgpuu958cdoo6129ak8icknk",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Hobgoblin Lager vor Triboar (Belagerung)",
+            "description": "Das Lager der Hobgoblins vor Triboar besteht aus großen Blöcken identischer schwarzer Zelte, die ringförmig um die belagerte Stadt angeordnet sind. Die Straße selbst ist zeltfrei und mit Barrikaden gesichert. Im Lager gibt es enge Gassen zwischen den Zeltblöcken sowie einzelne breitere Durchfahrten. Ein großes Gebäude, das Triboar von Triboar, befindet sich im Lager.\nDer Hobgoblin Lager vor Triboar (Belagerung) um Triboar ist die äußere Linie der Belagerer, bestehend aus einer Barrikade aus aufgeschichtetem Holz, Steinen und Erde. Hinter dieser Barrikade haben Hobgoblins in schwarzen Rüstungen Stellung bezogen. Rechts vorn befindet sich eine brennende Sperre, aus der Rauch aufsteigt. Die Hobgoblins schießen aus Deckung und aus dem Rauch der brennenden Sperre mit Pfeilen auf die Angreifer und füllen Lücken in ihrer Linie. Die Iron Fang fährt auf die brennende Barrikade zu und hält im Schatten der brennenden Sperre.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Belagerungsring"
+            ],
+            "tcg_image": null,
+            "merge": true,
+            "created_at": "2026-06-01T15:15:37.694000",
+            "updated_at": null
+        },
+        {
+            "id": "bscvem9a8xspnc58eigur9zy",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Brennende Barrikade",
+            "description": "Die Brennende Barrikade ist eine absichtlich errichtete Barriere an der Straße, die in Brand geraten war. Diese Barriere besteht aus brennendem Holz, Harz und verkohltem Material, was Rauch, Flammen und Hitze erzeugt, die nach Harz und verkohltem Holz riechen und die Luft erwärmen. Eine Kutsche rollte quer vor die Barrikade, die Pferde wurden abgekoppelt und liefen zurück. Drei Goblins stiegen bei der Barrikade aus und bezogen Stellung. Surina Nemmonis sprang über die Brennende Barrikade bis zu einem Baum und griff von dort an. Einer der Goblins warf eine Granate hinunter, was zu einer Explosion führte und mehr von der Barrikade in Brand setzte. Gwerk zog einen Gegner gegen die Barrikade und hielt ihn dort fest.\nHobgoblins schossen aus dem Rauch der brennenden Sperre, der über das Feld zog und die Sicht erschwerte. Die Gruppe nutzte Rauch und Flammen als Deckung und rückte näher an die Barrikade. Die Iron Fang fuhr auf die Brennende Sperre zu und hielt im Schatten der brennenden Barrikade an; Funken und Hitze trafen die Kutsche.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Brennende Sperre"
+            ],
+            "tcg_image": null,
+            "merge": true,
+            "created_at": "2026-06-01T15:15:37.483000",
+            "updated_at": null
+        },
+        {
+            "id": "cmpvcd0k2002r04l8di6avpxe",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Conyberry > Brunnen",
+            "description": "Die Höhle unter dem Brunnen ist eine kuppelförmige Kammer mit einem Durchmesser von etwa zehn bis fünfzehn Metern. Sie ist über einen trockenen, tiefen Brunnen zugänglich, dessen Eimer frei in der Luft hängt. In der Kammer befinden sich sechs Hobgoblin-Leichen in einfacher Leinenkleidung, ohne Kampfrüstung, Gold, Banner oder sonstige Ausrüstung. Der Boden und die Wände bestehen aus Erde und kleineren Steinen, ohne weitere Ausgänge oder verborgene Hohlräume.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Der Brunnen"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T15:06:22.585000",
+            "updated_at": null
+        },
+        {
+            "id": "cmpvcc9x8002h04l88kvg92g7",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Fort bei Conyberry",
+            "description": "Das provisorische Lager liegt nahe Treibhorn im Niewinderwald und besteht aus Zelten, einem Südtor und einem östlichen Südturm. Naevys brachte den schwerverletzten Dane ins Lagerzelt. Die Gruppe hielt Wachen durch die Nacht, während am folgenden Nachmittag eine Kutsche mit zwölf Pferden durch das geöffnete Südtor ins Lager fuhr. Drob, Gwerk und sieben weitere Goblins stiegen aus.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Lager der Skelette",
+                "Skelettlager"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T15:05:48.058000",
+            "updated_at": null
+        },
+        {
+            "id": "qn2sekf67los5coo0urwn951",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Conyberry",
+            "description": "Conyberry ist ein zuvor umkämpftes Dorf.\nIm Dorf wurden die Häuser nacheinander durchsucht. Es wurden leere, aufgebrochene Kisten, ein zerstörter Karren mit gebrochener Achse und Rädern sowie ein gewaltsam aufgebrochener Fußboden über einer ausgehobenen, leeren Grube gefunden. Die Grube wies glatte Druckstellen auf, die auf ein zuvor dort liegendes, schweres, glattes Objekt hindeuteten. Markierte Fallenstellen wurden ohne Erfolg geprüft, und es wurden keine Vorräte, keine Asche und keine Spuren einer Verbrennung der Toten gefunden. Gwendolyn Silverflame stellte keine fremde magische Signatur fest. Am Dorfbrunnen hing der Eimer frei in der Luft; im Schacht befand sich eine kuppelförmige Kammer mit sechs Hobgoblin-Leichen in einfacher Leinenkleidung, ohne Ausrüstung oder Banner und ohne sichtbaren Ausgang. Surina Nemmonis schnitt Finger ab und füllte sechzig Finger in den Eimer. Die Suche ergab sonst keine verwertbaren Beutegegenstände, und eine verfolgte Spur führte in Richtung Flint.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Coniberry"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T13:10:50.935000",
+            "updated_at": null
+        },
+        {
             "id": "cmpr0w3ir003q04ju6ieprv0w",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "name": "Triboar > oberirdische Bibliothek",
@@ -16,302 +311,11 @@
             "merge": false,
             "created_at": "2026-05-29T14:34:12.788000",
             "updated_at": null
-        },
-        {
-            "id": "ahryq69wjk833t9ykqemdlsu",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Großer Stein (Westseite von Triboar)",
-            "description": "Der Große Stein ist ein markanter Stein, der als Treffpunkt diente, an dem sich Die Gruppe zuletzt von Trupp und Gwerk getrennt hatte.\n\nDie Gruppe suchte am Großen Stein nach einer Markierung, fand jedoch nichts. Dîn-io Tempest ritzte als Zeichen einen obszönen Mittelfinger in den Stein, das Ergebnis wirkte jedoch eher wie unklare Kratzer und Striche.",
-            "type": null,
-            "parent_id": null,
-            "image": null,
-            "aliases": [
-                "Der Große Stein"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-05-29T14:06:42.486000",
-            "updated_at": null
-        },
-        {
-            "id": "gfe7i7v74b8ftzkz3ely9is4",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Triboar > Tempel",
-            "description": "Der Tempel ist ein Tempelgebäude. Ein Priester trat aus dem Inneren des Tempels, trug eine typische Priesterskluft und stand im Türspalt. Auf die Ansprache der Gruppe gab er an, die beschriebene Person nicht zu kennen, und zog sich dann zurück. Die Tür wurde leise geschlossen.",
-            "type": null,
-            "parent_id": null,
-            "image": null,
-            "aliases": [
-                "Ein Tempel"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-05-29T14:06:42.310000",
-            "updated_at": null
-        },
-        {
-            "id": "y80lfn41qm5ii9vj2h6ju6l1",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Triboar > Büro Des Kommandanten",
-            "description": "Das Büro Des Kommandanten befindet sich im oberen Stockwerk der Triboar Stadtwache und ist über die linke Treppe erreichbar. Die Tür zum Büro steht leicht offen. Es hat eine Ecklage, einen großen schweren Schreibtisch und ein Fenster zum Marktplatz.\n\nSir Richardson begrüßt die Besucher im Büro. Er äußert, dass er weder von der unterirdischen Bibliothek noch von Aufzeichnungen darüber Kenntnis hat und verweist auf eine Triboar > oberirdische Bibliothek.",
-            "type": null,
-            "parent_id": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": true,
-            "created_at": "2026-05-29T14:06:42.221000",
-            "updated_at": null
-        },
-        {
-            "id": "f7qs0mejapu2uzegea8b9u2r",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Triboar > Brunnen",
-            "description": "Der Brunnen ist etwa 30 Zentimeter tief. Die Gruppe kletterte aus dem Brunnen und stand auf dem Marktplatz von Tribor. Sir Richardson von der Bibliothek unter der Stadt wies darauf hin, dass der Brunnen nur flach sei. Der Zugang durch den Brunnen wurde anschließend wieder verschlossen.",
-            "type": null,
-            "parent_id": null,
-            "image": null,
-            "aliases": [
-                "Der Brunnen"
-            ],
-            "tcg_image": null,
-            "merge": true,
-            "created_at": "2026-05-29T14:06:41.771000",
-            "updated_at": null
-        },
-        {
-            "id": "vrqtdsh4jt2toseremqt3xxu",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Ställe (Triboar)",
-            "description": "Die Ställe sind der Ort, an dem die Gruppe ihre Tiere holt. Brennen Voidridge half Gwendolyn Silverflame beim Aufsteigen auf eines der Pferde. Kaixus unterstützte beim Zaumzeug und Geschirr und zeigte Brennen Voidridge, wie er mit dem Zugpferd umgehen und es führen konnte.",
-            "type": null,
-            "parent_id": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-05-29T08:29:48.063000",
-            "updated_at": null
-        },
-        {
-            "id": "cmpqm0ll6000504l17mm5iwsa",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Luftschiff > Korvathuns Kajüte",
-            "description": "Korvathuns Zimmer ist die Kajüte an Bord des Luftschiffs, zu der Ceres die übrigen Gruppenmitglieder telepathisch rief. Surina traf dort zuerst ein; kurz darauf kamen Brennen, Morvain und Korvathun; Rita wurde widerwillig geholt. In dem Raum fasste Gwendolyn die Informationen über die Mine zusammen. Die Gruppe legte Marschordnung, Rollenverteilung und Lichtbedürfnisse fest und beschloss, vor dem Aufbruch bei Flint nach einem vergoldeten Schädel oder einer Schmiede zu suchen.",
-            "type": null,
-            "parent_id": null,
-            "image": null,
-            "aliases": [
-                "Zimmer",
-                "Richtiges Zimmer",
-                "Taverne"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-05-29T07:37:48.590000",
-            "updated_at": null
-        },
-        {
-            "id": "z9imkfumzqtr801pyy7etmdt",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Luftschiff > Deck",
-            "description": "Das Deck des Luftschiffs ist die obere Außendecke des Schiffes. Von dort aus sind die vorbeiziehenden Landstriche und der letzte Schimmer am Horizont bei Sonnenuntergang sichtbar. Das Deck ist windanfällig, weshalb einige es vorziehen, unter Deck zu trainieren.\n\nNachmittags verbrachte die Gruppe Zeit auf dem Deck mit Training und Sparring. Korvathun und Brennen trainierten dort, während andere Kartentricks oder andere Tätigkeiten übten. Wegen des Windes zogen sich Korvathun und Surina zeitweise unter Deck zurück. Am Abend stand die Gruppe auf dem Deck und sah den Sonnenuntergang, bevor sie zu den Schlafräumen ging.",
-            "type": null,
-            "parent_id": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-05-29T06:51:38.898000",
-            "updated_at": null
-        },
-        {
-            "id": "o3jd8s7b0r6zlzodnqi4nq3k",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Luftschiff > Ritas Zelle",
-            "description": "Ritas Zelle ist eine Gefängniszelle an Bord eines Luftschiffs. Nach einem Kampf wurde Rita allein in diese Zelle gebracht, während Paladine vor der Zellentür standen. Ceres befragte Rita an der Zelle, ließ sie ohne Decke und mit nur Haferbrei zurück und kündigte an, sie bis zum Frühstück dort zu belassen. Die Gruppe wurde zum Zellentrakt geführt. Nachdem Brennen Voidridge Rita freigesprochen hatte, ließ Ceres die Zellentür öffnen. Rita verließ die Zelle und ging direkt zur Küche, wo das Frühstück bereits vorbei war.",
-            "type": null,
-            "parent_id": null,
-            "image": null,
-            "aliases": [
-                "Zelle"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-05-29T06:51:38.803000",
-            "updated_at": null
-        },
-        {
-            "id": "iyyuqzk073rx4omashwvyo4n",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Luftschiff  > Zellentrakt",
-            "description": "Der Zellentrakt ist der Gefängnistrakt auf dem Luftschiff und enthält Einzelzellen, in denen Rita interniert wurde. Ceres stand an der Haupteingangstür des Zellentraktes, während Paladine sich vor Ritas Zelle postierten. Die Gruppe wurde zum Zellentrakt geführt, wobei Brennen voranging. Rita saß circa eine halbe Stunde in der Zelle. Ceres befragte Rita in der Zelle und verließ den Raum nach dem Gespräch. Brennen sprach später vor der Zelle das Urteil aus, woraufhin die Zellentür geöffnet und Rita entlassen wurde.",
-            "type": null,
-            "parent_id": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-05-29T06:51:38.709000",
-            "updated_at": null
-        },
-        {
-            "id": "xh09r7iqsdhmqlh0deq0ly8l",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Luftschiff > Wartungsgang 3",
-            "description": "Wartungsgang 3 dient als Fluchtweg und endet an einer Außenklappe. Das vereinbarte Fluchtsignal ist das dreimalige Löschen einer Laterne.",
-            "type": null,
-            "parent_id": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-05-29T06:51:38.594000",
-            "updated_at": null
-        },
-        {
-            "id": "hp6xoasj22bc8264yzsjkwq0",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Luftschiff > Essensräume",
-            "description": "Die Essensräume des Luftschiffs sind die Speiseräume, die sowohl von der Mannschaft als auch von den Passagieren genutzt werden. Sie verfügen über eine Essensausgabe und mehrere Tische, darunter einen separaten Offizierstisch.\n\nAm Abend glitt das Schiff bei Sonnenuntergang ruhig und schnell. Die Gruppe setzte sich an einen eigenen Tisch, holte sich ihr Abendessen an der Ausgabe und erhielt gekochte Kartoffeln und Gemüse, während am Offizierstisch besser gegessen wurde. Nach dem Abendessen verließen sie die Essensräume und gingen auf ihre Zimmer. Am Morgen fehlte Rita beim Frühstück; die übrigen aßen Brot und Käse, während Rita in der Zelle Haferbrei erhielt.",
-            "type": null,
-            "parent_id": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-05-29T06:51:38.400000",
-            "updated_at": null
-        },
-        {
-            "id": "khbotj9chu4e85vbj2krq8s3",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Luftschiff > Labor",
-            "description": "Das Labor ist ein Raum an Bord des Luftschiffs, in dem alchemistische Arbeiten stattfinden. Gwendolyn Silverflame arbeitete dort nachmittags an Alchemie.\n\nNach dem Abendessen ging Gwendolyn erneut ins Labor. Ceres Morvain wies an, in fünf Minuten ins Labor zu kommen. Morvain fand im Labor den Leichnam des Doppelgängers auf einem großen Tisch in der Mitte, am Kopfende jeweils ein Paladin und Ceres am anderen Ende. Morvain wirkte einen Zauber auf den Leichnam und befragte ihn dort.",
-            "type": null,
-            "parent_id": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-05-29T06:51:38.302000",
-            "updated_at": null
-        },
-        {
-            "id": "cmpp7kv1o003u04k01cmdjn6o",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Triboar > Zellen der Stadtwache",
-            "description": "Das Gefängnis verfügt über Zellen im Untergeschoss, die mit Gitterstäben und einem kleinen Kellerfenster von etwa 30 Zentimetern ausgestattet sind. Im Zellenblock liegen Ketten auf dem Boden. Gefangene können durch die Gitterstäbe miteinander kommunizieren und durch das kleine Fenster angesprochen werden. Wachen führen Gefangene unsanft aus dem Zellenblock, legen sie an Ketten und führen sie in Reihen aus dem Gefängnis durch die Stadt.",
-            "type": null,
-            "parent_id": null,
-            "image": null,
-            "aliases": [
-                "Zellen"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-05-28T08:05:53.549000",
-            "updated_at": null
-        },
-        {
-            "id": "qhriu1dvmscm6ycglpf8yirx",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Triboar > Ausgehobenes Grab",
-            "description": "Das ausgehobene Grab auf dem Friedhof ist die Begräbnisstelle für den gefallenen Stadtwächter. Der Kommandant hielt eine Ansprache, während vier Soldaten den Sarg zum Grab trugen und hinabließen. Triboar Stadtwache warfen Ausrüstungsgegenstände, Waffen, Münzen und weitere Gaben ins Grab. Bürger legten eigene Wertgegenstände, Kunstgegenstände und Lebensmittel als letzte Gaben dazu. Dîn-io Tempest warf einen persönlichen Gegenstand in das Grab.",
-            "type": null,
-            "parent_id": null,
-            "image": null,
-            "aliases": [
-                "Grab"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-05-28T07:49:32.090000",
-            "updated_at": null
-        },
-        {
-            "id": "p4ubsehpvlcz53b5g8pzluk7",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Triboar > Markt / Jägerstand",
-            "description": "Der Marktplatz umfasst einen bekannten Jägerstand, auf dem lebende Tiere angeboten werden. Jäger/Fleischer (Triboar) verlangt für das Lebendbringen eines Tiers 5 Silber. Es herrscht reges Treiben auf dem Markt.\n\nGwendolyn suchte den Jägerstand auf und fragte nach einem lebenden Tier. Jäger/Fleischer (Triboar) bot an, ein Tier lebend zu beschaffen, und Gwendolyn zahlte 5 Silber und erhielt einen Hasen.",
-            "type": null,
-            "parent_id": null,
-            "image": null,
-            "aliases": [
-                "Markt",
-                "Jägerstand",
-                "Bekannter Jägerstand"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-05-28T07:49:31.927000",
-            "updated_at": null
-        },
-        {
-            "id": "hygf10es9668jt4lh6lkklh9",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Triboar > Verhandlungsraum",
-            "description": "Der Verhandlungsraum ist ein größerer Raum, ähnlich dem Gastraum eines Wirtshauses, und enthält einige Stühle. Am Ende des Raumes befindet sich eine Holzwand im Fußboden. Rechts und links stehen Triboar Stadtwache, und in der Mitte sitzen drei Personen, darunter der Kommandant.\n\nIn diesem Raum wurden Surina Nemmonis und Dîn-io Tempest nach der Arbeit gefesselt vorgeführt. Die Verhandlung begann mit der Frage, ob sie sich schuldig bekennen. Gegen Surina Nemmonis wurden die Wegnahme der Schlange und Beleidigung geltend gemacht, sowie das Mitnehmen des Skelettschädels und das Verstauen der Skelettteile. Dîn-io Tempest erklärte den Ablauf im Zimmer, während Surina Nemmonis angab, sie habe Ei (fliegende Schlange) behalten wollen. Gwendolyn bot einen Hasen als Alternativvorschlag an.\n\nEs wurde entschieden, dass ein Tag im Steinbruch als Strafe ausreicht, und Surina Nemmonis sowie Dîn-io Tempest wurden entlassen.",
-            "type": null,
-            "parent_id": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-05-28T07:49:31.846000",
-            "updated_at": null
-        },
-        {
-            "id": "tfk09aovyiq3rqzz9kfrdwkb",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Triboar > Gerichtsgebäude",
-            "description": "Das Gerichtsgebäude ist ein offizielles Gebäude mit einem größeren Verhandlungsraum, in dem Stühle stehen. Am Ende des Raumes befindet sich eine Holzwand, rechts und links jeweils eine Wache, und in der Mitte sitzen drei Personen, darunter der Kommandant. Gefangene werden aus dem Triboar > Zellen der Stadtwache ins Gerichtsgebäude geführt und in diesem Raum vor den drei Personen verhandelt. Das Gericht entschied, dass der bereits geleistete Tag im Steinbruch als Strafe ausreicht; Surina Nemmonis und Dîn-io Tempest wurden im Gerichtsgebäude entlassen. Beim Verlassen des Gerichtsgebäudes bemerkte Die Gruppe einen Strom von Menschen, der zum Friedhof zog.",
-            "type": null,
-            "parent_id": null,
-            "image": null,
-            "aliases": [
-                "Offizielles Gebäude"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-05-28T07:49:31.750000",
-            "updated_at": null
-        },
-        {
-            "id": "es4a636ypdv8jct8doynekik",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Triboar > Steinbruch",
-            "description": "Der Steinbruch liegt außerhalb der Stadt und dient als Arbeitsort für Gefangene. Diese werden mit Spitzhacken ausgestattet, um Steine zu zerschlagen, während Triboar Stadtwache die Arbeit überwachen.\n\nGefangene werden in einer Reihe zum Steinbruch gebracht und erhalten Anweisungen, Steine zu zerschlagen, wobei die Quantität der Arbeit wichtiger ist als die Qualität. Surina Nemmonis wählt einen großen Stein, auf den zwei Gefangene einschlagen. Wenn Surina Nemmonis und Dîn-io Tempest nicht sofort arbeiten, werden sie von den Triboar Stadtwache mit Peitschen bestraft. Nach einer Arbeitsperiode werden die Gefangenen erneut gefesselt und ins Gerichtsgebäude gebracht. Beobachter sehen die Gefangenen bei der Arbeit im Steinbruch.",
-            "type": null,
-            "parent_id": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-05-28T07:49:31.665000",
-            "updated_at": null
-        },
-        {
-            "id": "q1qs02xwnm9g6pngr5fju2t5",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Triboar > Stadtwache > Kleines Kellerfenster (Gitterfenster)",
-            "description": "Das kleine Kellerfenster ist ein etwa 30 Zentimeter breites, vergittertes Fenster im Untergeschoss der Stadtwache. Dîn-io Tempest fand Zugang zu diesem Fenster und setzte sich daneben. Durch das Gitterfenster konnte er mit Surina Nemmonis sprechen und erklärte ihr, dass die Triboar Stadtwache Ei (fliegende Schlange) als Ei (fliegende Schlange) betrachteten und dass ihre Aussagen gegen sie verwendet würden.",
-            "type": null,
-            "parent_id": null,
-            "image": null,
-            "aliases": [
-                "Gitterfenster",
-                "Kleines Kellerfenster"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-05-28T07:49:31.584000",
-            "updated_at": null
         }
     ],
     "from": 21,
-    "last_page": 9,
+    "last_page": 10,
     "per_page": 20,
     "to": 40,
-    "total": 172
+    "total": 191
 }

@@ -31,13 +31,25 @@
             "type": "boolean"
         },
         "owner_id": {
+            "type": "string"
+        },
+        "created_at": {
+            "type": "string"
+        },
+        "updated_at": {
             "type": [
                 "string",
                 "null"
             ]
         },
-        "created_at": {
-            "type": "string"
+        "archived": {
+            "type": "boolean"
+        },
+        "archived_at": {
+            "type": [
+                "string",
+                "null"
+            ]
         },
         "summary": {
             "type": [
@@ -50,12 +62,6 @@
                 "string",
                 "null"
             ]
-        },
-        "updated_at": {
-            "type": [
-                "string",
-                "null"
-            ]
         }
     },
     "type": "object",
@@ -64,6 +70,8 @@
         "title",
         "public",
         "mature",
-        "created_at"
+        "owner_id",
+        "created_at",
+        "archived"
     ]
 }

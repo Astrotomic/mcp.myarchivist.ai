@@ -2,6 +2,296 @@
     "current_page": 1,
     "data": [
         {
+            "id": "cmrcjw7z7000i04l2shfo0w8c",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Wave Echo Cave > Gang",
+            "description": "Nachtkämpfer-Korridor (Gang)\n- Der Gang ist ein schmaler Flur mit verstreuten Kugellagerkugeln auf dem Boden.\n- Vor einer Tür im Gang stehen Gruppenmitglieder und Tiere; die Tür öffnet nach innen in den Raum.\n- Aus der geöffneten Tür schießen Pfeile in den Gang; Untote (Zombies, Skelette) treten vom Gang in den Raum oder erscheinen aus dem Gang.\n- Beim erneuten Öffnen ist der Gang zunächst leer, die zuvor dort liegenden Leichen sind verschwunden.\n- Positionierungsfläche für die Gruppe während des nächtlichen Kampfes.\n- Zugangspunkt zu mehreren Räumen mit Spuren (Kugeln, Schleifspuren) und aktivem Feindkontakt.\nThreat/Value: hoch — mehrfaches Auftreten von Untoten und Fernangriffen im Gang macht ihn kampf- und strategierelevant.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Gang",
+                "Flur"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-08T20:49:03.302000",
+            "updated_at": null
+        },
+        {
+            "id": "htkan6uzg2e08z02htg384o9",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Wave Echo Cave > Schlafraum",
+            "description": "Schlafraum\n\n- Ein staubiger Raum mit mehreren Betten und Matratzen; Zombies lagen zunächst auf den Betten und richteten sich beim Öffnen der Tür auf.\n\n- In einer Ecke liegt ein Haufen Ausrüstung, Gold, Lederbeutel und weitere Gegenstände; zahlreiche Fußabdrücke und Schleifspuren im Staub zeigen, dass Körper zum hinteren Bereich geschleift worden waren.\n\n- Keine frischen Fallen wurden gefunden; die Decke wurde kontrolliert und war leer.\n\n- Betten und Leichen wurden nacheinander in Brand gesetzt; gefallene Untote wurden enthauptet und aus dem Raum geschafft; Beute wurde eingesammelt und Heilmittel verteilt; Gold und Edelsteine sind für die gemeinsame Kasse vorgesehen.\n\n- Relevanz jetzt: akute Brand- und Räumungsaktion läuft; Beute gesichert.\n\n- Relevanz kurzfr.: Raum vorher mit Untoten belegt, jetzt entzündet und geräumt.\n\nThreat/Value: hoch — aktive Untoten, signifikante Beute im Haufen.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-08T20:06:39.209000",
+            "updated_at": null
+        },
+        {
+            "id": "arw6ht58upk41ktdllqdg8p8",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Wave Echo Cave > Kleiner Raum",
+            "description": "Der Kleine Raum ist ein kleiner Innenraum mit einer schweren Steintür. Die Gruppe verbarrikadierte sich hinter dieser Tür. Gwendolyn zog sich mit Pio in den Raum zurück. Pfeile schossen heraus, als die Tür aufsprang, und Zombies drangen vor. Korvathun zog die Steintür zu, und Die Gruppe verkeilte sie mit einem Stab, Javelins und einem Dolch. Gwendolyn beschwor eine Flammensphäre vor der Tür. Durch einen schmalen Blick nach außen waren zwei Untote, zwei Skelette und eine weitere Untote Gestalt sichtbar, die Kugellager aufsammlten. Später betrat korva den Kleiner Raum, fand in einer Ecke einen Haufen Ausrüstung, Gold und Beutel sowie zahlreiche Fußabdrücke und Schleifspuren und sammelte die Beute ein.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Kleinen Raum",
+                "Zuvor Umkämpften Raum",
+                "Umkämpften Raum",
+                "Der Zuvor Umkämpfte Raum"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-08T20:06:39.085000",
+            "updated_at": null
+        },
+        {
+            "id": "jkv7j9i3k4jukjf2p71rkpoz",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Wave Echo Cave > Mine",
+            "description": "Die Mine hat einen staubigen Boden mit zahlreichen Fußabdrücken und Schleifspuren. Verstreute Kugellagerkugeln liegen in der Mine. Die Decke ist etwa 4–5 Meter hoch, ohne Risse oder hängende Objekte. In einer Ecke befindet sich ein Haufen Ausrüstung, Gold und Beutel; mehrere Körper wurden durch den Raum bis in den hinteren Bereich geschleift.\n\nEs gibt einen Schlafraum in der Mine mit Betten, auf denen Zombies lagen. Betten und Leichen wurden in Brand gesetzt.\n\nSichtbare Schleifspuren und gestohlene Leichen deuten auf jüngste Aktivitäten in der Mine hin. Der Schlafraum mit brennbaren Betten und geborgener Beute bietet unmittelbare Ressourcen.\n\nDie Bedrohung ist mittel, da andauernde Untote und wiederholte Angriffe während des Vorstoßes bestehen.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-08T20:06:38.821000",
+            "updated_at": null
+        },
+        {
+            "id": "jpeb4fez4dapr6bg4dkg4yin",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Wave Echo Cave > Felsspalt",
+            "description": "Felsspalt ist ein Spalt in der Decke einer Höhle.\n\n- Er befindet sich weiter hinten in der Höhle.\n\n- Ein wurmartiges Tentakelwesen entkam während eines Kampfes und kletterte in diesen Spalt.\n\n- Der Felsspalt könnte ein Versteck für Kreaturen oder Schätze sein.\n\n- Die Höhle könnte weitere Geheimnisse oder Gefahren bergen.\n\nThreat/Value rating: med, da das Tentakelwesen eine Bedrohung darstellt.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-17T20:07:15.273000",
+            "updated_at": null
+        },
+        {
+            "id": "kgwwxibzvdebtuwupty5nf6y",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Wave Echo Cave > Seitengänge",
+            "description": "Die Seitengänge verfügen über schwere Steintüren. Die Gruppe entschied, diese Türen vorerst nicht zu öffnen und säuberte stattdessen die offenen Korridore.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-17T20:07:15.179000",
+            "updated_at": null
+        },
+        {
+            "id": "zwhllxeh0qwbv7884bazbtpb",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Wave Echo Cave > Rechten Gänge",
+            "description": "Rechte Gänge sind ein verwinkeltes System offener Korridore mit sichtbarer Decke. Die Decke wurde beobachtet und überwacht. In diesen Gängen stürzten zwei Tentakelwürmer von der Decke herab und griffen Pio an; ein Wurm wurde von Korvathun erschlagen, der andere von Surina Nemmonis getötet. Die Gruppe sah schwere Steintüren in Seitengängen, ließ Wurmleichen liegen und erreichte weiter vorn einen unteren Gang, in dem Morvains Katze mehrere verletzte Gestalten und später sechs feindliche Lebewesen meldete. Darauf setzte Gwendolyn Silverflame einen Feuerball in deren Ansammlung, was zu einem offenen Kampf führte.\n\nScout und Vorhut\n\n- Erscheinung: verwinkelte, offene Korridore mit sichtbarer Decke und Seitengängen.\n\n- Merkmale: Decke bot Ansatzpunkt für herabstürzende Tentakelwürmer.\n\n- Befunde: sichtbare Leichen/Verletzte und schwere Steintüren in Seitengängen.\n\n- Interaktionen: Ort mehrerer Kampfhandlungen (Wurm-Angriff; Feuerball gegen sechs Gegner).\n\n- Ressourcen: keine besonderen Ressourcen am Ort genannt.\n\nWarum jetzt relevant\n\n- Gruppe durchstreifte die Rechten Gänge als nächsten Vorstoßpunkt.\n\n- Entstandener Hinterhalt führte zu unmittelbarem Kampf.\n\nBedrohungswert: hoch — wiederholte direkte Angriffe aus der Decke und größere Gruppen feindlicher Gestalten im Gang.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-17T20:07:15.087000",
+            "updated_at": null
+        },
+        {
+            "id": "fa5lf0guy9j06pyf4avue8u2",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Lichtung Außerhalb Von Briarwatch",
+            "description": "Die Lichtung Außerhalb Von Briarwatch ist ein Ort, an dem Ausrüstung von Dîn-Io Naevys und anderen gefunden wurde. Bei der Untersuchung der Lichtung wurden keine Leichen und keine klaren Kampfspuren festgestellt; stattdessen fanden sich starke magische Rückstände. Die geborgene Ausrüstung deutet darauf hin, dass Dîn-Io Naevys und die anderen nicht einfach getötet, sondern von dieser Ebene gerissen worden waren.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Lichtung"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-12T15:33:18.590000",
+            "updated_at": null
+        },
+        {
+            "id": "oc0ltod10vignpuxqu21cnag",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Hammerhåeim  > Lagerraum der Gruppe",
+            "description": "Der Lagerraum in Hammerhåeim ist ein verschlossener Aufbewahrungsraum für die geborgene Ausrüstung von Dîn‑Io Naevys und anderen. Seris übergab Gwendolyn den Schlüssel zu diesem Lagerraum.\n\nDie Gruppe versammelte sich am Morgen und verteilte die brauchbaren Ausrüstungsgegenstände: Morvain nahm ein Arcane Grimoire +1, Korvathun erwarb einen Bag Of Holding, und Gwendolyn besorgte Zehn Heiltränke.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-12T15:33:18.494000",
+            "updated_at": null
+        },
+        {
+            "id": "g17m6m1du1xepvs385r4ey1g",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Hammerhåeim  > Große Halle",
+            "description": "Die Große Halle in Hammerhåeim ist ein Versammlungsraum.\n\n- Versammlungsraum, an dem sich die Gruppe zum Aufbruch sammelte\n\n- Ort, an dem Rita erklärte, sie werde nicht mitkommen\n\n- Rita entschuldigte sich dort für ihr Verhalten auf dem Luftschiff\n\n- Zeitpunkt des Treffens: später am Tag des Aufenthalts in Hammerhåeim\n\nWarum jetzt wichtig\n\n- Treffpunkt unmittelbar vor dem Aufbruch\n\n- Ort für Abschiedserklärungen und Entscheidungen\n\nWert: mittel — hier fielen Entscheidungen zur Zusammensetzung der Abreise.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-12T15:33:18.396000",
+            "updated_at": null
+        },
+        {
+            "id": "nl94m2tl4o9mdy8wlw5m4qhp",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Hammerhåeim  > Speisesaal",
+            "description": "Rolle: Treffpunkt der Gruppe\n\n- Im Speisesaal traf sich die Gruppe am nächsten Morgen an einem privaten Tisch.\n\n- Surina Nemmonis präsentierte ihre neue Ausrüstung.\n\n- Gwendolyn Silverflame erschien mit der schwebenden Krone über ihrem Kopf.\n\n- Die Gruppe besprach die Vorbereitung auf die Wave Echo Cave.\n\nHooks:\n\n- Versammlungsort für letzte Abstimmungen vor dem Aufbruch.\n\n- Ort, an dem Gwendolyns veränderte Erscheinung erstmals sichtbar wurde.\n\nBedrohungs-/Wert-Einschätzung: mittel — diente als zentraler Ort für Informationsaustausch und Ausrüstungsverteilung.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-12T15:33:18.298000",
+            "updated_at": null
+        },
+        {
+            "id": "xd82jsze7dcwz1r71f0bx2d8",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Hammerhåeim  > Lazarett",
+            "description": "Das Lazarett ist eine Einrichtung in Hammerhåeim. Gwendolyn Silverflame und Brennen Voidridge suchten dort eine geeignete Person für ihr erstes öffentliches Heilritual. Sie fanden Marek, einen Jungen, der bei einem Erz- und Karren-Unfall schwer verletzt worden war. Gwendolyn führte ein Feuerritual mit Aschesymbolik und kalter Flamme durch, während Brennen seine Heilmagie einband, sodass Gwendolyns Feuer als Quelle der Heilung erschien. Mareks schlimmste Schmerzen ließen nach, seine Atmung beruhigte sich, Wunden schlossen sich sichtbar und er konnte wieder sprechen, blieb jedoch nicht vollständig geheilt. Später kehrte Brennen allein ins Lazarett zurück, half mehreren Verletzten mit ruhiger Heilmagie, nahm Schmerzen, stabilisierte Wunden und stellte die Hilfe so dar, als wirke Gwendolyn Silverflame weiter, wodurch zusätzliche Zeugen entstanden.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-12T15:33:18.201000",
+            "updated_at": null
+        },
+        {
+            "id": "cmq9tq3tk000b04ju66nfn349",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Wave Echo Cave > Dunkler Gang",
+            "description": "Dunkler Gang\n- Ein etwa 10 Fuß (ca. 3 m) hoher und breiter Gang, erreichbar durch einen engen Kriechgang von etwa 2 m hinter einem kleinen Plateau.\n- Der enge Durchgang ist von Korvathun innen mit phosphoreszierendem X markiert.\n- Im Gang lagen zunächst drei Leichen/Zombies; später standen Skelette in einer rechten Verzweigung.\n- Kleine lederflügige, blutsaugende Flugkreaturen und ein wurmartiges Tentakelwesen sind im Gang erschienen; ein Bär wurde auf das Tentakelwesen gehetzt.\n- Hinter einer verstopften Stelle wurde Geröll entfernt, wodurch ein weiterführender, geteilter Gang freigelegt wurde.\n- Aus tieferen Gängen griffen Skelette mit Pfeilen an; kurze Zeit später folgten Bugbears, die Javelins warfen.\n- Der obere Gangabschnitt ist höher und diente als Durchgang für Gegner, die sowohl an Decke als auch Boden agierten. Morvain spannte ein Netz aus klebrigen Fäden über diesen Bereich, um den Durchgang zu blockieren. Korvathun hielt einen Bären, der im oberen Gang Javelins durch das Netz warf. Ein Skelett kämpfte im vernetzten oberen Gang gegen Zombie Bär (Morvain), während ein wurmartiges Tentakelwesen an der Decke hing und später in einen Felsspalt kletterte. Gwendolyn platzierte eine Flammensphäre, die den oberen Bereich bedrohte, und die Gegner fielen nacheinander.\n- Der untere Gang ist ein offener Korridor, in den Morvains Katze spähte und mehrere verletzte Gestalten sowie sechs feindliche Formen entdeckte. Sechs Gegner wurden entdeckt, und es flogen sechs Javelins auf die Katze. Gwendolyn setzte einen Feuerball in die Gegneransammlung ein und verbrannte mehrere Feinde. Korvathun trat vor und band den ersten Gegner im Nahkampf. Brennen entfachte heiliges Feuer auf einen gefallenen Untoten, während Gwendolyn einen weiteren gefallenen Untoten verbrannte. Morvain rückte mit Skeletten und der Katze vor und wirkte Totenglocken. Surina warf Javelins, stürzte zu Boden, wurde von Brennen geheilt und kämpfte weiter. Der Kampf im Korridor endete unentschieden.\nBedrohungswert: hoch — wiederholt auftauchende Untote, fliegende Angreifer, tentakelartige Kreatur, mehrere feindliche Bestien und Bugbears kombinierten Fern- und Nahangriffe.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Gang",
+                "Flur"
+            ],
+            "tcg_image": null,
+            "merge": true,
+            "created_at": "2026-06-11T18:21:13.275000",
+            "updated_at": null
+        },
+        {
+            "id": "ypwy5vpk2x5zql7lymwe3p9h",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Wave Echo Cave > Freigeräumter Bereich",
+            "description": "Der freigeräumte Bereich ist ein Abschnitt des Gangs, der zuvor durch Geröll versperrt war. Die Blockade wurde durch den Einsatz von Brecheisen, Hammer, Seilen und gemeinsames Ziehen gelöst, wodurch das Geröll in ein Loch hinabstürzte und der Weg freigegeben wurde. Nach der Freilegung konnte Gwendolyn Silverflame weiter in den Gang sehen. Pio meldete zwei fremde Lebewesen, während Skelett Katze eine Gabelung mit zwei Skelette auf der rechten Seite entdeckte. Die Gruppe kletterte durch den Bereich in den engen, teilenden Gang. Aus tieferen Gängen wurden feindliche Pfeile sowie Bugbears und weitere Skelette aktiv.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Freigelegten Gang",
+                "Freigeräumten Bereich"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-10T20:10:57.216000",
+            "updated_at": null
+        },
+        {
+            "id": "etd3uwx4dof5i3m3i34sgqm1",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Wave Echo Cave > Enger Kriechgang",
+            "description": "Der enge Kriechgang ist ein Nebeneingang, ein Loch In Der Wand, durch das man kriechend etwa zwei Meter in einen danach wieder aufrichtbaren Durchgang gelangt. Der Durchgang führt in einen dunklen Gang von ungefähr drei Metern Höhe und Breite.\n\nDie Gruppe markierte den Eingang außen mit einem schwach phosphoreszierenden X. Skelett Katze wurde zuerst durch den Kriechgang geschickt und meldete keine unmittelbaren Feinde am Eingang. Danach kehrte sie zurück und berichtete, dass hinter dem kurzen Gang ein größerer Raum oder Gang folgte. Die Gruppe kroch durch den Kriechgang in den dunklen Gang und traf dort auf mehrere Untote und fliegende Kreaturen. Der Kriechgang diente als Zugangsweg, Rückzugs- und Markierungsstelle während des Kampfes.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Kriechgang",
+                "Enger Durchgang"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-10T20:10:57.030000",
+            "updated_at": null
+        },
+        {
+            "id": "rdg5xbmzlt5bsuh5z414ejgp",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Wave Echo Cave > Loch In Der Wand",
+            "description": "Das Loch In Der Wand ist ein enger Nebeneingang in einer Höhlenwand auf einem kleinen Plateau. Der Kriechgang ist etwa zwei Meter lang und führt in einen größeren Gang von ungefähr drei Metern Höhe und Breite. Die Gruppe markierte das Loch außen mit einer schwach phosphoreszierenden X-Paste. Eine Katze wurde vorgeschickt und meldete das Aufrichten dahinter, bevor sie in ein tieferes Loch fiel. Der reguläre Eingang war verschüttet, und Die Gruppe räumte Geröll aus dem Loch, um den Weg passierbar zu machen. Hinter dem freigelegten Gang teilte sich der Tunnel; an der rechten Seite standen zwei Skelette, die Pfeile auf ansteigende Personen schossen.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-10T20:10:56.938000",
+            "updated_at": null
+        },
+        {
+            "id": "bi4ap6m4wh26m5qskca4m9jj",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Wave Echo Cave > Sehr Kleines Plateau",
+            "description": "Der Sehr Kleine Plateau ist ein kleines Felsplateau, das nach etwa einer Stunde Aufstieg erreichbar ist. Es bietet kaum Platz für alle und besitzt ein Loch In Der Wand, durch das man nur kriechend hineinkommen kann. Dahinter folgt ein Enger Kriechgang von etwa zwei Metern, der in einen deutlich größeren Gang führt.\n\nDie Gruppe erreichte das Plateau, schickte Skelett Katze vor, markierte den engen Durchgang, und Korvathun malte ein schwach phosphoreszierendes X an die Wand. Nach dem Durchkriechen gelangten sie in einen dunklen Gang, der etwa drei Meter hoch und breit ist. Nach einem Kampf bemerkte Die Gruppe das Loch erneut und fand dahinter zwei mit Geröll verstopfte Durchgänge, die sie später zu befreien begannen.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Kleines Plateau"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-10T20:10:56.844000",
+            "updated_at": null
+        },
+        {
+            "id": "sxvedrdyiwdefbr5id22lqvv",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Wave Echo Cave > Eingangsraum",
+            "description": "Das Jagdgebiet Bei Der Höhle ist ein Gebirgsvorplatz mit einer Höhle, deren regulärer Eingang vollständig verschüttet ist. Ein Nebeneingang wurde durch Erdrutsche geöffnet. Die Gruppe stieg zum Nebeneingang auf. Auf einem kleinen Plateau fand sich ein kriechbarer Lochzugang, der von Korvathun mit leuchtender Paste markiert wurde. Dahinter lag ein etwa zehn Fuß hoher und breiter Gang. Im Gang erhoben sich drei gut erhaltene Leichen als Zombies. Später griffen lederflügelige Blutsauger, ein tentakelartiger Wurm, weitere Skelette und Bugbears an. Nach dem Kampf untersuchte Die Gruppe die Leichen, nahm Beute aus einem Haufen und räumte an zwei Stellen Geröll frei, wodurch ein weiterer Gang mit geteiltem Verlauf sichtbar wurde.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-10T20:10:56.753000",
+            "updated_at": null
+        },
+        {
+            "id": "u3v8etx6z0olwfhjr2ql1v29",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Wave Echo Cave",
+            "description": "Die Wave Echo Cave ist ein entscheidender Ort für eine bevorstehende Expedition. Der reguläre Haupteingang ist vollständig verschüttet; ein Nebeneingang entstand durch Erdrutsche und Erdbeben. Ein kleines Plateau führt zu einem Loch in der Wand, das einen dunklen Gang von etwa drei Metern Höhe und Breite eröffnet. Der Ort zeigt noch eine Restenergie von einem Kampf vor etwa 500 Jahren. Im Inneren teilt sich der Gang; rechts stehen zwei Skelette. Zwei Stellen weiter hinten sind mit Geröll (faust- bis kopfgroße Steine) verstopft, bis das Geröll entfernt und der Durchgang freigelegt wurde.\nDie Wave Echo Cave enthält einen oberen Gang, einen unteren Gang, offene Korridore, Seitengänge mit schweren Steintüren und eine Decke, aus der wurmartige Tentakelwesen hängen; weiter hinten befindet sich ein Felsspalt. In der Wave Echo Cave gibt es ein Skelett, mehrere Backbären und wurmartige Tentakelwesen; Javelins fliegen durch die Gänge. Die Chronologie des Kampfes zeigt, dass ein Skelett auf Korvathun schoss, während Javelins ein hängendes Tentakelwesen trafen. Backbären schlagen zu und entführen Surina Nemmonis. Ein großer, ungepanzerter, gorillaartig laufender Backbär stürmt heran, und ein Tentakelwesen flüchtet in einen Felsspalt. Nach der Durchsuchung der Gefallenen zog die Gruppe weiter durch die rechten Gänge.\nDie Wave Echo Cave ist das Ziel einer bevorstehenden Expedition. Die Vorbereitung umfasste Licht, Proviant, Markierungen, Rastmöglichkeiten, Ausrüstung gegen Untote und mögliche Gegenstände aus einem Lager. Die Gruppe, bestehend aus Morvain, Brennen Voidridge, Gwendolyn Silverflame, Korvathun und Surina Nemmonis, brach zu Pferd in Richtung der Wave Echo Cave auf.\nDie Restenergie des alten Kampfes könnte Hinweise auf vergangene Ereignisse geben. Die Skelette könnten auf einen früheren Konflikt oder die Bewohner der Mine hinweisen. Die Gruppe nahm gezielt Ausrüstung gegen Untote mit, was auf die Gefahren in der Wave Echo Cave hinweist. Ausrüstung aus einem Lagerraum sollte eventuell in der Wave Echo Cave genutzt werden.\nDie Bedrohung und der Wert sind hoch, da es aktive Feinde gibt, mehrere Kampfschauplätze und eine gefährliche Deckenbedrohung, während die Überreste und die Restenergie potenziell gefährliche Geheimnisse bergen.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Höhle/mine",
+                "Höhle"
+            ],
+            "tcg_image": null,
+            "merge": true,
+            "created_at": "2026-06-10T20:10:56.658000",
+            "updated_at": null
+        },
+        {
             "id": "qo1r86v1aks176jluxmt9wjl",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "name": "Triboar > Mausoleum > Labyrinth Mit Hüfthohen Wänden",
@@ -16,306 +306,11 @@
             "merge": false,
             "created_at": "2026-06-03T07:57:49.174000",
             "updated_at": null
-        },
-        {
-            "id": "lo68j4zrckl6ii777yinpuy4",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Triboar > Mausoleum > Ungewöhnlich Langer Raum",
-            "description": "Der Ungewöhnlich Langer Raum ist ein langer Gangraum. In der Mitte steht eine Fremde Frau, die in Rätseln spricht. Nachdem Die Gruppe eintritt, schließt sich die Tür aus Stein hinter ihnen. Die Schatten der Anwesenden lösen sich vom Boden und greifen an; die Schattenmagie fesselt Brennen Voidridge, Surina Nemmonis und die übrigen, während Dîn-io Tempest ungebunden bleibt. Vor Dîn-io erscheint als erste Prüfung ein Labyrinth Mit Hüfthohen Wänden, das Blut verlangt. Dîn-io löscht Fackeln, wodurch sich der Schattengriff schwächt, bis die Fesseln brechen.",
-            "type": null,
-            "parent_id": null,
-            "image": null,
-            "aliases": [
-                "Langer Raum"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-06-03T07:57:49.075000",
-            "updated_at": null
-        },
-        {
-            "id": "g9xc5lppmhiedaj95q8mwyhw",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Triboar > Mausoleum > Kleine Rechteckige Kammer",
-            "description": "Die Kleine Rechteckige Kammer ist ein enger, rechteckiger Raum am Ende einer Wendeltreppe. Sie ist kaum größer als der Schacht selbst und bietet wenig Platz, sodass Teile der Gruppe auf der Treppe warten mussten. In der Kammer befinden sich keine Särge, Wappen oder Inschriften, sondern nur eine einzelne Tür.\n\nHinter dieser Tür erstreckt sich ein Ungewöhnlich Langer Raum.",
-            "type": null,
-            "parent_id": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-06-03T07:57:48.977000",
-            "updated_at": null
-        },
-        {
-            "id": "rh8wo5kjcxzgdq05n3yepqqm",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Triboar > Mausoleum > Verborgener Raum",
-            "description": "Der Verborgene Raum ist eine Kammer, die hinter einer aufgebrochenen Wand freigelegt wurde. In der Kammer steht ein Leerer Sarkophag, und am Boden befindet sich ein Einstieg zu einer Wendeltreppe, die nach unten führt.\n\nDie Wendeltreppe endet in einer kleinen rechteckigen Kammer mit einer einzigen Tür. Nach dem Öffnen der Tür führt ein Ungewöhnlich Langer Raum, in dessen Mitte eine Fremde Frau wartet. Die steinerne Tür schließt sich hinter der Gruppe.",
-            "type": null,
-            "parent_id": null,
-            "image": null,
-            "aliases": [
-                "Verborgenen Raum"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-06-03T07:57:48.882000",
-            "updated_at": null
-        },
-        {
-            "id": "cfel0xml1bwutjb8qed2xzia",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Triboar > Mausoleum > Bereich Mit Acht Grufttüren",
-            "description": "Der Bereich Mit Acht Grufttüren ist ein unterirdischer Abschnitt mit acht Grufttüren, von denen jede ein eigenes Symbol oder Wappen trägt. In den meisten Kammern befinden sich Särge oder Sarkophage, einige haben Nebenräume mit weiteren Toten. In einem Raum fehlt anstelle einer erwarteten Tür eine Wand. Brennen zertrümmerte Fackelhalterungen, wodurch ein Stein sich löste und die Wand freigelegt wurde. Dahinter befindet sich ein Leerer Sarkophag mit einem Einstieg zu einer Wendeltreppe nach unten. Beim Abstieg wird die Luft kälter, und Die Gruppe hat das Gefühl, beobachtet zu werden. Die Treppe endet in einer kleinen rechteckigen Kammer mit einer einzigen Tür, die in einen ungewöhnlich langen Raum führt.",
-            "type": null,
-            "parent_id": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-06-03T07:57:48.785000",
-            "updated_at": null
-        },
-        {
-            "id": "cmpwhw1db001904jy5hpcxbg6",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "provisorische Lager der Gruppe bei Triboar",
-            "description": "Das provisorische Lager liegt im Schatten der Belagerung vor dem belagerten Triboar. Es weist Rauch auf und wird von Wachen bewacht.\n\nGwerk brachte Vorräte ins Lager. Die Gruppe bündelte Proviant und nötige Güter in einer großen Zeltplane. Dîn-io ließ die gefüllte Zeltplane in seinen Ring verschwinden. Surinas Vogel Cogling Aviad hob im Lager ab und trug den Ring Richtung Triboar davon. Die übrige Gruppe stieg in die Kutsche Iron Fang und verließ das Lager in Richtung Belagerungsring.",
-            "type": null,
-            "parent_id": null,
-            "image": null,
-            "aliases": [
-                "Lager der Skelette",
-                "Skelettlager"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-06-02T10:28:54.352000",
-            "updated_at": null
-        },
-        {
-            "id": "cmpwg5vxg000304jynqiom6ba",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Bryn Shander > Marktplatz",
-            "description": "Der Marktplatz ist ein offener Ort in der Stadt, an dem Personen einander begegnen. Gwendolyn traf Dîn‑io auf dem Marktplatz und zog ihn von dort aus zur Kirche.",
-            "type": null,
-            "parent_id": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-06-02T09:40:34.631000",
-            "updated_at": null
-        },
-        {
-            "id": "cmpwg5lul000004jydtqbniua",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Bryn Shander > Büro der Hohepriesterin",
-            "description": "Hinter der Tür lag das Büro der Hohepriesterin, ein verschlossenes Zimmer im Tempel mit Regalreihen, einem Schreibtisch und einer verschlossenen Truhe. Die Gruppe brach die Tür auf und durchsuchte das Büro. An den Regalen fanden Surina und Naevys religiöse Gegenstände, Kräuter, Rauchwerk, Kohle, Ersatzgewänder und zwei private Notizbücher. Am Schreibtisch lagen geöffnete Schreiben aus Luskan; in einer Schublade lagen ein schmaler Dolch/Brieföffner und Ersatzfedern. Unter dem Schubladenboden entdeckte Brennan einen kleinen silbernen Schlüssel. Mit diesem Schlüssel wurde ein draußenhergebrachtes, verschlossenes Buch geöffnet, was eine Schockwelle durch den Raum auslöste und drei Anwesende mit Frostüberzug erstarren ließ. Dîn-io brach anschließend das Truhenschloss auf; aus der Truhe schlug ein kalter Stoß, die Gefrorenen zeigten stärkeren Reif, und in der Truhe lagen mehrere magische Gegenstände sowie ein leeres Buch.",
-            "type": null,
-            "parent_id": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-06-02T09:40:21.564000",
-            "updated_at": null
-        },
-        {
-            "id": "n4ixb9d0w5jbnd015flejzgf",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Bryn Shander > Laube",
-            "description": "Die Laube ist ein Gasthaus und Schanklokal, das in der Vergangenheit von nächtlichem Getümmel geprägt war und später teilweise abgebrannt ist. Zu Beginn der Chronik waren Brennan und Gwendolyn Silverflame im Auftrag des Schmieds in der Laube, um Schulden bei einem Glücksspieler einzutreiben. Der Schuldner stolperte und brach sich die Nase, während Gwendolyn Silverflame versuchte, sie wieder einzurenken. Die Hohepriesterin passierte die Laube zufällig auf ihrem Weg, sah das Getümmel und erkannte zwei Gesichter aus der Messe, kannte die Laube selbst jedoch nicht.",
-            "type": null,
-            "parent_id": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-06-01T16:11:49.177000",
-            "updated_at": null
-        },
-        {
-            "id": "ocuzoot1ktjzti7i5obfwtwv",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Bryn Shander > Holzhaus Der Hohepriesterin",
-            "description": "Das Holzhaus der Hohepriesterin ist ein unauffälliges Wohnhaus, vollständig aus Holz gebaut und als das dritte Haus die Straße hinunter benannt. Die Hohepriesterin öffnete die Tür, nachdem Dîn-io Tempest geklopft hatte. Auf die Mitteilung, dass Brennan in der Kirche gefroren worden sei, wurde die Hohepriesterin sofort wach und machte sich mit Dîn-io Tempest und Gwendolyn Silverflame auf den Weg zurück zur Kirche. Sie betrat ihr Haus und eilte zum Tempel.",
-            "type": null,
-            "parent_id": null,
-            "image": null,
-            "aliases": [
-                "Haus Der Hohepriesterin"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-06-01T16:11:48.980000",
-            "updated_at": null
-        },
-        {
-            "id": "k1pvdktsq13x3iw3643923wu",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Bryn Shander > Nordtor",
-            "description": "Das Nordtor ist ein Stadttor, an dem eine Stadtwache postiert ist. Ein Wächter, der dort schläfrig ist, nennt das Haus der Hohepriesterin als das dritte Haus die Straße hinunter und reagiert verzögert auf Nachrichten vom Tempel. Die Gruppe wird halb schlafend durchgelassen.",
-            "type": null,
-            "parent_id": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-06-01T16:11:48.890000",
-            "updated_at": null
-        },
-        {
-            "id": "md1bfm9yk2ssuwa7gj49peud",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Bryn Shander > Taverne",
-            "description": "Die Taverne ist ein Gasthaus mit Zimmern und Betten. Zu Beginn war sie leer. Dîn-io Tempest kehrte zur Taverne zurück und fand sie unbesetzt. Später brachte Dîn-io Tempest nacheinander Naevys Nerizana, Brennan und Surina Nemmonis dorthin, legte sie in Betten ab und deckte sie zu. Dîn-io Tempest versteckte magische Gegenstände, die aus einer Truhe genommen wurden, in einem anderen Zimmer der Taverne unter einem Bett.",
-            "type": null,
-            "parent_id": null,
-            "image": null,
-            "aliases": [
-                "Leere Taverne"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-06-01T16:11:48.707000",
-            "updated_at": null
-        },
-        {
-            "id": "jfj82aqe8q64u8oiscu26zvb",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Bryn Shander > Bibliothek",
-            "description": "Die Bibliothek ist ein separates Schreibzimmer im hinteren Bereich des Tempels. Sie enthält Bücher zur Geschichte der Stadt Aurel und Targos, zwei Bände zur Geschichte des Tempels und seiner Priester, zahlreiche Erzählungen und Märchen sowie ein verschlossenes, reich verziertes Buch mit Gebirgs- und Drachenmotiv auf dem Einband.",
-            "type": null,
-            "parent_id": null,
-            "image": null,
-            "aliases": [
-                "Schreibzimmer"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-06-01T16:11:48.617000",
-            "updated_at": null
-        },
-        {
-            "id": "drm1pm5y5nxezj4itk2l9nnw",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Bryn Shander > Kirche",
-            "description": "Die Kirche ist ein Gebäude mit einem großen Hauptsaal und einem erhöhten Altar auf der linken Seite. Zu den hinteren Räumlichkeiten gehören fünf Zimmer, ein Bad, ein Büro, eine Bibliothek/Schreibzimmer, eine kleine Küche, ein Schlafzimmer sowie Latrinen. Die Eingangstüren sind massive doppelflügelige Holztüren, die von innen mit einem schweren Balken verriegelt werden können.\n\nIn der Kirche verrichtete Brennan Dienst und wurde von der Hohepriesterin mit der Reinigung beauftragt. Er beobachtete die Besucher, während die Hohepriesterin die Kirche verließ, woraufhin er die Gruppe holte. Die Gruppe suchte die Räume ab und fand keine Kellertreppe, jedoch eine Leiter zum Dach, Bücherbestände, einschließlich eines verschlossenen Drachenbuchs, religiöse Gegenstände, Kräuter, Ersatzgewänder, zwei Notizbücher, geöffnete Schreiben aus Luskan, einen versteckten silbernen Schlüssel im Schreibtisch und eine mit Bannmagie belegte Truhe.\n\nSurina Nemmonis öffnete das Drachenbuch mit dem silbernen Schlüssel, was eine Schockwelle auslöste und drei Personen einfrierte. Später öffnete Dîn-io Tempest die Truhe, die erneut kalte Luft ausstieß und zahlreiche magische Gegenstände sowie ein leeres Buch enthielt. Die Hohepriesterin stellte das aufgebrochene Bürozimmer fest und meldete den Verlust der Gegenstände der Stadtwache, woraufhin die Stadttore geschlossen wurden.",
-            "type": null,
-            "parent_id": null,
-            "image": null,
-            "aliases": [
-                "Tempel"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-06-01T16:11:48.424000",
-            "updated_at": null
-        },
-        {
-            "id": "cmpvd5qrl002104icclfegsfi",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Hain",
-            "description": "Der Hain ist ein kleiner Baumhain am Straßenrand, in den die Kutsche gefahren und dort quergestellt wurde. Die Gruppe hielt die Kutsche im Hain an und hatte von dort freie Sicht auf die belagerte Stadt, ohne sofort bemerkt zu werden. Sie blieben im Hain verborgen und nutzten die Fahrt als kurze Rast, während sie ihre Planung verlegten und Ried den Auftrag gaben, sich vorsichtig ins Mausoleum vorzuschicken. Am Einbruch der Dunkelheit blieb die Gruppe weiterhin im Hain verborgen.",
-            "type": null,
-            "parent_id": null,
-            "image": null,
-            "aliases": [
-                "Baumgrenze",
-                "Hain"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-06-01T15:28:42.918000",
-            "updated_at": null
-        },
-        {
-            "id": "jgpuu958cdoo6129ak8icknk",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Hobgoblin Lager vor Triboar (Belagerung)",
-            "description": "Das Lager der Hobgoblins vor Triboar besteht aus großen Blöcken identischer schwarzer Zelte, die ringförmig um die belagerte Stadt angeordnet sind. Die Straße selbst ist zeltfrei und mit Barrikaden gesichert. Im Lager gibt es enge Gassen zwischen den Zeltblöcken sowie einzelne breitere Durchfahrten. Ein großes Gebäude, das Triboar von Triboar, befindet sich im Lager.\nDer Hobgoblin Lager vor Triboar (Belagerung) um Triboar ist die äußere Linie der Belagerer, bestehend aus einer Barrikade aus aufgeschichtetem Holz, Steinen und Erde. Hinter dieser Barrikade haben Hobgoblins in schwarzen Rüstungen Stellung bezogen. Rechts vorn befindet sich eine brennende Sperre, aus der Rauch aufsteigt. Die Hobgoblins schießen aus Deckung und aus dem Rauch der brennenden Sperre mit Pfeilen auf die Angreifer und füllen Lücken in ihrer Linie. Die Iron Fang fährt auf die brennende Barrikade zu und hält im Schatten der brennenden Sperre.",
-            "type": null,
-            "parent_id": null,
-            "image": null,
-            "aliases": [
-                "Belagerungsring"
-            ],
-            "tcg_image": null,
-            "merge": true,
-            "created_at": "2026-06-01T15:15:37.694000",
-            "updated_at": null
-        },
-        {
-            "id": "bscvem9a8xspnc58eigur9zy",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Brennende Barrikade",
-            "description": "Die Brennende Barrikade ist eine absichtlich errichtete Barriere an der Straße, die in Brand geraten war. Diese Barriere besteht aus brennendem Holz, Harz und verkohltem Material, was Rauch, Flammen und Hitze erzeugt, die nach Harz und verkohltem Holz riechen und die Luft erwärmen. Eine Kutsche rollte quer vor die Barrikade, die Pferde wurden abgekoppelt und liefen zurück. Drei Goblins stiegen bei der Barrikade aus und bezogen Stellung. Surina Nemmonis sprang über die Brennende Barrikade bis zu einem Baum und griff von dort an. Einer der Goblins warf eine Granate hinunter, was zu einer Explosion führte und mehr von der Barrikade in Brand setzte. Gwerk zog einen Gegner gegen die Barrikade und hielt ihn dort fest.\nHobgoblins schossen aus dem Rauch der brennenden Sperre, der über das Feld zog und die Sicht erschwerte. Die Gruppe nutzte Rauch und Flammen als Deckung und rückte näher an die Barrikade. Die Iron Fang fuhr auf die Brennende Sperre zu und hielt im Schatten der brennenden Barrikade an; Funken und Hitze trafen die Kutsche.",
-            "type": null,
-            "parent_id": null,
-            "image": null,
-            "aliases": [
-                "Brennende Sperre"
-            ],
-            "tcg_image": null,
-            "merge": true,
-            "created_at": "2026-06-01T15:15:37.483000",
-            "updated_at": null
-        },
-        {
-            "id": "cmpvcd0k2002r04l8di6avpxe",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Conyberry > Brunnen",
-            "description": "Die Höhle unter dem Brunnen ist eine kuppelförmige Kammer mit einem Durchmesser von etwa zehn bis fünfzehn Metern. Sie ist über einen trockenen, tiefen Brunnen zugänglich, dessen Eimer frei in der Luft hängt. In der Kammer befinden sich sechs Hobgoblin-Leichen in einfacher Leinenkleidung, ohne Kampfrüstung, Gold, Banner oder sonstige Ausrüstung. Der Boden und die Wände bestehen aus Erde und kleineren Steinen, ohne weitere Ausgänge oder verborgene Hohlräume.",
-            "type": null,
-            "parent_id": null,
-            "image": null,
-            "aliases": [
-                "Der Brunnen"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-06-01T15:06:22.585000",
-            "updated_at": null
-        },
-        {
-            "id": "cmpvcc9x8002h04l88kvg92g7",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Fort bei Conyberry",
-            "description": "Das provisorische Lager liegt nahe Treibhorn im Niewinderwald und besteht aus Zelten, einem Südtor und einem östlichen Südturm. Naevys brachte den schwerverletzten Dane ins Lagerzelt. Die Gruppe hielt Wachen durch die Nacht, während am folgenden Nachmittag eine Kutsche mit zwölf Pferden durch das geöffnete Südtor ins Lager fuhr. Drob, Gwerk und sieben weitere Goblins stiegen aus.",
-            "type": null,
-            "parent_id": null,
-            "image": null,
-            "aliases": [
-                "Lager der Skelette",
-                "Skelettlager"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-06-01T15:05:48.058000",
-            "updated_at": null
-        },
-        {
-            "id": "qn2sekf67los5coo0urwn951",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Conyberry",
-            "description": "Conyberry ist ein zuvor umkämpftes Dorf.\nIm Dorf wurden die Häuser nacheinander durchsucht. Es wurden leere, aufgebrochene Kisten, ein zerstörter Karren mit gebrochener Achse und Rädern sowie ein gewaltsam aufgebrochener Fußboden über einer ausgehobenen, leeren Grube gefunden. Die Grube wies glatte Druckstellen auf, die auf ein zuvor dort liegendes, schweres, glattes Objekt hindeuteten. Markierte Fallenstellen wurden ohne Erfolg geprüft, und es wurden keine Vorräte, keine Asche und keine Spuren einer Verbrennung der Toten gefunden. Gwendolyn Silverflame stellte keine fremde magische Signatur fest. Am Dorfbrunnen hing der Eimer frei in der Luft; im Schacht befand sich eine kuppelförmige Kammer mit sechs Hobgoblin-Leichen in einfacher Leinenkleidung, ohne Ausrüstung oder Banner und ohne sichtbaren Ausgang. Surina Nemmonis schnitt Finger ab und füllte sechzig Finger in den Eimer. Die Suche ergab sonst keine verwertbaren Beutegegenstände, und eine verfolgte Spur führte in Richtung Flint.",
-            "type": null,
-            "parent_id": null,
-            "image": null,
-            "aliases": [
-                "Coniberry"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-06-01T13:10:50.935000",
-            "updated_at": null
         }
     ],
     "from": 1,
-    "last_page": 9,
+    "last_page": 10,
     "per_page": 20,
     "to": 20,
-    "total": 172
+    "total": 191
 }

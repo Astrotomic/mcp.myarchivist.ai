@@ -2,6 +2,271 @@
     "current_page": 1,
     "data": [
         {
+            "id": "nqx9jbb1wtrnb9957elmatgm",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Kugellagerkugeln",
+            "description": "Rolle: lose Kugeln auf dem Boden der Mine.\n- Kugellagerkugeln: kleine, verstreute Kugeln auf dem Boden im Wave Echo Cave > Gang vor der Tür.\n- Sie lagen während des nächtlichen Kampfes hinter der Gruppe auf dem Boden.\n- Zwei Zombies, zwei Skelette und eine weitere Untote Gestalt waren damit beschäftigt, die Kugeln aufzulesen.\n- Die Kugeln befanden sich sichtbar im Bereich vor der verbarrikadierten Tür, während Die Gruppe die Tür sicherte.\nHooks:\n- Aktuell werden die Kugeln von Untoten aufgehoben.\n- Ihre Lage ist im Gang unmittelbar vor der Tür.\nThreat/Value: niedrig — es sind aufgefundene, aufgesammelte Gegenstände, ohne explizit genannte direkte Wirkung.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Verstreuten Kugellagerkugeln"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-08T20:06:39.717000",
+            "updated_at": null
+        },
+        {
+            "id": "ek4xle3mme53cuqxksirs046",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Brennende Doppelwaffe",
+            "description": "Kampfwaffe (geführt von Surina Nemmonis)\n- Name: Brennende Doppelwaffe; beschrieben als brennendes Klingenpaar, von Surina geführt.\n- Verwendung: Surina stürzte sich mit der Waffe auf den großen Backbär und traf ihn mehrfach.\n- Wirkung: Treffer am großen Backbären wurden teilweise von dessen dicker Lederhaut, schwerem Fell und vernarbter Haut abgefangen.\n- Weitere Einsätze: Surina erschlug mit der Doppelwaffe einen Tentakelwurm und setzte die Waffe erneut im Korridorkampf ein.\n- Relevanz: Wird aktuell von Surina als primäre Nahkampfwaffe verwendet.\nThreat/Value rating: mittel — verursacht Treffer, zeigte gegen robuste Rüstungliche Begrenzungen verringerte Wirkung.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Ihr Brennendes Klingenpaar"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-17T20:07:15.759000",
+            "updated_at": null
+        },
+        {
+            "id": "u3d61x3kiwjxldmk324brfqp",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Kohlenotiz",
+            "description": "Rolle: Gefundene Warnnotiz auf dem Leichnam eines großen Backbären.\n- Fakten: alt; stark verschmiert; mit Kohle geschrieben; bruchstückhafte, teils unvollständige Sätze.\n- Fakten: Gefunden und gelesen von der Gruppe unmittelbar nach dem Kampf.\n- Fakten: Enthält explizite Fragmente: „Finger weg Sum-Sum“, „Auge macht Kopfmatsch“, „Finger mach auch böse“, „Ries lügt“, „nicht Brüll nicht Hau“, „klau macht Aua“.\n- Hooks: Warnt vor unbekannten Gefahren; deutet auf feindliche Reaktionen bei Berührung.\n- Hooks: Fragmentarische Sprache könnte auf Hast oder Störung beim Schreiben hinweisen.\n- Bedrohungs-/Wert-Einstufung: niedrig — physisches Objekt mit potenziell nützlichen, aber unvollständigen Warnhinweisen.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Alte, Stark Verschmierte Kohlenotiz"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-17T20:07:15.661000",
+            "updated_at": null
+        },
+        {
+            "id": "rxom8vkn6sw5b44twd9sdzct",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Flammensphäre",
+            "description": "Beschworenes magisches Objekt\n- Erzeugerin/Kontrolle: Gwendolyn\n- Erscheinung: brennende Kugel\n- Verhalten: wurde in den oberen Bereich gerollt\n- Wirkung: verbrannte Teile von Morvains Netz\n- Wirkung: bedrohte obere Gegner mit Feuer, führte zum Zusammenbruch mindestens eines Gegners\nHooks\n- Kann klebrige Netze entzünden\n- Kann durch Rollen Bereiche anhaltend bedrohen\nThreat/Value: mittel — verursacht anhaltenden Feuerschaden durch Positionierung und Entzündung von Netzen.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-17T20:07:15.467000",
+            "updated_at": null
+        },
+        {
+            "id": "ivflw6qx47tl10vlib6iask3",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Vergoldeter Bärenschädel",
+            "description": "Vergoldeter Bärenschädel (magisches Artefakt)\n- Gereinigter Bärenschädel, überzogen mit Gold\n- Erschafft einen untoten Bärenbegleiter durch ein Ritual\n- Ursprünglich bearbeitet von Morvain\n- Befindet sich in Hammerhåeim\n- Morvain hält den untoten Bären aus Hammerhåeim fern.\n- Der Schädel könnte für andere Ritualisten von Interesse sein.\nWertungsstufe: hoch, da er die Fähigkeit besitzt, einen untoten Begleiter zu erschaffen.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-12T15:33:20.164000",
+            "updated_at": null
+        },
+        {
+            "id": "fian0znfjpiaj9g3g9w8hbmh",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Silberner Ohrring",
+            "description": "Objekt, persönlicher Schmuckgegenstand.\n- Silberner Ohrring, von Seris an Gwendolyn übergeben.\n- Gwendolyn konnte ihn zunächst nicht tragen, weil sie kein Ohrloch hatte.\n- Brennen stach Gwendolyn in der Nacht ein Ohrloch und setzte den silbernen Ohrring ein.\n- Der Ohrring wurde danach von Gwendolyn getragen.\nThreat/Value: niedrig — reiner persönlicher Schmuck ohne weitere beschriebene Wirkung.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Silbernen Ohrring"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-12T15:33:20.066000",
+            "updated_at": null
+        },
+        {
+            "id": "of1si5it0trzj3rzzkgixrfc",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Pyrelume Oil",
+            "description": "Brennstoff für eine Einmalladung-Notlaterne\n- Pyrelume Oil ist der Inhalt einer Laterne.\n- Die Laterne enthält nur eine Ladung Pyrelume Oil.\n- Die Laterne wurde von Flint Fireforge an Brennen Voidridge übergeben.\n- Pyrelume Oil soll nicht verschwendet werden und ist für Notfälle bestimmt.\n- Einmalladung — nur für einen einzigen Einsatz.\n- Vorgesehen für Situationen, in denen Rückzug wichtiger ist als Heldentum.\nThreat/Value: Hoch — einmalige Ladung für einen Notfall, daher taktisch wertvoll.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-12T15:33:19.969000",
+            "updated_at": null
+        },
+        {
+            "id": "i552cnv9of2ibffc59qaut0u",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Schwere, Dunkle Laterne Mit Fast Schwarzem Glas",
+            "description": "Notfalllaterne\n- Erscheinung: Schwere, dunkle Laterne mit fast schwarzem Glas.\n- Fähigkeiten: Brennt etwa eine Minute, Licht ist für Untote toxisch; schwächere Untote werden zurückgedrängt oder verbrannt, stärkere spüren es.\n- Herkunft: Übergeben von Flint an Brennen Voidridge.\n- Ressourcen: Enthält eine Ladung Pyrelume Oil; als Einmal-Notfallwerkzeug für den Rückzug gedacht.\n- Aktuelle Relevanz: Ihre toxischen Eigenschaften gegen Untote machen sie in gefährlichen Situationen wertvoll.\n- Nutzung: Kann in kritischen Momenten zur Flucht eingesetzt werden.\nBedrohungs-/Wertbewertung: hoch, da sie gegen Untote wirksam ist und in Notfällen entscheidend sein kann.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Laterne"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-12T15:33:19.866000",
+            "updated_at": null
+        },
+        {
+            "id": "rat59mjj9we5zfydvmpeopnu",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Wurfkartendeck",
+            "description": "Schurke/Trickwerfer.\n- Wurfkartendeck gehört zu Brennen Voidridge.\n- Geplanter Einsatz: Kampf gegen Untote.\n- Empfehlung: Aufbewahrung der Karten in einer auslaufsicheren Box mit Weihwasser.\n- Schmied fertigte eine Metallschatulle mit Dichtung, Lederinnenleben und Befestigungsmöglichkeiten für die Karten.\n- Brennen zahlte dafür 22 Gold.\n- Aktuell transportfähig und in einer versiegelten Metallschatulle verwahrt.\n- Zweck: Schutz der Karten vor Auslaufen und Bereitstellung von Weihwasser für den Gebrauch.\nThreat/Value: niedrig — Gegenstand für persönlichen Kampfgebrauch, geschützt aufbewahrt.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Die Karten"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-12T15:33:19.770000",
+            "updated_at": null
+        },
+        {
+            "id": "ptf0ww30y6gjxgivni6elikk",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Metallschatulle Mit Dichtung",
+            "description": "Role: Aufbewahrungsbehältnis für Brennens Kartendeck.\n- Metallschatulle mit Dichtung, gefertigt vom Schmied, mit Lederinnenleben und Befestigungsmöglichkeiten.\n- Entstand auf Vorschlag eines Klerikers Moradins, um Karten in einer auslaufsicheren Box mit Weihwasser aufzubewahren.\n- Brennen Voidridge bezahlte 22 Gold für die Metallschatulle.\n- Die Schatulle ist für die Aufbewahrung von Wurfkartendeck gedacht.\n- Hooks: schützt empfindliche Karten; ausgelegt für Transport an Befestigungen.\nThreat/Value: mittel — schützt Karten durch Dichtung und Lederinnenleben; wurde für 22 Gold angefertigt.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Metallschatulle"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-12T15:33:19.673000",
+            "updated_at": null
+        },
+        {
+            "id": "akyerigk8bhz7t7b0a0kb38j",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Zehn Heiltränke",
+            "description": "Rolle: Vorrat von Heilmitteln für die Gruppe\n- Zehn Heiltränke, beschafft von Gwendolyn Silverflame in Hammerhåeim.\n- Funktion: Heilressourcen zur Behandlung Verwundeter.\n- Einfluss: schlossen die letzten Lücken bei Stauraum, Heilressourcen und magischer Vorbereitung vor dem Aufbruch zur Wave Echo Cave.\n- Lagerung/Verwendung: Teil der aus dem Lager verteilten Ausrüstung und Gruppenvorräte beim Aufbruch.\n- Warum relevant: erhöhen die direkte Heilkapazität der Gruppe und ergänzen andere vorbereitende Maßnahmen.\n- Warum relevant: wurden unmittelbar vor dem Aufbruch beschafft.\nWert: mittel — erweitern die Heilressourcen der Gruppe für die bevorstehende Expedition.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "10 Heiltränke"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-12T15:33:19.576000",
+            "updated_at": null
+        },
+        {
+            "id": "p7b34qv6o4xxk4ex3xnbaqzh",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Bag Of Holding",
+            "description": "Behältnis, das Korvathun als Ausrüstungsgegenstand erwarb.\n- Name: Bag of Holding.\n- Erwerb: Korvathun kaufte den Bag of Holding im Lagerraum in Hammerhåeim.\n- Fundort/Verwahrung: Verfügbar im gruppeninternen Lagerraum von Hammerhåeim.\n- Funktion/Ergebnis: Schuf mehr Stauraum und trug dazu bei, die letzten Ausrüstungslücken vor dem Ausmarsch zu schließen.\n- Relevanz jetzt: Erweitert das Gepäckvolumen für die bevorstehende Expedition zur Wave Echo Cave.\n- Relevanz jetzt: Erlaubt Verteilung zusätzlicher Ausrüstung unter den Gruppenmitgliedern.\nWert/Bedrohung: hoch — weil er laut Ablauf die letzten logistischen Lücken der Gruppe schloss.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-12T15:33:19.479000",
+            "updated_at": null
+        },
+        {
+            "id": "s7ks2fb015oc9j9jedi5hesd",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Arcane Grimoire +1",
+            "description": "Rolle: Gegenstand\n- Name: Arcane Grimoire +1; Kategorie: other.\n- Standort: im Lagerraum in Hammerhåeim; wurde dort von Morvain genommen/gekauft.\n- Funktion/Status: Teil der an die Gruppe ausgegebenen Ausrüstung zur Vorbereitung.\n- Warum relevant: trug zur Verbesserung der magischen Vorbereitung der Gruppe bei.\n- Warum relevant jetzt: gehört zur Ausrüstung, mit der die Gruppe in die Wave Echo Cave aufbrach.\nWert: mittel — Bestandteil der magischen Vorbereitung der Gruppe.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-12T15:33:19.382000",
+            "updated_at": null
+        },
+        {
+            "id": "v89mt2dglsl3iy1eagrrti1e",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Baumwollstreifen",
+            "description": "Gegenstand: Baumwollstreifen\n- Gekauft von Surina Nemmonis.\n- Teil brauchbarer Ausrüstung gegen Untote.\n- Bestandteil eines Einkaufspakets, das zusammen mit anderen Gegenständen 1.000 Gold kostete.\n- Erwähnt im Zusammenhang mit der Vorbereitung auf die Wave Echo Cave.\n- Relevanz jetzt: Gehört zu den gegen Untote vorgesehenen Geräten.\n- Relevanz jetzt: Teil der Ausrüstung, die die Gruppe vor dem Aufbruch sammelte.\nWert/Risiko: niedrig — wurde als Teil allgemeiner Ausrüstung gegen Untote erworben.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-12T15:33:19.284000",
+            "updated_at": null
+        },
+        {
+            "id": "e83jynwm5pxb6ucc6asu6i3u",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Armschützer",
+            "description": "Schutzausrüstung (gegen Untote), getragen von Surina Nemmonis.\n- Gekauft bei Flint Fireforge als Teil von Ausrüstung gegen Untote; explizit genannt beim Kauf (\"Armschützer\" zusammen mit Battleaxe of Warning, magische Bolzen und Baumwollstreifen).\n- Kauf erfolgte nach Flints Erklärung, welche Mittel gegen Untote sinnvoll sind.\n- Bestandteil eines Gesamtkaufs von 1.000 Gold (Gesamtsumme für mehrere Gegenstände).\n- Surina präsentierte die neue Ausrüstung am nächsten Morgen im Speisesaal.\n- Die Armschützer begleiteten Surina beim Aufbruch in Richtung Wave Echo Cave.\n- Relevanz jetzt: Schützt ein Gruppenmitglied beim bevorstehenden Untoten-Einsatz.\n- Relevanz jetzt: Teil der koordinierten Vorbereitung gegen Untote.\nThreat/Value: mittel — weil sie als Teil der explizit gegen Untote beschafften Ausrüstung in die Expedition mitgenommen wurde.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-12T15:33:19.187000",
+            "updated_at": null
+        },
+        {
+            "id": "akqehqx4jbylwvrsu1o8gcla",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Magische Bolzen",
+            "description": "Magische Bolzen\n- Teil der Ausrüstung gegen Untote, beschafft in Hammerhåeim\n- Erworben von Surina Nemmonis nach einer Erklärung von Flint Fireforge\n- Bestandteil eines Gesamtkaufs über 1.000 Gold\n- Umfasst auch eine Battleaxe of Warning, Armschützer und Baumwollstreifen\nHooks:\n- Wichtige Waffe im Kampf gegen Untote\n- Teil einer größeren strategischen Vorbereitung\nThreat/Value rating: med, da sie gezielt gegen Untote eingesetzt werden können.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-12T15:33:19.091000",
+            "updated_at": null
+        },
+        {
+            "id": "krk07m1vxj9gozdlv6xi13j5",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Battleaxe Of Warning",
+            "description": "Rolle: Ausgerüsteter Gegenstand im Besitz von Surina Nemmonis\n- Die Battleaxe of Warning ist ein benannter Gegenstand, den Surina Nemmonis in Hammerhåeim erwarb.\n- Der Kauf erfolgte nach dem Informationsaustausch über Untote bei Flint Fireforge.\n- Die Battleaxe of Warning wurde zusammen mit magischen Bolzen, Armschützern und Baumwollstreifen für insgesamt 1.000 Gold erworben.\n- Der Erwerb war Teil der Ausrüstung gegen Untote vor dem Aufbruch zur Wave Echo Cave.\n- Wird von Surina als Teil ihrer Ausrüstung mitgeführt.\nHooks:\n- Teil der Vorbereitung der Gruppe auf die Untoten in der Wave Echo Cave.\n- Bereits zugewiesen und einsatzbereit bei Abreise aus Hammerhåeim.\nThreat/Value: mittel — weil sie explizit als Ausrüstungsgegenstand gegen Untote gekauft und in die Vorbereitungen für den Aufbruch einbezogen wurde.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-12T15:33:18.987000",
+            "updated_at": null
+        },
+        {
+            "id": "esir8juzrnpvjmmst21z78cl",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Beutehaufen Im Raum",
+            "description": "Beutehaufen\n- Ein Haufen mit Fundstücken, gefunden nach einem Kampf.\n- Enthält etwa 10 Kupfer sowie Wertgegenstände und verwertbare Dinge.\n- Die Gegenstände wurden von der Gruppe an sich genommen.\n- Korvathun bot an, alchemistische Dinge und den Rest zu tragen; die Beute wurde anschließend verteilt.\n- Der Haufen lag in dem Bereich mit dem Loch, nahe den freigeräumten Geröllstellen.\n- Warum es jetzt wichtig ist: Die Beute beeinflusst die Ausrüstung der Gruppe.\n- Warum es jetzt wichtig ist: Korvathuns Kapazität bestimmt, wer was tragen kann.\nThreat/Value: mittel — enthält verwertbare Gegenstände und etwas Bargeld, wurde bereits geborgen.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Beutehaufen"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-10T20:10:57.775000",
+            "updated_at": null
+        },
+        {
+            "id": "ib644nq5baxk46wc1nftt4mz",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Magische Karte",
+            "description": "Erzähler/Chronist.\n- Magische Karte: ein einzelnes, magisch wirksames Kartenstück, das Brennan bei sich trug.\n- Brennan schlug Surina mit der magischen Karte gegen den Kopf und wirkte so Cure Wounds.\n- Nach dem Treffer fühlte sich Surina deutlich besser.\n- Die Karte wurde von Brennan im Verlauf der Begegnungen eingesetzt.\n- Wird aktuell von Brennan getragen und ist einsetzbar zur schnellen Heilung.\n- Wurde inmitten des Kampfes physisch angewendet.\nThreat/Value: hoch — bewiesen durch direkte Heilwirkung an Surina.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-10T20:10:57.594000",
+            "updated_at": null
+        },
+        {
             "id": "w6s13yxthr5pu5huaebda5bc",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "name": "Leerer Sarkophag",
@@ -807,7 +1072,7 @@
             "id": "sh9y8ykxznx2qwbyfyqo0eww",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "name": "Pole of Collapsing",
-            "description": "Der Pole of Collapsing ist ein magischer Stab, der von Gwendolyn Silverflame geführt wird. Er wird als Waffe verwendet, um Gegner zu treffen. Gwendolyn plant, ihn über dem Kopf zu schwingen, um einen Wachen bewusstlos zu schlagen. In einer Situation, in der die Gruppe einen gefangenen Wachen überwältigen möchte, zieht Gwendolyn den Helm des Wächters ab und versucht, ihn mit dem Pole of Collapsing zu treffen, trifft jedoch nur die Rüstung wirkungslos.\nDer Pole of Collapsing wird auch als Übungsstab beschrieben, der von Gwendolyn Silverflame im Training als Übungswaffe dient. Gwendolyn hält den Pole of Collapsing wie ein Schwert und nutzt ihn im Sparring gegen Surina Nemmonis. Während des Trainings trifft Gwendolyn Surina mit dem Stab am Kopf, was Kopfschmerzen bei Surina verursacht. Der Pole of Collapsing wird als nicht gefährlich eingestuft, da er nicht dazu gedacht ist, ernsthaften Schaden zu verursachen.",
+            "description": "Der Pole of Collapsing ist ein magischer Stab, der von Gwendolyn Silverflame geführt wird. Er wird als Waffe verwendet, um Gegner zu treffen. Gwendolyn plant, ihn über dem Kopf zu schwingen, um einen Wachen bewusstlos zu schlagen. In einer Situation, in der die Gruppe einen gefangenen Wachen überwältigen möchte, zieht Gwendolyn den Helm des Wächters ab und versucht, ihn mit dem Pole of Collapsing zu treffen, trifft jedoch nur die Rüstung wirkungslos.\nDer Pole of Collapsing wird auch als Übungsstab beschrieben, der von Gwendolyn Silverflame im Training als Übungswaffe dient. Gwendolyn hält den Pole of Collapsing wie ein Schwert und nutzt ihn im Sparring gegen Surina Nemmonis. Während des Trainings trifft Gwendolyn Surina mit dem Stab am Kopf, was Kopfschmerzen bei Surina verursacht. Der Pole of Collapsing wird als nicht gefährlich eingestuft, da er nicht dazu gedacht ist, ernsthaften Schaden zu verursachen.\nZusätzlich wird der Pole of Collapsing als Werkzeug im Besitz von Gwendolyn Silverflame beschrieben. Er wird zwischen Felsgeröll verkeilt, um es gezielt loszureißen und soll mit Seilen verbunden werden. Gwendolyn verkeilte den Pole of Collapsing zusammen mit Brecheisen und Hammer, band Seile, und die Gruppe zog, wodurch das Geröll brach und der Weg geöffnet wurde. Er ist Teil des mitgeführten Werkzeugs der Gruppe während des Aufräumens des verschütteten Gangs.\nDer Pole of Collapsing ermöglicht den Zugang durch verschüttete Engpässe und erfordert eine koordinierte Sicherung per Seil und Zuschubhilfe.\nThreat/Value: mittel — befähigt die Gruppe, blockierte Passagen zu räumen.",
             "type": null,
             "image": null,
             "aliases": [],
@@ -1213,277 +1478,11 @@
             "merge": true,
             "created_at": "2026-03-07T18:29:16.139000",
             "updated_at": null
-        },
-        {
-            "id": "ftak3u1n6sfxlqyrp3lkt1sy",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Skyreaper",
-            "description": "Der Skyreaper ist ein bewaffnetes Luftschiff, das von einer Gruppe über Waterdeep getestet wurde. Während des Testflugs wurden sämtliche Steuerelemente sowie die Bewaffnung des Schiffes überprüft. Der Test verlief erfolgreich, und alle wichtigen Funktionen arbeiteten wie vorgesehen. Die Gruppe landete das Schiff sicher, was den Abschluss des Tests markierte.\nIm Anschluss verhandelte die Gruppe im Palast von Waterdeep und erhielt für ihre Leistungen 150 Gold pro Kopf. Flint Fireforge erhielt zusätzlich ein Set Sending Stones.",
-            "type": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-03-07T18:29:16.080000",
-            "updated_at": null
-        },
-        {
-            "id": "n2e3ybl8svj5m47b933pq1oq",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Banner",
-            "description": "Das Banner ist ein wichtiges Symbol innerhalb der Festung Hammerhåeim. Khorum Ironfist hat das Banner abgerissen, was zu einer Diskussion über die angemessene Strafe führte. Die genaue Erscheinung oder spezifische Merkmale des Banners sind nicht beschrieben.\nDie Gruppe versammelte sich in der Empfangshalle von Hammerhåeim und stellte fest, dass der Kultist tot war. Flint Fireforge führte eine Befragung durch und erfuhr, dass Khorum Ironfist das Banner abgerissen hatte. Flint blieb unentschlossen bezüglich einer Strafe für diese Tat.",
-            "type": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-03-07T16:50:27.169000",
-            "updated_at": null
-        },
-        {
-            "id": "g58bc244zhiu296pft5cijim",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Schwere Armbrust mit Stativ",
-            "description": "Die schwere Armbrust mit Stativ ist ein schweres Geschütz, das von der Gruppe für einen bevorstehenden Angriff auf ein Lager vorbereitet wurde. In der Nacht vor dem Angriff wurde sie zusammen mit Bänken und Tischen verladen. Die Gruppe plante, die Armbrust strategisch im Kampf einzusetzen.",
-            "type": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-03-07T16:50:27.149000",
-            "updated_at": null
-        },
-        {
-            "id": "lczr8xpx810i2p9nwlcgy0ep",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Weihwasser",
-            "description": "Weihwasser ist ein heiliges Wasser, das in der Festung Hammerhåeim abgefüllt wurde. Flint Fireforge füllte das Weihwasser ab, um es für bevorstehende Kämpfe vorzubereiten.\nDie Gruppe bereitete sich auf einen Angriff vor, nachdem sie die Bedrohung durch ein Lager von Skelettmenschen und Orcs festgestellt hatte. Flint Fireforge nutzte die Zeit in der Festung, um das Weihwasser abzufüllen.",
-            "type": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": true,
-            "created_at": "2026-03-07T16:50:27.120000",
-            "updated_at": null
-        },
-        {
-            "id": "nj0e0gbgyuuehrvjci7weclq",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Feenstaub",
-            "description": "Feenstaub ist ein magisches Material, das von neun Kultisten angeboten wurde, um Zephyros, dem Wolkenriesen, um Hilfe zu bitten, damit ihre Gottheit wieder zu alter Kraft verhelfen kann. Zephyros wies die Bitte der Kultisten zurück und forderte sie auf, den Turm zu verlassen. Nachdem die Kultisten den Turm verlassen hatten, übergab Zephyros den angebotenen Feenstaub an Khorum Ironfist. Khorum nutzte den Feenstaub nicht und gab ihn schließlich an Alagos weiter.",
-            "type": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-03-07T15:48:17.557000",
-            "updated_at": null
-        },
-        {
-            "id": "rseqdgegyxfk08aofrwmvhgv",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Weintrauben-Kette",
-            "description": "Die Weintrauben-Kette ist ein verzaubertes Artefakt, das von Alagos im Lionshield Coster gefunden wurde. Die Kette hat die Fähigkeit, eine Beere in eine voll gefüllte Rotweinflasche zu transformieren. Sie wurde zusammen mit verschiedenen Heil-Items entdeckt, während die Gruppe verschiedene Gegenstände durchsuchte.",
-            "type": null,
-            "image": null,
-            "aliases": [
-                "verzauberte Weintrauben-Kette"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-03-07T14:07:04.522000",
-            "updated_at": null
-        },
-        {
-            "id": "fvb2azvh1u27tmvu3bx7u5fr",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Hillsunder",
-            "description": "Hillsunder ist die Streitaxt von Khorum Ironfist, die vor einigen Tagen von Elfen gestohlen wurde. Khorum Ironfist informiert Flint Fireforge und Alagos in der Taverne \"Sleeping Boar\" über den Diebstahl seiner Streitaxt. In diesem Austausch erhält die Gruppe auch Hinweise auf die Elfen, die in Nightstone leben. Der Diebstahl von Hillsunder und die Nennung von Nightstone als möglichem Ziel der Gruppe verknüpfen die beiden Themen und lenken die Aufmerksamkeit auf den Ort, wo die Elfen leben.",
-            "type": null,
-            "image": null,
-            "aliases": [
-                "\"Hillsunder\""
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-03-06T15:29:51.507000",
-            "updated_at": null
-        },
-        {
-            "id": "t5ezftrxj2o7e3f99rka7knk",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Alchemistenfeuer",
-            "description": "Alchemistenfeuer ist eine gefährliche und entzündliche Substanz, die als Öl verwendet wird. Flint Fireforge erwarb eine Flasche Alchemistenfeuer während der Vorbereitungen für die Reise nach Hammerhåeim.\nDie Gruppe brach mit einer Kutsche über die High Road in Richtung Waterdeep auf, nachdem sie Vorräte für mögliche Gefahren beschafft hatte, darunter das Alchemistenfeuer.",
-            "type": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-03-06T10:49:03.731000",
-            "updated_at": null
-        },
-        {
-            "id": "t5g3gqj43jv0wkh915k14m2r",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Companion",
-            "description": "Der Companion ist ein Himmelskörper, der normalerweise über Elturel sichtbar ist. Bei der Ankunft an der Stelle, wo Elturel hätte stehen müssen, ist nur die Sonne am Himmel zu sehen, während der Companion fehlt. Das Fehlen des Companion bestätigt, dass Elturel nicht lediglich verwüstet oder verlassen wurde, sondern dass etwas von weitaus größerem Ausmaß geschehen ist.",
-            "type": null,
-            "image": null,
-            "aliases": [
-                "„Companion“"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-03-06T10:49:03.690000",
-            "updated_at": null
-        },
-        {
-            "id": "a948969tvd3ivwp20hbke9nl",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Siegelstempel",
-            "description": "Der Siegelstempel ist ein von Flint Fireforge geschmiedetes Objekt. Flint schmiedete zwei Siegelstempel in Hammerhåeim. Einer der Siegelstempel, den Flint an Elmar Barthen übergab, zeigt ein Design mit einem Hammer, der auf den Boden schlägt, flankiert von jeweils zwei Blitzen.",
-            "type": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-03-06T10:13:50.757000",
-            "updated_at": null
-        },
-        {
-            "id": "a6f31kbuboud9b43923am12d",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Mining Crab",
-            "description": "Die Mining Crab ist ein Wesen, das von Flint Fireforge in der Gnomen-Festung Gnomengarde für 50 Gold gekauft wurde. Flint zahlte 25 Gold aus eigener Tasche, während die restlichen 25 Gold bei Lieferung aus der Stadtkasse kommen sollten. Der Zweck des Kaufs der Mining Crab ist die schnellere Erweiterung von Hammerhåeim.",
-            "type": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-03-06T10:13:50.739000",
-            "updated_at": null
-        },
-        {
-            "id": "lky1gl3od1ugye2xkr4scc5c",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Familienchronik",
-            "description": "Die Familienchronik ist ein Buch, das in der Bibliothek des Hauses von Miriam Harpell gefunden wurde. Es ist das erste von zwei entdeckten Büchern und wird als Familienchronik identifiziert.\nWährend ihres Aufenthalts in Longsaddle sucht Seraphina im Bibliothekskeller nach Informationen über Gargauth. In der Bibliothek findet sie zwei Bücher; das erste ist die Familienchronik. Das zweite Buch ist verschlossen, und sein Einband ist in einer fremden Sprache verfasst. Afora Rivia und Seraphina können das verschlossene Buch nicht öffnen. Nach einem Ritual gelingt es Afora, den Titel des verschlossenen Buches zu lesen: „Vom Ende der Ebenen“.",
-            "type": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-03-05T16:47:11.583000",
-            "updated_at": null
-        },
-        {
-            "id": "yxiftir89ruptk9pqv7ic0tx",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Antwortschreiben von Elmar Barthen",
-            "description": "Elmar Barthen ist eine Figur, die in einem Antwortschreiben erwähnt wird. In diesem Schreiben wird berichtet, dass die Bewohner der Festung beschlossen haben, dem Königreich von Königin Naome’e nicht beizutreten. Es wird mitgeteilt, dass die Ernte ordentlich ausgefallen ist und ein Erntedankfest veranstaltet wird, bei dem alle mithelfen. Zudem wird ein kleiner Zufluss an neuen Bewohnern für die Festung erwähnt, während keine nennenswerten Probleme in der Festung genannt werden.",
-            "type": null,
-            "image": null,
-            "aliases": [
-                "Antwortschreiben"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-03-05T16:47:11.544000",
-            "updated_at": null
-        },
-        {
-            "id": "uotd7wxgxwv5yd55zcy7pkaa",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Versiegeltes Schreiben",
-            "description": "Das Versiegelte Schreiben ist ein Dokument, das Seraphina von Nestor Podgin übergeben wurde. Es ist bestimmt für Ragnam. Seraphina erhielt das Schreiben nach einem Gespräch mit Nestor Podgin, nachdem sie eine alte Dame mit 5 Gold bestochen hatte, um in dessen Haus eingelassen zu werden.",
-            "type": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-03-05T16:47:11.525000",
-            "updated_at": null
-        },
-        {
-            "id": "a53xb1hkir4l94j09iumeq0j",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Messingkrabbe",
-            "description": "Die Messingkrabbe ist ein handgroßes, mechanisches Objekt, gefertigt von Flint Fireforge in einer Schmiede in Longsaddle. Sie verfügt über zwei Aufsätze: eine Glocke und eine Lampe. Flint Fireforge stellte die Messingkrabbe her, während er einen Boten mit einem Brief zu Elmar Barthen nach Hammerhåeim schickte. Flint präsentiert seine Messingkrabbe im Northshield House, was bei der Wirtin Urgala Meltimer Eindruck hinterlässt. Daraufhin baut Flint eine spezielle Kellner-Krabbe und verkauft diese für 7 Goldstücke an Urgala Meltimer. Flint verbringt den Abend im Northshield Inn, um die Messingkrabbe weiter zu justieren und zu verbessern.\nDie Messingkrabbe ist ein mechanisches Krabbelwesen, das etwa einen halben Meter groß ist und als Helfer in der Taverne dient. Es bewegt sich zu den Tischen und bringt Bierkrüge, Teller und andere Dinge, während es Kellnerarbeiten verrichtet. Die Wirtin erklärt, dass das Wesen von einem Gast gefertigt wurde, um ihr die Arbeit zu erleichtern, sodass sie sich mehr um die Gäste kümmern kann. Während eines Abends in der Taverne bringt das mechanische Krabbelwesen Bierkrüge zu den Gästen und stellt sie in die Mitte des Tisches ab, bevor es in Richtung Küche geht. Als ein betrunkener Stadtwächter vom Stuhl kippt, trägt das mechanische Krabbelwesen ihn aus der Tür und kehrt anschließend zurück.",
-            "type": null,
-            "image": null,
-            "aliases": [
-                "mechanische Krabbe",
-                "Kellner-Krabbe",
-                "Mechanisches Krabbelwesen",
-                "mechanische Servierkrabbler",
-                "mechanisches Servierkrabbler"
-            ],
-            "tcg_image": null,
-            "merge": true,
-            "created_at": "2026-03-05T16:47:11.507000",
-            "updated_at": null
-        },
-        {
-            "id": "mpafd7yluzzftqknvwl46taj",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Vom Ende der Ebenen",
-            "description": "Das Buch „Vom Ende der Ebenen“ ist ein verschlossenes Werk mit einem Einband in einer fremden Sprache. Afora Rivia und Seraphina konnten es nicht öffnen. Nach einem Ritual gelang es Afora, den Titel des Buches zu lesen. Der Inhalt behandelt die unterschiedlichen Ebenen und ist kompetent geschrieben, als stamme es von einem Autor mit eigener Ebenenerfahrung.",
-            "type": null,
-            "image": null,
-            "aliases": [
-                "Verschlossenes Buch"
-            ],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-03-05T16:47:11.480000",
-            "updated_at": null
-        },
-        {
-            "id": "sqkfwexcf974t9ixczrie1wk",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Fabergé-Eier",
-            "description": "Die Fabergé-Eier sind dekorative Objekte, die in einem Schrank im Empfangsraum eines Gästehauses aufbewahrt werden. Sie sind verziert und weisen eine hohe Qualität auf. Die Eier sind älter und scheinen sehr wertvoll zu sein, was ihre Aufbewahrung hinter verschlossenen Türen erklärt.\nWährend eines Aufenthalts im Torhaus versuchte Rita, unauffällig ein bis zwei dieser Fabergé-Eier aus dem Schrank zu stehlen, wurde jedoch von Brennen Voidridge beobachtet. Brennen forderte sie auf, das Ei zurückzulegen. Rita erklärte, dass sie nur schauen wollte und noch nichts eingesteckt hatte. Nach einer kurzen Diskussion ließ sie das Ei im Schrank.",
-            "type": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-03-05T08:49:43.072000",
-            "updated_at": null
-        },
-        {
-            "id": "b8otu9fj4md6lewxdc289yyg",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Drachenschlächter‑Langschwert",
-            "description": "Das Drachenschlächter-Langschwert ist eine Waffe, die von Gwendolyn Silverflame an Surina Nemmonis übergeben wurde. Es handelt sich um ein großes Schwert, das in der Gruppe als untypisch wahrgenommen wird. Gwendolyn Silverflame übergab das Drachenschlächter-Langschwert zusammen mit weiterer Ausrüstung.",
-            "type": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-03-04T21:13:23.944000",
-            "updated_at": null
-        },
-        {
-            "id": "wqzibezwsp2pldrcb7076j0u",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Läuteglocke",
-            "description": "Die Läuteglocke ist eine kleine Glocke, die an einem Holzstil befestigt ist. Sie wurde von Seres, einer Bediensteten des Briarwatch-Anwesens, an Gwendolyn Silverflame überreicht, um ihre Dienste jederzeit rufen zu können. Nachdem Gwendolyn die Glocke geläutet hat, hört sie Seres' Stimme in ihrem Kopf, die auf ihre Anfrage nach einem Toilettenhinweis und Weingläsern am Briarwatch Estate reagiert. Seres bringt daraufhin drei gefüllte Weingläser an den Briarwatch Estate und übergibt sie an Gwendolyn, Surina und Brennen.\nEine andere Glocke, die von Dîn-io mit Wasser, Stoff und Magie poliert wurde, war an der Tür eines zwergischen Waffenladens befestigt. Surina läutete diese Glocke als Test, und der Zwerg (Waffenschmied) im Laden hörte sie. Beim Verlassen des Ladens fiel die Glocke von der Tür, und der Zwerg (Waffenschmied) nahm sie mit hinein. Später öffneten Surina und Dîn-io heimlich die Tür, zogen den Klöppel heraus und lösten versehentlich die Glocke mitsamt Befestigung; Dîn-io fing die fallende Glocke auf. Sie versteckten die Glocke anschließend in der Glut der offenen Schmiede.",
-            "type": null,
-            "image": null,
-            "aliases": [
-                "Seres’ Glocke",
-                "Glocke"
-            ],
-            "tcg_image": null,
-            "merge": true,
-            "created_at": "2026-03-04T21:13:23.926000",
-            "updated_at": null
         }
     ],
     "from": 1,
     "last_page": 2,
     "per_page": 100,
     "to": 100,
-    "total": 128
+    "total": 147
 }

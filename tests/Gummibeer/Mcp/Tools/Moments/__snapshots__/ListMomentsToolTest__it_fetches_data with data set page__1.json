@@ -2,313 +2,316 @@
     "current_page": 2,
     "data": [
         {
-            "id": "wv4o8y4i7fljb5siq7yphts8",
+            "id": "w1tu16f49i5nzg5east7h19b",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpvd2yvv000104i56bnw5one",
-            "label": "Magische Schätze in der Kiste",
-            "index": 808,
-            "content": "In der Mitte des Marktplatzes entdeckten die Abenteurer eine Kiste, die mit verschiedenen magischen Gegenständen gefüllt war. Darunter befanden sich mehrere Arcane Foci, ein Magisches Kettenhemd, ein Magischer Krummsäbel und ein Magisches Langschwert. Als Gwendolyn Silverflame nach dem Inhalt des Koffers fragte, stellte sich heraus, dass ein weiteres Buch darin lag, das beim Aufschlagen leer war. Tim bemerkte, dass das Schwert hübsch sei, während Viki sich darüber sorgte, dass sie nicht nachsehen dürften, da sie gefroren waren. Die Gruppe diskutierte über die Nutzung der magischen Gegenstände und ihre Sicherheit.",
-            "image": null,
-            "categories": [
-                "Loot",
-                "Discovery"
-            ],
-            "created_at": "2026-06-01T16:16:13.388000",
-            "updated_at": null
-        },
-        {
-            "id": "xvbkfpaw9tb02im6abnrfkih",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpvd2yvv000104i56bnw5one",
-            "label": "Surina Nemmonis putzt und findet Kupfermünzen",
-            "index": 800,
-            "content": "Surina Nemmonis begann, die Oberflächen in der Küche und im Bad zu reinigen. Während sie die Schränke putzte, schaute sie hinein und fand dort gewöhnliche Gegenstände wie Handtücher, Essutensilien und Hornkrüge. In einem der Krüge entdeckte sie zwei Kupfermünzen, die sie jedoch nicht mitnahm, sondern sorgfältig um sie herum wischte und sie an ihrem Platz ließ. Ihre gründliche Reinigung offenbarte nichts Ungewöhnliches, und sie setzte ihre Arbeit fort.",
-            "image": null,
-            "categories": [
-                "Discovery",
-                "Exploration"
-            ],
-            "created_at": "2026-06-01T16:16:13.388000",
-            "updated_at": null
-        },
-        {
-            "id": "yn1qhn09iy3vqz48d2w0ebzj",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpvd2yvv000104i56bnw5one",
-            "label": "Brennan wird zur Reinigung der Latrinen geschickt",
-            "index": 798,
-            "content": "Brennen Voidridge äußerte den Wunsch, die Kirchenbänke zu reinigen, und bot an, dies über Nacht zu tun, um sich für seine vorherige Beleidigung zu entschuldigen. Die Hohepriesterin nahm seine Entschuldigung an und wies ihn darauf hin, dass auch die Latrinen gereinigt werden müssten. Brennen erkannte, dass er nicht die Kontrolle über die Situation hatte, als sie ihm die unangenehme Aufgabe zuwies. Er vermutete, dass die Hohepriesterin ihm damit zeigen wollte, wer hier das Sagen hatte, und seine Vermutung über ihre möglichen dunklen Geheimnisse verstärkte sich. Er entschied sich, die Situation zu beobachten und nach weiteren Hinweisen zu suchen.",
-            "image": null,
-            "categories": [
-                "Betrayal",
-                "Conflict"
-            ],
-            "created_at": "2026-06-01T16:16:13.388000",
-            "updated_at": null
-        },
-        {
-            "id": "zxvt9un89ydkehk6t1eat852",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpvd2yvv000104i56bnw5one",
-            "label": "Die Enthüllung des Schutzzaubers",
-            "index": 802,
-            "content": "Während die Gruppe vor einer verschlossenen Tür steht, spürt Gwendolyn Silverflame die Aura von Bannmagie, die von der Tür ausgeht. Sie schlägt vor, die Tür mit ihrem Körpergewicht zu öffnen, doch als sie sich gegen das Schloss wirft, knarzt die Tür, bleibt aber verschlossen. Brennen Voidridge, der Magier der Gruppe, bemerkt, dass die Truhe hinter der Tür mit einem Schutzzauber versehen ist, der ihn erwischt hat. Naevys Nerizana und Surina Nemmonis diskutieren darüber, wie sie die Tür aufbrechen können, während Brennen darauf besteht, dass sie die Tür nicht aufbrechen sollten, da sie sie wieder schließen müssen. Die Gruppe überlegt, wie sie das Geheimnis hinter der Tür lüften können.",
-            "image": null,
-            "categories": [
-                "Intrigue",
-                "Conflict"
-            ],
-            "created_at": "2026-06-01T16:16:13.388000",
-            "updated_at": null
-        },
-        {
-            "id": "as5zcocu83dky78i5f5y4f1e",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpv556ys000004jx4xwwzu53",
-            "label": "Gwendolyns strategische Überlegungen",
-            "index": 790,
-            "content": "Gwendolyn Silverflame brachte die Möglichkeit ins Spiel, dass das Triboar mit älteren Strukturen oder einem Zugang in die Stadt verbunden sein könnte. Diese Idee führte dazu, dass die Gruppe ihre Überlegungen von einem Frontalangriff auf ein heimliches Vorgehen verlagerte. Surina Nemmonis äußerte Bedenken über die Anzahl der Wachen und schlug vor, Reed zu fragen, ob sie spionieren könnte. Gwendolyn Silverflame stimmte zu, dass sie Zeit hätten, um einen Plan auszuarbeiten, und betonte, dass sie sich nicht unvorbereitet in Gefahr begeben sollten. Schließlich einigten sich die Gruppenmitglieder darauf, heimlich vorzugehen.",
-            "image": null,
-            "categories": [
-                "Intrigue",
-                "Conflict",
-                "Negotiation"
-            ],
-            "created_at": "2026-06-01T15:18:00.933000",
-            "updated_at": null
-        },
-        {
-            "id": "bpjpodpqczvolkvdthuof3c1",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpv556ys000004jx4xwwzu53",
-            "label": "Naevys Nerizana löst die Entangle-Ranken auf",
-            "index": 787,
-            "content": "Naevys Nerizana beschloss, die Entangle-Ranken aufzulösen, die sie zuvor gewirkt hatte. \"Dann würde ich enttangelt aber noch auflösen, wenn ich darf,\" sagte sie, und als sie die Konzentration beendete, verschwanden die Ranken. In der darauf folgenden Diskussion stellte Brennen Voidridge fest, dass alle Gegner tot waren. Gwendolyn Silverflame forderte ihre Gefährten auf, einen Siegesruf auszustoßen, während die Gruppe die Rauchwolke betrachtete, die von dem Kampf übrig geblieben war. Der letzte Gegner war im Rauch gefallen, und die Gruppe konnte sich auf die nächste Herausforderung vorbereiten.",
-            "image": null,
-            "categories": [
-                "Victory",
-                "Combat"
-            ],
-            "created_at": "2026-06-01T15:18:00.933000",
-            "updated_at": null
-        },
-        {
-            "id": "daqwfaibzi61a15o6pzltkes",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpv556ys000004jx4xwwzu53",
-            "label": "Iron Fang Hain vor Niewinter",
-            "index": 789,
-            "content": "Drob lenkte Iron Fang von der Straße in einen Hain am Rand, wodurch die Gruppe freie Sicht auf die belagerte Stadt Niewinter hatte. Während sie dort verweilten, bemerkten sie, dass sich keine feindlichen Gruppen auf sie zubewegten. Querk schlug vor, in die Stadt zu fahren, um mit Feuerbällen die Zelte der Hobgoblins in Brand zu setzen. Gwendolyn Silverflame, die als Kriegsmagierin bekannt war, bereitete sich vor, ihre Zauber einzusetzen. Die anderen versuchten, die Anzahl der Zelte zu zählen. Die Gruppe war sich einig, dass sie sich in einer strategisch günstigen Position befanden, um die Situation zu beobachten und zu planen.",
-            "image": null,
-            "categories": [
-                "Conflict",
-                "Intrigue"
-            ],
-            "created_at": "2026-06-01T15:18:00.933000",
-            "updated_at": null
-        },
-        {
-            "id": "dhnqd6nrk21yo1q6qj9objtz",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpv556ys000004jx4xwwzu53",
-            "label": "Naevys Nerizana trifft mit ihrem Bogen",
-            "index": 781,
-            "content": "Naevys Nerizana bewegte sich geschickt in Position und zielte mit ihrem Langbogen auf einen markierten Gegner. Mit einem präzisen Schuss traf sie ihn, was zu seinem Fall führte. Unbeeindruckt von der ersten Herausforderung, legte sie ihre Markierung auf ein neues Ziel und bereitete sich darauf vor, erneut zuzuschlagen. Ihre Fähigkeiten als Bogenschützin zeigten sich in der Effektivität ihrer Angriffe, während sie die Bedrohung für ihre Gruppe weiter reduzierte.",
-            "image": null,
-            "categories": [
-                "Combat",
-                "Victory"
-            ],
-            "created_at": "2026-06-01T15:18:00.933000",
-            "updated_at": null
-        },
-        {
-            "id": "etzuv6dg524w0e08fiop56ar",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpv556ys000004jx4xwwzu53",
-            "label": "Surina Nemmonis entfesselt ihren Frostatem",
-            "index": 785,
-            "content": "Surina Nemmonis, auch bekannt als die Drachenherrin, setzte ihren Frostatem ein zweites Mal gegen die zwei Hobgoblins ein. Trotz der Kälte hielten beide Hobgoblins stand und erlitten weiteren Frostschaden. Die Hobgoblins wehrten sich weiterhin gegen die Angriffe der Gruppe. Surina Nemmonis war entschlossen, ihre Macht zu zeigen, während der Kampf weiterging.",
-            "image": null,
-            "categories": [
-                "Combat",
-                "Heroism"
-            ],
-            "created_at": "2026-06-01T15:18:00.933000",
-            "updated_at": null
-        },
-        {
-            "id": "fq3xgv1vngrpermwap6cvowv",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpv556ys000004jx4xwwzu53",
-            "label": "Gwendolyns missratener Angriff",
-            "index": 784,
-            "content": "Gwendolyn Silverflame schleuderte einen Feuerball auf die letzte bekannte Position des Hobgoblins, doch der Zauber traf ihn nur teilweise, während er im Rauch verschwand. Surina Nemmonis versuchte, mit ihren Schlägen den Gegner zu treffen, doch ihre Angriffe gingen ins Leere. Gwerk warf eine Granate, die ebenfalls ihr Ziel verfehlte und stattdessen mehr von der Barrikade in Brand setzte. Die Angriffe der Gruppe erzielten nicht den gewünschten Effekt, und die Gefahr durch die Goblins bestand weiterhin.",
+            "session_id": "cmqi9qtcm000004l5c3d1vygv",
+            "label": "Morvain erweckt die Toten als Skelette",
+            "index": 845,
+            "content": "Morvain, der große Magier in schwarzer Robe, steht vor einer Ansammlung von Leichnamen und überlegt, welche er erwecken kann. Er sucht nach dem passenden Zauber und fragt sich, ob er die Leiche neben Korvathun animieren kann, was ihn dazu bringt, näher heranzutreten. Schließlich entscheidet er sich, einen der Toten zu erwecken, und ruft die Macht des Nekromanten an, um die Leiche als Skelette zu animieren. Die düstere Magie entfaltet sich, und die Toten erheben sich, um Morvain zu dienen.",
             "image": null,
             "categories": [
                 "Chaos",
-                "Conflict"
+                "Combat",
+                "Revelation"
             ],
-            "created_at": "2026-06-01T15:18:00.933000",
+            "created_at": "2026-06-17T20:09:14.678000",
             "updated_at": null
         },
         {
-            "id": "j05bzejxp2qnx15uxsk12yu9",
+            "id": "wzsnjf12hqnx0py5k5rbve18",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpv556ys000004jx4xwwzu53",
-            "label": "Explosion und gezielte Schüsse der Goblins",
-            "index": 783,
-            "content": "Ein Goblin warf eine Granate nach unten, die mit einem lauten Knall explodierte und die beiden Gegner am Boden zu Boden drückte, während die beiden oberen Goblins sich rechtzeitig mit ihren Schilden schützten. Nach der Explosion feuerte ein weiterer Goblin mit seiner Armbrust und traf sein Ziel. Die Goblins koordinierten ihre Angriffe und setzten die Gruppe unter Druck.",
+            "session_id": "cmqi9qtcm000004l5c3d1vygv",
+            "label": "Morvain und die Katze im Kampf",
+            "index": 841,
+            "content": "Morvain Schattenfluch spannte ein Netz aus klebrigen Fäden über den oberen Gang, um den Durchgang zu blockieren. Währenddessen sprang seine Katze, die von Korvathun festgehaltene Backbären an und verletzte ihn schwer. Korvathun überlegte, ob er den Bären als Notfall-Tank stehen lassen sollte, während die Katze Vorteile gegen den Gegrappelten hatte. Morvain und Korvathun diskutierten die Strategie, um die Gegner zu überwältigen und die Katze effektiv einzusetzen.",
             "image": null,
             "categories": [
                 "Conflict",
                 "Combat",
-                "Chaos"
-            ],
-            "created_at": "2026-06-01T15:18:00.933000",
-            "updated_at": null
-        },
-        {
-            "id": "jtyencv7djtnwdtawg9gyfjw",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpv556ys000004jx4xwwzu53",
-            "label": "Surina Nemmonis überwindet die Brennende Barrikade",
-            "index": 779,
-            "content": "Surina Nemmonis stürmte nach vorn, sprang über die Brennende Barrikade und erreichte den Baum, wo sie einen der am Boden liegenden Gegner mit ihrer Double-Bladed Scimitar angriff. Ihr erster Hieb traf den Gegner und fügte ihm zusätzlichen Feuerschaden zu, während weitere Angriffe an dessen Rüstung abprallten. Der Gegner blieb am Leben und war nicht eingeschüchtert. Surina Nemmonis war entschlossen, ihre Verbündeten zu unterstützen und den Kampf zu gewinnen.",
-            "image": null,
-            "categories": [
-                "Combat",
                 "Heroism"
             ],
-            "created_at": "2026-06-01T15:18:00.933000",
+            "created_at": "2026-06-17T20:09:14.678000",
             "updated_at": null
         },
         {
-            "id": "m03fxeexi0gstxn6qrizt297",
+            "id": "x7rbddyw3rin12i1552i4qt1",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpv556ys000004jx4xwwzu53",
-            "label": "Gwerk erlegt den Hauptgoblin",
-            "index": 782,
-            "content": "Gwerk sprang mutig den Vorsprung hinunter und zielte mit seiner Armbrust auf den fliehenden Hauptgoblin. Mit einem präzisen Schuss traf er das Ziel und tötete den Goblin, bevor dieser entkommen konnte. Naevys Nerizana und die anderen Anwesenden beobachteten den schnellen und effektiven Angriff.",
+            "session_id": "cmqi9qtcm000004l5c3d1vygv",
+            "label": "Surina Nemmonis wird von einem Backbär entführt",
+            "index": 839,
+            "content": "Unten packte ein Backbär Surina Nemmonis und hielt sie fest, während er sie von den anderen wegschleppte. In der Zwischenzeit machten weitere Backbären Druck auf Brennen Voidridge, Morvain und Gwendolyn Silverflame, die sich gegen die Angreifer behaupten mussten. Gwendolyn Silverflame wirkte einen Feuerball, um die Kultisten zu dezimieren, während Morvain und Brennen Voidridge sich ebenfalls gegen die Bedrohung zur Wehr setzten. Surina Nemmonis, die in der Umklammerung des Backbären gefangen war, rief nach Hilfe, während die anderen Gegner näher rückten.",
             "image": null,
             "categories": [
-                "Combat",
-                "Victory"
-            ],
-            "created_at": "2026-06-01T15:18:00.933000",
-            "updated_at": null
-        },
-        {
-            "id": "o1afrij8720d84uhtrk7yvxa",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpv556ys000004jx4xwwzu53",
-            "label": "Plünderung der Gefallenen",
-            "index": 788,
-            "content": "Die Gruppe begann mit der Plünderung der Gefallenen. Surina Nemmonis nahm Teile der schwarzen Ausrüstung und Helme an sich, während Gwendolyn Silverflame ein Großschwert und einen Helm sicherte und eine gefundene Flüssigkeit als Heilmittel identifizierte. Naevys Nerizana schnappte sich unter anderem eine Granate, einen Langbogen, ein Kettenhemd und einen Helm. Brennen Voidridge beanspruchte die Signalpfeife, was zu einem kurzen Streit über die Flöte führte, den Gwendolyn Silverflame mit einem energischen \"Nein, nicht die Flöte!\" unterbrach. Schließlich einigten sich alle darauf, sich die Beute selbst zu nehmen und diskutierten über die Nützlichkeit der gefundenen Gegenstände.",
-            "image": null,
-            "categories": [
-                "Loot",
-                "Hijinx"
-            ],
-            "created_at": "2026-06-01T15:18:00.933000",
-            "updated_at": null
-        },
-        {
-            "id": "sr0sfu22oqoq6ehh7wcxlzka",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpv556ys000004jx4xwwzu53",
-            "label": "Gwendolyns mutiger Angriff mit Acid Splash",
-            "index": 780,
-            "content": "Gwendolyn Silverflame trat entschlossen aus der Kutsche und zielte mit ihrem Zauber Acid Splash auf zwei der gepanzerten Gegner. Mit einem präzisen Wurf schleuderte sie den Zauber, der die Feinde traf, bevor sie sich schnell wieder hinter Iron Fang zurückzog. Währenddessen diskutierte die Gruppe über die Rüstungen der Gegner und die Effektivität ihrer Angriffe. Gwendolyn Silverflame überlegte, ob der Säurezauber die Rüstungen der Gegner beschädigen könnte.",
-            "image": null,
-            "categories": [
-                "Combat",
-                "Heroism"
-            ],
-            "created_at": "2026-06-01T15:18:00.933000",
-            "updated_at": null
-        },
-        {
-            "id": "vwv0q0buvumb0eps11h0czv3",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpv556ys000004jx4xwwzu53",
-            "label": "Flopsy entfesselt den Feuerstrahl",
-            "index": 786,
-            "content": "Flopsy sandte einen Feuerstrahl in den dichten Rauch, und Surina Nemmonis spürte die Hitze, die dicht an ihr vorbeizog. Nach dem Erlöschen der Flammen hörte sie ein gewaltiges metallisches Scheppern, als ob jemand ein Dosenregal umgestoßen hätte. Als sie mit ihrer Waffe tastete, stellte sie fest, dass auf Hüft- und Armhöhe kein Widerstand mehr da war. Die Rauchwolke verdeckte die Sicht auf das Geschehen.",
-            "image": null,
-            "categories": [
-                "Chaos",
+                "Conflict",
                 "Combat"
             ],
-            "created_at": "2026-06-01T15:18:00.933000",
+            "created_at": "2026-06-17T20:09:14.678000",
             "updated_at": null
         },
         {
-            "id": "z89cfftdf36sj5w7xicyl804",
+            "id": "zhpkrhfwelxwzbtjqsavknrp",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpv556ys000004jx4xwwzu53",
-            "label": "Iron Fang und die Goblins",
-            "index": 778,
-            "content": "Iron Fang rollte quer vor die Brennende Barrikade, während die Pferde abgekoppelt wurden und zurückrannten. Drei Goblins stiegen aus und bezogen Stellung, wobei einer von ihnen eine Granate warf, die eine Explosion auslöste und zwei der Goblins zu Boden drückte. Die beiden anderen Goblins schützten sich jedoch rechtzeitig mit ihren Schilden. Inmitten des Chaos diskutierten Gwendolyn Silverflame und Surina Nemmonis, ob sie angreifen sollten. Gwendolyn Silverflame drängte, dass Surina Nemmonis vorrennen solle, um die Formation zu halten. Surina Nemmonis entschied sich schließlich, über die Barrikade zu springen und einen Goblin mit ihrer Doppel-Klinge anzugreifen.",
+            "session_id": "cmqi9qtcm000004l5c3d1vygv",
+            "label": "Surina Nemmonis warnt vor dem Wildschwein",
+            "index": 844,
+            "content": "Surina Nemmonis, die Drachenherrin, kämpfte gegen ihren Gegner und schlug trotz des Griffs, der sie festhielt, zu. Plötzlich hörte sie um die Ecke ein tiefes Schnauben, das an ein Wildschwein erinnerte, und entschied sich, sich schnell zu den anderen zurückzuziehen. Während sie sich zurückzog, rief sie: \"Das braucht was!\" und informierte ihre Gefährten über die drohende Gefahr. Die Gruppe bereitete sich auf die bevorstehenden Herausforderungen vor.",
             "image": null,
             "categories": [
                 "Conflict",
-                "Combat",
-                "Heroism"
+                "Suspense"
             ],
-            "created_at": "2026-06-01T15:18:00.933000",
+            "created_at": "2026-06-17T20:09:14.678000",
             "updated_at": null
         },
         {
-            "id": "a79v8yhgty61gu529gz5ht46",
+            "id": "abjij8p2eihvbna7shft25ui",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpv5opk3000004l2jqdfs28l",
-            "label": "Naevys Nerizana bringt Dane ins Lager",
-            "index": 766,
-            "content": "Naevys Nerizana stützt den schwer verletzten Soldaten Dane und bringt ihn ins Lager. Brennen Voidridge und Gwendolyn Silverflame folgen und kümmern sich um ihn. Brennen Voidridge ruft, dass sie ihn ins Zelt bringen sollen, und fragt, was er tun kann, um zu helfen. Naevys Nerizana drängt zur Eile, da es Dane nicht gut geht. Gwendolyn Silverflame bietet an, ebenfalls zu heilen, während Brennen Voidridge sich um seine Hände kümmert, um bereit zu sein. Die Gruppe diskutiert, wie sie Dane am besten helfen können.",
+            "session_id": "cmqaodea2000104jlg4cpaqz9",
+            "label": "Rita trennt sich von der Gruppe",
+            "index": 832,
+            "content": "In der großen Halle erklärte Rita, dass sie nicht mitkommen würde, da sie mit Fragen über ihren Vater und ihre Familie beschäftigt war und wusste, dass sie in der Untotenhöhle nicht zuverlässig sein könnte. Sie entschuldigte sich für ihr Verhalten auf dem Luftschiff, was Flint kommentierte, während er ihr Vorräte mitgab. Seris riet ihr, nach Wahrheit zu suchen und nicht nach Trost. Nach diesen Worten trennte sich Rita von der Gruppe, während Flint Brennen eine besondere Laterne überreichte, die für den Notfall gedacht war und toxisches Licht für Untote abgab. Damit war der Aufenthalt in Hammerhåeim abgeschlossen und die Gruppe bereitete sich auf den Aufbruch zur Wave Echo Cave vor.",
+            "image": null,
+            "categories": [
+                "Conflict",
+                "Despair"
+            ],
+            "created_at": "2026-06-12T15:35:04.092000",
+            "updated_at": null
+        },
+        {
+            "id": "cxulk2vs0dph30zek5sdnyzs",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmqaodea2000104jlg4cpaqz9",
+            "label": "Flints letzte Warnung und der Aufbruch zur Untotenhöhle",
+            "index": 833,
+            "content": "Flint Fireforge überreichte Brennen eine schwere dunkle Laterne mit fast schwarzem Glas und erklärte, dass sie ein Notfallwerkzeug sei, das etwa eine Minute brennen würde, nachdem der Pin eingeschlagen wurde. Das Licht dieser Laterne sei für Untote toxisch, in der Lage, schwächere Untote zurückzudrängen oder zu verbrennen, jedoch nur mit einer Ladung Pyrelume Oil. Flint betonte, dass die Laterne für den Moment gedacht sei, in dem Rückzug wichtiger sei als Heldentum. Nach der Übergabe der Laterne machten sich Morvain, Brennen, Gwendolyn, Korvathun und Surina auf ihre Pferde und ritten in Richtung Wave Echo Cave.",
+            "image": null,
+            "categories": [
+                "Conflict",
+                "Heroism"
+            ],
+            "created_at": "2026-06-12T15:35:04.092000",
+            "updated_at": null
+        },
+        {
+            "id": "dgn0lca374i6orehnal9976i",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmqaodea2000104jlg4cpaqz9",
+            "label": "Die Gründung der Glutgekrönten Bewegung",
+            "index": 825,
+            "content": "Auf dem Luftschiff diskutierten Gwendolyn Silverflame und Brennen Voidridge über die Gründung einer neuen religiösen Bewegung, die sich um die Idee einer schützenden und heilenden Glut drehen sollte. Sie beschlossen, ein öffentliches Heilritual in Hammerhåeim abzuhalten, bei dem Gwendolyn im Mittelpunkt stehen würde, während Brennen seine Heilmagie unauffällig einbettete. Nach der Landung in Hammerhåeim suchten sie im Lazarett nach einer geeigneten Person für das Ritual und fanden den schwer verletzten Jungen Marek. Gwendolyn führte ein Feuerritual durch, während Brennen seine Heilung so einband, dass es schien, als käme das Wunder von Gwendolyns Feuer. Marek erlebte eine spürbare Linderung seiner Schmerzen. Gwendolyn erhielt den Namen „Gwendolyn Silverflame“.",
             "image": null,
             "categories": [
                 "Heroism",
-                "Conflict",
-                "Betrayal"
+                "Ritual",
+                "Growth"
             ],
-            "created_at": "2026-06-01T13:14:14.562000",
+            "created_at": "2026-06-12T15:35:04.092000",
             "updated_at": null
         },
         {
-            "id": "d9xk2jo7apdwd8yv6lq791zg",
+            "id": "la1vwoceerw72wn8v4w1vxr5",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpv5opk3000004l2jqdfs28l",
-            "label": "Untersuchung der Höhle und Leichen",
-            "index": 774,
-            "content": "Die Gruppe untersucht die Höhle, in der sie sechs Hobgoblin-Leichen ohne Finger finden. Gwendolyn Silverflame und Surina Nemmonis wühlen im Boden, entdecken jedoch nichts weiter als Dreck und einige kleinere Steine. Surina Nemmonis fragt sich, ob es wirklich nichts gibt, während Gwendolyn Silverflame ebenfalls keine weiteren Hinweise findet. Brennen Voidridge schlägt vor, ins Lager zurückzukehren, da auch ihm nichts mehr einfällt. Schließlich beschließt Surina Nemmonis, wieder nach oben zu gehen, nachdem sie die Wände der Höhle abgelaufen ist.",
+            "session_id": "cmqaodea2000104jlg4cpaqz9",
+            "label": "Brennen verbessert seine Wurfkarten gegen Untote",
+            "index": 829,
+            "content": "Brennen Voidridge erhielt von einem Kleriker Moradins den Rat, sein Wurfkartendeck für den Kampf gegen Untote in einer auslaufsicheren Box mit Weihwasser aufzubewahren. Schmied in Hammerhaeim fertigte daraufhin eine Metallschatulle Mit Dichtung, einem Lederinnenleben und Befestigungsmöglichkeiten an, die für Brennens Vorhaben geeignet war. Brennen zahlte 22 Gold für die sorgfältig angefertigte, versiegelte Box, die ihm helfen sollte, seine magischen Karten effektiv gegen die Untoten einzusetzen.",
             "image": null,
             "categories": [
-                "Exploration",
+                "Loot",
                 "Conflict"
             ],
-            "created_at": "2026-06-01T13:14:14.562000",
+            "created_at": "2026-06-12T15:35:04.092000",
             "updated_at": null
         },
         {
-            "id": "e9q28ujip4ell9yvg9wxf1h9",
+            "id": "mjogc7hmrt0ny0ycuajx1dsi",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpv5opk3000004l2jqdfs28l",
-            "label": "Surina Nemmonis und die Hobgoblin-Leichen",
-            "index": 773,
-            "content": "Surina Nemmonis entdeckt im Brunnen eine Kammer, in der sechs Hobgoblin-Leichen liegen. Mit ihrer Sichel beginnt sie, den Leichnamen die Finger abzuschneiden, um sie in einen Eimer zu füllen. Während sie die Finger abtrennt, zählt sie laut und bemerkt, dass die Leichen nicht bluten. Nachdem sie insgesamt 60 Finger in den Eimer gelegt hat, ruft sie ihren Gefährten zu, dass sie den Eimer hochziehen können. Brennen Voidridge schüttet die Finger auf den Boden und lässt den Eimer wieder nach unten, während Gwendolyn Silverflame und die anderen sich über die Situation amüsieren.",
+            "session_id": "cmqaodea2000104jlg4cpaqz9",
+            "label": "Ausrüstungsverteilung im Lagerraum",
+            "index": 831,
+            "content": "Nach dem Frühstück versammelte sich die Gruppe im Lagerraum, um die geborgene Ausrüstung zu verteilen. Morvain erwarb einen Arcane Grimoire +1, während Korvathun sich einen Bag Of Holding sicherte. Gwendolyn nahm Zehn Heiltränke in Empfang. Die anderen Gruppenmitglieder äußerten Interesse an bestimmten Gegenständen, was die Vorbereitungen für die bevorstehenden Herausforderungen festigte. Mit dieser neuen Ausrüstung waren sie besser gerüstet für die Abenteuer.",
+            "image": null,
+            "categories": [
+                "Loot",
+                "Conflict",
+                "Growth"
+            ],
+            "created_at": "2026-06-12T15:35:04.092000",
+            "updated_at": null
+        },
+        {
+            "id": "oetlugj3b9uwhmk8wt89ydf7",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmqaodea2000104jlg4cpaqz9",
+            "label": "Morvain und seine untoten Begleiter",
+            "index": 828,
+            "content": "Morvain kehrte mit einem erlegten Bären nach Hammerhåeim zurück und suchte sich einen abgelegenen Arbeitsplatz. Dort trennte er den Schädel des Bären ab, reinigte ihn und überzog ihn mit Gold. Anschließend rief er seine alte Katze als untote Begleiterin zurück und nutzte den vergoldeten Bärenschädel, um einen untoten Bärenbegleiter zu erschaffen. Nachdem er beide kurz inspiziert hatte, entschied er, den untoten Bären nicht offen in Hammerhåeim auftreten zu lassen.",
             "image": null,
             "categories": [
                 "Hijinx",
                 "Conflict"
             ],
-            "created_at": "2026-06-01T13:14:14.562000",
+            "created_at": "2026-06-12T15:35:04.092000",
+            "updated_at": null
+        },
+        {
+            "id": "p5a9c4y3jdh1mlkwx88i2u4v",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmqaodea2000104jlg4cpaqz9",
+            "label": "Vorbereitung auf den Kampf gegen Untote",
+            "index": 827,
+            "content": "Flint Fireforge erklärte Surina Nemmonis und Korvathun, dass Gift, Schmerz, Blutverlust, Erschöpfung und Angst gegen Untote kaum von Bedeutung seien. Er betonte, dass Skelette zerschmettert, Zombies gründlich zerstört und geisterhafte Untote mit magischen oder geweihten Mitteln bekämpft werden müssten. Nach dieser Warnung entschied sich Surina, sich mit geeigneter Ausrüstung auszustatten, und kaufte eine Battleaxe Of Warning, Magische Bolzen, Armschützer und Baumwollstreifen für insgesamt 1.000 Gold.",
+            "image": null,
+            "categories": [
+                "Combat",
+                "Loot",
+                "Heroism"
+            ],
+            "created_at": "2026-06-12T15:35:04.092000",
+            "updated_at": null
+        },
+        {
+            "id": "rfxun30az8pm0czahez8vpdp",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmqaodea2000104jlg4cpaqz9",
+            "label": "Vorbereitungen in Hammerhåeim",
+            "index": 826,
+            "content": "Nach der Landung des Luftschiffs in Hammerhåeim verteilte sich die Gruppe für ihre Vorbereitungen. Morvain verließ die Stadt mit einem Jäger, um einen Bären zu erlegen, während Surina und Korvathun zu Flint Fireforge gingen, um Ausrüstung gegen Untote zu besorgen. Flint erklärte ihnen, dass man Skelette zerschmettern und Zombies gründlich zerstören müsse. Surina erwarb eine Battleaxe Of Warning sowie Magische Bolzen und Armschützer. Gwendolyn und Brennen suchten im Lazarett nach einem geeigneten Kandidaten für ihr Heilritual und fanden den schwer verletzten Marek, dessen Schmerzen durch Gwendolyns Feuerritual gelindert wurden. Morvain kehrte später mit dem erlegten Bären zurück und begann seine Rituale, während die Gruppe sich auf die bevorstehenden Herausforderungen vorbereitete.",
+            "image": null,
+            "categories": [
+                "Growth",
+                "Conflict",
+                "Heroism"
+            ],
+            "created_at": "2026-06-12T15:35:04.092000",
+            "updated_at": null
+        },
+        {
+            "id": "x1l39ywshtcmamf9epp5n4z7",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmqaodea2000104jlg4cpaqz9",
+            "label": "Gwendolyns nächtliches Gespräch mit Seris",
+            "index": 830,
+            "content": "In der Nacht suchte Gwendolyn Silverflame Seris auf, um über ihre neue Rolle, ihr Auftreten und die Bedeutung ihres Feuers zu sprechen. Seris stellte unbequeme Fragen, die Gwendolyns Überzeugungen und die Symbolik ihrer Mission in Frage stellten. Gwendolyn ging gefestigter aus dem Gespräch hervor. Seris informierte sie zudem über die Ausrüstung von Dîn-Io Naevys und anderen, die gefunden worden war, sowie über den Schlüssel zu dem Lagerraum, in dem diese Dinge aufbewahrt wurden. Mit diesen Informationen fühlte sich Gwendolyn bereit, ihre neue Identität als \"Gwendolyn Silverflame\" weiter zu festigen.",
+            "image": null,
+            "categories": [
+                "Growth",
+                "Intrigue"
+            ],
+            "created_at": "2026-06-12T15:35:04.092000",
+            "updated_at": null
+        },
+        {
+            "id": "dlx5fpipa5ur8rug1t1nvog6",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmq8auh2z000y04ihho5mtoil",
+            "label": "Korvathun markiert den Ausgang mit leuchtenden Kräutern",
+            "index": 818,
+            "content": "Korvathun zerrieb leuchtende Kräuter zu einer schmierbaren Paste und malte mit drei Fingern ein breites, phosphoreszierendes X an die Wand neben dem Eingang. Das Zeichen leuchtete schwach, ähnlich wie die phosphoreszierenden Sterne, die man in Kinderzimmern findet, und war so gestaltet, dass es aus der Ferne auffiel. Gwendolyn Silverflame und Surina Nemmonis diskutierten die Wichtigkeit, den Ausgang sowohl von innen als auch von außen zu markieren, um ihn im Dunkeln wiederzufinden. Korvathun bestätigte, dass das X eine gute Idee sei, um den Weg zu kennzeichnen. Die Gruppe war sich einig, dass dies eine nützliche Maßnahme war.",
+            "image": null,
+            "categories": [
+                "Exploration",
+                "Banter"
+            ],
+            "created_at": "2026-06-10T20:12:58.406000",
+            "updated_at": null
+        },
+        {
+            "id": "k01i2mcidk4at9pvxmd9e38d",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmq8auh2z000y04ihho5mtoil",
+            "label": "Gwendolyns Säureexplosion",
+            "index": 821,
+            "content": "Gwendolyn Silverflame wirkte einen Acid Splash-Zauber, um die kleinen Flugwesen, die an Surina Nemmonis hingen, zu treffen. Sie stellte sicher, dass die Zauberwirkung im richtigen Radius war, um die Kreaturen zu erreichen, ohne ihre Verbündete zu gefährden. Als der Zauber wirkte, fielen die kleinen Wesen von Surina Nemmonis ab. Gwendolyn Silverflame verspürte während des Zauberns einen stechenden Kopfschmerz, was auf die Belastung ihrer magischen Fähigkeiten hinwies. Der Effekt des Zaubers war erfolgreich und die Gegner wurden dezimiert.",
+            "image": null,
+            "categories": [
+                "Combat",
+                "Victory"
+            ],
+            "created_at": "2026-06-10T20:12:58.406000",
+            "updated_at": null
+        },
+        {
+            "id": "k5fgyu1hai8fbxoodvujt4cg",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmq8auh2z000y04ihho5mtoil",
+            "label": "Surina Nemmonis besiegt die Zombies",
+            "index": 820,
+            "content": "Surina Nemmonis stürmt auf den ersten Zombie zu und schlägt mit voller Kraft zu, wodurch sie ihn niederstreckt. Unmittelbar danach wendet sie sich dem zweiten Zombie zu, den sie ebenfalls mit einem präzisen Schlag besiegt. Sie greift ohne Zögern weiter an und neutralisiert die Bedrohung schnell. Die anderen in der Gruppe beobachten, wie Surina Nemmonis die Zombies besiegt.",
+            "image": null,
+            "categories": [
+                "Combat",
+                "Victory"
+            ],
+            "created_at": "2026-06-10T20:12:58.406000",
+            "updated_at": null
+        },
+        {
+            "id": "l3703zidopka09ligee8r1sl",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmq8auh2z000y04ihho5mtoil",
+            "label": "Brennan heilt Surina Nemmonis mit einer magischen Karte",
+            "index": 827,
+            "content": "In einem kritischen Moment, als Surina Nemmonis dringend Heilung benötigte, trat Brennen Voidridge vor und setzte seine magischen Fähigkeiten ein. Er klatschte ihr eine Magische Karte gegen den Kopf, was sofortige Wirkung zeigte und Surina Nemmonis fühlte sich deutlich besser. Die Gruppe beobachtete, wie die magische Energie von der Karte durch Surina Nemmonis strömte und ihre Wunden heilte.",
+            "image": null,
+            "categories": [
+                "Heroism",
+                "Victory"
+            ],
+            "created_at": "2026-06-10T20:12:58.406000",
+            "updated_at": null
+        },
+        {
+            "id": "mxc6tpdrahb4i3z442hfqfm4",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmq8auh2z000y04ihho5mtoil",
+            "label": "Surina Nemmonis besiegt das Tentakelwesen",
+            "index": 823,
+            "content": "In einem entscheidenden Moment des Kampfes sticht Surina Nemmonis mit einem präzisen letzten Stich in den Kopf des Tentakelwesens, wodurch es zu Boden fällt. Gleichzeitig zielt Brennen Voidridge mit seiner Armbrust und feuert einen mit Weihwasser benetzten Bolzen auf einen herannahenden Zombie, der daraufhin ebenfalls zu Boden sackt. Während die anderen Kämpfer sich um die verbleibenden Gegner kümmern, wird die Gefahr durch die beiden besiegten Kreaturen merklich verringert.",
+            "image": null,
+            "categories": [
+                "Victory",
+                "Combat"
+            ],
+            "created_at": "2026-06-10T20:12:58.406000",
+            "updated_at": null
+        },
+        {
+            "id": "nlwke7g6f2f9j8rrfgwhanhu",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmq8auh2z000y04ihho5mtoil",
+            "label": "Brennan und Zombie Bär (Morvain) im Kampf gegen Untote",
+            "index": 825,
+            "content": "Brennen Voidridge benetzte seine Bolzen mit Weihwasser, um ihre Wirkung gegen die Untoten zu verstärken. Morvain ließ seinen Bären auf einen bereits am Boden liegenden Zombie los. Zombie Bär (Morvain) schlug über den Zombie und riss ihm ein weiteres Stück Fleisch heraus. Morvain überlegte, ob er den Zombie noch beißen lassen sollte. \"Ist jetzt tot dann? Nur nicht\", antwortete Morvain, und Zombie Bär (Morvain) setzte seinen Angriff fort, um sicherzustellen, dass der Zombie nicht wieder aufstehen konnte.",
+            "image": null,
+            "categories": [
+                "Combat",
+                "Heroism"
+            ],
+            "created_at": "2026-06-10T20:12:58.406000",
+            "updated_at": null
+        },
+        {
+            "id": "pgn1cet6u2p98aqb8m2iiq38",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmq8auh2z000y04ihho5mtoil",
+            "label": "Surina Nemmonis verstaut die Pferde im Zoo",
+            "index": 829,
+            "content": "Surina Nemmonis, auch bekannt als die Drachenherrin, macht Platz für ihre Gefährten, während sie die Pferde in ihrer Menagerie verstaut, um Diebstahl zu vermeiden. Sie befestigt die Tiere an ihrem Rucksack, bevor Die Gruppe weiter in Richtung Niewinter aufbricht. Die anderen Mitglieder der Gruppe diskutieren, ob Surina Nemmonis ein Schild benötigt, und Gwendolyn Silverflame bietet ihr an, ihr eigenes Schild zu verwenden. Surina Nemmonis bedankt sich und bereitet sich darauf vor, die Initiative zu übernehmen.",
+            "image": null,
+            "categories": [
+                "Banter",
+                "Heroism",
+                "Conflict"
+            ],
+            "created_at": "2026-06-10T20:12:58.406000",
             "updated_at": null
         }
     ],
     "from": 21,
-    "last_page": 41,
+    "last_page": 43,
     "per_page": 20,
     "to": 40,
-    "total": 802
+    "total": 849
 }

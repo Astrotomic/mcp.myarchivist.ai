@@ -2,310 +2,309 @@
     "current_page": 1,
     "data": [
         {
-            "id": "f8tr7dulkqwwgo0fbw99xg6x",
+            "id": "bfxhu4q3ytnt5utb0p7pv6vl",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpxruttw000104ld4i34tluw",
-            "label": "Surina öffnet die Grufttüren",
-            "index": 805,
-            "content": "Surina Nemmonis klopfte an die erste Grufttür und öffnete sie vorsichtig. Im Inneren entdeckte sie einen Sarkophag, entschuldigte sich höflich bei den Toten und schloss die Tür wieder. Diese Handlung wiederholte sie bei den nächsten Türen, während Die Gruppe bemerkte, dass jede Kammer einen Sarkophag oder Sarg enthielt, einige sogar Nebenräume mit weiteren Verstorbenen. Das Muster war klar: Tür, Gruft, Sarkophag, manchmal eine weitere Tür, weitere Tote. Schließlich stießen sie auf einen Raum, der das Muster brach, wo eine Wand anstelle einer weiteren Tür war.",
+            "session_id": "cmrca54i000010ahxscrthvb6",
+            "label": "Brennen Voidridge und die Geisterwächter",
+            "index": 857,
+            "content": "Brennen Voidridge trat entschlossen in den Raum, umgeben von seinen geisterhaften Beschützern. Mit einem kraftvollen Schwung hob er sein heiliges Symbol empor und betete laut zu Timoran. Eine göttliche Energie durchzuckte den Raum, die die meisten der anwesenden Ghulen zurücktrieb und sie in die Ecken drängte. Morvain bemerkte die Vielzahl der Gegner und plante, sie mit einem Feuerball zu attackieren, um die Übermacht zu verringern. Die Geisterwächter, die Brennen beschützten, schlugen ebenfalls zu und verstärkten den Druck auf die Untoten.",
             "image": null,
             "categories": [
-                "Exploration",
-                "Suspense"
-            ],
-            "created_at": "2026-06-03T07:59:35.334000",
-            "updated_at": null
-        },
-        {
-            "id": "j4uaq7myry90f09ynkywyice",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpxruttw000104ld4i34tluw",
-            "label": "Riths Schatten und die Prüfung im Mausoleum",
-            "index": 802,
-            "content": "Rith wurde allein ins Mausoleum geschickt, während die anderen draußen bei einem großen Stein warteten. Als die Stunde verstrich und Rith nicht zurückkehrte, erschien nur sein Schatten, der über den Boden glitt und in einer fremden, weiblichen Stimme sprach. Diese Stimme forderte Die Gruppe auf, ihre Prüfung im Mausoleum abzulegen, falls sie mutig genug seien. Die Gruppe betrat das Mausoleum, wo sie von schweigenden Hobgoblins nicht aufgehalten wurden. Im Inneren fanden sie einen Raum mit Grufttüren, und als sie eine Wand aufbrachen, entdeckten sie einen verborgenen Raum mit einer Wendeltreppe, die nach unten führte, während die Schattenmagie sie umhüllte und die Prüfung begann.",
-            "image": null,
-            "categories": [
-                "Suspense",
-                "Conflict"
-            ],
-            "created_at": "2026-06-03T07:59:35.334000",
-            "updated_at": null
-        },
-        {
-            "id": "lfuovzlmlqx7ybj04pymkyad",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpxruttw000104ld4i34tluw",
-            "label": "Eingang ins Mausoleum",
-            "index": 804,
-            "content": "Die Gruppe betrat das Mausoleum und fand sich in einem ersten Raum wieder, der von alten Säulen gesäumt war. Zwei stille Wasserbecken lagen in der Dämmerung, während ein zentraler Altar unberührt im Raum stand. Hinter dem Altar führte eine Wendeltreppe nach unten. Nach einem kurzen Blickwechsel entschieden sie sich, die Treppe hinabzusteigen.",
-            "image": null,
-            "categories": [
-                "Exploration",
-                "Suspense"
-            ],
-            "created_at": "2026-06-03T07:59:35.334000",
-            "updated_at": null
-        },
-        {
-            "id": "u4m9duiwcp0z7jduup23b69c",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpxruttw000104ld4i34tluw",
-            "label": "Die Prüfung im Mausoleum",
-            "index": 806,
-            "content": "Hinter der Tür erstreckte sich ein Raum, der viel zu lang war, als hätte jemand einen Korridor gebaut, der Die Gruppe langsam aus der Realität herauszuschälen versuchte. In der Mitte des Raumes stand eine Frau, schön und fremd, die auf den Moment gewartet hatte, als Die Gruppe eintrat. Die Tür schloss sich hinter ihnen mit einem endgültigen Geräusch des Steins, und die Frau begann in Rätseln zu sprechen, ohne klare Drohung oder Einladung. Plötzlich lösten sich ihre eigenen Schatten vom Boden und banden Die Gruppe an Ort und Stelle, während nur Din-io frei blieb und die Prüfung antreten konnte. Er lief in ein Labyrinth, löschte Fackeln und befreite schließlich die anderen aus dem Griff der Schattenmagie. Die Fremde Frau wartete weiterhin, und die Prüfung hatte erst begonnen.",
-            "image": null,
-            "categories": [
-                "Suspense",
-                "Conflict"
-            ],
-            "created_at": "2026-06-03T07:59:35.334000",
-            "updated_at": null
-        },
-        {
-            "id": "yyknwcvtl5s25x0osmhefev9",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpxruttw000104ld4i34tluw",
-            "label": "Dîn-io Tempest auf der Stadtmauer",
-            "index": 803,
-            "content": "Mitten zwischen den schwer bewaffneten Hobgoblins erblickte Die Gruppe Dîn-io Tempest, der hoch oben auf der Stadtmauer neben Sir Richardson stand. Sie riefen zu ihm hinauf, und Dîn-io kam herab, um sich ihnen anzuschließen. Der Schatten von Rith war nicht bei ihm gewesen. Dîn-io wurde in diesen entscheidenden Moment hineingezogen, während Die Gruppe bereits zwischen den Hobgoblins stand und das Mausoleum wie ein offener Rachen vor ihnen wartete. Gemeinsam traten sie in das Mausoleum ein, bereit, sich den Herausforderungen zu stellen.",
-            "image": null,
-            "categories": [
-                "Conflict",
-                "Intrigue"
-            ],
-            "created_at": "2026-06-03T07:59:35.334000",
-            "updated_at": null
-        },
-        {
-            "id": "vy3zkdbm6rrpkzkshfzrf5gl",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpvefwhi001p04jy1krvc69b",
-            "label": "Der Plan vor der Belagerung von Triboar",
-            "index": 797,
-            "content": "Die Gruppe versammelte sich im Lager der Hobs vor dem belagerten Triboar, um ihren Plan zu besprechen. Sie teilten die Aufgaben auf, die jeder in der Stadt übernehmen sollte, und wie die Vorräte die Ringmauer der Belagerer überschreiten sollten. Din-io ließ die Zeltplane mit den Vorräten in seinen Ring verschwinden, während Surinas Vogel, Cogling Aviad, den Ring hoch in den Himmel trug, bis er nur noch ein kleiner Punkt war. Die Iron Fang setzte sich in Bewegung und rollte auf die Barrikade der Hobgoblins zu, während der Kampf mit Lärm und Chaos begann. Die Gruppe entschied sich, näher an die Brennende Barrikade zu rücken, um die Distanz zu verkürzen und den Kampf aufzunehmen.",
-            "image": null,
-            "categories": [
-                "Conflict",
                 "Combat",
                 "Heroism"
             ],
-            "created_at": "2026-06-02T09:58:07.055000",
+            "created_at": "2026-07-08T20:08:48.431000",
             "updated_at": null
         },
         {
-            "id": "whecezuyegrdmw20i81tgq1c",
+            "id": "ct99szkjzjcqixdhfeewig1m",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpvefwhi001p04jy1krvc69b",
-            "label": "Angriff der Hobgoblins",
-            "index": 798,
-            "content": "Die Gruppe nähert sich der Barrikade der Hobgoblins, die aus aufgeschichtetem Holz, Steinen und Erde besteht. Plötzlich brechen die Hobgoblins aus ihrer Deckung hervor und schießen Pfeile aus dem Rauch der brennenden Sperre auf Die Gruppe; ein Pfeil streift die Kutsche, während ein anderer im Boden einschlägt. Der Kampf entfaltet sich mit Schreien und dem Knacken von Holz, während die Iron Fang sich in Bewegung setzt, um näher an die feindlichen Reihen zu gelangen. Die Hitze der Barrikade streift die Kutsche, Funken tanzen in der Luft, und der Geruch von Kampf vermischt sich mit dem von brennendem Holz. Die Gruppe ist entschlossen, sich dem Feind zu nähern, während der Kampf um sie herum tobt.",
+            "session_id": "cmrca54i000010ahxscrthvb6",
+            "label": "Gwendolyns gescheiterter Säurezauber",
+            "index": 852,
+            "content": "Zwei Zombies traten aus der geöffneten Tür in den Wave Echo Cave > Gang, und Gwendolyn Silverflame entließ ihren bereitgehaltenen Säurezauber auf die Untoten. Der Zauber traf beide Untote, hinterließ jedoch nur oberflächliche Verbrennungen, während die Haut der Untote unversehrt blieb. Korvathun bemerkte, dass es sich nicht um normale Untote handelte, was die Situation besorgniserregender machte. Plötzlich fiel ein humanoider Schädel auf den Boden und explodierte, wobei eine giftige Säurewolke freigesetzt wurde.",
             "image": null,
             "categories": [
                 "Conflict",
                 "Combat"
             ],
-            "created_at": "2026-06-02T09:58:07.055000",
+            "created_at": "2026-07-08T20:08:48.431000",
             "updated_at": null
         },
         {
-            "id": "dx44fdtextrpqt6kj53ty9ev",
+            "id": "h9b1ooa363f62rkmiv017hkr",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpvd2yvv000104i56bnw5one",
-            "label": "Brennan befragt die Hohepriesterin",
-            "index": 797,
-            "content": "Brennen Voidridge stellte der Hohepriesterin die Frage nach ihrer Herkunft und wie sie in die Stadt gekommen sei. Sie antwortete, dass sie aus einem kleineren Dorf in der Gegend stamme und als Priesterin hierhergekommen sei, nachdem ihr Vorgänger Reber verstorben war. Brennan war überrascht von der Antwort und wollte mehr über den Vorgänger erfahren, doch die Hohepriesterin schien nicht bereit, weiter darauf einzugehen. Er versuchte, eine Verbindung zu ihr aufzubauen, um mehr über die Situation in der Stadt zu erfahren. Die Hohepriesterin bestätigte, dass es in der Stadt viele Probleme gebe, die die Stadtwache zu bewältigen habe.",
+            "session_id": "cmrca54i000010ahxscrthvb6",
+            "label": "Surina wirft eine Javelin auf einen Untoten",
+            "index": 858,
+            "content": "Surina Nemmonis rückte besorgt näher zu Brennen Voidridge auf und entschied sich, eine Javelin zu werfen. Mit einem gezielten Wurf bohrte sie die Waffe in die Schulter eines der gefesselten Untoten. Der Zombies zuckte zusammen, als das Blut durch sein Gewand sickerte. Brennen, der in der Nähe stand, beobachtete die Aktion.",
             "image": null,
             "categories": [
-                "Intrigue",
-                "Negotiation"
+                "Combat",
+                "Heroism"
             ],
-            "created_at": "2026-06-01T16:16:13.388000",
+            "created_at": "2026-07-08T20:08:48.431000",
             "updated_at": null
         },
         {
-            "id": "e8e53slns5glf0yl8jrdwl64",
+            "id": "l6qsezoiwd5pb3aa9n42wxe3",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpvd2yvv000104i56bnw5one",
-            "label": "Brennan entdeckt geheime Schreiben aus Luskan",
-            "index": 805,
-            "content": "Brennen Voidridge überflog die Briefe auf dem Schreibtisch und stellte fest, dass es sich um bereits geöffnete Schreiben aus Luskan handelte, die einen Wissensaustausch mit einer anerkannten Magiergilde betrafen. Er erhielt die Bestätigung, dass es sich um eine legale und anerkannte Akademie handelte. Neugierig öffnete er die Schublade des Schreibtisches und fand einen Dolch sowie einen schmalen Der Wahrheitsdolch . Er suchte nach geheimen Fächern und vermutete einen doppelten Boden im Schreibtisch, den er mit dem Der Wahrheitsdolch  zu öffnen versuchte, in der Hoffnung, weitere wichtige Informationen zu finden, die möglicherweise verborgen waren.",
+            "session_id": "cmrca54i000010ahxscrthvb6",
+            "label": "Vorsichtiger Vorstoß in den Raum",
+            "index": 856,
+            "content": "Die Gruppe näherte sich vorsichtig dem Kleiner Raum und stellte Tiere als Ausguck auf. Korvathun trat als Erster in den Raum ein und bemerkte, dass die Leichen, die zuvor dort lagen, verschwunden waren. Gwendolyn schaute an die Decke, um sicherzustellen, dass keine Bedrohung von oben kam, während Morvain überlegte, seine Katze als zusätzliche Sicherheit zu nutzen. Surina äußerte Bedenken über einen möglichen Fluchtweg. Schließlich waren alle bereit, die Tür zu öffnen und sich den Untoten zu stellen.",
             "image": null,
             "categories": [
-                "Discovery",
-                "Intrigue"
+                "Conflict",
+                "Suspense"
             ],
-            "created_at": "2026-06-01T16:16:13.388000",
+            "created_at": "2026-07-08T20:08:48.431000",
             "updated_at": null
         },
         {
-            "id": "fewhof6aora1wtuiyhkr3gy3",
+            "id": "lgwrjaaa13lw7961h9atwp3p",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpvd2yvv000104i56bnw5one",
-            "label": "Gwendolyn Silverflame entfernt den Türbalken",
-            "index": 803,
-            "content": "Titel: Gwendolyn Silverflame entfernt den Türbalken\nDa Gwendolyn Silverflame und ihre Gefährten die drei Gefangenen nicht befreien konnten, entschied sie sich, den Türbalken am Kircheneingang zu entfernen. Mit einem entschlossenen Schwung packte sie den Balken und begann, ihn zu lösen, während ihre Verbündeten um sie herum standen und die Situation beobachteten. \"Ich mache mich auf den Weg, Dîn-io Tempest zu holen!\" rief sie. Gwendolyn Silverflame wusste, dass jede Sekunde zählte, um die Gefangenen zu befreien und die Bedrohung zu beseitigen.",
+            "session_id": "cmrca54i000010ahxscrthvb6",
+            "label": "Surina und Korvathun an der Tür",
+            "index": 853,
+            "content": "Surina Nemmonis setzte sich entschlossen neben Korvathun an die Tür und verlagerte ihr Gewicht gegen die Barrikade, während sie ihren Eber zurückrief. korva überlegte, wie er die Tür schließen könnte, und fragte sich, ob er etwas zum Verbarrikadieren dabei hatte. Gwendolyn bot ihre Hilfe an, während Morvain und die anderen sich darauf vorbereiteten, die Situation zu meistern. Surina bemerkte, dass sie Platz machen musste, um den anderen zu ermöglichen, die Tür zu schließen, und rief korva an, um ihn zu unterstützen. Schließlich schloss korva die Tür, während Die Gruppe sich auf die bevorstehenden Herausforderungen vorbereitete.",
+            "image": null,
+            "categories": [
+                "Conflict",
+                "Banter"
+            ],
+            "created_at": "2026-07-08T20:08:48.431000",
+            "updated_at": null
+        },
+        {
+            "id": "qdx0o0s8cbzxk245g1b5e1fu",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmrca54i000010ahxscrthvb6",
+            "label": "Gwendolyn Silverflame zündet die Betten an",
+            "index": 859,
+            "content": "Gwendolyn Silverflame beobachtete die Situation und stellte fest, dass die Bedrohung von den lebenden Gegnern ausging. Sie entschied sich, die Betten in Brand zu setzen, um sicherzustellen, dass die Feinde nicht zurückkehren konnten. \"Ich würde die anderen schon mal anzünden wollen,\" erklärte sie, während sie sich auf die Betten konzentrierte. Mit einem Zauber erzeugte sie ein Feuer, das sich schnell auf die Liegen ausbreitete. \"Das hier ist doch ein Netz oder?\" murmelte sie, bevor sie die Flammen entfesselte, die die Betten in ein loderndes Inferno verwandelten.",
+            "image": null,
+            "categories": [
+                "Combat",
+                "Chaos"
+            ],
+            "created_at": "2026-07-08T20:08:48.431000",
+            "updated_at": null
+        },
+        {
+            "id": "qviyr3850yjokuam6l24x32a",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmrca54i000010ahxscrthvb6",
+            "label": "Korvathun blockiert die Tür gegen Zombies",
+            "index": 851,
+            "content": "Korvathun stellte sich entschlossen an die Tür, um den Zugang zu blockieren, während er sich der Bedrohung durch die Zombies bewusst war. Er setzte seine verstärkte Schlagkraft ein, um die Kreaturen zu bekämpfen, doch seine Angriffe zeigten kaum Wirkung. Eine kleine Druckwelle entstand bei seinen Schlägen, doch die Untote schienen unbeeindruckt. korva überlegte, ob er auf einen normalen Schlag wechseln sollte, da die Situation nicht wie erwartet verlief. Er war entschlossen, die Tür zu halten und seine Verbündeten zu schützen.",
+            "image": null,
+            "categories": [
+                "Conflict",
+                "Combat"
+            ],
+            "created_at": "2026-07-08T20:08:48.431000",
+            "updated_at": null
+        },
+        {
+            "id": "ski8bstkyck4twlg7jo7dlmt",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmrca54i000010ahxscrthvb6",
+            "label": "Morvain entfesselt die Skelette",
+            "index": 854,
+            "content": "Morvain Schattenfluch, der großgewachsene Magier, beschloss, seine Macht zu nutzen und beschwor zwei Skelette, die sofort auf die überlebenden Untoten losgeschickt wurden. Mit einem entschlossenen Blick spannte er ein Netz aus Magie, das zwei weitere Zombies festsetzte und sie bewegungsunfähig machte. Währenddessen diskutierten seine Gefährten, darunter Gwendolyn Silverflame, über die Effektivität ihrer Zauber und die bevorstehenden Kämpfe. Gwendolyn erklärte, dass sie bereit sei, ihre Kräfte einzusetzen, um die Bedrohung zu beseitigen. Die Gruppe war entschlossen, die Untoten zu besiegen.",
+            "image": null,
+            "categories": [
+                "Combat",
+                "Victory"
+            ],
+            "created_at": "2026-07-08T20:08:48.431000",
+            "updated_at": null
+        },
+        {
+            "id": "vtr4akohxifcgkv6i4orsh10",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmrca54i000010ahxscrthvb6",
+            "label": "Kampf gegen das Skelett in der Mine",
+            "index": 849,
+            "content": "In der Dunkelheit der Mine standen Surina Nemmonis und Korvathun direkt vor einem Skelett, das mit einem Kurzschwert bewaffnet war. Plötzlich wandte sich das Skelett gegen Surina und griff sie an. korva beobachtete die Situation und bemerkte, dass das Skelett stark ramponiert war. Er entschied sich, es anzugreifen. Mit einem kraftvollen Roundhouse-Kick traf er das Skelett im Brustkorb, zertrümmerte seine Rippen und setzte mit einem weiteren Schlag nach, der den Kopf des Skeletts von der Wirbelsäule trennte.",
+            "image": null,
+            "categories": [
+                "Combat",
+                "Conflict"
+            ],
+            "created_at": "2026-07-08T20:08:48.431000",
+            "updated_at": null
+        },
+        {
+            "id": "y3d67363fdwtris6w5042057",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmrca54i000010ahxscrthvb6",
+            "label": "Gwendolyns Lichtzauber für Korvathun",
+            "index": 855,
+            "content": "Gwendolyn Silverflame wandte sich an Korvathun und fragte: \"Möchtest du Licht?\" korva bestätigte, dass er im Dunkeln nichts sehen konnte. Gwendolyn bot an, seinen Gürtel mit gelbem Licht zu belegen. Nach einer Diskussion über die Farbe des Lichts entschied sie: \"Okay, gelb wird es.\" korva bemerkte, dass er durch das Licht zwar viel sehen würde, aber auch selbst gut sichtbar wäre. Gwendolyn erklärte, dass es sinnvoll wäre, wenn korva das Schild von Brennen mitnehmen würde, während er vorangeht.",
             "image": null,
             "categories": [
                 "Heroism",
-                "Conflict"
+                "Banter"
             ],
-            "created_at": "2026-06-01T16:16:13.388000",
+            "created_at": "2026-07-08T20:08:48.431000",
             "updated_at": null
         },
         {
-            "id": "ibc5ifyhe6ifotpx0i2a1zzl",
+            "id": "y5xsjr7j2zp2hjn1umhuh95y",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpvd2yvv000104i56bnw5one",
-            "label": "Brennan und die Hohepriesterin",
-            "index": 795,
-            "content": "Die Hohepriesterin stellte fest, dass Brennan sich selbst verzaubert hatte, weil er sich mit Dingen beschäftigte, die ihn nichts angingen. Sie machte sich mit Dîn-io Tempest und Gwendolyn Silverflame auf den Weg zurück zur Kirche, um die Situation zu klären. Währenddessen diskutierten die anderen über die Ereignisse, die zu diesem Missverständnis geführt hatten, und erinnerten sich an die chaotischen Momente, die sich zuvor abgespielt hatten. Gwendolyn Silverflame und Brennan versuchten, herauszufinden, wohin die Hohepriesterin gegangen war, während sie sich auf den Rückweg begaben. Die Spannung in der Luft war spürbar, als sie die Konsequenzen von Brennans Handlungen zu begreifen versuchten.",
+            "session_id": "cmrca54i000010ahxscrthvb6",
+            "label": "Surina Nemmonis räumt den Raum von Untoten",
+            "index": 850,
+            "content": "Surina Nemmonis, die Drachenherrin, stürmte auf die letzten verbliebenen Gegner zu. Mit einer Reihe präziser Schläge setzte sie ihre Waffe ein, um die Untoten zu bekämpfen. Während sie sich durch den Raum bewegte, spürte sie die Bedrohung der Zombies, die sich auf sie zubewegten. Mit Entschlossenheit und Geschick besiegte sie die letzten Gegner, bis der Raum von Untoten geräumt war. Ihre Bewegungen waren schnell und zielgerichtet.",
             "image": null,
             "categories": [
-                "Intrigue",
-                "Conflict"
+                "Combat",
+                "Victory"
             ],
-            "created_at": "2026-06-01T16:16:13.388000",
+            "created_at": "2026-07-08T20:08:48.431000",
             "updated_at": null
         },
         {
-            "id": "k06fpoog8171upxg3nbwhg7q",
+            "id": "aoyj6ddgayt2ywd38k1thgx3",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpvd2yvv000104i56bnw5one",
-            "label": "Fortsetzung der Arbeitstage",
-            "index": 796,
-            "content": "Am dritten von zehn geplanten Arbeitstagen setzte die Gruppe ihre Tätigkeiten fort. Brennen Voidridge blieb im Tempeldienst bei der Hohepriesterin, um seinen Verdacht zu klären, während Surina Nemmonis sich um die Reparatur von Dächern und Wänden kümmerte und das Walross fütterte. Dîn-io Tempest wollte dem Schreiner helfen und Kräuter besorgen, und Gwendolyn Silverflame blieb bei der Apothekerin, um an ihrem Alchemie-Set zu arbeiten. Gwendolyn Silverflame äußerte den Wunsch, dass Dîn-io Tempest ihr Heilkräuter mitbringen sollte, falls er welche finden würde. Die Gruppe war in ihren Aufgaben vertieft.",
+            "session_id": "cmqi9qtcm000004l5c3d1vygv",
+            "label": "Brennen Voidridge heilt sich selbst und greift an",
+            "index": 842,
+            "content": "Brennen Voidridge konzentrierte sich und sprach die Worte des Heilzaubers, um sich selbst zu heilen. Nachdem er seine Wunden kuriert hatte, richtete er seine Aufmerksamkeit auf den Gegner vor sich und warf mit einer schnellen Bewegung seine magischen Karten auf ihn. Die Karten flogen durch die Luft und trafen den Kultisten direkt, was zu einem schmerzhaften Aufschrei führte. Der Kultist fiel zu Boden, während Brennen Voidridge sich auf seine nächste Aktion vorbereitete.",
             "image": null,
             "categories": [
-                "Growth",
-                "Conflict"
+                "Combat",
+                "Victory"
             ],
-            "created_at": "2026-06-01T16:16:13.388000",
+            "created_at": "2026-06-17T20:09:14.678000",
             "updated_at": null
         },
         {
-            "id": "kayoxgwcgn3brljrtagpc09i",
+            "id": "cu8xw8aho5e5qj2tiwparh6y",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpvd2yvv000104i56bnw5one",
-            "label": "Gwendolyn Silverflame und Dîn-io Tempest zum Holzhaus der Hohepriesterin",
-            "index": 810,
-            "content": "Gwendolyn Silverflame und Dîn-io Tempest näherten sich dem Holzhaus der Hohepriesterin, in dem die Priesterin am Vorabend verschwunden war. Während sie sich dem Haus näherten, diskutierten sie über ihre nächsten Schritte und die Möglichkeit, die anderen zu verstecken, um sie vor weiteren Gefahren zu schützen. Dîn-io Tempest schlug vor, die Stadtwache zu informieren, um sicherzustellen, dass das Haus nicht übersehen wurde. Gwendolyn Silverflame war unsicher, ob sie sich der Stadtwache nähern sollten, da sie befürchtete, dass dies ihre Mission gefährden könnte. Schließlich warteten sie auf die Ankunft der Priesterin, während sie auf der Treppe des Tempels saßen und die Situation beobachteten.",
-            "image": null,
-            "categories": [
-                "Intrigue",
-                "Suspense"
-            ],
-            "created_at": "2026-06-01T16:16:13.388000",
-            "updated_at": null
-        },
-        {
-            "id": "pxewafmmuqpq5f71cabv7501",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpvd2yvv000104i56bnw5one",
-            "label": "Einbruchsszenario in der Kirche",
-            "index": 809,
-            "content": "Brennen Voidridge schlug vor, die Situation so darzustellen, als wäre er in der Kirche überfallen und gefroren worden. Er forderte Dîn-io Tempest auf, die Hohepriesterin zu holen und zu berichten, dass er überfallen wurde und sie gegen die Einbrecher gekämpft hätten. Dîn-io Tempest stimmte zu und überlegte, ob er noch Kampfspuren hinterlassen sollte, um die Geschichte glaubwürdiger zu machen. Surina Nemmonis empfahl, Kaldro um Hilfe zu bitten, während Naevys Nerizana vorschlug, alle Gegenstände aus der Truhe mitzunehmen, um sicherzustellen, dass sie gut vorbereitet sind. Die Gruppe diskutierte, wie sie die Geschichte am besten präsentieren könnten, um ihre Unschuld zu beweisen.",
-            "image": null,
-            "categories": [
-                "Intrigue",
-                "Betrayal"
-            ],
-            "created_at": "2026-06-01T16:16:13.388000",
-            "updated_at": null
-        },
-        {
-            "id": "rlezwvwx6bv06ll0pnk2t3nb",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpvd2yvv000104i56bnw5one",
-            "label": "Brennan rempelt die Vermummte Person an",
-            "index": 799,
-            "content": "Als die Vermummte Person das Gebäude verließ, rempelte Brennan sie an, um ihre Stimme zu hören. Er entschuldigte sich höflich mit den Worten: \"Bitte verzeihen Sie,\" doch die Antwort war nur ein tiefes Brummen. Während er die Gestalt betrachtete, bemerkte er, dass sie kräftig gebaut war, und es schien fast so, als ob sie ihn mehr angerempelt hatte, als umgekehrt. Brennan entschied sich, nichts von diesem Vorfall zu erzählen und beobachtete die Vermummte Person weiter, in der Hoffnung, dass sie möglicherweise in die Kirche gehen würde.",
-            "image": null,
-            "categories": [
-                "Intrigue",
-                "Suspense"
-            ],
-            "created_at": "2026-06-01T16:16:13.388000",
-            "updated_at": null
-        },
-        {
-            "id": "s0ij5b42wtm7oerzqowscbxi",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpvd2yvv000104i56bnw5one",
-            "label": "Der Schlüssel und das Drachenbuch",
-            "index": 806,
-            "content": "Brennen Voidridge hob den kleinen silbernen Schlüssel an und übergab ihn an Surina Nemmonis, die ihn mit der Bitte um das Drachenbuch von Gwendolyn Silverflame entgegennahm. Surina Nemmonis fragte: \"Gwendoline, darf ich mal das Buch haben? Das mit dem Drachen drauf. Mit meiner eventuellen Mama.\" Gwendolyn Silverflame suchte in ihrer Tasche nach dem Buch und antwortete: \"Ich geb dir das Buch.\" Schließlich hielt Surina Nemmonis den Schlüssel in der Hand und bereitete sich vor, ihn in das Schloss zu stecken.",
-            "image": null,
-            "categories": [
-                "Discovery",
-                "Intrigue"
-            ],
-            "created_at": "2026-06-01T16:16:13.388000",
-            "updated_at": null
-        },
-        {
-            "id": "u7dt5lmgxujema8i0lrn5crm",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpvd2yvv000104i56bnw5one",
-            "label": "Gwendolyns gescheiterter Auftauversuch",
-            "index": 807,
-            "content": "Gwendolyn Silverflame stand vor den drei Eissäulen, die ihre Gefährten gefangen hielten, und versuchte, sie aufzutauen. Sie murmelte einen Zauber, doch das geschmolzene Eis bildete sich sofort wieder neu, als ob es sich gegen ihre Magie wehrte. Während sie das Buch betrachtete, das Surina Nemmonis geöffnet hatte, bemerkte sie, dass ihre Gefährten in einem frostigen Überzug gefangen waren und sich nicht mehr rührten. Gwendolyn Silverflame gab sich geschlagen und ließ sich einfach stehen, in der Hoffnung, dass sich die Situation bis zum nächsten Morgen ändern würde. Die Kälte um sie herum schien die Zeit stillstehen zu lassen, während sie auf eine Lösung wartete.",
+            "session_id": "cmqi9qtcm000004l5c3d1vygv",
+            "label": "Korvathun bricht den Griff des Backbären",
+            "index": 843,
+            "content": "Korvathun, gefangen im Griff eines Backbären, kämpfte mit aller Kraft und schlug auf das Tier ein, bis er schließlich dessen Halt brach. Trotz des Netzes, das ihn gefangen hielt, wandte er sich dem Skelett zu, das in der Nähe stand. Er konzentrierte sich und stellte einen Teil seiner eigenen Wunden wieder her, während er sich auf den bevorstehenden Kampf vorbereitete.",
             "image": null,
             "categories": [
                 "Conflict",
-                "Despair"
+                "Combat"
             ],
-            "created_at": "2026-06-01T16:16:13.388000",
+            "created_at": "2026-06-17T20:09:14.678000",
             "updated_at": null
         },
         {
-            "id": "vo2vhd72gberm8vv4ex25stu",
+            "id": "ebiic427lkc9acegj7bi2ddd",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpvd2yvv000104i56bnw5one",
-            "label": "Dîn-io Tempest bringt Surina Nemmonis und die Gefrorenen in die Taverne",
-            "index": 811,
-            "content": "Dîn-io Tempest, der Genasi mit blauer Haut, brachte Surina Nemmonis unbemerkt von der Kirche in die Taverne. Dort legte er die drei eingefrorenen Personen in Betten ab, in der Hoffnung, dass sie auftauen würden, wenn es wärmer wurde. Während er die Gefrorenen zugedeckt hatte, bemerkte er, dass die Priesterin, die sie zuvor getroffen hatten, noch im Schlaf war, aber plötzlich hellwach wurde, als sie von dem Vorfall erfuhr. Dîn-io Tempest erklärte, dass sie in der Kirche überfallen worden waren und dass die Gefrorenen Hilfe benötigten. Die Gruppe bereitete sich darauf vor, die Geschehnisse zu klären und die Priesterin um Unterstützung zu bitten.",
+            "session_id": "cmqi9qtcm000004l5c3d1vygv",
+            "label": "Beute nach dem Kampf",
+            "index": 848,
+            "content": "Nach dem Kampf durchsuchte die Gruppe die Gefallenen und begann, die Beute einzusammeln. Korvathun schlug vor, die Beute aufzuteilen, während Surina Nemmonis sich nach einem Morgenstern erkundigte, den sie sich anschauen wollte, aber Schwierigkeiten hatte, ihn zu erreichen. Tim bestätigte, dass man die Beute aufteilen könne, und Gwendolyn Silverflame bemerkte, dass auch kleine Dinge von Wert seien. Morvain äußerte, dass er die Skelette animieren könne, was die Diskussion über die Beute und deren Verwendung anheizte. Schließlich wurde beschlossen, die Beute zu sammeln und sich auf die nächste Herausforderung vorzubereiten.",
+            "image": null,
+            "categories": [
+                "Loot",
+                "Conflict"
+            ],
+            "created_at": "2026-06-17T20:09:14.678000",
+            "updated_at": null
+        },
+        {
+            "id": "euun3kckbu4z49j3n1vcqtgr",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmqi9qtcm000004l5c3d1vygv",
+            "label": "Gwendolyns schmerzhafter Zauber",
+            "index": 847,
+            "content": "Gwendolyn Silverflame bereitete sich darauf vor, den großen Backbären mit einem mächtigen Zauber anzugreifen, als plötzlich stechende Kopfschmerzen durch ihren Kopf schossen. Trotz ihres Willens, sich gegen den Schmerz zu wehren, sackte sie auf ein Knie und drehte ihren Kopf zur Seite. Ihre Zauberformel wurde durch den Schmerz unterbrochen, was dazu führte, dass der Zauber nur eine abgeschwächte Wirkung entfaltete. Der Schaden, den sie verursachte, war halbiert, was die Effektivität ihres Angriffs stark beeinträchtigte. Ihre Verbündeten, Brennen Voidridge und Surina Nemmonis, bemerkten sofort, dass etwas nicht stimmte, als sie Gwendolyns plötzlichen Rückschlag sahen.",
             "image": null,
             "categories": [
                 "Conflict",
-                "Suspense"
+                "Combat"
             ],
-            "created_at": "2026-06-01T16:16:13.388000",
+            "created_at": "2026-06-17T20:09:14.678000",
             "updated_at": null
         },
         {
-            "id": "wg25o447ucp4xkzzobqafpkz",
+            "id": "jjeqre0lnlswrmyjpnzyb97v",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpvd2yvv000104i56bnw5one",
-            "label": "Gwendolyn Silverflame versteckt das Drachenbuch",
-            "index": 801,
-            "content": "Gwendolyn Silverflame entdeckt in der Kirche ein schweres, in Leder gebundenes Buch mit einem silbernen Verschluss und einem Drachenmotiv. Neugierig auf den Inhalt, möchte sie das Buch näher untersuchen, doch es ist verschlossen. Nach einem Austausch mit ihren Gefährten beschließt Gwendolyn Silverflame, das Drachenbuch zum Boot Der Gruppe zu bringen. Dort versteckt sie es in einem Gebüsch, um es vor neugierigen Blicken zu schützen und sicherzustellen, dass es nicht in die falschen Hände gerät.",
+            "session_id": "cmqi9qtcm000004l5c3d1vygv",
+            "label": "Heiltränke statt Rast",
+            "index": 849,
+            "content": "Die Gruppe entschied sich gegen eine Rast und diskutierte über die Verwendung von Heiltränken. Korvathun argumentierte, dass Heiltränke im Kampf sinnvoll seien, während Gwendolyn Silverflame entgegnete, dass dies nicht der Fall sei. Surina Nemmonis äußerte den Wunsch nach einer kurzen Pause, doch Korvathun wies darauf hin, dass sie noch Ressourcen für einen Kampf hätten. Schließlich einigten sie sich darauf, die leeren Phiolen der Heiltränke an Gwendolyn Silverflame zurückzugeben, um ihre Vorräte zu verwalten und sich auf die bevorstehenden Herausforderungen vorzubereiten.",
             "image": null,
             "categories": [
-                "Intrigue",
-                "Discovery"
+                "Conflict",
+                "Banter"
             ],
-            "created_at": "2026-06-01T16:16:13.388000",
+            "created_at": "2026-06-17T20:09:14.678000",
             "updated_at": null
         },
         {
-            "id": "wlwu7tg128wvwckel9m601tf",
+            "id": "jrmmb753xi8aijzxztofeyr8",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "session_id": "cmpvd2yvv000104i56bnw5one",
-            "label": "Gwendolyn Silverflame entdeckt magische Gegenstände",
-            "index": 804,
-            "content": "Gwendolyn Silverflame setzte ihr Magiegespür ein und spürte das leichte Schimmern mehrerer magischer Gegenstände in der Nähe. Während die Gruppe den Raum durchsuchte, bemerkte sie, dass die Gegenstände nicht sofort sichtbar waren, aber ihre magische Aura deutlich zu spüren war. Brennen Voidridge und die anderen suchten ebenfalls den Raum ab. Brennen untersuchte den Schreibtisch, während Naevys Nerizana und Surina Nemmonis die Regale durchforsteten. Gwendolyns Entdeckung führte dazu, dass die Gruppe sich auf die Suche nach diesen magischen Artefakten konzentrierte, um mehr über ihre Bedeutung und mögliche Verwendung zu erfahren.",
+            "session_id": "cmqi9qtcm000004l5c3d1vygv",
+            "label": "Morvain schickt Zombie Bär (Morvain) auf den Gegner",
+            "index": 846,
+            "content": "Morvain befiehlt seinem Bären, den Gegner anzugreifen. Zombie Bär (Morvain) stürzt sich mit voller Wucht auf den Feind und bringt ihn zu Boden. Der Gegner bricht unter dem Gewicht des Tieres zusammen. Morvain lässt Zombie Bär (Morvain) weiter kämpfen, während sich die Situation um ihn herum entfaltet.",
             "image": null,
             "categories": [
-                "Discovery",
+                "Combat",
+                "Victory"
+            ],
+            "created_at": "2026-06-17T20:09:14.678000",
+            "updated_at": null
+        },
+        {
+            "id": "l08btr8npf000u22rqhjd2me",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmqi9qtcm000004l5c3d1vygv",
+            "label": "Das wurmartige Tentakelwesen entkommt",
+            "index": 840,
+            "content": "Das wurmartige Tentakelwesen, das zuvor von Zombie Bär (Morvain) festgehalten wurde, befreite sich plötzlich aus dessen Griff. Mit einer geschickten Bewegung kletterte es an die Decke des Raumes und verschwand schnell in einem Felsspalt, der weiter hinten im Raum lag. Morvain, der das Wesen zuvor gefangen gehalten hatte, konnte nur hilflos zusehen, wie es entkam. \"Das war's mit dem!\" rief er frustriert, während das Tentakelwesen in die Dunkelheit verschwand.",
+            "image": null,
+            "categories": [
+                "Chaos",
                 "Intrigue"
             ],
-            "created_at": "2026-06-01T16:16:13.388000",
+            "created_at": "2026-06-17T20:09:14.678000",
+            "updated_at": null
+        },
+        {
+            "id": "ob0oicvp1nwka9fvdcvqmowa",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmqi9qtcm000004l5c3d1vygv",
+            "label": "Gwendolyn Silverflame heilt Pio",
+            "index": 850,
+            "content": "Gwendolyn Silverflame verabreichte Pio einen Heiltrank. Nachdem Pio den Trank erhalten hatte, meldete er, dass keine unbekannten Lebewesen mehr in Reichweite waren. Morvain stellte fest, dass es wahrscheinlich keine weiteren Kreaturen in einem Umkreis von 60 Fuß gab. Gwendolyn Silverflame schlug vor, dass die Gruppe sich gemeinsam nach vorne bewegen sollte, während sie die Situation beobachteten.",
+            "image": null,
+            "categories": [
+                "Victory",
+                "Conflict"
+            ],
+            "created_at": "2026-06-17T20:09:14.678000",
+            "updated_at": null
+        },
+        {
+            "id": "vjx47jafx35xxxpanmhx1gb8",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "session_id": "cmqi9qtcm000004l5c3d1vygv",
+            "label": "Kampf gegen das letzte Skelett und die Backbären",
+            "index": 838,
+            "content": "Die Gruppe befand sich mitten im Kampf in der Höhle, als Gwendolyn Silverflame entschied, dass sie anfangen sollten. Korvathun, der sich mit einem Grig von der Decke auseinandersetzte, war bereit, während das letzte Skelett mit seinem Kurzbogen auf ihn zielte und traf. Korvathun überlegte, ob er etwas gegen den erlittenen Schaden unternehmen sollte, während die Backbären ebenfalls bereit waren, anzugreifen. Die Bedrohungen um sie herum wurden zunehmend spürbar.",
+            "image": null,
+            "categories": [
+                "Conflict",
+                "Combat"
+            ],
+            "created_at": "2026-06-17T20:09:14.678000",
             "updated_at": null
         }
     ],
     "from": 1,
-    "last_page": 41,
+    "last_page": 43,
     "per_page": 20,
     "to": 20,
-    "total": 802
+    "total": 849
 }

@@ -14,7 +14,5 @@
     "created_at": "2026-04-02T16:11:53.143000",
     "updated_at": null,
     "beats": null,
-    "moments": null,
-    "pending": null,
-    "ai_session_review": null
+    "moments": null
 }

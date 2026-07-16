@@ -65,7 +65,7 @@ abstract class ApiTestCase extends FeatureTestCase
                 if (is_string($schemaable) && method_exists($schemaable, 'rules')) {
                     $rules = data_get($schemaable::rules(), $key, []);
 
-                    if (filled($rules)) {
+                    if (filled($rules) && ! str_contains($key, '.*')) {
                         $this->where($key, function (mixed $value) use ($key, $rules): bool {
                             $value = $value instanceof Collection ? $value->all() : $value;
 

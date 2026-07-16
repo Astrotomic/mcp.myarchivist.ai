@@ -2,6 +2,81 @@
     "current_page": 1,
     "data": [
         {
+            "id": "f16gh4pd8j9emqgj3kzq19dc",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Grick",
+            "description": "Tentakelwürmer sind wurmartige, tentakelbewehrte Kreaturen. Sie greifen ihre Opfer mit Tentakeln an und können durch Bisse schwere Verletzungen verursachen.\n\n- Erscheinung: wurmartig, mit Tentakeln\n\n- Fähigkeiten: Festhalten mit Tentakeln, Bissangriff\n\n- Zugehörigkeit: Unbekannt\n\n- Standort: Decken von Höhlen oder ähnlichen Umgebungen\n\n- Ressourcen: Unbekannt\n\nAktuell sind Tentakelwürmer eine Bedrohung für Abenteurer, da sie in Gruppen auftreten und schwere Verletzungen verursachen können.\n\nBedrohungsbewertung: hoch, da sie in der Lage sind, mehrere Gegner gleichzeitig anzugreifen und ernsthafte Schäden zuzufügen.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Wurmartiges Tentakelwesen",
+                "Tentakelwurm"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-17T20:07:14.607000",
+            "updated_at": null
+        },
+        {
+            "id": "nlhi9owcoji1ihxqiq9bvz1o",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Bugbears",
+            "description": "Rolle: Feindliche Bestienformation in der Höhle.\n\n- Mehrere Backbären operieren in der Höhle und schleudern Javelins aus oberen Gängen.\n\n- Ein großer, ungepanzerter, gorillaartig laufender Backbär greift an und schlägt Surina Nemmonis dreimal schwer gegen den Brustkorb.\n\n- Backbären packen Surina Nemmonis und halten sie fest; ein Backbär schnappt sie erneut.\n\n- Backbären im oberen Gang greifen Korvathun an, werfen Javelins durch Morvains Netz und attackieren gemeinsam Zombie Bär (Morvain).\n\n- Der große Backbär wird mehrfach von Surina Nemmonis, Brennen Voidridge und Korvathun angegriffen; seine dicke Lederhaut und schweres Fell dämpfen die Wirkung der Angriffe.\n\n- Einige Backbären stoßen BRÜLL- oder Antwortlaute aus; obere Backbären fallen nacheinander, der große Backbär trifft Surina Nemmonis erneut.\n\n- Auf dem großen Backbären findet die Gruppe eine alte, stark verschmierte Kohlenotiz mit bruchstückhaften Warnungen.\n\nHooks:\n\n- Backbären nutzen geworfene Javelins aus erhöhten Gängen.\n\n- Ein einzelner Großer Backbär agiert als direkter Nahkampfbringer gegen Surina Nemmonis und die Gruppe.\n\n- Backbären arbeiten koordiniert in oberen und unteren Gängen und greifen sowohl mit Fern- als auch Nahwaffen an.\n\nBedrohungs-/Wert-Einstufung: hoch — mehrere Backbären verursachen wiederholt schwere Treffer an Gruppenmitgliedern und arbeiten koordiniert in unterschiedlichen Gängen.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-17T20:07:14.415000",
+            "updated_at": null
+        },
+        {
+            "id": "uv6vj3mow03zcpnuwjolhda8",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Stirges",
+            "description": "Rolle: fliegende, blutsaugende Kreaturen.\n\n- Erscheinungsbild: kleine, hässliche, lederflügelige, mückenartige Wesen mit Schnäbeln; wurden als „überdimensionale Mücke“ beschrieben.\n\n- Verhalten: fliegen auf Ziele zu, klammern sich fest und saugen; haften an Kleidung und Lederrüstung.\n\n- Vorkommen/Standort: traten im Gang der Mine/Höhle gemeinsam mit anderen Untoten auf.\n\n- Interaktionen: hingen an Surina Nemmonis und Korvathun; konnten von Surina Nemmonis mit der Doppelklinge abgeschlagen und von Korvathun abgerissen werden; mehrere fielen durch Gwendolyns Acid Splash tot; einzelne wurden durch Fire Bolt getroffen.\n\nWarum relevant jetzt:\n\n- traten im unmittelbaren Gefechtsbereich mehrmals wiederholt auf;\n\n- beeinträchtigten die Kampffähigkeit einzelner Gruppenmitglieder durch Festklammern.\n\nBedrohungsgrad: mittel — sie klebten im Kampf mehrfach an Gegnern fest und attackierten mehrere Gruppenmitglieder direkt.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Lederflügelige, Mückenartige Kreaturen"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-10T20:10:56.278000",
+            "updated_at": null
+        },
+        {
+            "id": "oq4u1ks0iavzumf82jlq8yjk",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Bugbears",
+            "description": "Bugbears\n- Mehrere Bugbears traten aus einem Gang auf, darunter zunächst drei, später weitere.\n- Sie waren mit Javelins bewaffnet.\n- Ihr Standort war der Engpass, aus dem sie aus den hinteren Gängen kamen.\n- Sie schleuderten Javelins auf Brennan, wobei mehrere ihn schwer trafen; weitere Bugbears warfen Javelins aus einer anderen Richtung und trafen die Front.\n- Surinas Frost traf drei Bugbears; Korvathun warf Wurfwaffen auf einen Bugbear; Brennan zielte auf sichtbare Bugbears und traf sie mit Kartenangriffen; Gwendolyn Silverflame setzte eine Flaming Sphere gegen die Gegner in den Gangabschnitten ein.\n- Plötzliches Erscheinen aus den Gängen.\n- Koordiniertes Auftreten aus mehreren Richtungen.\nThreat/Value: hoch — wegen gezieltem Fernangriff, der Verbündete schwer traf.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Bugbear"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-10T20:10:56.183000",
+            "updated_at": null
+        },
+        {
+            "id": "og8kpxqznz1slmyvzpyo4smn",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Zombies",
+            "description": "Zombies: wiederbelebte Leichen, in der Gruppe als \"Untote\" oder \"Zombies\" bezeichnet; drei wurden zuerst im Gang gesichtet. Die Leichen sind angeblich 500 Jahre alt, jedoch auffällig gut erhalten. Ein Zombie griff Skelett Katze an, hob sie hoch und warf sie in Richtung eines Steins; Skelett Katze verschwand in ein Loch. Die drei zuerst getroffenen Zombies erhoben sich, wurden niedergeschlagen, standen erneut auf und griffen weiter an. Ein Zombie wurde mit Feuer- und Flammenschaden belegt und blieb danach endgültig liegen. Weitere Zombies tauchten später erneut auf und griffen Surina Nemmonis an, konnten aber durch Treffer und Heilmagie wieder zu Boden gebracht werden.\nZwei Zombies öffneten eine Tür und traten in den Gang. Gwendolyns Säurezauber traf beide Zombies, verursachte jedoch nur oberflächliche Wirkung. Ein Zombies griff Morvains Skelett an. Zwei Zombies näherten sich Surina Nemmonis und trafen sie mehrfach. Vor der verbarrikadierten Tür befanden sich zwei Zombies, die zusammen mit Skeletten Kugellagerkugeln vom Boden aufhoben. In einem Schlafraum lagen mehrere Untote auf Betten und richteten sich beim Öffnen der Tür mit einem Stöhnen auf. Brennen Voidridges göttliche Macht drängte den Großteil der Untoten zurück, zwei Zombies erreichten ihn aber und trafen ihn mehrfach.\n- Wiederbelebung mehrmals hintereinander ist dokumentiert.\n- Einer der Zombies interagierte direkt mit der Gruppe, indem er Skelett Katze ergriff.\n- Mehrfaches Angreifen von Gruppenmitgliedern und Durchbrechen von Zugängen wurde beobachtet.\nThreat/Value: hoch — mehrere Untote erhoben sich wiederholt und griffen aktiv Die Gruppe an. Bedrohung: mittel — mehrere Zombies griffen Gruppenmitglieder an und durchbrachen Zugänge.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Untote",
+                "Zombie"
+            ],
+            "tcg_image": null,
+            "merge": true,
+            "created_at": "2026-06-10T20:10:55.999000",
+            "updated_at": null
+        },
+        {
             "id": "cmpwglyty000j04jyadma3n4y",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "name": "Stadtwache von Bryn Shander",
@@ -455,12 +530,12 @@
             "id": "gju8cf9wb3sm4fnkh9vzdcuu",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "name": "Skelette",
-            "description": "Die Skelette sind eine Gruppe von Untoten, die in einem Lager mit etwa 20 bis 30 Zelten organisiert sind. Sudur Ragni nimmt die Anwesenheit von circa 15 bis 20 Untoten wahr. Das Lager der Skelette stellt eine ernstzunehmende Bedrohung dar. Eine Gruppe plant einen Angriff auf das Lager der Skelette. Flint Fireforge infiltriert das Lager, um Gefangene zu befreien, was zu einem offenen Gefecht gegen die Skelette und Orcs führt. Während des Kampfes erscheint der Anführer der Skelette, was die Situation eskaliert. Die Gruppe sieht sich einer größeren, koordinierten Masse aus Orcs und Skeletten gegenüber. Die Orcs sind eine aggressive und koordinierte Bedrohung, die ebenfalls in einem Lager mit etwa 20 bis 30 Zelten leben und zusammen mit den Skeletten kämpfen, wodurch sie eine zahlenmäßige Übermacht darstellen. Während eines Übergriffs blockieren zwei Orcs den Weg zu den Gefangenen, was zu einem offenen Kampf führt. Im Verlauf des Kampfes formiert sich eine größere Masse aus Orcs und Skeletten, die die Gruppe umzingelt und unter Druck setzt.",
+            "description": "Die Skelette sind eine Gruppe von feindlichen Untoten, die in einem Lager mit etwa 20 bis 30 Zelten organisiert sind. Sudur Ragni nimmt die Anwesenheit von circa 15 bis 20 Untoten wahr. Das Lager der Skelette stellt eine ernstzunehmende Bedrohung dar. Eine Gruppe plant einen Angriff auf das Lager der Skelette. Flint Fireforge infiltriert das Lager, um Gefangene zu befreien, was zu einem offenen Gefecht gegen die Skelette und Orcs führt. Während des Kampfes erscheint der Anführer der Skelette, was die Situation eskaliert. Die Gruppe sieht sich einer größeren, koordinierten Masse aus Orcs und Skeletten gegenüber. Die Orcs sind eine aggressive und koordinierte Bedrohung, die ebenfalls in einem Lager mit etwa 20 bis 30 Zelten leben und zusammen mit den Skeletten kämpfen, wodurch sie eine zahlenmäßige Übermacht darstellen. Während eines Übergriffs blockieren zwei Orcs den Weg zu den Gefangenen, was zu einem offenen Kampf führt. Im Verlauf des Kampfes formiert sich eine größere Masse aus Orcs und Skeletten, die Die Gruppe umzingelt und unter Druck setzt.\nDie Skelette wurden von Morvains Katze gemeldet und nach dem freigeräumten Bereich an einer rechten Position in einer gespaltenen Gruppe angetroffen. Sie griffen mit Pfeilen und im Nahkampf an und wurden von Korvathun, Morvains Bär und anderen zerschmettert oder auseinandergerissen. Morvains Skelette sind erhobene Zombies, die aus vorhandenen Leichen als zwei Skelette geschaffen wurden. Sie sind mit Ausrüstung versehen und können Türen öffnen, gefallene Untote bergen und Köpfe entfernen. Ihre Fähigkeiten umfassen das Schießen mit Kurzbögen, Nahkampf und die Wiederbelebung durch Morvain. Aktuell sind Skelette eine Bedrohung, da sie in Gruppen auftreten und sowohl lebende Feinde als auch gefallene Untote darstellen. Sie erscheinen in Gängen und an offenen Türen, sammeln Kugellagerkugeln vom Boden auf, gehen als Vorhut vor oder halten Rückraumwache. Die Skelette dringen in Schlafräume vor und greifen dort andere Untote an, während sie Morvains Befehle befolgen und Beute sowie Leichenteile aus den Schlafräumen tragen.\nBedrohungsbewertung: hoch, da sie aktiv angreifen und Die Gruppe gefährden.",
             "type": null,
             "image": null,
             "aliases": [],
             "tcg_image": null,
-            "merge": false,
+            "merge": true,
             "created_at": "2026-03-07T16:50:26.692000",
             "updated_at": null
         },
@@ -756,6 +831,6 @@
     "from": 1,
     "last_page": 1,
     "per_page": 100,
-    "to": 53,
-    "total": 53
+    "to": 58,
+    "total": 58
 }

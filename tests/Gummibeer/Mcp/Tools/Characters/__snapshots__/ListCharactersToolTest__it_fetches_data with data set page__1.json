@@ -2,49 +2,49 @@
     "current_page": 1,
     "data": [
         {
-            "id": "l2zftgjq4r09dypgbybhebg8",
+            "id": "qp5xx2swp1x5r3yg0y51rqyz",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "character_name": "Schläfriger Wächter (Bryn Shander)",
+            "character_name": "Surinas Eber",
             "character_alias": null,
             "player_name": null,
             "player": null,
-            "description": "Der Schläfrige Wächter ist eine Stadtwache, die am Nordtor postiert ist. Er steht halbbewusst auf Wache und wirkt wiederholt schläfrig. Beim Vorbeigehen sagt er: „Geht ruhig durch“ und stützt sich halb auf seinen Speer. Als Dîn-io Tempest ihn ansprach, nannte er verzögert das dritte Haus die Straße hinunter und erschrak kurz. Auf die Meldung vom Tempel reagiert er zunächst langsam, bevor er wieder handelte.",
+            "description": "Surinas Eber: das Tier, das Surina Nemmonis zugeordnet wird.\n- Erscheinung: Ein Eber, der Drachenherrin gehört.\n- Fähigkeiten: Kann angreifen und wurde in einem Kampf gegen Zombies eingesetzt.\n- Loyalität: Gehört zu Drachenherrin.\n- Standort: In der Nähe der Gruppe während eines Kampfes.\n- Ressourcen: Wurde von Surina zurückgerufen.\n- Der Eber wurde in den Kampf gegen Untote geschickt.\n- Eine explodierende Quelle verursachte eine Säure-Gift-Wolke, die Ihr Eber und Skelett Katze (Morvain) betraf.\n- Surina hat die Kontrolle über den Eber und kann ihn zurückrufen.\nBedrohungsbewertung: hoch, da der Eber aktiv in Kämpfe verwickelt ist und durch die Gift-Wolke gefährdet wurde.",
             "image": null,
             "type": "NPC",
             "character_aliases": [
-                "Wächter"
+                "Ihr Eber"
             ],
             "player_handle": null,
             "backstory": null,
             "tcg_image": null,
             "merge": false,
-            "created_at": "2026-06-01T16:11:47.925000",
+            "created_at": "2026-07-08T20:06:37.915000",
             "updated_at": null
         },
         {
-            "id": "ccxkkt5s3m5svu0r455a8owt",
+            "id": "s7rhsvkl86v4i2efvsdr6v7h",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "character_name": "Vermummte Person (Bryn Shander)",
+            "character_name": "Großer Bugbear",
             "character_alias": null,
             "player_name": null,
             "player": null,
-            "description": "Die Vermummte Person trug eine Verhüllung und hatte eine kräftige Statur. Bei Ansprache gab sie nur ein tiefes Brummen von sich.\n\nDie Vermummte Person traf sich mit der Hohepriesterin in ruhigem Gespräch. Nach etwa anderthalb Minuten reichte sie ihr ein in Stoff eingeschlagenes, brotdosengroßes Paket, das die Hohepriesterin unter ihrer Kleidung verbarg. Anschließend ging die Vermummte Person weg und wurde beim Vorbeigehen von Brennan scheinbar versehentlich angerempelt.",
+            "description": "Großer Backbär: ein großer, ungepanzerter, gorillaartig laufender Backbär.\n\n- Erscheinung: dicke Lederhaut, schweres Fell, vernarbte Haut\n\n- Fähigkeiten: starke körperliche Angriffe, resistent gegen Feuer\n\n- Zugehörigkeit: unabhängig\n\n- Standort: Höhle\n\n- Ressourcen: alte, stark verschmierte Kohlenotiz mit bruchstückhaften Warnungen\n\nHooks:\n\n- Seine Angriffe sind stark und gefährlich.\n\n- Die Kohlenotiz könnte wichtige Informationen enthalten.\n\nThreat/Value rating: hoch, da er im Kampf erhebliche Schäden verursachen kann.",
             "image": null,
             "type": "NPC",
             "character_aliases": [
-                "Gestalt"
+                "Großer, Ungepanzerter, Gorillaartig Laufender Backbär"
             ],
             "player_handle": null,
             "backstory": null,
             "tcg_image": null,
             "merge": false,
-            "created_at": "2026-06-01T16:11:47.834000",
+            "created_at": "2026-06-17T20:07:14.114000",
             "updated_at": null
         }
     ],
     "from": 1,
-    "last_page": 92,
+    "last_page": 97,
     "per_page": 2,
     "to": 2,
-    "total": 184
+    "total": 194
 }

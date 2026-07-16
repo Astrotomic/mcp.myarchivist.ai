@@ -2,6 +2,73 @@
     "current_page": 2,
     "data": [
         {
+            "id": "iqsdoxp1cn1x3eiq2lrrcdzq",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Ring der Rose",
+            "description": "Der Ring der Rose ist eine Gruppe, die sich als Freundeskreis bezeichnet. Ein Mitglied, Steven, erklärte, dass sie keine Entführungen durchführen, sondern Personen \"retten\", die freiwillig wegwollen, insbesondere Töchter aus Adelsfamilien. Die Gruppe wurde gegründet, nachdem sie von anderen abgewiesen wurde.\nSteven gab an, dass er seit etwa einer Woche gefangen sei. Während eines Verhörs stellte die Gruppe Fragen zu einem Nebelvorfall, den sie untersuchen wollte. Steven trug eine Brosche mit Rosen-Symbolik, die Gwendolyn Silverflame von seiner Brust entfernte. Während des Verhörs wurde Steven mehrfach eingeschüchtert und waterboardet, was zu einer Offenbarung führte, dass er bereit war, alles zu erzählen. Das Verhör wurde von der Herzogin und Wachen unterbrochen, die die Gruppe aufforderten, den Raum zu verlassen und sich nicht weiter in nicht-zuständige Angelegenheiten einzumischen.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-04-22T20:32:01.574000",
+            "updated_at": null
+        },
+        {
+            "id": "n08fdtvbvx70vgoyrt6crvol",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Netheril",
+            "description": "Netheril war ein magokratisches Imperium, das vor etwa 1700 bis 1800 Jahren existierte und von magiebegabten Individuen regiert wurde. Nur magiebegabte Personen konnten in höhere Positionen aufsteigen. Das Imperium fiel aufgrund übertriebener magischer Praktiken und hinterließ die heutige Anauroch-Wüste. Vor rund 100 Jahren kehrte eine kleine Enklave zurück, und die Region ist von verschiedenen zwielichtigen Gruppen und Relikten aus früheren Zeiten geprägt.\nDie Gruppe erfuhr in der Bibliothek von einem obsidianen Würfel, der als nahezu mythisch beschrieben wird und als Rubycon bezeichnet wird. Es wird berichtet, dass es bisher niemandem gelungen ist, diesen Würfel in Besitz zu nehmen. Hinweise und Orte, die mit dem Würfel in Verbindung stehen, umfassen Rogarsheim, Agloron und Kalimshan. Morvain las weiter über die Geschichte von Anauroch und Netheril und stellte fest, dass der Untergang des Imperiums mit der Entstehung der Wüste zusammenhängt.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-04-15T19:43:09.908000",
+            "updated_at": null
+        },
+        {
+            "id": "u6s7cqbod8epsbp87hui2g83",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Haus Deakin",
+            "description": "Diakin ist ein Haus, das Halbelfen umfasst und als eines der ältesten Häuser Faerûns gilt. Es wird in einem Kompendium über die ältesten Häuser erwähnt, zusammen mit den Häusern Floshin, Borderen und Belisare.\n\nDie Gruppe, zu der Morvain gehört, hat in der Bibliothek Informationen über Diakin und andere Häuser recherchiert. Morvain hat ein Buch über einen obsidianen Würfel angefordert, das in Verbindung mit Diakin steht. In der Bibliothek wurden keine spezifischen Details über die Geschichte oder den Einfluss von Diakin gegeben.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-04-15T19:43:09.870000",
+            "updated_at": null
+        },
+        {
+            "id": "koeusof91hc3fi04i0yaw6b1",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Haus Belisarre",
+            "description": "Belisare ist eines der ältesten Häuser in Faerûn und wird als das dritte älteste Haus in der Region klassifiziert. Die zugehörige Rasse sind Halborks. Belisare wird zusammen mit den Häusern Floshin und Borderen in einem Kompendium über die ältesten Häuser Faerûns erwähnt.\n\nDas Haus ist in einem Buch über die ältesten Häuser aufgeführt, das Informationen über die Rassen und die geografischen Standorte der Häuser enthält.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-04-15T19:43:09.852000",
+            "updated_at": null
+        },
+        {
+            "id": "g23zk3s1uwd70fvx011tm8dn",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Magiergilde von Luskan",
+            "description": "Die Magiergilde von Luskan ist eine mächtige Organisation, bekannt für ihre magischen Fähigkeiten. Sie gilt als die mächtigste Magiergilde in Luskan und bietet Kooperationen in Bezug auf magische Vorfälle an. Die Gilde hat Einfluss auf die Region und wird häufig in Gesprächen über magische Angelegenheiten und Konflikte erwähnt.\nCaptain Durnan bietet der Gruppe die Möglichkeit, nach Luskan zu gehen, um einen magischen Zwischenfall aufzuklären, wobei die Kooperation der Magiergilde zugesichert wird. Die Gilde wird als Autorität angesehen, die in der Lage ist, Unterstützung zu leisten.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "mächtige Magiergilde von Luskan"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-04-15T19:43:09.796000",
+            "updated_at": null
+        },
+        {
             "id": "c8i3xdxy1kn2g755ceb2po43",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "name": "Haus Floshin",
@@ -165,12 +232,12 @@
             "id": "gju8cf9wb3sm4fnkh9vzdcuu",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "name": "Skelette",
-            "description": "Die Skelette sind eine Gruppe von Untoten, die in einem Lager mit etwa 20 bis 30 Zelten organisiert sind. Sudur Ragni nimmt die Anwesenheit von circa 15 bis 20 Untoten wahr. Das Lager der Skelette stellt eine ernstzunehmende Bedrohung dar. Eine Gruppe plant einen Angriff auf das Lager der Skelette. Flint Fireforge infiltriert das Lager, um Gefangene zu befreien, was zu einem offenen Gefecht gegen die Skelette und Orcs führt. Während des Kampfes erscheint der Anführer der Skelette, was die Situation eskaliert. Die Gruppe sieht sich einer größeren, koordinierten Masse aus Orcs und Skeletten gegenüber. Die Orcs sind eine aggressive und koordinierte Bedrohung, die ebenfalls in einem Lager mit etwa 20 bis 30 Zelten leben und zusammen mit den Skeletten kämpfen, wodurch sie eine zahlenmäßige Übermacht darstellen. Während eines Übergriffs blockieren zwei Orcs den Weg zu den Gefangenen, was zu einem offenen Kampf führt. Im Verlauf des Kampfes formiert sich eine größere Masse aus Orcs und Skeletten, die die Gruppe umzingelt und unter Druck setzt.",
+            "description": "Die Skelette sind eine Gruppe von feindlichen Untoten, die in einem Lager mit etwa 20 bis 30 Zelten organisiert sind. Sudur Ragni nimmt die Anwesenheit von circa 15 bis 20 Untoten wahr. Das Lager der Skelette stellt eine ernstzunehmende Bedrohung dar. Eine Gruppe plant einen Angriff auf das Lager der Skelette. Flint Fireforge infiltriert das Lager, um Gefangene zu befreien, was zu einem offenen Gefecht gegen die Skelette und Orcs führt. Während des Kampfes erscheint der Anführer der Skelette, was die Situation eskaliert. Die Gruppe sieht sich einer größeren, koordinierten Masse aus Orcs und Skeletten gegenüber. Die Orcs sind eine aggressive und koordinierte Bedrohung, die ebenfalls in einem Lager mit etwa 20 bis 30 Zelten leben und zusammen mit den Skeletten kämpfen, wodurch sie eine zahlenmäßige Übermacht darstellen. Während eines Übergriffs blockieren zwei Orcs den Weg zu den Gefangenen, was zu einem offenen Kampf führt. Im Verlauf des Kampfes formiert sich eine größere Masse aus Orcs und Skeletten, die Die Gruppe umzingelt und unter Druck setzt.\nDie Skelette wurden von Morvains Katze gemeldet und nach dem freigeräumten Bereich an einer rechten Position in einer gespaltenen Gruppe angetroffen. Sie griffen mit Pfeilen und im Nahkampf an und wurden von Korvathun, Morvains Bär und anderen zerschmettert oder auseinandergerissen. Morvains Skelette sind erhobene Zombies, die aus vorhandenen Leichen als zwei Skelette geschaffen wurden. Sie sind mit Ausrüstung versehen und können Türen öffnen, gefallene Untote bergen und Köpfe entfernen. Ihre Fähigkeiten umfassen das Schießen mit Kurzbögen, Nahkampf und die Wiederbelebung durch Morvain. Aktuell sind Skelette eine Bedrohung, da sie in Gruppen auftreten und sowohl lebende Feinde als auch gefallene Untote darstellen. Sie erscheinen in Gängen und an offenen Türen, sammeln Kugellagerkugeln vom Boden auf, gehen als Vorhut vor oder halten Rückraumwache. Die Skelette dringen in Schlafräume vor und greifen dort andere Untote an, während sie Morvains Befehle befolgen und Beute sowie Leichenteile aus den Schlafräumen tragen.\nBedrohungsbewertung: hoch, da sie aktiv angreifen und Die Gruppe gefährden.",
             "type": null,
             "image": null,
             "aliases": [],
             "tcg_image": null,
-            "merge": false,
+            "merge": true,
             "created_at": "2026-03-07T16:50:26.692000",
             "updated_at": null
         },
@@ -217,79 +284,11 @@
             "merge": true,
             "created_at": "2026-03-07T15:01:38.876000",
             "updated_at": null
-        },
-        {
-            "id": "yuk9yetrm84jdopzq23xcb8t",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Goblins",
-            "description": "Die Goblins sind eine aggressive Fraktion, die in der Umgebung von Nightstone aktiv ist. Sie verfügen über eine nennenswerte Menge an Ausrüstung und Material, darunter Waffen und Ausrüstung wie Krummsäbel, Rundschilde, Kurzbögen, Eisenplatten und Lederriemen. In einer Begegnung in der Kirche von Nightstone wurden zwei Goblins entdeckt, die die Glocke läuteten, was die Unruhe im Dorf erklärte. Ihre Anwesenheit in einem heiligen Raum zeigt, dass sie in der Lage sind, geschützte Orte zu infiltrieren und zu stören. Die Goblins sind eine feindliche Präsenz, die in mehreren Kämpfen gegen die Gruppe auftritt. Zu Beginn wird ein Goblin durch einen Katapult-Zauber von Flint Fireforge getötet. Ein weiterer Goblin fällt, als Alagos Toll of the Dead einsetzt und Khorum Ironfist einen Bolzen abfeuert. Während die Gruppe mehrere Gebäude durchsucht, kommt es wiederholt zu Kämpfen mit weiteren Goblins, was die Umgebung als unsicher und gefährlich kennzeichnet. Im Verlauf der Erkundung wird eines der Gebäude als Haus der Lionshield Coster identifiziert. Die Gruppe trifft in einer Taverne auf Sudur Ragni und Kella Darkhope. Flint Fireforge entwaffnet Sudur Ragni und Kella Darkhope, was die Dynamik der Begegnung verändert. Die Gruppe setzt ihre Erkundung in einer feindlichen Umgebung fort, in der sie kontinuierlich auf Goblins trifft.\nDie Goblins sind eine Fraktion, die als Bedrohung auftrat. Gwerk und Flint töteten gemeinsam die Goblins, wodurch diese Bedrohung beendet wurde. Gwerk stach den ersten Goblin ab und äußerte dabei eine persönliche Bemerkung, die auf eine vorherige negative Erfahrung mit diesem Goblin hinweist. Die Gruppe hatte zuvor gegen Orcs und Goblins gekämpft. Flint erwarb Kenntnisse in der Sprache Goblinisch und vereinbarte, in den nächsten Wochen von Gwerk Goblinisch zu lernen.\nDie Goblins sind auch in der Lage, Verhandlungen zu führen, was zu Lösungen ohne Gewalt führt. Sie operieren in einer Höhle und haben zuvor Dorfbewohner entführt. Die Verwendung der Goblin-Sprache ermöglicht es, Missverständnisse zu vermeiden und Situationen zu deeskalieren. Die Verhandlungen mit den Goblins führten zur Freilassung der gefangenen Dorfbewohner. Nach der erfolgreichen Verhandlung verließen die Abenteurer die Höhle mit den befreiten Bewohnern und traten den Rückweg nach Nightstone an. Die unmittelbare Bedrohung durch die Goblins für Nightstone wurde als beendet angesehen.\nDie Goblins bestanden aus drei Mitgliedern, die sich bei einer Kutsche positionierten. Sie warfen eine Granate, die zwei Gegner zu Boden drückte, während die oberen Goblins sich mit ihren Schilden schützten. Ein Goblin feuerte mit einer Armbrust und traf. Die Goblins an der Kutsche schossen später, verfehlten jedoch. Die Goblins in der Nähe von Gwendolyn Silverflame riefen „Geht raus!“, standen auf und griffen Surina Nemmonis mit Kurzschwertern an; ein Goblin traf, während ein anderer verfehlte. Die oberen Goblins feuerten drei Armbrustbolzen ab, die niemand trafen. Die Goblins von unten schossen mehrfach Bolzen, wobei zeitweise ein Bolzen den Hauptgoblin neben Surina Nemmonis traf. In späteren Runden blieben die vier Goblins untätig, bis weitere Schussaktionen folgten.\nDie Worge sind große, wolfartige Kreaturen, die ebenfalls in der Umgebung von Nightstone vorkommen. Während eines Angriffs auf eine Gruppe, bestehend aus Sudur Ragni, Flint Fireforge, Khorum Ironfist und Alagos, griff Alagos die Worge mit einem Firebolt an. Einer der Worge wurde durch diesen Angriff entzündet und floh, während der andere Worg Flint Fireforge niederstreckte und kurz darauf starb. Äon Kalfr stabilisierte und heilte Flint, was die Gefährlichkeit dieser Kreaturen und die Bedrohung, die sie für die Gruppe darstellen, verdeutlicht.",
-            "type": null,
-            "image": null,
-            "aliases": [
-                "Worg",
-                "Worge"
-            ],
-            "tcg_image": null,
-            "merge": true,
-            "created_at": "2026-03-06T16:00:54.618000",
-            "updated_at": null
-        },
-        {
-            "id": "f6vhlli1z8kxjpz2jgqbg459",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Stadtwache von Scornubel",
-            "description": "Die Stadtwache von Scornubel ist eine autorisierte Organisation, die für die Sicherheit und Ordnung in der Stadt verantwortlich ist. Sie berichtet über aktuelle Informationen zu den Geschehnissen in der Region, einschließlich der Aussage, dass Elturel nicht mehr existiere, basierend auf Berichten von Flüchtlingen. Die Stadtwache hat die Fähigkeit, die Bevölkerung über Bedrohungen zu informieren.",
-            "type": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": true,
-            "created_at": "2026-03-06T10:49:03.275000",
-            "updated_at": null
-        },
-        {
-            "id": "eqqk9h9rqk5ygusek9702hn7",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Hafenwache von Waterdeep",
-            "description": "Die Hafenwache ist eine militärische Organisation, die in Waterdeep operiert. Sie ist für die Sicherheit und Ordnung im Hafenbereich zuständig und arbeitet eng mit der Stadtwache zusammen. Die Hafenwache ist mit gut gekleideten und gerüsteten Soldaten besetzt, die nicht das Wappen von Waterdeep tragen, was auf eine gewisse Unabhängigkeit oder spezielle Aufgaben hinweisen könnte.\n\nAm 25. Uktar wurden Reisende bei der Ankunft eines Konvois von einem gemischten Komitee aus Stadtwache und Hafenwache empfangen. Die Hafenwache wies die Reisenden an, an einer speziellen Anlegestelle für wertvolle Fracht und Schiffe festzumachen, anstatt den offenen Hafen im Dogwards anzulaufen. Sie begleitete die Reisenden zur Zollabhandlung und stellte sicher, dass sie in eine robuste Kutsche stiegen, um zur Befragung gebracht zu werden.\n\nDie Hafenwache zeigte sich als gut organisiert und in der Lage, schnell zu reagieren, als berittene Truppen entsandt wurden, um aufkommende Situationen zu bewältigen.",
-            "type": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-03-05T08:49:42.743000",
-            "updated_at": null
-        },
-        {
-            "id": "lnuqs3nz5ubfc83wq9hjj1xm",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Stadtwache von Waterdeep",
-            "description": "Die Stadtwache von Waterdeep ist eine autorisierte Organisation, die für die Sicherheit und Ordnung in der Stadt verantwortlich ist. Sie arbeitet in Zusammenarbeit mit der Hafenwache und anderen militärischen Einheiten, um die Einhaltung der Gesetze zu gewährleisten und die Stadt vor Bedrohungen zu schützen. Die Stadtwache hat eine Präsenz am Hafen, wo sie ankommende Schiffe und deren Besatzungen kontrolliert und zur Zollabhandlung auffordert.\nDie Stadtwache koordiniert die Ankunft von Reisenden in Waterdeep. Sie empfängt Reisende am Dock und leitet sie in eine Kutsche zur Befragung. Während dieser Befragung bleiben die Reisenden unbewaffnet, jedoch nicht gefesselt. Die Stadtwache überwacht auch den Konvoi, der die Reisenden nach Briarwatch eskortiert, und bleibt am Stadttor zurück, während berittene Soldaten mit unbekanntem Wappen die Kutschen weiter begleiten.\nDie Stadtwache führt ihre Aufgaben effizient aus, indem sie schnell berittene Truppen entsendet und die bürokratischen Abläufe im Torhaus von Briarwatch abwickelt.",
-            "type": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": true,
-            "created_at": "2026-03-05T08:49:42.726000",
-            "updated_at": null
-        },
-        {
-            "id": "xk1xm86cs7sxn57dr56svwgo",
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "name": "Magier von Niewinter",
-            "description": "Die Magier der Stadt sind eine autorisierte Gruppe, die in Niewinta operiert und an der Sicherung eines Risses beteiligt war, der von Kultisten, die als Zentharim vermutet werden, bedroht wurde. Sie haben zusammen mit der Stadtwache und anderen Gruppen an der Stabilisierung von Niewinta gearbeitet. Ihre Aktivitäten umfassten Festnahmen und Befragungen, um die Sicherheit der Stadt zu gewährleisten.\n\nNach der Stabilisierung von Niewinta wurde ein Bote aus Briarwatch entsandt, um eine Einladung an die Gruppe um Gwendolyn Silverflame zu überbringen. Die Einladung forderte die Gruppe auf, bis zum 25. Uktar in Waterdeep zu sein, um am 30. Uktar in Briarwatch empfangen zu werden.",
-            "type": null,
-            "image": null,
-            "aliases": [],
-            "tcg_image": null,
-            "merge": false,
-            "created_at": "2026-03-05T08:49:42.709000",
-            "updated_at": null
         }
     ],
     "from": 21,
     "last_page": 3,
     "per_page": 20,
     "to": 40,
-    "total": 53
+    "total": 58
 }
