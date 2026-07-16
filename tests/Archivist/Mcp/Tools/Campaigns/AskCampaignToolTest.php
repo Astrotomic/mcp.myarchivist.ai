@@ -20,7 +20,7 @@ final class AskCampaignToolTest extends ArchivistTestCase
         ];
     }
 
-    //#[Test]
+    #[Test]
     #[DataProvider('queryDataProvider')]
     public function it_fetches_data(array $query): void
     {
