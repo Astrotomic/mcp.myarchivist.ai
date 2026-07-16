@@ -1,0 +1,36 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Content-Type": [
+            "application/json"
+        ],
+        "Date": [
+            "Thu, 16 Jul 2026 16:50:23 GMT"
+        ],
+        "Server": [
+            "railway-hikari"
+        ],
+        "x-process-time": [
+            "1.299077033996582"
+        ],
+        "x-railway-request-id": [
+            "-SOL72xaQ6i80OGU9I3ezw"
+        ],
+        "Content-Length": [
+            "1997"
+        ],
+        "x-hikari-trace": [
+            "ams1.qkjh"
+        ],
+        "x-railway-edge": [
+            "ams1"
+        ],
+        "vary": [
+            "accept-encoding"
+        ],
+        "Connection": [
+            "keep-alive"
+        ]
+    },
+    "data": "{\"created_at\":\"2026-05-13T20:01:06.486000\",\"updated_at\":null,\"id\":\"xs5x4fz3qp1i6uvcrfrof2w1\",\"name\":\"Luftschiff\",\"aliases\":[\"Luftschiff (die Abholung)\"],\"type\":null,\"description\":\"Das Luftschiff ist ein fliegendes Gef\u00e4hrt, das \u00fcber dem Gel\u00e4nde schwebt und mit Annehmlichkeiten wie einer Toilette ausgestattet ist. Es bietet Platz f\u00fcr die Besatzung und die Reisenden. An Bord wird eine Mahlzeit serviert, die aus Kartoffeln, Wildbraten, M\u00f6hren-R\u00fcben-Gem\u00fcse und Bier besteht. Die Besatzung sorgt f\u00fcr die Verpflegung der Passagiere.\\nDas Luftschiff ist ein bewohnbares Schiff mit Labor, Essensr\u00e4umen, einer K\u00fcche, Mehrfachkabinen in Reihen, Decks und einem Zellentrakt. Es senkt sich \u00fcber das Gel\u00e4nde und l\u00e4sst Strickleitern herab, um die Gruppe an Bord zu holen. Die Gruppe verbrachte den Nachmittag mit eigenen T\u00e4tigkeiten, w\u00e4hrend das Schiff ruhig und schnell durch die Luft glitt. Zum Abendessen versammelten sich die Figuren in den Essensr\u00e4umen, erhielten schlichtes Essen und besprachen Auftr\u00e4ge. Gwendolyn ging sp\u00e4ter ins Labor. In der Nacht weckte Ceres Gwendolyn in ihrer Koje und gab ihr einen Dolch. Gwendolyn durchsuchte mehrere Kabinen, es kam zu einem Kampf im Gang, bei dem ein Doppelg\u00e4nger get\u00f6tet wurde. Der Leichnam wurde ins Labor gebracht und dort befragt; danach wurde Rita in eine Zelle des Luftschiffs gebracht. Am Morgen fehlte Rita beim Fr\u00fchst\u00fcck, und die Gruppe versammelte sich im Zellentrakt.\\nDas Luftschiff fliegt direkt zur Festung zur\u00fcck. Es war das Fluggef\u00e4hrt, in dem Gwendolyn Silverflame und Brennen Voidridge \u00fcber die Gr\u00fcndung einer neuen religi\u00f6sen Bewegung namens Feuer/Glut sprachen und ein \u00f6ffentliches Heilritual in Hammerh\u00e5eim planten. Am 3. Nightal 1497 DR gegen 15 Uhr landete das Luftschiff in Hammerh\u00e5eim. Beim Anflug wurde der Wandel Hammerh\u00e5eims sichtbar. Nach der Landung verteilte sich die Gruppe zur Vorbereitung.\",\"image\":null,\"tcg_image\":null,\"parent_id\":null,\"campaign_id\":\"cmj78gm6k000004jrvzm7gcjr\",\"merge\":true}"
+}

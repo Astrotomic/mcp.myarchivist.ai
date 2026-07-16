@@ -11,6 +11,10 @@ trait InteractsWithHttpFixtures
 {
     protected function setUpHttpFixtures(): void
     {
+        if ($this->skipHttpFixtures()) {
+            return;
+        }
+
         Http::preventStrayRequests();
         Http::record();
 
@@ -21,20 +25,24 @@ trait InteractsWithHttpFixtures
         }
 
         Http::fake(function (HttpRequest $request) {
-            if (! HttpFixture::exists($request)) {
+            if (! HttpFixture::exists($this, $request)) {
                 Assert::fail(sprintf(
                     'Missing HTTP fixture [%s]. Record it with: RECORD_HTTP_FIXTURES=1 ./php artisan test --filter=%s',
-                    HttpFixture::pathFor($request),
+                    HttpFixture::pathFor($this, $request),
                     static::class,
                 ));
             }
 
-            return HttpFixture::toClientResponse($request);
+            return HttpFixture::toClientResponse($this, $request);
         });
     }
 
     protected function tearDownHttpFixtures(): void
     {
+        if ($this->skipHttpFixtures()) {
+            return;
+        }
+
         if (! $this->shouldRecordHttpFixtures()) {
             return;
         }
@@ -47,7 +55,7 @@ trait InteractsWithHttpFixtures
                 continue;
             }
 
-            HttpFixture::store($request, $response);
+            HttpFixture::store($this, $request, $response);
         }
     }
 
@@ -57,5 +65,10 @@ trait InteractsWithHttpFixtures
             getenv('RECORD_HTTP_FIXTURES') ?: getenv('RECORD_FIXTURES') ?: false,
             FILTER_VALIDATE_BOOL,
         );
+    }
+
+    protected function skipHttpFixtures(): bool
+    {
+        return false;
     }
 }

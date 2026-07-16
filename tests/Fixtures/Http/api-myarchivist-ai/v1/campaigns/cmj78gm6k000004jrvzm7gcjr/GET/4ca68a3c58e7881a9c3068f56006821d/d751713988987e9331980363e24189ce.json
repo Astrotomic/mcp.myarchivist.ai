@@ -1,0 +1,36 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Content-Type": [
+            "application/json"
+        ],
+        "Date": [
+            "Thu, 16 Jul 2026 16:49:06 GMT"
+        ],
+        "Server": [
+            "railway-hikari"
+        ],
+        "x-process-time": [
+            "0.9105315208435059"
+        ],
+        "x-railway-request-id": [
+            "lMvzC1skQLW72mDXYqVb7A"
+        ],
+        "Content-Length": [
+            "6109"
+        ],
+        "x-hikari-trace": [
+            "ams1.cycp"
+        ],
+        "x-railway-edge": [
+            "ams1"
+        ],
+        "vary": [
+            "accept-encoding"
+        ],
+        "Connection": [
+            "keep-alive"
+        ]
+    },
+    "data": "{\"created_at\":\"2025-12-15T14:12:29.900000\",\"updated_at\":\"2026-07-08T20:49:42.583000\",\"id\":\"cmj78gm6k000004jrvzm7gcjr\",\"title\":\"Twilight of the Gods\",\"description\":\"This is your first campaign. You can edit this description to add more information about your campaign.\",\"system\":\"D&D 5e\",\"summary\":\"Die Ereignisse in der Region um Triboar und dar\u00fcber hinaus sind gepr\u00e4gt von Intrigen, K\u00e4mpfen und dem Streben nach Wissen. Die Gruppe erwachte in Longsaddle und plante, Miriam Harpell aufzusuchen, um offene Fragen zu Harald Harpells Tod zu kl\u00e4ren. Am Abend, als sie in die Ivy Mansion eingelassen wurden, stellte Seraphina den Befragungszauber her, und Haralds \u00dcberreste beantworteten f\u00fcnf Fragen. Nach der Befragung entschied Die Gruppe, sofort nach Triboar aufzubrechen. Dort offenbarte Bartho Jargon seinen Seelenvertrag mit Gargauth, was zu Misstrauen innerhalb der Gruppe f\u00fchrte. Nach einem Gespr\u00e4ch mit Nestor Podgin, der Bartho als t\u00f6richt bezeichnete, begab sich dieser in den Talking Troll und trank \u00fcberm\u00e4\u00dfig.\\n\\nIn der Nacht sprach Seraphina mit Afora Rivia und Flint Fireforge und forderte sie auf, zum See im Nordwesten zu kommen. Dort trafen Afora und Lorcan Magora ein, erhielten einen Zettel mit der Aufforderung, zum Mausoleum zu kommen, und machten sich sofort auf den Weg. Flint bemerkte ihren Aufbruch und folgte ihnen heimlich, wurde jedoch von Afora entdeckt. Die Gruppe traf sich schlie\u00dflich am s\u00fcdlichen Stadttor und begab sich gemeinsam zum Mausoleum, wo Seraphina Die Gruppe vor dem Risiko warnte, das Bartho durch den Seelenh\u00e4ndler Gargauth darstellen k\u00f6nnte.\\n\\nDie Reise f\u00fchrte Die Gruppe nach Longsaddle, wo sie beim Haus von Miriam Harpell eintrafen. W\u00e4hrend Seraphina in der Bibliothek nach Informationen \u00fcber Gargauth suchte, sandte Flint einen Boten nach Hammerh\u00e5eim. Nach zehn Tagen kehrte der Bote mit einem Antwortschreiben zur\u00fcck, das keine nennenswerten Probleme in der Festung erw\u00e4hnte. Besorgt \u00fcber das Ausbleiben von Haralds Bruder entschied Die Gruppe, nicht weiter zu warten und reiste nach Triboar. Dort stellte Bartho bei einer Stadtwache Fragen, die Die Gruppe nicht weiterverfolgte, und sie zogen westw\u00e4rts zu den Sword Mountains, wo sie nach dem Wandering Swamp suchten.\\n\\nIm Sumpf wurde Die Gruppe von einem riesigen Krokodil angegriffen, das Bartho verschlang. Nach dem Kampf t\u00f6teten sie das Krokodil und versorgten Bartho. Mary erschien, nahm das Krokodil und bot eine Teleportation gegen einen Gefallen an, die Die Gruppe ablehnte. Nach weiteren Tagen im Sumpf reisten sie nach Phandalin und Hammerh\u00e5eim, wo Flint sich um Angelegenheiten der Festung k\u00fcmmerte und in Gnomengarde eine Mining Crab kaufte. Die Gruppe bereitete sich auf die Weiterreise nach Candlekeep vor.\\n\\nIn Candlekeep angekommen, \u00fcbergaben sie ein verschlossenes Buch an Nax und wurden in die Festung eingelassen. Die Gruppe befasste sich mit Studien zu Gnollen, Magie und Kriegsgeschichte, bevor sie Candlekeep verlie\u00dfen und nach Baldur\u2019s Gate reisten. Dort kam es zu einem Streit um den Stadttorzoll, und Die Gruppe reiste gemeinsam auf dem Coast Way nach Candlekeep, wo sie ein magisch geschaffenes Zimmer bezogen und \u00fcber Seelenlehre diskutierten.\\n\\nNach weiteren Studien und Erkenntnissen in Candlekeep reisten sie nach Nightstone, wo Khorum Ironfist seine Streitaxt Hillsunder als gestohlen meldete. Die Gruppe brach nach Nightstone auf, geriet jedoch in einen Hinterhalt von Goblins. Nach einem Kampf und der Sicherung von Beute erreichten sie Nightstone, fanden das Dorf jedoch zerst\u00f6rt vor und wurden von Worgen angegriffen. Nach dem Kampf stabilisierten sie die Verwundeten und durchsuchten die H\u00e4user nach Goblins.\\n\\nDie Gruppe f\u00fchrte K\u00e4mpfe gegen Goblins und sicherte die Festung, w\u00e4hrend sie die Stadtwache von Nightstone \u00fcber die Zukunft des Ortes informierten. Sie planten eine Reise in ein Elfen-Dorf und erwogen unterschiedliche Vorgehensweisen f\u00fcr den Umgang mit den Elfenkarawanen. Die Gruppe kehrte nach Nightstone zur\u00fcck und durchsuchte die Festung gr\u00fcndlich, bevor sie aufbrach, um Verb\u00fcndete im Ardeep Forest zu suchen.\\n\\nIm Ardeep Forest erhielten sie Hinweise auf eine Goblin-H\u00f6hle, in der die entf\u00fchrten Bewohner von Nightstone vermutet wurden. Die Gruppe k\u00e4mpfte gegen einen schwarzen Schleim in der H\u00f6hle und verhandelte mit den Goblins, um die Gefangenen zu befreien. Nach der R\u00fcckkehr nach Nightstone und der Befreiung der Dorfbewohner verdunkelte sich der Himmel, und der fliegende Wolkenturm des Riesen Zephyros erschien \u00fcber der Gruppe.\\n\\nZephyros lud Die Gruppe ein, in seinen fliegenden Turm zu kommen, um sie in den Norden zu unterst\u00fctzen. Die Gruppe entschied sich, zun\u00e4chst nach Waterdeep zu reisen, um Flint Fireforge zu finden. In Waterdeep suchte Die Gruppe nach Flint, informierte den Lord \u00fcber die Ereignisse in Nightstone und half beim Bau des Luftschiffes Skyreaper. Nach dem Test des Luftschiffes reiste Die Gruppe nach Hammerh\u00e5eim, wo sie die Festung durchsuchten und auf einen Kultisten stie\u00dfen.\\n\\nDie Gruppe stellte fest, dass die Festung von Untoten \u00fcberrannt wurde und begann, die \u00dcberlebenden zu suchen. Nach einem Kampf gegen die Untoten und der Befreiung von Gefangenen kehrte Die Gruppe nach Hammerh\u00e5eim zur\u00fcck, um sich auf die n\u00e4chste Reise vorzubereiten. Sie reisten nach Triboar, wo sie auf eine Gruppe von Hobgoblins stie\u00dfen, die die Stadt belagerten. Nach einem Kampf gegen die Hobgoblins und der Sicherung von Beute entschied Die Gruppe, die Stadt zu evakuieren und die Dorfbewohner zu sch\u00fctzen.\\n\\nDie Gruppe stellte sich den Herausforderungen in Briarwatch, wo sie mit den \u00f6rtlichen Bewohnern und ihren Geheimnissen konfrontiert wurden. Nach mehreren K\u00e4mpfen und Verhandlungen mit den Bewohnern und dem Aufdecken von Intrigen in der Stadt gelang es der Gruppe, die Dorfbewohner zu retten und die Bedrohung durch die Fischmenschen zu beseitigen.\",\"language\":\"de\",\"public\":true,\"mature\":false,\"owner_id\":\"4ee2e6b8-698d-4452-82fd-92ca1d1f4642\",\"image\":\"https://assets.myarchivist.ai/146cf800-bf47-4dfc-9b64-258f02e6223e.png\",\"archived\":false,\"archived_at\":null}"
+}

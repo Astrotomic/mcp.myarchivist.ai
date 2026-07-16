@@ -5,6 +5,7 @@ namespace Tests\Gummibeer\Mcp\Tools\Sessions;
 use App\Data\SessionTranscriptData;
 use App\Mcp\Servers\ArchivistServer;
 use App\Mcp\Tools\Sessions\GetSessionTranscriptTool;
+use Illuminate\Support\Facades\Http;
 use Illuminate\Testing\Fluent\AssertableJson;
 use PHPUnit\Framework\Attributes\Test;
 use Tests\GummibeerTestCase;
@@ -22,5 +23,10 @@ final class GetSessionTranscriptToolTest extends GummibeerTestCase
                 $json->assertJsonSchema(SessionTranscriptData::class);
                 // intentionally no snapshot test for privacy
             });
+    }
+
+    protected function skipHttpFixtures(): bool
+    {
+        return true;
     }
 }

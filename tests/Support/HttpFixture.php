@@ -7,26 +7,27 @@ use Illuminate\Http\Client\Request as HttpRequest;
 use Illuminate\Http\Client\Response as HttpResponse;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Http;
+use PHPUnit\Framework\TestCase;
 
 final class HttpFixture
 {
     private const string DIRECTORY = 'tests/Fixtures/Http';
 
-    public static function pathFor(HttpRequest $request): string
+    public static function pathFor(TestCase $test, HttpRequest $request): string
     {
-        return base_path(self::DIRECTORY.'/'.FixtureName::forHttpRequest($request).'.json');
+        return base_path(self::DIRECTORY.'/'.FixtureName::forHttpRequest($test, $request).'.json');
     }
 
-    public static function exists(HttpRequest $request): bool
+    public static function exists(TestCase $test, HttpRequest $request): bool
     {
-        return File::exists(self::pathFor($request));
+        return File::exists(self::pathFor($test, $request));
     }
 
-    public static function toClientResponse(HttpRequest $request): PromiseInterface
+    public static function toClientResponse(TestCase $test, HttpRequest $request): PromiseInterface
     {
         /** @var array{statusCode: int, headers: array<string, mixed>, data: string} $fixture */
         $fixture = json_decode(
-            File::get(self::pathFor($request)),
+            File::get(self::pathFor($test, $request)),
             true,
             flags: JSON_THROW_ON_ERROR,
         );
@@ -38,9 +39,9 @@ final class HttpFixture
         );
     }
 
-    public static function store(HttpRequest $request, HttpResponse $response): void
+    public static function store(TestCase $test, HttpRequest $request, HttpResponse $response): void
     {
-        $path = self::pathFor($request);
+        $path = self::pathFor($test, $request);
 
         File::ensureDirectoryExists(dirname($path));
         File::put($path, json_encode([
