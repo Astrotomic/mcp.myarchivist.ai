@@ -65,6 +65,7 @@ class AppServiceProvider extends ServiceProvider
                 ->baseUrl(config()->string('services.archivist.base_url'))
                 ->timeout(30)
                 ->connectTimeout(3)
+                ->asJson()
                 ->acceptJson()
                 ->throw(function (Response $response, RequestException $exception): never {
                     throw ArchivistApiException::fromResponse($response, $exception);
