@@ -1,0 +1,33 @@
+{
+    "statusCode": 404,
+    "headers": {
+        "Content-Type": [
+            "application/json"
+        ],
+        "Date": [
+            "Thu, 16 Jul 2026 20:41:54 GMT"
+        ],
+        "Server": [
+            "railway-hikari"
+        ],
+        "x-process-time": [
+            "1.1397209167480469"
+        ],
+        "x-railway-request-id": [
+            "a8BR9YdcSgmDnl629o6EoQ"
+        ],
+        "Content-Length": [
+            "28"
+        ],
+        "x-hikari-trace": [
+            "ams1.9qww"
+        ],
+        "x-railway-edge": [
+            "ams1"
+        ],
+        "Connection": [
+            "keep-alive"
+        ]
+    },
+    "data": "{\"detail\":\"Quest not found\"}"
+}

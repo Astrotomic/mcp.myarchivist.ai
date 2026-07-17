@@ -1,0 +1,36 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Content-Type": [
+            "application/json"
+        ],
+        "Date": [
+            "Thu, 16 Jul 2026 20:41:42 GMT"
+        ],
+        "Server": [
+            "railway-hikari"
+        ],
+        "x-process-time": [
+            "1.301265001296997"
+        ],
+        "x-railway-request-id": [
+            "af4j0FWdTbGXksx5ljLL4A"
+        ],
+        "Content-Length": [
+            "2997"
+        ],
+        "x-hikari-trace": [
+            "ams1.9qww"
+        ],
+        "x-railway-edge": [
+            "ams1"
+        ],
+        "vary": [
+            "accept-encoding"
+        ],
+        "Connection": [
+            "keep-alive"
+        ]
+    },
+    "data": "{\"data\":[{\"created_at\":\"2026-07-07T22:20:47.010000\",\"updated_at\":null,\"id\":\"jfq8vjavgrolfp7hoo813wnw\",\"name\":\"Beachside Mirage\",\"aliases\":[\"Spring-Break Resort\"],\"type\":null,\"description\":\"Beachside Mirage is a magically shielded tropical resort located just outside Byriver. It features lush landscapes, shimmering beaches, crystal-clear waters, sprawling pools with swim-up bars, floating lanterns, and enchanted cocktails. The resort is known for its illusions and enchantments. During spring break, students from Arcano Academy frequently visit Spring-Break Resort, gathering at the crowded poolside bar and the grand pool area.\",\"image\":null,\"tcg_image\":null,\"campaign_id\":\"cmr9ilyjy00020ahu90yhvzx6\",\"merge\":false,\"parent_id\":null},{\"created_at\":\"2026-07-07T22:20:46.891000\",\"updated_at\":null,\"id\":\"uwh3615mg8oz5rvpjg58urc8\",\"name\":\"Byriver\",\"aliases\":[\"By River\"],\"type\":null,\"description\":\"Byriver is a city located below gently rolling hills, adjacent to the Arcano Academy. The city was devastated by a dragon that demanded all its gold be delivered to ancient temple ruins within four days, threatening to burn the countryside if the city did not comply. Writings found in the nearby mountains indicate that knights from By River recently entered the mountains to address the mountain giant problem. Mountain Giants have been noted to rally around Haldraxis in their shared animosity toward By River.\\nBy River is a walled riverside town featuring a guarded City Gate, a Barracks near the river, a Keep with a Tower, and a lowered drawbridge over a moat. The town is home to merchants, including Sybil, Fireworks Troupe, and town Tower Guards led by Philip. The town's Gate is raised to allow entry when three Mountain Giants are recognized by Philip. Ballista Crews and townsfolk are present behind the Gate. The party frees trapped Ballista Crews from the Barracks, who then operate Ballista Crews. The party advances into By River, crosses a charred field to the Keep, and engages in battle with Haldraxis on the Tower. Following the dragon's defeat, townsfolk, including Philip, Ballista Crews, Sybil, and Entertainers, offer the party rewards, including doubled pay, free rooms and drinks at the Flaming Wizard Tavern, and store discounts.\",\"image\":null,\"tcg_image\":null,\"campaign_id\":\"cmr9ilyjy00020ahu90yhvzx6\",\"merge\":true,\"parent_id\":null},{\"created_at\":\"2026-07-07T22:20:46.768000\",\"updated_at\":null,\"id\":\"undwd5bi9j59clah3qdac7ah\",\"name\":\"Arcano Academy\",\"aliases\":[\"The College\"],\"type\":null,\"description\":\"Arcano Academy is a prestigious magical academy located in the rolling hills near the city of Byriver. Its stone walls are imbued with enchantments. The academy teaches multiple schools of magic, including a healing school. During spring break, students from The College visit the nearby magical resort Beachside Mirage.\",\"image\":null,\"tcg_image\":null,\"campaign_id\":\"cmr9ilyjy00020ahu90yhvzx6\",\"merge\":false,\"parent_id\":null}],\"total\":23,\"page\":2,\"size\":20,\"pages\":2}"
+}

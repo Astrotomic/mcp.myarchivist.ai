@@ -1,0 +1,36 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Content-Type": [
+            "application/json"
+        ],
+        "Date": [
+            "Thu, 16 Jul 2026 20:40:44 GMT"
+        ],
+        "Server": [
+            "railway-hikari"
+        ],
+        "x-process-time": [
+            "1.4948244094848633"
+        ],
+        "x-railway-request-id": [
+            "gCZKJyXKRw2e8NlSCYBc-A"
+        ],
+        "Content-Length": [
+            "4158"
+        ],
+        "x-hikari-trace": [
+            "ams1.b55h"
+        ],
+        "x-railway-edge": [
+            "ams1"
+        ],
+        "vary": [
+            "accept-encoding"
+        ],
+        "Connection": [
+            "keep-alive"
+        ]
+    },
+    "data": "{\"data\":[{\"created_at\":\"2026-07-07T22:59:52.821000\",\"updated_at\":null,\"id\":\"pahpa4gpeuxnvx9n6ozv5vt3\",\"character_name\":\"Bogo Boromir\",\"character_alias\":null,\"character_aliases\":[],\"player_name\":null,\"player_handle\":null,\"player\":null,\"description\":\"Bogo Boromir is Bronn Boromir\u2019s uncle. Bronn addressed him as \u201cUncle BOGO\u201d when composing a message. Bronn used the mountain\u2019s Magical Letterbox to send Bogo a letter stating he had taken down a dragon and demanding pride in the deed.\",\"backstory\":null,\"type\":\"NPC\",\"image\":null,\"tcg_image\":null,\"campaign_id\":\"cmr9ilyjy00020ahu90yhvzx6\",\"merge\":false},{\"created_at\":\"2026-07-07T22:20:45.167000\",\"updated_at\":null,\"id\":\"y9pa52hl91d0tqh6coaeoivd\",\"character_name\":\"Bronn Boromir\",\"character_alias\":null,\"character_aliases\":[\"Bronn\"],\"player_name\":null,\"player_handle\":null,\"player\":null,\"description\":\"Bronn Boromir is dark-haired, dark-eyed, and notably muscular, resembling a fighter more than a wizard. He witnessed Gideon Xander fall, helped him up, introduced himself, and invited Gideon for a drink. He accompanied Gideon to a corner booth, sat with Dookeldorn Bludvart, rejected Gideon's disguised water, poured real drinks from an abandoned bottle, and toasted with Dookeldorn Bludvart.\\nWhen the group left for the Mountain Route, he followed Dookeldorn, proposed using a fake or illusory pile of gold to trap a dragon, questioned E.t. Skittles about his past, and identified himself as a member of the prestigious Boromir Family, noting his lack of their magical talent and wealth. On the mountain, he tested an ice flower by eating it, sprinted forward during a fight with Mountain Giants, used Mage Hand to drive frost flowers into a wounded giant, cut into a giant's rear haunches as it fled, cast Shield to deflect a greatclub blow, attempted Green-Flame Blade and missed, helped loot the Mountain Giants, set the giant encampment on fire, and later offered tea to the postal carrier Gil.\\nBronn wielded a greatclub and a dagger wreathed in green flame. He utilized Mage Hand to manipulate objects at a distance. He searched the ruins for lingering arcane traces but found nothing. He examined a damaged archway, selected a removable keystone, and hid nearby. He used his Mage Hand to pull the keystone as Haldraxis passed, but the dragon dodged. During the fight, he hurled a Cache Of Ice Flowers at Haldraxis with his Mage Hand, stepped into the open beside Dookeldorn, and struck the fleeing dragon with his greatclub.\\nIn the Mountainside Cave Carved Like An Enormous Dragon Skull, he entered the Workshop and attempted to determine whether a giant was a prisoner. He stabbed the giant with his dagger wreathed in green flame during an ambush, performed a baiting call imitating an injured giant, crossed the steam chamber, found the escaped giant at a cliff opening, and used telekinetic force to shove the giant, causing it to plunge to its death.\\nBronn is a party member who restrained Xander and declared that Haldraxis must die. He delivered a hand-borne bundle of twenty-one Ice-Flower Petals into the dragon's wounded neck and wielded a flame-wreathed greatclub in battle. He received a rapier from freed Tower Guards and later banged on Sybil's charred storefront, claiming to be sent by Philip.\\nBronn entered the Hoard (About Five Thousand Gold) chamber and joined the ambush plan, hurling the Ice-Flower Petals into Haldraxis's gizzard/neck, which caused the dragon to roar awake and flee. He fought three Mountain Giants at the City Gate, was struck by a greatclub, and entered a battle-rage. He smashed a giant with his flaming club, absorbed further blows, and pressed his heated club against a giant's ruined backside to kill him. After leaving the Gate fight with the party, he rushed to the Keep courtyard and into the Tower, drank a healing draught on the roof, and hurled a dagger into Haldraxis. After the dragon died, he stopped at a Magical Letterbox to send a boastful message to his uncle Bogo Boromir.\",\"backstory\":null,\"type\":\"PC\",\"image\":null,\"tcg_image\":null,\"campaign_id\":\"cmr9ilyjy00020ahu90yhvzx6\",\"merge\":true}],\"total\":2,\"page\":1,\"size\":20,\"pages\":1}"
+}

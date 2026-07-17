@@ -1,0 +1,36 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Content-Type": [
+            "application/json"
+        ],
+        "Date": [
+            "Fri, 17 Jul 2026 07:16:39 GMT"
+        ],
+        "Server": [
+            "railway-hikari"
+        ],
+        "x-process-time": [
+            "24.882983684539795"
+        ],
+        "x-railway-request-id": [
+            "DJNGJHVWQ_GNERw-n6XIxQ"
+        ],
+        "Content-Length": [
+            "2016"
+        ],
+        "x-hikari-trace": [
+            "ams1.cycp"
+        ],
+        "x-railway-edge": [
+            "ams1"
+        ],
+        "vary": [
+            "accept-encoding"
+        ],
+        "Connection": [
+            "keep-alive"
+        ]
+    },
+    "data": "{\"answer\":\"### Latest 5 Moments in \\\"Twilight of the Gods\\\"\\n\\n1. **Initial Zombie Encounter**: The group faced a night battle against zombies in a mine. Surina Nemmonis was attacked by a skeleton, which Korvathun defeated by smashing its chest and kicking off its head. Gwendolyn Silverflame and Morvain retreated to prepare spells while being ambushed by arrows and additional undead.\\n\\n2. **Use of Spells and Healing**: Gwendolyn attempted to use a acid spell against the undead, but it had minimal effect. After sustaining injuries, the group regrouped behind a barricade, with Brennen healing Korvathun and Gwendolyn trying fire spells against the undead.\\n\\n3. **Discovery of Equipment**: Korvathun found equipment, gold, and signs that bodies had been dragged away, leading Gwendolyn to suspect they had been reanimated as zombies. The group prepared to open another door, behind which more undead were lying in wait.\\n\\n4. **Combat in the Sleeping Quarters**: Upon opening the door, the group engaged multiple undead. Korvathun shot an undead with an arrow, and Gwendolyn used magic to injure another. The battle intensified with explosions from flying skulls and Gwendolyn setting beds on fire to prevent resurrection of the undead.\\n\\n5. **Final Cleanup and Looting**: After defeating all the undead in the sleeping quarters, Gwendolyn burned the remaining bodies and beds. The group organized their healing supplies and collected gold and gems found during their exploration.\",\"citations\":[{\"citation_id\":\"S1\",\"source_type\":\"recap\",\"source_id\":\"cmrca54i000010ahxscrthvb6\",\"title\":\"session recap: Nacht des Untotenkampfes\",\"session_number\":79,\"excerpt\":\"Die Gruppe befand sich in der Mine und stellte sich einem n\u00e4chtlichen Kampf gegen Zombies. Surina Nemmonis und Korvathun waren in der N\u00e4he eines Skeletts, das sich gegen Surina wandte. korva zertr\u00fcmmerte dessen Brustkorb und trat ihm den Kopf ab, woraufhin das Skelett zusammen...\"}],\"monthlyTokensRemaining\":3876367,\"hourlyTokensRemaining\":289962}"
+}

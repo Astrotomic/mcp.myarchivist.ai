@@ -1,0 +1,210 @@
+{
+    "current_page": 1,
+    "data": [
+        {
+            "id": "cmrb9p1s1002i0tgumjz2t1th",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "from_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "from_type": "World",
+            "to_id": "bpma6otgrarkbbwcgjxpy727",
+            "to_type": "Character",
+            "alias": "Pepe",
+            "created_at": "2026-07-07T23:15:46.355000"
+        },
+        {
+            "id": "cmrb9p1s1002j0tgukvk2y3hc",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "from_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "from_type": "World",
+            "to_id": "e0c3lw2x5m9vjdrk3oqngjj3",
+            "to_type": "Character",
+            "alias": "Courier",
+            "created_at": "2026-07-07T23:15:46.355000"
+        },
+        {
+            "id": "cmrb9p1s1002k0tguvzaf1mrk",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "from_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "from_type": "World",
+            "to_id": "f99ub9i28mbd1fb1m5zblzpf",
+            "to_type": "Character",
+            "alias": "Haldraxis",
+            "created_at": "2026-07-07T23:15:46.355000"
+        },
+        {
+            "id": "cmrb9p1s1002l0tgubn8gcdt3",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "from_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "from_type": "World",
+            "to_id": "j8fbbyu5qm75wr19uq017bhc",
+            "to_type": "Character",
+            "alias": "E.t.",
+            "created_at": "2026-07-07T23:15:46.355000"
+        },
+        {
+            "id": "cmrb9p1s1002m0tgutioz0gr7",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "from_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "from_type": "World",
+            "to_id": "j8fbbyu5qm75wr19uq017bhc",
+            "to_type": "Character",
+            "alias": "E.t. Skittles",
+            "created_at": "2026-07-07T23:15:46.355000"
+        },
+        {
+            "id": "cmrb9p1s1002n0tgu7zkqif0n",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "from_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "from_type": "World",
+            "to_id": "jyo4bb55tat0qva20e4017pf",
+            "to_type": "Character",
+            "alias": "Sybil",
+            "created_at": "2026-07-07T23:15:46.355000"
+        },
+        {
+            "id": "cmrb9p1s1002o0tguxh5b0w70",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "from_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "from_type": "World",
+            "to_id": "kelnd542lty3owpk9sz8uev5",
+            "to_type": "Character",
+            "alias": "Gideon",
+            "created_at": "2026-07-07T23:15:46.355000"
+        },
+        {
+            "id": "cmrb9p1s1002p0tguzeb903pb",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "from_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "from_type": "World",
+            "to_id": "kelnd542lty3owpk9sz8uev5",
+            "to_type": "Character",
+            "alias": "Gideon Xander",
+            "created_at": "2026-07-07T23:15:46.355000"
+        },
+        {
+            "id": "cmrb9p1s1002q0tgu3udgqzvx",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "from_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "from_type": "World",
+            "to_id": "mhsosnh3c6vrqhaq0sgzuqrp",
+            "to_type": "Character",
+            "alias": "Philip",
+            "created_at": "2026-07-07T23:15:46.355000"
+        },
+        {
+            "id": "cmrb9p1s1002r0tguka4yjdop",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "from_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "from_type": "World",
+            "to_id": "tzrzei1uka9bam2amzdtfrda",
+            "to_type": "Character",
+            "alias": "Dookeldorn",
+            "created_at": "2026-07-07T23:15:46.355000"
+        },
+        {
+            "id": "cmrb9p1s1002s0tgubq2bvvk7",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "from_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "from_type": "World",
+            "to_id": "tzrzei1uka9bam2amzdtfrda",
+            "to_type": "Character",
+            "alias": "Dookeldorn Bludvart",
+            "created_at": "2026-07-07T23:15:46.355000"
+        },
+        {
+            "id": "cmrb9p1s1002t0tguxdve0m8v",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "from_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "from_type": "World",
+            "to_id": "y9pa52hl91d0tqh6coaeoivd",
+            "to_type": "Character",
+            "alias": "Bronn",
+            "created_at": "2026-07-07T23:15:46.355000"
+        },
+        {
+            "id": "cmrb9p1s1002u0tgugodu87ba",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "from_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "from_type": "World",
+            "to_id": "y9pa52hl91d0tqh6coaeoivd",
+            "to_type": "Character",
+            "alias": "Bronn Boromir",
+            "created_at": "2026-07-07T23:15:46.355000"
+        },
+        {
+            "id": "cmrb9p1pk001o0tgudrbbycn2",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "from_id": "cmrb7mrzx00000akpsytd8b0f",
+            "from_type": "GameSession",
+            "to_id": "bpma6otgrarkbbwcgjxpy727",
+            "to_type": "Character",
+            "alias": "Pepe",
+            "created_at": "2026-07-07T23:15:46.265000"
+        },
+        {
+            "id": "cmrb9p1pk001p0tguye3xtbrw",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "from_id": "cmrb7mrzx00000akpsytd8b0f",
+            "from_type": "GameSession",
+            "to_id": "e0c3lw2x5m9vjdrk3oqngjj3",
+            "to_type": "Character",
+            "alias": "Courier",
+            "created_at": "2026-07-07T23:15:46.265000"
+        },
+        {
+            "id": "cmrb9p1pk001q0tgutji3p10i",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "from_id": "cmrb7mrzx00000akpsytd8b0f",
+            "from_type": "GameSession",
+            "to_id": "f99ub9i28mbd1fb1m5zblzpf",
+            "to_type": "Character",
+            "alias": "Haldraxis",
+            "created_at": "2026-07-07T23:15:46.265000"
+        },
+        {
+            "id": "cmrb9p1pk001r0tgub7zubj2w",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "from_id": "cmrb7mrzx00000akpsytd8b0f",
+            "from_type": "GameSession",
+            "to_id": "j8fbbyu5qm75wr19uq017bhc",
+            "to_type": "Character",
+            "alias": "E.t.",
+            "created_at": "2026-07-07T23:15:46.265000"
+        },
+        {
+            "id": "cmrb9p1pk001s0tgu9ohep4ay",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "from_id": "cmrb7mrzx00000akpsytd8b0f",
+            "from_type": "GameSession",
+            "to_id": "j8fbbyu5qm75wr19uq017bhc",
+            "to_type": "Character",
+            "alias": "E.t. Skittles",
+            "created_at": "2026-07-07T23:15:46.265000"
+        },
+        {
+            "id": "cmrb9p1pk001t0tguhqwm9gup",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "from_id": "cmrb7mrzx00000akpsytd8b0f",
+            "from_type": "GameSession",
+            "to_id": "jyo4bb55tat0qva20e4017pf",
+            "to_type": "Character",
+            "alias": "Sybil",
+            "created_at": "2026-07-07T23:15:46.265000"
+        },
+        {
+            "id": "cmrb9p1pk001u0tgu689p3c2p",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "from_id": "cmrb7mrzx00000akpsytd8b0f",
+            "from_type": "GameSession",
+            "to_id": "kelnd542lty3owpk9sz8uev5",
+            "to_type": "Character",
+            "alias": "Gideon",
+            "created_at": "2026-07-07T23:15:46.265000"
+        }
+    ],
+    "from": 1,
+    "last_page": 45,
+    "per_page": 20,
+    "to": 20,
+    "total": 898
+}

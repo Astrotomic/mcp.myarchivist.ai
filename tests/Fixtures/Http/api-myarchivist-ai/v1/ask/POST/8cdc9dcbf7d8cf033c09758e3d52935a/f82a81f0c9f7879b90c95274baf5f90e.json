@@ -1,0 +1,36 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Content-Type": [
+            "application/json"
+        ],
+        "Date": [
+            "Fri, 17 Jul 2026 07:13:35 GMT"
+        ],
+        "Server": [
+            "railway-hikari"
+        ],
+        "x-process-time": [
+            "23.51787519454956"
+        ],
+        "x-railway-request-id": [
+            "j9aKhnE1SjacejTylt7tkg"
+        ],
+        "Content-Length": [
+            "852"
+        ],
+        "x-hikari-trace": [
+            "ams1.aydy"
+        ],
+        "x-railway-edge": [
+            "ams1"
+        ],
+        "vary": [
+            "accept-encoding"
+        ],
+        "Connection": [
+            "keep-alive"
+        ]
+    },
+    "data": "{\"answer\":\"**Triboar Overview**\\n\\nTriboar appears to be a significant location within the campaign \\\"Twilight of the Gods.\\\" Here are some details:\\n\\n### Locations in Triboar\\n1. **Bibliothek** (Library)\\n2. **H\u00e4ndlerviertel** (Merchant Quarter)\\n3. **Oberes Viertel** (Upper Quarter)\\n4. **Talking Troll** (a specific establishment)\\n5. **Karawanen-Platz** (Caravan Square)\\n\\n### Characters Associated with Triboar\\n- **Priester** (The Priest)\\n- **Stadtwache** (City Watch)\\n- **Bibliothekar Triboar** (Librarian)\\n- **K\u00e4pt\u2019n (Stadtwache Triboar)** (Captain of the City Watch)\\n- **Kaixus**\\n\\nThis information indicates that Triboar is a bustling location with various characters and distinct areas, likely contributing to the campaign's narrative and gameplay.\",\"citations\":[],\"monthlyTokensRemaining\":4047806,\"hourlyTokensRemaining\":461401}"
+}

@@ -2,31 +2,14 @@
 
 namespace Tests\Gummibeer\Mcp\Tools\Sessions;
 
-use App\Data\SessionTranscriptData;
-use App\Mcp\Servers\ArchivistServer;
-use App\Mcp\Tools\Sessions\GetSessionTranscriptTool;
-use Illuminate\Support\Facades\Http;
-use Illuminate\Testing\Fluent\AssertableJson;
-use PHPUnit\Framework\Attributes\Test;
-use Tests\GummibeerTestCase;
+use Tests\RealWorld\Mcp\Tools\Sessions\GetSessionTranscriptToolTest as RealWorldGetSessionTranscriptToolTest;
 
-final class GetSessionTranscriptToolTest extends GummibeerTestCase
+final class GetSessionTranscriptToolTest extends RealWorldGetSessionTranscriptToolTest
 {
-    #[Test]
-    public function it_fetches_data(): void
+    public static function sessionDataProvider(): array
     {
-        ArchivistServer::tool(GetSessionTranscriptTool::class, [
-            'session_id' => 'cmp49egl1000204if2fmow69m',
-        ])
-            ->assertOk()
-            ->assertStructuredContent(function (AssertableJson $json): void {
-                $json->assertJsonSchema(SessionTranscriptData::class);
-                // intentionally no snapshot test for privacy
-            });
-    }
-
-    protected function skipHttpFixtures(): bool
-    {
-        return true;
+        return [
+            'session' => ['cmp49egl1000204if2fmow69m'],
+        ];
     }
 }

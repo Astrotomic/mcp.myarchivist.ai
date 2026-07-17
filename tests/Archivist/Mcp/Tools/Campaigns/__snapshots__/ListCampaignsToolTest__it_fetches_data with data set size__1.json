@@ -1,0 +1,24 @@
+{
+    "current_page": 1,
+    "data": [
+        {
+            "id": "cmr9ilyjy00020ahu90yhvzx6",
+            "title": "My First Campaign",
+            "description": "This is your first campaign. You can edit this description to add more information about your campaign.",
+            "system": "D&D 5e",
+            "image": null,
+            "public": false,
+            "mature": false,
+            "owner_id": "b9a0a71b-eb62-455a-9e56-a596872a42e2",
+            "created_at": "2026-07-06T17:49:46.414000",
+            "updated_at": "2026-07-07T23:15:46.324000",
+            "archived": false,
+            "archived_at": null
+        }
+    ],
+    "from": 1,
+    "last_page": 1,
+    "per_page": 100,
+    "to": 1,
+    "total": 1
+}

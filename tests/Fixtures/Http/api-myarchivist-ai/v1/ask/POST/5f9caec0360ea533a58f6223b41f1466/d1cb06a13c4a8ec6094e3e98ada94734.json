@@ -5,22 +5,22 @@
             "application/json"
         ],
         "Date": [
-            "Thu, 16 Jul 2026 17:04:12 GMT"
+            "Fri, 17 Jul 2026 07:17:29 GMT"
         ],
         "Server": [
             "railway-hikari"
         ],
         "x-process-time": [
-            "30.65028405189514"
+            "25.31332540512085"
         ],
         "x-railway-request-id": [
-            "5IAthN4qSryQuoV2CYBc-A"
+            "z62rEKT6RHapLk-x0_TJvA"
         ],
         "Content-Length": [
-            "1372"
+            "1439"
         ],
         "x-hikari-trace": [
-            "ams1.b55h"
+            "ams1.cycp"
         ],
         "x-railway-edge": [
             "ams1"
@@ -32,5 +32,5 @@
             "keep-alive"
         ]
     },
-    "data": "{\"answer\":\"**Boromir Overview**\\n\\n- **Name:** Bronn Boromir\\n- **Type:** Character\\n- **Aliases:** Bronn\\n- **Sheet Type:** Player Character (PC)\\n\\n**Description:**\\nBronn Boromir is depicted as dark-haired, dark-eyed, and muscular, resembling a fighter rather than a wizard. He is a member of the prestigious Boromir Family, although he notes his lack of their magical talent and wealth.\\n\\n**Notable Actions:**\\n- Witnessed Gideon Xander fall and helped him up.\\n- Proposed using a fake pile of gold to trap a dragon.\\n- Engaged in combat with Mountain Giants, using various spells and weapons, including a greatclub and a dagger wreathed in green flame.\\n- Participated in strategic plans against a dragon named Haldraxis, including using Ice-Flower Petals to injure it.\\n- Sent a message to his uncle Bogo Boromir after a significant battle.\\n\\n**Session Appearances:**\\n- Dragon's Ransom and Healing Bonds\\n- Clash with the Slumbering Dragon\\n- Dragon's Fall and Glory\\n\\n**Related Characters and Factions:**\\n- **Bogo Boromir:** Another character associated with the Boromir name.\\n- **Boromir Family:** A faction that includes Bronn Boromir and is noted for its prestige. \\n\\nThis information provides a comprehensive view of Bronn Boromir within the campaign \\\"My First Campaign.\\\"\",\"citations\":[],\"monthlyTokensRemaining\":4983762,\"hourlyTokensRemaining\":483762}"
+    "data": "{\"answer\":\"Boromir refers to the **Boromir Family**, a prestigious faction known for magical talent and wealth. Bronn Boromir, a character in the campaign, identifies himself as a member of this family, although he lacks their magical abilities and wealth. He joined an expedition to earn prestige for his family and make his school's steward proud.\\n\\nAdditionally, Bronn has an uncle named **Bogo Boromir**, whom he addresses in a message after a significant event in the campaign.\",\"citations\":[{\"citation_id\":\"S1\",\"source_type\":\"faction\",\"source_id\":\"wq9f2cihbdoi1woeevfl5z06\",\"title\":\"faction: Boromir Family\",\"session_number\":null,\"excerpt\":\"Name: Boromir Family Type: faction Aliases: The Boromir Family Description: Boromir Family is a prestigious family known for magical talent and wealth. Bronn Boromir identified himself as a member of this family. He stated that the lineage is renowned for extraordinary magical...\"},{\"citation_id\":\"S3\",\"source_type\":\"character\",\"source_id\":\"pahpa4gpeuxnvx9n6ozv5vt3\",\"title\":\"character: Bogo Boromir\",\"session_number\":null,\"excerpt\":\"Name: Bogo Boromir Type: character Sheet type: NPC Description: Bogo Boromir is Bronn Boromir\u2019s uncle. Bronn addressed him as \u201cUncle BOGO\u201d when composing a message. Bronn used the mountain\u2019s Magical Letterbox to send Bogo a letter stating he had taken down a dragon and demandi...\"}],\"monthlyTokensRemaining\":4967184,\"hourlyTokensRemaining\":483422}"
 }

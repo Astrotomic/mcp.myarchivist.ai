@@ -1,0 +1,366 @@
+{
+    "current_page": 2,
+    "data": [
+        {
+            "id": "cmrb8t99b00010tgotryyvjwl",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7m8a300000aj6fe0v0ucr",
+            "game_session_ids": [
+                "cmrb7m8a300000aj6fe0v0ucr"
+            ],
+            "label": "Confirm Mountain Giants' cooperation with Haldraxis",
+            "type": "step",
+            "index": 1,
+            "parent_id": "cmrb8uc7c00330tgo4yute2xp",
+            "description": "As they reviewed what they knew, the party confirmed from the Looted Giant Camp Journal that the Mountain Giants hated By River, had moved beyond shared hostility into active cooperation with Haldraxis, and that at least one giant had gone to his new headquarters or lair.",
+            "metadata": null,
+            "created_at": "2026-07-07T22:51:03.057000",
+            "updated_at": null
+        },
+        {
+            "id": "cmrb8uca400340tgokfn0e7an",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7m8a300000aj6fe0v0ucr",
+            "game_session_ids": [
+                "cmrb7m8a300000aj6fe0v0ucr"
+            ],
+            "label": "Discovery of Dragon's Lair",
+            "type": "minor",
+            "index": 1,
+            "parent_id": "cmrb8uc4g00320tgo0sp93qg4",
+            "description": "The group discovered a mostly collapsed temple with no immediate threats present. Gideon found two massive dragon prints behind an altar, indicating where Haldraxis usually landed, and also uncovered fresh dragon dung, which E.t. deemed valuable. Bronn searched for arcane traces but found nothing significant, then set a trap using a precarious archway. Dookeldorn and Bronn prepared for an ambush while Gideon suggested talking to the dragon, leading to a discussion about Dookeldorn's brother's death.",
+            "metadata": {
+                "eventEndIndex": 15,
+                "eventStartIndex": 6
+            },
+            "created_at": "2026-07-07T22:51:53.630000",
+            "updated_at": null
+        },
+        {
+            "id": "cmrb8ucln00380tgopsz07p9b",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7m8a300000aj6fe0v0ucr",
+            "game_session_ids": [
+                "cmrb7m8a300000aj6fe0v0ucr"
+            ],
+            "label": "Dragon Lair Encounter and Ambush",
+            "type": "major",
+            "index": 1,
+            "parent_id": null,
+            "description": "The party approached the dragon's lair, where Gideon noted the Dragon Skull’s Mouth. Dookeldorn suggested using Troll Fat as bait, which he threw into the cave, attracting attention from within. Upon entering the cave, they discovered a Workshop occupied by a Mountain Giants, whom they ambushed after creating a distraction. The giant was defeated and subsequently killed by Dookeldorn after revealing he was coerced by Haldraxis. The party then set a trap using the giant's body to lure more Mountain Giants.",
+            "metadata": null,
+            "created_at": "2026-07-07T22:51:54.045000",
+            "updated_at": null
+        },
+        {
+            "id": "cmrb8ucr9003a0tgon5gml1sn",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7m8a300000aj6fe0v0ucr",
+            "game_session_ids": [
+                "cmrb7m8a300000aj6fe0v0ucr"
+            ],
+            "label": "Entering the Dragon Skull Cave",
+            "type": "minor",
+            "index": 1,
+            "parent_id": "cmrb8ucln00380tgopsz07p9b",
+            "description": "The party observed frantic hammering sounds from within the cave as they approached. E.t. activated a Cube Of Force to protect the group from scalding steam, allowing them to pass through the Dragon Skull’s Mouth safely. Inside, they discovered a Mist-Filled Foyer with a steam-producing device and noted an open corridor and a door to the northwest, realizing the dragon could not fit through the narrower corridor.",
+            "metadata": {
+                "eventEndIndex": 46,
+                "eventStartIndex": 42
+            },
+            "created_at": "2026-07-07T22:51:54.248000",
+            "updated_at": null
+        },
+        {
+            "id": "cmrb8ud8g003g0tgook2vjqry",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7m8a300000aj6fe0v0ucr",
+            "game_session_ids": [
+                "cmrb7m8a300000aj6fe0v0ucr"
+            ],
+            "label": "Giant's Escape and Defeat",
+            "type": "minor",
+            "index": 1,
+            "parent_id": "cmrb8ud2r003e0tgor1367mdv",
+            "description": "E.t. consumed a flower to recover from injuries while Dookeldorn searched the steam chamber for the giant. Bronn discovered the giant attempting to escape through a newly widened cliffside opening. Using telekinetic force, Bronn knocked the giant down the mountain, killing him. The party then examined the area, finding giant bedrolls and a Dragon-Head Medallion that E.t. noted could fit into a larger mechanism.",
+            "metadata": {
+                "eventEndIndex": 83,
+                "eventStartIndex": 76
+            },
+            "created_at": "2026-07-07T22:51:54.866000",
+            "updated_at": null
+        },
+        {
+            "id": "cmrb9391j00010i9kvgcj7w4o",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7mrzx00000akpsytd8b0f",
+            "game_session_ids": [
+                "cmrb7mrzx00000akpsytd8b0f"
+            ],
+            "label": "Gideon suggests waking Haldraxis",
+            "type": "step",
+            "index": 1,
+            "parent_id": "cmrb9457t00220i9kwknwhg9s",
+            "description": "Gideon proposed waking Haldraxis to talk; Bronn stopped him, reminded the group that the dragon had murdered his brother, and declared that Haldraxis had to die, with E.t. backing the plan to kill him.",
+            "metadata": null,
+            "created_at": "2026-07-07T22:58:49.338000",
+            "updated_at": null
+        },
+        {
+            "id": "cmrb9457t00220i9kwknwhg9s",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7mrzx00000akpsytd8b0f",
+            "game_session_ids": [
+                "cmrb7mrzx00000akpsytd8b0f"
+            ],
+            "label": "Ambush Plan Against Haldraxis",
+            "type": "minor",
+            "index": 1,
+            "parent_id": "cmrb9451k00200i9ku45jygr2",
+            "description": "Gideon proposed waking Haldraxis to talk, but Bronn intervened, reminding the group of the dragon's past actions against his brother and insisting that Haldraxis must die. E.t. supported Bronn's plan to kill the dragon. The group then coordinated an ambush, deciding that Bronn would deliver Ice-Flower Petals magically, Dookeldorn would shoot into the dragon's throat, and Gideon would enhance Bronn's abilities instead of risking a curse on the sleeping dragon.",
+            "metadata": {
+                "eventEndIndex": 2,
+                "eventStartIndex": 1
+            },
+            "created_at": "2026-07-07T22:59:31.034000",
+            "updated_at": null
+        },
+        {
+            "id": "cmrb945f600240i9kbadyocp7",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7mrzx00000akpsytd8b0f",
+            "game_session_ids": [
+                "cmrb7mrzx00000akpsytd8b0f"
+            ],
+            "label": "Dragon Hoard and City Defense",
+            "type": "major",
+            "index": 1,
+            "parent_id": null,
+            "description": "The group assessed a dragon's Hoard, estimating it to contain five thousand gold pieces, and noted the dragon's escape route overlooking a mountain river. After losing sight of the dragon, they chose to use Hang Gliders to descend to a Farmer's Field, where they heard the dragon beyond the gates. Upon arrival at the Gate, they encountered three Mountain Giants, one of which attempted to lift the Gate. A battle ensued, resulting in the defeat of the Mountain Giants, with Dookeldorn killing a sleeping giant before the Gate was opened by Philip, who informed them of Haldraxis's early arrival.",
+            "metadata": null,
+            "created_at": "2026-07-07T22:59:31.299000",
+            "updated_at": null
+        },
+        {
+            "id": "cmrb945li00260i9ky6ja8714",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7mrzx00000akpsytd8b0f",
+            "game_session_ids": [
+                "cmrb7mrzx00000akpsytd8b0f"
+            ],
+            "label": "Mountain Giants Attack City Gate",
+            "type": "minor",
+            "index": 1,
+            "parent_id": "cmrb945f600240i9kbadyocp7",
+            "description": "Three Mountain Giants at the Gate noticed the arriving group, with one attempting to lift the Gate. One giant charged Bronn, striking him with a greatclub, while another continued to force the Gate upward. Dookeldorn shot the Gate-lifting giant, and Gideon cursed two Mountain Giants. The battle escalated with Bronn and E.t. engaging the Mountain Giants, while Dookeldorn summoned a dragon companion named Pepe. The fight concluded with Bronn burning the last giant to death after a series of attacks.",
+            "metadata": {
+                "eventEndIndex": 27,
+                "eventStartIndex": 9
+            },
+            "created_at": "2026-07-07T22:59:31.527000",
+            "updated_at": null
+        },
+        {
+            "id": "cmrb945y2002a0i9kqu1x0vbt",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7mrzx00000akpsytd8b0f",
+            "game_session_ids": [
+                "cmrb7mrzx00000akpsytd8b0f"
+            ],
+            "label": "Looting the Dragon's Corpse",
+            "type": "minor",
+            "index": 1,
+            "parent_id": "cmrb945rt00280i9kpmkjw190",
+            "description": "Dookeldorn shot the fallen dragon in the gizzard before beginning to loot its corpse. During the looting, Pepe discovered a Distinctive Handkerchief belonging to Dookeldorn's brother, which was soaked but intact. Meanwhile, E.t. attempted to leave the Keep roof using a hang glider but failed to catch the air and fell unconscious to the ground. Gideon ran down to revive E.t. after the fall.",
+            "metadata": {
+                "eventEndIndex": 53,
+                "eventStartIndex": 50
+            },
+            "created_at": "2026-07-07T22:59:31.979000",
+            "updated_at": null
+        },
+        {
+            "id": "cmrb7p35i00020tbww9saw4tt",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7lhkb00000aj8tv2kz4d5",
+            "game_session_ids": [
+                "cmrb7lhkb00000aj8tv2kz4d5"
+            ],
+            "label": "Healing students approach Dookeldorn",
+            "type": "step",
+            "index": 2,
+            "parent_id": "cmrb7q44l003h0tbw44aua23t",
+            "description": "Tracy, Lacey, and Stacy, three similarly dressed students Dookeldorn recognized as belonging to the academy's healing school, slid into his booth after sensing his pain and asked whether he had been hurt.",
+            "metadata": null,
+            "created_at": "2026-07-07T22:19:48.903000",
+            "updated_at": null
+        },
+        {
+            "id": "cmrb7q4ax003j0tbwh3zd9d6j",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7lhkb00000aj8tv2kz4d5",
+            "game_session_ids": [
+                "cmrb7lhkb00000aj8tv2kz4d5"
+            ],
+            "label": "E.t. Encounters Distressed Guard",
+            "type": "minor",
+            "index": 2,
+            "parent_id": "cmrb7q41g003g0tbwaszjaghm",
+            "description": "E.t., a large turtle-like man, approached the bar where he ordered mead from the elf bartender Luna Starshimmer. He noticed Philip, a human in a ceremonial guard outfit, who was distressed over a dragon attack in By River and mentioned a reward for its capture. After some interaction, E.t. agreed to help Philip, who suggested recruiting a group of adventurers sitting in a corner booth.",
+            "metadata": {
+                "eventEndIndex": 26,
+                "eventStartIndex": 18
+            },
+            "created_at": "2026-07-07T22:20:37.048000",
+            "updated_at": null
+        },
+        {
+            "id": "cmrb7q4tq003p0tbwgfbw96il",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7lhkb00000aj8tv2kz4d5",
+            "game_session_ids": [
+                "cmrb7lhkb00000aj8tv2kz4d5"
+            ],
+            "label": "Personal Histories Shared by Campfire",
+            "type": "minor",
+            "index": 2,
+            "parent_id": "cmrb7q4kh003m0tbwdmdt4ul6",
+            "description": "Around the fire, E.t. inquired about the backgrounds of the group. Bronn revealed his struggles with his prestigious family, while Gideon shared his unpaid work under a professor due to the spell plague's impact on his church. Dookeldorn spoke of his presumed dead family and unveiled his brother's Moonbow, a treasured possession. E.t. then redirected the conversation back to their journey.",
+            "metadata": {
+                "eventEndIndex": 66,
+                "eventStartIndex": 61
+            },
+            "created_at": "2026-07-07T22:20:37.728000",
+            "updated_at": null
+        },
+        {
+            "id": "cmrb7q535003s0tbwzpdpflo4",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7lhkb00000aj8tv2kz4d5",
+            "game_session_ids": [
+                "cmrb7lhkb00000aj8tv2kz4d5"
+            ],
+            "label": "Giant Conflict and Camp Destruction",
+            "type": "major",
+            "index": 2,
+            "parent_id": null,
+            "description": "The party discovered a manifesto on a dead mountain giant, revealing that knights from By River were addressing giant issues, prompting retaliation from the giants. They located a giant encampment and engaged in combat, defeating two Mountain Giants and confirming their alliance with Haldraxis against By River. After looting the bodies and the camp for resources, the party set the encampment ablaze. Following a night of rest, E.t. sent a message home with Gil, who returned with acorns for E.t.'s raccoon roommates.",
+            "metadata": null,
+            "created_at": "2026-07-07T22:20:38.066000",
+            "updated_at": null
+        },
+        {
+            "id": "cmrb7q5cg003v0tbwihsnadmy",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7lhkb00000aj8tv2kz4d5",
+            "game_session_ids": [
+                "cmrb7lhkb00000aj8tv2kz4d5"
+            ],
+            "label": "Giant Battle Nears Conclusion",
+            "type": "minor",
+            "index": 2,
+            "parent_id": "cmrb7q535003s0tbwzpdpflo4",
+            "description": "Gideon cast Shield of Faith on Bronn, enhancing his defenses. Bronn then sprinted forward, using Mage Hand to drive three frost flowers into a wounded giant, severely injuring it. Dookeldorn followed up with a shot that killed the giant. The remaining giant charged at Bronn, but he successfully deflected its attack with Shield. E.t. then surfed down the hillside into the giant, knocking it prone and inflicting further damage. Gideon approached Bronn and prayed for Lathander to spare the giant.",
+            "metadata": {
+                "eventEndIndex": 93,
+                "eventStartIndex": 88
+            },
+            "created_at": "2026-07-07T22:20:38.401000",
+            "updated_at": null
+        },
+        {
+            "id": "cmrb8t9bu00020tgo8digs2bh",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7m8a300000aj6fe0v0ucr",
+            "game_session_ids": [
+                "cmrb7m8a300000aj6fe0v0ucr"
+            ],
+            "label": "Decide to go to dragon's meeting place",
+            "type": "step",
+            "index": 2,
+            "parent_id": "cmrb8uc7c00330tgo4yute2xp",
+            "description": "Concluding there was nothing else useful to do at the camp, the party decided to go directly to The Old Temple Ruins.",
+            "metadata": null,
+            "created_at": "2026-07-07T22:51:03.148000",
+            "updated_at": null
+        },
+        {
+            "id": "cmrb8uccy00350tgol8ceen9d",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7m8a300000aj6fe0v0ucr",
+            "game_session_ids": [
+                "cmrb7m8a300000aj6fe0v0ucr"
+            ],
+            "label": "Confrontation with Haldraxis the Dragon",
+            "type": "minor",
+            "index": 2,
+            "parent_id": "cmrb8uc4g00320tgo0sp93qg4",
+            "description": "Haldraxis arrived and demanded overdue gold from Gideon, threatening the city if not paid. Gideon attempted to negotiate, suggesting alternative ways for the dragon to acquire wealth, while Dookeldorn searched for signs of his fallen companions. Haldraxis, amused, allowed a brief conversation before Gideon led him toward a trapped archway, where Bronn triggered a collapse. Dookeldorn then shot Haldraxis, prompting the dragon to threaten the village.",
+            "metadata": {
+                "eventEndIndex": 21,
+                "eventStartIndex": 16
+            },
+            "created_at": "2026-07-07T22:51:53.733000",
+            "updated_at": null
+        },
+        {
+            "id": "cmrb8ucu2003b0tgooa4eza5d",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7m8a300000aj6fe0v0ucr",
+            "game_session_ids": [
+                "cmrb7m8a300000aj6fe0v0ucr"
+            ],
+            "label": "Investigation of The Workshop and Ambush",
+            "type": "minor",
+            "index": 2,
+            "parent_id": "cmrb8ucln00380tgopsz07p9b",
+            "description": "The party heard hammering from the northwest door and chose to investigate. Bronn stealthily opened the door, revealing a The Workshop with a Mountain Giants working on a trap. Gideon created a distraction with sparks, causing the giant to look away, allowing the party to prepare for an ambush.",
+            "metadata": {
+                "eventEndIndex": 52,
+                "eventStartIndex": 47
+            },
+            "created_at": "2026-07-07T22:51:54.349000",
+            "updated_at": null
+        },
+        {
+            "id": "cmrb8ud2r003e0tgor1367mdv",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7m8a300000aj6fe0v0ucr",
+            "game_session_ids": [
+                "cmrb7m8a300000aj6fe0v0ucr"
+            ],
+            "label": "Mountain Giants Encounter and Dragon's Treasure",
+            "type": "major",
+            "index": 2,
+            "parent_id": null,
+            "description": "The party encountered two Mountain Giants in a steam chamber, where Dookeldorn shot one giant, causing E.t. to be knocked unconscious. After healing E.t., Gideon enabled him to kill the free giant, while the restrained giant escaped into a Steam-Filled Sleeping Spaces. Bronn used telekinetic force to knock the fleeing giant down a mountain, killing him. The party then discovered a side passage leading to a Dragon’s Treasure Chamber, where they found Haldraxis asleep near a hoard of gold, still bearing a wound from their earlier encounter.",
+            "metadata": null,
+            "created_at": "2026-07-07T22:51:54.661000",
+            "updated_at": null
+        },
+        {
+            "id": "cmrb8udb9003h0tgoj3wrpbj2",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7m8a300000aj6fe0v0ucr",
+            "game_session_ids": [
+                "cmrb7m8a300000aj6fe0v0ucr"
+            ],
+            "label": "Discovery of Treasure Chamber",
+            "type": "minor",
+            "index": 2,
+            "parent_id": "cmrb8ud2r003e0tgor1367mdv",
+            "description": "Dookeldorn discovered a side passage leading to an alternate entrance. The party found a stone-blocked door with three slots for tablets, two of which were already filled. They inserted the Dragon-Head Tablet and arranged the tablets correctly, causing the door to rumble open and reveal the Dragon’s Treasure Chamber, where Haldraxis was asleep near a hoard of gold.",
+            "metadata": {
+                "eventEndIndex": 89,
+                "eventStartIndex": 84
+            },
+            "created_at": "2026-07-07T22:51:54.967000",
+            "updated_at": null
+        }
+    ],
+    "from": 21,
+    "last_page": 15,
+    "per_page": 20,
+    "to": 40,
+    "total": 300
+}

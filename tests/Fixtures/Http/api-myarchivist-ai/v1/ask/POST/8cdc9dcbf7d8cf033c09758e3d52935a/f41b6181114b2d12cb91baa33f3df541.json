@@ -1,0 +1,36 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Content-Type": [
+            "application/json"
+        ],
+        "Date": [
+            "Fri, 17 Jul 2026 07:15:50 GMT"
+        ],
+        "Server": [
+            "railway-hikari"
+        ],
+        "x-process-time": [
+            "26.853684425354004"
+        ],
+        "x-railway-request-id": [
+            "FYY2DX97Sui5Qb0nLPU1MQ"
+        ],
+        "Content-Length": [
+            "1917"
+        ],
+        "x-hikari-trace": [
+            "ams1.aydy"
+        ],
+        "x-railway-edge": [
+            "ams1"
+        ],
+        "vary": [
+            "accept-encoding"
+        ],
+        "Connection": [
+            "keep-alive"
+        ]
+    },
+    "data": "{\"answer\":\"The **Zhentarim** are a criminal organization operating in **Neverwinter**, known as the \\\"Snake Faction\\\" and associated with flying snake symbolism. They are viewed by the city guards as prime suspects in unrest occurring in the southeastern district, where someone is attempting to break ancient seals that once contained a Barghest attack.\\n\\n### Key Details:\\n- **Activities**: \\n - The Zhentarim have been linked to cultists and have been involved in conflicts against elementals in Neverwinter.\\n - They may have plans to open a rift in the city.\\n - They have been asked by the city guards for assistance in investigations due to a lack of troops.\\n\\n- **Recent Events**:\\n - A group including Gwendolyn Silverflame and others discovered evidence of the Zhentarim's involvement and helped secure the rift, stabilizing the city.\\n - They received an invitation to Waterdeep for their actions in protecting Neverwinter.\\n\\n- **Appearance**: \\n - Zhentarim members often wear black cloaks but rarely wear armor, unlike the heavily armored besiegers observed.\\n\\n- **Connections**: \\n - They have been reported to have many orcs and consider Tribor important.\\n - They operate in a complex situation involving various factions and threats, including an orc horde.\\n\\nThe Zhentarim's activities and connections suggest they play a significant role in the ongoing conflicts within the campaign.\",\"citations\":[{\"citation_id\":\"S1\",\"source_type\":\"faction\",\"source_id\":\"tvdx9q0uyywoeyfwjloabfaa\",\"title\":\"faction: Zhentarim\",\"session_number\":null,\"excerpt\":\"Name: Zhentarim Type: faction Description: Die Zentharim sind eine kriminelle Organisation, die in Niewinter operiert. Sie sind als Schlangenfraktion bekannt und mit fliegender Schlangen-Symbolik assoziiert. Die Stadtwachen betrachten die Zentharim als Hauptverd\u00e4chtige f\u00fcr die...\"}],\"monthlyTokensRemaining\":3926197,\"hourlyTokensRemaining\":339792}"
+}

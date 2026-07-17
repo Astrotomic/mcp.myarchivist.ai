@@ -32,15 +32,20 @@ abstract class ApiTestCase extends FeatureTestCase
 
         AssertableJson::macro('assertPaginatedList', function (Closure $assertDataItem): AssertableJson {
             /** @var AssertableJson $this */
-            return $this
+            $this
                 ->whereType('total', 'integer')
                 ->whereType('current_page', 'integer')
                 ->whereType('per_page', 'integer')
                 ->whereType('last_page', 'integer')
-                ->whereType('from', 'integer')
-                ->whereType('to', 'integer')
-                ->whereType('data', 'array')
-                ->has('data', fn (AssertableJson $data) => $data->each($assertDataItem));
+                ->whereType('from', ['integer', 'null'])
+                ->whereType('to', ['integer', 'null'])
+                ->whereType('data', 'array');
+
+            if ($this->toArray()['data'] === []) {
+                return $this;
+            }
+
+            return $this->has('data', fn (AssertableJson $data) => $data->each($assertDataItem));
         });
 
         AssertableJson::macro('assertJsonSchema', function (string|array $schemaable): AssertableJson {

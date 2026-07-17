@@ -1,0 +1,36 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Content-Type": [
+            "application/json"
+        ],
+        "Date": [
+            "Thu, 16 Jul 2026 20:40:42 GMT"
+        ],
+        "Server": [
+            "railway-hikari"
+        ],
+        "x-process-time": [
+            "1.417940616607666"
+        ],
+        "x-railway-request-id": [
+            "7_lBrlnJQauEfRosn6XIxQ"
+        ],
+        "Content-Length": [
+            "1403"
+        ],
+        "x-hikari-trace": [
+            "ams1.b55h"
+        ],
+        "x-railway-edge": [
+            "ams1"
+        ],
+        "vary": [
+            "accept-encoding"
+        ],
+        "Connection": [
+            "keep-alive"
+        ]
+    },
+    "data": "{\"data\":[{\"created_at\":\"2026-07-07T22:59:52.936000\",\"updated_at\":null,\"id\":\"e0c3lw2x5m9vjdrk3oqngjj3\",\"character_name\":\"Courier\",\"character_alias\":null,\"character_aliases\":[],\"player_name\":null,\"player_handle\":null,\"player\":null,\"description\":\"Courier answered the Magical Letterbox in person. He expressed frustration to the party about not having delivered their earlier letters or the loose acorns they had entrusted to him. He produced a handful of loose acorns and the undelivered letter, snatched Bronn Boromir\u2019s new letter, and trudged off down the mountain while carrying all three undelivered parcels and waving his middle fingers.\",\"backstory\":null,\"type\":\"NPC\",\"image\":null,\"tcg_image\":null,\"campaign_id\":\"cmr9ilyjy00020ahu90yhvzx6\",\"merge\":false},{\"created_at\":\"2026-07-07T22:59:52.821000\",\"updated_at\":null,\"id\":\"pahpa4gpeuxnvx9n6ozv5vt3\",\"character_name\":\"Bogo Boromir\",\"character_alias\":null,\"character_aliases\":[],\"player_name\":null,\"player_handle\":null,\"player\":null,\"description\":\"Bogo Boromir is Bronn Boromir\u2019s uncle. Bronn addressed him as \u201cUncle BOGO\u201d when composing a message. Bronn used the mountain\u2019s Magical Letterbox to send Bogo a letter stating he had taken down a dragon and demanding pride in the deed.\",\"backstory\":null,\"type\":\"NPC\",\"image\":null,\"tcg_image\":null,\"campaign_id\":\"cmr9ilyjy00020ahu90yhvzx6\",\"merge\":false}],\"total\":19,\"page\":1,\"size\":2,\"pages\":10}"
+}

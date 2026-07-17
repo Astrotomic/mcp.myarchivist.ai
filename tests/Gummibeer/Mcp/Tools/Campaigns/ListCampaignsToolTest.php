@@ -2,38 +2,18 @@
 
 namespace Tests\Gummibeer\Mcp\Tools\Campaigns;
 
-use App\Data\CampaignDataShort;
-use App\Mcp\Servers\ArchivistServer;
-use App\Mcp\Tools\Campaigns\ListCampaignsTool;
-use Illuminate\Testing\Fluent\AssertableJson;
-use PHPUnit\Framework\Attributes\DataProvider;
-use PHPUnit\Framework\Attributes\Test;
-use Tests\GummibeerTestCase;
+use Tests\RealWorld\Mcp\Tools\Campaigns\ListCampaignsToolTest as RealWorldListCampaignsToolTest;
 
-final class ListCampaignsToolTest extends GummibeerTestCase
+final class ListCampaignsToolTest extends RealWorldListCampaignsToolTest
 {
     public static function queryDataProvider(): array
     {
+        $ownerId = '4ee2e6b8-698d-4452-82fd-92ca1d1f4642';
+
         return [
-            'no query' => [[]],
-            'size' => [['size' => 100]],
-            'page' => [['page' => 1]],
+            'no query' => [[], $ownerId],
+            'size' => [['size' => 100], $ownerId],
+            'page' => [['page' => 1], $ownerId],
         ];
-    }
-
-    #[Test]
-    #[DataProvider('queryDataProvider')]
-    public function it_fetches_data(array $query): void
-    {
-        ArchivistServer::tool(ListCampaignsTool::class, $query)
-            ->assertOk()
-            ->assertStructuredContent(function (AssertableJson $json): void {
-                $json
-                    ->assertPaginatedList(function (AssertableJson $item): void {
-                        $item->assertJsonSchema(CampaignDataShort::class);
-                    });
-
-                $this->assertMatchesJsonSnapshot($json);
-            });
     }
 }

@@ -1,0 +1,36 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Content-Type": [
+            "application/json"
+        ],
+        "Date": [
+            "Fri, 17 Jul 2026 07:13:10 GMT"
+        ],
+        "Server": [
+            "railway-hikari"
+        ],
+        "x-process-time": [
+            "27.99057126045227"
+        ],
+        "x-railway-request-id": [
+            "VD3Et7b9T--YH_mC6WHkDg"
+        ],
+        "Content-Length": [
+            "656"
+        ],
+        "x-hikari-trace": [
+            "ams1.kxr8"
+        ],
+        "x-railway-edge": [
+            "ams1"
+        ],
+        "vary": [
+            "accept-encoding"
+        ],
+        "Connection": [
+            "keep-alive"
+        ]
+    },
+    "data": "{\"answer\":\"Hammerhaeim appears to be referenced as both a character and a location within the campaign \\\"Twilight of the Gods.\\\" However, the evidence does not provide specific details about Hammerhaeim's characteristics, role, or significance in the campaign.\\n\\n### Summary:\\n- **Hammerhaeim**:\\n - **Type**: Both a character and a location (evidence from multiple sources).\\n - **Details**: No specific information about its description, backstory, or session appearances is provided.\\n\\nThe evidence is incomplete, and further details about Hammerhaeim are not available.\",\"citations\":[],\"monthlyTokensRemaining\":4062579,\"hourlyTokensRemaining\":476174}"
+}

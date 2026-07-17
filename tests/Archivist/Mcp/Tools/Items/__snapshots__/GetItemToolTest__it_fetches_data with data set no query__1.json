@@ -1,0 +1,15 @@
+{
+    "id": "ww6uap01gkdr5ujdfdv4fyef",
+    "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+    "name": "Magical Letterbox",
+    "description": "The Magical Letterbox is a post box that, when supplied with a coin, summons a Courier to carry letters placed within it.\nBronn Boromir used the Letterbox to send a message to his uncle Bogo Boromir by inserting a gold coin. A Courier appeared, retrieved the party's earlier undelivered parcels and loose acorns, took Bronn's new letter, and departed down the mountain carrying all the items.",
+    "type": null,
+    "image": null,
+    "aliases": [
+        "Letterbox"
+    ],
+    "tcg_image": null,
+    "merge": false,
+    "created_at": "2026-07-07T22:59:55.825000",
+    "updated_at": null
+}

@@ -1,0 +1,33 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Content-Type": [
+            "application/json"
+        ],
+        "Date": [
+            "Thu, 16 Jul 2026 20:40:29 GMT"
+        ],
+        "Server": [
+            "railway-hikari"
+        ],
+        "x-process-time": [
+            "1.3798575401306152"
+        ],
+        "x-railway-request-id": [
+            "Ht2p6yDoQkmeK53tnPRhug"
+        ],
+        "Content-Length": [
+            "170"
+        ],
+        "x-hikari-trace": [
+            "ams1.9qww"
+        ],
+        "x-railway-edge": [
+            "ams1"
+        ],
+        "Connection": [
+            "keep-alive"
+        ]
+    },
+    "data": "{\"campaign_id\":\"cmr9ilyjy00020ahu90yhvzx6\",\"title\":\"My First Campaign\",\"characters\":19,\"sessions\":3,\"moments\":45,\"public\":false,\"created_at\":\"2026-07-06T17:49:46.414000\"}"
+}

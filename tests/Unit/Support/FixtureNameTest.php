@@ -27,12 +27,12 @@ final class FixtureNameTest extends UnitTestCase
         ));
 
         $this->assertSame(
-            FixtureName::forHttpRequest($first),
-            FixtureName::forHttpRequest($second),
+            FixtureName::forHttpRequest($this, $first),
+            FixtureName::forHttpRequest($this, $second),
         );
         $this->assertStringStartsWith(
             'api-myarchivist-ai/v1/ask/POST/',
-            FixtureName::forHttpRequest($first),
+            FixtureName::forHttpRequest($this, $first),
         );
     }
 }

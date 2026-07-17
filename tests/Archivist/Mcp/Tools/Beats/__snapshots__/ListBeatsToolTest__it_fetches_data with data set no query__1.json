@@ -1,0 +1,366 @@
+{
+    "current_page": 1,
+    "data": [
+        {
+            "id": "cmrb7p2zw00000tbwywasexot",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7lhkb00000aj8tv2kz4d5",
+            "game_session_ids": [
+                "cmrb7lhkb00000aj8tv2kz4d5"
+            ],
+            "label": "Students gather at tropical resort",
+            "type": "step",
+            "index": 0,
+            "parent_id": "cmrb7q44l003h0tbw44aua23t",
+            "description": "During spring break from Arcano Academy near Byriver, students packed Beachside Mirage, a magically shielded tropical resort outside the city, and the group's paths converged at the crowded poolside bar as the sun set.",
+            "metadata": null,
+            "created_at": "2026-07-07T22:19:48.699000",
+            "updated_at": null
+        },
+        {
+            "id": "cmrb7q41g003g0tbwaszjaghm",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7lhkb00000aj8tv2kz4d5",
+            "game_session_ids": [
+                "cmrb7lhkb00000aj8tv2kz4d5"
+            ],
+            "label": "Students Unite Against Dragon Threat",
+            "type": "major",
+            "index": 0,
+            "parent_id": null,
+            "description": "During spring break at the Spring-Break Resort resort, students from The College gathered at a poolside bar. Dookeldorn Bludvart opened up about his troubled past involving a dragon attack, which prompted E.t. Skittles to engage with a distressed guard named Philip about a dragon threatening By River. Philip and E.t. began recruiting adventurers for a mission against the dragon Haldraxis, leading Dookeldorn and Bronn Boromir to volunteer for the confrontation. The group received details about the dragon's demands and routes to Old Temple Ruins before setting off with healing potions.",
+            "metadata": null,
+            "created_at": "2026-07-07T22:20:36.708000",
+            "updated_at": null
+        },
+        {
+            "id": "cmrb7q44l003h0tbw44aua23t",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7lhkb00000aj8tv2kz4d5",
+            "game_session_ids": [
+                "cmrb7lhkb00000aj8tv2kz4d5"
+            ],
+            "label": "Students Converge at Poolside Bar",
+            "type": "minor",
+            "index": 0,
+            "parent_id": "cmrb7q41g003g0tbwaszjaghm",
+            "description": "During spring break, students from The College gathered at Spring-Break Resort resort, converging at a crowded poolside bar. Dookeldorn sat alone in a dark booth, but was approached by Tracy, Lacey, and Stacy, who offered healing and comfort. After some interaction, Dookeldorn began to open up about his difficult day, and the group shared a toast with drinks.",
+            "metadata": {
+                "eventEndIndex": 5,
+                "eventStartIndex": 0
+            },
+            "created_at": "2026-07-07T22:20:36.823000",
+            "updated_at": null
+        },
+        {
+            "id": "cmrb7q4nk003n0tbwxpm2at2h",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7lhkb00000aj8tv2kz4d5",
+            "game_session_ids": [
+                "cmrb7lhkb00000aj8tv2kz4d5"
+            ],
+            "label": "Encounter with Magical Ice Flowers",
+            "type": "minor",
+            "index": 0,
+            "parent_id": "cmrb7q4kh003m0tbwdmdt4ul6",
+            "description": "The group ascended the mountain and discovered a meadow filled with cold blue-white flowers. Dookeldorn identified the flowers as Ice Flowers with both helpful and harmful properties. After testing the flowers, they carefully harvested twenty-six intact specimens, with Bronn and Dookeldorn consuming some to restore vitality.",
+            "metadata": {
+                "eventEndIndex": 55,
+                "eventStartIndex": 48
+            },
+            "created_at": "2026-07-07T22:20:37.505000",
+            "updated_at": null
+        },
+        {
+            "id": "cmrb7q568003t0tbwzwcu1hiv",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7lhkb00000aj8tv2kz4d5",
+            "game_session_ids": [
+                "cmrb7lhkb00000aj8tv2kz4d5"
+            ],
+            "label": "Discovery of Giant's Manifesto",
+            "type": "minor",
+            "index": 0,
+            "parent_id": "cmrb7q535003s0tbwzpdpflo4",
+            "description": "The party searched the body of a dead mountain giant, retrieving alchemical fat and a greatclub. They discovered a manifesto written in crayon, indicating that knights from By River had come to the mountains to address the mountain giant issue, prompting the giants to seek revenge. With time before Haldraxis's deadline, the group opted to pursue the mountain giant camp for further information instead of resting.",
+            "metadata": {
+                "eventEndIndex": 83,
+                "eventStartIndex": 81
+            },
+            "created_at": "2026-07-07T22:20:38.177000",
+            "updated_at": null
+        },
+        {
+            "id": "cmrb8t95300000tgogeo3dk61",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7m8a300000aj6fe0v0ucr",
+            "game_session_ids": [
+                "cmrb7m8a300000aj6fe0v0ucr"
+            ],
+            "label": "Travel to The Old Temple Ruins",
+            "type": "step",
+            "index": 0,
+            "parent_id": "cmrb8uc7c00330tgo4yute2xp",
+            "description": "After spending extra time on the safer route and resting at a Giant Settlement, the party set out for the The Old Temple Ruins where Haldraxis appeared each day to collect extorted gold from By River under threat of burning the town.",
+            "metadata": null,
+            "created_at": "2026-07-07T22:51:02.904000",
+            "updated_at": null
+        },
+        {
+            "id": "cmrb8uc4g00320tgo0sp93qg4",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7m8a300000aj6fe0v0ucr",
+            "game_session_ids": [
+                "cmrb7m8a300000aj6fe0v0ucr"
+            ],
+            "label": "Confrontation with Haldraxis the Dragon",
+            "type": "major",
+            "index": 0,
+            "parent_id": null,
+            "description": "The party journeyed to Old Temple Ruins after resting at a Giant Settlement, confirming the Mountain Giants' cooperation with Haldraxis against By River. Upon discovering a collapsed temple, Gideon Xander found dragon prints and fresh dung, while Bronn Boromir set a trap. Haldraxis arrived, demanding overdue gold from Gideon and threatening the city, leading to a confrontation where Dookeldorn Bludvart shot the dragon after a failed negotiation. The battle intensified with various attacks from the party, ultimately forcing Haldraxis to flee, vowing revenge on By River.",
+            "metadata": null,
+            "created_at": "2026-07-07T22:51:53.427000",
+            "updated_at": null
+        },
+        {
+            "id": "cmrb8uc7c00330tgo4yute2xp",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7m8a300000aj6fe0v0ucr",
+            "game_session_ids": [
+                "cmrb7m8a300000aj6fe0v0ucr"
+            ],
+            "label": "Journey to The Old Temple Ruins",
+            "type": "minor",
+            "index": 0,
+            "parent_id": "cmrb8uc4g00320tgo0sp93qg4",
+            "description": "The party set out for the The Old Temple Ruins after resting at a Giant Settlement. They confirmed from a Giant Camp journal that the Mountain Giants were cooperating with Haldraxis against By River. Before departing, Gideon burned the troll bodies and prayed for their cleansing. The next morning, Dookeldorn returned with foraged herbs, and the party followed Philip’s Map to reach the ruins.",
+            "metadata": {
+                "eventEndIndex": 5,
+                "eventStartIndex": 0
+            },
+            "created_at": "2026-07-07T22:51:53.530000",
+            "updated_at": null
+        },
+        {
+            "id": "cmrb8ucog00390tgoagw0osfo",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7m8a300000aj6fe0v0ucr",
+            "game_session_ids": [
+                "cmrb7m8a300000aj6fe0v0ucr"
+            ],
+            "label": "Luring the Dragon with Troll Fat",
+            "type": "minor",
+            "index": 0,
+            "parent_id": "cmrb8ucln00380tgopsz07p9b",
+            "description": "Gideon noted the Mountainside Cave Carved Like An Enormous Dragon Skull of the dragon's lair, prompting a discussion on whether to enter or lure the dragon out. Dookeldorn suggested using Troll Fat as bait, despite Gideon's warning about trolls in the area. Dookeldorn proceeded with the plan, throwing the Troll Fat into the cave's mouth, where it cooked in the steam and emitted a strong smell. After some time, the party heard steady hammering from within the cave.",
+            "metadata": {
+                "eventEndIndex": 41,
+                "eventStartIndex": 37
+            },
+            "created_at": "2026-07-07T22:51:54.146000",
+            "updated_at": null
+        },
+        {
+            "id": "cmrb8ud5k003f0tgobff67yib",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7m8a300000aj6fe0v0ucr",
+            "game_session_ids": [
+                "cmrb7m8a300000aj6fe0v0ucr"
+            ],
+            "label": "Mountain Giants Encounter in Steam Chamber",
+            "type": "minor",
+            "index": 0,
+            "parent_id": "cmrb8ud2r003e0tgor1367mdv",
+            "description": "The lead giant was ensnared in a trap, leaving him suspended while the second giant advanced. Dookeldorn shot the unrestrained giant, wounding him, but the giant retaliated and knocked E.t. Skittles unconscious. Bronn attempted to strike the wounded giant but missed, while Gideon healed E.t., allowing him to rise and kill the free giant. The restrained giant broke free and fled into a Steam-Filled Chamber, evading pursuit from Bronn and the others.",
+            "metadata": {
+                "eventEndIndex": 75,
+                "eventStartIndex": 67
+            },
+            "created_at": "2026-07-07T22:51:54.762000",
+            "updated_at": null
+        },
+        {
+            "id": "cmrb938y900000i9kncpn4s98",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7mrzx00000akpsytd8b0f",
+            "game_session_ids": [
+                "cmrb7mrzx00000akpsytd8b0f"
+            ],
+            "label": "Party discovers Haldraxis's Hoard Chamber",
+            "type": "step",
+            "index": 0,
+            "parent_id": "cmrb9454p00210i9k0brdy8nn",
+            "description": "The party entered Haldraxis's Hoard Chamber and found the wounded dragon asleep among a smaller-than-expected Hoard, bandaged beside a cold Dragon-Sized Bowl Of Chamomile Tea, with a massive Mountainside Opening behind him that explained how he had entered the cave.",
+            "metadata": null,
+            "created_at": "2026-07-07T22:58:49.183000",
+            "updated_at": null
+        },
+        {
+            "id": "cmrb9451k00200i9ku45jygr2",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7mrzx00000akpsytd8b0f",
+            "game_session_ids": [
+                "cmrb7mrzx00000akpsytd8b0f"
+            ],
+            "label": "Confrontation with Haldraxis",
+            "type": "major",
+            "index": 0,
+            "parent_id": null,
+            "description": "The party discovered Haldraxis's Hoard Chamber, finding the wounded dragon asleep beside a small Hoard and a bowl of chamomile tea. After a discussion, they coordinated an ambush against Haldraxis, with plans for Dookeldorn to shoot the dragon, Bronn Boromir to deliver Ice-Flower Petals, and Gideon Xander to enhance Bronn's abilities. The ambush commenced as Gideon sang, prompting Dookeldorn to shoot Haldraxis, reopening his wounds. Haldraxis awoke in rage, threatened destruction upon their city, and fled through the Mountain Opening toward By River.",
+            "metadata": null,
+            "created_at": "2026-07-07T22:59:30.809000",
+            "updated_at": null
+        },
+        {
+            "id": "cmrb9454p00210i9k0brdy8nn",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7mrzx00000akpsytd8b0f",
+            "game_session_ids": [
+                "cmrb7mrzx00000akpsytd8b0f"
+            ],
+            "label": "Discovery of Haldraxis's Hoard (About Five Thousand Gold) chamber",
+            "type": "minor",
+            "index": 0,
+            "parent_id": "cmrb9451k00200i9ku45jygr2",
+            "description": "The party entered Haldraxis's Hoard Chamber and discovered the wounded dragon asleep beside a smaller-than-expected Hoard. Bandages were wrapped around the dragon, and a cold Dragon-Sized Bowl Of Chamomile Tea was nearby. A massive opening in the mountainside was observed, indicating the dragon's entry into the cave.",
+            "metadata": {
+                "eventEndIndex": 0,
+                "eventStartIndex": 0
+            },
+            "created_at": "2026-07-07T22:59:30.922000",
+            "updated_at": null
+        },
+        {
+            "id": "cmrb945ib00250i9kqjdzpxja",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7mrzx00000akpsytd8b0f",
+            "game_session_ids": [
+                "cmrb7mrzx00000akpsytd8b0f"
+            ],
+            "label": "Dragon Hoard and Hang Gliders",
+            "type": "minor",
+            "index": 0,
+            "parent_id": "cmrb945f600240i9kbadyocp7",
+            "description": "The group assessed the dragon's Hoard, estimating it to contain about five thousand gold pieces. They noted the dragon's escape route, which overlooked a mountain river with a narrow ledge, and recalled Hang Gliders found near deceased adventurers in the cavern. Dookeldorn Bludvart attempted to track the dragon but lost sight of it, leading the party to choose the Hang Gliders for their descent. They leapt from the mountain, gliding down to a Farmer's Field Beside Byriver, where smoke was rising and the sound of the dragon could be heard beyond the gates.",
+            "metadata": {
+                "eventEndIndex": 8,
+                "eventStartIndex": 6
+            },
+            "created_at": "2026-07-07T22:59:31.411000",
+            "updated_at": null
+        },
+        {
+            "id": "cmrb945ux00290i9k1nrloksw",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7mrzx00000akpsytd8b0f",
+            "game_session_ids": [
+                "cmrb7mrzx00000akpsytd8b0f"
+            ],
+            "label": "Battle Against Haldraxis Concludes",
+            "type": "minor",
+            "index": 0,
+            "parent_id": "cmrb945rt00280i9kpmkjw190",
+            "description": "The party arrived at the Keep and entered the courtyard, where Haldraxis prepared to attack. A ballista bolt from the Tower Guards interrupted the dragon's aim, allowing the party to safely enter the Keep. As they ascended the Tower, E.t. Skittles conjured a spiritual weapon and struck Haldraxis, followed by Dookeldorn shooting the dragon. After a series of attacks, E.t. delivered a necrotic blow that killed Haldraxis, causing the dragon to crash onto the roof and prompting the Mountain Giants in the city to flee.",
+            "metadata": {
+                "eventEndIndex": 49,
+                "eventStartIndex": 38
+            },
+            "created_at": "2026-07-07T22:59:31.866000",
+            "updated_at": null
+        },
+        {
+            "id": "cmrb7p32t00010tbw8rv7ihc0",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7lhkb00000aj8tv2kz4d5",
+            "game_session_ids": [
+                "cmrb7lhkb00000aj8tv2kz4d5"
+            ],
+            "label": "Dookeldorn sits alone in bar",
+            "type": "step",
+            "index": 1,
+            "parent_id": "cmrb7q44l003h0tbw44aua23t",
+            "description": "Dookeldorn sat alone in a dark, quiet corner booth at the least lively bar he could find, hood up, an empty glass in front of him, waving off servers, with a Tarp-Wrapped Hovering Object beside him.",
+            "metadata": null,
+            "created_at": "2026-07-07T22:19:48.806000",
+            "updated_at": null
+        },
+        {
+            "id": "cmrb7q47q003i0tbwnktjdmye",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7lhkb00000aj8tv2kz4d5",
+            "game_session_ids": [
+                "cmrb7lhkb00000aj8tv2kz4d5"
+            ],
+            "label": "Gideon Xander Engages Guests with Lathander",
+            "type": "minor",
+            "index": 1,
+            "parent_id": "cmrb7q41g003g0tbwaszjaghm",
+            "description": "Gideon, while working at the bar, spilled a drink on a guest but managed to turn the situation into a conversation about his god, Lathander. He created a hand-drawn pamphlet and engaged both the guest and his friend in discussions about Lathander's teachings. Despite being interrupted by his duties and slipping on a puddle, Gideon continued to share his faith until Brax Thunderbrew ordered him to address a different escalating situation.",
+            "metadata": {
+                "eventEndIndex": 17,
+                "eventStartIndex": 6
+            },
+            "created_at": "2026-07-07T22:20:36.934000",
+            "updated_at": null
+        },
+        {
+            "id": "cmrb7q4kh003m0tbwdmdt4ul6",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7lhkb00000aj8tv2kz4d5",
+            "game_session_ids": [
+                "cmrb7lhkb00000aj8tv2kz4d5"
+            ],
+            "label": "Journey Through the Mountain Meadows",
+            "type": "major",
+            "index": 1,
+            "parent_id": null,
+            "description": "The group ascended a mountain and discovered a meadow filled with Ice Flowers, which they carefully harvested. Bronn inquired about E.t.' past, leading to a brief sharing of personal histories around the campfire. The party camped overnight and engaged in morning activities before continuing their journey toward The Old Temple Ruins. They encountered a mountain giant, which they ultimately defeated after a series of attacks and spells.",
+            "metadata": null,
+            "created_at": "2026-07-07T22:20:37.393000",
+            "updated_at": null
+        },
+        {
+            "id": "cmrb7q4qn003o0tbw2pp3v40k",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7lhkb00000aj8tv2kz4d5",
+            "game_session_ids": [
+                "cmrb7lhkb00000aj8tv2kz4d5"
+            ],
+            "label": "E.t. Shares Fragmentary Past",
+            "type": "minor",
+            "index": 1,
+            "parent_id": "cmrb7q4kh003m0tbwdmdt4ul6",
+            "description": "Bronn inquired about E.t.' past, prompting E.t. to respond that he preferred to be called E.t. or E.t., cautioning against becoming too familiar. He provided a brief account of his life, mentioning mixed feelings from others, living alone with raccoons as roommates who did not pay rent. Bronn expressed concern over E.t.'s situation and decided to end the questioning, while Gideon opted not to offer E.t. one of his pamphlets.",
+            "metadata": {
+                "eventEndIndex": 60,
+                "eventStartIndex": 56
+            },
+            "created_at": "2026-07-07T22:20:37.616000",
+            "updated_at": null
+        },
+        {
+            "id": "cmrb7q59c003u0tbwkd4wtl8h",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "game_session_id": "cmrb7lhkb00000aj8tv2kz4d5",
+            "game_session_ids": [
+                "cmrb7lhkb00000aj8tv2kz4d5"
+            ],
+            "label": "Giant Encampment Discovered and Attacked",
+            "type": "minor",
+            "index": 1,
+            "parent_id": "cmrb7q535003s0tbwzpdpflo4",
+            "description": "Bronn and Gideon located a giant encampment from a ridge, observing two Mountain Giants and various large structures suggesting more inhabitants. The group deduced that the Mountain Giants were allied with Haldraxis against By River after reviewing writings. Before a plan was finalized, Dookeldorn initiated combat by shooting the closer giant, inflicting significant injury.",
+            "metadata": {
+                "eventEndIndex": 87,
+                "eventStartIndex": 84
+            },
+            "created_at": "2026-07-07T22:20:38.289000",
+            "updated_at": null
+        }
+    ],
+    "from": 1,
+    "last_page": 15,
+    "per_page": 20,
+    "to": 20,
+    "total": 300
+}

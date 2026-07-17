@@ -2,47 +2,23 @@
 
 namespace Tests\Gummibeer\Mcp\Tools\Links;
 
-use App\Data\LinkData;
-use App\Mcp\Servers\ArchivistServer;
-use App\Mcp\Tools\Links\ListLinksTool;
-use Illuminate\Testing\Fluent\AssertableJson;
-use PHPUnit\Framework\Attributes\DataProvider;
-use PHPUnit\Framework\Attributes\Test;
-use Tests\GummibeerTestCase;
+use Tests\RealWorld\Mcp\Tools\Links\ListLinksToolTest as RealWorldListLinksToolTest;
 
-final class ListLinksToolTest extends GummibeerTestCase
+final class ListLinksToolTest extends RealWorldListLinksToolTest
 {
     public static function queryDataProvider(): array
     {
+        $campaignId = 'cmj78gm6k000004jrvzm7gcjr';
+
         return [
-            'no query' => [[]],
-            'size' => [['size' => 100]],
-            'page' => [['page' => 2]],
-            'from_id' => [['from_id' => 'xpv723vsxdr7pm1o9w0b8h8f']],
-            'from_type' => [['from_type' => 'Location']],
-            'to_id' => [['from_id' => 'pbd51edatctika2hzpr8dxss']],
-            'to_type' => [['from_type' => 'Location']],
-            'alias' => [['alias' => 'Taverne']],
+            'no query' => [[], $campaignId],
+            'size' => [['size' => 100], $campaignId],
+            'page' => [['page' => 2], $campaignId],
+            'from_id' => [['from_id' => 'xpv723vsxdr7pm1o9w0b8h8f'], $campaignId],
+            'from_type' => [['from_type' => 'Location'], $campaignId],
+            'to_id' => [['to_id' => 'pbd51edatctika2hzpr8dxss'], $campaignId],
+            'to_type' => [['to_type' => 'Location'], $campaignId],
+            'alias' => [['alias' => 'Taverne'], $campaignId],
         ];
-    }
-
-    #[Test]
-    #[DataProvider('queryDataProvider')]
-    public function it_fetches_data(array $query): void
-    {
-        ArchivistServer::tool(ListLinksTool::class, array_merge($query, [
-            'campaign_id' => 'cmj78gm6k000004jrvzm7gcjr',
-        ]))
-            ->assertOk()
-            ->assertStructuredContent(function (AssertableJson $json): void {
-                $json
-                    ->assertPaginatedList(function (AssertableJson $item): void {
-                        $item
-                            ->assertJsonSchema(LinkData::class)
-                            ->where('campaign_id', 'cmj78gm6k000004jrvzm7gcjr');
-                    });
-
-                $this->assertMatchesJsonSnapshot($json);
-            });
     }
 }
