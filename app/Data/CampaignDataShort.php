@@ -17,7 +17,7 @@ class CampaignDataShort extends ArchivistDto
             'owner_id' => ['nullable', 'string'],
             'created_at' => ['required', 'string', 'date'],
             'updated_at' => ['nullable', 'string', 'date'],
-            'archived' => ['required', 'boolean'],
+            'archived' => ['nullable', 'boolean'],
             'archived_at' => ['nullable', 'string', 'date'],
         ];
     }
