@@ -46,7 +46,10 @@
             ]
         },
         "archived": {
-            "type": "boolean"
+            "type": [
+                "boolean",
+                "null"
+            ]
         },
         "archived_at": {
             "type": [
@@ -73,7 +76,6 @@
         "title",
         "public",
         "mature",
-        "created_at",
-        "archived"
+        "created_at"
     ]
 }

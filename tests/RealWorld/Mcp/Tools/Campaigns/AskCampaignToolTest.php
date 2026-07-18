@@ -5,7 +5,6 @@ namespace Tests\RealWorld\Mcp\Tools\Campaigns;
 use App\Data\AnswerData;
 use App\Mcp\Tools\Campaigns\AskCampaignTool;
 use PHPUnit\Framework\Attributes\DataProvider;
-use PHPUnit\Framework\Attributes\RequiresEnvironmentVariable;
 use PHPUnit\Framework\Attributes\Test;
 use Tests\RealWorldTestCase;
 
