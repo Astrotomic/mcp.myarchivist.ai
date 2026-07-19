@@ -10,7 +10,6 @@ class JournalDataShort extends ArchivistDto
             'id' => ['required', 'string'],
             'campaign_id' => ['required', 'string'],
             'title' => ['required', 'string'],
-            'content' => ['nullable', 'string'],
             'summary' => ['nullable', 'string'],
             'status' => ['nullable', 'string', 'in:draft,published,archived'],
             'folder_id' => ['nullable', 'string'],
