@@ -1,0 +1,11 @@
+{
+    "properties": {
+        "location_id": {
+            "type": "string"
+        }
+    },
+    "type": "object",
+    "required": [
+        "location_id"
+    ]
+}

@@ -16,6 +16,7 @@ final readonly class ListSessions extends ApiAction
             'campaign_id' => ['required', 'string'],
             'session_type' => ['nullable', 'string', 'in:audioUpload,playByPost,discordVoice,txtUpload,rawNotes,other'],
             'public_only' => ['nullable', 'boolean'],
+            'with_links' => ['nullable', 'boolean'],
         ]);
     }
 

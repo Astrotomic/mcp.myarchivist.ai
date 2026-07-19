@@ -33,7 +33,7 @@ abstract readonly class ApiAction extends Action implements JsonSchemaable
         $validated = Validator::make($params, static::rules())->safe();
 
         $response = $this->request($validated);
-        $data = $this->map($response->fluent()->all());
+        $data = $this->interpretResponse($validated, $response);
 
         if ($data instanceof ArchivistDtoCollection) {
             return new LengthAwarePaginator(
@@ -52,6 +52,17 @@ abstract readonly class ApiAction extends Action implements JsonSchemaable
     abstract protected function request(ValidatedInput $input): Response;
 
     abstract protected function map(array $data): ArchivistDto|ArchivistDtoCollection;
+
+    /**
+     * Convert the raw HTTP response into a DTO (or DTO collection).
+     *
+     * The default implementation delegates to map() with the JSON body. Write
+     * actions override this to accommodate empty (HTTP 204) responses.
+     */
+    protected function interpretResponse(ValidatedInput $input, Response $response): ArchivistDto|ArchivistDtoCollection
+    {
+        return $this->map($response->fluent()->all());
+    }
 
     public static function toJsonSchema(): array
     {

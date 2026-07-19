@@ -15,6 +15,7 @@ final readonly class ListJournals extends ApiAction
         return array_merge(self::paginationRules(), [
             'campaign_id' => ['required', 'string'],
             'folder_id' => ['nullable', 'string'],
+            'with_links' => ['nullable', 'boolean'],
         ]);
     }
 

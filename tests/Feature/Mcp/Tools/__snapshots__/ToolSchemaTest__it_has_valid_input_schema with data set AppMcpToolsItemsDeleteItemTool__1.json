@@ -1,0 +1,11 @@
+{
+    "properties": {
+        "item_id": {
+            "type": "string"
+        }
+    },
+    "type": "object",
+    "required": [
+        "item_id"
+    ]
+}

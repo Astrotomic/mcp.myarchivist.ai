@@ -13,12 +13,13 @@ final readonly class GetJournal extends ApiAction
     {
         return [
             'entry_id' => ['required', 'string'],
+            'with_links' => ['nullable', 'boolean'],
         ];
     }
 
     protected function request(ValidatedInput $input): Response
     {
-        return $this->client->get("/v1/journals/{$input->string('entry_id')}");
+        return $this->client->get("/v1/journals/{$input->string('entry_id')}", $input->except('entry_id'));
     }
 
     protected function map(array $data): JournalData

@@ -1,0 +1,61 @@
+{
+    "properties": {
+        "moment_id": {
+            "type": "string"
+        },
+        "label": {
+            "maxLength": 255,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "content": {
+            "maxLength": 20000,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "image": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "index": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "categories": {
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "pending": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "approved": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "discovered": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "moment_id"
+    ]
+}

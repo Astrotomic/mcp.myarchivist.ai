@@ -13,12 +13,13 @@ final readonly class GetCharacter extends ApiAction
     {
         return [
             'character_id' => ['required', 'string'],
+            'with_links' => ['nullable', 'boolean'],
         ];
     }
 
     protected function request(ValidatedInput $input): Response
     {
-        return $this->client->get("/v1/characters/{$input->string('character_id')}");
+        return $this->client->get("/v1/characters/{$input->string('character_id')}", $input->except('character_id'));
     }
 
     protected function map(array $data): CharacterData

@@ -14,6 +14,7 @@ final readonly class ListBeats extends ApiAction
     {
         return array_merge(self::paginationRules(), [
             'campaign_id' => ['required', 'string'],
+            'with_links' => ['nullable', 'boolean'],
         ]);
     }
 

@@ -38,6 +38,7 @@ return [
         'oauth_scopes_supported' => [
             'profile',
             'agent_read',
+            'agent_write',
             'worlds_read',
             'sessions_read',
             'characters_read',

@@ -13,12 +13,13 @@ final readonly class GetLocation extends ApiAction
     {
         return [
             'location_id' => ['required', 'string'],
+            'with_links' => ['nullable', 'boolean'],
         ];
     }
 
     protected function request(ValidatedInput $input): Response
     {
-        return $this->client->get("/v1/locations/{$input->string('location_id')}");
+        return $this->client->get("/v1/locations/{$input->string('location_id')}", $input->except('location_id'));
     }
 
     protected function map(array $data): LocationData

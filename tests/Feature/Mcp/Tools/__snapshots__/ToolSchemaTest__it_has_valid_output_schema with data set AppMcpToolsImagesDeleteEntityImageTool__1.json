@@ -1,0 +1,11 @@
+{
+    "properties": {
+        "removed": {
+            "type": "boolean"
+        }
+    },
+    "type": "object",
+    "required": [
+        "removed"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "properties": {
+        "url": {
+            "type": "string"
+        }
+    },
+    "type": "object",
+    "required": [
+        "url"
+    ]
+}

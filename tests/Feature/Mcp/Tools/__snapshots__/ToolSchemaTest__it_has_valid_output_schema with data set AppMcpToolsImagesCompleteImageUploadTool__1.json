@@ -1,0 +1,15 @@
+{
+    "properties": {
+        "url": {
+            "type": "string"
+        },
+        "attached": {
+            "type": "boolean"
+        }
+    },
+    "type": "object",
+    "required": [
+        "url",
+        "attached"
+    ]
+}

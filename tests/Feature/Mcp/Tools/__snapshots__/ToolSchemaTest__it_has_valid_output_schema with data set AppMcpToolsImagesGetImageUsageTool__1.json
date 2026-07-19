@@ -1,0 +1,47 @@
+{
+    "properties": {
+        "used": {
+            "type": "integer"
+        },
+        "limit": {
+            "type": "integer"
+        },
+        "can_access": {
+            "type": "boolean"
+        },
+        "feature_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "tier": {
+            "type": "string"
+        },
+        "billing_cycle_start": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "billing_cycle_end": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "message": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "used",
+        "limit",
+        "can_access",
+        "tier"
+    ]
+}

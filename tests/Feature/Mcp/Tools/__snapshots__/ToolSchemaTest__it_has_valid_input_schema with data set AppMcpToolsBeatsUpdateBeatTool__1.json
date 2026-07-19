@@ -1,0 +1,66 @@
+{
+    "properties": {
+        "beat_id": {
+            "type": "string"
+        },
+        "label": {
+            "maxLength": 255,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "description": {
+            "maxLength": 5000,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "type": {
+            "enum": [
+                "major",
+                "minor",
+                "step"
+            ],
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "index": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "parent_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "game_session_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "game_session_ids": {
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "metadata": {
+            "type": [
+                "object",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "beat_id"
+    ]
+}

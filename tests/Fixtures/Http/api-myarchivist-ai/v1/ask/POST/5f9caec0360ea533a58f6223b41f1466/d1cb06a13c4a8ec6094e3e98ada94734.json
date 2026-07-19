@@ -5,25 +5,25 @@
             "application/json"
         ],
         "Date": [
-            "Fri, 17 Jul 2026 07:17:29 GMT"
+            "Sun, 19 Jul 2026 19:50:53 GMT"
         ],
         "Server": [
             "railway-hikari"
         ],
         "x-process-time": [
-            "25.31332540512085"
+            "28.916810035705566"
         ],
         "x-railway-request-id": [
-            "z62rEKT6RHapLk-x0_TJvA"
+            "wTiTvOSmTUa5NdFVlt7tkg"
         ],
         "Content-Length": [
-            "1439"
+            "1453"
         ],
         "x-hikari-trace": [
-            "ams1.cycp"
+            "lax1.ez9k"
         ],
         "x-railway-edge": [
-            "ams1"
+            "lax1"
         ],
         "vary": [
             "accept-encoding"
@@ -32,5 +32,5 @@
             "keep-alive"
         ]
     },
-    "data": "{\"answer\":\"Boromir refers to the **Boromir Family**, a prestigious faction known for magical talent and wealth. Bronn Boromir, a character in the campaign, identifies himself as a member of this family, although he lacks their magical abilities and wealth. He joined an expedition to earn prestige for his family and make his school's steward proud.\\n\\nAdditionally, Bronn has an uncle named **Bogo Boromir**, whom he addresses in a message after a significant event in the campaign.\",\"citations\":[{\"citation_id\":\"S1\",\"source_type\":\"faction\",\"source_id\":\"wq9f2cihbdoi1woeevfl5z06\",\"title\":\"faction: Boromir Family\",\"session_number\":null,\"excerpt\":\"Name: Boromir Family Type: faction Aliases: The Boromir Family Description: Boromir Family is a prestigious family known for magical talent and wealth. Bronn Boromir identified himself as a member of this family. He stated that the lineage is renowned for extraordinary magical...\"},{\"citation_id\":\"S3\",\"source_type\":\"character\",\"source_id\":\"pahpa4gpeuxnvx9n6ozv5vt3\",\"title\":\"character: Bogo Boromir\",\"session_number\":null,\"excerpt\":\"Name: Bogo Boromir Type: character Sheet type: NPC Description: Bogo Boromir is Bronn Boromir\u2019s uncle. Bronn addressed him as \u201cUncle BOGO\u201d when composing a message. Bronn used the mountain\u2019s Magical Letterbox to send Bogo a letter stating he had taken down a dragon and demandi...\"}],\"monthlyTokensRemaining\":4967184,\"hourlyTokensRemaining\":483422}"
+    "data": "{\"answer\":\"Boromir refers to the **Boromir Family**, a prestigious faction known for magical talent and wealth. Bronn Boromir, a character in the campaign, identifies himself as a member of this family, although he notes that he lacks their magical abilities and wealth. He joined an expedition to earn prestige for his family and make his school's steward proud.\\n\\nAdditionally, Bronn has an uncle named **Bogo Boromir**, whom he addresses in a message after a significant event in the campaign.\",\"citations\":[{\"citation_id\":\"S1\",\"source_type\":\"faction\",\"source_id\":\"wq9f2cihbdoi1woeevfl5z06\",\"title\":\"faction: Boromir Family\",\"session_number\":null,\"excerpt\":\"Name: Boromir Family Type: faction Aliases: The Boromir Family Description: Boromir Family is a prestigious family known for magical talent and wealth. Bronn Boromir identified himself as a member of this family. He stated that the lineage is renowned for extraordinary magical...\"},{\"citation_id\":\"S3\",\"source_type\":\"character\",\"source_id\":\"pahpa4gpeuxnvx9n6ozv5vt3\",\"title\":\"character: Bogo Boromir\",\"session_number\":null,\"excerpt\":\"Name: Bogo Boromir Type: character Sheet type: NPC Description: Bogo Boromir is Bronn Boromir\u2019s uncle. Bronn addressed him as \u201cUncle BOGO\u201d when composing a message. Bronn used the mountain\u2019s Magical Letterbox to send Bogo a letter stating he had taken down a dragon and demandi...\"}],\"monthlyTokensRemaining\":4950173,\"hourlyTokensRemaining\":482989}"
 }

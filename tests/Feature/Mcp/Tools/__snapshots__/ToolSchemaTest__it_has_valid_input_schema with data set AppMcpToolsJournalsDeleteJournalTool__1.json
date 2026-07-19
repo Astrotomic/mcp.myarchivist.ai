@@ -1,0 +1,11 @@
+{
+    "properties": {
+        "entry_id": {
+            "type": "string"
+        }
+    },
+    "type": "object",
+    "required": [
+        "entry_id"
+    ]
+}

@@ -13,12 +13,13 @@ final readonly class GetItem extends ApiAction
     {
         return [
             'item_id' => ['required', 'string'],
+            'with_links' => ['nullable', 'boolean'],
         ];
     }
 
     protected function request(ValidatedInput $input): Response
     {
-        return $this->client->get("/v1/items/{$input->string('item_id')}");
+        return $this->client->get("/v1/items/{$input->string('item_id')}", $input->except('item_id'));
     }
 
     protected function map(array $data): ItemData

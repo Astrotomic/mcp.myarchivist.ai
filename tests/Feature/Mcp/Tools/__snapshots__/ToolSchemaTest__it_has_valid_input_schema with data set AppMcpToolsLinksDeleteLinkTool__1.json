@@ -1,0 +1,15 @@
+{
+    "properties": {
+        "campaign_id": {
+            "type": "string"
+        },
+        "link_id": {
+            "type": "string"
+        }
+    },
+    "type": "object",
+    "required": [
+        "campaign_id",
+        "link_id"
+    ]
+}

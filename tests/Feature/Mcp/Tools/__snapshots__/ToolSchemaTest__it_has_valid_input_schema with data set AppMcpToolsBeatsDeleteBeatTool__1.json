@@ -1,0 +1,11 @@
+{
+    "properties": {
+        "beat_id": {
+            "type": "string"
+        }
+    },
+    "type": "object",
+    "required": [
+        "beat_id"
+    ]
+}

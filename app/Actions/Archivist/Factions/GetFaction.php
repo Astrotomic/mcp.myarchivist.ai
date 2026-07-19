@@ -13,12 +13,13 @@ final readonly class GetFaction extends ApiAction
     {
         return [
             'faction_id' => ['required', 'string'],
+            'with_links' => ['nullable', 'boolean'],
         ];
     }
 
     protected function request(ValidatedInput $input): Response
     {
-        return $this->client->get("/v1/factions/{$input->string('faction_id')}");
+        return $this->client->get("/v1/factions/{$input->string('faction_id')}", $input->except('faction_id'));
     }
 
     protected function map(array $data): FactionData

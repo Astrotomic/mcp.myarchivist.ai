@@ -1,0 +1,36 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Content-Type": [
+            "application/json"
+        ],
+        "Date": [
+            "Sun, 19 Jul 2026 19:53:43 GMT"
+        ],
+        "Server": [
+            "railway-hikari"
+        ],
+        "x-process-time": [
+            "0.7549135684967041"
+        ],
+        "x-railway-request-id": [
+            "hQ1qc1PUSSSkg1Pmlt7tkg"
+        ],
+        "Content-Length": [
+            "913"
+        ],
+        "x-hikari-trace": [
+            "lax1.e74w"
+        ],
+        "x-railway-edge": [
+            "lax1"
+        ],
+        "vary": [
+            "accept-encoding"
+        ],
+        "Connection": [
+            "keep-alive"
+        ]
+    },
+    "data": "{\"id\":\"b9a0a71b-eb62-455a-9e56-a596872a42e2\",\"name\":\"Archie Vist\",\"given_name\":\"Archie\",\"family_name\":\"Vist\",\"picture\":\"https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18zRzhqZVRYcERTSHFVZkY1aTIxZUhpa2lOZzgifQ\",\"role\":\"user\",\"verified\":true,\"created_at\":\"2026-07-06T17:49:46.239000\",\"email\":\"rpgarchivist17@gmail.com\",\"subscription_tier\":\"godmode\",\"subscription_status\":\"active\",\"last_login\":\"2026-07-09T04:19:07.290000\",\"new_user\":false,\"campaign_slots_remaining\":10000000,\"any_sessions_remaining\":10000000,\"text_sessions_remaining\":10000000,\"billing_cycle_start\":\"2026-07-06T17:49:46.235000\",\"billing_cycle_end\":\"2026-08-05T17:49:46.235000\",\"scopes\":[\"read:worlds\",\"read:characters\",\"read:sessions\",\"read:factions\",\"read:locations\",\"read:moments\",\"read:beats\",\"write:factions\",\"write:locations\",\"write:moments\",\"write:beats\"],\"api_profile\":\"developer\"}"
+}

@@ -1,22 +1,28 @@
 {
     "properties": {
-        "campaign_id": {
-            "type": "string"
-        },
         "page": {
+            "minimum": 1,
             "type": [
                 "integer",
                 "null"
-            ],
-            "minimum": 1
+            ]
         },
         "size": {
+            "minimum": 1,
             "maximum": 100,
             "type": [
                 "integer",
                 "null"
-            ],
-            "minimum": 1
+            ]
+        },
+        "campaign_id": {
+            "type": "string"
+        },
+        "with_links": {
+            "type": [
+                "boolean",
+                "null"
+            ]
         }
     },
     "type": "object",

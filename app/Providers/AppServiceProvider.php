@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use App\Exceptions\ArchivistApiException;
 use App\Services\ArchivistClient;
+use App\Services\AuthContext;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Http\Client\HttpClientException;
 use Illuminate\Http\Client\PendingRequest;
@@ -25,6 +26,10 @@ class AppServiceProvider extends ServiceProvider
 
             return new ArchivistClient($request?->bearerToken() ?? '');
         });
+
+        $this->app->scoped(AuthContext::class, fn (Application $app): AuthContext => new AuthContext(
+            client: $app->make(ArchivistClient::class),
+        ));
     }
 
     public function boot(): void

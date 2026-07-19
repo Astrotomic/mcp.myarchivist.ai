@@ -1,5 +1,5 @@
 {
-    "answer": "Boromir refers to the **Boromir Family**, a prestigious faction known for magical talent and wealth. Bronn Boromir, a character in the campaign, identifies himself as a member of this family, although he lacks their magical abilities and wealth. He joined an expedition to earn prestige for his family and make his school's steward proud.\n\nAdditionally, Bronn has an uncle named **Bogo Boromir**, whom he addresses in a message after a significant event in the campaign.",
+    "answer": "Boromir refers to the **Boromir Family**, a prestigious faction known for magical talent and wealth. Bronn Boromir, a character in the campaign, identifies himself as a member of this family, although he notes that he lacks their magical abilities and wealth. He joined an expedition to earn prestige for his family and make his school's steward proud.\n\nAdditionally, Bronn has an uncle named **Bogo Boromir**, whom he addresses in a message after a significant event in the campaign.",
     "citations": [
         {
             "source_type": "faction",
@@ -24,6 +24,6 @@
             }
         }
     ],
-    "monthlyTokensRemaining": 4967184,
-    "hourlyTokensRemaining": 483422
+    "monthlyTokensRemaining": 4950173,
+    "hourlyTokensRemaining": 482989
 }

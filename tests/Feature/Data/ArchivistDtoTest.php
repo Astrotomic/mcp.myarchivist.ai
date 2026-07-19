@@ -3,6 +3,8 @@
 namespace Tests\Feature\Data;
 
 use App\Data\CampaignData;
+use App\Data\CampaignDataShort;
+use App\Data\JournalDataShort;
 use App\Exceptions\DtoValidationException;
 use App\Exceptions\UnexpectedDtoAttributeException;
 use Illuminate\Contracts\Debug\ExceptionHandler;
@@ -121,6 +123,56 @@ class ArchivistDtoTest extends FeatureTestCase
 
         $unexpectedExceptions = array_values(array_filter($reported, fn ($e) => $e instanceof UnexpectedDtoAttributeException));
         $this->assertCount(1, $unexpectedExceptions, 'Exactly one UnexpectedDtoAttributeException should be reported for one new field.');
+    }
+
+    public function test_campaign_data_short_accepts_archived_fields_from_list_endpoint(): void
+    {
+        $reported = $this->captureReported(function () {
+            new CampaignDataShort([
+                'id' => 'camp_1',
+                'title' => 'Shadows',
+                'description' => null,
+                'system' => 'D&D 5e',
+                'image' => null,
+                'public' => false,
+                'mature' => false,
+                'owner_id' => Str::uuid()->toString(),
+                'archived' => false,
+                'archived_at' => null,
+                'created_at' => '2024-01-01',
+                'updated_at' => '2024-01-01',
+            ]);
+        });
+
+        $this->assertEmpty($reported);
+    }
+
+    public function test_journal_data_short_accepts_content_from_list_endpoint(): void
+    {
+        $reported = $this->captureReported(function () {
+            new JournalDataShort([
+                'id' => 'j_1',
+                'campaign_id' => 'camp_1',
+                'title' => 'Session Recap',
+                'content' => 'The party met [[Queen Alice]].',
+                'summary' => null,
+                'status' => 'draft',
+                'folder_id' => null,
+                'is_public' => false,
+                'is_pinned' => false,
+                'tags' => [],
+                'author_id' => Str::uuid()->toString(),
+                'last_edited_by_id' => Str::uuid()->toString(),
+                'token_count' => 12,
+                'cover_image' => null,
+                'published_at' => null,
+                'archived_at' => null,
+                'created_at' => '2024-01-01',
+                'updated_at' => '2024-01-01',
+            ]);
+        });
+
+        $this->assertEmpty($reported);
     }
 
     /**
