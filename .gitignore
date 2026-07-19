@@ -6,6 +6,7 @@
 .phpactor.json
 .phpunit.result.cache
 phpunit.xml
+chatgpt-app-submission.json
 /.codex
 /.cursor/
 /.idea
