@@ -18,9 +18,9 @@ use Laravel\Mcp\Server\Tools\Annotations\IsReadOnly;
     'before editing to preserve existing wikilinks.'
 )]
 #[IsReadOnly(false)]
-#[IsDestructive(false)]
+#[IsDestructive(true)]
 #[IsIdempotent(true)]
-#[IsOpenWorld(false)]
+#[IsOpenWorld(true)]
 class UpdateSessionTool extends Tool
 {
     protected function action(): UpdateSession

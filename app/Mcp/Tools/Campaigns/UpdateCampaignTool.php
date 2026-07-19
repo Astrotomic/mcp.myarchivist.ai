@@ -17,7 +17,7 @@ use Laravel\Mcp\Server\Tools\Annotations\IsReadOnly;
 #[IsReadOnly(false)]
 #[IsDestructive(false)]
 #[IsIdempotent(false)]
-#[IsOpenWorld(false)]
+#[IsOpenWorld(true)]
 class UpdateCampaignTool extends Tool
 {
     protected function action(): UpdateCampaign
