@@ -18,9 +18,9 @@ use Laravel\Mcp\Server\Tools\Annotations\IsReadOnly;
     'entity\'s image field is set to the resulting `public_url`. Returns `{url, attached}`.'
 )]
 #[IsReadOnly(false)]
-#[IsDestructive(false)]
+#[IsDestructive(true)]
 #[IsIdempotent(false)]
-#[IsOpenWorld(false)]
+#[IsOpenWorld(true)]
 class CompleteImageUploadTool extends Tool
 {
     protected function action(): CompleteImageUpload
