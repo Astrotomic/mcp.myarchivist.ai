@@ -2,309 +2,320 @@
     "current_page": 2,
     "data": [
         {
-            "created_at": "2026-03-23T16:38:23.879000",
-            "updated_at": null,
-            "id": "m3uyh35o2b3ss1s1zjatfrib",
-            "name": "Clockwork Plain",
-            "aliases": [],
-            "type": null,
-            "description": "Die Clockwork Plain ist ein Ort mit mächtigen Artefakten, die tiefgreifende magische Eigenschaften besitzen. Ein Beispiel ist ein Kubriks Würfel, der als ein Artefakt der Clockwork Plain identifiziert wurde. Dieser Würfel ist ein magisches Objekt, das mit Kräften verbunden ist, die über die alltäglichen Gegebenheiten einer Hafenstadt hinausgehen.\nBei einer Interaktion mit dem Würfel erlebten die Charaktere signifikante Veränderungen. Korvathun wurde durch die Magie des Würfels so beeinflusst, dass alles, was er tat, für andere uninteressant wirkte. Myna erlebte eine drastische körperliche Verwandlung und schrumpfte auf etwa zehn Zentimeter Größe. Morvain absorbierte den Würfel, was zu einer Transformation seiner linken Hand führte, die sich in eine Mischung aus Obsidian und Mithrilwürfeln verwandelte, durchzogen von rubinartigen Fäden.",
-            "image": null,
-            "tcg_image": null,
+            "id": "lo68j4zrckl6ii777yinpuy4",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false,
-            "parent_id": null
-        },
-        {
-            "created_at": "2026-03-21T21:35:49.043000",
-            "updated_at": null,
-            "id": "mapu1z87bmkg93si0zy1x03a",
-            "name": "Schrein der Göttin Akadi",
-            "aliases": [],
+            "name": "Triboar > Mausoleum > Ungewöhnlich Langer Raum",
+            "description": "Der Ungewöhnlich Langer Raum ist ein langer Gangraum. In der Mitte steht eine Fremde Frau, die in Rätseln spricht. Nachdem Die Gruppe eintritt, schließt sich die Tür aus Stein hinter ihnen. Die Schatten der Anwesenden lösen sich vom Boden und greifen an; die Schattenmagie fesselt Brennen Voidridge, Surina Nemmonis und die übrigen, während Dîn-io Tempest ungebunden bleibt. Vor Dîn-io erscheint als erste Prüfung ein Labyrinth Mit Hüfthohen Wänden, das Blut verlangt. Dîn-io löscht Fackeln, wodurch sich der Schattengriff schwächt, bis die Fesseln brechen.",
             "type": null,
-            "description": "Der Schrein der Göttin Akadi befindet sich hoch oben an einer vereisten Felswand und ist ein windiger Ort. Er liegt oberhalb einer großen Felswand, und der Zugang erfolgt über einen schmalen Pfad, der weiter oben zu finden ist.\nDer Aufstieg zum Schrein kann je nach Kletterfähigkeit und Lichtverhältnissen unterschiedlich lange dauern. Akadi ist die Göttin des Windes, und der Schrein könnte für ihre Anhänger von Bedeutung sein.",
+            "parent_id": null,
             "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false,
-            "parent_id": null
-        },
-        {
-            "created_at": "2026-03-21T14:04:03.319000",
-            "updated_at": null,
-            "id": "jm7x34fos651lpvzuv8h2klo",
-            "name": "Minenarbeiterpfad",
-            "aliases": [],
-            "type": null,
-            "description": "Der Minenarbeiterpfad ist ein Weg, der durch das Gebirge führt und als Hauptroute zur Gnomen-Siedlung Gnomengard dient. Der Pfad verläuft entlang eines größeren Flusses, den die Reisenden überqueren müssen. Die Landschaft ist geprägt von steilen Hängen und gelegentlichen Sichtungen von Wildtieren, wie Schlangen und Bären.\nReisende, die den Minenarbeiterpfad nutzen, können eine Karte von einem Wirt im Gasthaus erhalten, die den Verlauf des Pfades beschreibt. Die Gruppe folgt dem Minenarbeiterpfad, überquert den Fluss und folgt der Biegung des Flusses bis Gnomengard. Auf dem Weg begegnen sie verschiedenen Tieren und müssen Herausforderungen wie einem Hinterhalt von Goblinoiden bewältigen. Der Pfad führt schließlich zu einem breiten Fluss mit einer Brücke, die überquert werden muss, um die Reise fortzusetzen.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false,
-            "parent_id": null
-        },
-        {
-            "created_at": "2026-03-20T21:54:40.256000",
-            "updated_at": null,
-            "id": "zalvmkx5wxdtctifitl5af1y",
-            "name": "Triboar > Oberes Viertel",
             "aliases": [
-                "oberen Viertel"
+                "Langer Raum"
             ],
-            "type": null,
-            "description": "Das Oberes Viertel ist ein hoch gelegener Teil der Stadt, der von hochgeborenen Elfen bewohnt wird. Die Bewohner sind bekannt dafür, sich von den gewöhnlichen Bürgern der Stadt abzuschotten und halten sich zumeist in ihren eigenen Bereichen auf.\n\nEs gibt Berichte über einen Überlebenden, der sich in diesem Viertel aufhält, nachdem er aus den Wäldern zurückgekehrt ist, wo viele Stadtbewohner und Dorfbewohner verschwunden sind. In der Umgebung wurden zahlreiche Vermisstenfälle gemeldet, und die meisten der zurückgekehrten Personen verharren in einem tiefen Schlaf. Die Stadtwache warnt, dass die Bewohner des Oberen Viertels nicht viel mit den anderen Bürgern zu tun haben und dass sie verschlossen sind.",
-            "image": null,
             "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "merge": false,
-            "parent_id": null
+            "created_at": "2026-06-03T07:57:49.075000",
+            "updated_at": null
         },
         {
-            "created_at": "2026-03-20T21:54:40.192000",
-            "updated_at": null,
-            "id": "c5kh254lywpgxkhk0rq5rhs1",
-            "name": "Nordöstlicher Wald",
-            "aliases": [
-                "nordöstlichen Wald"
-            ],
-            "type": null,
-            "description": "Der Nordöstliche Wald ist ein größerer Wald im Nordosten der Stadt, bekannt für seine reiche Tierpopulation. Die Umgebung bietet eine Vielzahl von Wildtieren, darunter Hirsche und Wölfe. Der Wald ist von frischen Spuren durchzogen, die auf die Anwesenheit von Wildtieren hinweisen.\nIm Wald sind Hufspuren von Rotwild zu finden, und es gibt Lichtungen, auf denen Hirsche und Hirschkühe sichtbar sind. Der Wald ist ein beliebter Ort für die Jagd, und es werden auch Wölfe und Füchse angetroffen. Die erlegten Tiere können am Triboar  > Marktplatz in der Stadt verkauft werden.",
-            "image": null,
-            "tcg_image": null,
+            "id": "g9xc5lppmhiedaj95q8mwyhw",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Triboar > Mausoleum > Kleine Rechteckige Kammer",
+            "description": "Die Kleine Rechteckige Kammer ist ein enger, rechteckiger Raum am Ende einer Wendeltreppe. Sie ist kaum größer als der Schacht selbst und bietet wenig Platz, sodass Teile der Gruppe auf der Treppe warten mussten. In der Kammer befinden sich keine Särge, Wappen oder Inschriften, sondern nur eine einzelne Tür.\n\nHinter dieser Tür erstreckt sich ein Ungewöhnlich Langer Raum.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
             "merge": false,
-            "parent_id": null
+            "created_at": "2026-06-03T07:57:48.977000",
+            "updated_at": null
         },
         {
-            "created_at": "2026-03-20T16:44:59.232000",
-            "updated_at": null,
-            "id": "zc1e8gfk0r2orfwxvzg1hmgg",
-            "name": "Triboar > Bibliothek",
-            "aliases": [
-                "Bibliothek"
-            ],
-            "type": null,
-            "description": "Die **Triboar > Bibliothek** in Triboar ist eine zentrale Wissensstätte, in der jegliches Wissen gesammelt wird. Sie dient als Anlaufstelle für umfassendere Recherchen, insbesondere zu spezifischen Themen wie unsichtbaren, einschläfernden Geisterwesen. Die Triboar > Bibliothek befindet sich im Nordosten der Stadt, als das dritte Haus auf der linken Seite nach der letzten Abbiegung zum Osttor. Sie hat einen größeren Turm und ist mit Regalen voller Bücher und Schriftrollen bis unter die Decke gefüllt. Ein Kamin sorgt für Wärme, ohne dass Flammen die Bücher gefährden.\nDer Bibliothekar, ein älterer Mann in einer hellen, mittelgrauen Robe mit Kapuze und grauen Haaren, verweist auf die Triboar > Bibliothek für detailliertere Informationen. Dîn-io Tempest wird in der Triboar > Bibliothek von Surina Nemmonis und Gwendolyn Silverflame getroffen. Sie zeigen ihm einen Steckbrief einer „Hexe“ und besprechen das Walderlebnis sowie die schlafenden Begleiter. Der Bibliothekar erklärt, dass die Hexe nur aus Berichten weniger Überlebender skizziert wurde, da die meisten Betroffenen gestorben oder nie wieder erwacht sind. Dîn-io Tempest vergleicht die Augen auf dem Steckbrief mit denen der lichtgestaltigen Verfolger aus dem Wald und erkennt Ähnlichkeiten. Auf Anraten des Bibliothekars gehen die Charaktere zur Stadtwache, um weitere Informationen zu erfragen.",
-            "image": null,
-            "tcg_image": null,
+            "id": "rh8wo5kjcxzgdq05n3yepqqm",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": true,
-            "parent_id": null
+            "name": "Triboar > Mausoleum > Verborgener Raum",
+            "description": "Der Verborgene Raum ist eine Kammer, die hinter einer aufgebrochenen Wand freigelegt wurde. In der Kammer steht ein Leerer Sarkophag, und am Boden befindet sich ein Einstieg zu einer Wendeltreppe, die nach unten führt.\n\nDie Wendeltreppe endet in einer kleinen rechteckigen Kammer mit einer einzigen Tür. Nach dem Öffnen der Tür führt ein Ungewöhnlich Langer Raum, in dessen Mitte eine Fremde Frau wartet. Die steinerne Tür schließt sich hinter der Gruppe.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Verborgenen Raum"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-03T07:57:48.882000",
+            "updated_at": null
         },
         {
-            "created_at": "2026-03-20T16:44:59.158000",
-            "updated_at": null,
-            "id": "tgli3q0tgli76z5kbkwxzfps",
-            "name": "Enchanted Nightwood",
+            "id": "cfel0xml1bwutjb8qed2xzia",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Triboar > Mausoleum > Bereich Mit Acht Grufttüren",
+            "description": "Der Bereich Mit Acht Grufttüren ist ein unterirdischer Abschnitt mit acht Grufttüren, von denen jede ein eigenes Symbol oder Wappen trägt. In den meisten Kammern befinden sich Särge oder Sarkophage, einige haben Nebenräume mit weiteren Toten. In einem Raum fehlt anstelle einer erwarteten Tür eine Wand. Brennen zertrümmerte Fackelhalterungen, wodurch ein Stein sich löste und die Wand freigelegt wurde. Dahinter befindet sich ein Leerer Sarkophag mit einem Einstieg zu einer Wendeltreppe nach unten. Beim Abstieg wird die Luft kälter, und Die Gruppe hat das Gefühl, beobachtet zu werden. Die Treppe endet in einer kleinen rechteckigen Kammer mit einer einzigen Tür, die in einen ungewöhnlich langen Raum führt.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-03T07:57:48.785000",
+            "updated_at": null
+        },
+        {
+            "id": "cmpwhw1db001904jy5hpcxbg6",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "provisorische Lager der Gruppe bei Triboar",
+            "description": "Das provisorische Lager liegt im Schatten der Belagerung vor dem belagerten Triboar. Es weist Rauch auf und wird von Wachen bewacht.\n\nGwerk brachte Vorräte ins Lager. Die Gruppe bündelte Proviant und nötige Güter in einer großen Zeltplane. Dîn-io ließ die gefüllte Zeltplane in seinen Ring verschwinden. Surinas Vogel Cogling Aviad hob im Lager ab und trug den Ring Richtung Triboar davon. Die übrige Gruppe stieg in die Kutsche Iron Fang und verließ das Lager in Richtung Belagerungsring.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Lager der Skelette",
+                "Skelettlager"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-02T10:28:54.352000",
+            "updated_at": null
+        },
+        {
+            "id": "cmpwg5vxg000304jynqiom6ba",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Bryn Shander > Marktplatz",
+            "description": "Der Marktplatz ist ein offener Ort in der Stadt, an dem Personen einander begegnen. Gwendolyn traf Dîn‑io auf dem Marktplatz und zog ihn von dort aus zur Kirche.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-02T09:40:34.631000",
+            "updated_at": null
+        },
+        {
+            "id": "cmpwg5lul000004jydtqbniua",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Bryn Shander > Büro der Hohepriesterin",
+            "description": "Hinter der Tür lag das Büro der Hohepriesterin, ein verschlossenes Zimmer im Tempel mit Regalreihen, einem Schreibtisch und einer verschlossenen Truhe. Die Gruppe brach die Tür auf und durchsuchte das Büro. An den Regalen fanden Surina und Naevys religiöse Gegenstände, Kräuter, Rauchwerk, Kohle, Ersatzgewänder und zwei private Notizbücher. Am Schreibtisch lagen geöffnete Schreiben aus Luskan; in einer Schublade lagen ein schmaler Dolch/Brieföffner und Ersatzfedern. Unter dem Schubladenboden entdeckte Brennan einen kleinen silbernen Schlüssel. Mit diesem Schlüssel wurde ein draußenhergebrachtes, verschlossenes Buch geöffnet, was eine Schockwelle durch den Raum auslöste und drei Anwesende mit Frostüberzug erstarren ließ. Dîn-io brach anschließend das Truhenschloss auf; aus der Truhe schlug ein kalter Stoß, die Gefrorenen zeigten stärkeren Reif, und in der Truhe lagen mehrere magische Gegenstände sowie ein leeres Buch.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-02T09:40:21.564000",
+            "updated_at": null
+        },
+        {
+            "id": "n4ixb9d0w5jbnd015flejzgf",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Bryn Shander > Laube",
+            "description": "Die Laube ist ein Gasthaus und Schanklokal, das in der Vergangenheit von nächtlichem Getümmel geprägt war und später teilweise abgebrannt ist. Zu Beginn der Chronik waren Brennan und Gwendolyn Silverflame im Auftrag des Schmieds in der Laube, um Schulden bei einem Glücksspieler einzutreiben. Der Schuldner stolperte und brach sich die Nase, während Gwendolyn Silverflame versuchte, sie wieder einzurenken. Die Hohepriesterin passierte die Laube zufällig auf ihrem Weg, sah das Getümmel und erkannte zwei Gesichter aus der Messe, kannte die Laube selbst jedoch nicht.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T16:11:49.177000",
+            "updated_at": null
+        },
+        {
+            "id": "ocuzoot1ktjzti7i5obfwtwv",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Bryn Shander > Holzhaus Der Hohepriesterin",
+            "description": "Das Holzhaus der Hohepriesterin ist ein unauffälliges Wohnhaus, vollständig aus Holz gebaut und als das dritte Haus die Straße hinunter benannt. Die Hohepriesterin öffnete die Tür, nachdem Dîn-io Tempest geklopft hatte. Auf die Mitteilung, dass Brennan in der Kirche gefroren worden sei, wurde die Hohepriesterin sofort wach und machte sich mit Dîn-io Tempest und Gwendolyn Silverflame auf den Weg zurück zur Kirche. Sie betrat ihr Haus und eilte zum Tempel.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Haus Der Hohepriesterin"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T16:11:48.980000",
+            "updated_at": null
+        },
+        {
+            "id": "k1pvdktsq13x3iw3643923wu",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Bryn Shander > Nordtor",
+            "description": "Das Nordtor ist ein Stadttor, an dem eine Stadtwache postiert ist. Ein Wächter, der dort schläfrig ist, nennt das Haus der Hohepriesterin als das dritte Haus die Straße hinunter und reagiert verzögert auf Nachrichten vom Tempel. Die Gruppe wird halb schlafend durchgelassen.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T16:11:48.890000",
+            "updated_at": null
+        },
+        {
+            "id": "md1bfm9yk2ssuwa7gj49peud",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Bryn Shander > Taverne",
+            "description": "Die Taverne ist ein Gasthaus mit Zimmern und Betten. Zu Beginn war sie leer. Dîn-io Tempest kehrte zur Taverne zurück und fand sie unbesetzt. Später brachte Dîn-io Tempest nacheinander Naevys Nerizana, Brennan und Surina Nemmonis dorthin, legte sie in Betten ab und deckte sie zu. Dîn-io Tempest versteckte magische Gegenstände, die aus einer Truhe genommen wurden, in einem anderen Zimmer der Taverne unter einem Bett.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Leere Taverne"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T16:11:48.707000",
+            "updated_at": null
+        },
+        {
+            "id": "jfj82aqe8q64u8oiscu26zvb",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Bryn Shander > Bibliothek",
+            "description": "Die Bibliothek ist ein separates Schreibzimmer im hinteren Bereich des Tempels. Sie enthält Bücher zur Geschichte der Stadt Aurel und Targos, zwei Bände zur Geschichte des Tempels und seiner Priester, zahlreiche Erzählungen und Märchen sowie ein verschlossenes, reich verziertes Buch mit Gebirgs- und Drachenmotiv auf dem Einband.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Schreibzimmer"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T16:11:48.617000",
+            "updated_at": null
+        },
+        {
+            "id": "drm1pm5y5nxezj4itk2l9nnw",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Bryn Shander > Kirche",
+            "description": "Die Kirche ist ein Gebäude mit einem großen Hauptsaal und einem erhöhten Altar auf der linken Seite. Zu den hinteren Räumlichkeiten gehören fünf Zimmer, ein Bad, ein Büro, eine Bibliothek/Schreibzimmer, eine kleine Küche, ein Schlafzimmer sowie Latrinen. Die Eingangstüren sind massive doppelflügelige Holztüren, die von innen mit einem schweren Balken verriegelt werden können.\n\nIn der Kirche verrichtete Brennan Dienst und wurde von der Hohepriesterin mit der Reinigung beauftragt. Er beobachtete die Besucher, während die Hohepriesterin die Kirche verließ, woraufhin er die Gruppe holte. Die Gruppe suchte die Räume ab und fand keine Kellertreppe, jedoch eine Leiter zum Dach, Bücherbestände, einschließlich eines verschlossenen Drachenbuchs, religiöse Gegenstände, Kräuter, Ersatzgewänder, zwei Notizbücher, geöffnete Schreiben aus Luskan, einen versteckten silbernen Schlüssel im Schreibtisch und eine mit Bannmagie belegte Truhe.\n\nSurina Nemmonis öffnete das Drachenbuch mit dem silbernen Schlüssel, was eine Schockwelle auslöste und drei Personen einfrierte. Später öffnete Dîn-io Tempest die Truhe, die erneut kalte Luft ausstieß und zahlreiche magische Gegenstände sowie ein leeres Buch enthielt. Die Hohepriesterin stellte das aufgebrochene Bürozimmer fest und meldete den Verlust der Gegenstände der Stadtwache, woraufhin die Stadttore geschlossen wurden.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Tempel"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T16:11:48.424000",
+            "updated_at": null
+        },
+        {
+            "id": "cmpvd5qrl002104icclfegsfi",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Hain",
+            "description": "Der Hain ist ein kleiner Baumhain am Straßenrand, in den die Kutsche gefahren und dort quergestellt wurde. Die Gruppe hielt die Kutsche im Hain an und hatte von dort freie Sicht auf die belagerte Stadt, ohne sofort bemerkt zu werden. Sie blieben im Hain verborgen und nutzten die Fahrt als kurze Rast, während sie ihre Planung verlegten und Ried den Auftrag gaben, sich vorsichtig ins Mausoleum vorzuschicken. Am Einbruch der Dunkelheit blieb die Gruppe weiterhin im Hain verborgen.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
             "aliases": [
                 "Baumgrenze",
                 "Hain"
             ],
-            "type": null,
-            "description": "Der Hain ist ein bewaldetes Gebiet, das sich etwa 100 Meter von der Kutsche entfernt befindet. Der Hain wird von einer offenen Wiese umgeben, die den Übergang zwischen Wald und freiem Gelände bildet. Die hohen und dichten Bäume dämpfen das Licht und schaffen eine dunkle Umgebung. In diesem Hain gibt es Gebüsche und Bäume, die eine dichte Blattdecke bilden.\n\nWährend einer nächtlichen Rast der Kutsche verlässt Surina die Kutsche und begibt sich in den Hain, um sich zu erleichtern. Dort hört sie eine summende Stimme, die ihr Summen unter dem Blätterdach nachahmt. Um die Kutsche und Lichtquellen zu sehen, entzündet sie eine Fackel und klettert auf einen Baum. Währenddessen bemerkt der Schütze das Fehlen von Surina und schlägt Alarm. Die Gruppe sucht nach ihr und entdeckt, dass sie in der Nähe des Waldrands ist. Als sie die Baumgrenze überschreiten, fallen mehrere Mitglieder der Gruppe in einen tiefen Schlaf. Nur Brennen bleibt als Einziger wach und alarmiert die anderen, während aus dem Wald bedrohliche, flammende Gestalten erscheinen.",
-            "image": null,
             "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "merge": false,
-            "parent_id": null
+            "created_at": "2026-06-01T15:28:42.918000",
+            "updated_at": null
         },
         {
-            "created_at": "2026-03-20T16:44:59.110000",
-            "updated_at": null,
-            "id": "buibcuxpy12az0isbxsao48q",
-            "name": "Maus Castle",
+            "id": "jgpuu958cdoo6129ak8icknk",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Hobgoblin Lager vor Triboar (Belagerung)",
+            "description": "Das Lager der Hobgoblins vor Triboar besteht aus großen Blöcken identischer schwarzer Zelte, die ringförmig um die belagerte Stadt angeordnet sind. Die Straße selbst ist zeltfrei und mit Barrikaden gesichert. Im Lager gibt es enge Gassen zwischen den Zeltblöcken sowie einzelne breitere Durchfahrten. Ein großes Gebäude, das Triboar von Triboar, befindet sich im Lager.\nDer Hobgoblin Lager vor Triboar (Belagerung) um Triboar ist die äußere Linie der Belagerer, bestehend aus einer Barrikade aus aufgeschichtetem Holz, Steinen und Erde. Hinter dieser Barrikade haben Hobgoblins in schwarzen Rüstungen Stellung bezogen. Rechts vorn befindet sich eine brennende Sperre, aus der Rauch aufsteigt. Die Hobgoblins schießen aus Deckung und aus dem Rauch der brennenden Sperre mit Pfeilen auf die Angreifer und füllen Lücken in ihrer Linie. Die Iron Fang fährt auf die brennende Barrikade zu und hält im Schatten der brennenden Sperre.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
             "aliases": [
-                "Gang",
-                "Flur"
+                "Belagerungsring"
             ],
-            "type": null,
-            "description": "Die Maus Castle ist eine große, befestigte Struktur mit hohen Mauern und einem Tor, das den Zugang zur Stadt kontrolliert. Sie ist umgeben von einer bergigen Landschaft, die als Vorland zu einem Gebirge beschrieben wird. Innerhalb der Maus Castle sind verschiedene Kreaturen und Gegner aktiv. Die Maus Castle dient als Rückzugsort und Verteidigungsanlage.\nIn den tiefen Mauern der Burg ist eine Zelle, in der Gefangene festgehalten werden. Diese Zelle ist von feuchten Steinwänden umgeben, die mit Staub und dem Geruch von Schweiß, Moder und Blut durchzogen sind. Eine eiserne Tür versiegelt den Raum und lässt nur schwaches Licht durch. Die Luft ist schwer und drückend, und die Zelle bietet kaum Platz für Bewegung, was die Gefangenen in ihren Fesseln zusätzlich einschränkt. Zu den Gefangenen gehören Dîn-io Tempest, Gwendolyn Silverflame und Surina, die sich ohne Waffen oder Ausrüstung in der Zelle befinden.\nAls die Zellentür geöffnet wird, betreten zwei Orks den Raum, fliehen jedoch schnell, als ein tiefes Knurren von außerhalb ertönt. Die Gruppe nutzt die Gelegenheit, um sich aus ihren Fesseln zu befreien und die Zelle zu verlassen. Sie schleichen durch einen Gang, in dem Rufe der Orks hallen. Im halb verfallenen Innenhof entdecken sie einen runden Steinturm, dessen Tür einen Spalt offen steht.\nIm Inneren finden sie Kisten mit ihrer Ausrüstung. Während sie den Raum durchsuchen, beobachten sie durch ein Fenster, wie Kultisten und Orks in Richtung des Haupttors rennen. Plötzlich ertönt ein lautes Krachen, gefolgt von Schreien, und die Gruppe zieht sich in die Gebäude zurück. Sie betreten einen breiten Durchgang mit einer großen, geschlossenen Tür am Ende, die sie aufreißen, um einen stillen Hof zu entdecken, der mit Leichen übersät ist. Ein blutüberströmter Ork, der noch lebt, wird von einem Armbrustbolzen getroffen. Ein großer, eisenbeplatteter Kriegswagen mit einem Goblin erscheint, der die Gruppe auffordert, zu ihm zu kommen, bevor der Wagen sich in Bewegung setzt. Die Gruppe rennt los, um den Wagen zu erreichen, während sie von weiteren Orks und Kultisten verfolgt werden.\nZusammenfassend lässt sich sagen, dass die Maus Castle nicht nur eine Verteidigungsanlage ist, sondern auch ein Ort des Kampfes und des Überlebens für die Gefangenen, die in ihren düsteren Zellen festsitzen und die Gefahr der Orks und Kultisten überwinden müssen.",
-            "image": null,
             "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "merge": true,
-            "parent_id": null
+            "created_at": "2026-06-01T15:15:37.694000",
+            "updated_at": null
         },
         {
-            "created_at": "2026-03-19T13:45:33.539000",
-            "updated_at": null,
-            "id": "d26ixi9xhdolz7tu5aryak09",
-            "name": "Ardeep Forest > Goblin-Höhle",
-            "aliases": [],
-            "type": null,
-            "description": "Die Goblin-Höhle ist ein feuchter und gefährlicher Ort, geprägt von Nässe, Dunkelheit und Enge. Sie dient als Versteck für Goblins und birgt selbst Gefahren. Die Höhle ist das Ziel einer Suche nach den entführten Bewohnern von Nightstone.\nIn den Tiefen der Höhle lauert ein schwarzer Schleim, ein gefährlicher Ooze, der aus der Dunkelheit und Feuchtigkeit angreift. Dieser Ooze stellt eine unmittelbare Bedrohung dar und beeinflusst die Erkundung der Höhle.\nDie Goblin-Höhle ist zudem eine feuchte und enge Umgebung, die als Verhandlungsort zwischen einer Gruppe und den Goblins diente. Hier konnten Missverständnisse vermieden werden, und eine diplomatische Lösung wurde gefunden. Diese Verhandlung führte zur Freilassung der entführten Dorfbewohner, die in der Höhle gefangen gehalten wurden. Die Gruppe konnte die Höhle ohne einen weiteren Kampf verlassen, nachdem sie erfolgreich die Gefangenen befreit hatte. Die Rückkehr der Gruppe mit den befreiten Dorfbewohnern nach Nightstone markierte das Ende der unmittelbaren Goblin-Bedrohung.",
-            "image": null,
-            "tcg_image": null,
+            "id": "bscvem9a8xspnc58eigur9zy",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": true,
-            "parent_id": null
-        },
-        {
-            "created_at": "2026-03-19T13:45:33.521000",
-            "updated_at": null,
-            "id": "fx9xijuw8hk2yl2oof6h68vk",
-            "name": "Ardeep Forest > elfisches Dorf",
+            "name": "Brennende Barrikade",
+            "description": "Die Brennende Barrikade ist eine absichtlich errichtete Barriere an der Straße, die in Brand geraten war. Diese Barriere besteht aus brennendem Holz, Harz und verkohltem Material, was Rauch, Flammen und Hitze erzeugt, die nach Harz und verkohltem Holz riechen und die Luft erwärmen. Eine Kutsche rollte quer vor die Barrikade, die Pferde wurden abgekoppelt und liefen zurück. Drei Goblins stiegen bei der Barrikade aus und bezogen Stellung. Surina Nemmonis sprang über die Brennende Barrikade bis zu einem Baum und griff von dort an. Einer der Goblins warf eine Granate hinunter, was zu einer Explosion führte und mehr von der Barrikade in Brand setzte. Gwerk zog einen Gegner gegen die Barrikade und hielt ihn dort fest.\nHobgoblins schossen aus dem Rauch der brennenden Sperre, der über das Feld zog und die Sicht erschwerte. Die Gruppe nutzte Rauch und Flammen als Deckung und rückte näher an die Barrikade. Die Iron Fang fuhr auf die Brennende Sperre zu und hielt im Schatten der brennenden Barrikade an; Funken und Hitze trafen die Kutsche.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
             "aliases": [
-                "Elfen-Dorf im Ardeep Forest",
-                "das Elfen-Dorf im Ardeep Forest"
+                "Brennende Sperre"
             ],
-            "type": null,
-            "description": "Das elfische Dorf im Ardeep Forest ist ein Ort, an dem die Abenteurer Hinweise von den dort lebenden Elfen über eine Goblin-Höhle erhielten. In dieser Höhle sollen sich die entführten Bewohner von Nightstone befinden. Die Informationen der Elfen führten die Gruppe zu einer Mission, die auf die Rettung der Vermissten abzielte.\nDas elfische Dorf ist auch ein Ziel für Abenteurer, die Verbündete suchen. Die Gruppe folgt Spuren in die Wildnis, die sie aus Nightstone hinausführen und in Richtung des Dorfes leiten. Das Aufsuchen des Elfen-Dorfs dient der strategischen Suche nach Unterstützung, Kontakten oder Antworten. Das elfische Dorf war entscheidend für den weiteren Verlauf der Reise, da es der Gruppe eine klare Richtung gab.",
-            "image": null,
             "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "merge": true,
-            "parent_id": null
+            "created_at": "2026-06-01T15:15:37.483000",
+            "updated_at": null
         },
         {
-            "created_at": "2026-03-19T13:45:33.503000",
-            "updated_at": null,
-            "id": "uxc4cu4s5ubstdzmbulzort1",
-            "name": "Ardeep Forest",
-            "aliases": [],
-            "type": null,
-            "description": "Der Ardeep Forest ist ein elfischer Wald, der ein elfisches Dorf beherbergt. In diesem Dorf erhalten die Bewohner Hinweise auf eine Goblin-Höhle, in der die entführten Bewohner von Nightstone vermutet werden. Die Umgebung des Waldes wird als fremd, still und geheimnisvoll beschrieben. Die Informationen aus dem elfischen Dorf lenken die Aufmerksamkeit auf die Goblin-Höhle und bestimmen den Weg zur nächsten Destination.\nDie Abenteurer suchen den Ardeep Forest nach ihrer Zeit in Nightstone auf. Sie zielen darauf ab, das elfische Dorf innerhalb des Waldes zu erreichen, um Verbündete zu finden. Der Weg in die Wildnis führt sie über Spuren, die tiefer in den Wald hineinführen. Das elfische Dorf stellt einen strategischen Punkt für die Abenteurer dar, die auf der Suche nach Unterstützung und Antworten sind, während sie sich von den Ruinen von Nightstone entfernen.",
-            "image": null,
-            "tcg_image": null,
+            "id": "cmpvcd0k2002r04l8di6avpxe",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": true,
-            "parent_id": null
-        },
-        {
-            "created_at": "2026-03-18T21:07:48.314000",
-            "updated_at": null,
-            "id": "addoxsqdqjcgp7gmyp8zk6t0",
-            "name": "Calimshan",
-            "aliases": [],
+            "name": "Conyberry > Brunnen",
+            "description": "Die Höhle unter dem Brunnen ist eine kuppelförmige Kammer mit einem Durchmesser von etwa zehn bis fünfzehn Metern. Sie ist über einen trockenen, tiefen Brunnen zugänglich, dessen Eimer frei in der Luft hängt. In der Kammer befinden sich sechs Hobgoblin-Leichen in einfacher Leinenkleidung, ohne Kampfrüstung, Gold, Banner oder sonstige Ausrüstung. Der Boden und die Wände bestehen aus Erde und kleineren Steinen, ohne weitere Ausgänge oder verborgene Hohlräume.",
             "type": null,
-            "description": "Region, aus der die Lodernde Leidenschaft stammt, die Rita identifizierte. Dieser Ort ist einer der in der Literatur zum obsidianen Würfel genannten Orte.",
+            "parent_id": null,
             "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": true,
-            "parent_id": null
-        },
-        {
-            "created_at": "2026-03-18T21:07:48.298000",
-            "updated_at": null,
-            "id": "j0cpz4i2enqrgaaeope7wa91",
-            "name": "Luskan",
-            "aliases": [],
-            "type": null,
-            "description": "Luskan ist eine Stadt, die für ihre Gilden und magischen Aktivitäten bekannt ist. Sie hat eine lange Geschichte und ist ein wichtiger Knotenpunkt für Handelsrouten. Der Zugang nach Luskan wurde seit der Machtübernahme durch Ali Archeros erschwert, was die Ankunft von Gildenmitgliedern betrifft. Gildenmitglieder sind hier höchstens als Gäste anzutreffen. Eine Magierin in Briarwatch-Kleidung, die vor etwa 60 Jahren nach Briarwatch kam, erklärt, dass Gildenmitglieder aus Luskan hier nicht häufig anzutreffen sind. Sie bestätigt, dass es schwierig ist, Gildenmitglieder in Luskan zu finden, und erwähnt die aktuellen politischen Umstände, die den Zugang zur Stadt betreffen.\nIn der Umgebung gibt es Berichte über magische Zwischenfälle, und Luskan war in der Vergangenheit von verschiedenen Konflikten und Unruhen betroffen. Dies äußert sich in aktuellen Gerüchten über einen schwelenden Krieg zwischen Feuerelementaren und Drachen. In jüngerer Zeit hat die Stadt, laut Seres, wiederholt um Hilfe gebeten, da ein nahegelegener Vulkan ausgebrochen ist und Feuerelementare umherstreifen. Surinas Großmutter lebt in der Nähe dieses Vulkans. Captain Durnan bietet die Kooperation der Magiergilde von Luskan an.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": true,
-            "parent_id": null
-        },
-        {
-            "created_at": "2026-03-09T00:27:31.619000",
-            "updated_at": null,
-            "id": "ojxdjz0gojqwbii4vmei8f2m",
-            "name": "Die Mine",
             "aliases": [
-                "Loch",
-                "das Loch"
+                "Der Brunnen"
             ],
-            "type": null,
-            "description": "Die Die Mine ist ein gefährlicher Ort, an dem ein seltenes Metall abgebaut wird, das gegen Untote eingesetzt wird und in Verbindung mit Materialien steht, die eine spezielle Funktion im Kampf gegen Untote haben. Der Ort ist durchzogen von dunklen und unnatürlichen Kräften. Die Gruppe betritt die Die Mine, die verlassen ist und Anzeichen des Verfalls zeigt, während der Tod und feindliche Mächte präsent sind. In den Gängen begegnen die Abenteurer untoten Ghulen und Zombies. Flint findet in der Die Mine neben einem Skelett ein Buch, das Fragen über die Vergangenheit des Ortes aufwirft. An diesem Ort entdeckt Flint auch einen Mimic. Nach dem Kampf gegen den Mimic und die untoten Gegner trifft Flint auf einen dunklen Magier in einem abgelegenen Raum, der einen Haufen Gold enthält. Dieser Raum wird von dem dunklen Magier bewohnt, der feindselig gegenüber Eindringlingen ist. Flint und Alagos werden von dem Magier mit einem Froststrahl angegriffen, doch beide können sich mit einem magischen Schild vor dem Angriff schützen. Die restliche Gruppe versucht, Flint und Alagos zu folgen, indem sie ein Seil zum Rüberhangeln baut, um die schwierigen Bedingungen der Die Mine zu überwinden.\nParallel dazu ist das Die Mine ein markanter geografischer Punkt in der Umgebung der Die Mine und gilt ebenfalls als gefährliche Stelle, an der Fehler sofort Konsequenzen haben können. Während eines Kampfes gegen den Krieger des Magiers wird das Die Mine strategisch genutzt, als die Gruppe die Magnetizer Eldritch Canon einsetzt, um den Krieger in das Die Mine zu befördern.",
-            "image": null,
             "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": true,
-            "parent_id": null
-        },
-        {
-            "created_at": "2026-03-09T00:27:31.578000",
-            "updated_at": null,
-            "id": "smc4ga1p35tz70tqck2yvcnh",
-            "name": "Long Road",
-            "aliases": [],
-            "type": null,
-            "description": "Die Long Road ist eine bedeutende Handelsstraße, die nach Norden führt. Auf dieser Straße begegnen Reisende einem fahrenden Händler. Die Gruppe kauft praktische Ausrüstungsgegenstände wie zwei Laternen, ein Seil und ein Stundenglas von dem Händler.\nFlint bietet dem Händler ein besseres Leben in Hammerhaeim an und verfasst ein Empfehlungsschreiben für Elmar. Flint erhält zudem eine Wegbeschreibung zu einer Mine, in der ein seltenes Metall abgebaut wird, das gegen Untote eingesetzt wird.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "merge": false,
-            "parent_id": null
+            "created_at": "2026-06-01T15:06:22.585000",
+            "updated_at": null
         },
         {
-            "created_at": "2026-03-09T00:27:31.558000",
-            "updated_at": null,
-            "id": "dixrh0pbibx20hvpq50il3rj",
-            "name": "Haus Des Elfen",
-            "aliases": [],
-            "type": null,
-            "description": "Das Haus Des Elfen ist ein Ort, an dem magische und unnatürliche Kräfte spürbar sind. Der Elf, der dort lebt, ist überzeugt, dass ein Amulett ihm die Macht verleiht, einen Gott gefügig zu machen und zeigt sich unbeeindruckt von den Versuchen anderer, ihn von seiner Suche abzubringen.\nBeim Verlassen des Hauses zündet die Gruppe den Teppich an und erzeugt Illusionen, was zu einer chaotischen Situation führt. Flint nimmt eine wertvolle Vase, füllt sie mit Wasser und wirft sie ins Feuer. Der Elf reagiert verärgert und fordert die Gruppe auf, das Haus zu verlassen. Flint verlangt daraufhin eine Bezahlung, was die Spannungen erhöht, bis Sudur Flint schließlich aus dem Haus zieht, um eine Eskalation zu verhindern.",
-            "image": null,
-            "tcg_image": null,
+            "id": "cmpvcc9x8002h04l88kvg92g7",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false,
-            "parent_id": null
-        },
-        {
-            "created_at": "2026-03-09T00:27:31.520000",
-            "updated_at": null,
-            "id": "vc6iyboiwf80o44dsxj0yph9",
-            "name": "Bibliothek",
-            "aliases": [],
+            "name": "Fort bei Conyberry",
+            "description": "Das provisorische Lager liegt nahe Treibhorn im Niewinderwald und besteht aus Zelten, einem Südtor und einem östlichen Südturm. Naevys brachte den schwerverletzten Dane ins Lagerzelt. Die Gruppe hielt Wachen durch die Nacht, während am folgenden Nachmittag eine Kutsche mit zwölf Pferden durch das geöffnete Südtor ins Lager fuhr. Drob, Gwerk und sieben weitere Goblins stiegen aus.",
             "type": null,
-            "description": "Die Bibliothek ist ein Ort des Wissens und dient als Rückzugsort für Studierende und Forscher, die sich auf ihre Vorbereitungen konzentrieren möchten. Sie ist geprägt von Stille und dem Geruch von alten Büchern, die in Regalen aufgereiht sind. Alagos nutzte die Zeit in der Bibliothek, um sich auf bevorstehende Aufgaben vorzubereiten und Wissen zu sammeln, das für Abenteuer von Bedeutung sein könnte.",
+            "parent_id": null,
             "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false,
-            "parent_id": null
-        },
-        {
-            "created_at": "2026-03-09T00:11:07.382000",
-            "updated_at": null,
-            "id": "jlu7opc5k230xyxzeob3wn12",
-            "name": "Triboar > Gildenhäuser",
-            "aliases": [],
-            "type": null,
-            "description": "Die Gildenhäuser in Triboar dienen dem Sammeln und Austausch von Wissen und Informationen. Alagos besuchte die Gildenhäuser und die Bibliothek von Triboar, um Informationen über den Ort zu sammeln. In der Bibliothek erkundigte er sich bei Eangromir nach der Geschichte von Triboar. Während seines Aufenthalts versuchte Alagos, ein oder zwei Zauber zu lernen, hatte jedoch keinen Erfolg und blieb weiterhin in der Bibliothek.\n\nFlint Fireforge fand in der Bibliothek das Buch „Artificial Times“ über historische Erfindungen. Während seines Besuchs entdeckte Flint auch eine Schriftrolle mit „Glyph of Warding“ und stahl diese. Alagos blieb über Nacht in der Bibliothek und lernte einen Zauber.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false,
-            "parent_id": null
-        },
-        {
-            "created_at": "2026-03-09T00:11:07.361000",
-            "updated_at": null,
-            "id": "cdybx5jk7pzm330hsifb2qni",
-            "name": "Triboar > Everwyvern Resort",
-            "aliases": [],
-            "type": null,
-            "description": "Das Everwyvern Resort ist ein Veranstaltungsort in Triboar, der für gesellschaftliche Zusammenkünfte genutzt wird. Sudur Ragni erhielt eine Einladung zu einer Party im Everwyvern Resort. Am Abend besuchten Sudur und Alagos gemeinsam die Feier im Resort. Es sind keine weiteren spezifischen Details über die Räumlichkeiten oder die Atmosphäre des Resorts bekannt.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false,
-            "parent_id": null
-        },
-        {
-            "created_at": "2026-03-09T00:11:07.340000",
-            "updated_at": null,
-            "id": "f8fso2d2er662wk0425v7nkg",
-            "name": "Triboar > High Market",
             "aliases": [
-                "High Market"
+                "Lager der Skelette",
+                "Skelettlager"
             ],
-            "type": null,
-            "description": "Der Triboar > High Market in Triboar ist ein belebter Handelsplatz, auf dem eine Vielzahl von Ständen und Händlern ihre Waren und Dienstleistungen anbieten. Hier werden Kräuter, Gewürze und andere Waren gehandelt, und ein Stand verkauft insbesondere Räucherstäbchen mit Salbei sowie getrocknete Kräuter wie Wolfswurz und Springkraut.\nSudur Ragni entdeckte dort eine legendäre Laute für 40 Goldstücke. Durch einen Auftritt und den Tausch seiner alten Laute konnte er den Preis auf 23 Goldstücke senken und erwarb die Laute. Sein Auftritt führte zu einer Einladung zu einer Party im Everwyvern Resort.\nIn der Nähe des Marktes befindet sich das erste Haus hinter Triboar > High Market, wo der Traumweber wohnt. Der Traumweber kann Träume deuten und den Schlaf unterstützen, jedoch keine magische Quelle in Träumen stoppen, es sei denn, man erreicht die Quelle selbst. Die Gruppe erwirbt Amulette, die helfen sollen, zwischen Traum und Realität zu unterscheiden.",
-            "image": null,
             "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T15:05:48.058000",
+            "updated_at": null
+        },
+        {
+            "id": "qn2sekf67los5coo0urwn951",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": true,
-            "parent_id": null
+            "name": "Conyberry",
+            "description": "Conyberry ist ein zuvor umkämpftes Dorf.\nIm Dorf wurden die Häuser nacheinander durchsucht. Es wurden leere, aufgebrochene Kisten, ein zerstörter Karren mit gebrochener Achse und Rädern sowie ein gewaltsam aufgebrochener Fußboden über einer ausgehobenen, leeren Grube gefunden. Die Grube wies glatte Druckstellen auf, die auf ein zuvor dort liegendes, schweres, glattes Objekt hindeuteten. Markierte Fallenstellen wurden ohne Erfolg geprüft, und es wurden keine Vorräte, keine Asche und keine Spuren einer Verbrennung der Toten gefunden. Gwendolyn Silverflame stellte keine fremde magische Signatur fest. Am Dorfbrunnen hing der Eimer frei in der Luft; im Schacht befand sich eine kuppelförmige Kammer mit sechs Hobgoblin-Leichen in einfacher Leinenkleidung, ohne Ausrüstung oder Banner und ohne sichtbaren Ausgang. Surina Nemmonis schnitt Finger ab und füllte sechzig Finger in den Eimer. Die Suche ergab sonst keine verwertbaren Beutegegenstände, und eine verfolgte Spur führte in Richtung Flint.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Coniberry"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T13:10:50.935000",
+            "updated_at": null
+        },
+        {
+            "id": "cmpr0w3ir003q04ju6ieprv0w",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Triboar > oberirdische Bibliothek",
+            "description": "Die Bibliothek unter der Stadt ist ein unterirdischer Bücherspeicher, in dem sich ein Gehirn befindet. Die Existenz der Bibliothek und des Gehirns wurde Sir Richardson gemeldet. Er erklärte, dass ihm von einer solchen Bibliothek nichts bekannt sei und die städtischen Aufzeichnungen nur eine oberirdische Bibliothek im Nordosten verzeichnen. Die Gruppe gab an, durch einen Brunnen aus dem Untergrund in die Bibliothek gelangt zu sein, konnte den Zugang jedoch nicht belegen, da dieser inzwischen wieder verschwunden oder verschlossen war. Die Gruppe entschied, über die Bibliothek und das Gehirn zu sprechen, aber andere Details aus dem Untergrund vorerst zurückzuhalten.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Bibliothek"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-05-29T14:34:12.788000",
+            "updated_at": null
         }
     ],
     "from": 21,
-    "last_page": 6,
+    "last_page": 10,
     "per_page": 20,
     "to": 40,
-    "total": 111
+    "total": 191
 }

@@ -1,0 +1,46 @@
+{
+    "current_page": 1,
+    "data": [
+        {
+            "id": "e0c3lw2x5m9vjdrk3oqngjj3",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "character_name": "Courier",
+            "character_alias": null,
+            "player_name": null,
+            "player": null,
+            "description": "Courier answered the Magical Letterbox in person. He expressed frustration to the party about not having delivered their earlier letters or the loose acorns they had entrusted to him. He produced a handful of loose acorns and the undelivered letter, snatched Bronn Boromir’s new letter, and trudged off down the mountain while carrying all three undelivered parcels and waving his middle fingers.",
+            "image": null,
+            "type": "NPC",
+            "character_aliases": [],
+            "player_handle": null,
+            "backstory": null,
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-07T22:59:52.936000",
+            "updated_at": null
+        },
+        {
+            "id": "pahpa4gpeuxnvx9n6ozv5vt3",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "character_name": "Bogo Boromir",
+            "character_alias": null,
+            "player_name": null,
+            "player": null,
+            "description": "Bogo Boromir is Bronn Boromir’s uncle. Bronn addressed him as “Uncle BOGO” when composing a message. Bronn used the mountain’s Magical Letterbox to send Bogo a letter stating he had taken down a dragon and demanding pride in the deed.",
+            "image": null,
+            "type": "NPC",
+            "character_aliases": [],
+            "player_handle": null,
+            "backstory": null,
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-07T22:59:52.821000",
+            "updated_at": null
+        }
+    ],
+    "from": 1,
+    "last_page": 10,
+    "per_page": 2,
+    "to": 2,
+    "total": 19
+}

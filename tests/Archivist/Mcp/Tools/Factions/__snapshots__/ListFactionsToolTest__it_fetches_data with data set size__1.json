@@ -1,0 +1,71 @@
+{
+    "current_page": 1,
+    "data": [
+        {
+            "id": "zj5f79poaqcq0urv3r9y7rps",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "name": "Fireworks Troupe",
+            "description": "The Fireworks Troupe are Entertainers known for their extensive collection of fireworks. They are located in a tavern and were considered a potential source of support against Haldraxis, who is said to have a fear of loud noises. Gideon Xander suggested that the troupe could use their fireworks to combat the dragon, but Philip refused to leave the City Gate. Eventually, Philip, the Tower Guards, Sybil, the Entertainers, and other townsfolk approached the Keep, where they hailed the party as heroes. The townsfolk doubled the promised reward and offered free rooms, drinks, and store discounts.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Entertainers"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-07T22:59:53.546000",
+            "updated_at": null
+        },
+        {
+            "id": "gft5b6tzrszusbpmvbwz4wfr",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "name": "Tower Guards",
+            "description": "The Tower Guards are town Ballista Crews stationed in a Barracks who operate the Ballista Crews positioned at the tops of the town's towers. After being freed, they thanked the party and promised to man the town's Ballista Crews. The Ballista Crews took their positions atop the towers and provided covering fire that disrupted Haldraxis's aim, forced him back behind the Tower, and prevented him from climbing away.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Ballista Crews",
+                "Ballistae"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-07T22:59:53.433000",
+            "updated_at": null
+        },
+        {
+            "id": "wq9f2cihbdoi1woeevfl5z06",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "name": "Boromir Family",
+            "description": "Boromir Family is a prestigious family known for magical talent and wealth. Bronn Boromir identified himself as a member of this family. He stated that the lineage is renowned for extraordinary magical abilities and wealth, but he does not possess those traits and has never fit in with his bookish relatives. Bronn joined the expedition hoping to earn prestige for his family and make the school's steward proud.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "The Boromir Family"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-07T22:20:46.521000",
+            "updated_at": null
+        },
+        {
+            "id": "yg6lvkc61wkldfpqaf29ht8t",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "name": "Mountain Giants",
+            "description": "Mountain Giants are enormous humanoids found on mountain trails, often occupying makeshift encampments with shelters. They are known to leave behind greatclubs and alchemical fat. One Mountain Giants was encountered on a rocky bend, where it was driven off by Gideon Xander and later killed by a party. A second Mountain Giants was found at a ridge camp, and both Mountain Giants were engaged and killed, with their bodies looted for fat and greatclubs.\nA search of the encampment revealed a manifesto written in crayon, stating that knights from Byriver had been sent to address the \"Mountain Giants problem\" and that the Mountain Giants sought revenge against By River. The encampment featured Magical Ice Flowers and additional writings indicating that the Mountain Giants admired and had dealings with Haldraxis. The Mountain Giants are a faction mentioned in a looted camp journal, which states they harbor animosity towards the people of By River and have aligned their interests with Haldraxis. At least one Mountain Giants has relocated to Haldraxis's lair.\nThe party discovered a Giant Settlement and a Giant Camp associated with the Mountain Giants. After resting at the Giant Settlement, they reviewed the camp journal, confirming that the Mountain Giants had transitioned from shared hostility to active cooperation with Haldraxis. Inside Haldraxis's lair, the party encountered a Mountain Giants working in a Workshop, constructing traps. This giant surrendered, discussed an arrangement with Haldraxis, and was subsequently killed by Dookeldorn Bludvart.\nLater, two Mountain Giants emerged from the steam. One triggered a leg snare set by the party and was restrained, later killed after breaking free. The other giant engaged in combat and was either killed or shoved to his death during an escape. The party also found four giant bedrolls in the Sleeping Area and evidence of giant-made traps in The Workshop. The encampment was subsequently set on fire by Dookeldorn Bludvart, and the party burned the settlement before departing.\nMountain Giants were present at the City Gate of By River, consisting of three individuals. One giant attempted to lift the Gate while the others prepared for confrontation. When approached, one giant charged and struck Bronn with a greatclub, while another continued to force the Gate upward from the outside. Dookeldorn fatally injured the Gate-lifting giant, who managed to raise the Gate to about a third of its height despite the wound. Gideon afflicted two Mountain Giants with a weakening curse, while one resisted. The Mountain Giants continued to attack Bronn; one became demoralized and missed its attack. Pepe and Bronn inflicted wounds on another giant until it could barely stand. Gideon then soothed the Gate-lifting giant, causing it to let the Gate crash down and slump unconscious. One giant was killed by a cave-in, and another was burned to death by Bronn. A sleeping Gate giant was later killed by Dookeldorn with a bolt through the throat. Following Hal'draxas's death, the surviving Mountain Giants in the city broke and fled.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Mountain Giants"
+            ],
+            "tcg_image": null,
+            "merge": true,
+            "created_at": "2026-07-07T22:20:46.395000",
+            "updated_at": null
+        }
+    ],
+    "from": 1,
+    "last_page": 1,
+    "per_page": 100,
+    "to": 4,
+    "total": 4
+}

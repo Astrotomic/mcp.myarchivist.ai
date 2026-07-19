@@ -1,0 +1,33 @@
+{
+    "statusCode": 404,
+    "headers": {
+        "Content-Type": [
+            "application/json"
+        ],
+        "Date": [
+            "Thu, 16 Jul 2026 20:42:04 GMT"
+        ],
+        "Server": [
+            "railway-hikari"
+        ],
+        "x-process-time": [
+            "2.3351640701293945"
+        ],
+        "x-railway-request-id": [
+            "GrRE7C41SIue483_npoFkQ"
+        ],
+        "Content-Length": [
+            "47"
+        ],
+        "x-hikari-trace": [
+            "ams1.kxr8"
+        ],
+        "x-railway-edge": [
+            "ams1"
+        ],
+        "Connection": [
+            "keep-alive"
+        ]
+    },
+    "data": "{\"detail\":\"Handout not found for this session\"}"
+}

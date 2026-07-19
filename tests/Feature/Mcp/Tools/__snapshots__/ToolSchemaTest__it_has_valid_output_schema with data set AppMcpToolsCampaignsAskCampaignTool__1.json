@@ -1,0 +1,57 @@
+{
+    "properties": {
+        "answer": {
+            "type": "string"
+        },
+        "citations": {
+            "type": [
+                "array",
+                "null"
+            ]
+        },
+        "citations.*": {
+            "type": "object"
+        },
+        "citations.*.source_type": {
+            "enum": [
+                "beat",
+                "location",
+                "item",
+                "character",
+                "session",
+                "faction"
+            ],
+            "type": "string"
+        },
+        "citations.*.source_id": {
+            "type": "string"
+        },
+        "citations.*.excerpt": {
+            "type": "string"
+        },
+        "citations.*.mcp_tool": {
+            "type": [
+                "object",
+                "null"
+            ]
+        },
+        "citations.*.mcp_tool.name": {
+            "type": "string"
+        },
+        "citations.*.mcp_tool.arguments": {
+            "type": "object"
+        },
+        "monthlyTokensRemaining": {
+            "type": "integer"
+        },
+        "hourlyTokensRemaining": {
+            "type": "integer"
+        }
+    },
+    "type": "object",
+    "required": [
+        "answer",
+        "monthlyTokensRemaining",
+        "hourlyTokensRemaining"
+    ]
+}

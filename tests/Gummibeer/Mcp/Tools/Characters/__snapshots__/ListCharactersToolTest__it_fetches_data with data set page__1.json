@@ -2,51 +2,49 @@
     "current_page": 1,
     "data": [
         {
-            "created_at": "2026-05-22T13:55:28.597000",
-            "updated_at": null,
-            "id": "iu58zy2d71svccr6btofib7k",
-            "character_name": "Der Riese",
-            "character_alias": null,
-            "character_aliases": [
-                "Ein Riese",
-                "Einen Riesen"
-            ],
-            "player_name": null,
-            "player_handle": null,
-            "player": null,
-            "description": "Der Riese ist ein Individuum, das in einer Zelle auf der Zellenebene eingesperrt war, bis seine Magie plötzlich zurückkehrte.\nChronologie: Brennen traf den Riesen auf der Zellenebene. Der Riese erklärte, dass er in einer Zelle eingesperrt gewesen sei, bis seine Magie zurückkehrte. Auf die Aufforderung, mit der Gruppe zu kämpfen, lehnte Der Riese ab und sagte, er sei bereits frei. Er begann zu schweben und glitt nach oben davon.",
-            "backstory": null,
-            "type": "NPC",
-            "image": null,
-            "tcg_image": null,
+            "id": "qp5xx2swp1x5r3yg0y51rqyz",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
+            "character_name": "Surinas Eber",
+            "character_alias": null,
+            "player_name": null,
+            "player": null,
+            "description": "Surinas Eber: das Tier, das Surina Nemmonis zugeordnet wird.\n- Erscheinung: Ein Eber, der Drachenherrin gehört.\n- Fähigkeiten: Kann angreifen und wurde in einem Kampf gegen Zombies eingesetzt.\n- Loyalität: Gehört zu Drachenherrin.\n- Standort: In der Nähe der Gruppe während eines Kampfes.\n- Ressourcen: Wurde von Surina zurückgerufen.\n- Der Eber wurde in den Kampf gegen Untote geschickt.\n- Eine explodierende Quelle verursachte eine Säure-Gift-Wolke, die Ihr Eber und Skelett Katze (Morvain) betraf.\n- Surina hat die Kontrolle über den Eber und kann ihn zurückrufen.\nBedrohungsbewertung: hoch, da der Eber aktiv in Kämpfe verwickelt ist und durch die Gift-Wolke gefährdet wurde.",
+            "image": null,
+            "type": "NPC",
+            "character_aliases": [
+                "Ihr Eber"
+            ],
+            "player_handle": null,
+            "backstory": null,
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-08T20:06:37.915000",
+            "updated_at": null
         },
         {
-            "created_at": "2026-05-22T12:19:23.945000",
-            "updated_at": null,
-            "id": "uubep7ty22zvyyjk4xhagon1",
-            "character_name": "Ork",
-            "character_alias": null,
-            "character_aliases": [
-                "Einzelner Ork",
-                "Ork (wache)"
-            ],
-            "player_name": null,
-            "player_handle": null,
-            "player": null,
-            "description": "Ein Ork stand als Wache vor einer Tür und führte eine Axt mit sich.\nSurina Nemmonis stürmte vor, traf den Ork und stach ihm in den oberen Brustbereich, schlitzte bis zur Kehle. Der Ork fiel tot zu Boden, und sowohl sein Körper als auch die Axt fielen scheppernd zu Boden. Die Gruppe versuchte, den toten Ork unauffällig zu halten und wegzuziehen.",
-            "backstory": null,
-            "type": "NPC",
-            "image": null,
-            "tcg_image": null,
+            "id": "s7rhsvkl86v4i2efvsdr6v7h",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
+            "character_name": "Großer Bugbear",
+            "character_alias": null,
+            "player_name": null,
+            "player": null,
+            "description": "Großer Backbär: ein großer, ungepanzerter, gorillaartig laufender Backbär.\n\n- Erscheinung: dicke Lederhaut, schweres Fell, vernarbte Haut\n\n- Fähigkeiten: starke körperliche Angriffe, resistent gegen Feuer\n\n- Zugehörigkeit: unabhängig\n\n- Standort: Höhle\n\n- Ressourcen: alte, stark verschmierte Kohlenotiz mit bruchstückhaften Warnungen\n\nHooks:\n\n- Seine Angriffe sind stark und gefährlich.\n\n- Die Kohlenotiz könnte wichtige Informationen enthalten.\n\nThreat/Value rating: hoch, da er im Kampf erhebliche Schäden verursachen kann.",
+            "image": null,
+            "type": "NPC",
+            "character_aliases": [
+                "Großer, Ungepanzerter, Gorillaartig Laufender Backbär"
+            ],
+            "player_handle": null,
+            "backstory": null,
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-17T20:07:14.114000",
+            "updated_at": null
         }
     ],
     "from": 1,
-    "last_page": 74,
+    "last_page": 97,
     "per_page": 2,
     "to": 2,
-    "total": 147
+    "total": 194
 }

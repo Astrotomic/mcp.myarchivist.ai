@@ -15,9 +15,11 @@ use Opis\JsonSchema\Errors\ErrorFormatter;
 use Opis\JsonSchema\Validator as JsonValidator;
 use PHPUnit\Framework\Assert;
 use Spatie\Snapshots\MatchesSnapshots;
+use Tests\Concerns\InteractsWithHttpFixtures;
 
 abstract class ApiTestCase extends FeatureTestCase
 {
+    use InteractsWithHttpFixtures;
     use MatchesSnapshots {
         assertMatchesJsonSnapshot as __assertMatchesJsonSnapshot;
     }
@@ -26,17 +28,24 @@ abstract class ApiTestCase extends FeatureTestCase
     {
         parent::setUp();
 
+        $this->setUpHttpFixtures();
+
         AssertableJson::macro('assertPaginatedList', function (Closure $assertDataItem): AssertableJson {
             /** @var AssertableJson $this */
-            return $this
+            $this
                 ->whereType('total', 'integer')
                 ->whereType('current_page', 'integer')
                 ->whereType('per_page', 'integer')
                 ->whereType('last_page', 'integer')
-                ->whereType('from', 'integer')
-                ->whereType('to', 'integer')
-                ->whereType('data', 'array')
-                ->has('data', fn (AssertableJson $data) => $data->each($assertDataItem));
+                ->whereType('from', ['integer', 'null'])
+                ->whereType('to', ['integer', 'null'])
+                ->whereType('data', 'array');
+
+            if ($this->toArray()['data'] === []) {
+                return $this;
+            }
+
+            return $this->has('data', fn (AssertableJson $data) => $data->each($assertDataItem));
         });
 
         AssertableJson::macro('assertJsonSchema', function (string|array $schemaable): AssertableJson {
@@ -65,7 +74,7 @@ abstract class ApiTestCase extends FeatureTestCase
                 if (is_string($schemaable) && method_exists($schemaable, 'rules')) {
                     $rules = data_get($schemaable::rules(), $key, []);
 
-                    if (filled($rules)) {
+                    if (filled($rules) && ! str_contains($key, '.*')) {
                         $this->where($key, function (mixed $value) use ($key, $rules): bool {
                             $value = $value instanceof Collection ? $value->all() : $value;
 
@@ -85,6 +94,13 @@ abstract class ApiTestCase extends FeatureTestCase
 
             return $this;
         });
+    }
+
+    protected function tearDown(): void
+    {
+        $this->tearDownHttpFixtures();
+
+        parent::tearDown();
     }
 
     /**

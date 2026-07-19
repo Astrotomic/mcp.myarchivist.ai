@@ -1,0 +1,36 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Content-Type": [
+            "application/json"
+        ],
+        "Date": [
+            "Thu, 16 Jul 2026 20:40:20 GMT"
+        ],
+        "Server": [
+            "railway-hikari"
+        ],
+        "x-process-time": [
+            "2.237353801727295"
+        ],
+        "x-railway-request-id": [
+            "0eXWUJ9WTfWzrbpQjq4OvQ"
+        ],
+        "Content-Length": [
+            "591"
+        ],
+        "x-hikari-trace": [
+            "ams1.qkjh"
+        ],
+        "x-railway-edge": [
+            "ams1"
+        ],
+        "vary": [
+            "accept-encoding"
+        ],
+        "Connection": [
+            "keep-alive"
+        ]
+    },
+    "data": "{\"created_at\":\"2026-07-07T22:19:48.699000\",\"updated_at\":null,\"id\":\"cmrb7p2zw00000tbwywasexot\",\"label\":\"Students gather at tropical resort\",\"description\":\"During spring break from Arcano Academy near Byriver, students packed Beachside Mirage, a magically shielded tropical resort outside the city, and the group's paths converged at the crowded poolside bar as the sun set.\",\"type\":\"step\",\"index\":0,\"metadata\":null,\"parent_id\":\"cmrb7q44l003h0tbw44aua23t\",\"campaign_id\":\"cmr9ilyjy00020ahu90yhvzx6\",\"game_session_ids\":[\"cmrb7lhkb00000aj8tv2kz4d5\"],\"game_session_id\":\"cmrb7lhkb00000aj8tv2kz4d5\"}"
+}

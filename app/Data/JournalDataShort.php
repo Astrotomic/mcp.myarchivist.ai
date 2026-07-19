@@ -17,6 +17,7 @@ class JournalDataShort extends ArchivistDto
             'is_public' => ['required', 'boolean'],
             'is_pinned' => ['nullable', 'boolean'],
             'tags' => ['nullable', 'list'],
+            'content' => ['nullable', 'string'],
             'author_id' => ['nullable', 'string'],
             'last_edited_by_id' => ['nullable', 'string'],
             'token_count' => ['nullable', 'integer'],

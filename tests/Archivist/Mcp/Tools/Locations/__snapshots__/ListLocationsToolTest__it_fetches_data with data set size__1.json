@@ -1,0 +1,377 @@
+{
+    "current_page": 1,
+    "data": [
+        {
+            "id": "oi25iioyknchcyrp93j9m6a8",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "name": "Flaming Wizard Tavern",
+            "description": "The Flaming Wizard Tavern offers free rooms and free drinks. After Haldraxis was killed, Philip, the Tower Guards, Sybil, and other townsfolk approached the Keep to hail the party and extended this offer to them.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-07T22:59:54.922000",
+            "updated_at": null
+        },
+        {
+            "id": "a5b43uw47iqehp3moae3dayv",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "name": "Tower",
+            "description": "The Tower is a Keep Tower rising about eighty feet, constructed of stone bricks that are blackened and charred. Its highest peak is occupied by Haldraxis. The Tower is accessed via a lowered drawbridge over a moat, with a charred field leading to it and a main City Gate that opens into a courtyard before the Tower's entrance.\nInside, a large ruined chamber contains two stone staircases that lead up through a stone ceiling to the roof. The roof was damaged by Haldraxis in an attempt to cave it in while the party ascended the staircases. On the roof, the party fought Haldraxis, ultimately killing him, and his body crashed onto the Tower. Following this event, Tower Guards, Philip, Sybil, Fireworks Troupe, and townsfolk approached the Tower, calling the party heroes and offering rewards.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-07T22:59:54.687000",
+            "updated_at": null
+        },
+        {
+            "id": "yiv02n9jwa4bquy063pvll7x",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "name": "Keep",
+            "description": "The Keep is a towered fortification with blackened and charred stone bricks. It is approached by a charred field, a lowered drawbridge over a moat, and an open courtyard with no cover leading to an eighty-foot Tower. Inside the Keep, the sound of a dragon pacing above can be heard. Twin stone staircases lead to the roof of the Keep. On the roof, E.t. Skittles struck the dragon Haldraxis, while Dookeldorn Bludvart fired at him and Pepe provided assistance. Haldraxis retaliated with a blast targeting those on the roof. Tower Guards from the Keep provided covering fire. E.t.'s necrotic attack ultimately killed the dragon. Townsfolk then climbed to the Keep, shouting the party's names and doubling their reward.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-07T22:59:54.575000",
+            "updated_at": null
+        },
+        {
+            "id": "jn18sw0ytqdgid38gremxnt4",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "name": "Sybil's Shop",
+            "description": "Sybil's Shop is a merchant storefront owned by Merchant Sybil. The windows are shuttered, and the facade is charred, but the building remains structurally sound. Merchant Sybil is inside, concerned about looters. She is known to lend items if she receives approval from Philip. When the party arrives, Bronn Boromir bangs on the front door and announces that Philip sent him. Merchant Sybil responds with a grumbly voice, refuses to open the door, and accuses them of being looters.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Sybil's Storefront",
+                "The Shop"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-07T22:59:54.459000",
+            "updated_at": null
+        },
+        {
+            "id": "os0a7pno5dh0hz04zxi19xt5",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "name": "Barracks",
+            "description": "The Barracks is a town guard building located near the river. The structure was found nearly in flames, with exits blocked by rubble and Tower Guards trapped inside. Water was drawn from the river and blasted through a fire-covered window, extinguishing flames at that opening and providing an exit. The freed Ballista Crews thanked the party, promised to man the town's Ballista Crews to pin Haldraxis down, and gave a rapier to Bronn Boromir before racing to their posts.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-07T22:59:54.348000",
+            "updated_at": null
+        },
+        {
+            "id": "hr1b8vuobxvh811rf3mq076m",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "name": "City Gate",
+            "description": "The City Gate serves as the main entrance to the Keep's courtyard. It is equipped with chains that can be rattled to raise or lower the Gate and is guarded by Byriver Tower Guards armed with pikes and spears.\nAt one point, three Mountain Giants were present at the Gate. One giant attempted to lift the Gate when a bolt struck him while he was still straining. He managed to raise the Gate approximately one-third before Gideon Xander soothed him to sleep, causing the Gate to crash down as the giant slumped unconscious. The party cleared the area of bodies and pounded on the Gate. Philip recognized their voices and ordered the Gate to be raised, warning that more Mountain Giants were approaching. Later, a sleeping giant was killed with a bolt through his throat before questioning.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Gate"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-07T22:59:54.236000",
+            "updated_at": null
+        },
+        {
+            "id": "bi5nwheonmtw1usqqo58snok",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "name": "Farmer's Field Beside By River",
+            "description": "The Farmer's Field Beside Byriver is an agricultural plot with soft earth, located directly adjacent to the town and the river, near a castle. It is considered high-value property. Smoke rises from the area, and the roar of a dragon can be heard beyond the town gates.\nThree Mountain Giants at the nearby City Gate observed the arrival of newcomers in the Farmer's Field.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Farmer's Field"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-07T22:59:54.121000",
+            "updated_at": null
+        },
+        {
+            "id": "mwfoi3u7jjsn0ibcydj3lx31",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "name": "Mountainside Opening",
+            "description": "The Mountainside Opening is a large hole in the mountain behind Haldraxis, providing access to a cave. It overlooks a mountain river and features a narrow ledge.\nAfter Haldraxis awakened, he fled through the Mountain Opening toward Byriver. The party inspected the Opening, and Dookeldorn Bludvart attempted to track the dragon but lost sight of it over the mountain. The group decided to pursue using Hang Gliders down the mountainside toward the river.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Mountain Opening",
+                "Escape Opening"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-07T22:59:53.894000",
+            "updated_at": null
+        },
+        {
+            "id": "kmef5pzq9v6qg24tkzgsspru",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "name": "Hal'Draxas's Hoard Chamber",
+            "description": "Haldraxis's Hoard (About Five Thousand Gold) Chamber is a cavernous space containing a Hoard of approximately five thousand gold pieces. A wounded sleeping dragon is bandaged beside a cold, Dragon-Sized Bowl Of Chamomile Tea. The chamber features a massive opening in the mountainside that serves as the dragon's entrance.\nThe chamber overlooks a mountain river with a narrow ledge. Hang Gliders are located elsewhere in the cavern, which can be used for departure.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-07T22:59:53.774000",
+            "updated_at": null
+        },
+        {
+            "id": "n2a7j1y8ljc0pp1rei7aaroc",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "name": "Treasure Chamber",
+            "description": "The Treasure Chamber is a stone vault accessed through a western door that opens when the Dragon-Head Medallion is inserted and the three tablets are rearranged. Inside, the chamber contains a hoard of gold and features dragon carvings on the walls. Haldraxis lies asleep near the treasure pile, bearing a wound and expelling puffs of smoke with each snore, beside a mug of tea.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Dragon’s Treasure Chamber"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-07T22:52:13.189000",
+            "updated_at": null
+        },
+        {
+            "id": "t5juiro9cgse7oj2q9uj1gc0",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "name": "Sleeping Area",
+            "description": "The Sleeping Area is a chamber located beyond a steam-filled Mist-Filled Foyer. It contains four large mats or bedrolls and two openings that lead to additional Steam-Filled Chamber. A large circular stone medallion etched with a dragon's head is found next to one bedroll. The edges of the medallion fit into a larger mechanism. A side passage from the Bedrolls Area winds downward to an alternate exterior entrance.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Sleeping Area",
+                "Bedrolls Area"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-07T22:52:13.082000",
+            "updated_at": null
+        },
+        {
+            "id": "flci0135lqhd90l3laarag2b",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "name": "Steam-Filled Chamber",
+            "description": "The Steam-Filled Chamber is a mountainside cave shaped like a dragon skull, with its mouth exhaling blasts of scalding steam at regular intervals. The entrance features a Mist-Filled Foyer containing an automatic bellows device that builds pressure to release steam into the mouth. The Foyer includes a vent hole in the ceiling, an open corridor, and a door to the northwest. Continuous steam is produced by lava flowing into wet ground. Inside, there is a giant’s Workshop beyond the northwest door, which contains four giant bedrolls and two large steam-filled sleeping chambers. A Dragon-Head Medallion was found near one of the bedrolls.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Steam-Filled Chamber",
+                "Steam-Filled Sleeping Spaces"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-07T22:52:12.973000",
+            "updated_at": null
+        },
+        {
+            "id": "uy5h5l5miul7c30fxeex2lzf",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "name": "Workshop",
+            "description": "Workshop is a room vented through the ceiling, filled with tables, workbenches, metal contraptions, and unfinished mechanisms. A Mountain Giants was assembling a trap there, and a hole in the ceiling allowed steam to escape. The party ambushed the giant inside The Workshop. They struck the giant with various weapons, and after a brief struggle, the giant surrendered. Dookeldorn Bludvart then killed the surrendered giant. The party searched The Workshop and found two traps: a hunting bear trap and a leg snare kit.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "The Workshop",
+                "Workshop Vented Through The Ceiling"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-07T22:52:12.866000",
+            "updated_at": null
+        },
+        {
+            "id": "i7lt6wokwwi69l80r8qh45zx",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "name": "Mist-Filled Foyer",
+            "description": "The Mist-Filled Foyer is a cave entrance shaped like an enormous dragon skull, which periodically releases scalding steam from its mouth. A bellows-like machine in the center of the chamber builds up steam and then expels it through the skull's mouth. The room features an open corridor leading onward and a door to the northwest. Behind this door is a Workshop.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Foyer",
+                "Entrance Chamber"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-07T22:52:12.759000",
+            "updated_at": null
+        },
+        {
+            "id": "mi1wv7mqvwvwvcsb0gyq9t7j",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "name": "Mountainside Cave Carved Like An Enormous Dragon Skull",
+            "description": "Mountainside Cave Carved Like An Enormous Dragon Skull is a cave shaped like a giant dragon skull. The entrance is the gaping maw, which exhales blasts of hot steam every five seconds, creating a hazy mist. Inside, a central Mist-Filled Foyer contains a mechanical bellows device that cycles and vents steam out of the mouth. The Foyer features an open corridor and a northwest door, while a narrower corridor cannot accommodate the dragon.\nThe northwest door leads to a Workshop inhabited by a Mountain Giants. The area contains evidence of an ambush against Mountain Giants, and a Dragon-Head Medallion can be found. Inserting this medallion into a three-slot stone door opens a Treasure Chamber, revealing a hoard and the sleeping Haldraxis, who has a previous wound and is snoring puffs of smoke beside a mug of tea.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Dragon Skull’s Mouth",
+                "Skull-Like Entrance",
+                "The Lair",
+                "Haldraxis's Lair"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-07T22:52:12.651000",
+            "updated_at": null
+        },
+        {
+            "id": "cfcnopoqjyirjbnh7rxpv270",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "name": "Giant Camp",
+            "description": "Giant Camp is a settlement inhabited by Mountain Giants. It contains a journal that reveals the Mountain Giants' animosity towards By River and their partnership with Haldraxis. The journal also notes that at least one giant has relocated to Haldraxis’s new headquarters. Gideon Xander gathered troll bodies and belongings from the camp, burned them, and prayed to the sun for purification.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Looted Giant Camp"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-07T22:52:12.545000",
+            "updated_at": null
+        },
+        {
+            "id": "l4asbusmljmrn73g26cfrie1",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "name": "Giant Settlement",
+            "description": "The Giant Settlement was a Mountain Giants encampment. The party looted a journal from the camp, which confirmed that the Mountain Giants hated By River, had entered into active cooperation with Haldraxis, and that at least one giant had traveled to Haldraxis’s new headquarters. Before departing, Gideon Xander gathered troll bodies and the camp’s belongings, burned them, and prayed to the sun to cleanse the beasts.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Giant Settlement"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-07T22:52:12.437000",
+            "updated_at": null
+        },
+        {
+            "id": "oqlml7u80sapsncw4euy45wl",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "name": "Forest Route",
+            "description": "The Forest Route is a path through the forest leading to Old Temple Ruins. It is described as safer and more secure, taking three days to reach the destination.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Forest Route (Safer)"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-07T22:20:47.370000",
+            "updated_at": null
+        },
+        {
+            "id": "tp0mt0v40gruxnvj888u6zi5",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "name": "Mountain Route",
+            "description": "Mountain Route is a treacherous mountain path leading to Old Temple Ruins, with an estimated travel time of two days.\nThe path features a steep, icy trail. On the first day, travelers may encounter a small meadow of blue-white Magical Ice Flowers, which have cold petals and release a burst of cold when crushed. These flowers can restore vitality and can be harvested carefully. Later along the route, travelers may confront an enormous mountain giant near a sheer cliff. Defeating the giant may lead to the discovery of alchemical fat and a greatclub. Tracking the giant may reveal a larger mountain giant encampment, which can be attacked for additional alchemical fat and greatclubs, as well as more Ice Flowers. Writings found in the encampment may link the giants to Haldraxis. A mountain mailbox is available for use at dawn.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Mountain Route (Treacherous)"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-07T22:20:47.251000",
+            "updated_at": null
+        },
+        {
+            "id": "qbdui75y3yu1btr2mvc47ay9",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "name": "Old Temple Ruins",
+            "description": "Old Temple Ruins are identified by Haldraxis as the location where he will wait for the kingdom or its representative to deliver Byriver’s demanded gold. The mountain path to The Old Temple Ruins takes two days to traverse, while the forest path requires three days. Haldraxis visits The Old Temple Ruins once per day. The group chose the Mountain Route, planning to arrive within two days, potentially by nightfall on the second day.\nThe Old Temple Ruins consist of partially standing foundations, with most of the ceiling and walls collapsed and rubble scattered throughout the clearing. This site served as a landing and waiting spot for Haldraxis. At The Old Temple Ruins, Gideon Xander discovered two massive dragon prints behind an altar-like throne area and fresh green dragon dung. Bronn Boromir identified a precarious archway with a removable keystone and prepared a trap there. E.t. Skittles concealed himself nearby in disguise.\nHaldraxis arrived at The Old Temple Ruins, landing atop the crumbling altar and focusing on Gideon. He passed beneath the trapped archway, triggering a collapse, which led to combat. Haldraxis fled wounded from The Old Temple Ruins, and the party identified his flight path to his lair.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "The Old Temple Ruins"
+            ],
+            "tcg_image": null,
+            "merge": true,
+            "created_at": "2026-07-07T22:20:47.131000",
+            "updated_at": null
+        },
+        {
+            "id": "jfq8vjavgrolfp7hoo813wnw",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "name": "Beachside Mirage",
+            "description": "Beachside Mirage is a magically shielded tropical resort located just outside Byriver. It features lush landscapes, shimmering beaches, crystal-clear waters, sprawling pools with swim-up bars, floating lanterns, and enchanted cocktails. The resort is known for its illusions and enchantments. During spring break, students from Arcano Academy frequently visit Spring-Break Resort, gathering at the crowded poolside bar and the grand pool area.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Spring-Break Resort"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-07T22:20:47.010000",
+            "updated_at": null
+        },
+        {
+            "id": "uwh3615mg8oz5rvpjg58urc8",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "name": "Byriver",
+            "description": "Byriver is a city located below gently rolling hills, adjacent to the Arcano Academy. The city was devastated by a dragon that demanded all its gold be delivered to ancient temple ruins within four days, threatening to burn the countryside if the city did not comply. Writings found in the nearby mountains indicate that knights from By River recently entered the mountains to address the mountain giant problem. Mountain Giants have been noted to rally around Haldraxis in their shared animosity toward By River.\nBy River is a walled riverside town featuring a guarded City Gate, a Barracks near the river, a Keep with a Tower, and a lowered drawbridge over a moat. The town is home to merchants, including Sybil, Fireworks Troupe, and town Tower Guards led by Philip. The town's Gate is raised to allow entry when three Mountain Giants are recognized by Philip. Ballista Crews and townsfolk are present behind the Gate. The party frees trapped Ballista Crews from the Barracks, who then operate Ballista Crews. The party advances into By River, crosses a charred field to the Keep, and engages in battle with Haldraxis on the Tower. Following the dragon's defeat, townsfolk, including Philip, Ballista Crews, Sybil, and Entertainers, offer the party rewards, including doubled pay, free rooms and drinks at the Flaming Wizard Tavern, and store discounts.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "By River"
+            ],
+            "tcg_image": null,
+            "merge": true,
+            "created_at": "2026-07-07T22:20:46.891000",
+            "updated_at": null
+        },
+        {
+            "id": "undwd5bi9j59clah3qdac7ah",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "name": "Arcano Academy",
+            "description": "Arcano Academy is a prestigious magical academy located in the rolling hills near the city of Byriver. Its stone walls are imbued with enchantments. The academy teaches multiple schools of magic, including a healing school. During spring break, students from The College visit the nearby magical resort Beachside Mirage.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "The College"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-07T22:20:46.768000",
+            "updated_at": null
+        }
+    ],
+    "from": 1,
+    "last_page": 1,
+    "per_page": 100,
+    "to": 23,
+    "total": 23
+}

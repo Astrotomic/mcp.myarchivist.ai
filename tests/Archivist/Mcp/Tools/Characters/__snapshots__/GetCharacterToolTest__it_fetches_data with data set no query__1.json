@@ -1,0 +1,21 @@
+{
+    "id": "jyo4bb55tat0qva20e4017pf",
+    "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+    "character_name": "Sybil",
+    "character_alias": null,
+    "player_name": null,
+    "player": null,
+    "description": "Sybil is the owner of a charred storefront in Byriver. When Bronn Boromir banged on her shuttered door, she answered with a grumbly voice, telling him to \"get the fuck out of here\" and accusing him of being a looter. She refused to open the door or assist. Later, she approached the Keep with Philip, Tower Guards, and Fireworks Troupe, shouting the party's names and joining those who hailed them as heroes.",
+    "image": null,
+    "type": "NPC",
+    "character_aliases": [
+        "Merchant Sybil",
+        "Sybil's Storefront"
+    ],
+    "player_handle": null,
+    "backstory": null,
+    "tcg_image": null,
+    "merge": false,
+    "created_at": "2026-07-07T22:59:52.707000",
+    "updated_at": null
+}

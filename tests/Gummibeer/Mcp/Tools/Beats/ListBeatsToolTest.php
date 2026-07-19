@@ -2,42 +2,18 @@
 
 namespace Tests\Gummibeer\Mcp\Tools\Beats;
 
-use App\Data\BeatData;
-use App\Mcp\Servers\ArchivistServer;
-use App\Mcp\Tools\Beats\ListBeatsTool;
-use Illuminate\Testing\Fluent\AssertableJson;
-use PHPUnit\Framework\Attributes\DataProvider;
-use PHPUnit\Framework\Attributes\Test;
-use Tests\GummibeerTestCase;
+use Tests\RealWorld\Mcp\Tools\Beats\ListBeatsToolTest as RealWorldListBeatsToolTest;
 
-final class ListBeatsToolTest extends GummibeerTestCase
+final class ListBeatsToolTest extends RealWorldListBeatsToolTest
 {
     public static function queryDataProvider(): array
     {
+        $campaignId = 'cmj78gm6k000004jrvzm7gcjr';
+
         return [
-            'no query' => [[]],
-            'size' => [['size' => 100]],
-            'page' => [['page' => 2]],
+            'no query' => [[], $campaignId],
+            'size' => [['size' => 100], $campaignId],
+            'page' => [['page' => 2], $campaignId],
         ];
-    }
-
-    #[Test]
-    #[DataProvider('queryDataProvider')]
-    public function it_fetches_data(array $query): void
-    {
-        ArchivistServer::tool(ListBeatsTool::class, array_merge($query, [
-            'campaign_id' => 'cmj78gm6k000004jrvzm7gcjr',
-        ]))
-            ->assertOk()
-            ->assertStructuredContent(function (AssertableJson $json): void {
-                $json
-                    ->assertPaginatedList(function (AssertableJson $item): void {
-                        $item
-                            ->assertJsonSchema(BeatData::class)
-                            ->where('campaign_id', 'cmj78gm6k000004jrvzm7gcjr');
-                    });
-
-                $this->assertMatchesJsonSnapshot($json);
-            });
     }
 }

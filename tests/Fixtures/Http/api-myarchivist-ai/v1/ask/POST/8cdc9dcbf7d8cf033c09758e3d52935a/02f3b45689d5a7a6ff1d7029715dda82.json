@@ -1,0 +1,36 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Content-Type": [
+            "application/json"
+        ],
+        "Date": [
+            "Fri, 17 Jul 2026 07:14:45 GMT"
+        ],
+        "Server": [
+            "railway-hikari"
+        ],
+        "x-process-time": [
+            "16.783175468444824"
+        ],
+        "x-railway-request-id": [
+            "WT1Rtj9SS7u-ZBGgljLL4A"
+        ],
+        "Content-Length": [
+            "516"
+        ],
+        "x-hikari-trace": [
+            "ams1.b55h"
+        ],
+        "x-railway-edge": [
+            "ams1"
+        ],
+        "vary": [
+            "accept-encoding"
+        ],
+        "Connection": [
+            "keep-alive"
+        ]
+    },
+    "data": "{\"answer\":\"The latest session in the \\\"Twilight of the Gods\\\" campaign is titled **Nacht des Untotenkampfes**. In this session, the group faced a night battle against zombies in a mine, engaging in combat with various undead creatures and dealing with surprises such as arrows shooting from a door. The session involved strategic planning, healing, and the discovery of equipment and gold amidst the chaos of battle against the undead.\",\"citations\":[],\"monthlyTokensRemaining\":3972115,\"hourlyTokensRemaining\":385710}"
+}

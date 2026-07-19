@@ -1,0 +1,36 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Content-Type": [
+            "application/json"
+        ],
+        "Date": [
+            "Thu, 16 Jul 2026 16:49:02 GMT"
+        ],
+        "Server": [
+            "railway-hikari"
+        ],
+        "x-process-time": [
+            "1.3009240627288818"
+        ],
+        "x-railway-request-id": [
+            "Vtt1da3-Re6gyhll0_TJvA"
+        ],
+        "Content-Length": [
+            "4926"
+        ],
+        "x-hikari-trace": [
+            "ams1.b55h"
+        ],
+        "x-railway-edge": [
+            "ams1"
+        ],
+        "vary": [
+            "accept-encoding"
+        ],
+        "Connection": [
+            "keep-alive"
+        ]
+    },
+    "data": "{\"data\":[{\"created_at\":\"2026-05-29T06:54:10.057000\",\"updated_at\":null,\"id\":\"azi5qugg1cpb5cbhlw9w7lit\",\"label\":\"T\u00e4gliche Aktivit\u00e4ten an Bord des Luftschiffs\",\"content\":\"W\u00e4hrend der ruhigen Fahrt des Luftschiffs besch\u00e4ftigten sich die Mitglieder der Gruppe mit verschiedenen T\u00e4tigkeiten. Gwendolyn Silverflame arbeitete konzentriert im Labor an Alchemie, w\u00e4hrend Rita dem Koch zur Hand ging, um die Essensvorbereitungen zu unterst\u00fctzen. Unter Deck trainierten Surina Nemmonis und Korvathun, um ihre Kampff\u00e4higkeiten zu verbessern. Morvain las in seinem Buch und vertiefte sich in seine Studien, w\u00e4hrend Brennen Voidridge seine Kartenwurfk\u00fcnste verfeinerte. Der Abend n\u00e4herte sich, und die gesamte Mannschaft bewegte sich in Richtung der Essensr\u00e4ume.\",\"image\":null,\"index\":729,\"categories\":[\"Banter\",\"Chaos\",\"Hijinx\"],\"campaign_id\":\"cmj78gm6k000004jrvzm7gcjr\",\"session_id\":\"cmpo9thnu000004idaznoe355\"},{\"created_at\":\"2026-05-21T13:32:43.031000\",\"updated_at\":null,\"id\":\"djidsx0998o3zctj8v8sfgn4\",\"label\":\"Der Zwerg und das Schiff auf Kufen\",\"content\":\"Die Gruppe trifft auf einen Zwerg, der ein Schiff Mit Kufen pr\u00e4sentiert, das \u00fcber den Schnee gezogen werden kann. Tim, in der Rolle von D\u00een-io Tempest, fragt den Zwerg, ob er jemanden empfehlen kann, der sich um das Schiff k\u00fcmmern k\u00f6nnte, w\u00e4hrend er sich \u00fcber die Stabilit\u00e4t des Schiffs erkundigt. Der Zwerg erkl\u00e4rt, dass das Schiff f\u00fcr die Reise zur n\u00e4chsten Stadt geeignet ist und dass sie es bis zur n\u00e4chsten Stadt nutzen sollten. Surina Nemmonis zieht Gwendolyn Silverflame an sich und \u00e4u\u00dfert ihre Unsicherheit \u00fcber die Richtung, w\u00e4hrend die Gruppe sich auf den Weg macht. Naevys Nerizana fragt den Zwerg, ob das Schiff nun fertig sei, und erh\u00e4lt die Best\u00e4tigung, dass es bereit ist.\",\"image\":null,\"index\":565,\"categories\":[\"Exploration\",\"Negotiation\"],\"campaign_id\":\"cmj78gm6k000004jrvzm7gcjr\",\"session_id\":\"cmpffnto0000004l5ahvyz1s7\"},{\"created_at\":\"2026-05-13T20:21:42.434000\",\"updated_at\":null,\"id\":\"jt5iuj21tdkeqnyx14dehnq0\",\"label\":\"Ankunft auf dem Luftschiff\",\"content\":\"Gwendolyn Silverflame schoss ein Signal in den Himmel, als sich ein Luftschiff n\u00e4herte und Strickleitern herablie\u00df. Die Gruppe bestieg das Luftschiff zusammen mit Doran, w\u00e4hrend Serres die Herzogin ablieferte und sp\u00e4ter ein Essen f\u00fcr alle brachte. W\u00e4hrend der Fahrt diskutierten die Anwesenden m\u00f6gliche n\u00e4chste Auftr\u00e4ge, und Serres erkl\u00e4rte, dass die Herzogin in politischen H\u00e4usern intrigiert habe. Naevys bemerkte, dass Serres unglaublich aussah, und Gwendolyn fragte, ob sie f\u00fcr die Auslieferung etwas erhalten hatten. Schlie\u00dflich schwebte das Luftschiff \u00fcber dem Boden, w\u00e4hrend die Gruppe sich auf die bevorstehenden Abenteuer vorbereitete.\",\"image\":null,\"index\":541,\"categories\":[\"Intrigue\",\"Exploration\",\"Alliance\"],\"campaign_id\":\"cmj78gm6k000004jrvzm7gcjr\",\"session_id\":\"cmp49egl1000204if2fmow69m\"},{\"created_at\":\"2026-04-30T14:26:43.387000\",\"updated_at\":null,\"id\":\"tnuy4jj2c9p8aqw8pk1dpzcd\",\"label\":\"Schiffsmast zerst\u00f6rt und Reparaturversuch\",\"content\":\"Die Gruppe n\u00e4herte sich in der Dunkelheit ihrem besch\u00e4digten Schiff und begann, den Mast zu untersuchen. Der Mast war vollst\u00e4ndig zerst\u00f6rt, was bedeutete, dass das Schiff ohne fachkundige Reparatur nicht segelf\u00e4hig war. Gwendolyn \u00e4u\u00dferte, dass sie mit Holz umgehen k\u00f6nne, aber unsicher war, ob sie die Reparatur alleine bew\u00e4ltigen k\u00f6nnte. Morvain und die anderen diskutierten, dass sie entweder versuchen m\u00fcssten, den Mast in den n\u00e4chsten ein oder zwei Tagen zu reparieren, oder mit den anderen mitfahren sollten. Schlie\u00dflich wurde als Notl\u00f6sung ein sehr niedriges, provisorisch gespanntes Segel in Erw\u00e4gung gezogen, das nur mit Str\u00f6mungshilfe genutzt werden konnte.\",\"image\":null,\"index\":513,\"categories\":[\"Conflict\",\"Despair\",\"Chaos\"],\"campaign_id\":\"cmj78gm6k000004jrvzm7gcjr\",\"session_id\":\"v865shjac4ndtfrslhtoq8ct\"},{\"created_at\":\"2026-03-06T11:22:43.317000\",\"updated_at\":null,\"id\":\"nizfwuuxvq95zx3wi9yyuxiw\",\"label\":\"Das geheimnisvolle Schiff der Festung\",\"content\":\"W\u00e4hrend die Gruppe in der Festung verweilte, erfuhren sie von einem geheimnisvollen Schiff, das vor etwa 150 Jahren ohne bekannte Herkunft dort aufgetaucht war. Diese Entdeckung sorgte f\u00fcr Aufregung unter den Mitgliedern, da sie die M\u00f6glichkeit erahnten, dass das Schiff mit den mysteri\u00f6sen Ereignissen in der Region verbunden sein k\u00f6nnte. Die Gruppe diskutierte die Bedeutung dieser Information und \u00fcberlegte, welche weiteren Schritte sie unternehmen sollten, um mehr \u00fcber das Schiff und seine Geschichte herauszufinden. Schlie\u00dflich beschlossen sie, ihre Reise fortzusetzen und in Richtung Baldur\u2019s Gate zu reisen, w\u00e4hrend sie die neu gewonnenen Erkenntnisse \u00fcber das Schiff im Hinterkopf behielten.\",\"image\":null,\"index\":242,\"categories\":[\"Mystery\",\"Discovery\"],\"campaign_id\":\"cmj78gm6k000004jrvzm7gcjr\",\"session_id\":\"cmmesoyxm000004l2xc0lsasn\"}],\"total\":5,\"page\":1,\"size\":20,\"pages\":1}"
+}

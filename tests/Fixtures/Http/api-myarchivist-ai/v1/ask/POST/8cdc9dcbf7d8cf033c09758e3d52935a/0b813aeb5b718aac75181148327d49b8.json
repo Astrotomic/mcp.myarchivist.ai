@@ -1,0 +1,33 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Content-Type": [
+            "application/json"
+        ],
+        "Date": [
+            "Fri, 17 Jul 2026 07:16:13 GMT"
+        ],
+        "Server": [
+            "railway-hikari"
+        ],
+        "x-process-time": [
+            "23.34457302093506"
+        ],
+        "x-railway-request-id": [
+            "c3Aq4ZI_QaOELrL99I3ezw"
+        ],
+        "Content-Length": [
+            "226"
+        ],
+        "x-hikari-trace": [
+            "ams1.9qww"
+        ],
+        "x-railway-edge": [
+            "ams1"
+        ],
+        "Connection": [
+            "keep-alive"
+        ]
+    },
+    "data": "{\"answer\":\"Die bereitgestellten Informationen enthalten keine Details zu den Haustieren von Surina. Daher kann ich diese Frage nicht beantworten.\",\"citations\":[],\"monthlyTokensRemaining\":3898143,\"hourlyTokensRemaining\":311738}"
+}

@@ -70,12 +70,13 @@ class AppServiceProvider extends ServiceProvider
                 ->baseUrl(config()->string('services.archivist.base_url'))
                 ->timeout(30)
                 ->connectTimeout(3)
+                ->asJson()
                 ->acceptJson()
                 ->throw(function (Response $response, RequestException $exception): never {
                     throw ArchivistApiException::fromResponse($response, $exception);
                 })
                 ->when(
-                    value: app()->runningUnitTests(),
+                    value: app()->runningUnitTests() || app()->isLocal(),
                     callback: fn (PendingRequest $request) => $request->withHeader('x-api-key', $token),
                     default: fn (PendingRequest $request) => $request->withToken($token),
                 );

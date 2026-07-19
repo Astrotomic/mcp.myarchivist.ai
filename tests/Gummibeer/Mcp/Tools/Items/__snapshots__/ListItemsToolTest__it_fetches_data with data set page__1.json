@@ -2,114 +2,268 @@
     "current_page": 2,
     "data": [
         {
-            "created_at": "2026-04-15T19:43:10.450000",
-            "updated_at": null,
-            "id": "s79gjb9s1obecasf1iexnbgn",
-            "name": "die Erziehung adliger Kinder mit möglichst wenig Schlägen",
+            "id": "rw3iur6uec6dob1x3bnds3y6",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Vorräte",
+            "description": "Vorräte sind der Proviant und weitere benötigte Güter, die Gwerk ins provisorische Lager brachte und die für die Versorgung der belagerten Stadt Triboar bestimmt sind.\nDie Gruppe schüttete den Proviant und Nötiges in eine große Zeltplane und bündelte die Last zu einem schweren Paket. Dîn-io nahm die befüllte Zeltplane und ließ die Vorräte in seinen Ring verschwinden. Surinas Vogel Cogling Aviad trug den Ring in Richtung der belagerten Stadt Triboar.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Proviant",
+                "Proviant Und Weitere Benötigte Güter"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-02T09:56:48.627000",
+            "updated_at": null
+        },
+        {
+            "id": "dtzayj7839t3unrm3r3ejx0k",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Große Zeltplane",
+            "description": "Die Große Zeltplane ist ein großer Stoffbeutel aus Planenstoff, der von der Gruppe verwendet wird, um Vorräte und nötige Güter zu transportieren. Sie wird prall gefüllt und zu einem schweren Paket gebündelt. Dîn-io Tempest nahm die befüllte Große Zeltplane und ließ den gesamten Inhalt in seinen Ring verschwinden. Der Ring wurde anschließend von Surinas Vogel aus dem Lager in Richtung Triboar getragen.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Zeltplane"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-02T09:56:48.436000",
+            "updated_at": null
+        },
+        {
+            "id": "cmpwgi1fz000a04jydz3du2zf",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Der Brieföffner der Hohepriesterin ",
+            "description": "Der schmale Dolch oder Brieföffner ist ein dünnes Metallwerkzeug, das in einer Schublade des Schreibtischs der Hohepriesterin gefunden wurde, neben Ersatzschreibfedern.\nBrennan entdeckte den schmalen Dolch/Brieföffner in der Schublade und nutzte ihn, um an der Unterseite der Schublade einen doppelten Boden zu hebeln. Dadurch entfernte er das Fach, in dem sich ein kleiner silberner Schlüssel befand.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Der Dolch"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-02T09:50:01.649000",
+            "updated_at": null
+        },
+        {
+            "id": "h3zqtru0cf06njw0ufc9w6vb",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Felle",
+            "description": "Felle sind abdeckende Textilien, die als Hüllen verwendet wurden. Dîn-io und Gwendolyn deckten die gefrorenen Gefährten mit Fellen und Gewändern ab, nachdem sie beschlossen hatten, diese aus der Kirche zu schaffen. Dîn-io brachte Naevys in Fellen gehüllt zur Taverne, transportierte Brennan auf dieselbe Weise und schließlich auch Surina, die er in Fellen eingewickelt in Betten ablegte. Ein Erzählerkommentar beschreibt das Tragen einer Figur „in den Fellen eingeschlagen“ auf dem Arm zur Taverne.",
+            "type": null,
+            "image": null,
             "aliases": [],
-            "type": null,
-            "description": "Die Erziehung adliger Kinder mit möglichst wenig Schlägen ist ein Buch, das sich mit der Aufzucht von adligen Nachkommen beschäftigt. Es behandelt Methoden und Ansätze zur Erziehung, die darauf abzielen, körperliche Bestrafungen zu minimieren. Das Buch ist Teil einer Reihe, die sich mit Themen wie Geburt und patriarchalischer Haushaltsführung für Söhne befasst. Es wird als eines der unbeliebteren Werke in der Bibliothek beschrieben und ist das einzige seiner Art.\nIn der Bibliothek wurde das Buch als gestohlen gemeldet. Surina untersuchte die Lücke im Regal, wo das Buch zuvor stand, und stellte fest, dass es eine kleine Lücke von etwa sechs Zentimetern gab. Gwendolyn und andere Mitglieder der Gruppe diskutierten die Bedeutung des Buches und vermuteten, dass es möglicherweise mit den verschwundenen Töchtern in Verbindung stehen könnte.",
-            "image": null,
             "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
+            "merge": false,
+            "created_at": "2026-06-01T16:11:50.563000",
+            "updated_at": null
         },
         {
-            "created_at": "2026-04-15T19:43:10.431000",
-            "updated_at": null,
-            "id": "clgrhdkhk4agwjhv8fzorhxi",
-            "name": "Die 13 Leiden einer Frau unter der Geburt",
+            "id": "lyppt2k74jkv8gykaiv0g52g",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Buch Eines Alten Magiers",
+            "description": "Das Buch eines alten Magiers ist ein verschlossenes, reich verziertes Band mit einem Gebirgsbild, einem Drachen auf dem Einband und fremden Runen. Die Hohepriesterin nannte ein solches Buch unter den verschwundenen Gegenständen, das ein alter Magier in der Stadt zurückgelassen habe. Naevys fand das Buch in der Tempelbibliothek; es zeigte eine magische Aura. Surina öffnete es mit einem kleinen silbernen Schlüssel trotz spürbaren Widerstands. Beim Öffnen löste das Buch eine Schockwelle aus, die Brennan, Naevys und Surina reglos mit Frostüberzug erstarren ließ, während Gwendolyn beweglich blieb. Gwendolyn erkannte Zeichen, die an Runen aus dem schwarzen Tempel erinnerten. Nach erneutem Verschließen wirkte das Buch nicht mehr magisch gesichert. Gwendolyn versteckte das verschlossene Buch später in einem Gebüsch beim Bootsplatz.",
+            "type": null,
+            "image": null,
             "aliases": [],
-            "type": null,
-            "description": "Buch im Regal der Bibliothek, das direkt an die Lücke angrenzte, an der das gestohlene Buch fehlte (von Surina notiert).",
-            "image": null,
             "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
+            "merge": false,
+            "created_at": "2026-06-01T16:11:50.463000",
+            "updated_at": null
         },
         {
-            "created_at": "2026-04-15T19:43:10.414000",
-            "updated_at": null,
-            "id": "hng4mm33dhbaxvmt4igdoiq8",
-            "name": "Gestohlenes Buch",
-            "aliases": [
-                "wertvolles Buch",
-                "gestohlenen Buch"
-            ],
-            "type": null,
-            "description": "Das Gestohlene Buch ist ein wertvolles Buch, das aus einer Bibliothek entwendet wurde. Es ist das einzige seiner Art und wird als unbeliebt beschrieben. Die Bibliothekarin wies Anfragen zu diesem Buch ab, da die Gruppe nicht für die Untersuchung registriert war.\nSeres erklärte, dass kein Lebewesen gestohlen wurde, sondern das wertvolle Buch. Die Gruppe diskutierte, dass Informationen über das gestohlene Buch eher bei der Bibliothekarin oder der Herzogin zu bekommen seien. Die Bibliothekarin bestätigte, dass es sich um ein unbeliebtes Werk handelt, das hauptsächlich von der Herzogin und hiesigen Adligen ausgeliehen wird.",
-            "image": null,
-            "tcg_image": null,
+            "id": "kbk9o4n16peysjj9yubljtor",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
-        },
-        {
-            "created_at": "2026-03-23T14:26:48.649000",
-            "updated_at": null,
-            "id": "m1er8b0y6lzek1qlqkmj3flw",
-            "name": "Teleskop-Angel",
+            "name": "Juwelen Aus Den Spenden Der Minenarbeiter",
+            "description": "Die Juwelen sind gesammelte Spenden der Minenarbeiter, die sich im Tempel angesammelt haben. Sie befanden sich zusammen mit weiteren Gegenständen in einer verschlossenen Truhe im Büro der Hohepriesterin, die mit einem Schutzzauber versehen war. Beim Aufbrechen der Truhe trat ein kalter Stoß auf, und nach dem Öffnen waren die Juwelen verschwunden. Die Hohepriesterin meldete ihren Verlust der Stadtwache.",
+            "type": null,
+            "image": null,
             "aliases": [],
-            "type": null,
-            "description": "Die Teleskop-Angel ist ein Angelgerät, das von der Gruppe auf dem Oberdeck des Schiffes Sandpiper gefunden wurde. Es handelt sich um ein teleskopierbares Modell, das möglicherweise zum Fangen von Fischen oder anderen Meereswesen verwendet werden kann. Die Teleskop-Angel wurde von Rita entdeckt.",
-            "image": null,
             "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
+            "merge": false,
+            "created_at": "2026-06-01T16:11:50.371000",
+            "updated_at": null
         },
         {
-            "created_at": "2026-03-21T14:04:03.459000",
-            "updated_at": null,
-            "id": "c4omgwl1upuvi2irvy2qyxb0",
-            "name": "Mechanischer Metallvogel",
+            "id": "dsooh22s7ez3d7rfq6s17bgm",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Schwert Eines Ehemaligen Helden",
+            "description": "Das Schwert eines ehemaligen Helden wurde von der Hohepriesterin als eines der unwiederbringlichen und für die Stadt bedeutsamen Gegenstände genannt, die aus ihrem Büro verschwunden seien. Gwendolyn und Dîn-io öffneten daraufhin die verschlossene Truhe im Büro, in der sich ein magisches Langschwert befand. Dîn-io und Surina bemerkten das Schwert kurz nach dem Öffnen.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T16:11:50.282000",
+            "updated_at": null
+        },
+        {
+            "id": "budrr84ccbbiqrz519n6ls1g",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Zwei Schreiben Aus Luskan",
+            "description": "Zwei Schreiben aus Luskan sind geöffnete Briefe, die auf der rechten Seite des Schreibtischs der Hohepriesterin lagen. Die Siegel waren gebrochen. Ihr Inhalt befasste sich mit einem geplanten Wissensaustausch mit einer anerkannten Magiergilde oder Akademie. Die Briefe wurden von Brennan während der Durchsuchung des Büros gefunden.",
+            "type": null,
+            "image": null,
             "aliases": [
-                "kleiner mechanischer Metallvogel",
-                "mechanischer Vogel"
+                "Schreiben Aus Luskan"
             ],
-            "type": null,
-            "description": "Der mechanische Metallvogel ist ein kleiner, flugfähiger Automat, der von Flint an Surina Nemmonis übergeben wird. Er aktiviert sich durch einen Knopf am Bauch und breitet seine Flügel aus, um zu fliegen. Surina erhält eine telepathische Sichtverbindung, die es ihr ermöglicht, das zu sehen, was der Vogel sieht. Der Vogel fliegt zunächst in kleinen Runden über Surinas Kopf und kann auf ihren Hörnern landen.\nWährend der Reise lässt Surina den Vogel aufsteigen, um die Umgebung zu erkunden. Der Vogel fliegt über Baumhöhe und entdeckt eine große Ansammlung von Schlangen auf einem Plateau, woraufhin Surina ihn vorsichtshalber zurückruft, um ihn vor möglicher Gefahr zu schützen. Der Vogel wird als nützliches Hilfsmittel betrachtet, das der Gruppe bei der Erkundung der Umgebung hilft.",
-            "image": null,
             "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
+            "merge": false,
+            "created_at": "2026-06-01T16:11:50.101000",
+            "updated_at": null
         },
         {
-            "created_at": "2026-03-21T14:04:03.434000",
-            "updated_at": null,
-            "id": "cp9f2v0lp4nd30ak61epa2fo",
-            "name": "Kistina",
+            "id": "wvbkugmrl679tu20vm2f6vyf",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Magisches Langschwert",
+            "description": "Magisches Langschwert: ein als magisch beschriebenes Langschwert, aufgeführt unter den magischen Gegenständen in der von Dîn-io geöffneten Truhe.\nDie Truhe wurde von Dîn-io aufgebrochen, wobei ein kalter Stoß den Anwesenden entgegen schlug. Das Langschwert gehörte zur Beute aus der Truhe, die später von Dîn-io als Teil der entnommenen magischen Gegenstände versteckt wurde.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T16:11:49.920000",
+            "updated_at": null
+        },
+        {
+            "id": "o7tjmc3796c9mb46t4xi428x",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Magischer Krummsäbel",
+            "description": "Der Magische Krummsäbel ist ein magischer Gegenstand, der in einer geöffneten Truhe im Büro der Hohepriesterin gefunden wurde. Beim Öffnen der Truhe erlebten die Anwesenden einen kalten Stoß, der die bereits Gefrorenen mit stärkerem Frost und Eisklumpen versorgte. Der Magische Krummsäbel wurde zusammen mit anderen magischen Gegenständen von Dîn-io unter einem Bett in einer Taverne versteckt.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T16:11:49.832000",
+            "updated_at": null
+        },
+        {
+            "id": "ksf8poxnrxu3562opj6k9rb3",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Magisches Kettenhemd",
+            "description": "Das magische Kettenhemd ist ein magischer Gegenstand, der zusammen mit weiteren magischen Artefakten in einer geöffneten Truhe im Büro der Hohepriesterin gefunden wurde. Es wurde beim Aufbrechen der Truhe durch Dîn-io sichtbar. Später versteckte Dîn-io die aus der Truhe genommenen magischen Gegenstände in einem anderen Zimmer der Taverne unter einem Bett.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T16:11:49.739000",
+            "updated_at": null
+        },
+        {
+            "id": "jw2rx105w4io9lo4lpeveymd",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Arkaner Fokus",
+            "description": "Arcane Foci sind magische Gegenstände, die in einer geöffneten Truhe gefunden wurden. Sie wurden als mehrere, unterschiedliche Foki aufgeführt.\n\nDie Arcane Foci lagen zusammen mit anderem magischen Inventar in der Truhe, die Dîn-io aufbrach. Das Öffnen der Truhe löste einen kalten Stoß aus. Die Foki wurden als bunte Sammlung beschrieben, darunter kugelartige und kristallkugelartige Gegenstände. Dîn-io warf einen solchen Fokus später in Richtung der Tür und der eintretenden Person.",
+            "type": null,
+            "image": null,
             "aliases": [
-                "laufende Truhe",
-                "Lauftruhe",
-                "ungewöhnliche Truhe",
-                "Kiste"
+                "Verschiedene Arcane Foci"
             ],
-            "type": null,
-            "description": "Kistina ist eine mechanische Truhe, die auf vier Beinen steht und sich selbstständig bewegt. Sie wurde von Flint aktiviert und ist Teil einer Mission, bei der die Gruppe sie zu einer befreundeten Gnomen-Siedlung namens Gnomengard bringen soll. Kistina kann auf Sprachbefehle wie Stopp, Lauf, Rechts und Links reagieren und wurde von der Gruppe als „Kistina“ benannt.\nWährend der Reise begegnete die Gruppe verschiedenen Herausforderungen, darunter ein Hinterhalt von Goblinoiden. Kistina blieb während des Kampfes unbeschadet und wurde von der Gruppe als wertvolles Transportmittel betrachtet. Nach dem Kampf setzte die Gruppe ihren Marsch mit Kistina fort.\nSpäter wurde Kistina als ein bewegliches, etwa einen Meter großes Objekt in der Form und Größe einer Kiste beschrieben. Sie wird als Liefergegenstand betrachtet, der von der Gruppe zu den Gnomen gebracht wurde. Die Kiste kann auf Befehl der Gruppe eigenständig laufen und wurde als erwartete Lieferung aus Hammerheim erkannt. Brennan Voidridge zeigte der Kiste die Aussicht auf die bewaldeten Inselchen im Becken, bevor er mit ihr zu den anderen zurückkehrte. Ein Gnom forderte die Gruppe zur Identifizierung auf, und die Kiste wurde als die erwartete Lieferung identifiziert. Auf Anweisung eines Gnoms ließ Brennan die Kiste „in die Ecke laufen“, wo sie verblieb. Die Gnome erklärten, dass der Tausch und das Beladen bis zum nächsten Tag dauern würden, und baten die Gruppe, die Kiste danach wieder zurückzubringen.",
-            "image": null,
             "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": true
+            "merge": false,
+            "created_at": "2026-06-01T16:11:49.648000",
+            "updated_at": null
         },
         {
-            "created_at": "2026-03-20T21:01:12.458000",
-            "updated_at": null,
-            "id": "w166326q4340pm7526g8je48",
-            "name": "Surinas Doppelklingensäbel",
+            "id": "nkibf4co2c85ipz32n5vx63t",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Truhe",
+            "description": "Die Truhe ist ein magisch wirkender Behälter im Büro der Hohepriesterin, der mit einem Schutzzauber versehen war. Beim Aufbrechen trat ein sehr kalter Stoß auf; die Hohepriesterin bezeichnete sie als Quelle des Zaubers, der Brennan traf.\nChronologie: Gwendolyn und Dîn-io näherten sich der Truhe. Gwendolyn rutschte beim Aufbrechen ab, Dîn-io brach schließlich das Schloss auf und öffnete die Truhe. Aus ihr entströmte Kälte, die die Gefrorenen stärker fror. In der Truhe befanden sich zahlreiche magische Gegenstände, darunter verschiedene Arcane Foci, ein magisches Kettenhemd, ein magischer Krummsäbel und ein magisches Langschwert, sowie ein leeres Buch. Dîn-io versteckte später die aus der Truhe genommenen Gegenstände unter einem Bett.",
+            "type": null,
+            "image": null,
             "aliases": [
-                "Doppelklingensäbel"
+                "Magische Truhe"
             ],
-            "type": null,
-            "description": "Surinas Doppelklingensäbel ist eine Waffe, die sich in einem Raum innerhalb eines runden Steinturms befindet. Die Waffe gehört zu Surinas Ausrüstung, die die Gruppe nach ihrer Flucht aus einer Zelle wiederfindet. Der Säbel lehnt gegen eine Kiste. Surina trägt den Säbel auf ihrem Rücken und zeigt damit ihre Bereitschaft zum Kampf.",
-            "image": null,
             "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
+            "merge": false,
+            "created_at": "2026-06-01T16:11:49.556000",
+            "updated_at": null
         },
         {
-            "created_at": "2026-03-20T16:44:59.349000",
-            "updated_at": null,
-            "id": "tzsv7gomhco9vu9mt2136f6r",
-            "name": "Iron Fang",
+            "id": "eptzbecu81jl0yji7qraf7db",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Kleiner Silberner Schlüssel",
+            "description": "Kleiner silberner Schlüssel: Ein kleiner silberner Schlüssel, den Brennan im Hohlraum unter dem doppelten Boden einer Schublade im Büro der Hohepriesterin fand. Brennan gab den Schlüssel an die Gruppe weiter. Surina steckte den Schlüssel in das Schloss des verschlossenen Drachenbuchs und drehte ihn trotz spürbaren Widerstands weiter, bis das Buch aufging. Es wurde bestätigt, dass der Schlüssel in das Schloss passt.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Silberner Schlüssel"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T16:11:49.467000",
+            "updated_at": null
+        },
+        {
+            "id": "krfte2h35hlp6rgcxn7z89nu",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Verschlossenes Drachenbuch",
+            "description": "Das Verschlossene Drachenbuch ist ein reich verziertes, dickes Buch mit einer Gebirgslandschaft und einem Drachen auf dem Einband. Es ist mit einem Schloss und komischen Runen versehen. Gwendolyn nahm eine Bannmagie-Aura wahr. Naevys fand das Buch in der Bibliothek und zeigte es Surina. Surina steckte einen kleinen silbernen Schlüssel in das Schloss und drehte ihn. Beim Öffnen des Buches löste sich eine Schockwelle aus, die Brennan, Naevys und Surina mit Frostüberzug erstarren ließ, während Gwendolyn beweglich blieb. Gwendolyn schloss das Buch erneut, und danach wirkte es nicht mehr wie zuvor magisch gesichert. Gwendolyn versteckte das Buch später am Boot der Gruppe im Gebüsch.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Drachenbuch"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T16:11:49.368000",
+            "updated_at": null
+        },
+        {
+            "id": "l2jdw0btmc5mjqb9ms06baad",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Rauchgranate",
+            "description": "Rauchgranate: eine kleine Rauchgranate, die vom letzten Hauptgoblin mit der linken Hand fallen gelassen wurde. Sie erzeugte eine dichte Rauchwolke, die den Goblin und Surina umhüllte. Die Rauchwolke versperrte die Sicht und zwang die Gruppe zu blinden oder area-basierten Aktionen wie Säurewurf, Entangle und Blindschüsse. Die Wirkung hielt an, bis der Rauch später verzog, woraufhin die Sicht wiederhergestellt wurde.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Rauchgranate",
+                "Granate"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T15:15:38.433000",
+            "updated_at": null
+        },
+        {
+            "id": "h414thf2airj92jt8nqb10qs",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Signalpfeife",
+            "description": "Signalpfeife: ein geraubtes Ausrüstungsstück, das von der Gruppe geborgen wurde und von Brennen Voidridge beansprucht wurde. Nach dem Kampf wurde die Signalpfeife unter den Beutegegenständen aufgeführt. Brennen erklärte: „Nehme die Flöte. Das ist meine Flöte“ und beanspruchte sie. Der Spielleiter korrigierte die Bezeichnung und nannte es „Signalfeife“.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T15:15:38.357000",
+            "updated_at": null
+        },
+        {
+            "id": "c1oof8fslevi04ck2cixhdpl",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Abgeschnittene Hobgoblin-Finger",
+            "description": "Abgeschnittene Hobgoblin-Finger: Sechzig einzelne Finger, von Surina aus sechs Hobgoblin-Leichen in einer kuppelförmigen Höhle abgeschnitten und in einen Eimer gelegt; die Finger bluteten kaum.\nChronologie: Surina schnitt alle Finger von den Leichen, füllte damit einen Eimer (etwa halbvoll bis zwei Drittel), ließ den Eimer nach oben ziehen. Brennen schüttete den Inhalt neben dem Brunnen aus und ließ den Eimer wieder hinab. Später legte Surina die abgeschnittenen Hobgoblin-Finger ans Feuer, um sie zu trocknen und haltbar zu machen.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Surinas Abgeschnittenen Fingern"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T13:10:51.631000",
+            "updated_at": null
+        },
+        {
+            "id": "cmpqojnf8001504l45w5lzxpy",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Kutsche von Triboar Stadtwache",
+            "description": "Kutsche: Eine von der Stadtwache bereitgestellte, große Kutsche mit Platz für geschätzt 10–12 Personen. Brennen und Gwendolyn erhielten die Kutsche nach Rückfrage bei der Stadtwache. Brennen bestätigte, dass sie für die Gruppe bestimmt war, und gab einem Wachmann ein Goldstück. Die Kutsche wurde mit einem Zugpferd angespannt; die Gruppe spann weitere Tiere an und verließ die Stadt in Richtung Norden. Während der Reise stellte die Gruppe fest, dass die Kutsche langsamer war als ihr früheres Reisetempo.",
+            "type": null,
+            "image": null,
             "aliases": [
                 "die schwarze Kutsche",
                 "Kutsche",
@@ -117,188 +271,30 @@
                 "Großer, eisenbeplatteter Kriegswagen mit montierter Armbrust",
                 "Wagen"
             ],
-            "type": null,
-            "description": "Die Iron Fang ist ein großer, eisenbeplatteter Kriegswagen, der von sechs Pferden gezogen wird. An der Rückseite des Wagens befindet sich ein breiter, schmaler Schießschlitz, in dem eine montierte Armbrust installiert ist. Rauch steigt aus dem Mechanismus der Armbrust auf, was auf eine kürzliche Nutzung hinweist.\nDer Wagen steht zwischen den Leichen von Orks und Kultisten. Ein kleiner Goblin, dessen grüne Haut mit Öl und Ruß verschmiert ist, tritt aus der Seitentür des Wagens und ruft: „Kommt her oder sterbt da“, bevor er wieder im Inneren verschwindet. Danach setzt sich die Iron Fang in Bewegung. Dîn-io springt als Erster in den Wagen, gefolgt von Gwendolyn, Surina und Brennen, der die Tür hinter sich zuschlägt. Im Inneren zielt der Goblin am Heck die montierte Armbrust neu aus und feuert erneut nach draußen, während der Wagen an Geschwindigkeit gewinnt und die Gruppe von der Burg fortreißt.\nZuvor war eine schwarze Kutsche, die mit einem Geschütz ausgestattet war, verwendet worden. Der Schütze am Ende der Kutsche feuerte Bolzen ab, um Verfolger zu verletzen. Die Kutsche fuhr schnell und ununterbrochen, sowohl Tag als auch Nacht, und konnte in gefährlichen Situationen schnell fliehen. Sie war mit verschiedenen Vorräten ausgestattet, darunter Wasserflaschen, Weinflaschen, ein kleines Bierfass, Brot, Käse, luftgetrocknete Wurst und Äpfel.\nDie Kutsche verließ das Burgtor und zog mit rasanter Geschwindigkeit davon, während sie von einer zweiten Verbündeten-Kutsche begleitet wurde. Sie fuhr durch die Stadt Long Settle, wo die Bewohner zur Seite sprangen und berittene Stadtwachen kurz die Verfolgung aufnahmen. In der Nacht hielt die Kutsche an, um den Reisenden eine Pause zu ermöglichen. Während der Fahrt wurde die Kutsche von einem unnatürlichen Wind umgeben, und die Gruppe bemerkte merkwürdige Phänomene in der Umgebung.\nAls die Kutsche in der Nähe einer großen, ummauerten Stadt ankam, wurde das Stadttor geöffnet, nachdem der Schütze, der sich als Grob vorstellt, einen Hebel betätigt hatte. Die Kutsche wurde in der Stadt abgestellt, und die Reisenden planten, die Nacht dort zu verbringen.",
-            "image": null,
             "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": true
+            "merge": false,
+            "created_at": "2026-05-29T08:48:36.664000",
+            "updated_at": null
         },
         {
-            "created_at": "2026-03-20T14:23:17.455000",
-            "updated_at": null,
-            "id": "nabj5i8w19uqa8n6bcz63yfn",
-            "name": "magisches Schwert",
+            "id": "cmpqlw5w7000004l1eomji6nw",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Vergoldeter Schädel",
+            "description": "Der Vergoldete Schädel ist ein vergoldeter Schädel, der für Morvains Beschwörungen benötigt wird. Sein geforderter Wert beträgt 300 Gold.\nMorvain nannte den vergoldeten Schädel als Voraussetzung für seine Beschwörungen. Die Gruppe diskutierte mögliche Bezugsquellen, darunter Friedhöfe, Minen, Tier- oder Menschenschädel sowie die Möglichkeit der Aufwertung durch Gold oder Edelsteine. Ceres wies darauf hin, dass an Bord kein solcher Schädel vorhanden sei und empfahl, vor dem Abmarsch bei Flint nach einer Schmiede und einem passenden Schädel zu suchen. Es wurde präzisiert, dass der vergoldete Schädel im Wert von 300 Gold aus Materialien oder Edelsteinen erreicht werden kann und die verwendbare Kreatur Medium oder kleiner sein muss.",
+            "type": null,
+            "image": null,
             "aliases": [
-                "ein magisches Schwert",
-                "das magische Schwert"
+                "Der Schädel"
             ],
-            "type": null,
-            "description": "Das magische Schwert wurde in der Festung Nightstone entdeckt. Es handelt sich um eine Waffe, die sich deutlich von gewöhnlicher Ausrüstung abhebt. Die Gruppe nahm das Schwert an sich, nachdem sie es in den Trümmern und Gemächern der Festung gefunden hatte.",
-            "image": null,
             "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
-        },
-        {
-            "created_at": "2026-03-18T21:07:48.417000",
-            "updated_at": null,
-            "id": "e3b9hx7zcpi81geh0esale4h",
-            "name": "Lodernde Leidenschaft",
-            "aliases": [
-                "rote Blume",
-                "feuerrote Blüte"
-            ],
-            "type": null,
-            "description": "Lodernde Leidenschaft ist eine Blume aus Kalimshan, die dort als selten gilt. Sie hat auffallend feuerrote Blüten und ölhaltige Kerne, die leicht entflammbar sind und einen süßlichen Duft abgeben, wenn sie geröstet werden. Diese Kerne sind bekannt für ihre aphrodisierende Wirkung und werden traditionell in Hochzeitsnächten verwendet.\nGwendolyn trägt die Lodernde Leidenschaft in ihrem Haar, nachdem Brennan sie ihr überreicht hat. Rita identifiziert die Blume und erklärt ihre besonderen Eigenschaften, einschließlich der Warnung, Abstand zu offenem Feuer zu halten. Gwendolyn gibt Rita einige Kerne der Blume, die sie in einem Becher platziert. Rita verwendet diese Kerne, um eine Stichflamme zu erzeugen.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
-        },
-        {
-            "created_at": "2026-03-09T10:37:59.082000",
-            "updated_at": null,
-            "id": "lh8vuofej46gv9p9vxwaxeca",
-            "name": "Magnetizer Eldritch Canon",
-            "aliases": [],
-            "type": null,
-            "description": "Die Magnetizer Eldritch Canon ist ein magisches Gerät. Flint schlägt vor, die Magnetizer Eldritch Canon gegen den schwer gerüsteten Krieger des Magiers einzusetzen. Die Gruppe verwendet die Magnetizer Eldritch Canon, um den Krieger des Magiers in ein Loch zu befördern, was den Verlauf des Kampfes zu ihren Gunsten wendet.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
-        },
-        {
-            "created_at": "2026-03-09T00:11:07.637000",
-            "updated_at": null,
-            "id": "hbpd9hk7nhe43lx6qp6eiwjd",
-            "name": "Amulet of Radiant Guidance",
-            "aliases": [
-                "Amulett"
-            ],
-            "type": null,
-            "description": "Das Amulet of Radiant Guidance ist ein magisches Artefakt, nach dem Alagos in der Bibliothek von Triboar sucht. Alagos fragt gezielt nach Büchern über das Amulet of Radiant Guidance. Es sind keine spezifischen Eigenschaften, Funktionen oder Ursprünge des Amuletts bekannt. Alagos' Interesse deutet darauf hin, dass es möglicherweise mit Wissen oder magischen Fähigkeiten verbunden ist. Das Amulet ist auch ein magisches Artefakt, das von einem Elf gesucht wird. Der Elf glaubt, dass er mit dessen Hilfe einen Gott gefügig machen kann. Trotz der Warnungen seiner Gruppe setzt er seine Suche nach dem Amulet fort.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": true
-        },
-        {
-            "created_at": "2026-03-09T00:11:07.616000",
-            "updated_at": null,
-            "id": "l7su7ghlb5w66h8ztejms33g",
-            "name": "Schriftrolle mit „Glyph of Warding“",
-            "aliases": [],
-            "type": null,
-            "description": "Die Schriftrolle „Glyph of Warding“ ist ein magisches Artefakt, das von Flint Fireforge in der Bibliothek von Triboar entdeckt wurde. Flint stiehlt diese Schriftrolle.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
-        },
-        {
-            "created_at": "2026-03-09T00:11:07.596000",
-            "updated_at": null,
-            "id": "z0jq1fqgwptex0sgtw1664bd",
-            "name": "Artificial Times",
-            "aliases": [],
-            "type": null,
-            "description": "Artificial Times ist ein Buch über historische Erfindungen, das Flint Fireforge in der Bibliothek von Triboar findet. Es passt zu Flints Interessen als Erfinder und Handwerker. Während seines Aufenthalts in der Bibliothek entdeckt Flint eine Schriftrolle mit dem Titel „Glyph of Warding“, die er stiehlt.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
-        },
-        {
-            "created_at": "2026-03-09T00:11:07.576000",
-            "updated_at": null,
-            "id": "dqv9jw465d6e50171pgkikg7",
-            "name": "legendäre Laute",
-            "aliases": [],
-            "type": null,
-            "description": "Die legendäre Laute ist ein wertvolles Musikinstrument, das Sudur Ragni auf dem High Market für 40 Goldstücke entdeckt. Durch einen Auftritt und den Tausch seiner alten Laute gelingt es ihm, den Preis auf 23 Goldstücke zu senken, bevor er die legendäre Laute erwirbt. Sudurs Auftritt führt zu einer Einladung zu einer Party im Everwyvern Resort.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
-        },
-        {
-            "created_at": "2026-03-08T22:00:14.674000",
-            "updated_at": null,
-            "id": "cmmiapugj000204lhopbbwpkw",
-            "name": "Weihwasser-Löschanlage",
-            "aliases": [],
-            "type": null,
-            "description": "Die Weihwasser-Löschanlage-Löschanlage wurde in der Festung in Auftrag gegeben, um gezielt gegen Untote vorzugehen. Sie ist Teil der Verteidigungsmaßnahmen der Festung, die speziell auf Bedrohungen durch Untote oder andere unheilige Kräfte ausgerichtet sind.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
-        },
-        {
-            "created_at": "2026-03-08T21:53:43.304000",
-            "updated_at": null,
-            "id": "d1kky3r3danw568mut5e458x",
-            "name": "Goblinisch - Common Wörterbuch",
-            "aliases": [
-                "Wörterbuch"
-            ],
-            "type": null,
-            "description": "Gwerk begann ein „Goblinisch - Common“ Wörterbuch zu erstellen. Dieses Projekt dokumentiert den Fortschritt in der sprachlichen Verständigung und Wissenssammlung innerhalb der Gemeinschaft. Es wird in einem Kontext erwähnt, der von Angriffen und Verteidigungsmaßnahmen geprägt ist, was zeigt, dass trotz der angespannten Situation auch an der Kommunikation und dem Verständnis zwischen verschiedenen Kulturen gearbeitet wird.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
-        },
-        {
-            "created_at": "2026-03-08T21:53:43.270000",
-            "updated_at": null,
-            "id": "lo9io7djz0v9e0pzmlu299d5",
-            "name": "Schmiede-Bunsenbrenner",
-            "aliases": [
-                "Bunsenbrenner"
-            ],
-            "type": null,
-            "description": "Der Schmiede-Bunsenbrenner ist ein von Flint hergestelltes Werkzeug, das in der Schmiede verwendet wird. Es ist Teil von Flints technischen Fortschritten. Der Schmiede-Bunsenbrenner könnte für die Herstellung oder Verbesserung von Waffen oder anderen Ausrüstungsgegenständen eingesetzt werden.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
-        },
-        {
-            "created_at": "2026-03-07T18:29:16.139000",
-            "updated_at": null,
-            "id": "ivb2kgxo48qnnenshdbk31lj",
-            "name": "Flammenwerfer",
-            "aliases": [
-                "Flamethrower Eldritch Canon",
-                "Kanone"
-            ],
-            "type": null,
-            "description": "Der Flammenwerfer ist ein magisches Gerät, das von Flint Fireforge verwendet wird. Es handelt sich um eine Waffe, die Feinde angreift, wenn sie nicht das Codewort „Hammerhåeim“ kennen. Flint Fireforge weist Gwerk an, den Tisch in der Empfangshalle zu verteidigen, wobei der Flammenwerfer ihn unterstützt. Während eines Angriffs bemerkt Gwerk eine Bewegung im Obergeschoss, feuert einen Bolzen ab und der Flammenwerfer reagiert ebenfalls, was beinahe zu einem Unfall führt, als Sudur Ragni knapp ausweicht und die Hitze der Flammen spürt.\nDer Flammenwerfer wird als Teil der Verteidigungsstrategie in der Festung Hammerhåeim eingesetzt, um Eindringlinge abzuwehren. Weiterhin ist die Eldritch Cannon eine von Flint konstruierte Waffe und stellt einen technischen Fortschritt dar. Sie ist Teil von Flints Bemühungen, neue Werkzeuge zur Reaktion auf die eskalierende Bedrohungslage zu schaffen. Die Konstruktion dieser Kanone zeigt Flints Weiterentwicklung und Verbesserung seiner Ausrüstung zur Verteidigung der Festung.\nIn einem humorvollen Kontext wird die Eldritch Cannon von Flint Fireforge auch als Möglichkeit erwähnt, Elfenkarawanen anzugreifen, um an Mithril zu gelangen. Flint schlägt vor, den Wald abzubrennen und die Eldritch Cannon einzusetzen, um seine Ziele zu erreichen. Dieser Vorschlag wird jedoch nicht als ernsthafte Handlungsstrategie betrachtet.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": true
-        },
-        {
-            "created_at": "2026-03-07T18:29:16.080000",
-            "updated_at": null,
-            "id": "ftak3u1n6sfxlqyrp3lkt1sy",
-            "name": "Skyreaper",
-            "aliases": [],
-            "type": null,
-            "description": "Der Skyreaper ist ein bewaffnetes Luftschiff, das von einer Gruppe über Waterdeep getestet wurde. Während des Testflugs wurden sämtliche Steuerelemente sowie die Bewaffnung des Schiffes überprüft. Der Test verlief erfolgreich, und alle wichtigen Funktionen arbeiteten wie vorgesehen. Die Gruppe landete das Schiff sicher, was den Abschluss des Tests markierte.\nIm Anschluss verhandelte die Gruppe im Palast von Waterdeep und erhielt für ihre Leistungen 150 Gold pro Kopf. Flint Fireforge erhielt zusätzlich ein Set Sending Stones.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
+            "merge": false,
+            "created_at": "2026-05-29T07:34:21.617000",
+            "updated_at": null
         }
     ],
     "from": 21,
-    "last_page": 5,
+    "last_page": 8,
     "per_page": 20,
     "to": 40,
-    "total": 86
+    "total": 147
 }

@@ -22,23 +22,17 @@ class ArchivistClient
 
     public function post(string $path, array $body = [], ?int $timeout = null): Response
     {
-        return $this->request($timeout)
-            ->asJson()
-            ->post($path, $this->normalizeBody($body));
+        return $this->request($timeout)->post($path, $this->normalizeBody($body));
     }
 
     public function patch(string $path, array $body = [], ?int $timeout = null): Response
     {
-        return $this->request($timeout)
-            ->asJson()
-            ->patch($path, $this->normalizeBody($body));
+        return $this->request($timeout)->patch($path, $this->normalizeBody($body));
     }
 
     public function put(string $path, array $body = [], ?int $timeout = null): Response
     {
-        return $this->request($timeout)
-            ->asJson()
-            ->put($path, $this->normalizeBody($body));
+        return $this->request($timeout)->put($path, $this->normalizeBody($body));
     }
 
     public function delete(string $path, array $query = [], ?int $timeout = null): Response
@@ -50,9 +44,7 @@ class ArchivistClient
 
     public function deleteJson(string $path, array $body = [], ?int $timeout = null): Response
     {
-        return $this->request($timeout)
-            ->asJson()
-            ->delete($path, $this->normalizeBody($body));
+        return $this->request($timeout)->delete($path, $this->normalizeBody($body));
     }
 
     private function request(?int $timeout = null): PendingRequest

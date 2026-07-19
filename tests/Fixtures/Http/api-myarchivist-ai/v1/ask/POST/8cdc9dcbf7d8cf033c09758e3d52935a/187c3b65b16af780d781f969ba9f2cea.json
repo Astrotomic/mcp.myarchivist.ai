@@ -1,0 +1,36 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Content-Type": [
+            "application/json"
+        ],
+        "Date": [
+            "Fri, 17 Jul 2026 07:17:03 GMT"
+        ],
+        "Server": [
+            "railway-hikari"
+        ],
+        "x-process-time": [
+            "23.991723775863647"
+        ],
+        "x-railway-request-id": [
+            "0vKF3AYeTBy99K7O6WHkDg"
+        ],
+        "Content-Length": [
+            "575"
+        ],
+        "x-hikari-trace": [
+            "ams1.kxr8"
+        ],
+        "x-railway-edge": [
+            "ams1"
+        ],
+        "vary": [
+            "accept-encoding"
+        ],
+        "Connection": [
+            "keep-alive"
+        ]
+    },
+    "data": "{\"answer\":\"Currently, there are no ongoing quests in the \\\"Twilight of the Gods\\\" campaign. All listed quests have been marked as completed:\\n\\n1. **Flucht im Kriegswagen** - Status: Done\\n2. **Reise nach Nightstone** - Status: Done\\n3. **Forschung zu Gnollen und Magie** - Status: Done\\n4. **Aufkl\u00e4rung \u00fcber Gargauth** - Status: Done\\n5. **Informationen \u00fcber Gargauth sammeln** - Status: Done\\n\\nAll quests have been resolved, and there are no indications of any active quests at this time.\",\"citations\":[],\"monthlyTokensRemaining\":3856682,\"hourlyTokensRemaining\":270277}"
+}

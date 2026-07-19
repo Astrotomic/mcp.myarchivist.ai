@@ -2,43 +2,19 @@
 
 namespace Tests\Gummibeer\Mcp\Tools\Factions;
 
-use App\Data\FactionData;
-use App\Mcp\Servers\ArchivistServer;
-use App\Mcp\Tools\Factions\ListFactionsTool;
-use Illuminate\Testing\Fluent\AssertableJson;
-use PHPUnit\Framework\Attributes\DataProvider;
-use PHPUnit\Framework\Attributes\Test;
-use Tests\GummibeerTestCase;
+use Tests\RealWorld\Mcp\Tools\Factions\ListFactionsToolTest as RealWorldListFactionsToolTest;
 
-final class ListFactionsToolTest extends GummibeerTestCase
+final class ListFactionsToolTest extends RealWorldListFactionsToolTest
 {
     public static function queryDataProvider(): array
     {
+        $campaignId = 'cmj78gm6k000004jrvzm7gcjr';
+
         return [
-            'no query' => [[]],
-            'size' => [['size' => 100]],
-            'page' => [['page' => 2]],
-            'search' => [['search' => 'Stadtwache']],
+            'no query' => [[], $campaignId],
+            'size' => [['size' => 100], $campaignId],
+            'page' => [['page' => 2], $campaignId],
+            'search' => [['search' => 'Stadtwache'], $campaignId],
         ];
-    }
-
-    #[Test]
-    #[DataProvider('queryDataProvider')]
-    public function it_fetches_data(array $query): void
-    {
-        ArchivistServer::tool(ListFactionsTool::class, array_merge($query, [
-            'campaign_id' => 'cmj78gm6k000004jrvzm7gcjr',
-        ]))
-            ->assertOk()
-            ->assertStructuredContent(function (AssertableJson $json): void {
-                $json
-                    ->assertPaginatedList(function (AssertableJson $item): void {
-                        $item
-                            ->assertJsonSchema(FactionData::class)
-                            ->where('campaign_id', 'cmj78gm6k000004jrvzm7gcjr');
-                    });
-
-                $this->assertMatchesJsonSnapshot($json);
-            });
     }
 }

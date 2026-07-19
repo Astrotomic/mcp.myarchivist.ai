@@ -1,0 +1,36 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Content-Type": [
+            "application/json"
+        ],
+        "Date": [
+            "Thu, 16 Jul 2026 20:42:07 GMT"
+        ],
+        "Server": [
+            "railway-hikari"
+        ],
+        "x-process-time": [
+            "2.5476813316345215"
+        ],
+        "x-railway-request-id": [
+            "PJDgU5irTSe_Y_oa9fVATg"
+        ],
+        "Content-Length": [
+            "4283"
+        ],
+        "x-hikari-trace": [
+            "ams1.b55h"
+        ],
+        "x-railway-edge": [
+            "ams1"
+        ],
+        "vary": [
+            "accept-encoding"
+        ],
+        "Connection": [
+            "keep-alive"
+        ]
+    },
+    "data": "{\"created_at\":\"2026-07-07T22:18:01.149000\",\"updated_at\":null,\"id\":\"cmrb7mrzx00000akpsytd8b0f\",\"title\":\"Dragon's Fall and Glory\",\"summary\":\"The party ventured into the Hoard (About Five Thousand Gold) chamber of Haldraxis, discovering the wounded dragon asleep amidst a small collection of treasure. Bandaged and resting beside a cold bowl of chamomile tea, Haldraxis was roused by the group's ambush. Gideon Xander proposed a peaceful approach, but Bronn Boromir, seeking vengeance for his brother's death at the dragon's hands, insisted that Haldraxis must die. E.t. Skittles supported this decision, and the group coordinated their attack: Bronn would magically deliver Ice-Flower Petals, Dookeldorn Bludvart would shoot into the dragon's throat, and Gideon would bolster Bronn's efforts.\\n\\nGideon advanced with a song to the sun, and Dookeldorn's crossbow bolt struck true, reopening Haldraxis's wounds. E.t.'s follow-up attack missed, but Bronn's magic sent a flurry of Ice-Flower Petals into the dragon's neck, causing Haldraxis to awaken with a furious roar, vowing revenge before fleeing through a Mountainside Opening. The party assessed the Hoard, noting its worth of five thousand gold, and decided to pursue the dragon using Hang Gliders found nearby.\\n\\nThey leapt from the mountain, gliding down to a Farmer's Field Beside Byriver near By River, where they saw smoke rising and heard the dragon beyond the city gates. Upon arrival, they encountered three Mountain Giants, one of whom charged Bronn. Dookeldorn swiftly shot the City Gate-lifting giant, while Gideon cast a weakening curse on two of them. The battle escalated, with Bronn entering a rage and striking back with fire, while E.t. unleashed deathly magic, staggering one giant. Dookeldorn summoned a small dragon companion named Pepe, who joined the fray.\\n\\nAs the fight continued, the Mountain Giants pressed their assault, but the party fought valiantly. Dookeldorn's emotional turmoil over his brother's death fueled his resolve, and he shot at the Mountain Giants while Pepe attacked fiercely. Gideon healed Bronn, and E.t. dealt a crushing blow to one giant, while Bronn finished off another. Dookeldorn executed the sleeping giant before the party pressed on to the Gate, where Philip recognized them and called them heroes, urging them to prepare for more Mountain Giants.\\n\\nThe party split up to gather support, with Bronn attempting to persuade Sybil for help, but she refused. Meanwhile, the others found the Barracks ablaze, and Bronn extinguished the flames to rescue trapped Tower Guards, who promised to assist in the defense against Haldraxis. As they approached the Keep, they saw the dragon perched atop the Tower. Gideon stepped into the courtyard, drawing Haldraxis's ire, but the dragon was thwarted by a ballista bolt from the Ballista Crews.\\n\\nInside the Tower, the party rushed up the stairs as Haldraxis slammed the roof above them. E.t. conjured a spiritual weapon and struck the dragon, while Dookeldorn shot him again, and Bronn hurled a dagger. Haldraxis retaliated with fire, but the Ballista Crews kept him at bay. In a final surge, E.t. delivered a necrotic touch that burst Haldraxis's wounds, killing him. The dragon's death cry echoed through the city, causing the remaining Mountain Giants to flee.\\n\\nAs the party approached the fallen dragon, Dookeldorn shot him once more, and Pepe unearthed a handkerchief belonging to Dookeldorn's brother. E.t. attempted to glide from the roof but fell unconscious. Gideon revived him, and soon after, townsfolk hailed the party as heroes, doubling their reward and offering them free accommodations. Eager for more treasure, the party decided to return to Haldraxis's cave.\\n\\nOn their way down the mountain, Bronn sent a message to his uncle, boasting of his victory. However, the Courier revealed he had not yet delivered their previous letters and snatched Bronn's new message before trudging off, leaving the party with a mix of triumph and frustration as they prepared for their next adventure.\",\"notes\":null,\"type\":\"txtUpload\",\"public\":false,\"campaign_id\":\"cmr9ilyjy00020ahu90yhvzx6\",\"image\":null,\"index\":null,\"session_date\":\"2026-07-07T19:00:00\",\"pbp_start_msg_url\":null,\"pbp_end_msg_url\":null,\"beats\":null,\"moments\":null}"
+}

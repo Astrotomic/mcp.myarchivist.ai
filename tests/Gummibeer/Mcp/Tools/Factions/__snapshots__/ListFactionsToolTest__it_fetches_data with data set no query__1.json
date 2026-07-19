@@ -2,79 +2,260 @@
     "current_page": 1,
     "data": [
         {
-            "created_at": "2026-05-22T08:46:01.396000",
-            "updated_at": null,
-            "id": "mxbjkn9oz6p521d0jl8in78x",
-            "name": "Riesenhaften Humanoiden Gestalten",
-            "aliases": [],
-            "type": null,
-            "description": "Die Riesenhaften Humanoiden Gestalten sind etwa so hoch wie ein Schiff und treten als zweibeinige Kreaturen auf. Sie gingen in Kampfhandlungen mit einer Gruppe und Orks. Ein von Gwendolyn mit einer magischen Krone beeinflusster Angehöriger der Riesenhaften Humanoiden Gestalten kämpfte unter den Orks. Gwendolyn schleuderte einen Feuerball in eine Gruppe der Riesenhaften Humanoiden Gestalten auf dem Eis, was ein Loch ins Eis riss und mindestens einen der Riesenhaften Humanoiden Gestalten ins Wasser stürzen ließ. Orks fingen einen der Riesenhaften Humanoiden Gestalten mit einem Netz ein; Dîn-io nutzte die Fesselung und schlug diesen im Nahkampf nieder. Naevys tötete einen weiteren der Riesenhaften Humanoiden Gestalten mit einem Pfeil, der durch das Auge ging.\nDie Gruppe untersuchte die Gefallenen der Riesenhaften Humanoiden Gestalten und zog in die Nahegelegene Hütte mit Feuerstelle, die offenbar ursprünglich ihnen gehörte. Die Einrichtung, das Geschirr und die Portionen in der Hütte waren deutlich größer. Naevys bat um eine Totenwache für die getöteten Riesenhaften Humanoiden Gestalten; ihr Vater stimmte zu und sagte, man könne sie draußen mit den eigenen Toten zusammen aufbahren und gemeinsam verbrennen.",
-            "image": null,
-            "tcg_image": null,
+            "id": "f16gh4pd8j9emqgj3kzq19dc",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
+            "name": "Grick",
+            "description": "Tentakelwürmer sind wurmartige, tentakelbewehrte Kreaturen. Sie greifen ihre Opfer mit Tentakeln an und können durch Bisse schwere Verletzungen verursachen.\n\n- Erscheinung: wurmartig, mit Tentakeln\n\n- Fähigkeiten: Festhalten mit Tentakeln, Bissangriff\n\n- Zugehörigkeit: Unbekannt\n\n- Standort: Decken von Höhlen oder ähnlichen Umgebungen\n\n- Ressourcen: Unbekannt\n\nAktuell sind Tentakelwürmer eine Bedrohung für Abenteurer, da sie in Gruppen auftreten und schwere Verletzungen verursachen können.\n\nBedrohungsbewertung: hoch, da sie in der Lage sind, mehrere Gegner gleichzeitig anzugreifen und ernsthafte Schäden zuzufügen.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Wurmartiges Tentakelwesen",
+                "Tentakelwurm"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-17T20:07:14.607000",
+            "updated_at": null
         },
         {
-            "created_at": "2026-05-22T08:46:01.314000",
-            "updated_at": null,
+            "id": "nlhi9owcoji1ihxqiq9bvz1o",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Bugbears",
+            "description": "Rolle: Feindliche Bestienformation in der Höhle.\n\n- Mehrere Backbären operieren in der Höhle und schleudern Javelins aus oberen Gängen.\n\n- Ein großer, ungepanzerter, gorillaartig laufender Backbär greift an und schlägt Surina Nemmonis dreimal schwer gegen den Brustkorb.\n\n- Backbären packen Surina Nemmonis und halten sie fest; ein Backbär schnappt sie erneut.\n\n- Backbären im oberen Gang greifen Korvathun an, werfen Javelins durch Morvains Netz und attackieren gemeinsam Zombie Bär (Morvain).\n\n- Der große Backbär wird mehrfach von Surina Nemmonis, Brennen Voidridge und Korvathun angegriffen; seine dicke Lederhaut und schweres Fell dämpfen die Wirkung der Angriffe.\n\n- Einige Backbären stoßen BRÜLL- oder Antwortlaute aus; obere Backbären fallen nacheinander, der große Backbär trifft Surina Nemmonis erneut.\n\n- Auf dem großen Backbären findet die Gruppe eine alte, stark verschmierte Kohlenotiz mit bruchstückhaften Warnungen.\n\nHooks:\n\n- Backbären nutzen geworfene Javelins aus erhöhten Gängen.\n\n- Ein einzelner Großer Backbär agiert als direkter Nahkampfbringer gegen Surina Nemmonis und die Gruppe.\n\n- Backbären arbeiten koordiniert in oberen und unteren Gängen und greifen sowohl mit Fern- als auch Nahwaffen an.\n\nBedrohungs-/Wert-Einstufung: hoch — mehrere Backbären verursachen wiederholt schwere Treffer an Gruppenmitgliedern und arbeiten koordiniert in unterschiedlichen Gängen.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-17T20:07:14.415000",
+            "updated_at": null
+        },
+        {
+            "id": "uv6vj3mow03zcpnuwjolhda8",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Stirges",
+            "description": "Rolle: fliegende, blutsaugende Kreaturen.\n\n- Erscheinungsbild: kleine, hässliche, lederflügelige, mückenartige Wesen mit Schnäbeln; wurden als „überdimensionale Mücke“ beschrieben.\n\n- Verhalten: fliegen auf Ziele zu, klammern sich fest und saugen; haften an Kleidung und Lederrüstung.\n\n- Vorkommen/Standort: traten im Gang der Mine/Höhle gemeinsam mit anderen Untoten auf.\n\n- Interaktionen: hingen an Surina Nemmonis und Korvathun; konnten von Surina Nemmonis mit der Doppelklinge abgeschlagen und von Korvathun abgerissen werden; mehrere fielen durch Gwendolyns Acid Splash tot; einzelne wurden durch Fire Bolt getroffen.\n\nWarum relevant jetzt:\n\n- traten im unmittelbaren Gefechtsbereich mehrmals wiederholt auf;\n\n- beeinträchtigten die Kampffähigkeit einzelner Gruppenmitglieder durch Festklammern.\n\nBedrohungsgrad: mittel — sie klebten im Kampf mehrfach an Gegnern fest und attackierten mehrere Gruppenmitglieder direkt.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Lederflügelige, Mückenartige Kreaturen"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-10T20:10:56.278000",
+            "updated_at": null
+        },
+        {
+            "id": "oq4u1ks0iavzumf82jlq8yjk",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Bugbears",
+            "description": "Bugbears\n- Mehrere Bugbears traten aus einem Gang auf, darunter zunächst drei, später weitere.\n- Sie waren mit Javelins bewaffnet.\n- Ihr Standort war der Engpass, aus dem sie aus den hinteren Gängen kamen.\n- Sie schleuderten Javelins auf Brennan, wobei mehrere ihn schwer trafen; weitere Bugbears warfen Javelins aus einer anderen Richtung und trafen die Front.\n- Surinas Frost traf drei Bugbears; Korvathun warf Wurfwaffen auf einen Bugbear; Brennan zielte auf sichtbare Bugbears und traf sie mit Kartenangriffen; Gwendolyn Silverflame setzte eine Flaming Sphere gegen die Gegner in den Gangabschnitten ein.\n- Plötzliches Erscheinen aus den Gängen.\n- Koordiniertes Auftreten aus mehreren Richtungen.\nThreat/Value: hoch — wegen gezieltem Fernangriff, der Verbündete schwer traf.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Bugbear"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-10T20:10:56.183000",
+            "updated_at": null
+        },
+        {
+            "id": "og8kpxqznz1slmyvzpyo4smn",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Zombies",
+            "description": "Zombies: wiederbelebte Leichen, in der Gruppe als \"Untote\" oder \"Zombies\" bezeichnet; drei wurden zuerst im Gang gesichtet. Die Leichen sind angeblich 500 Jahre alt, jedoch auffällig gut erhalten. Ein Zombie griff Skelett Katze an, hob sie hoch und warf sie in Richtung eines Steins; Skelett Katze verschwand in ein Loch. Die drei zuerst getroffenen Zombies erhoben sich, wurden niedergeschlagen, standen erneut auf und griffen weiter an. Ein Zombie wurde mit Feuer- und Flammenschaden belegt und blieb danach endgültig liegen. Weitere Zombies tauchten später erneut auf und griffen Surina Nemmonis an, konnten aber durch Treffer und Heilmagie wieder zu Boden gebracht werden.\nZwei Zombies öffneten eine Tür und traten in den Gang. Gwendolyns Säurezauber traf beide Zombies, verursachte jedoch nur oberflächliche Wirkung. Ein Zombies griff Morvains Skelett an. Zwei Zombies näherten sich Surina Nemmonis und trafen sie mehrfach. Vor der verbarrikadierten Tür befanden sich zwei Zombies, die zusammen mit Skeletten Kugellagerkugeln vom Boden aufhoben. In einem Schlafraum lagen mehrere Untote auf Betten und richteten sich beim Öffnen der Tür mit einem Stöhnen auf. Brennen Voidridges göttliche Macht drängte den Großteil der Untoten zurück, zwei Zombies erreichten ihn aber und trafen ihn mehrfach.\n- Wiederbelebung mehrmals hintereinander ist dokumentiert.\n- Einer der Zombies interagierte direkt mit der Gruppe, indem er Skelett Katze ergriff.\n- Mehrfaches Angreifen von Gruppenmitgliedern und Durchbrechen von Zugängen wurde beobachtet.\nThreat/Value: hoch — mehrere Untote erhoben sich wiederholt und griffen aktiv Die Gruppe an. Bedrohung: mittel — mehrere Zombies griffen Gruppenmitglieder an und durchbrachen Zugänge.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Untote",
+                "Zombie"
+            ],
+            "tcg_image": null,
+            "merge": true,
+            "created_at": "2026-06-10T20:10:55.999000",
+            "updated_at": null
+        },
+        {
+            "id": "cmpwglyty000j04jyadma3n4y",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Stadtwache von Bryn Shander",
+            "description": "Die Stadtwache von Bryn Shander ist die örtliche Wachtruppe, die von einem erkennbaren Kommandanten geleitet wird. Sie ist am Tempel präsent und unterhält Wachen am Nordtor. Die Hohepriesterin äußerte, dass die Stadtwache genug zu tun habe und über vieles hinwegsehe. \n\nEine schläfrige Wachschicht erschien mehrfach in der Stadt, darunter ein halb schlafender Wächter am Nordtor. Ein Wachmann wünschte Dîn-io beim Vorbeigehen flüchtig einen guten Abend. Nach der Meldung der Hohepriesterin traf die Stadtwache am Tempel ein, und der Kommandant erklärte, dass alle Stadttore geschlossen worden seien und niemand die Stadt verlassen dürfe, bis die fehlenden Gegenstände gefunden seien.\n\nDie Stadtwache wurde am Tempel von der Hohepriesterin über einen Einbruch informiert. Sie nahm drei der Eingefrorenen in Gewahrsam und führte Durchsuchungen Gebäude für Gebäude in Richtung Süden durch. Die Stadtwache traf nachts am Tempel ein, wurde von der Hohepriesterin instruiert und übernahm die Verwahrung der drei Eingefrorenen. Sie forderte Surina auf, ein Buch zu zeigen, prüfte ihre und weitere Gegenstände, fand jedoch nicht die gesuchten heiligen Objekte und ließ Surina ihre Sachen wieder zusammenpacken. Die Eingefrorenen wurden in Zellen gehalten. Am Morgen riss ein Mitglied der Stadtwache lautstark eine Zellentür auf, und die Gehaltenen durften die Zellen verlassen. Die Stadtwache setzte die Durchsuchungen in den Gassen fort.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Stadtwache von Bryn Shander"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-02T09:53:04.883000",
+            "updated_at": null
+        },
+        {
+            "id": "iiybaa70a0isc1ugjr6lpltg",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Dritte Legion",
+            "description": "Die Dritte Legion wurde umpositioniert. In den Befehlen steht, dass für die nächsten 14 Tage keine Verstärkung für die Dritte Legion kommen soll. Eine Einheit der Dritten Legion soll die aktuelle Stellung halten und die Nachschublinien sichern. Zudem darf ein Banner der Dritten Legion nicht in Feindeshand fallen.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Dritte Legion"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T13:10:50.664000",
+            "updated_at": null
+        },
+        {
+            "id": "lpal4s8fvbjqgflpowwt5fm7",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Hobgoblins",
+            "description": "Die Hobgoblins sind die belagernden Streitkräfte vor Tribor und liegen weiterhin vor der Stadt. Ihr Lager erstreckt sich ringförmig um die Stadt, mit vielen identisch schwarzen Zelten, die etwa einen Kilometer vor den Stadtmauern aufgestellt sind. Diese Zelte bestehen aus identischem schwarzem Stoff, ohne Banner oder Dekoration, und sind keine Einpersonen-Zelte; in ihnen können etwa vier Personen schlafen. Einige Zelte dienen der Vorratshaltung. Entlang der Straße vor der Stadt befinden sich Barrikaden, während das Triboar von Tribor innerhalb des Lagers auffällig frei bleibt.\n\nDie Hobgoblins sind Belagerer, die sich hinter einer Barrikade aus Holz, Steinen und Erde verschanzen und schwarze Rüstungen tragen. An der rechten Vorderseite der Barrikade halten sie eine Brennende Sperre. Aus dieser Position beginnen die Hobgoblins den Angriff, indem sie aus Deckung und aus dem Rauch der brennenden Sperre mit Pfeilen schießen. Während des Gefechts rücken sie nach und füllen entstehende Lücken in ihrer Linie. Der Rauch von der brennenden Sperre zieht über das Feld und erschwert die Sicht, während die Auseinandersetzung an der Barrikade andauert.\n\nIn den letzten Tagen und Nächten erlitten die Hobgoblins schwere Verluste. An einem Abend zogen sie sich etwas zurück, was dazu führte, dass vereinzelt Karawanen wieder durchkamen. Trotz des teilweisen Rückzugs bleibt die Belagerung vor der Stadt jedoch anhaltend bestehen. Mitglieder des Belagerungstrupps traten als schwarz gerüstete Hobgoblins auf und lieferten Gefechte mit der Gruppe, wobei mehrere Hobgoblins fielen. Die Gruppe versteckte sich in einem Hain zur Aufklärung, während Ried das Lager aus der Luft erkundete und die Ausdehnung sowie die freigelassene Fläche um das Triboar meldete. Daraufhin entschied die Gruppe, heimlich vorzugehen und Ried ins Triboar zu schicken.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Belagerer",
+                "Hobgoblins Belagerungstrupp"
+            ],
+            "tcg_image": null,
+            "merge": true,
+            "created_at": "2026-05-29T14:06:41.409000",
+            "updated_at": null
+        },
+        {
+            "id": "vaq2cm470t2an7teeida3wjq",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Hammers of Moradin (Flint)",
+            "description": "Die Paladine sind bewaffnete Ordenspersonen, die auf dem Luftschiff anwesend sind und in Begleitung von Ceres handeln. Zwei Paladine nähern sich jeweils von beiden Seiten des Gangs, umstellen die Gruppe und stehen hinter Ceres. Im Labor flankieren zwei Paladine den Leichnam am Kopfende des Tisches, nehmen den Leichnam in Empfang und entfernen sich später damit zusammen mit Ceres. Die Paladine setzen die Gruppe unter Arrest, führen Rita in eine Zelle und bewachen den Zellentrakt sowie den Haupteingang.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-05-29T06:51:37.877000",
+            "updated_at": null
+        },
+        {
+            "id": "vn8d1alv3l35mxdz2y7p3w24",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Reiter Der Hölle",
+            "description": "Die Reiter Der Hölle werden in den aus Anons Geheimfach geborgenen Papieren erwähnt. In einer handgeschriebenen Notiz wird ihr Name zusammen mit der Summe von 5000 Gold genannt.\nDie Papiere wurden von Brennen Voidridge in Anons oberem Arbeitszimmer gefunden und später in der Herberge gemeinsam gesichtet. Eine Notiz enthält die Bezeichnung „Reiter Der Hölle“ und die Angabe von 5000 Gold.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-05-27T16:37:38.270000",
+            "updated_at": null
+        },
+        {
+            "id": "v0r8mpg01tsj3n8gu3a8kqsk",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Könige Von Gnomengard",
+            "description": "Die Könige Von Gnomengard sind die Entscheidungsträger im Thronsaal von Gnomengard. Sie zahlten 375 Gold für den Transport einer Kiste. Bei einem späteren Treffen im Thronsaal verwiesen sie auf mehrere Gegenstände, die als mögliche Belohnungen bereitlagen. Auf Nachfrage erklärten die Könige, dass der pinke Hut vor Regen schütze und die Schneiderin seit dessen Herstellung „deutlich besser treffe“. Sie wiesen darauf hin, dass die Entscheidung für solche Gegenstände andere Möglichkeiten beeinträchtigen würde, konnten jedoch die praktischen Verzauberungen der Gegenstände nicht weiter spezifizieren.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Könige"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-05-26T14:30:45.992000",
+            "updated_at": null
+        },
+        {
+            "id": "k1cf2fdrsnzcj9ikqzxx2i5e",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Karawane Aus Longsaddle",
+            "description": "Die Karawane Aus Longsaddle wurde ohne ihre menschliche Besatzung aufgefunden. Der Auffindungsort liegt vage zwischen Longsaddle und Tribor.\nDas Gerücht über die Karawane entstand, als Bauern auf einer Farm gegenüber der Gruppe berichteten, dass die Karawane entdeckt worden sei. Diese Information wurde von den Arbeitern genannt, als die Gruppe nach Hinweisen auf eine Hexe und böse Träume fragte.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Karawane Auf Dem Weg Nach Tribor"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-05-26T13:25:18.286000",
+            "updated_at": null
+        },
+        {
+            "id": "iiflwidzhejqdkn2vf1nfg3j",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Verfluchte Leute Aus Den Verlorenen Kutschen",
+            "description": "Die Verfluchten Leute aus den verlorenen Kutschen sind Personen, die aus den verlorenen Kutschen stammen und unter einem Fluch standen. Die Gruppe tötete fast alle von ihnen und nahm einige als Gefangene. Chronologisch tötete die Gruppe fast alle Verfluchten und nahm Überlebende gefangen. Die Gefangenen sind gefesselte Personen, die die Gruppe aus den verlorenen Kutschen genommen hatte. Brennen schloss, dass die Kutschen und ihre Leute unter einem Fluch standen. Zwei der Gefangenen kamen später wieder zu Bewusstsein, blieben gefesselt in Surinas Hand und verhielten sich kooperativ. Gwendolyns frühere Beeinflussung eines Gefangenen wirkte nicht mehr. \n\nIm Hof hielt Surina drei gefangene Personen und schüttelte sie; eines der Schweine biss einem der Gefangenen in den Fuß, woraufhin der Mann schrie und blutete. Surina hob die Gefangenen höher, als das Schwein an ihnen hochsprang. Surina nahm später das sprechende Schwein Nathalie mit sich. Die Gruppe befürchtete, Elysia Darkthorn verärgert zu haben. Leichen und Gefangene lagen im Hof. In Gwendolyns Traum tauchten später in einer Arena zwei Bauern und eine Wache auf, die den Leuten glichen, die die Gruppe zuvor bekämpft oder verbrannt hatte.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Verfluchte Leute Aus Den Verlorenen Kutschen"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-05-22T15:51:40.150000",
+            "updated_at": null
+        },
+        {
+            "id": "mxbjkn9oz6p521d0jl8in78x",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Riesenhaften Humanoiden Gestalten",
+            "description": "Die Riesenhaften Humanoiden Gestalten sind etwa so hoch wie ein Schiff und treten als zweibeinige Kreaturen auf. Sie gingen in Kampfhandlungen mit einer Gruppe und Orks. Ein von Gwendolyn mit einer magischen Krone beeinflusster Angehöriger der Riesenhaften Humanoiden Gestalten kämpfte unter den Orks. Gwendolyn schleuderte einen Feuerball in eine Gruppe der Riesenhaften Humanoiden Gestalten auf dem Eis, was ein Loch ins Eis riss und mindestens einen der Riesenhaften Humanoiden Gestalten ins Wasser stürzen ließ. Orks fingen einen der Riesenhaften Humanoiden Gestalten mit einem Netz ein; Dîn-io nutzte die Fesselung und schlug diesen im Nahkampf nieder. Naevys tötete einen weiteren der Riesenhaften Humanoiden Gestalten mit einem Pfeil, der durch das Auge ging.\nDie Gruppe untersuchte die Gefallenen der Riesenhaften Humanoiden Gestalten und zog in die Nahegelegene Hütte mit Feuerstelle, die offenbar ursprünglich ihnen gehörte. Die Einrichtung, das Geschirr und die Portionen in der Hütte waren deutlich größer. Naevys bat um eine Totenwache für die getöteten Riesenhaften Humanoiden Gestalten; ihr Vater stimmte zu und sagte, man könne sie draußen mit den eigenen Toten zusammen aufbahren und gemeinsam verbrennen.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-05-22T08:46:01.396000",
+            "updated_at": null
+        },
+        {
             "id": "x97eiyxb2fzzbxn01xmujjg5",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "name": "Naevys’ Clan",
+            "description": "Naevys’ Clan ist eine Gruppe von Orks, die in der Nähe einer warmen Hütte wohnen, in der sich ein Schamane und Naevys’ alter Vater befinden. Der Clan wurde sichtbar, nachdem Surinas Vogel vorgeflogen war. Naevys erkannte mindestens einen Ork als Mitglied ihres Clans, und der vorderste Ork wurde als früherer Anführer und führender Jäger identifiziert.\nNaevys’ Clan kletterte an einem Seil zu der Gruppe hinab, begrüßte Naevys und erfuhr, dass ihr Vater noch lebte, sich aber wegen der Kälte schlechter fühlte und beim Schamanen in der Hütte blieb. Im folgenden Kampf griff Naevys’ Clan gestaffelt mit Netzen, Schleudern und anderen Waffen an, fing einen der riesenhaften Gegner mit einem Netz ein und hielt ihn fest. Nach dem Kampf ging Naevys’ Clan in die Nahegelegene Hütte mit Feuerstelle, stimmte einer Totenwache für die getöteten Riesen zu und half beim Löschen und Zerlegen des brennenden Baumes, während ein Teil bei der Hütte blieb.",
+            "type": null,
+            "image": null,
             "aliases": [
                 "Ihr Clan"
             ],
-            "type": null,
-            "description": "Naevys’ Clan ist eine Gruppe von Orks, die in der Nähe einer warmen Hütte wohnen, in der sich ein Schamane und Naevys’ alter Vater befinden. Der Clan wurde sichtbar, nachdem Surinas Vogel vorgeflogen war. Naevys erkannte mindestens einen Ork als Mitglied ihres Clans, und der vorderste Ork wurde als früherer Anführer und führender Jäger identifiziert.\nNaevys’ Clan kletterte an einem Seil zu der Gruppe hinab, begrüßte Naevys und erfuhr, dass ihr Vater noch lebte, sich aber wegen der Kälte schlechter fühlte und beim Schamanen in der Hütte blieb. Im folgenden Kampf griff Naevys’ Clan gestaffelt mit Netzen, Schleudern und anderen Waffen an, fing einen der riesenhaften Gegner mit einem Netz ein und hielt ihn fest. Nach dem Kampf ging Naevys’ Clan in die Nahegelegene Hütte mit Feuerstelle, stimmte einer Totenwache für die getöteten Riesen zu und half beim Löschen und Zerlegen des brennenden Baumes, während ein Teil bei der Hütte blieb.",
-            "image": null,
             "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
+            "merge": false,
+            "created_at": "2026-05-22T08:46:01.314000",
+            "updated_at": null
         },
         {
-            "created_at": "2026-05-21T13:29:18.528000",
-            "updated_at": null,
             "id": "bjl8cam5c5l5n66tuae69v3z",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "name": "Jäger",
+            "description": "Die Jäger sind eine Gruppe bewaffneter Menschen in Jägerkleidung aus Lonelywood. Ihr Anführer trägt den Namen Päckli Lomba. Vier Mitglieder der Gruppe erschienen zunächst beim Schiff und an der Falle und erklärten, das gefangene Mammut sei ihre Beute, die sie verwerten wollten (Fell, Fleisch und Stoßzähne). Sie bestritten, dass der Fluch ansteckend oder eine Krankheit sei. Die Jäger nahmen das Mammut an sich, entzündeten ein Feuer in der Grube und verarbeiteten das Tier, während die übrige Gruppe sich entfernte.",
+            "type": null,
+            "image": null,
             "aliases": [
                 "Die Jäger"
             ],
-            "type": null,
-            "description": "Die Jäger sind eine Gruppe bewaffneter Menschen in Jägerkleidung aus Lonelywood. Ihr Anführer trägt den Namen Päckli Lomba. Vier Mitglieder der Gruppe erschienen zunächst beim Schiff und an der Falle und erklärten, das gefangene Mammut sei ihre Beute, die sie verwerten wollten (Fell, Fleisch und Stoßzähne). Sie bestritten, dass der Fluch ansteckend oder eine Krankheit sei. Die Jäger nahmen das Mammut an sich, entzündeten ein Feuer in der Grube und verarbeiteten das Tier, während die übrige Gruppe sich entfernte.",
-            "image": null,
             "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
+            "merge": false,
+            "created_at": "2026-05-21T13:29:18.528000",
+            "updated_at": null
         },
         {
-            "created_at": "2026-05-21T13:29:18.292000",
-            "updated_at": null,
             "id": "wdws726iiar58ui81ye7r9hq",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "name": "Mammuts",
-            "aliases": [],
-            "type": "NPC",
             "description": "Die Mammuts bestehen aus drei Tieren, darunter eine Mutter mit mehreren Jungtieren. Ein Gefährte der Mammuts war in eine Grube gefallen und dort stark eingeschneit sowie mit Eiszapfen bedeckt.\nDie Mammuts standen seit dem Vortag um die Grube herum und stimmten dem Vorschlag zu, das gefangene Mammut mit zusammengebundenen Seilen herauszuziehen. Die übrigen Mammuts zeigten Unruhe und berichteten, dass das gefangene Tier zuvor merkwürdig gewesen sei. Als sich Jäger näherten, registrierten sie Surinas Aufforderung, zu verschwinden, und zogen sich daraufhin zurück. Sie ließen die Jäger mit dem verfluchten Mammut allein und beobachteten später, wie in der Grube Feuer aufflackerte.",
+            "type": "NPC",
             "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
-        },
-        {
-            "created_at": "2026-05-19T20:58:43.482000",
-            "updated_at": null,
-            "id": "cmpd482bc000r04ld671uw9qf",
-            "name": "Stadtwache von Frozen",
             "aliases": [],
-            "type": null,
-            "description": "Die Stadtwache wurde am Tempel von der Hohepriesterin über einen Einbruch informiert. Sie nahm drei der Eingefrorenen in Gewahrsam und führte Durchsuchungen Gebäude für Gebäude in Richtung Süden durch.\nDie Stadtwache traf nachts am Tempel ein, wurde von der Hohepriesterin instruiert und übernahm die Verwahrung der drei Eingefrorenen. Sie forderte Surina auf, ein Buch zu zeigen, prüfte ihre und weitere Gegenstände, fand jedoch nicht die gesuchten heiligen Objekte und ließ Surina ihre Sachen wieder zusammenpacken. Die Eingefrorenen wurden in Zellen gehalten. Am Morgen riss ein Mitglied der Stadtwache lautstark eine Zellentür auf, und die Gehaltenen durften die Zellen verlassen. Die Stadtwache setzte die Durchsuchungen in den Gassen fort.",
-            "image": null,
             "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
+            "merge": false,
+            "created_at": "2026-05-21T13:29:18.292000",
+            "updated_at": null
         },
         {
-            "created_at": "2026-05-13T20:01:06.312000",
-            "updated_at": null,
             "id": "r86ej50cbqrfissek140wtyh",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "name": "Infernalische Vollstrecker",
+            "description": "Die Infernalischen Vollstrecker sind eine Gruppe von Höllenwesen, organisiert in schwarz-rot gekleidete Anführer, schlicht gekleidete Schreiber und mittelmäßig gerüstete Vollstrecker. Die Infernalischen Schreiber sind humanoide Wesen, die in schwarz-roter Kleidung auftreten und einfache, schlichte Kleidungsstücke tragen, jedoch keine Rüstungen. Ihre Hauptaufgabe ist das Sammeln und Dokumentieren von Informationen, was sie durch das Tragen von Notizbrettern und das Anbringen von Markierungen mit roter Kreide an Objekten auf dem Anwesen tun.\n\nDie Vollstrecker verwenden Netze und Ketten als Hauptwerkzeuge und sind mit kleinen schwarzen Kästen ausgestattet, die Ketten herausschießen können, um markierte Objekte zu erfassen. Sie sind auf dem Anwesen aktiv und verteilen sich dort, während sie mit roter Kreide Markierungen anbringen und Objekte erfassen. Die Gruppe zeigt kein aggressives Verhalten gegenüber den Charakteren, die das Gelände betreten, und lässt sie ungehindert passieren.\n\nDie Infernalischen Schreiber und Vollstrecker interagieren mit den Charakteren, indem sie Informationen über die Herzogin und deren Verbleib auf dem Gelände bereitstellen. Bei Begegnungen verlangen die Schreiber nach den echten Namen der Anwesenden und zeigen eine klare Hierarchie, wobei ein Kommandant die Anweisungen gibt. Der Kommandant bietet Surina an, einen Höllenhund zu erhalten, wenn sie 58 Seelen beschaffen kann, und erklärt, dass die Seelen umso wertvoller sind, je unschuldiger sie sind. Zudem warnt der Kommandant, dass bei einem Scheitern an dem Geschäft die betroffene Person in der Hölle arbeiten müsste. Die Schreiber sind Teil eines größeren infernalischen Plans, der mit einem Pakt oder einer ähnlichen Bindung in Verbindung steht, und sie sind verantwortlich für die Einhaltung von Verträgen. Sie können die Seelen von Verletzten erfassen, indem sie sie in ihre Kästen ziehen.",
+            "type": null,
+            "image": null,
             "aliases": [
                 "Vollstrecker",
                 "Schreiber",
@@ -82,220 +263,46 @@
                 "Träger kleiner schwarzer Kästen",
                 "Träger"
             ],
-            "type": null,
-            "description": "Die Infernalischen Vollstrecker sind eine Gruppe von Höllenwesen, organisiert in schwarz-rot gekleidete Anführer, schlicht gekleidete Schreiber und mittelmäßig gerüstete Vollstrecker. Die Infernalischen Schreiber sind humanoide Wesen, die in schwarz-roter Kleidung auftreten und einfache, schlichte Kleidungsstücke tragen, jedoch keine Rüstungen. Ihre Hauptaufgabe ist das Sammeln und Dokumentieren von Informationen, was sie durch das Tragen von Notizbrettern und das Anbringen von Markierungen mit roter Kreide an Objekten auf dem Anwesen tun.\n\nDie Vollstrecker verwenden Netze und Ketten als Hauptwerkzeuge und sind mit kleinen schwarzen Kästen ausgestattet, die Ketten herausschießen können, um markierte Objekte zu erfassen. Sie sind auf dem Anwesen aktiv und verteilen sich dort, während sie mit roter Kreide Markierungen anbringen und Objekte erfassen. Die Gruppe zeigt kein aggressives Verhalten gegenüber den Charakteren, die das Gelände betreten, und lässt sie ungehindert passieren.\n\nDie Infernalischen Schreiber und Vollstrecker interagieren mit den Charakteren, indem sie Informationen über die Herzogin und deren Verbleib auf dem Gelände bereitstellen. Bei Begegnungen verlangen die Schreiber nach den echten Namen der Anwesenden und zeigen eine klare Hierarchie, wobei ein Kommandant die Anweisungen gibt. Der Kommandant bietet Surina an, einen Höllenhund zu erhalten, wenn sie 58 Seelen beschaffen kann, und erklärt, dass die Seelen umso wertvoller sind, je unschuldiger sie sind. Zudem warnt der Kommandant, dass bei einem Scheitern an dem Geschäft die betroffene Person in der Hölle arbeiten müsste. Die Schreiber sind Teil eines größeren infernalischen Plans, der mit einem Pakt oder einer ähnlichen Bindung in Verbindung steht, und sie sind verantwortlich für die Einhaltung von Verträgen. Sie können die Seelen von Verletzten erfassen, indem sie sie in ihre Kästen ziehen.",
-            "image": null,
             "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
+            "merge": false,
+            "created_at": "2026-05-13T20:01:06.312000",
+            "updated_at": null
         },
         {
-            "created_at": "2026-05-13T20:01:06.272000",
-            "updated_at": null,
             "id": "vkuwkbcjinkbwgtc6uayg1dj",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "name": "Familie Rosethorne",
+            "description": "Die Familie de Rosson ist eine Adelsfamilie mit einem Mitglied namens Aurelian, der in Calimport lebt. Auf Aurelian ist ein hohes Kopfgeld ausgesetzt, und das Haupt der Familie, Naevys Nerizana, könnte ebenfalls gefährdet sein, wenn ihre Herkunft bekannt wird.\n\nDie Familie hat Verbindungen zu einer Organisation, die sich dem Schutz von Menschen vor Ausbeutung widmet. Doran, ein Mitglied dieser Organisation, bietet Naevys seinen Schutz an und erkennt das Symbol einer Lilie, das sie ihm zeigt. Daraufhin ändert er sein Verhalten und stellt sich als Freund der Familie de Rosson vor. Er informiert Naevys über die Gefahren, die mit ihrer Herkunft verbunden sind.",
+            "type": null,
+            "image": null,
             "aliases": [
                 "de Rosson"
             ],
-            "type": null,
-            "description": "Die Familie de Rosson ist eine Adelsfamilie mit einem Mitglied namens Aurelian, der in Calimport lebt. Auf Aurelian ist ein hohes Kopfgeld ausgesetzt, und das Haupt der Familie, Naevys Nerizana, könnte ebenfalls gefährdet sein, wenn ihre Herkunft bekannt wird.\n\nDie Familie hat Verbindungen zu einer Organisation, die sich dem Schutz von Menschen vor Ausbeutung widmet. Doran, ein Mitglied dieser Organisation, bietet Naevys seinen Schutz an und erkennt das Symbol einer Lilie, das sie ihm zeigt. Daraufhin ändert er sein Verhalten und stellt sich als Freund der Familie de Rosson vor. Er informiert Naevys über die Gefahren, die mit ihrer Herkunft verbunden sind.",
-            "image": null,
             "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
+            "merge": false,
+            "created_at": "2026-05-13T20:01:06.272000",
+            "updated_at": null
         },
         {
-            "created_at": "2026-04-30T13:49:34.014000",
-            "updated_at": null,
             "id": "eig7l60h6yuq0tuni7446e6i",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "name": "Piraten von Admiral Eri",
+            "description": "Die Piraten von Admiral Eri operieren unter dem Kommando eines Admirals, der sich als Kapitän eines stählernen Schiffs präsentiert. Die Crew besteht aus mehreren humanoiden Pinguinen, einem Hai und einigen Enten. Die Besatzung agiert als Piraten und bietet ihre Dienste an, um Passagiere zu transportieren, verlangt jedoch Bezahlung oder einen Austausch, wie die Bereitstellung eines neuen Crewmitglieds.\nDie Gruppe trifft den Admiral, nachdem sie einen Aklut besiegt hat, und wird von ihm zu seiner Hütten mit Feuerstelle eingeladen, wo sie übernachten können. Der Admiral erklärt, dass sie Piraten sind und dass sie in der Regel andere Leute entführen, was zu Gelächter unter der Crew führt. Er bietet an, die Gruppe zur Insel mit dem Hort von Ava Charus in der offenen See zu bringen und warnt, dass seit zweihundert Jahren kein Schiff diese Passage erfolgreich gemeistert hat. Der Admiral schlägt vor, die Beute im Erfolgsfall „halbe-halbe“ zu teilen, falls die Gruppe die Drachenlady tötet, was von einem Gruppenmitglied abgelehnt wird, da der Wunsch besteht, mit Ava Charus zu sprechen.\nAm nächsten Morgen tritt ein sprechendes Walross namens Mister Varos der Piraten von Admiral Eri bei, und die Gruppe bestiegt das Schiff. Während der Fahrt wird das gewonnene Monsterblut zu einem Konzentrat verarbeitet, und die Gruppe bereitet giftige Waffenbeschichtungen vor. Die Piraten von Admiral Eri bietet der Gruppe auch eine Einladung zum Essen an.",
+            "type": null,
+            "image": null,
             "aliases": [
                 "Pinguin-Crew",
                 "pinguin-geführte Crew"
             ],
-            "type": null,
-            "description": "Die Piraten von Admiral Eri operieren unter dem Kommando eines Admirals, der sich als Kapitän eines stählernen Schiffs präsentiert. Die Crew besteht aus mehreren humanoiden Pinguinen, einem Hai und einigen Enten. Die Besatzung agiert als Piraten und bietet ihre Dienste an, um Passagiere zu transportieren, verlangt jedoch Bezahlung oder einen Austausch, wie die Bereitstellung eines neuen Crewmitglieds.\nDie Gruppe trifft den Admiral, nachdem sie einen Aklut besiegt hat, und wird von ihm zu seiner Hütten mit Feuerstelle eingeladen, wo sie übernachten können. Der Admiral erklärt, dass sie Piraten sind und dass sie in der Regel andere Leute entführen, was zu Gelächter unter der Crew führt. Er bietet an, die Gruppe zur Insel mit dem Hort von Ava Charus in der offenen See zu bringen und warnt, dass seit zweihundert Jahren kein Schiff diese Passage erfolgreich gemeistert hat. Der Admiral schlägt vor, die Beute im Erfolgsfall „halbe-halbe“ zu teilen, falls die Gruppe die Drachenlady tötet, was von einem Gruppenmitglied abgelehnt wird, da der Wunsch besteht, mit Ava Charus zu sprechen.\nAm nächsten Morgen tritt ein sprechendes Walross namens Mister Varos der Piraten von Admiral Eri bei, und die Gruppe bestiegt das Schiff. Während der Fahrt wird das gewonnene Monsterblut zu einem Konzentrat verarbeitet, und die Gruppe bereitet giftige Waffenbeschichtungen vor. Die Piraten von Admiral Eri bietet der Gruppe auch eine Einladung zum Essen an.",
-            "image": null,
             "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": true
-        },
-        {
-            "created_at": "2026-04-22T20:32:01.574000",
-            "updated_at": null,
-            "id": "iqsdoxp1cn1x3eiq2lrrcdzq",
-            "name": "Ring der Rose",
-            "aliases": [],
-            "type": null,
-            "description": "Der Ring der Rose ist eine Gruppe, die sich als Freundeskreis bezeichnet. Ein Mitglied, Steven, erklärte, dass sie keine Entführungen durchführen, sondern Personen \"retten\", die freiwillig wegwollen, insbesondere Töchter aus Adelsfamilien. Die Gruppe wurde gegründet, nachdem sie von anderen abgewiesen wurde.\nSteven gab an, dass er seit etwa einer Woche gefangen sei. Während eines Verhörs stellte die Gruppe Fragen zu einem Nebelvorfall, den sie untersuchen wollte. Steven trug eine Brosche mit Rosen-Symbolik, die Gwendolyn Silverflame von seiner Brust entfernte. Während des Verhörs wurde Steven mehrfach eingeschüchtert und waterboardet, was zu einer Offenbarung führte, dass er bereit war, alles zu erzählen. Das Verhör wurde von der Herzogin und Wachen unterbrochen, die die Gruppe aufforderten, den Raum zu verlassen und sich nicht weiter in nicht-zuständige Angelegenheiten einzumischen.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
-        },
-        {
-            "created_at": "2026-04-15T19:43:09.908000",
-            "updated_at": null,
-            "id": "n08fdtvbvx70vgoyrt6crvol",
-            "name": "Netheril",
-            "aliases": [],
-            "type": null,
-            "description": "Netheril war ein magokratisches Imperium, das vor etwa 1700 bis 1800 Jahren existierte und von magiebegabten Individuen regiert wurde. Nur magiebegabte Personen konnten in höhere Positionen aufsteigen. Das Imperium fiel aufgrund übertriebener magischer Praktiken und hinterließ die heutige Anauroch-Wüste. Vor rund 100 Jahren kehrte eine kleine Enklave zurück, und die Region ist von verschiedenen zwielichtigen Gruppen und Relikten aus früheren Zeiten geprägt.\nDie Gruppe erfuhr in der Bibliothek von einem obsidianen Würfel, der als nahezu mythisch beschrieben wird und als Rubycon bezeichnet wird. Es wird berichtet, dass es bisher niemandem gelungen ist, diesen Würfel in Besitz zu nehmen. Hinweise und Orte, die mit dem Würfel in Verbindung stehen, umfassen Rogarsheim, Agloron und Kalimshan. Morvain las weiter über die Geschichte von Anauroch und Netheril und stellte fest, dass der Untergang des Imperiums mit der Entstehung der Wüste zusammenhängt.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
-        },
-        {
-            "created_at": "2026-04-15T19:43:09.870000",
-            "updated_at": null,
-            "id": "u6s7cqbod8epsbp87hui2g83",
-            "name": "Haus Deakin",
-            "aliases": [],
-            "type": null,
-            "description": "Diakin ist ein Haus, das Halbelfen umfasst und als eines der ältesten Häuser Faerûns gilt. Es wird in einem Kompendium über die ältesten Häuser erwähnt, zusammen mit den Häusern Floshin, Borderen und Belisare.\n\nDie Gruppe, zu der Morvain gehört, hat in der Bibliothek Informationen über Diakin und andere Häuser recherchiert. Morvain hat ein Buch über einen obsidianen Würfel angefordert, das in Verbindung mit Diakin steht. In der Bibliothek wurden keine spezifischen Details über die Geschichte oder den Einfluss von Diakin gegeben.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
-        },
-        {
-            "created_at": "2026-04-15T19:43:09.852000",
-            "updated_at": null,
-            "id": "koeusof91hc3fi04i0yaw6b1",
-            "name": "Haus Belisarre",
-            "aliases": [],
-            "type": null,
-            "description": "Belisare ist eines der ältesten Häuser in Faerûn und wird als das dritte älteste Haus in der Region klassifiziert. Die zugehörige Rasse sind Halborks. Belisare wird zusammen mit den Häusern Floshin und Borderen in einem Kompendium über die ältesten Häuser Faerûns erwähnt.\n\nDas Haus ist in einem Buch über die ältesten Häuser aufgeführt, das Informationen über die Rassen und die geografischen Standorte der Häuser enthält.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
-        },
-        {
-            "created_at": "2026-04-15T19:43:09.796000",
-            "updated_at": null,
-            "id": "g23zk3s1uwd70fvx011tm8dn",
-            "name": "Magiergilde von Luskan",
-            "aliases": [
-                "mächtige Magiergilde von Luskan"
-            ],
-            "type": null,
-            "description": "Die Magiergilde von Luskan ist eine mächtige Organisation, bekannt für ihre magischen Fähigkeiten. Sie gilt als die mächtigste Magiergilde in Luskan und bietet Kooperationen in Bezug auf magische Vorfälle an. Die Gilde hat Einfluss auf die Region und wird häufig in Gesprächen über magische Angelegenheiten und Konflikte erwähnt.\nCaptain Durnan bietet der Gruppe die Möglichkeit, nach Luskan zu gehen, um einen magischen Zwischenfall aufzuklären, wobei die Kooperation der Magiergilde zugesichert wird. Die Gilde wird als Autorität angesehen, die in der Lage ist, Unterstützung zu leisten.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
-        },
-        {
-            "created_at": "2026-04-02T20:44:47.506000",
-            "updated_at": null,
-            "id": "c8i3xdxy1kn2g755ceb2po43",
-            "name": "Haus Floshin",
-            "aliases": [],
-            "type": null,
-            "description": "Floschinen ist ein Adelshaus, das mit dem Verschwinden von drei Töchtern aus den Häusern Vordren, Edivalen und Floschinen in Verbindung gebracht wird. Es wird vermutet, dass diese Entführungen möglicherweise mit den Vätern der Mädchen zusammenhängen, möglicherweise zur Erpressung oder für Opfer. Haus Floshin ist eines der ältesten Häuser in Faerûn, das den Gold- oder Sonnenelfen zugeordnet ist. Der Sitz von Haus Floshin befindet sich im Dellenbier-Tal, bekannt als „Liam’s Hold“. Haus Floshin wird in einem Kompendium zusammen mit anderen alten Häusern wie Haus Borderen und Belisare erwähnt.\nBrennen Voidridge, der sich mit einer Gruppe versammelt hat, erfährt von einem Sohn eines der betroffenen Häuser, dass die Entführungen in den letzten Stunden stattgefunden haben. Brennen äußert den Verdacht, dass es sich um ein doppeltes Spiel handelt und dass die Entführungen möglicherweise Teil eines größeren Plans sind. Seres, eine Informantin, erklärt, dass die verschwundenen Mädchen nicht das Ziel der „Jagd“ seien und vermutet, dass sie wegen ihrer Väter entführt wurden.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": true
-        },
-        {
-            "created_at": "2026-04-02T20:44:47.488000",
-            "updated_at": null,
-            "id": "d3b2bkwjfpsm2mubfc8fai6l",
-            "name": "Haus Edevane",
-            "aliases": [
-                "Edewana"
-            ],
-            "type": null,
-            "description": "Haus Edevane ist ein Haus, das mit dem Verschwinden von drei Töchtern aus den Häusern Vordren, Edevane und Floschinen in Verbindung gebracht wird. Die Entführungen könnten möglicherweise mit den Vätern der betroffenen Mädchen zusammenhängen, möglicherweise zur Erpressung oder für Opfer. Edevane gehört zu einer Gruppe von Adelsfamilien, die an einem Fest teilnehmen, bei dem auch andere Häuser vertreten sind. Ein Sohn des Hauses Edevane äußert, dass seine Halbschwester nicht in der Linie des Hauses steht. Während eines Gesprächs über die Entführungen identifizieren die Mitglieder der Gruppe, die nach den vermissten Mädchen suchen, Edevane als eines der betroffenen Häuser.\nEdevane ist auch bekannt als Haus Edevane und repräsentiert Tieflinge, wobei es als eines der ältesten Häuser in Faerûn gilt. Die genaue Altersbestimmung des Hauses ist unklar, was darauf hindeutet, dass es möglicherweise älter ist als die bekannten Aufzeichnungen. Haus Edevane wird in Diskussionen über die Entführung adeliger Töchter und andere Vorfälle als eines der Häuser genannt, das mit den ältesten Häusern in Verbindung steht. Es besteht Interesse an Informationen über Haus Edevane, insbesondere in Bezug auf die Rassen, die mit den verschiedenen Häusern verbunden sind.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": true
-        },
-        {
-            "created_at": "2026-04-02T20:44:47.471000",
-            "updated_at": null,
-            "id": "neskroip8idjfhzjcgnwnhxh",
-            "name": "Haus Vaudren",
-            "aliases": [
-                "Haus Borderen"
-            ],
-            "type": null,
-            "description": "Haus Vaudren ist ein bekanntes Adelshaus in der Region. Töchter aus den Häusern Vaudren, Edivalen und Floschinen sind in den letzten Stunden verschwunden. Ein Mann, dessen Tochter Sonval vermisst wird, berichtet von drei weiteren entführten Töchtern aus diesen Häusern.\nEine Gruppe, die sich um die Entführungen kümmert, erfährt von einem Kapuzenträger namens Garan, dessen Tochter ebenfalls vermisst ist. Garan hat über Sending Stones von der Entführung erfahren, jedoch keine Botschaft der Entführer erhalten. Die Gruppe vermutet, dass die verschwundenen Mädchen möglicherweise wegen ihrer Väter entführt wurden, möglicherweise zur Erpressung oder als Opfer.\nSeres, eine Person, die mit der Gruppe spricht, erklärt, dass die verschwundenen Mädchen nicht Ziel der „Jagd“ seien und rät, etwaige „Austausche“ nur außerhalb des Geländes zu versuchen. Sie erwähnt, dass die Gruppe aufgrund ihrer Taten im Norden aufgefallen ist und deshalb eingeladen wurde, warnt jedoch, dass die Interessen von Briarwatch, der Institution, zu der Seres gehört, nicht zwingend mit denen der Gruppe übereinstimmen.\nHaus Vaudren wird zusammen mit Haus Floshin und Haus Belisare als eines der drei ältesten Häuser erwähnt. In einem Kompendium über die ältesten Häuser Faerûns wird Haus Vaudren als Teil einer Liste aufgeführt, die auch die zugeordneten Rassen der Häuser enthält. Haus Vaudren ist in einem Buch über die ältesten Häuser verzeichnet, das von einer Yuan-Ti-Bibliothekarin in der Bibliothek verwaltet wird.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": true
-        },
-        {
-            "created_at": "2026-04-02T20:44:47.455000",
-            "updated_at": null,
-            "id": "v7vzjkyxf7h7iwotg7et7jyn",
-            "name": "Lord’s Alliance",
-            "aliases": [
-                "Truppe",
-                "Große Herannahende Truppe",
-                "Gemischte Streitmacht",
-                "Streitmacht Aus Kavallerie Und Infanterie"
-            ],
-            "type": null,
-            "description": "Die Lord’s Alliance ist eine politische Fraktion, die in Padig operiert und in der Region einflussreich ist. Sie hat Verbindungen zu verschiedenen Adelsfamilien und befasst sich mit der Sicherheit und Stabilität dieser Familien. Aktuell ist die Allianz in Panik, da Luskan um Hilfe gebeten hat, nachdem ein Vulkan in der Nähe ausgebrochen ist und Feuerelementare umherstreifen. Während eines Mondfestes wurden mehrere Töchter aus Adelsfamilien entführt, was zu Besorgnis und dem Wunsch nach Unterstützung führte. Mitglieder der Allianz, darunter Brennen, boten ihre Hilfe an, um die vermissten Mädchen zu finden. Es wird vermutet, dass die Entführungen möglicherweise mit Erpressung oder Ritualen in Verbindung stehen.\nEs gibt Berichte über Unruhe innerhalb der Lord’s Alliance, die möglicherweise mit einem schwelenden Krieg zwischen Feuerelementaren und Drachen zusammenhängt. Die Allianz hat seit langer Zeit keine Nachrichten mehr aus Roggersheim erhalten. Eine Gruppe, die sich mit lea und anderen Mitgliedern der Lord’s Alliance trifft, diskutiert Gerüchte über die verschwundenen adeligen Töchter und die allgemeine Lage in der Region. Captain Durnan, ein Vertreter der Lord’s Alliance, informiert die Gruppe über einen Vorfall, bei dem eine Geldbörse entwendet wurde. Die Gruppe einigt sich darauf, dass Rita die Geldbörse genommen hat, und gibt den entwendeten Betrag zurück. Captain Durnan erklärt, dass die Lord’s Alliance ihnen freie Hand gewährt, solange sie unter Aufsicht bleiben.\nCaptain Durnan bietet der Gruppe mehrere Optionen an, darunter die Untersuchung einer Rauchwolke, das Auslöschen eines Spion-/Söldnerlagers oder die Klärung eines magischen Zwischenfalls in Luskan. Die Gruppe entscheidet sich, die Rauchwolke zu untersuchen. Die Gruppe, der Brennen angehört, wurde aufgrund ihrer Taten im Norden eingeladen, jedoch wurde ihnen geraten, vorsichtig zu sein, da die Interessen der Lord’s Alliance nicht unbedingt mit ihren eigenen übereinstimmen.\nDie Lord’s Alliance ist auch in der Region aktiv und hat Vertreter in Briarwatch. Die Gruppe hat Einfluss auf die Sicherheit und Ordnung in der Stadt, insbesondere während der Bedrohung durch Angreifer. Sie ist mit dem Krieg gegen die Feuerelementare beschäftigt, was die Anzahl ihrer Vertreter in Briarwatch begrenzt. Während eines Übergriffs auf Briarwatch kommuniziert Gwendolyn über einen telepathischen Stein mit Flint, der Informationen über die aktuelle Lage und die Anzahl der Wachen in der Stadt bereitstellt. Flint erwähnt, dass die Besatzung von Briarwatch in der Lage ist, die meisten Angriffe abzuwehren, und dass die Lord's Alliance vor Ort ist. Die Lord's Alliance ist unzufrieden mit der Situation ihrer höchsten Abgesandten.\nDie Gruppe diskutiert, ob sie der Nighthag vertrauen oder die Lord’s Alliance warnen sollen, während sie sich auf einen möglichen Angriff vorbereiten. Gwendolyn und ihre Gefährten planen, während der Unruhen in Briarwatch zu agieren und die Situation zu ihrem Vorteil zu nutzen.\nEs wurde eine Lord’s Alliance beobachtet, eine gemischte Streitkraft aus Kavallerie und Infanterie, begleitet von Versorgungswagen und zusätzlichen Waffen auf Karren. Die Lord’s Alliance besteht ausschließlich aus Soldaten und umfasst mehr als zehn, aber weniger als tausend Mitglieder. Surina Nemmonis erkundete die Lord’s Alliance mit ihrem Vogel und erkannte die Kavallerie vorne, die Infanterie dahinter sowie diverse Versorgungswagen und Karren mit zusätzlicher Bewaffnung. Die Lord’s Alliance war bewaffnet, marschbereit und aufmerksam, wirkte jedoch nicht wie ein unmittelbar angreifender Sturmtrupp. Die Orientierung der Gruppe zeigte, dass die Lord’s Alliance in derselben groben Richtung wie Longsaddle und weiter in Richtung des Gefängnisses lag.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": true
-        },
-        {
-            "created_at": "2026-03-21T13:19:08.856000",
-            "updated_at": null,
-            "id": "cmn0cts9h000w04i80ovfrjnn",
-            "name": "Triboar Stadtwache",
-            "aliases": [],
-            "type": null,
-            "description": "Die Triboar Stadtwache ist für die Sicherheit und Ordnung in der Stadt verantwortlich. Ihre Aufgaben umfassen den Schutz der Bürger und die Reaktion auf Vorfälle. Die Stadtwache hat Steckbriefe aufgehängt, um auf Vermisstenfälle aufmerksam zu machen, und berichtet von zahlreichen Stadtbewohnern und Personen aus umliegenden Dörfern, die verschwunden sind. Nur wenige sind zurückgekehrt, und die meisten von ihnen schlafen seit Wochen und sind nicht erwacht. Zwei Ausnahmen sind ein hochgeborener Elf in der Stadt und eine Person auf einem Hof außerhalb. \n\nDie Stadtwache warnt vor den Gefahren, die mit der Jagd auf die vermissten Personen verbunden sind, da viele Kopfgeldjäger nicht zurückgekehrt sind. Sie haben Informationen über Wesen, die andere ins Schlaf versetzen und Albträume verursachen, um die Betroffenen zu manipulieren. Die Stadtwache empfiehlt, vorsichtig zu sein, wenn man auf die Jagd geht, und gibt Hinweise auf die Gefahren in der Umgebung. \n\nDie Stadtwache interveniert auch in potenziell problematischen Situationen, wie dem Vorfall, bei dem sie Bartho Jargon auf der Straße weckten und ihn ins Bett schickten, nachdem er zuvor von Seraphina mit einem Zauber in den Schlaf versetzt worden war. Ihre Präsenz ist in der Stadt spürbar, insbesondere bei der Reaktion auf Vorfälle oder beim Ansprechen von Personen, die sich ungebührlich verhalten.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
-        },
-        {
-            "created_at": "2026-03-20T21:01:12.039000",
-            "updated_at": null,
-            "id": "p968fklk4c0vf282cv9pqyrq",
-            "name": "Orks",
-            "aliases": [
-                "Ork"
-            ],
-            "type": null,
-            "description": "Die Orks sind eine brutale und kriegerische Rasse, die in der Umgebung der Gefangenen präsent ist. Sie zeigen eine rohe Belustigung und Autorität, wie es bei den zwei Orks zu beobachten ist, die die Zelle betreten und befehlen, aufzustehen, da der Boss ihn zuerst sehen wolle. Ihre Sprache ist guttural, und sie kommunizieren in Orcisch. Die Orks haben die Fähigkeit, die Gefangenen zu bewachen und zu befehligen.\nDie Orks sind Mitglieder von Naevys Nerizanas Clan. Ihr Anführer, der vorderste Jäger, trat als Führender Jäger auf. Naevys stellte ihre Gefährten den Orks vor und berichtete, dass Dîn-io, Gwendolyn, Surina und die übrigen Naevys aus dem Gefängnis befreit hätten. Der Jäger-Anführer teilte mit, dass die letzte Zeit schwer gewesen sei und dass Naevys’ Vater lebe und sich beim Schamanen in der warmen Hütte aufhalte.\nDie Orks überrannten das Gefängnis nach Kriegsbeginn, drangen in großer Zahl durch die Tore ein, töteten zwei Wachen und erzwangen die Übergabe durch Drohungen, weitere Wachen zu töten. Surina erkannte einen größeren Ork zusammen mit einem Kultisten in einem oberen Raum. Im anschließenden Gefecht trafen Orks von außen das Treppenhaus und schlugen mit Axtschlägen und einer Spektralwaffe gegen die verbarrikadierte Tür. Während der Verteidigung lagen Orks im Türbereich, und ein Orks wurde als Puffer gegen die Schläge genutzt. Im weiteren Verlauf traf die Gruppe auf gefallene Gegner, und im Kampf in der Waffenkammer wurde mindestens ein Ork schnell niedergerungen.\nDie Orks stehen in einem Konflikt mit Kultisten, da beide Seiten bewaffnet in Richtung des Haupttors rennen. Im Hof sind die Leichen von Orks und Kultisten zu sehen, was auf einen Kampf oder eine Auseinandersetzung hinweist. Auf einen Warnruf hin stürmten der Jäger-Anführer und weitere Orks einer Bedrohung entgegen und kämpften gegen mehrere riesenhafte humanoide Gestalten. Die Orks griffen gestaffelt mit Netzen, Schleudern und anderen Waffen an, fingen einen der riesenhaften Gegner mit einem Netz ein und hielten ihn fest. Anschließend gingen die Orks in die nahegelegene Hütte mit Feuerstelle und verbrachten den restlichen Tag damit, den brennenden, umgestürzten Baum zu löschen und zu zerlegen, damit das Boot weiterfahren konnte. Der Kampf, der sich entfaltet, ist chaotisch und gewalttätig, was die aggressive Natur der Orks unterstreicht.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": true
-        },
-        {
-            "created_at": "2026-03-20T16:44:58.991000",
-            "updated_at": null,
-            "id": "bjd5lqcksxpb2imgxq6tf6fq",
-            "name": "Befreier",
-            "aliases": [
-                "die beiden halblinghaften Befreier",
-                "die Befreier"
-            ],
-            "type": null,
-            "description": "Die Befreier sind eine Gruppe von Abenteurern, die in einer Kutsche reisen und sich in einer gefährlichen Situation mit Verfolgern konfrontiert sehen. Die Gruppe besteht aus mehreren Mitgliedern, darunter Surina, Rosco, Brennen, Gwendolyn und Dîn-io, von denen zwei halblinghaft sind. Sie operieren in einer Region, die von Burgen und Städten geprägt ist.\nDie Befreier wurden von Verfolgern, darunter Orks und ein vermummter Mensch, verfolgt, als sie in die Kutsche einstiegen und schnell in Bewegung setzten. Während der Flucht feuerten sie mit einem Geschütz auf ihre Verfolger, was zu Verletzungen unter den Angreifern führte. Die Kutsche setzte ihre Fahrt ohne Halt fort, während die Gruppe sich gegenseitig unterstützte, indem sie Verletzungen heilte und Wachen abwechselte. Während der Nachtfahrt begegneten sie einer Handelskarawane, die sich in eine Wagenburg formierte, als die Kutsche näherkam.\nIn der Dunkelheit entfernte sich Surina von der Gruppe und ging in den Wald. Als die anderen Mitglieder der Befreier bemerkten, dass sie fehlte, suchten sie nach ihr. Dîn-io und die beiden halblinghaften Befreier suchten im Wald, während Brennen und Gwendolyn hinterherkamen. Während ihrer Suche hörten sie ein Echo, das Surinas Summen nachahmte. Schließlich fanden sie Surina wieder, die in der Nähe der Kutsche war, aber die Gruppe wurde dann von humanoiden, flammenden Gestalten angegriffen. Die Befreier reagierten schnell, indem sie die schlafenden Mitglieder in die Kutsche zogen und sich in Sicherheit brachten, während sie das Geschütz gegen die Flammengestalten einsetzten.\nNach der Flucht erreichten die Befreier eine große, ummauerte Stadt, wo sie zunächst auf Alarm stießen, aber schließlich durch das Tor gelassen wurden. In der Stadt suchte Dîn-io nach Informationen über unsichtbare, einschläfernde Geisterwesen in einer Bibliothek, während Brennen in einem Park betete.",
-            "image": null,
-            "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
+            "merge": true,
+            "created_at": "2026-04-30T13:49:34.014000",
+            "updated_at": null
         }
     ],
     "from": 1,
     "last_page": 3,
     "per_page": 20,
     "to": 20,
-    "total": 46
+    "total": 58
 }

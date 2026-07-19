@@ -2,43 +2,19 @@
 
 namespace Tests\Gummibeer\Mcp\Tools\Moments;
 
-use App\Data\MomentData;
-use App\Mcp\Servers\ArchivistServer;
-use App\Mcp\Tools\Moments\ListMomentsTool;
-use Illuminate\Testing\Fluent\AssertableJson;
-use PHPUnit\Framework\Attributes\DataProvider;
-use PHPUnit\Framework\Attributes\Test;
-use Tests\GummibeerTestCase;
+use Tests\RealWorld\Mcp\Tools\Moments\ListMomentsToolTest as RealWorldListMomentsToolTest;
 
-final class ListMomentsToolTest extends GummibeerTestCase
+final class ListMomentsToolTest extends RealWorldListMomentsToolTest
 {
     public static function queryDataProvider(): array
     {
+        $campaignId = 'cmj78gm6k000004jrvzm7gcjr';
+
         return [
-            'no query' => [[]],
-            'size' => [['size' => 100]],
-            'page' => [['page' => 2]],
-            'search' => [['search' => 'schiff']],
+            'no query' => [[], $campaignId],
+            'size' => [['size' => 100], $campaignId],
+            'page' => [['page' => 2], $campaignId],
+            'search' => [['search' => 'schiff'], $campaignId],
         ];
-    }
-
-    #[Test]
-    #[DataProvider('queryDataProvider')]
-    public function it_fetches_data(array $query): void
-    {
-        ArchivistServer::tool(ListMomentsTool::class, array_merge($query, [
-            'campaign_id' => 'cmj78gm6k000004jrvzm7gcjr',
-        ]))
-            ->assertOk()
-            ->assertStructuredContent(function (AssertableJson $json): void {
-                $json
-                    ->assertPaginatedList(function (AssertableJson $item): void {
-                        $item
-                            ->assertJsonSchema(MomentData::class)
-                            ->where('campaign_id', 'cmj78gm6k000004jrvzm7gcjr');
-                    });
-
-                $this->assertMatchesJsonSnapshot($json);
-            });
     }
 }

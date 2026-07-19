@@ -1,0 +1,16 @@
+{
+    "id": "cmrb7p2zw00000tbwywasexot",
+    "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+    "game_session_id": "cmrb7lhkb00000aj8tv2kz4d5",
+    "game_session_ids": [
+        "cmrb7lhkb00000aj8tv2kz4d5"
+    ],
+    "label": "Students gather at tropical resort",
+    "type": "step",
+    "index": 0,
+    "parent_id": "cmrb7q44l003h0tbw44aua23t",
+    "description": "During spring break from Arcano Academy near Byriver, students packed Beachside Mirage, a magically shielded tropical resort outside the city, and the group's paths converged at the crowded poolside bar as the sun set.",
+    "metadata": null,
+    "created_at": "2026-07-07T22:19:48.699000",
+    "updated_at": null
+}

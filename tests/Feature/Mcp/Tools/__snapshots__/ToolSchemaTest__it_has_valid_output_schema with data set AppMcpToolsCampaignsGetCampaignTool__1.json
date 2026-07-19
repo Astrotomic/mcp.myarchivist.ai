@@ -45,18 +45,6 @@
                 "null"
             ]
         },
-        "summary": {
-            "type": [
-                "string",
-                "null"
-            ]
-        },
-        "language": {
-            "type": [
-                "string",
-                "null"
-            ]
-        },
         "archived": {
             "type": [
                 "boolean",
@@ -64,6 +52,18 @@
             ]
         },
         "archived_at": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "summary": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "language": {
             "type": [
                 "string",
                 "null"

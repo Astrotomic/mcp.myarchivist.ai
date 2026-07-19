@@ -1,0 +1,41 @@
+{
+    "current_page": 1,
+    "data": [
+        {
+            "id": "gft5b6tzrszusbpmvbwz4wfr",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "name": "Tower Guards",
+            "description": "The Tower Guards are town Ballista Crews stationed in a Barracks who operate the Ballista Crews positioned at the tops of the town's towers. After being freed, they thanked the party and promised to man the town's Ballista Crews. The Ballista Crews took their positions atop the towers and provided covering fire that disrupted Haldraxis's aim, forced him back behind the Tower, and prevented him from climbing away.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Ballista Crews",
+                "Ballistae"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-07T22:59:53.433000",
+            "updated_at": null
+        },
+        {
+            "id": "zj5f79poaqcq0urv3r9y7rps",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "name": "Fireworks Troupe",
+            "description": "The Fireworks Troupe are Entertainers known for their extensive collection of fireworks. They are located in a tavern and were considered a potential source of support against Haldraxis, who is said to have a fear of loud noises. Gideon Xander suggested that the troupe could use their fireworks to combat the dragon, but Philip refused to leave the City Gate. Eventually, Philip, the Tower Guards, Sybil, the Entertainers, and other townsfolk approached the Keep, where they hailed the party as heroes. The townsfolk doubled the promised reward and offered free rooms, drinks, and store discounts.",
+            "type": null,
+            "image": null,
+            "aliases": [
+                "Entertainers"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-07T22:59:53.546000",
+            "updated_at": null
+        }
+    ],
+    "from": 1,
+    "last_page": 1,
+    "per_page": 20,
+    "to": 2,
+    "total": 2
+}

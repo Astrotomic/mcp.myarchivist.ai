@@ -1,0 +1,36 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Content-Type": [
+            "application/json"
+        ],
+        "Date": [
+            "Fri, 17 Jul 2026 07:15:23 GMT"
+        ],
+        "Server": [
+            "railway-hikari"
+        ],
+        "x-process-time": [
+            "36.738324880599976"
+        ],
+        "x-railway-request-id": [
+            "bx7j5vK1SMmdzJQmWUN5dQ"
+        ],
+        "Content-Length": [
+            "2872"
+        ],
+        "x-hikari-trace": [
+            "ams1.cycp"
+        ],
+        "x-railway-edge": [
+            "ams1"
+        ],
+        "vary": [
+            "accept-encoding"
+        ],
+        "Connection": [
+            "keep-alive"
+        ]
+    },
+    "data": "{\"answer\":\"### Latest 20 Beats Summary\\n\\nThe latest session of \\\"Twilight of the Gods\\\" involved a series of intense encounters with undead creatures in a mine. Here are the key events:\\n\\n1. **Initial Encounter**: The group faced a skeleton attacking Surina Nemmonis, which Korvathun defeated.\\n2. **Retreat and Strategy**: Gwendolyn Silverflame and Morvain retreated to prepare spells while Morvain's skeleton joined them.\\n3. **Surprise Attack**: The door suddenly opened, and arrows shot out, injuring Surina and Morvain's skeleton. Two undead entered the corridor.\\n4. **Magic Use**: Gwendolyn attempted a corrosive spell on the undead, but it had minimal effect. Brennen healed Korvathun after he was hit by an arrow.\\n5. **Tactical Positioning**: Surina sent her boar to attack, while Korvathun blocked the door. The group regrouped behind a barricade to heal and plan their next move.\\n6. **Discovery of Loot**: Korvathun found equipment and gold in a small room, along with signs that bodies had been dragged away, suggesting they were reanimated as zombies.\\n7. **Preparation for Next Encounter**: The group opened another door, revealing a room with several undead lying on beds.\\n8. **Engagement with Undead**: Korvathun shot an undead with an arrow, followed by Gwendolyn using magic to injure another.\\n9. **Brennen's Spirits**: Brennen summoned ghostly protectors, pushing back most of the undead.\\n10. **Continued Combat**: The group fought off the remaining undead, with Gwendolyn setting beds and corpses on fire to prevent resurrection.\\n11. **Explosive Skull**: A flying skull exploded, injuring Brennen, Gwendolyn, and Surina.\\n12. **Final Cleanup**: The group defeated all undead in the room and organized their healing supplies and loot.\\n13. **Securing the Door**: The group fortified the door against further attacks, with various members using items to secure it.\\n14. **Observation of Undead Activity**: They noticed undead gathering items outside the door.\\n15. **Healing and Preparation**: Brennen healed the group while Morvain raised two skeletons from the remains.\\n16. **Gwendolyn's Light**: Gwendolyn illuminated Korvathun's belt to aid his vision in the dark.\\n17. **Confrontation with Undead**: The group faced more undead, with Gwendolyn and Morvain using spells and attacks to combat them.\\n18. **Surina's Javelin**: Surina threw a javelin at a bound undead during the fight.\\n19. **Strategic Retreat**: The group retreated behind their barricade to regroup and heal after sustaining injuries.\\n20. **Final Victory**: After a fierce battle, the group emerged victorious, ensuring no undead could rise again.\\n\\nThis session was marked by tactical maneuvers, the use of magic, and the discovery of valuable loot amidst the chaos of battling undead foes.\",\"citations\":[],\"monthlyTokensRemaining\":3948787,\"hourlyTokensRemaining\":362382}"
+}

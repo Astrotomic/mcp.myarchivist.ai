@@ -1,0 +1,98 @@
+{
+    "current_page": 1,
+    "data": [
+        {
+            "id": "a5b43uw47iqehp3moae3dayv",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "name": "Tower",
+            "description": "The Tower is a Keep Tower rising about eighty feet, constructed of stone bricks that are blackened and charred. Its highest peak is occupied by Haldraxis. The Tower is accessed via a lowered drawbridge over a moat, with a charred field leading to it and a main City Gate that opens into a courtyard before the Tower's entrance.\nInside, a large ruined chamber contains two stone staircases that lead up through a stone ceiling to the roof. The roof was damaged by Haldraxis in an attempt to cave it in while the party ascended the staircases. On the roof, the party fought Haldraxis, ultimately killing him, and his body crashed onto the Tower. Following this event, Tower Guards, Philip, Sybil, Fireworks Troupe, and townsfolk approached the Tower, calling the party heroes and offering rewards.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-07T22:59:54.687000",
+            "updated_at": null
+        },
+        {
+            "id": "uwh3615mg8oz5rvpjg58urc8",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "name": "Byriver",
+            "description": "Byriver is a city located below gently rolling hills, adjacent to the Arcano Academy. The city was devastated by a dragon that demanded all its gold be delivered to ancient temple ruins within four days, threatening to burn the countryside if the city did not comply. Writings found in the nearby mountains indicate that knights from By River recently entered the mountains to address the mountain giant problem. Mountain Giants have been noted to rally around Haldraxis in their shared animosity toward By River.\nBy River is a walled riverside town featuring a guarded City Gate, a Barracks near the river, a Keep with a Tower, and a lowered drawbridge over a moat. The town is home to merchants, including Sybil, Fireworks Troupe, and town Tower Guards led by Philip. The town's Gate is raised to allow entry when three Mountain Giants are recognized by Philip. Ballista Crews and townsfolk are present behind the Gate. The party frees trapped Ballista Crews from the Barracks, who then operate Ballista Crews. The party advances into By River, crosses a charred field to the Keep, and engages in battle with Haldraxis on the Tower. Following the dragon's defeat, townsfolk, including Philip, Ballista Crews, Sybil, and Entertainers, offer the party rewards, including doubled pay, free rooms and drinks at the Flaming Wizard Tavern, and store discounts.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "By River"
+            ],
+            "tcg_image": null,
+            "merge": true,
+            "created_at": "2026-07-07T22:20:46.891000",
+            "updated_at": null
+        },
+        {
+            "id": "yiv02n9jwa4bquy063pvll7x",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "name": "Keep",
+            "description": "The Keep is a towered fortification with blackened and charred stone bricks. It is approached by a charred field, a lowered drawbridge over a moat, and an open courtyard with no cover leading to an eighty-foot Tower. Inside the Keep, the sound of a dragon pacing above can be heard. Twin stone staircases lead to the roof of the Keep. On the roof, E.t. Skittles struck the dragon Haldraxis, while Dookeldorn Bludvart fired at him and Pepe provided assistance. Haldraxis retaliated with a blast targeting those on the roof. Tower Guards from the Keep provided covering fire. E.t.'s necrotic attack ultimately killed the dragon. Townsfolk then climbed to the Keep, shouting the party's names and doubling their reward.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-07T22:59:54.575000",
+            "updated_at": null
+        },
+        {
+            "id": "hr1b8vuobxvh811rf3mq076m",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "name": "City Gate",
+            "description": "The City Gate serves as the main entrance to the Keep's courtyard. It is equipped with chains that can be rattled to raise or lower the Gate and is guarded by Byriver Tower Guards armed with pikes and spears.\nAt one point, three Mountain Giants were present at the Gate. One giant attempted to lift the Gate when a bolt struck him while he was still straining. He managed to raise the Gate approximately one-third before Gideon Xander soothed him to sleep, causing the Gate to crash down as the giant slumped unconscious. The party cleared the area of bodies and pounded on the Gate. Philip recognized their voices and ordered the Gate to be raised, warning that more Mountain Giants were approaching. Later, a sleeping giant was killed with a bolt through his throat before questioning.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [
+                "Gate"
+            ],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-07T22:59:54.236000",
+            "updated_at": null
+        },
+        {
+            "id": "oi25iioyknchcyrp93j9m6a8",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "name": "Flaming Wizard Tavern",
+            "description": "The Flaming Wizard Tavern offers free rooms and free drinks. After Haldraxis was killed, Philip, the Tower Guards, Sybil, and other townsfolk approached the Keep to hail the party and extended this offer to them.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-07T22:59:54.922000",
+            "updated_at": null
+        },
+        {
+            "id": "os0a7pno5dh0hz04zxi19xt5",
+            "campaign_id": "cmr9ilyjy00020ahu90yhvzx6",
+            "name": "Barracks",
+            "description": "The Barracks is a town guard building located near the river. The structure was found nearly in flames, with exits blocked by rubble and Tower Guards trapped inside. Water was drawn from the river and blasted through a fire-covered window, extinguishing flames at that opening and providing an exit. The freed Ballista Crews thanked the party, promised to man the town's Ballista Crews to pin Haldraxis down, and gave a rapier to Bronn Boromir before racing to their posts.",
+            "type": null,
+            "parent_id": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-07-07T22:59:54.348000",
+            "updated_at": null
+        }
+    ],
+    "from": 1,
+    "last_page": 1,
+    "per_page": 20,
+    "to": 6,
+    "total": 6
+}

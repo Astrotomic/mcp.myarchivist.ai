@@ -1,0 +1,33 @@
+{
+    "statusCode": 404,
+    "headers": {
+        "Content-Type": [
+            "application/json"
+        ],
+        "Date": [
+            "Thu, 16 Jul 2026 20:42:02 GMT"
+        ],
+        "Server": [
+            "railway-hikari"
+        ],
+        "x-process-time": [
+            "1.8160128593444824"
+        ],
+        "x-railway-request-id": [
+            "G6NqH-fWRWCEuPbaljLL4A"
+        ],
+        "Content-Length": [
+            "36"
+        ],
+        "x-hikari-trace": [
+            "ams1.aydy"
+        ],
+        "x-railway-edge": [
+            "ams1"
+        ],
+        "Connection": [
+            "keep-alive"
+        ]
+    },
+    "data": "{\"detail\":\"Cast analysis not found\"}"
+}

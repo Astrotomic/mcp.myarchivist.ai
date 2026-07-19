@@ -1,0 +1,36 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Content-Type": [
+            "application/json"
+        ],
+        "Date": [
+            "Fri, 17 Jul 2026 07:14:02 GMT"
+        ],
+        "Server": [
+            "railway-hikari"
+        ],
+        "x-process-time": [
+            "26.674386501312256"
+        ],
+        "x-railway-request-id": [
+            "h23tegtURgyVR7Hbjq4OvQ"
+        ],
+        "Content-Length": [
+            "736"
+        ],
+        "x-hikari-trace": [
+            "ams1.qkjh"
+        ],
+        "x-railway-edge": [
+            "ams1"
+        ],
+        "vary": [
+            "accept-encoding"
+        ],
+        "Connection": [
+            "keep-alive"
+        ]
+    },
+    "data": "{\"answer\":\"The name of the now destroyed estate is **Briarwatch Estate**. It was known for being a winery and producer of high-quality luxury foods, but it is currently in a ruinous state following significant damage and attacks.\",\"citations\":[{\"citation_id\":\"S6\",\"source_type\":\"location\",\"source_id\":\"cmmd7sov9000004jpvgfr68ri\",\"title\":\"entity result\",\"session_number\":null,\"excerpt\":\"##Name## Briarwatch Estate ##Aliases## Haupthaus Haupthaus (Ruinen) ##Description## Das Briarwatch Estate ist ein Anwesen, das als Weingut und Hersteller hochwertiger Luxuslebensmittel bekannt ist. Es ist von einem weitl\u00e4ufigen Gel\u00e4nde umgeben, das mit einer Vielzahl von Pflan...\"}],\"monthlyTokensRemaining\":4015101,\"hourlyTokensRemaining\":428696}"
+}

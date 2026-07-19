@@ -2,38 +2,77 @@
     "current_page": 1,
     "data": [
         {
-            "created_at": "2026-03-20T14:23:17.455000",
-            "updated_at": null,
             "id": "nabj5i8w19uqa8n6bcz63yfn",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
             "name": "magisches Schwert",
+            "description": "Das magische Schwert wurde in der Festung Nightstone entdeckt. Es handelt sich um eine Waffe, die sich deutlich von gewöhnlicher Ausrüstung abhebt. Die Gruppe nahm das Schwert an sich, nachdem sie es in den Trümmern und Gemächern der Festung gefunden hatte.",
+            "type": null,
+            "image": null,
             "aliases": [
                 "ein magisches Schwert",
                 "das magische Schwert"
             ],
-            "type": null,
-            "description": "Das magische Schwert wurde in der Festung Nightstone entdeckt. Es handelt sich um eine Waffe, die sich deutlich von gewöhnlicher Ausrüstung abhebt. Die Gruppe nahm das Schwert an sich, nachdem sie es in den Trümmern und Gemächern der Festung gefunden hatte.",
-            "image": null,
             "tcg_image": null,
-            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
+            "merge": false,
+            "created_at": "2026-03-20T14:23:17.455000",
+            "updated_at": null
         },
         {
-            "created_at": "2026-03-04T21:13:23.944000",
-            "updated_at": null,
-            "id": "b8otu9fj4md6lewxdc289yyg",
-            "name": "Drachenschlächter‑Langschwert",
-            "aliases": [],
-            "type": null,
-            "description": "Das Drachenschlächter-Langschwert ist eine Waffe, die von Gwendolyn Silverflame an Surina Nemmonis übergeben wurde. Es handelt sich um ein großes Schwert, das in der Gruppe als untypisch wahrgenommen wird. Gwendolyn Silverflame übergab das Drachenschlächter-Langschwert zusammen mit weiterer Ausrüstung.",
-            "image": null,
-            "tcg_image": null,
+            "id": "dsooh22s7ez3d7rfq6s17bgm",
             "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
-            "merge": false
+            "name": "Schwert Eines Ehemaligen Helden",
+            "description": "Das Schwert eines ehemaligen Helden wurde von der Hohepriesterin als eines der unwiederbringlichen und für die Stadt bedeutsamen Gegenstände genannt, die aus ihrem Büro verschwunden seien. Gwendolyn und Dîn-io öffneten daraufhin die verschlossene Truhe im Büro, in der sich ein magisches Langschwert befand. Dîn-io und Surina bemerkten das Schwert kurz nach dem Öffnen.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-06-01T16:11:50.282000",
+            "updated_at": null
+        },
+        {
+            "id": "sh9y8ykxznx2qwbyfyqo0eww",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Pole of Collapsing",
+            "description": "Der Pole of Collapsing ist ein magischer Stab, der von Gwendolyn Silverflame geführt wird. Er wird als Waffe verwendet, um Gegner zu treffen. Gwendolyn plant, ihn über dem Kopf zu schwingen, um einen Wachen bewusstlos zu schlagen. In einer Situation, in der die Gruppe einen gefangenen Wachen überwältigen möchte, zieht Gwendolyn den Helm des Wächters ab und versucht, ihn mit dem Pole of Collapsing zu treffen, trifft jedoch nur die Rüstung wirkungslos.\nDer Pole of Collapsing wird auch als Übungsstab beschrieben, der von Gwendolyn Silverflame im Training als Übungswaffe dient. Gwendolyn hält den Pole of Collapsing wie ein Schwert und nutzt ihn im Sparring gegen Surina Nemmonis. Während des Trainings trifft Gwendolyn Surina mit dem Stab am Kopf, was Kopfschmerzen bei Surina verursacht. Der Pole of Collapsing wird als nicht gefährlich eingestuft, da er nicht dazu gedacht ist, ernsthaften Schaden zu verursachen.\nZusätzlich wird der Pole of Collapsing als Werkzeug im Besitz von Gwendolyn Silverflame beschrieben. Er wird zwischen Felsgeröll verkeilt, um es gezielt loszureißen und soll mit Seilen verbunden werden. Gwendolyn verkeilte den Pole of Collapsing zusammen mit Brecheisen und Hammer, band Seile, und die Gruppe zog, wodurch das Geröll brach und der Weg geöffnet wurde. Er ist Teil des mitgeführten Werkzeugs der Gruppe während des Aufräumens des verschütteten Gangs.\nDer Pole of Collapsing ermöglicht den Zugang durch verschüttete Engpässe und erfordert eine koordinierte Sicherung per Seil und Zuschubhilfe.\nThreat/Value: mittel — befähigt die Gruppe, blockierte Passagen zu räumen.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": true,
+            "created_at": "2026-04-29T19:35:40.959000",
+            "updated_at": null
+        },
+        {
+            "id": "b8otu9fj4md6lewxdc289yyg",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Drachenschlächter‑Langschwert",
+            "description": "Das Drachenschlächter-Langschwert ist eine Waffe, die von Gwendolyn Silverflame an Surina Nemmonis übergeben wurde. Es handelt sich um ein großes Schwert, das in der Gruppe als untypisch wahrgenommen wird. Gwendolyn Silverflame übergab das Drachenschlächter-Langschwert zusammen mit weiterer Ausrüstung.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-03-04T21:13:23.944000",
+            "updated_at": null
+        },
+        {
+            "id": "kania7dc28q9gg53o81u3mcd",
+            "campaign_id": "cmj78gm6k000004jrvzm7gcjr",
+            "name": "Tor der Wurzel",
+            "description": "Das Tor der Wurzel ist ein uraltes Portal, älter als Tribor, die Hochelfen und die Namen der Götter. Es verbindet einen Ort mit einem jenseitigen Dahinter, das nicht durch Raum oder Zeit begreifbar ist. Wenn es geöffnet wird, verändert es das, was hindurchgeht. Naomi, die es geschlossen hält, tötet nur aus Notwendigkeit, und ihr Kalkül ist schärfer als jedes Schwert.\nDie Kälte in der Bibliothek erinnert daran, dass die Halle einst von den Letzten Drei geöffnet wurde, in deren Nähe jede Wärme stirbt. Die Letzten Drei sind gegenwärtig, wobei Naomi als „der Schild, das Urteil, der Wille zur Ordnung“ bezeichnet wird. Die anderen beiden sind „die Hüterin des Mondes“ und „der Rufe der Legionen“. Diese Kräfte wurden geschaffen oder verflucht, um das Tor zu bewachen, niemals zusammen. Der wahre Feind, „das Auge“, will das Tor nicht durchqueren, sondern umkehren. Naomi hat seinen Namen gesehen und ihn aus Geist, Welt, Zeit und Raum verbannt.",
+            "type": null,
+            "image": null,
+            "aliases": [],
+            "tcg_image": null,
+            "merge": false,
+            "created_at": "2026-02-21T11:05:52.164000",
+            "updated_at": null
         }
     ],
     "from": 1,
     "last_page": 1,
     "per_page": 20,
-    "to": 2,
-    "total": 2
+    "to": 5,
+    "total": 5
 }
