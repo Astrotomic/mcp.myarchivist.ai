@@ -7,6 +7,7 @@ use App\Mcp\Tools\Characters\GetCharacterTool;
 use App\Mcp\Tools\Factions\GetFactionTool;
 use App\Mcp\Tools\Items\GetItemTool;
 use App\Mcp\Tools\Locations\GetLocationTool;
+use App\Mcp\Tools\Quests\GetQuestTool;
 use App\Mcp\Tools\Sessions\GetSessionTool;
 use App\Mcp\Tools\Tool;
 use Illuminate\Support\Str;
@@ -27,7 +28,7 @@ class AnswerData extends ArchivistDto
             'answer' => ['required', 'string'],
             'citations' => ['nullable', 'list'],
             'citations.*' => ['sometimes', 'array', 'required_array_keys:source_type,source_id,excerpt,mcp_tool'],
-            'citations.*.source_type' => ['sometimes', 'string', 'in:beat,location,item,character,session,faction'],
+            'citations.*.source_type' => ['sometimes', 'string', 'in:beat,location,item,character,session,faction,quest'],
             'citations.*.source_id' => ['sometimes', 'string'],
             'citations.*.excerpt' => ['sometimes', 'string'],
             'citations.*.mcp_tool' => ['nullable', 'array', 'required_array_keys:name,arguments'],
@@ -59,6 +60,7 @@ class AnswerData extends ArchivistDto
                 'character' => GetCharacterTool::class,
                 'session' => GetSessionTool::class,
                 'faction' => GetFactionTool::class,
+                'quest' => GetQuestTool::class,
                 default => throw new OutOfBoundsException("Unknown tool type: $type"),
             }));
             $argumentKey = Str::of($type)
