@@ -19,7 +19,8 @@
                 "item",
                 "character",
                 "session",
-                "faction"
+                "faction",
+                "quest"
             ],
             "type": "string"
         },
