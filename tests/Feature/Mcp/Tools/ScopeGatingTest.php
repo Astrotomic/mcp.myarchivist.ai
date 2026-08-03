@@ -4,8 +4,8 @@ namespace Tests\Feature\Mcp\Tools;
 
 use App\Mcp\Tools\Beats\CreateBeatTool;
 use App\Mcp\Tools\Beats\GetBeatTool;
-use App\Mcp\Tools\Images\InitImageUploadTool;
 use App\Mcp\Tools\Images\GetImageUsageTool;
+use App\Mcp\Tools\Images\InitImageUploadTool;
 use App\Mcp\Tools\Links\CreateLinkTool;
 use App\Services\ArchivistClient;
 use App\Services\AuthContext;
