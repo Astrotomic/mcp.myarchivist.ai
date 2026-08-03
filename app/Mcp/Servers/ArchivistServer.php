@@ -25,7 +25,6 @@ use App\Mcp\Tools\Factions\ListFactionsTool;
 use App\Mcp\Tools\Factions\UpdateFactionTool;
 use App\Mcp\Tools\Images\CompleteImageUploadTool;
 use App\Mcp\Tools\Images\DeleteEntityImageTool;
-use App\Mcp\Tools\Images\GenerateImageTool;
 use App\Mcp\Tools\Images\GetImageUsageTool;
 use App\Mcp\Tools\Images\InitImageUploadTool;
 use App\Mcp\Tools\Items\CreateItemTool;
@@ -77,7 +76,7 @@ use Laravel\Mcp\Server\Attributes\Version;
 use Laravel\Mcp\Server\Transport\FakeTransporter;
 
 #[Name('Archivist AI')]
-#[Version('2.1.0')]
+#[Version('2.2.0')]
 #[Instructions(<<<'INSTRUCTIONS'
 Read/write access to Archivist AI TTRPG campaign data: campaigns, characters, sessions, beats, moments, factions, locations, items, quests, journals, journal folders, entity links, and entity images. Archivist AI is a campaign memory platform for tabletop RPG game masters and players.
 
@@ -116,16 +115,18 @@ Textual references between records use `[[Target Name|Optional Alias]]` markup. 
 
 ## Images
 
-Entity images (Character, Faction, Location, Item, Moment, Session, Campaign/World) can be added in two ways:
+Entity images (Character, Faction, Location, Item, Moment, Session, Campaign/World) are added by direct upload:
 
-- **`generate_image`** — Server-side AI generation from the entity's stored description. Supported types: `character`, `faction`, `location`, `item`, `world`. Consumes the account's image quota (check with `get_image_usage`). Returns a public URL; the image is NOT automatically attached — call the entity's update tool with `image` set to the URL if you want to persist it. AI features are disabled on archived campaigns.
-- **Direct upload** — Two-step flow. Call `init_image_upload` to receive a presigned S3 PUT URL (`upload_url`), then have your client `PUT` the raw image bytes to that URL with the same `Content-Type` header. Once the PUT succeeds, call `complete_image_upload` (with the returned `object_key`) to run NSFW moderation and, when `attach: true`, set the entity's `image` field to the moderated `public_url`. If your agent cannot perform arbitrary HTTP PUTs, prefer `generate_image` or hand off the PUT to a human collaborator between the two tools.
+- **Direct upload** — Two-step flow. Call `init_image_upload` to receive a presigned S3 PUT URL (`upload_url`), then have your client `PUT` the raw image bytes to that URL with the same `Content-Type` header. Once the PUT succeeds, call `complete_image_upload` (with the returned `object_key`) to run NSFW moderation and, when `attach: true`, set the entity's `image` field to the moderated `public_url`. If your agent cannot perform arbitrary HTTP PUTs, hand off the PUT to a human collaborator between the two tools.
+- **Quota** — `get_image_usage` reports the account's image feature quota for a campaign (`used`/`limit`, `tier`, `can_access`, cycle window).
 
 Use `delete_entity_image` to detach and clean up either by `entity_type` + `entity_id` (detaches AND deletes the object) or by managed `image_url` (deletes just the object).
 
 ## Excluded operations
 
 Campaign delete, session create/delete, product-view-only operations (beat reorder/batch-edit, campaign settings, cast/member management), and multipart recording uploads are intentionally not exposed as MCP tools in this version.
+
+AI image generation is also not exposed. Entity art can be uploaded and attached (see Images above), but there is no tool that generates it — that stays in the Archivist AI app. Do not tell the user you can generate campaign art; direct them to the app instead.
 INSTRUCTIONS)]
 final class ArchivistServer extends Server
 {
@@ -223,7 +224,6 @@ final class ArchivistServer extends Server
 
         // Images
         GetImageUsageTool::class,
-        GenerateImageTool::class,
         InitImageUploadTool::class,
         CompleteImageUploadTool::class,
         DeleteEntityImageTool::class,

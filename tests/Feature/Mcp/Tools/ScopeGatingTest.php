@@ -4,7 +4,7 @@ namespace Tests\Feature\Mcp\Tools;
 
 use App\Mcp\Tools\Beats\CreateBeatTool;
 use App\Mcp\Tools\Beats\GetBeatTool;
-use App\Mcp\Tools\Images\GenerateImageTool;
+use App\Mcp\Tools\Images\InitImageUploadTool;
 use App\Mcp\Tools\Images\GetImageUsageTool;
 use App\Mcp\Tools\Links\CreateLinkTool;
 use App\Services\ArchivistClient;
@@ -55,7 +55,7 @@ final class ScopeGatingTest extends FeatureTestCase
 
         $this->assertFalse((new CreateBeatTool)->shouldRegister($authContext));
         $this->assertFalse((new CreateLinkTool)->shouldRegister($authContext));
-        $this->assertFalse((new GenerateImageTool)->shouldRegister($authContext));
+        $this->assertFalse((new InitImageUploadTool)->shouldRegister($authContext));
     }
 
     #[Test]
@@ -67,7 +67,7 @@ final class ScopeGatingTest extends FeatureTestCase
 
         $this->assertTrue((new CreateBeatTool)->shouldRegister($authContext));
         $this->assertTrue((new CreateLinkTool)->shouldRegister($authContext));
-        $this->assertTrue((new GenerateImageTool)->shouldRegister($authContext));
+        $this->assertTrue((new InitImageUploadTool)->shouldRegister($authContext));
     }
 
     #[Test]
@@ -80,7 +80,7 @@ final class ScopeGatingTest extends FeatureTestCase
         $authContext = $this->app->make(AuthContext::class);
 
         $this->assertTrue((new CreateBeatTool)->shouldRegister($authContext));
-        $this->assertTrue((new GenerateImageTool)->shouldRegister($authContext));
+        $this->assertTrue((new InitImageUploadTool)->shouldRegister($authContext));
     }
 
     #[Test]
@@ -108,7 +108,7 @@ final class ScopeGatingTest extends FeatureTestCase
         // Simulate the framework asking every write tool whether to register.
         (new CreateBeatTool)->shouldRegister($authContext);
         (new CreateLinkTool)->shouldRegister($authContext);
-        (new GenerateImageTool)->shouldRegister($authContext);
+        (new InitImageUploadTool)->shouldRegister($authContext);
         $authContext->canWrite();
         $authContext->scopes();
 

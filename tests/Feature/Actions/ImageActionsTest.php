@@ -4,11 +4,9 @@ namespace Tests\Feature\Actions;
 
 use App\Actions\Archivist\Images\CompleteImageUpload;
 use App\Actions\Archivist\Images\DeleteEntityImage;
-use App\Actions\Archivist\Images\GenerateImage;
 use App\Actions\Archivist\Images\GetImageUsage;
 use App\Actions\Archivist\Images\InitImageUpload;
 use App\Data\ImageDeleteResultData;
-use App\Data\ImageGenerateResultData;
 use App\Data\ImageUploadCompleteData;
 use App\Data\ImageUploadInitData;
 use App\Data\ImageUsageData;
@@ -32,38 +30,6 @@ final class ImageActionsTest extends FeatureTestCase
             ArchivistClient::class,
             new ArchivistClient(token: 'test-token'),
         );
-    }
-
-    #[Test]
-    public function generate_image_posts_body_and_maps_url(): void
-    {
-        Http::fake([
-            self::BASE_URL.'/v1/images/generate' => Http::response([
-                'url' => 'https://cdn.myarchivist.test/characters/char_1/abc.png',
-            ], 200),
-        ]);
-
-        $result = GenerateImage::make()->execute([
-            'campaign_id' => 'camp_1',
-            'type' => 'character',
-            'entity_id' => 'char_1',
-            'user_input' => 'A weary paladin at dusk',
-        ]);
-
-        $this->assertInstanceOf(ImageGenerateResultData::class, $result);
-        $this->assertSame(
-            'https://cdn.myarchivist.test/characters/char_1/abc.png',
-            $result->get('url'),
-        );
-
-        Http::assertSent(function (Request $request) {
-            return $request->method() === 'POST'
-                && $request->url() === self::BASE_URL.'/v1/images/generate'
-                && $request['campaign_id'] === 'camp_1'
-                && $request['type'] === 'character'
-                && $request['entity_id'] === 'char_1'
-                && $request['user_input'] === 'A weary paladin at dusk';
-        });
     }
 
     #[Test]
