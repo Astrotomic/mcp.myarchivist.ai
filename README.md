@@ -93,11 +93,11 @@ Archivist AI is available as a ChatGPT plugin. Search for "Archivist AI" in the 
 
 Read tools are non-destructive and idempotent. Write tools follow standard REST semantics — deletes are destructive and idempotent; PATCH is non-idempotent; PUT is idempotent. Every read tool that returns text-carrying descriptions (Character, Faction, Location, Item, Moment, Beat, Session, Journal) accepts an optional `with_links` parameter — see [Wikilinks](#wikilinks) below for why you almost always want to pass `with_links: true` before editing.
 
-Campaign delete, session delete, product-view-only endpoints (beat reorder/batch-edit, campaign settings, cast/member management), and multipart recording uploads are intentionally not exposed.
+Campaign delete, session delete, product-view-only endpoints (beat reorder/batch-edit, campaign settings, cast/member management), multipart recording uploads, and AI image generation are intentionally not exposed.
 
 ### OAuth scopes and write access
 
-OAuth clients that connect via `https://app.myarchivist.ai` request scopes at authorization time. Every write tool (create/update/delete + image generation and upload) additionally requires the `agent_write` scope on the caller's token.
+OAuth clients that connect via `https://app.myarchivist.ai` request scopes at authorization time. Every write tool (create/update/delete + image upload) additionally requires the `agent_write` scope on the caller's token.
 
 The MCP mirrors the API's enforcement in `tools/list`: agent clients without `agent_write` see only the read tools, and receive a "tool not found" JSON-RPC error if they attempt to call a write tool anyway. API-key credentials and non-agent OAuth clients bypass this filter — the API is the authoritative gate for them and all tools remain visible.
 
@@ -204,8 +204,7 @@ Existing OAuth clients that connected before `agent_write` was advertised need t
 
 | Tool | Description |
 |------|-------------|
-| `get_image_usage` | Return the calling account's image quota for a campaign: `used`/`limit`, `tier`, `can_access`, and cycle window. Call before `generate_image` to avoid quota errors. |
-| `generate_image` | Server-side AI generation for `character`, `faction`, `location`, `item`, or `world`. Rewrites the entity's description into an image prompt (`user_input` optional). Returns a public URL — set it on the entity via the matching update tool if you want to attach it. Consumes the account's image quota. |
+| `get_image_usage` | Return the calling account's image quota for a campaign: `used`/`limit`, `tier`, `can_access`, and cycle window. |
 | `init_image_upload` | Step 1 of direct upload: reserve an `object_key` and receive a presigned S3 PUT URL. The client then PUTs the raw image bytes to `upload_url` with the same `Content-Type`. Expires after `expires_in_seconds`. |
 | `complete_image_upload` | Step 2 of direct upload: validate the uploaded object, run NSFW moderation, and (when `attach: true`) set the entity's `image` field to the moderated URL. |
 | `delete_entity_image` | Remove an image. Provide `entity_type` + `entity_id` (detaches AND deletes the object) or `image_url` (deletes just the object). |
@@ -237,15 +236,7 @@ Descriptions, summaries, moment content, and journal bodies in Archivist AI can 
 
 ## Images
 
-Entity images can be added to Characters, Factions, Locations, Items, Moments, Sessions, and the Campaign itself. Two flows are supported:
-
-### Server-side AI generation
-
-Call `generate_image` with a `campaign_id`, a `type` (`character`, `faction`, `location`, `item`, or `world`), and optionally an `entity_id` (defaults to the campaign for `type=world`) and free-form `user_input`. The API rewrites the entity's stored description into a visual prompt, calls the configured provider, and returns a public URL.
-
-Two things worth calling out:
-1. The generated image is **not** automatically attached — set `image` on the entity via the matching update tool (e.g. `update_character`, `update_faction`) if you want to persist it on the record.
-2. Generation consumes the account's per-cycle image quota. Call `get_image_usage` first if you need to reason about headroom, tier limits, or the current billing window. AI features are disabled on archived campaigns.
+Entity images can be added to Characters, Factions, Locations, Items, Moments, Sessions, and the Campaign itself via direct upload. The MCP server does not expose an AI image generation tool — image generation remains a product feature in the Archivist AI app and a REST endpoint on the API.
 
 ### Direct upload (two-step)
 
@@ -255,7 +246,7 @@ For images the user already has on disk or in memory, use the presigned-URL flow
 2. Your client (or a human collaborator) issues an HTTP `PUT` to `upload_url` with the raw image bytes and the same `Content-Type` header before the URL expires. This step happens outside the MCP transport.
 3. Call `complete_image_upload` with `object_key`, `entity_type`, `entity_id`, and `attach` (defaults to `true`). The API validates the upload, runs NSFW moderation, and — when `attach` is true — sets the entity's `image` field to the moderated `public_url`.
 
-Agents that cannot make arbitrary HTTP PUTs should prefer `generate_image` or hand the PUT step off to a human between step 1 and step 3.
+Agents that cannot make arbitrary HTTP PUTs should hand the PUT step off to a human between step 1 and step 3.
 
 ### Removal
 

@@ -17,8 +17,7 @@ use Laravel\Mcp\Server\Tools\Annotations\IsReadOnly;
     'client MUST issue an HTTP `PUT` to `upload_url` with the raw image bytes and the same '.
     '`Content-Type` header before it expires (typically ~5 minutes). Once the PUT is complete, '.
     'call `complete_image_upload` to finalize (moderate and optionally attach). Agents that cannot '.
-    'perform arbitrary HTTP PUTs should ask a human collaborator to do the PUT step, or use '.
-    '`generate_image` instead for server-side generation.'
+    'perform arbitrary HTTP PUTs should ask a human collaborator to do the PUT step.'
 )]
 #[IsReadOnly(false)]
 #[IsDestructive(false)]

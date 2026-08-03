@@ -12,8 +12,9 @@ use Laravel\Mcp\Server\Tools\Annotations\IsReadOnly;
 
 #[Description(
     'Return the calling account\'s image feature quota for a campaign: `used`/`limit` counts for '.
-    'the current billing cycle, `tier` name, `can_access` flag, and cycle window. Call this before '.
-    '`generate_image` when you want to avoid a 403 from a depleted or tier-locked quota.'
+    'the current billing cycle, `tier` name, `can_access` flag, and cycle window. Call this when you '.
+    'want to reason about headroom before an image operation that could 403 on a depleted or '.
+    'tier-locked quota.'
 )]
 #[IsReadOnly(true)]
 #[IsDestructive(false)]
