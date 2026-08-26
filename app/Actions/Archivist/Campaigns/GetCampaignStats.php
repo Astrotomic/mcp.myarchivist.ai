@@ -5,6 +5,7 @@ namespace App\Actions\Archivist\Campaigns;
 use App\Actions\Archivist\ApiAction;
 use App\Data\CampaignStatsData;
 use App\Exceptions\ArchivistApiException;
+use Illuminate\Http\Client\ConnectionException;
 use Illuminate\Http\Client\Response;
 use Illuminate\Support\ValidatedInput;
 
@@ -41,9 +42,9 @@ final readonly class GetCampaignStats extends ApiAction
                     'total',
                     (int) ($data['characters'] ?? 0),
                 );
-            } catch (ArchivistApiException) {
+            } catch (ArchivistApiException|ConnectionException) {
                 // The secondary lookup is optional. Keep the original stats count
-                // when the token lacks characters_read or the endpoint rejects it.
+                // when it is unauthorized, rejected, or temporarily unreachable.
             }
         }
 
