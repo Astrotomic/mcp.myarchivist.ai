@@ -71,6 +71,30 @@
                 "null"
             ]
         },
+        "ai_session_review": {
+            "type": [
+                "object",
+                "null"
+            ]
+        },
+        "ai_session_review.stage": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "ai_session_review.review_started_at": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "ai_session_review.save_started_at": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
         "created_at": {
             "type": "string"
         },
