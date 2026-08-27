@@ -19,6 +19,10 @@ class SessionDataShort extends ArchivistDto
             'index' => ['nullable', 'integer'],
             'pbp_start_msg_url' => ['nullable', 'string'],
             'pbp_end_msg_url' => ['nullable', 'string'],
+            'ai_session_review' => ['nullable', 'array'],
+            'ai_session_review.stage' => ['nullable', 'string'],
+            'ai_session_review.review_started_at' => ['nullable', 'string', 'date'],
+            'ai_session_review.save_started_at' => ['nullable', 'string', 'date'],
             'created_at' => ['required', 'string', 'date'],
             'updated_at' => ['nullable', 'string', 'date'],
         ];
