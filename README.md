@@ -24,6 +24,8 @@ Connect AI assistants like Claude, ChatGPT, Cursor, Notion, and Windsurf directl
 
 **MCP Server URL:** `https://mcp.myarchivist.ai/mcp`
 
+Discord tools live on a sibling host: `https://discord.myarchivist.ai/mcp`. That is a separate MCP resource (OAuth + your recording bot) and does not replace campaign tools here.
+
 <details>
 <summary>Claude Desktop</summary>
 
