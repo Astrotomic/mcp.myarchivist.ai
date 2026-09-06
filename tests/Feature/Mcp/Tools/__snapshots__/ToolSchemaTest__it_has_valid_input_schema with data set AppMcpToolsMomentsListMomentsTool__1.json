@@ -33,6 +33,18 @@
                 "null"
             ]
         },
+        "categories": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "kind": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
         "with_links": {
             "type": [
                 "boolean",

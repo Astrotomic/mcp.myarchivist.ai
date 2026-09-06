@@ -1,0 +1,58 @@
+{
+    "properties": {
+        "quote_id": {
+            "type": "string"
+        },
+        "text": {
+            "maxLength": 8000,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "speaker": {
+            "maxLength": 200,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "character_name": {
+            "maxLength": 120,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "context": {
+            "maxLength": 2000,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "style": {
+            "maxLength": 40,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "custom_theme": {
+            "type": [
+                "object",
+                "null"
+            ]
+        },
+        "order_index": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "quote_id"
+    ]
+}

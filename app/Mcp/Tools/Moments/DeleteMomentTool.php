@@ -11,7 +11,7 @@ use Laravel\Mcp\Server\Tools\Annotations\IsOpenWorld;
 use Laravel\Mcp\Server\Tools\Annotations\IsReadOnly;
 
 #[Description(
-    'Delete a moment. Any inbound/outbound Link rows for this moment are removed. Note: as a '.
+    'Delete a Key Moment (Moment). Any inbound/outbound Link rows for this moment are removed. Note: as a '.
     'source of wikilinks, moments only appear as [[…]] in their own content (not in other '.
     'entities\' text), so no cross-record text rewriting is required.'
 )]

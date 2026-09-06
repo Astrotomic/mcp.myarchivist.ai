@@ -1,0 +1,11 @@
+{
+    "properties": {
+        "quote_id": {
+            "type": "string"
+        }
+    },
+    "type": "object",
+    "required": [
+        "quote_id"
+    ]
+}

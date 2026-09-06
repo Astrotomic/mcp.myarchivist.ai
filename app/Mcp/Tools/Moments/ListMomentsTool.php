@@ -10,7 +10,13 @@ use Laravel\Mcp\Server\Tools\Annotations\IsIdempotent;
 use Laravel\Mcp\Server\Tools\Annotations\IsOpenWorld;
 use Laravel\Mcp\Server\Tools\Annotations\IsReadOnly;
 
-#[Description('List moments in a campaign or session. Optionally filter by label search. Moments capture memorable quotes and events.')]
+#[Description(
+    'List Key Moments (Moments) in a campaign or session. These are the same Moment records; '.
+    'the product now calls them Key Moments and they can carry an image plus presentation '.
+    'metadata (style, customTheme, variant). Filter by label search, comma-separated '.
+    'categories (Key Moments typically use "key-moment"), or kind. Pass with_links=true '.
+    'before editing content.'
+)]
 #[IsReadOnly(true)]
 #[IsDestructive(false)]
 #[IsIdempotent(true)]

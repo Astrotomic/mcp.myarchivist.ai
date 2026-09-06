@@ -15,6 +15,11 @@ class MomentData extends ArchivistDto
             'content' => ['nullable', 'string'],
             'image' => ['nullable', 'string'],
             'categories' => ['nullable', 'list'],
+            'kind' => ['nullable', 'string'],
+            'metadata' => ['nullable', 'array'],
+            'pending' => ['nullable', 'boolean'],
+            'approved' => ['nullable', 'boolean'],
+            'discovered' => ['nullable', 'boolean'],
             'created_at' => ['required', 'string', 'date'],
             'updated_at' => ['nullable', 'string', 'date'],
         ];

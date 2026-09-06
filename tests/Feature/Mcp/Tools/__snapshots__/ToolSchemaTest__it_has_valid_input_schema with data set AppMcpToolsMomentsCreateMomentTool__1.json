@@ -55,6 +55,19 @@
                 "boolean",
                 "null"
             ]
+        },
+        "kind": {
+            "maxLength": 64,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "metadata": {
+            "type": [
+                "object",
+                "null"
+            ]
         }
     },
     "type": "object",

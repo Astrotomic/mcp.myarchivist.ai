@@ -18,7 +18,7 @@ The official [Model Context Protocol](https://modelcontextprotocol.io) (MCP) ser
 
 Registry metadata lives in [`server.json`](./server.json). Publishing to the [official MCP Registry](https://modelcontextprotocol.io/registry) is automated on version tags via [`.github/workflows/publish-mcp.yml`](./.github/workflows/publish-mcp.yml) (`git tag v1.0.0 && git push origin v1.0.0`).
 
-Connect AI assistants like Claude, ChatGPT, Cursor, Notion, and Windsurf directly to your campaign data: characters, sessions, locations, factions, items, quests, journals, and more.
+Connect AI assistants like Claude, ChatGPT, Cursor, Notion, and Windsurf directly to your campaign data: characters, sessions, locations, factions, items, quests, journals, key moments, hero awards, quotes, spotlights, and more.
 
 ## Quick Start
 
@@ -136,11 +136,31 @@ Existing OAuth clients that connected before `agent_write` was advertised need t
 | `create_beat` | Create a beat. Explicit-link contract for wikilinks. |
 | `update_beat` | Partially update a beat. |
 | `delete_beat` | Delete a beat (child beats have parent_id cleared). |
-| `list_moments` | List moments in a campaign or session. Moments capture memorable quotes and events. |
-| `get_moment` | Get a specific moment by ID. |
-| `create_moment` | Create a moment attached to a session. Explicit-link contract for wikilinks. |
-| `update_moment` | Partially update a moment. |
-| `delete_moment` | Delete a moment. |
+| `list_moments` | List Key Moments (Moments) in a campaign or session. Filter by label, categories (typically `key-moment`), or kind. Includes image and presentation metadata. |
+| `get_moment` | Get a Key Moment by ID, including image URL, categories, kind, and metadata. |
+| `create_moment` | Create a Key Moment attached to a session. Set `categories=["key-moment"]` for a Key Moment card. Explicit-link contract for wikilinks. |
+| `update_moment` | Partially update a Key Moment, including image and merged presentation metadata. |
+| `delete_moment` | Delete a Key Moment. |
+
+### Highlights
+
+| Tool | Description |
+|------|-------------|
+| `list_hero_awards` | List hero awards in a campaign or session. |
+| `get_hero_award` | Get a hero award by ID. |
+| `create_hero_award` | Create a hero award attached to a session. |
+| `update_hero_award` | Partially update a hero award. |
+| `delete_hero_award` | Delete a hero award. |
+| `list_quotes` | List memorable session quotes in a campaign or session. |
+| `get_quote` | Get a quote by ID. |
+| `create_quote` | Create a quote attached to a session (creates a recap pipeline if needed). |
+| `update_quote` | Partially update a quote. |
+| `delete_quote` | Delete a quote. |
+| `list_spotlights` | List recap spotlights (GEMS cards, not session-handout spotlights). |
+| `get_spotlight` | Get a recap spotlight by ID. |
+| `create_spotlight` | Create a recap spotlight attached to a session. |
+| `update_spotlight` | Partially update a recap spotlight. |
+| `delete_spotlight` | Delete a recap spotlight. |
 
 ### World Building
 
