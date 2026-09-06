@@ -11,7 +11,11 @@ use Laravel\Mcp\Server\Tools\Annotations\IsIdempotent;
 use Laravel\Mcp\Server\Tools\Annotations\IsOpenWorld;
 use Laravel\Mcp\Server\Tools\Annotations\IsReadOnly;
 
-#[Description('Get a specific moment by ID.')]
+#[Description(
+    'Get a Key Moment (Moment) by ID, including image URL, categories, kind, and presentation '.
+    'metadata. Pass with_links=true before editing content. Attach or replace the card image '.
+    'with init_image_upload (entity_type=moment) then complete_image_upload.'
+)]
 #[IsReadOnly(true)]
 #[IsDestructive(false)]
 #[IsIdempotent(true)]

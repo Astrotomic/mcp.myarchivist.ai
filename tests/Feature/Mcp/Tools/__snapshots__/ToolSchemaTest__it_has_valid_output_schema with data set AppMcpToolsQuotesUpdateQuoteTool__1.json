@@ -1,0 +1,81 @@
+{
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "campaign_id": {
+            "type": "string"
+        },
+        "session_id": {
+            "type": "string"
+        },
+        "text": {
+            "type": "string"
+        },
+        "speaker": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "character_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "context": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "style": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "custom_theme": {
+            "type": [
+                "object",
+                "null"
+            ]
+        },
+        "order_index": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "pipeline_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "recap_set_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_at": {
+            "type": "string"
+        },
+        "updated_at": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "id",
+        "campaign_id",
+        "session_id",
+        "text",
+        "created_at"
+    ]
+}

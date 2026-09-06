@@ -1,0 +1,11 @@
+{
+    "properties": {
+        "spotlight_id": {
+            "type": "string"
+        }
+    },
+    "type": "object",
+    "required": [
+        "spotlight_id"
+    ]
+}

@@ -21,6 +21,8 @@ final readonly class UpdateMoment extends WriteApiAction
             'pending' => ['nullable', 'boolean'],
             'approved' => ['nullable', 'boolean'],
             'discovered' => ['nullable', 'boolean'],
+            'kind' => ['nullable', 'string', 'max:64'],
+            'metadata' => ['nullable', 'array'],
         ];
     }
 

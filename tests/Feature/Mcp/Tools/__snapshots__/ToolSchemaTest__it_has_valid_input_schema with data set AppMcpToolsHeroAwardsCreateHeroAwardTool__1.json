@@ -1,0 +1,78 @@
+{
+    "properties": {
+        "session_id": {
+            "type": "string"
+        },
+        "title": {
+            "maxLength": 200,
+            "type": "string"
+        },
+        "description": {
+            "maxLength": 4000,
+            "type": "string"
+        },
+        "character_name": {
+            "maxLength": 120,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "player_name": {
+            "maxLength": 120,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "tone_mode": {
+            "maxLength": 40,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "award_mode": {
+            "enum": [
+                "moment",
+                "theme"
+            ],
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "style": {
+            "maxLength": 40,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "variant": {
+            "maxLength": 40,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "custom_theme": {
+            "type": [
+                "object",
+                "null"
+            ]
+        },
+        "order_index": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "session_id",
+        "title",
+        "description"
+    ]
+}

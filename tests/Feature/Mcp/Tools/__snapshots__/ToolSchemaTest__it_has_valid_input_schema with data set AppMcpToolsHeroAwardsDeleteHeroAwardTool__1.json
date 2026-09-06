@@ -1,0 +1,11 @@
+{
+    "properties": {
+        "hero_award_id": {
+            "type": "string"
+        }
+    },
+    "type": "object",
+    "required": [
+        "hero_award_id"
+    ]
+}

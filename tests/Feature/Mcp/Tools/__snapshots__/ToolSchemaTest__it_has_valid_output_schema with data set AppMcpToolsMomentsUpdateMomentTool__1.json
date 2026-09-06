@@ -42,6 +42,36 @@
                 "null"
             ]
         },
+        "kind": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "metadata": {
+            "type": [
+                "object",
+                "null"
+            ]
+        },
+        "pending": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "approved": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "discovered": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
         "created_at": {
             "type": "string"
         },

@@ -1,0 +1,93 @@
+{
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "campaign_id": {
+            "type": "string"
+        },
+        "session_id": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "character_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "player_name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "style": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "custom_theme": {
+            "type": [
+                "object",
+                "null"
+            ]
+        },
+        "order_index": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "entry_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "source_moment_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "pipeline_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "recap_set_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_at": {
+            "type": "string"
+        },
+        "updated_at": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "id",
+        "campaign_id",
+        "session_id",
+        "title",
+        "created_at"
+    ]
+}

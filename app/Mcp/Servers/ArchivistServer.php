@@ -23,6 +23,11 @@ use App\Mcp\Tools\Factions\DeleteFactionTool;
 use App\Mcp\Tools\Factions\GetFactionTool;
 use App\Mcp\Tools\Factions\ListFactionsTool;
 use App\Mcp\Tools\Factions\UpdateFactionTool;
+use App\Mcp\Tools\HeroAwards\CreateHeroAwardTool;
+use App\Mcp\Tools\HeroAwards\DeleteHeroAwardTool;
+use App\Mcp\Tools\HeroAwards\GetHeroAwardTool;
+use App\Mcp\Tools\HeroAwards\ListHeroAwardsTool;
+use App\Mcp\Tools\HeroAwards\UpdateHeroAwardTool;
 use App\Mcp\Tools\Images\CompleteImageUploadTool;
 use App\Mcp\Tools\Images\DeleteEntityImageTool;
 use App\Mcp\Tools\Images\GetImageUsageTool;
@@ -62,6 +67,11 @@ use App\Mcp\Tools\Quests\DeleteQuestTool;
 use App\Mcp\Tools\Quests\GetQuestTool;
 use App\Mcp\Tools\Quests\ListQuestsTool;
 use App\Mcp\Tools\Quests\UpdateQuestTool;
+use App\Mcp\Tools\Quotes\CreateQuoteTool;
+use App\Mcp\Tools\Quotes\DeleteQuoteTool;
+use App\Mcp\Tools\Quotes\GetQuoteTool;
+use App\Mcp\Tools\Quotes\ListQuotesTool;
+use App\Mcp\Tools\Quotes\UpdateQuoteTool;
 use App\Mcp\Tools\Sessions\GetSessionCastAnalysisTool;
 use App\Mcp\Tools\Sessions\GetSessionHandoutTool;
 use App\Mcp\Tools\Sessions\GetSessionTool;
@@ -69,6 +79,11 @@ use App\Mcp\Tools\Sessions\GetSessionTranscriptTool;
 use App\Mcp\Tools\Sessions\ListSessionsTool;
 use App\Mcp\Tools\Sessions\PatchSessionTool;
 use App\Mcp\Tools\Sessions\UpdateSessionTool;
+use App\Mcp\Tools\Spotlights\CreateSpotlightTool;
+use App\Mcp\Tools\Spotlights\DeleteSpotlightTool;
+use App\Mcp\Tools\Spotlights\GetSpotlightTool;
+use App\Mcp\Tools\Spotlights\ListSpotlightsTool;
+use App\Mcp\Tools\Spotlights\UpdateSpotlightTool;
 use Laravel\Mcp\Server;
 use Laravel\Mcp\Server\Attributes\Instructions;
 use Laravel\Mcp\Server\Attributes\Name;
@@ -78,7 +93,7 @@ use Laravel\Mcp\Server\Transport\FakeTransporter;
 #[Name('Archivist AI')]
 #[Version('2.2.0')]
 #[Instructions(<<<'INSTRUCTIONS'
-Read/write access to Archivist AI TTRPG campaign data: campaigns, characters, sessions, beats, moments, factions, locations, items, quests, journals, journal folders, entity links, and entity images. Archivist AI is a campaign memory platform for tabletop RPG game masters and players.
+Read/write access to Archivist AI TTRPG campaign data: campaigns, characters, sessions, beats, key moments (moments), hero awards, quotes, spotlights, factions, locations, items, quests, journals, journal folders, entity links, and entity images. Archivist AI is a campaign memory platform for tabletop RPG game masters and players.
 
 ## Wikilinks (IMPORTANT for write tools)
 
@@ -166,12 +181,33 @@ final class ArchivistServer extends Server
         UpdateBeatTool::class,
         DeleteBeatTool::class,
 
-        // Moments
+        // Key Moments (Moments)
         ListMomentsTool::class,
         GetMomentTool::class,
         CreateMomentTool::class,
         UpdateMomentTool::class,
         DeleteMomentTool::class,
+
+        // Hero Awards
+        ListHeroAwardsTool::class,
+        GetHeroAwardTool::class,
+        CreateHeroAwardTool::class,
+        UpdateHeroAwardTool::class,
+        DeleteHeroAwardTool::class,
+
+        // Quotes
+        ListQuotesTool::class,
+        GetQuoteTool::class,
+        CreateQuoteTool::class,
+        UpdateQuoteTool::class,
+        DeleteQuoteTool::class,
+
+        // Spotlights
+        ListSpotlightsTool::class,
+        GetSpotlightTool::class,
+        CreateSpotlightTool::class,
+        UpdateSpotlightTool::class,
+        DeleteSpotlightTool::class,
 
         // Factions
         ListFactionsTool::class,
