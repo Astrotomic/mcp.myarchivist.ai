@@ -19,7 +19,7 @@ use Laravel\Mcp\Server\Tools\Annotations\IsReadOnly;
 #[IsReadOnly(false)]
 #[IsDestructive(true)]
 #[IsIdempotent(true)]
-#[IsOpenWorld(false)]
+#[IsOpenWorld(true)]
 class DeleteEntityImageTool extends Tool
 {
     protected function action(): DeleteEntityImage

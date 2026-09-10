@@ -12,12 +12,13 @@ use Laravel\Mcp\Server\Tools\Annotations\IsReadOnly;
 
 #[Description(
     'Delete a journal entry. Returns {success: true}. Vector embeddings for the entry are '.
-    'best-effort deleted alongside the row.'
+    'best-effort deleted alongside the row. Deleting a published public entry removes its '.
+    'publicly visible content.'
 )]
 #[IsReadOnly(false)]
 #[IsDestructive(true)]
 #[IsIdempotent(true)]
-#[IsOpenWorld(false)]
+#[IsOpenWorld(true)]
 class DeleteJournalTool extends Tool
 {
     protected function action(): DeleteJournal

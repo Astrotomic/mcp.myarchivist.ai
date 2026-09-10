@@ -16,12 +16,13 @@ use Laravel\Mcp\Server\Tools\Annotations\IsReadOnly;
     'in the wikilinks system on serialization only: [[wikilinks]] in stored content are '.
     'rendered when you fetch with with_links=true, but on write the API does not create Link '.
     'rows from the text automatically. Create Link rows explicitly with create_link '.
-    '(from_type="Journal", from_id=journal_id) if you want persistent link tracking.'
+    '(from_type="Journal", from_id=journal_id) if you want persistent link tracking. Setting '.
+    'is_public and status="published" can make the entry publicly visible.'
 )]
 #[IsReadOnly(false)]
 #[IsDestructive(false)]
 #[IsIdempotent(false)]
-#[IsOpenWorld(false)]
+#[IsOpenWorld(true)]
 class CreateJournalTool extends Tool
 {
     protected function action(): CreateJournal
