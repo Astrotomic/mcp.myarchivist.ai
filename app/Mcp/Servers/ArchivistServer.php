@@ -91,7 +91,7 @@ use Laravel\Mcp\Server\Attributes\Version;
 use Laravel\Mcp\Server\Transport\FakeTransporter;
 
 #[Name('Archivist AI')]
-#[Version('2.2.0')]
+#[Version('3.0.0')]
 #[Instructions(<<<'INSTRUCTIONS'
 Read/write access to Archivist AI TTRPG campaign data: campaigns, characters, sessions, beats, key moments (moments), hero awards, quotes, spotlights, factions, locations, items, quests, journals, journal folders, entity links, and entity images. Archivist AI is a campaign memory platform for tabletop RPG game masters and players.
 

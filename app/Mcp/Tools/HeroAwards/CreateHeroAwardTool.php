@@ -12,7 +12,7 @@ use Laravel\Mcp\Server\Tools\Annotations\IsReadOnly;
 
 #[Description(
     'Create a hero award attached to a session. Requires title and description. Optional '.
-    'character_name, player_name, style (default verdant), variant (default square-v2), '.
+    'character_name, player_name, style (default verdant), variant (default square), '.
     'tone_mode (default), award_mode (moment or theme), and custom_theme. Hero awards do not '.
     'use wikilinks. Card images are rendered by the app, not uploaded via init_image_upload.'
 )]
