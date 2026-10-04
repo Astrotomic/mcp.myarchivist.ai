@@ -251,6 +251,24 @@ final class WriteActionsTest extends FeatureTestCase
     }
 
     #[Test]
+    public function patch_session_sends_type_and_public(): void
+    {
+        Http::fake([
+            self::BASE_URL.'/v1/sessions/sess_1' => Http::response($this->fakeSession(), 200),
+        ]);
+
+        PatchSession::make()->execute([
+            'session_id' => 'sess_1',
+            'type' => 'rawNotes',
+            'public' => true,
+        ]);
+
+        Http::assertSent(fn (Request $request) => $request->method() === 'PATCH'
+            && $request['type'] === 'rawNotes'
+            && $request['public'] === true);
+    }
+
+    #[Test]
     public function create_beat_posts_to_beats_endpoint(): void
     {
         Http::fake([

@@ -17,6 +17,8 @@ final readonly class PatchSession extends WriteApiAction
             'session_date' => ['nullable', 'string', 'date'],
             'summary' => ['nullable', 'string'],
             'notes' => ['nullable', 'string'],
+            'type' => ['nullable', 'string', 'in:audioUpload,playByPost,discordVoice,txtUpload,rawNotes,other'],
+            'public' => ['nullable', 'boolean'],
             'image' => ['nullable', 'string'],
         ];
     }

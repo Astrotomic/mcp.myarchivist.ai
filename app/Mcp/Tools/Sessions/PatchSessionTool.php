@@ -11,7 +11,7 @@ use Laravel\Mcp\Server\Tools\Annotations\IsOpenWorld;
 use Laravel\Mcp\Server\Tools\Annotations\IsReadOnly;
 
 #[Description(
-    'Partially update a game session (limited fields: title, session_date, summary, notes, image). '.
+    'Partially update a game session (limited fields: title, session_date, summary, notes, type, public, image). '.
     'Omitted fields are left unchanged. notes holds the user-supplied content of rawNotes sessions. '.
     'IMPORTANT: Sessions use the explicit-link contract, not the auto-resolve contract used by '.
     'Character/Faction/Location/Item. On write, the API strips any [[alias]] markup whose alias '.

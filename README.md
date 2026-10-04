@@ -124,7 +124,7 @@ Existing OAuth clients that connected before `agent_write` was advertised need t
 | `get_session_cast_analysis` | Get cast analysis: talk-share breakdown and core session metrics. |
 | `get_session_transcript` | Get the cleaned transcript for a game session, including utterances, full text, and aggregate stats. |
 | `get_session_handout` | Get the generated session handout for a game session, including summary, outlines, spotlights, and notable moments. |
-| `patch_session` | Partial update (title, session_date, summary, notes, image). Explicit-link contract for wikilinks. |
+| `patch_session` | Partial update (title, session_date, summary, notes, type, public, image). Explicit-link contract for wikilinks. |
 
 ### Story Structure
 

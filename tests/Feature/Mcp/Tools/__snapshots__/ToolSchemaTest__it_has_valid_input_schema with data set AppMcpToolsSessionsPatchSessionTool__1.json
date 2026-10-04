@@ -28,6 +28,26 @@
                 "null"
             ]
         },
+        "type": {
+            "enum": [
+                "audioUpload",
+                "playByPost",
+                "discordVoice",
+                "txtUpload",
+                "rawNotes",
+                "other"
+            ],
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "public": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
         "image": {
             "type": [
                 "string",
