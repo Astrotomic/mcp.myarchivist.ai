@@ -22,6 +22,12 @@
                 "null"
             ]
         },
+        "notes": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
         "image": {
             "type": [
                 "string",

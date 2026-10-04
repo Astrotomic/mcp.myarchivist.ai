@@ -22,7 +22,6 @@ use App\Actions\Archivist\Locations\CreateLocation;
 use App\Actions\Archivist\Moments\CreateMoment;
 use App\Actions\Archivist\Quests\CreateQuest;
 use App\Actions\Archivist\Sessions\PatchSession;
-use App\Actions\Archivist\Sessions\UpdateSession;
 use App\Data\LinkMaintenanceResultData;
 use App\Data\SuccessData;
 use App\Services\ArchivistClient;
@@ -235,19 +234,20 @@ final class WriteActionsTest extends FeatureTestCase
     }
 
     #[Test]
-    public function update_session_puts_to_target_session(): void
+    public function patch_session_sends_notes(): void
     {
         Http::fake([
             self::BASE_URL.'/v1/sessions/sess_1' => Http::response($this->fakeSession(), 200),
         ]);
 
-        UpdateSession::make()->execute([
+        PatchSession::make()->execute([
             'session_id' => 'sess_1',
-            'title' => 'The Reckoning',
+            'notes' => 'Raw table notes.',
         ]);
 
-        Http::assertSent(fn (Request $request) => $request->method() === 'PUT'
-            && $request->url() === self::BASE_URL.'/v1/sessions/sess_1');
+        Http::assertSent(fn (Request $request) => $request->method() === 'PATCH'
+            && $request->url() === self::BASE_URL.'/v1/sessions/sess_1'
+            && $request['notes'] === 'Raw table notes.');
     }
 
     #[Test]

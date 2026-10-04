@@ -16,6 +16,7 @@ final readonly class PatchSession extends WriteApiAction
             'title' => ['nullable', 'string', 'max:255'],
             'session_date' => ['nullable', 'string', 'date'],
             'summary' => ['nullable', 'string'],
+            'notes' => ['nullable', 'string'],
             'image' => ['nullable', 'string'],
         ];
     }
