@@ -78,7 +78,6 @@ use App\Mcp\Tools\Sessions\GetSessionTool;
 use App\Mcp\Tools\Sessions\GetSessionTranscriptTool;
 use App\Mcp\Tools\Sessions\ListSessionsTool;
 use App\Mcp\Tools\Sessions\PatchSessionTool;
-use App\Mcp\Tools\Sessions\UpdateSessionTool;
 use App\Mcp\Tools\Spotlights\CreateSpotlightTool;
 use App\Mcp\Tools\Spotlights\DeleteSpotlightTool;
 use App\Mcp\Tools\Spotlights\GetSpotlightTool;
@@ -91,7 +90,7 @@ use Laravel\Mcp\Server\Attributes\Version;
 use Laravel\Mcp\Server\Transport\FakeTransporter;
 
 #[Name('Archivist AI')]
-#[Version('2.2.0')]
+#[Version('3.0.0')]
 #[Instructions(<<<'INSTRUCTIONS'
 Read/write access to Archivist AI TTRPG campaign data: campaigns, characters, sessions, beats, key moments (moments), hero awards, quotes, spotlights, factions, locations, items, quests, journals, journal folders, entity links, and entity images. Archivist AI is a campaign memory platform for tabletop RPG game masters and players.
 
@@ -172,7 +171,6 @@ final class ArchivistServer extends Server
         GetSessionHandoutTool::class,
         GetSessionTranscriptTool::class,
         PatchSessionTool::class,
-        UpdateSessionTool::class,
 
         // Beats
         ListBeatsTool::class,
