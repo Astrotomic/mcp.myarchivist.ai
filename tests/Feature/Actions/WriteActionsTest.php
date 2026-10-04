@@ -269,6 +269,26 @@ final class WriteActionsTest extends FeatureTestCase
     }
 
     #[Test]
+    public function patch_session_omits_null_type_and_public(): void
+    {
+        Http::fake([
+            self::BASE_URL.'/v1/sessions/sess_1' => Http::response($this->fakeSession(), 200),
+        ]);
+
+        PatchSession::make()->execute([
+            'session_id' => 'sess_1',
+            'title' => 'New title',
+            'type' => null,
+            'public' => null,
+        ]);
+
+        Http::assertSent(fn (Request $request) => $request->method() === 'PATCH'
+            && $request['title'] === 'New title'
+            && ! array_key_exists('type', $request->data())
+            && ! array_key_exists('public', $request->data()));
+    }
+
+    #[Test]
     public function create_beat_posts_to_beats_endpoint(): void
     {
         Http::fake([
