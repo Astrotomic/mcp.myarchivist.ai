@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "archivist-ai": {
+      "type": "http",
+      "url": "https://mcp.myarchivist.ai/mcp"
+    }
+  }
+}
