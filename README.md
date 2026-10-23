@@ -284,7 +284,7 @@ Agents that cannot make arbitrary HTTP PUTs should hand the PUT step off to a hu
 ## Troubleshooting
 
 - **Authentication fails or tools return 401:** reconnect the server and complete the OAuth sign-in again, or check that your API key is current in [app.myarchivist.ai](https://app.myarchivist.ai).
-- **Write tools are missing:** write tools are only listed when your OAuth client has the `agent_write` scope. Reconnect and approve write access.
+- **Write tools are missing (agent OAuth clients only):** write tools are hidden from agent OAuth clients that lack the `agent_write` scope. Reconnect and approve write access. API keys and non-agent OAuth clients always see all tools; see [OAuth scopes and write access](#oauth-scopes-and-write-access).
 - **Claude Desktop does not connect:** it needs the [`mcp-remote`](https://github.com/geelen/mcp-remote) proxy and Node.js; restart Claude Desktop after editing its config.
 - **Wikilinks disappear after an edit:** read the record with `with_links: true` before updating it. See [Wikilinks](#wikilinks).
 
