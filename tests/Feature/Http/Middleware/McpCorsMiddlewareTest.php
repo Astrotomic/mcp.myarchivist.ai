@@ -17,7 +17,7 @@ class McpCorsMiddlewareTest extends FeatureTestCase
             ->assertOk()
             ->assertHeader('Access-Control-Allow-Origin', '*')
             ->assertHeader('Access-Control-Allow-Methods', 'GET, POST, DELETE, OPTIONS')
-            ->assertHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization, Accept, MCP-Protocol-Version, Mcp-Session-Id')
+            ->assertHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization, X-API-Key, Accept, MCP-Protocol-Version, Mcp-Session-Id')
             ->assertHeader('Access-Control-Expose-Headers', 'Mcp-Session-Id');
     }
 

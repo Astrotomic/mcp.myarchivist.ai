@@ -10,13 +10,14 @@ use Symfony\Component\HttpFoundation\Response;
 class ArchivistPassthroughMiddleware
 {
     /**
-     * All MCP JSON-RPC calls require a Bearer token. OAuth clients (e.g. mcp-remote /
-     * Nexus) must complete browser sign-in so tokens are issued before connect.
+     * All MCP JSON-RPC calls require either an OAuth Bearer token or an API key.
+     * OAuth clients (e.g. mcp-remote / Nexus) must complete browser sign-in so
+     * tokens are issued before connect.
      * Public tool metadata for store review lives at /.well-known/mcp/server-card.json.
      */
     public function handle(Request $request, Closure $next): Response
     {
-        if (! empty($request->bearerToken())) {
+        if (! empty($request->bearerToken()) || ! empty($request->header('x-api-key'))) {
             return $next($request);
         }
 

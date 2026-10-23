@@ -10,6 +10,7 @@ class ArchivistClient
 {
     public function __construct(
         private readonly string $token,
+        private readonly bool $usesApiKey = true,
     ) {}
 
     public function get(string $path, array $query = [], ?int $timeout = null): Response
@@ -49,7 +50,10 @@ class ArchivistClient
 
     private function request(?int $timeout = null): PendingRequest
     {
-        $request = Http::archivist(token: $this->token);
+        $request = Http::archivist(
+            token: $this->token,
+            usesApiKey: $this->usesApiKey,
+        );
 
         if ($timeout !== null) {
             $request = $request->timeout($timeout);

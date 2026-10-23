@@ -24,7 +24,20 @@ class AppServiceProvider extends ServiceProvider
             /** @var Request|null $request */
             $request = $app->bound('request') ? $app->make('request') : null;
 
-            return new ArchivistClient($request?->bearerToken() ?? '');
+            $apiKey = $request?->header('x-api-key');
+            if (is_string($apiKey) && $apiKey !== '') {
+                return new ArchivistClient(token: $apiKey, usesApiKey: true);
+            }
+
+            $bearerToken = $request?->bearerToken();
+            if (is_string($bearerToken) && $bearerToken !== '') {
+                return new ArchivistClient(token: $bearerToken, usesApiKey: false);
+            }
+
+            return new ArchivistClient(
+                token: (string) config('services.archivist.api_key', ''),
+                usesApiKey: true,
+            );
         });
 
         $this->app->scoped(AuthContext::class, fn (Application $app): AuthContext => new AuthContext(
@@ -59,8 +72,14 @@ class AppServiceProvider extends ServiceProvider
             return $url;
         });
 
-        Http::macro('archivist', function (?string $token = null, ?PendingRequest $request = null): PendingRequest {
-            $token = $token ?? request()->bearerToken();
+        Http::macro('archivist', function (
+            ?string $token = null,
+            bool $usesApiKey = true,
+            ?PendingRequest $request = null,
+        ): PendingRequest {
+            $token ??= $usesApiKey
+                ? request()->header('x-api-key')
+                : request()->bearerToken();
 
             if (empty($token)) {
                 throw new HttpClientException('Archivist API token is missing.');
@@ -76,7 +95,7 @@ class AppServiceProvider extends ServiceProvider
                     throw ArchivistApiException::fromResponse($response, $exception);
                 })
                 ->when(
-                    value: app()->runningUnitTests() || app()->isLocal(),
+                    value: $usesApiKey,
                     callback: fn (PendingRequest $request) => $request->withHeader('x-api-key', $token),
                     default: fn (PendingRequest $request) => $request->withToken($token),
                 );
