@@ -91,6 +91,12 @@ Add to your MCP configuration:
 Archivist AI is available as a ChatGPT plugin. Search for "Archivist AI" in the ChatGPT plugin store.
 </details>
 
+## Example Prompts
+
+- "List my campaigns, then summarize the most recent session of my Curse of Strahd campaign."
+- "Create a new NPC named Captain Mirelle Voss, a smuggler who works for the Silver Hand faction, and link her to the Port of Dusk location."
+- "Add a quest called 'Recover the Moonstone' to my campaign, then list all open quests and the characters involved."
+
 ## Available Tools
 
 Read tools are non-destructive and idempotent. Write tools follow standard REST semantics — deletes are destructive and idempotent; PATCH is non-idempotent; PUT is idempotent. Every read tool that returns text-carrying descriptions (Character, Faction, Location, Item, Moment, Beat, Session, Journal) accepts an optional `with_links` parameter — see [Wikilinks](#wikilinks) below for why you almost always want to pass `with_links: true` before editing.
@@ -274,3 +280,16 @@ Agents that cannot make arbitrary HTTP PUTs should hand the PUT step off to a hu
 `delete_entity_image` removes an image within a campaign in one of two modes:
 - **By entity**: pass `entity_type` + `entity_id`. The API detaches the image from the record AND deletes the underlying object.
 - **By URL**: pass a managed `image_url` (e.g. from a previous `init_image_upload` response). Deletes just the object.
+
+## Troubleshooting
+
+- **Authentication fails or tools return 401:** reconnect the server and complete the OAuth sign-in again, or check that your API key is current in [app.myarchivist.ai](https://app.myarchivist.ai).
+- **Write tools are missing:** write tools are only listed when your OAuth client has the `agent_write` scope. Reconnect and approve write access.
+- **Claude Desktop does not connect:** it needs the [`mcp-remote`](https://github.com/geelen/mcp-remote) proxy and Node.js; restart Claude Desktop after editing its config.
+- **Wikilinks disappear after an edit:** read the record with `with_links: true` before updating it. See [Wikilinks](#wikilinks).
+
+## Privacy and Support
+
+- **Privacy policy:** <https://www.myarchivist.ai/privacy>
+- **Support and security contact:** [support@myarchivist.ai](mailto:support@myarchivist.ai)
+- **Community:** [Discord](https://discord.gg/t3yk6AWyg7)
