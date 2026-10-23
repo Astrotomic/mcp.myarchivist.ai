@@ -35,7 +35,7 @@ class AppServiceProvider extends ServiceProvider
             }
 
             return new ArchivistClient(
-                token: (string) config('services.archivist.api_key', ''),
+                token: config()->string('services.archivist.api_key', ''),
                 usesApiKey: true,
             );
         });
