@@ -42,10 +42,10 @@ Add to your `claude_desktop_config.json` (`~/Library/Application Support/Claude/
         "mcp-remote",
         "https://mcp.myarchivist.ai/mcp",
         "--header",
-        "Authorization:${AUTH_HEADER}"
+        "X-API-Key:${ARCHIVIST_API_KEY}"
       ],
       "env": {
-        "AUTH_HEADER": "Bearer YOUR_API_KEY"
+        "ARCHIVIST_API_KEY": "YOUR_API_KEY"
       }
     }
   }
@@ -53,6 +53,45 @@ Add to your `claude_desktop_config.json` (`~/Library/Application Support/Claude/
 ```
 
 Replace `YOUR_API_KEY` with your Archivist AI API key from [app.myarchivist.ai](https://app.myarchivist.ai). Restart Claude Desktop after saving.
+
+API keys must be sent in the `X-API-Key` header. Do not put an API key in an
+`Authorization: Bearer` header; Bearer credentials are reserved for OAuth access
+tokens.
+</details>
+
+<details>
+<summary>OpenCode</summary>
+
+OAuth (recommended):
+```json
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "archivist-ai": {
+      "type": "remote",
+      "url": "https://mcp.myarchivist.ai/mcp"
+    }
+  }
+}
+```
+
+To use an API key instead, disable OAuth auto-detection and send the key in
+`X-API-Key`:
+```json
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "archivist-ai": {
+      "type": "remote",
+      "url": "https://mcp.myarchivist.ai/mcp",
+      "oauth": false,
+      "headers": {
+        "X-API-Key": "{env:ARCHIVIST_API_KEY}"
+      }
+    }
+  }
+}
+```
 </details>
 
 <details>
