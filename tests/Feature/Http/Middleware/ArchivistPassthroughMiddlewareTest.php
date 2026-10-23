@@ -8,6 +8,23 @@ use Tests\FeatureTestCase;
 class ArchivistPassthroughMiddlewareTest extends FeatureTestCase
 {
     #[Test]
+    public function it_accepts_an_api_key_header(): void
+    {
+        $response = $this->withHeader('x-api-key', 'test-api-key')->postJson('/mcp', [
+            'jsonrpc' => '2.0',
+            'method' => 'initialize',
+            'params' => [
+                'protocolVersion' => '2024-11-05',
+                'capabilities' => [],
+                'clientInfo' => ['name' => 'test', 'version' => '1.0'],
+            ],
+            'id' => 1,
+        ]);
+
+        $response->assertOk()->assertJsonPath('result.serverInfo.name', 'Archivist AI');
+    }
+
+    #[Test]
     public function it_requires_auth_for_unauthenticated_initialize(): void
     {
         $response = $this->postJson('/mcp', [
