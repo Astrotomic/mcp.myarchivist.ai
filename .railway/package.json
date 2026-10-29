@@ -1,0 +1,6 @@
+{
+  "private": true,
+  "dependencies": {
+    "railway": "3.12.0"
+  }
+}
