@@ -11,7 +11,9 @@ use Laravel\Mcp\Server\Tools\Annotations\IsOpenWorld;
 use Laravel\Mcp\Server\Tools\Annotations\IsReadOnly;
 
 #[Description(
-    'Update an existing journal entry (PUT). Returns {success, id}. When editing content, first '.
+    'Update an existing journal entry (PUT). Returns {success, id}. content is plain text by '.
+    'default; set content_format="markdown" to convert it to a rich document (headings, tables, '.
+    'fenced code, ```mermaid diagrams, formatting, links, lists). When editing content, first '.
     'fetch the entry with get_journal(with_links: true) so you can see and preserve existing '.
     '[[wikilinks]] — links are not auto-created from text, but existing [[…]] markup should be '.
     'kept if you want them rendered as links on read. Changing is_public or status can publish '.

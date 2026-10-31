@@ -16,6 +16,7 @@ final readonly class CreateJournal extends WriteApiAction
             'title' => ['required', 'string', 'max:255'],
             'summary' => ['nullable', 'string'],
             'content' => ['nullable', 'string'],
+            'content_format' => ['nullable', 'string', 'in:plain,markdown'],
             'content_rich' => ['nullable', 'array'],
             'content_metadata' => ['nullable', 'array'],
             'tags' => ['nullable', 'list'],

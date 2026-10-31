@@ -16,6 +16,7 @@ final readonly class UpdateJournal extends WriteApiAction
             'title' => ['nullable', 'string', 'max:255'],
             'summary' => ['nullable', 'string'],
             'content' => ['nullable', 'string'],
+            'content_format' => ['nullable', 'string', 'in:plain,markdown'],
             'content_rich' => ['nullable', 'array'],
             'content_metadata' => ['nullable', 'array'],
             'tags' => ['nullable', 'list'],
