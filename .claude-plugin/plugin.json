@@ -9,7 +9,9 @@
     "url": "https://www.myarchivist.ai"
   },
   "homepage": "https://www.myarchivist.ai/mcp",
-  "repository": "https://github.com/archivistai/mcp.myarchivist.ai",
+  "repository": "https://github.com/Astrotomic/mcp.myarchivist.ai",
   "license": "MIT",
-  "keywords": ["ttrpg", "tabletop", "campaign", "dnd", "game-master", "mcp"]
+  "keywords": ["ttrpg", "tabletop", "campaign", "dnd", "game-master", "mcp"],
+  "icon": ".claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://www.myarchivist.ai/privacy"
 }
