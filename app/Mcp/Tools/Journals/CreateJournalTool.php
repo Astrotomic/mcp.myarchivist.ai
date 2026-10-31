@@ -12,7 +12,9 @@ use Laravel\Mcp\Server\Tools\Annotations\IsReadOnly;
 
 #[Description(
     'Create a new journal entry in a campaign. Returns {success, id} on success. content is '.
-    'plain text; content_rich accepts a ProseMirror-style JSON document. Journals participate '.
+    'plain text by default; set content_format="markdown" to have content converted to a rich '.
+    'document (headings, tables, fenced code, ```mermaid diagrams, bold/italic/strikethrough, '.
+    'links, lists, quotes). content_rich accepts a ProseMirror-style JSON document. Journals participate '.
     'in the wikilinks system on serialization only: [[wikilinks]] in stored content are '.
     'rendered when you fetch with with_links=true, but on write the API does not create Link '.
     'rows from the text automatically. Create Link rows explicitly with create_link '.

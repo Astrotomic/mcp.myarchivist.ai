@@ -22,6 +22,16 @@
                 "null"
             ]
         },
+        "content_format": {
+            "enum": [
+                "plain",
+                "markdown"
+            ],
+            "type": [
+                "string",
+                "null"
+            ]
+        },
         "content_rich": {
             "type": [
                 "object",
