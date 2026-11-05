@@ -15,7 +15,7 @@ class CharacterData extends ArchivistDto
             'player' => ['nullable', 'array'],
             'description' => ['nullable', 'string'],
             'image' => ['nullable', 'string'],
-            'type' => ['nullable', 'string', 'in:PC,NPC'],
+            'type' => ['nullable', 'string'],
             'character_aliases' => ['nullable', 'list'],
             'player_handle' => ['nullable', 'string'],
             'backstory' => ['nullable', 'string'],

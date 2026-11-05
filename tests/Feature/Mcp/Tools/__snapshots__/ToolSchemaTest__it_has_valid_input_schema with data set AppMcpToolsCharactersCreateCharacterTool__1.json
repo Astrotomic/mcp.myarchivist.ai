@@ -45,7 +45,8 @@
         "type": {
             "enum": [
                 "PC",
-                "NPC"
+                "NPC",
+                "Creature"
             ],
             "type": [
                 "string",

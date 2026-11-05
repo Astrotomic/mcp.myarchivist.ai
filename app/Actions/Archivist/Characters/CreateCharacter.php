@@ -20,7 +20,7 @@ final readonly class CreateCharacter extends WriteApiAction
             'player_handle' => ['nullable', 'string'],
             'description' => ['nullable', 'string'],
             'backstory' => ['nullable', 'string'],
-            'type' => ['nullable', 'string', 'in:PC,NPC'],
+            'type' => ['nullable', 'string', 'in:PC,NPC,Creature'],
             'image' => ['nullable', 'string'],
             'speaker_id' => ['nullable', 'string'],
         ];

@@ -40,10 +40,6 @@
             ]
         },
         "type": {
-            "enum": [
-                "PC",
-                "NPC"
-            ],
             "type": [
                 "string",
                 "null"

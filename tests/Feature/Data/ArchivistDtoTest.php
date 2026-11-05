@@ -4,12 +4,14 @@ namespace Tests\Feature\Data;
 
 use App\Data\CampaignData;
 use App\Data\CampaignDataShort;
+use App\Data\CharacterData;
 use App\Data\JournalDataShort;
 use App\Exceptions\DtoValidationException;
 use App\Exceptions\UnexpectedDtoAttributeException;
 use Illuminate\Contracts\Debug\ExceptionHandler;
 use Illuminate\Foundation\Exceptions\Handler;
 use Illuminate\Support\Str;
+use PHPUnit\Framework\Attributes\DataProvider;
 use Symfony\Component\HttpFoundation\Response;
 use Tests\FeatureTestCase;
 
@@ -173,6 +175,35 @@ class ArchivistDtoTest extends FeatureTestCase
         });
 
         $this->assertEmpty($reported);
+    }
+
+    #[DataProvider('characterTypeProvider')]
+    public function test_character_data_accepts_any_character_type(string $type): void
+    {
+        $reported = $this->captureReported(function () use ($type) {
+            $data = new CharacterData([
+                'id' => 'char_1',
+                'campaign_id' => 'camp_1',
+                'character_name' => 'Owlbear',
+                'type' => $type,
+                'merge' => false,
+                'created_at' => '2024-01-01',
+            ]);
+
+            $this->assertSame($type, $data->get('type'));
+        });
+
+        $this->assertEmpty($reported);
+    }
+
+    public static function characterTypeProvider(): array
+    {
+        return [
+            'PC' => ['PC'],
+            'NPC' => ['NPC'],
+            'Creature' => ['Creature'],
+            'legacy GM' => ['GM'],
+        ];
     }
 
     /**
