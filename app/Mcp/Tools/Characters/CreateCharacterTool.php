@@ -12,7 +12,7 @@ use Laravel\Mcp\Server\Tools\Annotations\IsOpenWorld;
 use Laravel\Mcp\Server\Tools\Annotations\IsReadOnly;
 
 #[Description(
-    'Create a new character (PC or NPC) in a campaign. '.WikilinkPrompts::CREATE_COMPENDIUM_TEXT
+    'Create a new character (PC, NPC or Creature) in a campaign. '.WikilinkPrompts::CREATE_COMPENDIUM_TEXT
 )]
 #[IsReadOnly(false)]
 #[IsDestructive(false)]

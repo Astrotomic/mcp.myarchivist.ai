@@ -110,6 +110,44 @@ final class WriteActionsTest extends FeatureTestCase
     }
 
     #[Test]
+    public function create_character_accepts_creature_type(): void
+    {
+        Http::fake([
+            self::BASE_URL.'/v1/characters' => Http::response(
+                array_merge($this->fakeCharacter(), ['character_name' => 'Owlbear', 'type' => 'Creature']),
+                201,
+            ),
+        ]);
+
+        $result = CreateCharacter::make()->execute([
+            'campaign_id' => 'camp_1',
+            'character_name' => 'Owlbear',
+            'type' => 'Creature',
+        ]);
+
+        $this->assertSame('Creature', $result->get('type'));
+        Http::assertSent(fn (Request $request) => $request['type'] === 'Creature');
+    }
+
+    #[Test]
+    public function update_character_accepts_creature_type(): void
+    {
+        Http::fake([
+            self::BASE_URL.'/v1/characters/char_1' => Http::response(
+                array_merge($this->fakeCharacter(), ['type' => 'Creature']),
+                200,
+            ),
+        ]);
+
+        UpdateCharacter::make()->execute([
+            'character_id' => 'char_1',
+            'type' => 'Creature',
+        ]);
+
+        Http::assertSent(fn (Request $request) => $request->method() === 'PATCH' && $request['type'] === 'Creature');
+    }
+
+    #[Test]
     public function update_character_does_not_mangle_wikilinks_in_body(): void
     {
         $original = 'Rumoured heir of [[House Vale]].';
