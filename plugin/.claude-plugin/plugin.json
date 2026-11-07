@@ -13,5 +13,8 @@
   "license": "MIT",
   "keywords": ["ttrpg", "tabletop", "campaign", "dnd", "game-master", "mcp"],
   "icon": ".claude-plugin/icon.png",
-  "privacyPolicyUrl": "https://www.myarchivist.ai/privacy"
+  "privacyPolicyUrl": "https://www.myarchivist.ai/privacy",
+  "documentationUrl": "https://developers.myarchivist.ai/mcp",
+  "supportUrl": "https://www.myarchivist.ai/contact",
+  "termsOfServiceUrl": "https://www.myarchivist.ai/terms"
 }
