@@ -15,7 +15,8 @@ use Laravel\Mcp\Server\Tools\Annotations\IsReadOnly;
     'Item/Moment). Operations: (1) add — introduce a new [[alias]] pointing at target_id in '.
     'every text field currently containing that alias in plain form; (2) remove — unbracket '.
     'every [[alias]] that resolves to target_id; (3) update — repoint every existing link to '.
-    'target_id to new_target_id, and/or rename its alias to new_alias. The request is '.
+    'target_id to new_target_id, and/or rename its alias to new_alias. Set alias to limit '.
+    'update to links with that existing alias; omit it to update all links to the target. The request is '.
     'accepted (202) and forwarded to a background webhook; the response contains a task_id '.
     'you can use to correlate downstream logs. Only the campaign owner can trigger this and '.
     'the account must have an active subscription tier.'

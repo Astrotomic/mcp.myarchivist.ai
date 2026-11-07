@@ -42,6 +42,9 @@ final readonly class BulkLinkMaintenance extends WriteApiAction
         ];
 
         if ($operation === 'update') {
+            if ($input->filled('alias')) {
+                $body['alias'] = $input->string('alias')->toString();
+            }
             if ($input->filled('new_alias')) {
                 $body['newAlias'] = $input->string('new_alias')->toString();
             }
