@@ -534,6 +534,7 @@ final class WriteActionsTest extends FeatureTestCase
             'campaign_id' => 'camp_1',
             'target_id' => 'fac_1',
             'target_type' => 'Faction',
+            'alias' => 'Old Circle',
             'new_alias' => 'the Circle',
         ]);
 
@@ -543,7 +544,7 @@ final class WriteActionsTest extends FeatureTestCase
                 && $request['operation'] === 'update'
                 && $request['newAlias'] === 'the Circle'
                 && ! array_key_exists('targetType', $request->data())
-                && ! array_key_exists('alias', $request->data());
+                && $request['alias'] === 'Old Circle';
         });
     }
 
