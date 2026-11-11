@@ -1,0 +1,91 @@
+{
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "title": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "description": {
+            "type": "string"
+        },
+        "session_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "session_number": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "version_count": {
+            "type": "integer"
+        },
+        "hidden": {
+            "type": "boolean"
+        },
+        "status": {
+            "enum": [
+                "approved",
+                "pending"
+            ],
+            "type": "string"
+        },
+        "run_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "source": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "replaces_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "previous_title": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "previous_description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_at": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "updated_at": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "id",
+        "description",
+        "version_count",
+        "hidden",
+        "status"
+    ]
+}

@@ -19,7 +19,8 @@
             "tcg_image": null,
             "merge": false,
             "created_at": "2026-07-08T20:06:37.915000",
-            "updated_at": null
+            "updated_at": null,
+            "properties": null
         },
         {
             "id": "s7rhsvkl86v4i2efvsdr6v7h",
@@ -39,7 +40,8 @@
             "tcg_image": null,
             "merge": false,
             "created_at": "2026-06-17T20:07:14.114000",
-            "updated_at": null
+            "updated_at": null,
+            "properties": null
         }
     ],
     "from": 1,

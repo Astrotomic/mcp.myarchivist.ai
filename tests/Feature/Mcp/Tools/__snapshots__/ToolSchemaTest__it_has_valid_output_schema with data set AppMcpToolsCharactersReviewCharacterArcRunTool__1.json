@@ -1,0 +1,29 @@
+{
+    "properties": {
+        "run_id": {
+            "type": "string"
+        },
+        "action": {
+            "enum": [
+                "approve",
+                "decline"
+            ],
+            "type": "string"
+        },
+        "affected": {
+            "type": "integer"
+        },
+        "restored_ids": {
+            "type": [
+                "array",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "run_id",
+        "action",
+        "affected"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "properties": {
+        "campaign_id": {
+            "type": "string"
+        },
+        "entity_type": {
+            "enum": [
+                "characters",
+                "factions",
+                "locations",
+                "items"
+            ],
+            "type": "string"
+        },
+        "entity_id": {
+            "type": "string"
+        },
+        "properties": {
+            "type": "object"
+        }
+    },
+    "type": "object",
+    "required": [
+        "campaign_id",
+        "entity_type",
+        "entity_id",
+        "properties"
+    ]
+}

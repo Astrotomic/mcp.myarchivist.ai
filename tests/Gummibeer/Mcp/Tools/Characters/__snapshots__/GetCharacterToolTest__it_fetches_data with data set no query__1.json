@@ -14,5 +14,6 @@
     "tcg_image": null,
     "merge": true,
     "created_at": "2026-03-04T21:13:23.742000",
-    "updated_at": null
+    "updated_at": null,
+    "properties": null
 }

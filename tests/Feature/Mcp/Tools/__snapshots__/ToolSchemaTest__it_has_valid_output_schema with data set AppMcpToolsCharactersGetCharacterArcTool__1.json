@@ -1,0 +1,15 @@
+{
+    "properties": {
+        "character_id": {
+            "type": "string"
+        },
+        "themes": {
+            "type": "array"
+        }
+    },
+    "type": "object",
+    "required": [
+        "character_id",
+        "themes"
+    ]
+}

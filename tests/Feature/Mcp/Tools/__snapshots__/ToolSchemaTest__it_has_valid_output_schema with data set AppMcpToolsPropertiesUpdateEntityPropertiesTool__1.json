@@ -1,0 +1,25 @@
+{
+    "properties": {
+        "entity_id": {
+            "type": "string"
+        },
+        "entity_type": {
+            "type": "string"
+        },
+        "compendium_entity_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "tables": {
+            "type": "array"
+        }
+    },
+    "type": "object",
+    "required": [
+        "entity_id",
+        "entity_type",
+        "tables"
+    ]
+}

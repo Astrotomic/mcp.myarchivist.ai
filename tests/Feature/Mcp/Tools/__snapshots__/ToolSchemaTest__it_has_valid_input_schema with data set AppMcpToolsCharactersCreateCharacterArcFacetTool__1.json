@@ -1,0 +1,40 @@
+{
+    "properties": {
+        "character_id": {
+            "type": "string"
+        },
+        "theme": {
+            "enum": [
+                "CharacterDevelopment",
+                "Relationships",
+                "CombatCapability",
+                "KnowledgeDiscovery",
+                "ReputationAffiliation",
+                "ItemsResources",
+                "ConditionsConsequences"
+            ],
+            "type": "string"
+        },
+        "title": {
+            "maxLength": 255,
+            "type": "string"
+        },
+        "description": {
+            "maxLength": 10000,
+            "type": "string"
+        },
+        "session_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "character_id",
+        "theme",
+        "title",
+        "description"
+    ]
+}

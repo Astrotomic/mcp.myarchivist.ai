@@ -13,7 +13,8 @@
             "tcg_image": null,
             "merge": false,
             "created_at": "2026-07-07T22:59:54.687000",
-            "updated_at": null
+            "updated_at": null,
+            "properties": null
         },
         {
             "id": "uwh3615mg8oz5rvpjg58urc8",
@@ -29,7 +30,8 @@
             "tcg_image": null,
             "merge": true,
             "created_at": "2026-07-07T22:20:46.891000",
-            "updated_at": null
+            "updated_at": null,
+            "properties": null
         },
         {
             "id": "yiv02n9jwa4bquy063pvll7x",
@@ -43,7 +45,8 @@
             "tcg_image": null,
             "merge": false,
             "created_at": "2026-07-07T22:59:54.575000",
-            "updated_at": null
+            "updated_at": null,
+            "properties": null
         },
         {
             "id": "hr1b8vuobxvh811rf3mq076m",
@@ -59,7 +62,8 @@
             "tcg_image": null,
             "merge": false,
             "created_at": "2026-07-07T22:59:54.236000",
-            "updated_at": null
+            "updated_at": null,
+            "properties": null
         },
         {
             "id": "oi25iioyknchcyrp93j9m6a8",
@@ -73,7 +77,8 @@
             "tcg_image": null,
             "merge": false,
             "created_at": "2026-07-07T22:59:54.922000",
-            "updated_at": null
+            "updated_at": null,
+            "properties": null
         },
         {
             "id": "os0a7pno5dh0hz04zxi19xt5",
@@ -87,7 +92,8 @@
             "tcg_image": null,
             "merge": false,
             "created_at": "2026-07-07T22:59:54.348000",
-            "updated_at": null
+            "updated_at": null,
+            "properties": null
         }
     ],
     "from": 1,

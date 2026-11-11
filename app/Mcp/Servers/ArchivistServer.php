@@ -13,10 +13,15 @@ use App\Mcp\Tools\Campaigns\GetCampaignStatsTool;
 use App\Mcp\Tools\Campaigns\GetCampaignTool;
 use App\Mcp\Tools\Campaigns\ListCampaignsTool;
 use App\Mcp\Tools\Campaigns\UpdateCampaignTool;
+use App\Mcp\Tools\Characters\CreateCharacterArcFacetTool;
 use App\Mcp\Tools\Characters\CreateCharacterTool;
+use App\Mcp\Tools\Characters\DeleteCharacterArcFacetTool;
 use App\Mcp\Tools\Characters\DeleteCharacterTool;
+use App\Mcp\Tools\Characters\GetCharacterArcTool;
 use App\Mcp\Tools\Characters\GetCharacterTool;
 use App\Mcp\Tools\Characters\ListCharactersTool;
+use App\Mcp\Tools\Characters\ReviewCharacterArcRunTool;
+use App\Mcp\Tools\Characters\UpdateCharacterArcFacetTool;
 use App\Mcp\Tools\Characters\UpdateCharacterTool;
 use App\Mcp\Tools\Factions\CreateFactionTool;
 use App\Mcp\Tools\Factions\DeleteFactionTool;
@@ -62,6 +67,7 @@ use App\Mcp\Tools\Moments\DeleteMomentTool;
 use App\Mcp\Tools\Moments\GetMomentTool;
 use App\Mcp\Tools\Moments\ListMomentsTool;
 use App\Mcp\Tools\Moments\UpdateMomentTool;
+use App\Mcp\Tools\Properties\UpdateEntityPropertiesTool;
 use App\Mcp\Tools\Quests\CreateQuestTool;
 use App\Mcp\Tools\Quests\DeleteQuestTool;
 use App\Mcp\Tools\Quests\GetQuestTool;
@@ -90,9 +96,9 @@ use Laravel\Mcp\Server\Attributes\Version;
 use Laravel\Mcp\Server\Transport\FakeTransporter;
 
 #[Name('Archivist AI')]
-#[Version('3.0.1')]
+#[Version('3.1.0')]
 #[Instructions(<<<'INSTRUCTIONS'
-Read/write access to Archivist AI TTRPG campaign data: campaigns, characters, sessions, beats, key moments (moments), hero awards, quotes, spotlights, factions, locations, items, quests, journals, journal folders, entity links, and entity images. Archivist AI is a campaign memory platform for tabletop RPG game masters and players.
+Read/write access to Archivist AI TTRPG campaign data: campaigns, characters (including Properties and Character Arc), sessions, beats, key moments (moments), hero awards, quotes, spotlights, factions, locations, items, quests, journals, journal folders, entity links, and entity images. Archivist AI is a campaign memory platform for tabletop RPG game masters and players.
 
 ## Wikilinks (IMPORTANT for write tools)
 
@@ -126,6 +132,15 @@ Textual references between records use `[[Target Name|Optional Alias]]` markup. 
    - **Pipe only when the visible label differs from the entity name**, e.g. `[[Queen Whatsherface|the queen]]` where the prose says "the queen".
    - **Never** write `[[Name|Name]]`, never put the "canonical" name on the left and a prose variant on the right for the same entity, and never mix look-alike characters (straight `'` vs curly `'`, etc.) across the pipe.
    - When re-wrapping aliases from `list_links`, the string inside `[[…]]` must match the stored `alias` field exactly.
+
+## Properties and Character Arc
+
+- **Properties** are the structured fields on characters, factions, locations and items (for PCs: Identity, such as class/species/alignment, and Connections, such as allies/memberships/signature_item; for other entities a General table). Read them with `with_properties: true` on `get_character` / `get_faction` / `get_location` / `get_item`; write them with `update_entity_properties` (partial: only the keys you send change). Connection fields hold entity references: write them with entity ids (from `connections[].id`) or exact names, and use `{"add": [...], "remove": [...]}` to change one membership without resending the list. Properties do not affect wikilinks, so keep descriptions and properties consistent yourself when a fact changes (e.g. a new faction membership usually belongs in both).
+- **Character Arc** (PCs only) is a per-theme list of facets, each tagged with a session. Read it with `get_character_arc`. Session processing proposes arc changes that stay `pending` until reviewed: list them with `status: "pending"` (each has `run_id` and, for updates, `previous_description`), fix individual facets with `update_character_arc_facet` / `delete_character_arc_facet` if needed, then `review_character_arc_run` with `approve` or `decline`. Editing a facet's text creates a new version with a new id; always use the id returned by the last write.
+
+## Retries after timeouts
+
+If a write tool reports that the API did not respond in time, the change may still have been saved. Read the record back before retrying; never blindly repeat a create or an append.
 
 ## Images
 
@@ -163,6 +178,16 @@ final class ArchivistServer extends Server
         CreateCharacterTool::class,
         UpdateCharacterTool::class,
         DeleteCharacterTool::class,
+
+        // Character Arc
+        GetCharacterArcTool::class,
+        CreateCharacterArcFacetTool::class,
+        UpdateCharacterArcFacetTool::class,
+        DeleteCharacterArcFacetTool::class,
+        ReviewCharacterArcRunTool::class,
+
+        // Properties (characters, factions, locations, items)
+        UpdateEntityPropertiesTool::class,
 
         // Sessions
         ListSessionsTool::class,

@@ -53,6 +53,12 @@
                 "string",
                 "null"
             ]
+        },
+        "properties": {
+            "type": [
+                "array",
+                "null"
+            ]
         }
     },
     "type": "object",

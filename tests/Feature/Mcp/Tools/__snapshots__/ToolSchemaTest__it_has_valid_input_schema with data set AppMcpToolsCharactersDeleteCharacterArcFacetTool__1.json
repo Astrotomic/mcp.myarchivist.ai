@@ -1,0 +1,15 @@
+{
+    "properties": {
+        "character_id": {
+            "type": "string"
+        },
+        "facet_id": {
+            "type": "string"
+        }
+    },
+    "type": "object",
+    "required": [
+        "character_id",
+        "facet_id"
+    ]
+}

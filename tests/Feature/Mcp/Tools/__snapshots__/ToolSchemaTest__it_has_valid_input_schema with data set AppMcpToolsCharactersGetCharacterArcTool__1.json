@@ -1,0 +1,28 @@
+{
+    "properties": {
+        "character_id": {
+            "type": "string"
+        },
+        "status": {
+            "enum": [
+                "approved",
+                "pending",
+                "all"
+            ],
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "session_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "character_id"
+    ]
+}
