@@ -1,0 +1,17 @@
+{
+    "properties": {
+        "deleted_id": {
+            "type": "string"
+        },
+        "restored_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "deleted_id"
+    ]
+}

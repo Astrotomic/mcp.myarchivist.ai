@@ -1,0 +1,23 @@
+{
+    "properties": {
+        "character_id": {
+            "type": "string"
+        },
+        "run_id": {
+            "type": "string"
+        },
+        "action": {
+            "enum": [
+                "approve",
+                "decline"
+            ],
+            "type": "string"
+        }
+    },
+    "type": "object",
+    "required": [
+        "character_id",
+        "run_id",
+        "action"
+    ]
+}

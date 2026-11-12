@@ -19,6 +19,9 @@ class LocationData extends ArchivistDto
             'merge' => ['nullable', 'bool'],
             'created_at' => ['required', 'string', 'date'],
             'updated_at' => ['nullable', 'string', 'date'],
+            // Null unless requested with with_properties: the property tables
+            // (same shape as EntityPropertiesData.tables).
+            'properties' => ['nullable', 'list'],
         ];
     }
 }

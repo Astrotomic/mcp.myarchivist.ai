@@ -11,7 +11,7 @@ use Laravel\Mcp\Server\Tools\Annotations\IsIdempotent;
 use Laravel\Mcp\Server\Tools\Annotations\IsOpenWorld;
 use Laravel\Mcp\Server\Tools\Annotations\IsReadOnly;
 
-#[Description('Get a specific location by ID.')]
+#[Description('Get a specific location by ID. Pass with_properties: true to also return its structured Properties tables (fields with key, field_type, options, connection_types, value and, for connection fields, connections with entity ids).')]
 #[IsReadOnly(true)]
 #[IsDestructive(false)]
 #[IsIdempotent(true)]

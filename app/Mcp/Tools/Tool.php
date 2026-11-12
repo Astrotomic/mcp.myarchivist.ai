@@ -9,6 +9,7 @@ use App\Data\ArchivistDto;
 use App\Exceptions\ArchivistApiException;
 use App\Services\AuthContext;
 use Illuminate\Contracts\JsonSchema\JsonSchema;
+use Illuminate\Http\Client\ConnectionException;
 use Illuminate\JsonSchema\Types\Type;
 use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Support\Arr;
@@ -55,6 +56,10 @@ abstract class Tool extends BaseTool
             return Response::error($e->getMessage());
         } catch (ValidationException $e) {
             return Response::error(json_encode($e->errors(), JSON_THROW_ON_ERROR));
+        } catch (ConnectionException $e) {
+            report($e);
+
+            return Response::error($this->connectionErrorMessage($e));
         }
 
         if ($response instanceof LengthAwarePaginator) {
@@ -71,6 +76,28 @@ abstract class Tool extends BaseTool
         }
 
         return Response::structured($structured);
+    }
+
+    /**
+     * A timeout/connection failure is not an API error: for writes the API may
+     * still have committed the change after the client gave up. Say so, so
+     * the calling agent verifies instead of blindly retrying (which can
+     * duplicate creates/appends). Previously these exceptions escaped the tool
+     * and surfaced to clients as a generic JSON-RPC/502 error.
+     */
+    private function connectionErrorMessage(ConnectionException $e): string
+    {
+        $timedOut = str_contains($e->getMessage(), 'cURL error 28') || str_contains(strtolower($e->getMessage()), 'timed out');
+        $what = $timedOut
+            ? 'The MyArchivist API did not respond before the timeout.'
+            : 'Could not reach the MyArchivist API.';
+
+        if ($this->action() instanceof WriteApiAction) {
+            return $what.' This write may still have been applied. Read the record back (or list the '
+                .'collection) to check before retrying, otherwise a retry can duplicate the change.';
+        }
+
+        return $what.' This was a read, so it is safe to retry.';
     }
 
     /**

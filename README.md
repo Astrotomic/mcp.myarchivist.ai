@@ -16,7 +16,7 @@
 
 The official [Model Context Protocol](https://modelcontextprotocol.io) (MCP) server for [Archivist AI](https://www.myarchivist.ai) -- a TTRPG campaign memory platform for game masters and players.
 
-Registry metadata lives in [`server.json`](./server.json). Publishing to the [official MCP Registry](https://modelcontextprotocol.io/registry) is automated on version tags via [`.github/workflows/publish-mcp.yml`](./.github/workflows/publish-mcp.yml) (`git tag v3.0.1 && git push origin v3.0.1`).
+Registry metadata lives in [`server.json`](./server.json). Publishing to the [official MCP Registry](https://modelcontextprotocol.io/registry) is automated on version tags via [`.github/workflows/publish-mcp.yml`](./.github/workflows/publish-mcp.yml) (`git tag v3.1.0 && git push origin v3.1.0`).
 
 Connect AI assistants like Claude, ChatGPT, Cursor, Notion, and Windsurf directly to your campaign data: characters, sessions, locations, factions, items, quests, journals, key moments, hero awards, quotes, spotlights, and more.
 
@@ -211,25 +211,38 @@ Existing OAuth clients that connected before `agent_write` was advertised need t
 | Tool | Description |
 |------|-------------|
 | `list_characters` | List characters in a campaign. Filter by name, type (PC/NPC), or approval status. |
-| `get_character` | Get a character by ID including aliases, backstory, and speaker linkage. |
+| `get_character` | Get a character by ID including aliases, backstory, and `player_name`. Pass `with_properties: true` to include its Properties tables. |
 | `create_character` | Create a character. Description/backstory wikilinks auto-resolve. |
 | `update_character` | Partially update a character. Read with `with_links: true` before editing description/backstory. |
 | `delete_character` | Delete a character. API unbrackets all inbound `[[alias]]` references automatically. |
 | `list_factions` | List factions. Factions represent guilds, organisations, or other groups. |
-| `get_faction` | Get a specific faction by ID. |
+| `get_faction` | Get a specific faction by ID. Pass `with_properties: true` to include its Properties tables. |
 | `create_faction` | Create a faction. Description wikilinks auto-resolve. |
 | `update_faction` | Partially update a faction. Read with `with_links: true` before editing. |
 | `delete_faction` | Delete a faction. |
 | `list_locations` | List locations. Locations can be nested (cities, taverns, dungeons, etc.). |
-| `get_location` | Get a specific location by ID. |
+| `get_location` | Get a specific location by ID. Pass `with_properties: true` to include its Properties tables. |
 | `create_location` | Create a location. Description wikilinks auto-resolve. |
 | `update_location` | Partially update a location. Read with `with_links: true` before editing. |
 | `delete_location` | Delete a location (child locations have parent_id cleared). |
 | `list_items` | List items. Items include weapons, armour, artefacts, and other notable objects. |
-| `get_item` | Get a specific item by ID. |
+| `get_item` | Get a specific item by ID. Pass `with_properties: true` to include its Properties tables. |
 | `create_item` | Create an item. Description wikilinks auto-resolve. |
 | `update_item` | Partially update an item. Read with `with_links: true` before editing. |
 | `delete_item` | Delete an item. |
+| `update_entity_properties` | Partially update the structured Properties of a character, faction, location or item (only the keys you send change; connection fields take entity ids/names or `{"add", "remove"}`). |
+
+### Character Arc
+
+Character Arc is available for player characters (type `PC`).
+
+| Tool | Description |
+|------|-------------|
+| `get_character_arc` | A PC's arc facets grouped by theme. `status`: `approved` (canon), `pending` (awaiting review, with `run_id` and the text each update replaces) or `all` (default). |
+| `create_character_arc_facet` | Add an approved facet under a theme, optionally tagged with a session. |
+| `update_character_arc_facet` | Edit a facet's text, title, theme or session. A text change creates a new version (new id), as in the web app. |
+| `delete_character_arc_facet` | Delete a facet; the version it replaced (if any) becomes current again. |
+| `review_character_arc_run` | Approve or decline every pending change from one session-processing run. |
 
 ### Quests
 
@@ -238,7 +251,7 @@ Existing OAuth clients that connected before `agent_write` was advertised need t
 | `list_quests` | List quests with pagination. Filter by status or category. |
 | `get_quest` | Get a fully expanded quest: objectives, progress log, related entities, session provenance. |
 | `create_quest` | Create a quest entry. Quests do not participate in the wikilinks system. |
-| `update_quest` | Partially update a quest. Lists you send replace their corresponding lists on the record. |
+| `update_quest` | Partially update a quest. Lists you send replace their corresponding lists on the record; send objectives and `progress_log` entries as objects with their `id` (and optional `session_id`) to keep each entry's identity and session. |
 | `delete_quest` | Delete a quest and its objectives / progress entries / related refs. |
 
 ### Journals
@@ -325,6 +338,7 @@ Agents that cannot make arbitrary HTTP PUTs should hand the PUT step off to a hu
 - **Authentication fails or tools return 401:** reconnect the server and complete the OAuth sign-in again, or check that your API key is current in [app.myarchivist.ai](https://app.myarchivist.ai).
 - **Write tools are missing (agent OAuth clients only):** write tools are hidden from agent OAuth clients that lack the `agent_write` scope. Reconnect and approve write access. API keys and non-agent OAuth clients always see all tools; see [OAuth scopes and write access](#oauth-scopes-and-write-access).
 - **Claude Desktop does not connect:** it needs the [`mcp-remote`](https://github.com/geelen/mcp-remote) proxy and Node.js; restart Claude Desktop after editing its config.
+- **A write reports a timeout:** the API may still have saved the change. Read the record back before retrying so you don't duplicate it.
 - **Wikilinks disappear after an edit:** read the record with `with_links: true` before updating it. See [Wikilinks](#wikilinks).
 
 ## Privacy and Support

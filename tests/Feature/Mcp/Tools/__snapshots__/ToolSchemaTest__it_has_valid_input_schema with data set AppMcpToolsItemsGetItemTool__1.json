@@ -8,6 +8,12 @@
                 "boolean",
                 "null"
             ]
+        },
+        "with_properties": {
+            "type": [
+                "boolean",
+                "null"
+            ]
         }
     },
     "type": "object",

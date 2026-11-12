@@ -1,7 +1,7 @@
 {
   "name": "archivist-ai",
   "displayName": "Archivist AI",
-  "version": "3.0.1",
+  "version": "3.1.0",
   "description": "Read and write your Archivist AI tabletop RPG campaign memory: campaigns, characters, sessions, factions, locations, items, quests, journals, and more.",
   "author": {
     "name": "Archivist AI",
