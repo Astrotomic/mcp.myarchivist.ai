@@ -102,7 +102,7 @@ Read/write access to Archivist AI TTRPG campaign data: campaigns, characters (in
 
 ## Creatures
 
-Creatures use the Character tools and record IDs. Pass `type: "Creature"` to `create_character` or `update_character`, or `character_type: "Creature"` to `list_characters` (including with `search`). Use `Character` as the entity type for links and image uploads.
+Creatures use the Character tools and record IDs. Pass `type: "Creature"` to `create_character` or `update_character`, or `character_type: "Creature"` to `list_characters` (including with `search`). For links, set `from_type` or `to_type` to `Character`; for image uploads, set `entity_type` to lowercase `character`.
 
 ## Wikilinks (IMPORTANT for write tools)
 

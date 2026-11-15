@@ -208,7 +208,7 @@ Existing OAuth clients that connected before `agent_write` was advertised need t
 
 ### World Building
 
-Creatures are Character records with `type: "Creature"`. Use the existing character tools for create, read, update, and delete; pass `character_type: "Creature"` to `list_characters` to filter results, including when using `search`. Links and image uploads use the canonical `Character` entity type and record ID.
+Creatures are Character records with `type: "Creature"`. Use the existing character tools for create, read, update, and delete; pass `character_type: "Creature"` to `list_characters` to filter results, including when using `search`. Use the Creature's Character record ID for links and image uploads. For links, set `from_type` or `to_type` to `Character`; for image uploads, set `entity_type` to lowercase `character`.
 
 | Tool | Description |
 |------|-------------|
