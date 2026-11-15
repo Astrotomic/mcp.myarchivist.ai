@@ -100,6 +100,10 @@ use Laravel\Mcp\Server\Transport\FakeTransporter;
 #[Instructions(<<<'INSTRUCTIONS'
 Read/write access to Archivist AI TTRPG campaign data: campaigns, characters (including Properties and Character Arc), sessions, beats, key moments (moments), hero awards, quotes, spotlights, factions, locations, items, quests, journals, journal folders, entity links, and entity images. Archivist AI is a campaign memory platform for tabletop RPG game masters and players.
 
+## Creatures
+
+Creatures use the Character tools and record IDs. Pass `type: "Creature"` to `create_character` or `update_character`, or `character_type: "Creature"` to `list_characters` (including with `search`). Use `Character` as the entity type for links and image uploads.
+
 ## Wikilinks (IMPORTANT for write tools)
 
 Textual references between records use `[[Target Name|Optional Alias]]` markup. The API's handling of wikilinks depends on the record type, and getting this wrong on a write will silently destroy existing links. Before editing any text field that carries wikilinks, always:
