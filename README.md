@@ -208,9 +208,11 @@ Existing OAuth clients that connected before `agent_write` was advertised need t
 
 ### World Building
 
+Creatures are Character records with `type: "Creature"`. Use the existing character tools for create, read, update, and delete; pass `character_type: "Creature"` to `list_characters` to filter results, including when using `search`. Use the Creature's Character record ID for links and image uploads. For links, set `from_type` or `to_type` to `Character`; for image uploads, set `entity_type` to lowercase `character`.
+
 | Tool | Description |
 |------|-------------|
-| `list_characters` | List characters in a campaign. Filter by name, type (PC/NPC), or approval status. |
+| `list_characters` | List characters in a campaign. Filter by name, type (PC/NPC/Creature), or approval status. |
 | `get_character` | Get a character by ID including aliases, backstory, and `player_name`. Pass `with_properties: true` to include its Properties tables. |
 | `create_character` | Create a character. Description/backstory wikilinks auto-resolve. |
 | `update_character` | Partially update a character. Read with `with_links: true` before editing description/backstory. |

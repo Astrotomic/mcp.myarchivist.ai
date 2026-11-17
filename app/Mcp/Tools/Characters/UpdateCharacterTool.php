@@ -12,7 +12,7 @@ use Laravel\Mcp\Server\Tools\Annotations\IsOpenWorld;
 use Laravel\Mcp\Server\Tools\Annotations\IsReadOnly;
 
 #[Description(
-    'Partially update a character. Only the fields you include are changed. '.WikilinkPrompts::UPDATE_COMPENDIUM_TEXT
+    'Partially update a PC, NPC, or Creature. Only the fields you include are changed; set type to Creature to reclassify a record. '.WikilinkPrompts::UPDATE_COMPENDIUM_TEXT
 )]
 #[IsReadOnly(false)]
 #[IsDestructive(false)]
