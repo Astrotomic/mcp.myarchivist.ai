@@ -13,6 +13,10 @@ The plugin adds one remote MCP server:
 
 Write tools (create, update, delete, image upload) need the `agent_write` scope. If they're missing, reconnect and approve write access.
 
+## Included skill
+
+- **`archivist-get-started`**: first-run onboarding. When someone has just connected Archivist or their campaign is empty, Claude asks what they have, such as a recap, notes, a transcript, a character sheet or just what they remember. Claude then previews a draft and, with their confirmation, saves it as their first session, a journal entry or compendium records. A session uses one of the account's sessions and always goes to Session Review in the app before anything is added to the campaign.
+
 ## Links
 
 - Product: https://www.myarchivist.ai

@@ -1,0 +1,43 @@
+{
+    "properties": {
+        "campaign_id": {
+            "type": "string"
+        },
+        "text": {
+            "type": "string"
+        },
+        "format": {
+            "enum": [
+                "notes",
+                "transcript"
+            ],
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "title": {
+            "maxLength": 255,
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "session_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "idempotency_key": {
+            "maxLength": 200,
+            "type": "string"
+        }
+    },
+    "type": "object",
+    "required": [
+        "campaign_id",
+        "text",
+        "idempotency_key"
+    ]
+}

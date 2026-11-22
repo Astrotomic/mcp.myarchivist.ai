@@ -1,0 +1,23 @@
+{
+    "properties": {
+        "include_setup_guide": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "guide_section": {
+            "enum": [
+                "source-intake",
+                "paths",
+                "showcase",
+                "links"
+            ],
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    },
+    "type": "object"
+}

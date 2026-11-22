@@ -13,7 +13,8 @@
             "created_at": "2026-07-06T17:49:46.414000",
             "updated_at": "2026-07-07T23:15:46.324000",
             "archived": false,
-            "archived_at": null
+            "archived_at": null,
+            "viewer_role": null
         }
     ],
     "from": 1,

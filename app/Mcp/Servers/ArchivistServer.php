@@ -67,6 +67,7 @@ use App\Mcp\Tools\Moments\DeleteMomentTool;
 use App\Mcp\Tools\Moments\GetMomentTool;
 use App\Mcp\Tools\Moments\ListMomentsTool;
 use App\Mcp\Tools\Moments\UpdateMomentTool;
+use App\Mcp\Tools\Onboarding\GetStartedTool;
 use App\Mcp\Tools\Properties\UpdateEntityPropertiesTool;
 use App\Mcp\Tools\Quests\CreateQuestTool;
 use App\Mcp\Tools\Quests\DeleteQuestTool;
@@ -78,6 +79,7 @@ use App\Mcp\Tools\Quotes\DeleteQuoteTool;
 use App\Mcp\Tools\Quotes\GetQuoteTool;
 use App\Mcp\Tools\Quotes\ListQuotesTool;
 use App\Mcp\Tools\Quotes\UpdateQuoteTool;
+use App\Mcp\Tools\Sessions\CreateSessionFromNotesTool;
 use App\Mcp\Tools\Sessions\GetSessionCastAnalysisTool;
 use App\Mcp\Tools\Sessions\GetSessionHandoutTool;
 use App\Mcp\Tools\Sessions\GetSessionTool;
@@ -96,8 +98,10 @@ use Laravel\Mcp\Server\Attributes\Version;
 use Laravel\Mcp\Server\Transport\FakeTransporter;
 
 #[Name('Archivist AI')]
-#[Version('3.1.0')]
+#[Version('3.2.0')]
 #[Instructions(<<<'INSTRUCTIONS'
+`get-started-tool` returns a user's setup status and Archivist's guided setup steps. It covers requests to set up Archivist, get started, add a first session, or work in an empty campaign.
+
 Read/write access to Archivist AI TTRPG campaign data: campaigns, characters (including Properties and Character Arc), sessions, beats, key moments (moments), hero awards, quotes, spotlights, factions, locations, items, quests, journals, journal folders, entity links, and entity images. Archivist AI is a campaign memory platform for tabletop RPG game masters and players.
 
 ## Creatures
@@ -157,7 +161,7 @@ Use `delete_entity_image` to detach and clean up either by `entity_type` + `enti
 
 ## Excluded operations
 
-Campaign delete, session create/delete, product-view-only operations (beat reorder/batch-edit, campaign settings, cast/member management), and multipart recording uploads are intentionally not exposed as MCP tools in this version.
+Campaign delete, session delete, creating sessions from audio (only text, via `create-session-from-notes-tool`), product-view-only operations (beat reorder/batch-edit, campaign settings, cast/member management), and multipart recording uploads are intentionally not exposed as MCP tools in this version.
 
 AI image generation is also not exposed. Entity art can be uploaded and attached (see Images above), but there is no tool that generates it — that stays in the Archivist AI app. Do not tell the user you can generate campaign art; direct them to the app instead.
 INSTRUCTIONS)]
@@ -168,6 +172,9 @@ final class ArchivistServer extends Server
     public int $defaultPaginationLength = 100;
 
     protected array $tools = [
+        // Onboarding
+        GetStartedTool::class,
+
         // Campaigns
         ListCampaignsTool::class,
         GetCampaignTool::class,
@@ -200,6 +207,7 @@ final class ArchivistServer extends Server
         GetSessionHandoutTool::class,
         GetSessionTranscriptTool::class,
         PatchSessionTool::class,
+        CreateSessionFromNotesTool::class,
 
         // Beats
         ListBeatsTool::class,
