@@ -154,7 +154,7 @@ Existing OAuth clients that connected before `agent_write` was advertised need t
 
 | Tool | Description |
 |------|-------------|
-| `get-started-tool` | Read-only. Where the user stands (no campaign, player only, empty campaign, has sessions), the campaign to use, the user's role, sessions remaining, whether a session can be created now (and why not), and the onboarding playbook the assistant follows. The playbook is the same text as the bundled `archivist-get-started` skill. |
+| `get-started-tool` | Read-only. Where the user stands (no campaign, player only, empty campaign, has sessions), the campaign to use, the user's role, sessions remaining, whether a session can be created now (and why not), a short factual status summary, and the setup guide (the same text as the bundled `archivist-get-started` skill; omit it with `include_setup_guide: false`). |
 
 ### Campaigns
 

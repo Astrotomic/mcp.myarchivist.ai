@@ -11,7 +11,7 @@
             ],
             "type": "string"
         },
-        "next_step": {
+        "status_detail": {
             "type": "string"
         },
         "campaign": {
@@ -80,7 +80,7 @@
                 "null"
             ]
         },
-        "playbook": {
+        "setup_guide": {
             "type": [
                 "string",
                 "null"
@@ -90,7 +90,7 @@
     "type": "object",
     "required": [
         "status",
-        "next_step",
+        "status_detail",
         "can_write",
         "can_create_session"
     ]

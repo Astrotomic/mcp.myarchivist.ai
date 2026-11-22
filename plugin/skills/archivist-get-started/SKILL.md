@@ -29,9 +29,9 @@ Before your first message, call `get-started-tool`. It returns:
 - `sessions_remaining`
 - `can_write`: false means the connection is read-only
 - `can_create_session`, and a reason when it's false
-- a `next_step`
+- a `status_detail`: a short, factual summary of where they stand
 
-If you're reading this as a skill, pass `include_playbook: false`. You already have the playbook.
+If you're reading this as a skill, pass `include_setup_guide: false`, since you already have the guide. `status_detail` is a factual summary of the user's situation; how to act on it is in this skill.
 
 If `get-started-tool` isn't in the tool list (older server), use `list-campaigns-tool`, then `get-campaign-stats-tool` on the likeliest campaign.
 

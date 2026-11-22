@@ -16,7 +16,7 @@ use Symfony\Component\HttpFoundation\Response as HttpStatus;
 
 /**
  * One read that tells an assistant where a user stands in Archivist, plus the onboarding
- * playbook (the same text as the archivist-get-started skill), so hosts that don't load
+ * setup guide (the same text as the archivist-get-started skill), so hosts that don't load
  * skills — a plain Claude connector, ChatGPT without the setup flow — still get it.
  */
 final readonly class GetStarted extends ApiAction
@@ -28,14 +28,14 @@ final readonly class GetStarted extends ApiAction
 
     private const SKILL_DIR = 'plugin/skills/archivist-get-started';
 
-    /** Reference sections a caller can request one at a time with `playbook_reference`. */
+    /** Reference sections a caller can request one at a time with `guide_section`. */
     public const REFERENCE_SECTIONS = ['source-intake', 'paths', 'showcase', 'links'];
 
     public static function rules(): array
     {
         return [
-            'include_playbook' => ['nullable', 'boolean'],
-            'playbook_reference' => ['nullable', 'string', 'in:source-intake,paths,showcase,links'],
+            'include_setup_guide' => ['nullable', 'boolean'],
+            'guide_section' => ['nullable', 'string', 'in:source-intake,paths,showcase,links'],
         ];
     }
 
@@ -61,25 +61,25 @@ final readonly class GetStarted extends ApiAction
             throw $e;
         }
 
-        $reference = $validated->string('playbook_reference')->toString();
-        $playbook = match (true) {
+        $reference = $validated->string('guide_section')->toString();
+        $setupGuide = match (true) {
             $reference !== '' => self::reference($reference),
-            $validated->boolean('include_playbook', true) => self::playbook(),
+            $validated->boolean('include_setup_guide', true) => self::setupGuide(),
             default => null,
         };
 
-        return $this->build($me, $playbook);
+        return $this->build($me, $setupGuide);
     }
 
     protected function map(array $data): GetStartedData
     {
-        return $this->build($data, self::playbook());
+        return $this->build($data, self::setupGuide());
     }
 
     /**
      * @param  array<string, mixed>  $data  GET /v1/users/me
      */
-    private function build(array $data, ?string $playbook): GetStartedData
+    private function build(array $data, ?string $setupGuide): GetStartedData
     {
         $campaigns = $this->campaigns();
         $manageable = array_values(array_filter(
@@ -122,7 +122,7 @@ final readonly class GetStarted extends ApiAction
 
         return new GetStartedData([
             'status' => $status,
-            'next_step' => $this->nextStep($status, $canCreate, $canWrite),
+            'status_detail' => $this->statusDetail($status, $canCreate, $canWrite),
             'campaign' => $primary === null ? null : [
                 'id' => $primary['id'],
                 'title' => $primary['title'],
@@ -142,7 +142,7 @@ final readonly class GetStarted extends ApiAction
             'can_write' => $canWrite,
             'can_create_session' => $canCreate,
             'can_create_session_reason' => $reason,
-            'playbook' => $playbook,
+            'setup_guide' => $setupGuide,
         ]);
     }
 
@@ -217,21 +217,21 @@ final readonly class GetStarted extends ApiAction
     {
         // Checked first: without write access no fallback (journal, compendium) is possible either.
         if (! $canWrite) {
-            return [false, 'This connection is read-only, so nothing can be saved: no session, journal or compendium record. Ask the user to reconnect Archivist and approve write access before trying to save anything.'];
+            return [false, 'This connection is read-only: sessions, journal entries and compendium records can\'t be saved until Archivist is reconnected with write access.'];
         }
 
         if ($primary === null) {
-            return [false, 'The user has no campaign they run. Only a campaign owner or co-GM can add sessions.'];
+            return [false, 'The user doesn\'t run any campaign; only a campaign owner or co-GM can add sessions.'];
         }
 
         $access = is_array($me['access'] ?? null) ? $me['access'] : [];
         $accessLevel = $access['level'] ?? null;
         if ($accessLevel === 'read_only') {
-            return [false, 'New sessions are paused because the account\'s subscription is not active. Their material can still be saved as a journal entry or compendium records.'];
+            return [false, 'New sessions are paused because the account\'s subscription is not active. Journal entries and compendium records can still be saved.'];
         }
 
         if ($sessionsRemaining !== null && $sessionsRemaining < 1) {
-            return [false, 'No sessions are left in the current billing period. Their material can still be saved as a journal entry or compendium records.'];
+            return [false, 'No sessions are left in the current billing period. Journal entries and compendium records can still be saved.'];
         }
 
         return [true, null];
@@ -241,9 +241,9 @@ final readonly class GetStarted extends ApiAction
     {
         return new GetStartedData([
             'status' => GetStartedData::STATUS_SUBSCRIPTION_INACTIVE,
-            'next_step' => 'This account\'s subscription isn\'t active, so Archivist can\'t read or save campaign data '
-                .'through this connection right now. Explain that plainly and don\'t attempt any other Archivist tool. '
-                .'Everything already in their campaigns is still in the Archivist app.',
+            'status_detail' => 'The account\'s subscription isn\'t active, so campaign data can\'t be read or saved through '
+                .'this connection, and other Archivist tools will return the same error. Existing campaigns remain '
+                .'available in the Archivist app.',
             'campaign' => null,
             'campaigns' => [],
             'is_new_user' => null,
@@ -251,31 +251,49 @@ final readonly class GetStarted extends ApiAction
             'can_write' => false,
             'can_create_session' => false,
             'can_create_session_reason' => 'The account\'s subscription is not active, so this connection can\'t save anything.',
-            'playbook' => null,
+            'setup_guide' => null,
         ]);
     }
 
-    private function nextStep(string $status, bool $canCreate, bool $canWrite): string
+    /**
+     * A factual description of where the user stands. Guidance on what to do with it lives in
+     * the setup guide (the archivist-get-started skill), not here.
+     */
+    private function statusDetail(string $status, bool $canCreate, bool $canWrite): string
     {
         if (! $canWrite) {
-            return 'This connection is read-only. Tell the user what Archivist can do, answer questions with read tools, and ask them to reconnect Archivist with write access before saving anything. Do not attempt any save.';
+            return 'This connection is read-only. Campaign data can be read, but nothing can be saved until Archivist '
+                .'is reconnected with write access.';
         }
 
         return match ($status) {
-            GetStartedData::STATUS_NO_CAMPAIGN => 'Ask for the campaign name and system in one line, create it, then follow the playbook.',
-            GetStartedData::STATUS_PLAYER_ONLY => 'Follow the player path: their character, their own journal notes, and questions via ask-campaign. Players cannot add sessions.',
-            GetStartedData::STATUS_EMPTY_CAMPAIGN, GetStartedData::STATUS_NO_SESSIONS_YET => $canCreate
-                ? 'Follow the playbook: ask what they have, preview a draft, and with their confirmation create their first session from it.'
-                : 'Follow the playbook, saving their material as a journal or compendium records instead of a session.',
-            default => 'Skip the welcome. Ask what they want to add next; the next session uses the same intake.',
+            GetStartedData::STATUS_NO_CAMPAIGN => 'The user has no campaign yet. A campaign can be created with '
+                .'create-campaign-tool (a name and a game system).',
+            GetStartedData::STATUS_PLAYER_ONLY => 'The user is a player in the listed campaigns, not a GM. Players can\'t '
+                .'add sessions; they can keep their own journal entries, view their character, and ask questions about '
+                .'the campaign.',
+            GetStartedData::STATUS_EMPTY_CAMPAIGN => $canCreate
+                ? 'The campaign is empty. A session can be created from the user\'s notes, recap or transcript with '
+                    .'create-session-from-notes-tool; each new session uses one from the allowance.'
+                : 'The campaign is empty. Sessions can\'t be created right now (see can_create_session_reason); journal '
+                    .'entries and compendium records can still be saved.',
+            GetStartedData::STATUS_NO_SESSIONS_YET => $canCreate
+                ? 'The campaign has characters or other records but no sessions yet. A session can be created from the '
+                    .'user\'s notes, recap or transcript with create-session-from-notes-tool; each new session uses one '
+                    .'from the allowance.'
+                : 'The campaign has characters or other records but no sessions yet. Sessions can\'t be created right '
+                    .'now (see can_create_session_reason); journal entries and compendium records can still be saved.',
+            default => 'The campaign already has sessions. More can be added the same way.',
         };
     }
 
     /**
-     * The main onboarding playbook: SKILL.md without its frontmatter. Reference sections are
-     * left out to keep the result small; a caller fetches one with `playbook_reference`.
+     * Archivist's setup guide: the archivist-get-started skill's SKILL.md without its frontmatter,
+     * for hosts that don't load plugin skills (e.g. a Claude connector without the plugin).
+     * Reference sections are left out to keep the result small; a caller fetches one with
+     * `guide_section`.
      */
-    public static function playbook(): ?string
+    public static function setupGuide(): ?string
     {
         $skill = @file_get_contents(base_path(self::SKILL_DIR).'/SKILL.md');
         if (! is_string($skill)) {
@@ -284,8 +302,8 @@ final readonly class GetStarted extends ApiAction
 
         $body = trim((string) preg_replace('/\A---\R.*?\R---\R/s', '', $skill));
 
-        return '<!-- Reference sections (references/*.md) are available from get-started-tool with '
-            .'playbook_reference: '.implode(', ', self::REFERENCE_SECTIONS).'. -->'."\n\n".$body;
+        return '<!-- Archivist setup guide. Reference sections (references/*.md) are available from '
+            .'get-started-tool with guide_section: '.implode(', ', self::REFERENCE_SECTIONS).'. -->'."\n\n".$body;
     }
 
     public static function reference(string $section): ?string

@@ -1,12 +1,12 @@
 {
     "properties": {
-        "include_playbook": {
+        "include_setup_guide": {
             "type": [
                 "boolean",
                 "null"
             ]
         },
-        "playbook_reference": {
+        "guide_section": {
             "enum": [
                 "source-intake",
                 "paths",

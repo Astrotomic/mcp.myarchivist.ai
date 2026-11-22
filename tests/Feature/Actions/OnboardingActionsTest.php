@@ -149,12 +149,14 @@ final class OnboardingActionsTest extends FeatureTestCase
         $this->assertSame(2, $result->get('sessions_remaining'));
         $this->assertTrue($result->get('can_write'));
         $this->assertTrue($result->get('can_create_session'));
+        // Directory review: tool output states facts; instructions to the model live in the skill.
+        $this->assertDoesNotMatchRegularExpression('/\b(Ask|Follow|Tell|Explain|Do not|Don\'t attempt)\b/', $result->get('status_detail'));
         $this->assertTrue($result->get('is_new_user'));
-        $this->assertStringContainsString('Get started with Archivist', $result->get('playbook'));
-        $this->assertStringContainsString('playbook_reference', $result->get('playbook'));
-        $this->assertStringNotContainsString('# Turning a source into session notes', $result->get('playbook'), 'references are fetched separately');
+        $this->assertStringContainsString('Get started with Archivist', $result->get('setup_guide'));
+        $this->assertStringContainsString('guide_section', $result->get('setup_guide'));
+        $this->assertStringNotContainsString('# Turning a source into session notes', $result->get('setup_guide'), 'references are fetched separately');
         $this->assertArrayNotHasKey('subscription_tier', $result->toArray());
-        $this->assertStringNotContainsString('description: First-run onboarding', $result->get('playbook'), 'frontmatter is stripped');
+        $this->assertStringNotContainsString('description: First-run onboarding', $result->get('setup_guide'), 'frontmatter is stripped');
     }
 
     #[Test]
@@ -165,10 +167,10 @@ final class OnboardingActionsTest extends FeatureTestCase
             stats: ['w1' => [0, 0, 0]],
         );
 
-        $result = GetStarted::make()->execute(['playbook_reference' => 'source-intake']);
+        $result = GetStarted::make()->execute(['guide_section' => 'source-intake']);
 
-        $this->assertStringStartsWith('# Turning a source into session notes', $result->get('playbook'));
-        $this->assertStringNotContainsString('# Get started with Archivist', $result->get('playbook'));
+        $this->assertStringStartsWith('# Turning a source into session notes', $result->get('setup_guide'));
+        $this->assertStringNotContainsString('# Get started with Archivist', $result->get('setup_guide'));
     }
 
     #[Test]
@@ -182,12 +184,12 @@ final class OnboardingActionsTest extends FeatureTestCase
             stats: ['w1' => [0, 0, 0], 'w2' => [3, 12, 9]],
         );
 
-        $result = GetStarted::make()->execute(['include_playbook' => false]);
+        $result = GetStarted::make()->execute(['include_setup_guide' => false]);
 
         $this->assertSame('has_sessions', $result->get('status'));
         $this->assertSame('w2', $result->get('campaign')['id']);
         $this->assertSame(3, $result->get('campaign')['sessions']);
-        $this->assertNull($result->get('playbook'));
+        $this->assertNull($result->get('setup_guide'));
     }
 
     #[Test]
@@ -198,7 +200,7 @@ final class OnboardingActionsTest extends FeatureTestCase
             stats: [],
         );
 
-        $result = GetStarted::make()->execute(['include_playbook' => false]);
+        $result = GetStarted::make()->execute(['include_setup_guide' => false]);
 
         $this->assertSame('player_only', $result->get('status'));
         $this->assertNull($result->get('campaign'));
@@ -216,7 +218,7 @@ final class OnboardingActionsTest extends FeatureTestCase
             textSessionsRemaining: 0,
         );
 
-        $result = GetStarted::make()->execute(['include_playbook' => false]);
+        $result = GetStarted::make()->execute(['include_setup_guide' => false]);
 
         $this->assertSame('co_gm', $result->get('campaign')['role']);
         $this->assertNull($result->get('sessions_remaining'));
@@ -228,7 +230,7 @@ final class OnboardingActionsTest extends FeatureTestCase
     {
         $this->fakeAccount(campaigns: [], stats: []);
 
-        $result = GetStarted::make()->execute(['include_playbook' => false]);
+        $result = GetStarted::make()->execute(['include_setup_guide' => false]);
 
         $this->assertSame('no_campaign', $result->get('status'));
         $this->assertFalse($result->get('can_create_session'));
@@ -243,11 +245,11 @@ final class OnboardingActionsTest extends FeatureTestCase
             textSessionsRemaining: 0,
         );
 
-        $result = GetStarted::make()->execute(['include_playbook' => false]);
+        $result = GetStarted::make()->execute(['include_setup_guide' => false]);
 
         $this->assertSame('no_sessions_yet', $result->get('status'));
         $this->assertFalse($result->get('can_create_session'));
-        $this->assertStringContainsString('journal', $result->get('can_create_session_reason'));
+        $this->assertStringContainsStringIgnoringCase('journal', $result->get('can_create_session_reason'));
         // Host guidelines: no upgrade, plan or purchase prompts in tool output.
         $this->assertDoesNotMatchRegularExpression('/plan|upgrade|purchase|subscribe/i', $result->get('can_create_session_reason'));
     }
@@ -261,14 +263,14 @@ final class OnboardingActionsTest extends FeatureTestCase
             scopes: ['agent_read'],
         );
 
-        $result = GetStarted::make()->execute(['include_playbook' => false]);
+        $result = GetStarted::make()->execute(['include_setup_guide' => false]);
 
         $this->assertFalse($result->get('can_write'));
         $this->assertFalse($result->get('can_create_session'));
         $this->assertStringContainsString('read-only', $result->get('can_create_session_reason'));
         // Journals are writes too, so a read-only connection must not be steered to them.
-        $this->assertStringContainsString('reconnect', $result->get('next_step'));
-        $this->assertStringNotContainsString('journal', $result->get('next_step'));
+        $this->assertStringContainsString('reconnect', $result->get('status_detail'));
+        $this->assertStringNotContainsString('journal', $result->get('status_detail'));
         $this->assertStringNotContainsString('Save notes as a journal', $result->get('can_create_session_reason'));
     }
 
@@ -286,8 +288,8 @@ final class OnboardingActionsTest extends FeatureTestCase
         $this->assertFalse($result->get('can_write'));
         $this->assertFalse($result->get('can_create_session'));
         $this->assertSame([], $result->get('campaigns'));
-        $this->assertNull($result->get('playbook'));
-        $this->assertDoesNotMatchRegularExpression('/upgrade|purchase|subscribe now/i', $result->get('next_step'));
+        $this->assertNull($result->get('setup_guide'));
+        $this->assertDoesNotMatchRegularExpression('/upgrade|purchase|subscribe now/i', $result->get('status_detail'));
     }
 
     #[Test]
