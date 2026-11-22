@@ -11,19 +11,18 @@ use Laravel\Mcp\Server\Tools\Annotations\IsOpenWorld;
 use Laravel\Mcp\Server\Tools\Annotations\IsReadOnly;
 
 #[Description(
-    'Partially update a game session (limited fields: title, session_date, summary, notes, type, public, image). '.
-    'Omitted fields are left unchanged. notes holds the user-supplied content of rawNotes sessions. '.
-    'IMPORTANT: Sessions use the explicit-link contract, not the auto-resolve contract used by '.
-    'Character/Faction/Location/Item. On write, the API strips any [[alias]] markup whose alias '.
-    'does NOT already have a Link row for this session; new wikilinks in summary are silently '.
-    'dropped. To reference an entity, call create_link first with from_type="GameSession", then '.
-    'include [[alias]] in the summary. When editing summary, first fetch the session with '.
-    'get_session(with_links: true) to see current [[wikilinks]] and avoid losing them.'
+    'Update selected fields of an existing game session: title, session_date, summary, notes, type, public, or image. '.
+    'Omitted fields stay unchanged. A supplied summary or notes value replaces the entire field; null clears it. '.
+    'Notes are user-supplied content for rawNotes sessions. Setting public to true publishes the session; '.
+    'setting it to false removes the session-level public flag. Replacing or clearing image can delete the previous managed image. '.
+    'Before replacing the summary, fetch the session with with_links: true to preserve its existing wikilinks. '.
+    'The API strips [[alias]] markup for aliases without a link on this session. '.
+    'To introduce a new wikilink, first create a link from this GameSession to the intended entity.'
 )]
 #[IsReadOnly(false)]
-#[IsDestructive(false)]
+#[IsDestructive(true)]
 #[IsIdempotent(false)]
-#[IsOpenWorld(false)]
+#[IsOpenWorld(true)]
 class PatchSessionTool extends Tool
 {
     protected function action(): PatchSession

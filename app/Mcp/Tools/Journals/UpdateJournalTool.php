@@ -20,7 +20,7 @@ use Laravel\Mcp\Server\Tools\Annotations\IsReadOnly;
     'or unpublish the entry.'
 )]
 #[IsReadOnly(false)]
-#[IsDestructive(false)]
+#[IsDestructive(true)]
 #[IsIdempotent(true)]
 #[IsOpenWorld(true)]
 class UpdateJournalTool extends Tool

@@ -23,7 +23,7 @@ use Laravel\Mcp\Server\Tools\Annotations\IsReadOnly;
     'creatures, factions, locations and items have a General table.'
 )]
 #[IsReadOnly(false)]
-#[IsDestructive(false)]
+#[IsDestructive(true)]
 #[IsIdempotent(false)]
 #[IsOpenWorld(false)]
 class UpdateEntityPropertiesTool extends Tool

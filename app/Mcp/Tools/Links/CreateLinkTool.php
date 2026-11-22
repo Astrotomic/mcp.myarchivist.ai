@@ -16,10 +16,10 @@ use Laravel\Mcp\Server\Tools\Annotations\IsReadOnly;
     'Session referencing an Item. from_type may be Character/Faction/Location/Item/Moment/GameSession/'.
     'Beat/Backstory/Journal/World; to_type must be Character/Faction/Location/Item/Moment. The '.
     'alias is the display text that gets wrapped as [[alias]] in the source record\'s text. If a '.
-    'link with the same (from_type, from_id, aliasNorm) already exists it will be updated (upsert).'
+    'link already exists for the same source type, source ID, and normalized alias, this replaces its target.'
 )]
 #[IsReadOnly(false)]
-#[IsDestructive(false)]
+#[IsDestructive(true)]
 #[IsIdempotent(false)]
 #[IsOpenWorld(false)]
 class CreateLinkTool extends Tool
