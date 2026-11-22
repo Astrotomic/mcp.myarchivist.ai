@@ -1,0 +1,47 @@
+{
+    "properties": {
+        "session_id": {
+            "type": "string"
+        },
+        "campaign_id": {
+            "type": "string"
+        },
+        "title": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "session_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "review_stage": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "replayed": {
+            "type": "boolean"
+        },
+        "url": {
+            "type": "string"
+        }
+    },
+    "type": "object",
+    "required": [
+        "session_id",
+        "campaign_id",
+        "replayed",
+        "url"
+    ]
+}

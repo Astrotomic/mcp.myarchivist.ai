@@ -21,9 +21,14 @@ class ArchivistClient
         );
     }
 
-    public function post(string $path, array $body = [], ?int $timeout = null): Response
+    /**
+     * @param  array<string, string>  $headers  Extra request headers (e.g. X-Archivist-Client).
+     */
+    public function post(string $path, array $body = [], ?int $timeout = null, array $headers = []): Response
     {
-        return $this->request($timeout)->post($path, $this->normalizeBody($body));
+        return $this->request($timeout)
+            ->when($headers !== [], fn (PendingRequest $request) => $request->withHeaders($headers))
+            ->post($path, $this->normalizeBody($body));
     }
 
     public function patch(string $path, array $body = [], ?int $timeout = null): Response

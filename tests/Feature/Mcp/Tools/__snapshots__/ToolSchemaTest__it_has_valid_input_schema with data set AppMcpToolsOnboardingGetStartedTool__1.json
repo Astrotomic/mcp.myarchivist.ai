@@ -1,0 +1,11 @@
+{
+    "properties": {
+        "include_playbook": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        }
+    },
+    "type": "object"
+}

@@ -19,6 +19,8 @@ class CampaignDataShort extends ArchivistDto
             'updated_at' => ['nullable', 'string', 'date'],
             'archived' => ['nullable', 'boolean'],
             'archived_at' => ['nullable', 'string', 'date'],
+            // The caller's own role in this campaign (owner, co_gm or player). Agent list responses only.
+            'viewer_role' => ['nullable', 'string'],
         ];
     }
 }

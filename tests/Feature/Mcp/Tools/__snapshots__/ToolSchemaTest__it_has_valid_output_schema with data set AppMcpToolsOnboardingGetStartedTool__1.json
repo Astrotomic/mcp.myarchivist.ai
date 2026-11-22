@@ -1,0 +1,104 @@
+{
+    "properties": {
+        "status": {
+            "enum": [
+                "no_campaign",
+                "player_only",
+                "empty_campaign",
+                "no_sessions_yet",
+                "has_sessions"
+            ],
+            "type": "string"
+        },
+        "next_step": {
+            "type": "string"
+        },
+        "campaign": {
+            "type": [
+                "object",
+                "null"
+            ]
+        },
+        "campaign.id": {
+            "type": "string"
+        },
+        "campaign.title": {
+            "type": "string"
+        },
+        "campaign.role": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "campaign.sessions": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "campaign.characters": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "campaign.moments": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "campaign.url": {
+            "type": "string"
+        },
+        "campaigns": {
+            "type": "array"
+        },
+        "is_new_user": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "subscription_tier": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "subscription_status": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "sessions_remaining": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "can_create_session": {
+            "type": "boolean"
+        },
+        "can_create_session_reason": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "playbook": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    },
+    "type": "object",
+    "required": [
+        "status",
+        "next_step",
+        "can_create_session"
+    ]
+}
