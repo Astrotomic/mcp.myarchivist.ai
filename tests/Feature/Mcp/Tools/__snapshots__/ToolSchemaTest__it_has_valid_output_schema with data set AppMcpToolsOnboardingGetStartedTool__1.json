@@ -79,6 +79,9 @@
                 "null"
             ]
         },
+        "can_write": {
+            "type": "boolean"
+        },
         "can_create_session": {
             "type": "boolean"
         },
@@ -99,6 +102,7 @@
     "required": [
         "status",
         "next_step",
+        "can_write",
         "can_create_session"
     ]
 }

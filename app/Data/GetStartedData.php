@@ -32,6 +32,7 @@ class GetStartedData extends ArchivistDto
             'subscription_tier' => ['nullable', 'string'],
             'subscription_status' => ['nullable', 'string'],
             'sessions_remaining' => ['nullable', 'integer'],
+            'can_write' => ['required', 'boolean'],
             'can_create_session' => ['required', 'boolean'],
             'can_create_session_reason' => ['nullable', 'string'],
             'playbook' => ['nullable', 'string'],

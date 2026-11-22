@@ -96,11 +96,12 @@ final readonly class GetStarted extends ApiAction
             // A co-GM's sessions come from the owner's allowance, which this account can't see.
             $sessionsRemaining = null;
         }
-        [$canCreate, $reason] = $this->sessionEligibility($primary, $data, $sessionsRemaining);
+        $canWrite = app(AuthContext::class)->canWrite();
+        [$canCreate, $reason] = $this->sessionEligibility($primary, $data, $sessionsRemaining, $canWrite);
 
         return new GetStartedData([
             'status' => $status,
-            'next_step' => $this->nextStep($status, $canCreate),
+            'next_step' => $this->nextStep($status, $canCreate, $canWrite),
             'campaign' => $primary === null ? null : [
                 'id' => $primary['id'],
                 'title' => $primary['title'],
@@ -119,6 +120,7 @@ final readonly class GetStarted extends ApiAction
             'subscription_tier' => is_string($data['subscription_tier'] ?? null) ? $data['subscription_tier'] : null,
             'subscription_status' => is_string($data['subscription_status'] ?? null) ? $data['subscription_status'] : null,
             'sessions_remaining' => $sessionsRemaining,
+            'can_write' => $canWrite,
             'can_create_session' => $canCreate,
             'can_create_session_reason' => $reason,
             'playbook' => $includePlaybook ? self::playbook() : null,
@@ -192,14 +194,15 @@ final readonly class GetStarted extends ApiAction
      * @param  array<string, mixed>  $me
      * @return array{0: bool, 1: string|null}
      */
-    private function sessionEligibility(?array $primary, array $me, ?int $sessionsRemaining): array
+    private function sessionEligibility(?array $primary, array $me, ?int $sessionsRemaining, bool $canWrite): array
     {
-        if ($primary === null) {
-            return [false, 'The user has no campaign they run. Only a campaign owner or co-GM can add sessions.'];
+        // Checked first: without write access no fallback (journal, compendium) is possible either.
+        if (! $canWrite) {
+            return [false, 'This connection is read-only, so nothing can be saved: no session, journal or compendium record. Ask the user to reconnect Archivist and approve write access before trying to save anything.'];
         }
 
-        if (! app(AuthContext::class)->canWrite()) {
-            return [false, 'This connection is read-only. Reconnect Archivist and approve write access to save anything.'];
+        if ($primary === null) {
+            return [false, 'The user has no campaign they run. Only a campaign owner or co-GM can add sessions.'];
         }
 
         $access = is_array($me['access'] ?? null) ? $me['access'] : [];
@@ -215,8 +218,12 @@ final readonly class GetStarted extends ApiAction
         return [true, null];
     }
 
-    private function nextStep(string $status, bool $canCreate): string
+    private function nextStep(string $status, bool $canCreate, bool $canWrite): string
     {
+        if (! $canWrite) {
+            return 'This connection is read-only. Tell the user what Archivist can do, answer questions with read tools, and ask them to reconnect Archivist with write access before saving anything. Do not attempt any save.';
+        }
+
         return match ($status) {
             GetStartedData::STATUS_NO_CAMPAIGN => 'Ask for the campaign name and system in one line, create it, then follow the playbook.',
             GetStartedData::STATUS_PLAYER_ONLY => 'Follow the player path: their character, their own journal notes, and questions via ask-campaign. Players cannot add sessions.',

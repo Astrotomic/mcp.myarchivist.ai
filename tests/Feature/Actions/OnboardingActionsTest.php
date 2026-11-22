@@ -147,6 +147,7 @@ final class OnboardingActionsTest extends FeatureTestCase
         $this->assertSame('w1', $result->get('campaign')['id'], 'the starter campaign wins');
         $this->assertSame('https://app.myarchivist.test/campaigns/w1', $result->get('campaign')['url']);
         $this->assertSame(2, $result->get('sessions_remaining'));
+        $this->assertTrue($result->get('can_write'));
         $this->assertTrue($result->get('can_create_session'));
         $this->assertTrue($result->get('is_new_user'));
         $this->assertStringContainsString('Get started with Archivist', $result->get('playbook'));
@@ -244,8 +245,13 @@ final class OnboardingActionsTest extends FeatureTestCase
 
         $result = GetStarted::make()->execute(['include_playbook' => false]);
 
+        $this->assertFalse($result->get('can_write'));
         $this->assertFalse($result->get('can_create_session'));
         $this->assertStringContainsString('read-only', $result->get('can_create_session_reason'));
+        // Journals are writes too, so a read-only connection must not be steered to them.
+        $this->assertStringContainsString('reconnect', $result->get('next_step'));
+        $this->assertStringNotContainsString('journal', $result->get('next_step'));
+        $this->assertStringNotContainsString('Save notes as a journal', $result->get('can_create_session_reason'));
     }
 
     // --- fixtures -----------------------------------------------------------------------

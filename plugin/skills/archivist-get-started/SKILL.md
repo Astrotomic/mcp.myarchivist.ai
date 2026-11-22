@@ -27,6 +27,7 @@ Before your first message, call `get-started-tool`. It returns:
 - the `campaign` to use, with its `url`
 - every campaign the user can see, with their role in each
 - `sessions_remaining`
+- `can_write`: false means the connection is read-only
 - `can_create_session`, and a reason when it's false
 - a `next_step`
 
@@ -44,7 +45,9 @@ Then pick the path by `status`:
 | `player_only` | Player path (see `references/paths.md`). Players can't create sessions. |
 | `no_campaign` | Ask the campaign's name and system in one line, call `create-campaign-tool`, then take the main path. |
 
-If `can_create_session` is false, follow its reason. Usually you'll save a journal or compendium records instead of a session, and you won't offer to send a session.
+If `can_write` is false, the connection is read-only and **nothing** can be saved: no session, journal or compendium record. Explain what Archivist does, and ask the user to reconnect Archivist and approve write access before you try to save anything.
+
+If `can_write` is true but `can_create_session` is false (no sessions left, inactive subscription), follow its reason. Usually you'll save a journal or compendium records instead of a session, and you won't offer to send a session.
 
 If they have several empty campaigns, use the one named "My First Campaign" or the most recent. Mention which one you used, so they can redirect you.
 
@@ -100,7 +103,7 @@ If the tool returns an error, its `code` tells you what to do:
 | `no_sessions_remaining` or `subscription_required` | Say so plainly once, save a journal, and give the plans link. Don't retry. |
 | `timeout` | The session may already exist. Retry once with the **same** `idempotency_key`. You'll get the original session back (`replayed: true`), not a second one. |
 
-If the tool isn't in your tool list, the connection is read-only or the server is older. Save a journal instead and tell them they can reconnect Archivist with write access.
+If the tool isn't in your tool list, check whether any write tool is, such as `create-journal-tool`. If none are, the connection is read-only. Don't attempt a save; ask the user to reconnect Archivist with write access. If write tools are listed, the server is older: save a journal instead.
 
 ## Step 5: Close the loop
 
