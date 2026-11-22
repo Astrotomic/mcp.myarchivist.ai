@@ -22,8 +22,9 @@ use Laravel\Mcp\Server\Tools\Annotations\IsReadOnly;
     '(replayed: true) instead of spending another. '.
     'Errors come back as JSON with a code: too_short / too_long (details has the limits), invalid_transcript_format, '.
     'not_a_session (the text did not read as a tabletop session; show the reason), no_sessions_remaining (save the '.
-    'text as a journal instead and point to plans), subscription_required, timeout (the session may exist; retry with '.
-    'the same idempotency_key).'
+    'text as a journal instead and point to plans), subscription_required, in_progress (an earlier call with this key '.
+    'is still creating the session; wait a few seconds and retry with the same idempotency_key), timeout (the session '.
+    'may exist; retry with the same idempotency_key).'
 )]
 #[IsReadOnly(false)]
 #[IsDestructive(false)]

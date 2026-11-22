@@ -101,6 +101,7 @@ If the tool returns an error, its `code` tells you what to do:
 | `invalid_transcript_format` | Retry with `format: notes`. |
 | `not_a_session` | Show the user the reason. Don't reword their text to get it past the check. |
 | `no_sessions_remaining` or `subscription_required` | Say so plainly once, save a journal, and give the plans link. Don't retry. |
+| `in_progress` | An earlier call with this key is still creating the session. Wait a few seconds and retry with the same key. |
 | `timeout` | The session may already exist. Retry once with the **same** `idempotency_key`. You'll get the original session back (`replayed: true`), not a second one. |
 
 If the tool isn't in your tool list, check whether any write tool is, such as `create-journal-tool`. If none are, the connection is read-only. Don't attempt a save; ask the user to reconnect Archivist with write access. If write tools are listed, the server is older: save a journal instead.
