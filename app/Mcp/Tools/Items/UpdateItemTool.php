@@ -15,7 +15,7 @@ use Laravel\Mcp\Server\Tools\Annotations\IsReadOnly;
     'Partially update an item. '.WikilinkPrompts::UPDATE_COMPENDIUM_TEXT
 )]
 #[IsReadOnly(false)]
-#[IsDestructive(false)]
+#[IsDestructive(true)]
 #[IsIdempotent(false)]
 #[IsOpenWorld(false)]
 class UpdateItemTool extends Tool

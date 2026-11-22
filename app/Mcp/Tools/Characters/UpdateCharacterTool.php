@@ -15,7 +15,7 @@ use Laravel\Mcp\Server\Tools\Annotations\IsReadOnly;
     'Partially update a PC, NPC, or Creature. Only the fields you include are changed; set type to Creature to reclassify a record. '.WikilinkPrompts::UPDATE_COMPENDIUM_TEXT
 )]
 #[IsReadOnly(false)]
-#[IsDestructive(false)]
+#[IsDestructive(true)]
 #[IsIdempotent(false)]
 #[IsOpenWorld(false)]
 class UpdateCharacterTool extends Tool
