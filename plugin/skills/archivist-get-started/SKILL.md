@@ -64,10 +64,11 @@ Then wait. If they've already pasted material in their first message, skip the q
 
 ## Step 2: Take in their material
 
-Read `references/source-intake.md` for how to handle each kind of source: a Discord recap, bullet notes, a long document, a transcript, a VTT chat log, a character sheet, or memory only. Two rules apply to every source:
+Read `references/source-intake.md` for how to handle each kind of source: a Discord recap, bullet notes, a long document, a transcript, a VTT chat log, a character sheet, audio, or memory only. Three rules apply to every source:
 
 - **Use only what they gave you.** Don't invent names, events, outcomes or dates to fill gaps. A first session full of made-up facts damages trust in the whole product, and Session Review would then ask the GM to approve fiction. When something is unclear, keep it as an open question.
 - **Ask, don't pad.** If the material is thin, ask up to 3 short, specific questions, one at a time when you can (e.g. *"Who did the party meet, and where did you stop?"*). Their answers become the notes.
+- **Fit what you send to what chat can carry.** You type out everything the tool receives. Keep notes to about 1,500–3,000 words, and only send a transcript unchanged if it's under about 3,000 words. For anything bigger, offer the user a choice: upload the file in the app, which keeps quotes and cast analysis, or let you condense it here into a faithful recap. Follow the condensing method in `references/source-intake.md`. Audio always goes to the app's audio upload, and one game night is one session even if they have both a recording and a document.
 
 ## Step 3: Show the draft before saving
 
@@ -79,7 +80,7 @@ Show one compact preview and wait for an explicit yes. For a session:
 > **Archivist will likely pick up:** {characters, places, factions or items you noticed — as a list}
 > **Open questions:** {anything ambiguous, or "none"}
 >
-> **Where:** {campaign name} · **As:** a session from {notes | a transcript}
+> **Where:** {campaign name} · **As:** a session from {notes | a transcript}{ · condensed from about X words to about Y, if you condensed}
 > **Who sees it:** only you and your co-GMs until you approve it in Session Review; then your players too
 > **Cost:** uses **1 of your {N} remaining sessions**
 >

@@ -11,7 +11,9 @@ The base is `https://app.myarchivist.ai`. When a tool result includes a `url` fi
 | Cast analysis (owners only, transcript or audio sessions) | `/gamesessions/{session_id}?castAnalysis=1` |
 | Compendium record | `/compendium/{characters\|creatures\|locations\|factions\|items}/{id}` |
 | Trading card for a record | `/compendium/{type}/{id}?dtc=true` |
-| New session form (audio upload, Discord) | `/campaigns/{campaign_id}?newSession=true` |
+| Upload audio for a new session | `/campaigns/{campaign_id}?intent=audio_upload&newSession=true&onboardingBypass=logSession` |
+| Upload a text file or long transcript for a new session | `/campaigns/{campaign_id}?intent=text_upload&newSession=true&onboardingBypass=logSession` |
+| New session form (all options, including Discord) | `/campaigns/{campaign_id}?newSession=true` |
 | Tutorials | `/academy` |
 
 Show links as markdown with a readable label, e.g. `[Review Session 1](https://app.myarchivist.ai/gamesessions/abc123)`.
