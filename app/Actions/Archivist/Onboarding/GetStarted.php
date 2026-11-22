@@ -12,6 +12,7 @@ use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Str;
 use Illuminate\Support\ValidatedInput;
+use Symfony\Component\HttpFoundation\Response as HttpStatus;
 
 /**
  * One read that tells an assistant where a user stands in Archivist, plus the onboarding
@@ -53,7 +54,7 @@ final readonly class GetStarted extends ApiAction
             // The API refuses agent connections for accounts without an active subscription, and
             // every other Archivist tool fails the same way. Say so plainly instead of offering
             // saves (journal, compendium) the account can't complete.
-            if ($e->status === 403 && str_contains(strtolower($e->detail), 'subscription inactive')) {
+            if ($e->status === HttpStatus::HTTP_FORBIDDEN && str_contains(strtolower($e->detail), 'subscription inactive')) {
                 return self::subscriptionInactive();
             }
 
