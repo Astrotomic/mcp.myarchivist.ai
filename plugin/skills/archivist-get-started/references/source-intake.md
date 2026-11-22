@@ -21,7 +21,7 @@ If the tool returns `too_short` or `too_long`, its `details` has the exact limit
   - "Who did they meet or fight? Any names?"
   - "What was the big moment or decision?"
   - "Where did you stop, and what's hanging for next time?"
-- Still too short after that: save a journal instead (see SKILL.md Step 4). Never pad with invented detail to pass the minimum.
+- Still too short after that: offer a private journal entry instead, and save it only after a new yes (see SKILL.md Step 4). Never pad with invented detail to pass the minimum.
 
 **A long doc (campaign notes, a GM's prep-and-play log)**
 - Ask whether it covers one session or several.

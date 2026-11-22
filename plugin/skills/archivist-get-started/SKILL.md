@@ -44,10 +44,11 @@ Then pick the path by `status`:
 | `has_sessions` | Skip the intro. Ask what they'd like to add next. Offer the same intake for their *next* session. |
 | `player_only` | Player path (see `references/paths.md`). Players can't create sessions. |
 | `no_campaign` | Ask the campaign's name and system in one line, call `create-campaign-tool`, then take the main path. |
+| `subscription_inactive` | The account can't use this connection right now, and every other Archivist tool will fail too. Say so plainly once, with no plans or upgrade pitch. Mention that their campaigns are still in the Archivist app, and don't attempt any saves. |
 
 If `can_write` is false, the connection is read-only and **nothing** can be saved: no session, journal or compendium record. Explain what Archivist does, and ask the user to reconnect Archivist and approve write access before you try to save anything.
 
-If `can_write` is true but `can_create_session` is false (no sessions left, inactive subscription), follow its reason. Usually you'll save a journal or compendium records instead of a session, and you won't offer to send a session.
+If `can_write` is true but `can_create_session` is false (for example, no sessions left), follow its reason. Don't offer to send a session. Offer a private journal entry or compendium records instead, and preview them before saving (Step 3).
 
 If they have several empty campaigns, use the one named "My First Campaign" or the most recent. Mention which one you used, so they can redirect you.
 
@@ -78,9 +79,15 @@ Show one compact preview and wait for an explicit yes. For a session:
 > **Archivist will likely pick up:** {characters, places, factions or items you noticed — as a list}
 > **Open questions:** {anything ambiguous, or "none"}
 >
-> Saving this as a session uses **1 of your {N} remaining sessions**. Archivist takes about 10 minutes to process it, and then you review and approve what it found. Want me to send it?
+> **Where:** {campaign name} · **As:** a session from {notes | a transcript}
+> **Who sees it:** only you and your co-GMs until you approve it in Session Review; then your players too
+> **Cost:** uses **1 of your {N} remaining sessions**
+>
+> Archivist takes about 10 minutes to process it, and then you review and approve what it found. Want me to send it?
 
-If `sessions_remaining` is null (a co-GM spends the owner's allowance), say "uses one of the campaign's sessions" instead of a number. State the session cost every time. Never spend a session without a clear yes: sessions come from a limited allowance, and spending one without asking feels like being charged without consent.
+If `sessions_remaining` is null (a co-GM spends the owner's allowance), say "uses one of the campaign's sessions" instead of a number. State the campaign, format, who sees it and the cost every time. Never spend a session without a clear yes: sessions come from a limited allowance, and spending one without asking feels like being charged without consent.
+
+**A yes covers only what you previewed.** If anything changes before you save, preview again and get a new yes. That includes a different campaign, notes instead of a transcript (which loses quotes and cast analysis), or a journal instead of a session (which skips Session Review and processing). Never switch destinations or formats on your own.
 
 ## Step 4: Save
 
@@ -88,7 +95,7 @@ If `sessions_remaining` is null (a co-GM spends the owner's allowance), say "use
 
 **Too thin for a session, prep or lore, or no sessions left** → save it without spending a session:
 
-- Session notes that are too short → `create-journal-tool` titled "Session 1 notes", so nothing is lost. Tell them it can become a full session once they add more.
+- Session notes that are too short → offer a private journal entry titled "Session 1 notes", so nothing is lost. Preview it: who sees it (only them, unless they share it) and that it won't be processed into a recap. Save with `create-journal-tool` only after they say yes. Tell them it can become a full session once they add more.
 - Campaign pitch or setting → `update-campaign-tool` (description), plus a journal for longer lore.
 - Their PC or key NPCs → `create-character-tool`. Locations, factions or items → the matching create tool. Follow the server's wikilink rules.
 
@@ -96,15 +103,16 @@ If the tool returns an error, its `code` tells you what to do:
 
 | `code` | What to do |
 |---|---|
-| `too_short` | Ask one or two more questions, then retry with the same key. If they don't have more, save a journal. |
+| `too_short` | Ask one or two more questions, then retry with the same key. If they don't have more, *offer* a private journal entry and save it only after a new yes. |
 | `too_long` | Condense the notes, or split them into two sessions if they agree. Retry. |
-| `invalid_transcript_format` | Retry with `format: notes`. |
+| `invalid_transcript_format` | Explain that it doesn't read as a speaker transcript. Ask whether to send it as notes instead (no quotes or cast analysis), and retry with `format: notes` only after a yes. |
 | `not_a_session` | Show the user the reason. Don't reword their text to get it past the check. |
-| `no_sessions_remaining` or `subscription_required` | Say so plainly once and save a journal instead. Don't retry, and don't pitch plans or upgrades. |
+| `no_sessions_remaining` | Say so plainly once. *Offer* a private journal entry instead, and save it only after a new yes. Don't retry, and don't pitch plans or upgrades. |
+| `subscription_required` | Say so plainly once, with no plans or upgrade pitch. Saving anything else will fail too, so don't attempt it. |
 | `in_progress` | An earlier call with this key is still creating the session. Wait a few seconds and retry with the same key. |
 | `timeout` | The session may already exist. Retry once with the **same** `idempotency_key`. You'll get the original session back (`replayed: true`), not a second one. |
 
-If the tool isn't in your tool list, check whether any write tool is, such as `create-journal-tool`. If none are, the connection is read-only. Don't attempt a save; ask the user to reconnect Archivist with write access. If write tools are listed, the server is older: save a journal instead.
+If the tool isn't in your tool list, check whether any write tool is, such as `create-journal-tool`. If none are, the connection is read-only. Don't attempt a save; ask the user to reconnect Archivist with write access. If write tools are listed, the server is older: offer a private journal entry instead, and save it only after a yes.
 
 ## Step 5: Close the loop
 

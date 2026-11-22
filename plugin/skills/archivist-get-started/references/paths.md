@@ -29,12 +29,16 @@ Skip the welcome. Briefly name what's there (e.g. "3 sessions, 24 characters") a
 - A session waiting in review: when `get-session-tool` shows `ai_session_review.stage` is `review`, link to it and say it's ready to approve.
 - A question about the campaign: use `ask-campaign-tool`.
 
-## No sessions left, or the subscription is inactive
+## No sessions left
 
 - `get-started-tool` reports this as `can_create_session: false` with a reason. Don't call `create-session-from-notes-tool`.
-- Save the material as a journal so nothing is lost.
+- Offer to save the material as a private journal entry so nothing is lost. Preview it, and save it only after they say yes.
 - Say plainly, once, that no more sessions are available right now. Don't pitch plans, packs or upgrades, and don't link to pricing; the user can see their account in the Archivist app. Then carry on helping with whatever doesn't need a session.
 
 ## Several campaigns
 
 If they own several campaigns and it isn't clear which one they mean, ask once, naming the options. Remember the answer for the rest of the conversation.
+
+## Subscription inactive
+
+`get-started-tool` returns `status: subscription_inactive`. The connection can't read or save anything right now, so every Archivist tool will fail. Tell them once, plainly, that Archivist can't work with their campaign through this connection at the moment, and that their campaigns are still in the Archivist app. Don't pitch plans, prices or upgrades, and don't attempt saves.

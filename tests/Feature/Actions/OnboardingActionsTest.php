@@ -272,6 +272,36 @@ final class OnboardingActionsTest extends FeatureTestCase
         $this->assertStringNotContainsString('Save notes as a journal', $result->get('can_create_session_reason'));
     }
 
+    #[Test]
+    public function get_started_explains_a_lapsed_account_instead_of_failing(): void
+    {
+        Http::fake([
+            self::BASE_URL.'/v1/users/me' => Http::response(['detail' => 'Subscription inactive'], 403),
+        ]);
+        Http::preventStrayRequests();
+
+        $result = GetStarted::make()->execute([]);
+
+        $this->assertSame('subscription_inactive', $result->get('status'));
+        $this->assertFalse($result->get('can_write'));
+        $this->assertFalse($result->get('can_create_session'));
+        $this->assertSame([], $result->get('campaigns'));
+        $this->assertNull($result->get('playbook'));
+        $this->assertDoesNotMatchRegularExpression('/upgrade|purchase|subscribe now/i', $result->get('next_step'));
+    }
+
+    #[Test]
+    public function get_started_still_raises_other_api_errors(): void
+    {
+        Http::fake([
+            self::BASE_URL.'/v1/users/me' => Http::response(['detail' => 'Invalid token'], 401),
+        ]);
+
+        $this->expectException(ArchivistApiException::class);
+
+        GetStarted::make()->execute([]);
+    }
+
     // --- fixtures -----------------------------------------------------------------------
 
     /**

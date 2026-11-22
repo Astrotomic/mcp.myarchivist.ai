@@ -6,7 +6,8 @@
                 "player_only",
                 "empty_campaign",
                 "no_sessions_yet",
-                "has_sessions"
+                "has_sessions",
+                "subscription_inactive"
             ],
             "type": "string"
         },

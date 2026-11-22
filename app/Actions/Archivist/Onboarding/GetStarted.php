@@ -46,7 +46,19 @@ final readonly class GetStarted extends ApiAction
     public function execute(array $params): GetStartedData
     {
         $validated = Validator::make($params, self::rules())->safe();
-        $me = $this->request($validated)->fluent()->all();
+
+        try {
+            $me = $this->request($validated)->fluent()->all();
+        } catch (ArchivistApiException $e) {
+            // The API refuses agent connections for accounts without an active subscription, and
+            // every other Archivist tool fails the same way. Say so plainly instead of offering
+            // saves (journal, compendium) the account can't complete.
+            if ($e->status === 403 && str_contains(strtolower($e->detail), 'subscription inactive')) {
+                return self::subscriptionInactive();
+            }
+
+            throw $e;
+        }
 
         $reference = $validated->string('playbook_reference')->toString();
         $playbook = match (true) {
@@ -222,6 +234,24 @@ final readonly class GetStarted extends ApiAction
         }
 
         return [true, null];
+    }
+
+    public static function subscriptionInactive(): GetStartedData
+    {
+        return new GetStartedData([
+            'status' => GetStartedData::STATUS_SUBSCRIPTION_INACTIVE,
+            'next_step' => 'This account\'s subscription isn\'t active, so Archivist can\'t read or save campaign data '
+                .'through this connection right now. Explain that plainly and don\'t attempt any other Archivist tool. '
+                .'Everything already in their campaigns is still in the Archivist app.',
+            'campaign' => null,
+            'campaigns' => [],
+            'is_new_user' => null,
+            'sessions_remaining' => null,
+            'can_write' => false,
+            'can_create_session' => false,
+            'can_create_session_reason' => 'The account\'s subscription is not active, so this connection can\'t save anything.',
+            'playbook' => null,
+        ]);
     }
 
     private function nextStep(string $status, bool $canCreate, bool $canWrite): string
