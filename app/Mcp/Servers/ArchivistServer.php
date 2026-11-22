@@ -98,9 +98,9 @@ use Laravel\Mcp\Server\Attributes\Version;
 use Laravel\Mcp\Server\Transport\FakeTransporter;
 
 #[Name('Archivist AI')]
-#[Version('3.1.0')]
+#[Version('3.2.0')]
 #[Instructions(<<<'INSTRUCTIONS'
-If the user is new, asks what Archivist can do or how to set it up, wants to get their game into Archivist, or their campaign is empty, call `get-started-tool` first and follow the playbook it returns.
+`get-started-tool` returns a user's setup status and Archivist's guided setup steps. It covers requests to set up Archivist, get started, add a first session, or work in an empty campaign.
 
 Read/write access to Archivist AI TTRPG campaign data: campaigns, characters (including Properties and Character Arc), sessions, beats, key moments (moments), hero awards, quotes, spotlights, factions, locations, items, quests, journals, journal folders, entity links, and entity images. Archivist AI is a campaign memory platform for tabletop RPG game masters and players.
 

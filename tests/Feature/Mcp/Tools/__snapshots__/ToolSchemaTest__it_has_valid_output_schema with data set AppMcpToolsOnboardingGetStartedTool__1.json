@@ -61,18 +61,6 @@
                 "null"
             ]
         },
-        "subscription_tier": {
-            "type": [
-                "string",
-                "null"
-            ]
-        },
-        "subscription_status": {
-            "type": [
-                "string",
-                "null"
-            ]
-        },
         "sessions_remaining": {
             "type": [
                 "integer",

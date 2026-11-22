@@ -151,8 +151,24 @@ final class OnboardingActionsTest extends FeatureTestCase
         $this->assertTrue($result->get('can_create_session'));
         $this->assertTrue($result->get('is_new_user'));
         $this->assertStringContainsString('Get started with Archivist', $result->get('playbook'));
-        $this->assertStringContainsString('references/source-intake.md', $result->get('playbook'));
+        $this->assertStringContainsString('playbook_reference', $result->get('playbook'));
+        $this->assertStringNotContainsString('# Turning a source into session notes', $result->get('playbook'), 'references are fetched separately');
+        $this->assertArrayNotHasKey('subscription_tier', $result->toArray());
         $this->assertStringNotContainsString('description: First-run onboarding', $result->get('playbook'), 'frontmatter is stripped');
+    }
+
+    #[Test]
+    public function get_started_returns_one_reference_section_on_request(): void
+    {
+        $this->fakeAccount(
+            campaigns: [$this->fakeCampaign('w1', 'My First Campaign', 'owner')],
+            stats: ['w1' => [0, 0, 0]],
+        );
+
+        $result = GetStarted::make()->execute(['playbook_reference' => 'source-intake']);
+
+        $this->assertStringStartsWith('# Turning a source into session notes', $result->get('playbook'));
+        $this->assertStringNotContainsString('# Get started with Archivist', $result->get('playbook'));
     }
 
     #[Test]
@@ -232,6 +248,8 @@ final class OnboardingActionsTest extends FeatureTestCase
         $this->assertSame('no_sessions_yet', $result->get('status'));
         $this->assertFalse($result->get('can_create_session'));
         $this->assertStringContainsString('journal', $result->get('can_create_session_reason'));
+        // Host guidelines: no upgrade, plan or purchase prompts in tool output.
+        $this->assertDoesNotMatchRegularExpression('/plan|upgrade|purchase|subscribe/i', $result->get('can_create_session_reason'));
     }
 
     #[Test]

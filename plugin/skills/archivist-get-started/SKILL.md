@@ -80,7 +80,7 @@ Show one compact preview and wait for an explicit yes. For a session:
 >
 > Saving this as a session uses **1 of your {N} remaining sessions**. Archivist takes about 10 minutes to process it, and then you review and approve what it found. Want me to send it?
 
-If `sessions_remaining` is null (a co-GM spends the owner's allowance), say "uses one of the campaign's sessions" instead of a number. State the session cost every time. Never spend a session without a clear yes: sessions are their trial allowance, and spending one without asking feels like being charged without consent.
+If `sessions_remaining` is null (a co-GM spends the owner's allowance), say "uses one of the campaign's sessions" instead of a number. State the session cost every time. Never spend a session without a clear yes: sessions come from a limited allowance, and spending one without asking feels like being charged without consent.
 
 ## Step 4: Save
 
@@ -100,7 +100,7 @@ If the tool returns an error, its `code` tells you what to do:
 | `too_long` | Condense the notes, or split them into two sessions if they agree. Retry. |
 | `invalid_transcript_format` | Retry with `format: notes`. |
 | `not_a_session` | Show the user the reason. Don't reword their text to get it past the check. |
-| `no_sessions_remaining` or `subscription_required` | Say so plainly once, save a journal, and give the plans link. Don't retry. |
+| `no_sessions_remaining` or `subscription_required` | Say so plainly once and save a journal instead. Don't retry, and don't pitch plans or upgrades. |
 | `in_progress` | An earlier call with this key is still creating the session. Wait a few seconds and retry with the same key. |
 | `timeout` | The session may already exist. Retry once with the **same** `idempotency_key`. You'll get the original session back (`replayed: true`), not a second one. |
 

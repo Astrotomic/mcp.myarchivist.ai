@@ -5,6 +5,18 @@
                 "boolean",
                 "null"
             ]
+        },
+        "playbook_reference": {
+            "enum": [
+                "source-intake",
+                "paths",
+                "showcase",
+                "links"
+            ],
+            "type": [
+                "string",
+                "null"
+            ]
         }
     },
     "type": "object"

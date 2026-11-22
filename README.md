@@ -16,7 +16,7 @@
 
 The official [Model Context Protocol](https://modelcontextprotocol.io) (MCP) server for [Archivist AI](https://www.myarchivist.ai) -- a TTRPG campaign memory platform for game masters and players.
 
-Registry metadata lives in [`server.json`](./server.json). Publishing to the [official MCP Registry](https://modelcontextprotocol.io/registry) is automated on version tags via [`.github/workflows/publish-mcp.yml`](./.github/workflows/publish-mcp.yml) (`git tag v3.1.0 && git push origin v3.1.0`).
+Registry metadata lives in [`server.json`](./server.json). Publishing to the [official MCP Registry](https://modelcontextprotocol.io/registry) is automated on version tags via [`.github/workflows/publish-mcp.yml`](./.github/workflows/publish-mcp.yml) (`git tag v3.2.0 && git push origin v3.2.0`).
 
 Connect AI assistants like Claude, ChatGPT, Cursor, Notion, and Windsurf directly to your campaign data: characters, sessions, locations, factions, items, quests, journals, key moments, hero awards, quotes, spotlights, and more.
 
@@ -140,7 +140,7 @@ Archivist AI is available as a ChatGPT plugin. Search for "Archivist AI" in the 
 
 Read tools are non-destructive and idempotent. Write tools follow standard REST semantics — deletes are destructive and idempotent; PATCH is non-idempotent; PUT is idempotent. Every read tool that returns text-carrying descriptions (Character, Faction, Location, Item, Moment, Beat, Session, Journal) accepts an optional `with_links` parameter — see [Wikilinks](#wikilinks) below for why you almost always want to pass `with_links: true` before editing.
 
-Campaign delete, session delete, product-view-only endpoints (beat reorder/batch-edit, campaign settings, cast/member management), multipart recording uploads, and AI image generation are intentionally not exposed.
+Campaign delete, session delete, creating sessions from audio (sessions can be created from text only, via `create-session-from-notes-tool`), product-view-only endpoints (beat reorder/batch-edit, campaign settings, cast/member management), multipart recording uploads, and AI image generation are intentionally not exposed.
 
 ### OAuth scopes and write access
 
@@ -149,6 +149,12 @@ OAuth clients that connect via `https://app.myarchivist.ai` request scopes at au
 The MCP mirrors the API's enforcement in `tools/list`: agent clients without `agent_write` see only the read tools, and receive a "tool not found" JSON-RPC error if they attempt to call a write tool anyway. API-key credentials and non-agent OAuth clients bypass this filter — the API is the authoritative gate for them and all tools remain visible.
 
 Existing OAuth clients that connected before `agent_write` was advertised need to re-authorize to receive a token with the new scope.
+
+### Getting started
+
+| Tool | Description |
+|------|-------------|
+| `get-started-tool` | Read-only. Where the user stands (no campaign, player only, empty campaign, has sessions), the campaign to use, the user's role, sessions remaining, whether a session can be created now (and why not), and the onboarding playbook the assistant follows. The playbook is the same text as the bundled `archivist-get-started` skill. |
 
 ### Campaigns
 
@@ -170,6 +176,7 @@ Existing OAuth clients that connected before `agent_write` was advertised need t
 | `get_session_transcript` | Get the cleaned transcript for a game session, including utterances, full text, and aggregate stats. |
 | `get_session_handout` | Get the generated session handout for a game session, including summary, outlines, spotlights, and notable moments. |
 | `patch_session` | Partial update (title, session_date, summary, notes, type, public, image). Explicit-link contract for wikilinks. |
+| `create-session-from-notes-tool` | Create a session from session notes or a `Speaker: text` transcript. **Uses one session from the campaign owner's allowance**, so assistants must show a preview and get the user's explicit confirmation first. The session goes to Session Review in the app; nothing is added to the campaign until the GM approves it. Requires an `idempotency_key`; a retry with the same key returns the original session instead of spending another. Owner or co-GM only. |
 
 ### Story Structure
 

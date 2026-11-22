@@ -29,8 +29,6 @@ class GetStartedData extends ArchivistDto
             'campaign.url' => ['required_with:campaign', 'string'],
             'campaigns' => ['present', 'list'],
             'is_new_user' => ['nullable', 'boolean'],
-            'subscription_tier' => ['nullable', 'string'],
-            'subscription_status' => ['nullable', 'string'],
             'sessions_remaining' => ['nullable', 'integer'],
             'can_write' => ['required', 'boolean'],
             'can_create_session' => ['required', 'boolean'],

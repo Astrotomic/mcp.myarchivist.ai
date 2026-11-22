@@ -29,11 +29,11 @@ Skip the welcome. Briefly name what's there (e.g. "3 sessions, 24 characters") a
 - A session waiting in review: when `get-session-tool` shows `ai_session_review.stage` is `review`, link to it and say it's ready to approve.
 - A question about the campaign: use `ask-campaign-tool`.
 
-## No sessions left, or the trial ended
+## No sessions left, or the subscription is inactive
 
 - `get-started-tool` reports this as `can_create_session: false` with a reason. Don't call `create-session-from-notes-tool`.
 - Save the material as a journal so nothing is lost.
-- Say plainly, once, that more sessions come with a plan or a session pack, and give the upgrade link from `links.md`. Then carry on helping with whatever doesn't need a session.
+- Say plainly, once, that no more sessions are available right now. Don't pitch plans, packs or upgrades, and don't link to pricing; the user can see their account in the Archivist app. Then carry on helping with whatever doesn't need a session.
 
 ## Several campaigns
 

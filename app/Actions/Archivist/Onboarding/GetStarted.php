@@ -27,13 +27,14 @@ final readonly class GetStarted extends ApiAction
 
     private const SKILL_DIR = 'plugin/skills/archivist-get-started';
 
-    /** Reference files appended to the playbook, in the order SKILL.md introduces them. */
-    private const REFERENCE_FILES = ['source-intake.md', 'paths.md', 'showcase.md', 'links.md'];
+    /** Reference sections a caller can request one at a time with `playbook_reference`. */
+    public const REFERENCE_SECTIONS = ['source-intake', 'paths', 'showcase', 'links'];
 
     public static function rules(): array
     {
         return [
             'include_playbook' => ['nullable', 'boolean'],
+            'playbook_reference' => ['nullable', 'string', 'in:source-intake,paths,showcase,links'],
         ];
     }
 
@@ -47,18 +48,25 @@ final readonly class GetStarted extends ApiAction
         $validated = Validator::make($params, self::rules())->safe();
         $me = $this->request($validated)->fluent()->all();
 
-        return $this->build($me, $validated->boolean('include_playbook', true));
+        $reference = $validated->string('playbook_reference')->toString();
+        $playbook = match (true) {
+            $reference !== '' => self::reference($reference),
+            $validated->boolean('include_playbook', true) => self::playbook(),
+            default => null,
+        };
+
+        return $this->build($me, $playbook);
     }
 
     protected function map(array $data): GetStartedData
     {
-        return $this->build($data, true);
+        return $this->build($data, self::playbook());
     }
 
     /**
      * @param  array<string, mixed>  $data  GET /v1/users/me
      */
-    private function build(array $data, bool $includePlaybook): GetStartedData
+    private function build(array $data, ?string $playbook): GetStartedData
     {
         $campaigns = $this->campaigns();
         $manageable = array_values(array_filter(
@@ -117,13 +125,11 @@ final readonly class GetStarted extends ApiAction
                 'role' => $campaign['viewer_role'] ?? null,
             ], array_slice($campaigns, 0, 20)),
             'is_new_user' => isset($data['new_user']) ? (bool) $data['new_user'] : null,
-            'subscription_tier' => is_string($data['subscription_tier'] ?? null) ? $data['subscription_tier'] : null,
-            'subscription_status' => is_string($data['subscription_status'] ?? null) ? $data['subscription_status'] : null,
             'sessions_remaining' => $sessionsRemaining,
             'can_write' => $canWrite,
             'can_create_session' => $canCreate,
             'can_create_session_reason' => $reason,
-            'playbook' => $includePlaybook ? self::playbook() : null,
+            'playbook' => $playbook,
         ]);
     }
 
@@ -208,11 +214,11 @@ final readonly class GetStarted extends ApiAction
         $access = is_array($me['access'] ?? null) ? $me['access'] : [];
         $accessLevel = $access['level'] ?? null;
         if ($accessLevel === 'read_only') {
-            return [false, 'The subscription is inactive, so new sessions are paused. Save notes as a journal and point the user to plans.'];
+            return [false, 'New sessions are paused because the account\'s subscription is not active. Their material can still be saved as a journal entry or compendium records.'];
         }
 
         if ($sessionsRemaining !== null && $sessionsRemaining < 1) {
-            return [false, 'No sessions remain in this billing period. Save notes as a journal and point the user to plans.'];
+            return [false, 'No sessions are left in the current billing period. Their material can still be saved as a journal entry or compendium records.'];
         }
 
         return [true, null];
@@ -235,29 +241,30 @@ final readonly class GetStarted extends ApiAction
     }
 
     /**
-     * SKILL.md (without frontmatter) followed by its reference files, so the whole playbook
-     * travels in one tool result.
+     * The main onboarding playbook: SKILL.md without its frontmatter. Reference sections are
+     * left out to keep the result small; a caller fetches one with `playbook_reference`.
      */
     public static function playbook(): ?string
     {
-        $dir = base_path(self::SKILL_DIR);
-        $skill = @file_get_contents("{$dir}/SKILL.md");
+        $skill = @file_get_contents(base_path(self::SKILL_DIR).'/SKILL.md');
         if (! is_string($skill)) {
             return null;
         }
 
-        $parts = [
-            '<!-- The reference files mentioned below are included after the main playbook. -->',
-            trim((string) preg_replace('/\A---\R.*?\R---\R/s', '', $skill)),
-        ];
+        $body = trim((string) preg_replace('/\A---\R.*?\R---\R/s', '', $skill));
 
-        foreach (self::REFERENCE_FILES as $file) {
-            $content = @file_get_contents("{$dir}/references/{$file}");
-            if (is_string($content)) {
-                $parts[] = "---\n\n<!-- references/{$file} -->\n\n".trim($content);
-            }
+        return '<!-- Reference sections (references/*.md) are available from get-started-tool with '
+            .'playbook_reference: '.implode(', ', self::REFERENCE_SECTIONS).'. -->'."\n\n".$body;
+    }
+
+    public static function reference(string $section): ?string
+    {
+        if (! in_array($section, self::REFERENCE_SECTIONS, true)) {
+            return null;
         }
 
-        return Str::of(implode("\n\n", $parts))->trim()->toString();
+        $content = @file_get_contents(base_path(self::SKILL_DIR)."/references/{$section}.md");
+
+        return is_string($content) ? Str::of($content)->trim()->toString() : null;
     }
 }
