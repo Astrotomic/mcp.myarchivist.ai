@@ -29,7 +29,7 @@ Never send a long transcript as `format: transcript` after shortening it. A trim
 The goal is a recap of the session as it was played. It is not a summary of the summary.
 
 1. **Read all of it first.** If the host cut off the attachment, or you can't see the whole document, say so. Don't condense what you couldn't read. Ask them to paste the rest in parts, or upload the file in the app.
-2. **Split by session.** If the text covers more than one game night, ask which one to turn into a session (usually the most recent or the first). Each session is its own preview, its own yes and its own session from the allowance. The rest can go into a private journal entry if they want.
+2. **Split by session.** If the text covers more than one game night, ask which one to turn into a session (usually the most recent or the first). The answer selects a source. Preview that night alone and wait for a later reply approving the save. Each session uses one from the allowance. The rest can go into a private journal entry after a separate preview and approval.
 3. **Keep, in order of play:**
    - Where the party was and why, at the start
    - Every named character, creature, place, faction and item, spelled exactly as in the source
@@ -54,7 +54,7 @@ Audio can't go through chat. These hosts can't turn a session recording into a t
   - as a private journal entry (GM notes, prep)
   - for compendium records (NPCs, places) if it describes them
 - If they'd rather not upload the audio, make the session from the document alone, using the rules above.
-- If they really want both, say plainly that it will be two separate sessions using two from their allowance, and get a yes.
+- If they say “do both,” explain that two sessions use two from their allowance and check that there is room for both. Preview which session they'll upload in the app and which you'd create from notes. Ask for a separate yes to that plan before calling any write tool. If only one session is available, ask them to choose which source to use.
 
 ## By source
 
@@ -66,7 +66,7 @@ Audio can't go through chat. These hosts can't turn a session recording into a t
   - "Who did they meet or fight? Any names?"
   - "What was the big moment or decision?"
   - "Where did you stop, and what's hanging for next time?"
-- Still too short after that: offer a private journal entry instead, and save it only after a new yes (SKILL.md Step 4). Never pad with invented detail to reach the minimum.
+- Still too short after that: offer a private journal entry. “That's all I remember” ends intake. Show the journal preview and get an explicit yes to that save before calling the journal tool (SKILL.md Step 3). Never pad with invented detail or submit a session to test the limit.
 
 **A long document (campaign notes, a GM's prep-and-play log)**
 - Ask whether it covers one session or several, then follow **How to condense faithfully** above if it's over budget.
