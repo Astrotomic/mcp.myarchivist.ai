@@ -21,7 +21,9 @@ use Laravel\Mcp\Server\Tools\Annotations\IsReadOnly;
     'archivist-get-started skill). '.
     'include_setup_guide: false omits the guide (for clients that already have the skill). guide_section '.
     'returns one reference section '.
-    '(source-intake, paths, showcase or links) instead.'
+    '(source-intake, paths, showcase or links) instead. Connector-only clients need the setup guide, which is '.
+    'included by default. can_create_session reports eligibility. Each save still needs a preview followed by '.
+    'a separate explicit user reply approving that save.'
 )]
 #[IsReadOnly(true)]
 #[IsDestructive(false)]

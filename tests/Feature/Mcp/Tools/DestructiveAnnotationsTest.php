@@ -49,7 +49,13 @@ final class DestructiveAnnotationsTest extends FeatureTestCase
         $this->assertTrue($getStarted['annotations']['readOnlyHint']);
         $this->assertFalse($getStarted['annotations']['destructiveHint']);
         $this->assertFalse($getStarted['annotations']['openWorldHint']);
-        $this->assertSame('Create session from notes', $tools->get('create-session-from-notes-tool')['title']);
-        $this->assertFalse($tools->get('create-session-from-notes-tool')['annotations']['openWorldHint']);
+        $createSession = $tools->get('create-session-from-notes-tool');
+        $this->assertSame('Create session from notes', $createSession['title']);
+        $this->assertFalse($createSession['annotations']['openWorldHint']);
+
+        // Connector-only hosts can discover the consent requirement even if they omit the setup guide.
+        $this->assertStringContainsString('separate explicit user reply approving that save', $getStarted['description']);
+        $this->assertStringContainsString('explicit user reply approving that exact save', $createSession['description']);
+        $this->assertStringContainsString('host tool approval do not replace that reply', $createSession['description']);
     }
 }
