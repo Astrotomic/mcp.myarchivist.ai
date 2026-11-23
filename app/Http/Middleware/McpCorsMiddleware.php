@@ -17,7 +17,7 @@ class McpCorsMiddleware
             'Access-Control-Allow-Origin' => '*',
             'Access-Control-Allow-Methods' => 'GET, POST, DELETE, OPTIONS',
             'Access-Control-Allow-Headers' => 'Content-Type, Authorization, X-API-Key, Accept, MCP-Protocol-Version, Mcp-Session-Id',
-            'Access-Control-Expose-Headers' => 'Mcp-Session-Id',
+            'Access-Control-Expose-Headers' => 'Mcp-Session-Id, WWW-Authenticate',
             'Access-Control-Max-Age' => '86400',
         ];
     }

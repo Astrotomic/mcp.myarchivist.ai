@@ -2,6 +2,7 @@
 
 namespace App\Http\Middleware;
 
+use App\Mcp\OAuthChallenge;
 use Closure;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
@@ -31,17 +32,12 @@ class ArchivistPassthroughMiddleware
             'id' => $request->json('id'),
             'error' => [
                 'code' => -32001,
-                'message' => 'Unauthorized',
+                'message' => OAuthChallenge::CONNECT_MESSAGE,
+                'data' => ['connect_url' => OAuthChallenge::CONNECT_URL],
             ],
         ], Response::HTTP_UNAUTHORIZED)->withHeaders([
-            'WWW-Authenticate' => $this->wwwAuthenticateHeader(),
+            'WWW-Authenticate' => OAuthChallenge::header(),
+            'Cache-Control' => 'no-store',
         ]);
-    }
-
-    private function wwwAuthenticateHeader(): string
-    {
-        $resourceMetadata = route('mcp.oauth.protected-resource.nested', ['path' => 'mcp']);
-
-        return sprintf('Bearer realm="mcp", resource_metadata="%s"', $resourceMetadata);
     }
 }

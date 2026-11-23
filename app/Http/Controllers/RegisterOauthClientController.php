@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Mcp\OAuthChallenge;
+use Illuminate\Http\Client\ConnectionException;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\URL;
@@ -36,10 +38,20 @@ class RegisterOauthClientController
             $payload = is_array($decoded) ? $decoded : [];
         }
 
-        $upstream = Http::acceptJson()
-            ->asJson()
-            ->timeout(15)
-            ->post(URL::toApp('/api/oauth/register'), $payload);
+        try {
+            $upstream = Http::acceptJson()
+                ->asJson()
+                ->connectTimeout(3)
+                ->timeout(10)
+                ->post(URL::toApp('/api/oauth/register'), $payload);
+        } catch (ConnectionException $exception) {
+            report($exception);
+
+            return response()->json([
+                'error' => 'temporarily_unavailable',
+                'error_description' => 'Archivist AI could not complete client registration. Try connecting again. Setup: '.OAuthChallenge::CONNECT_URL,
+            ], Response::HTTP_SERVICE_UNAVAILABLE, self::CORS_HEADERS);
+        }
 
         $body = $upstream->json();
         if (! is_array($body)) {
