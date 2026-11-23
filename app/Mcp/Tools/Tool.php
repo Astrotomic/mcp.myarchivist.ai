@@ -7,6 +7,7 @@ use App\Actions\Archivist\WriteApiAction;
 use App\Collections\ArchivistDtoCollection;
 use App\Data\ArchivistDto;
 use App\Exceptions\ArchivistApiException;
+use App\Mcp\OAuthChallenge;
 use App\Services\AuthContext;
 use Illuminate\Contracts\JsonSchema\JsonSchema;
 use Illuminate\Http\Client\ConnectionException;
@@ -24,10 +25,24 @@ use ReflectionClass;
 use ReflectionException;
 use ReflectionMethod;
 use ReflectionNamedType;
+use Symfony\Component\HttpFoundation\Response as HttpResponse;
 
 abstract class Tool extends BaseTool
 {
     abstract protected function action(): ApiAction;
+
+    public function toArray(): array
+    {
+        if (request()->routeIs('mcp', 'well-known.mcp.server-card')) {
+            $scopes = $this->action() instanceof WriteApiAction
+                ? ['agent_read', 'agent_write']
+                : ['agent_read'];
+
+            $this->setMeta('securitySchemes', [['type' => 'oauth2', 'scopes' => $scopes]]);
+        }
+
+        return parent::toArray();
+    }
 
     /**
      * Hide write tools from `tools/list` (and reject `tools/call`) when the
@@ -53,6 +68,13 @@ abstract class Tool extends BaseTool
         try {
             $response = $this->action()->execute($request->all());
         } catch (ArchivistApiException $e) {
+            if ($e->status === HttpResponse::HTTP_UNAUTHORIZED
+                && filled(request()->bearerToken())
+                && blank(request()->header('x-api-key'))) {
+                return Response::make(Response::error(OAuthChallenge::RECONNECT_MESSAGE))
+                    ->withMeta('mcp/www_authenticate', [OAuthChallenge::header(invalidToken: true)]);
+            }
+
             return Response::error($e->getMessage());
         } catch (ValidationException $e) {
             return Response::error(json_encode($e->errors(), JSON_THROW_ON_ERROR));

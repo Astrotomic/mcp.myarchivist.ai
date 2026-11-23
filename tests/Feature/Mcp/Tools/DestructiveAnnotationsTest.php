@@ -42,6 +42,8 @@ final class DestructiveAnnotationsTest extends FeatureTestCase
         }
 
         $this->assertTrue($tools->get('patch-session-tool')['annotations']['openWorldHint'] ?? false);
+        $this->assertSame([['type' => 'oauth2', 'scopes' => ['agent_read']]], $tools->get('list-campaigns-tool')['_meta']['securitySchemes']);
+        $this->assertSame([['type' => 'oauth2', 'scopes' => ['agent_read', 'agent_write']]], $tools->get('patch-session-tool')['_meta']['securitySchemes']);
 
         // Both hosts require explicit hints; onboarding tools also carry a human-readable title.
         $getStarted = $tools->get('get-started-tool');

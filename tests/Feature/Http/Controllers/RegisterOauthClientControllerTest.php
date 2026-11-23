@@ -70,4 +70,19 @@ class RegisterOauthClientControllerTest extends FeatureTestCase
             ->assertCreated()
             ->assertJsonPath('client_id', 'dcr_alias123');
     }
+
+    #[Test]
+    public function an_unreachable_authorization_server_returns_an_actionable_oauth_error(): void
+    {
+        Http::fake(['https://app.myarchivist.ai/api/oauth/register' => Http::failedConnection()]);
+
+        $this->postJson('/oauth/register', [
+            'client_name' => 'MCP client',
+            'redirect_uris' => ['https://example.com/oauth/callback'],
+        ])
+            ->assertServiceUnavailable()
+            ->assertHeader('Access-Control-Allow-Origin', '*')
+            ->assertJsonPath('error', 'temporarily_unavailable')
+            ->assertJsonPath('error_description', 'Archivist AI could not complete client registration. Try connecting again. Setup: https://www.myarchivist.ai/mcp');
+    }
 }
